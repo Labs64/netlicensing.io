@@ -1,0 +1,57 @@
+# Site settings
+title: "Labs64 NetLicensing"
+email: info@netlicensing.io
+description: "Labs64 NetLicensing is a first-class solution in the Licensing as a Service (LaaS) sector."
+keywords: netlicensing,floating licensing model,license management,license manager,license server,licensing as a service,licensing model,security license,site license,software activation,software license,software license control,software license management,software license types,software licenses,software licensing,software licensing models,software licensing service,subscription licensing model
+copyright: Labs64 GmbH
+
+url: "http://io.labs64.com/netlicensing.io"
+# the subpath of your site, e.g. /blog/
+baseurl: ""
+
+# SEO
+google_author:             "https://www.google.com/+Labs64"
+google_site_verification:  ""
+bing_webmastertools_id:    ""
+google_analytics_tracking_id: UA-32654174-2
+
+
+# Build settings
+markdown: kramdown
+highlight: pygments
+permalink: pretty
+
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  profile: false
+  ignore:
+    envs: []
+
+# Exclude these files from your production _site
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+
+defaults:
+  -
+    scope:
+      path: "" 				# an empty string here means all files in the project
+      type: "pages"
+    values:
+      show_meta: true 	# Show metadata beneath all pages
+      # sidebar:    		# Possible values › left, right › by default there will be no sidebar
+      comments: false
+      author: "Labs64"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      show_meta: true   # Show metadata beneath all posts
+      # sidebar:        # Possible values › left, right › by default there will be no sidebar
+      comments: false
+      author: "Labs64"

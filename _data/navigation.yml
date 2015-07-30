@@ -1,0 +1,26 @@
+- title: Features
+  url: "/features/"
+  side: left
+
+- title: Getting Started
+  url: "/getting-started/"
+  side: left
+
+- title: For Integrators
+  url: "/documentation/"
+  side: left
+  dropdown:
+  - title: Documentation
+    url: "/documentation/"
+  - title: "Changelog"
+    url: "/changelog/"
+  - title: "Roadmap"
+    url: "/roadmap/"
+
+- title: "Log in"
+  url: "https://netlicensing.labs64.com/app/v2/"
+  side: right
+
+- title: "Create account"
+  url: "https://netlicensing.labs64.com/app/v2/content/register.xhtml"
+  side: right

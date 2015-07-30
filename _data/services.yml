@@ -1,0 +1,21 @@
+- menu_name: "Services"
+
+- name: "Contact"
+  url: "/contact/"
+  class: "services-contact"
+  title: "Contact"
+
+- name: "RSS"
+  url: "/feed.xml"
+  class: "rss-link"
+  title: "Subscribe to RSS"
+
+- name: "Sitemap"
+  url: "/sitemap.xml"
+  class: "sitemap-link"
+  title: "Sitemap for Google Webmastertools"
+
+- name: "Imprint"
+  url: "http://www.labs64.com/imprint/"
+  class: "imprint-link"
+  title: "Labs64 Imprint"
