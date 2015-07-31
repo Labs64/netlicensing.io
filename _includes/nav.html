@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand NL_logo" href="{{ site.url }}">
-                <img src="{{ "{{ site.url }}/img/NL_logo.png " | prepend: site.baseurl }}" />
+                <img src="{{ "/img/NL_logo.png " | prepend: site.baseurl | prepend: site.url }}" />
                 <span>{{ site.title }}</span>
             </a>
         </div>
@@ -18,7 +18,7 @@
             <ul class="nav navbar-nav navbar-right NL_main_menu">
                 {% for page in site.data.navigation %}
                 {% if page.title %}
-                <li><a class="page-link" href="{{ site.url }}{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                <li><a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
