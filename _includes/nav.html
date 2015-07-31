@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand NL_logo" href="{{ site.url }}">
-                <img src="{{ "/img/NL_logo.png " | prepend: site.baseurl | prepend: site.url }}" />
+                <img src="{{ "/img/NL_logo.png" | prepend: site.baseurl | prepend: site.url }}" />
                 <span>{{ site.title }}</span>
             </a>
         </div>
@@ -17,9 +17,14 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right NL_main_menu">
                 {% for page in site.data.navigation %}
-                {% if page.title %}
-                <li><a class="page-link {{ page.class }}" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a></li>
-                {% endif %}
+                    {% if page.title %}
+                        {% if page.url contains 'http' %}
+                            {% assign link = page.url %}
+                        {% else %}
+                            {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
+                        {% endif %}
+                        <li><a class="page-link {{ page.class }}" href="{{ link }}">{{ page.title }}</a></li>
+                    {% endif %}
                 {% endfor %}
             </ul>
         </div>
