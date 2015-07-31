@@ -1,12 +1,15 @@
 <footer class="row NL_footer">
     <p class="col-md-5 col-md-offset-1">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
-
     <div class="col-md-5 NL_social">
-        <a data-toggle="tooltip" data-placement="top" title="RSS" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}"><i class="fa fa-rss"></i></a></a>
         {% for media in site.data.socialmedia %}
-        {% if media.url %}
-        <a data-toggle="tooltip" data-placement="top" title="{{ media.title }}" target="_blank" href="{{ media.url }}"><i class="fa {{ media.class }}"></i></a>
-        {% endif %}
+            {% if media.url %}
+                {% if media.url contains 'http' %}
+                    {% assign link = media.url %}
+                {% else %}
+                    {% assign link = media.url | prepend: site.baseurl | prepend: site.url %}
+                {% endif %}
+                <a data-toggle="tooltip" data-placement="top" title="{{ media.title }}" target="_blank" href="{{ link }}"><i class="fa {{ media.class }}"></i></a>
+            {% endif %}
         {% endfor %}
         </p>
     </div>

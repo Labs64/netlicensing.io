@@ -1,3 +1,6 @@
+- title: RSS
+  url: /feed.xml
+  class: fa-rss
 - title: Google Plus
   url: https://www.google.com/+Labs64
   class: fa-google-plus
