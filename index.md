@@ -5,13 +5,13 @@ permalink: /
 ---
 
 <div class="row NL_banner">
-    <div class="col-md-8 NL_about">
+    <div class="col-md-8 col-md-offset-2 NL_about">
         <h1>Move your licensing to the Cloud</h1>
         <p>Labs64 NetLicensing is a first-class solution in the Licensing as a Service (LaaS) sector.
             Based on open standards, it provides a cost effective, integrated and scalable platform for software vendors
             and developers who want to concentrate on their product’s core functionality instead of spending resources
             on developing an own license management software.</p>
-        <button type="submit" class="btn">Live demo</button>
+        <button type="submit" class="btn NL_banner_btn">Live demo</button>
     </div>
 </div>
 
@@ -47,8 +47,13 @@ permalink: /
                 <h3>Integrate fast</h3>
 
                 <p>NetLicensing makes setup and integration fast, safe and very simple. So you can get up and running in
-                    a few hours.
-                    NetLicensing, Labs64</p>
+                    a few hours.</p>
+                <div class="col-md-8 col-md-offset-4 NL_dialog">
+                    <div class="col-md-3"><img class="NL_dialog_img" src="{{ "/img/NL_logo.png " | prepend: site.baseurl | prepend: site.url }}" /></div>
+                    <div class="col-md-9">As easy as one, two, three!<br/>
+                        <span class="NL_link">NetLicensing, Labs64 </span></div>
+                </div>
+                
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
                 <img src="img/nl3.jpg" alt="img01">

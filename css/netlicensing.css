@@ -1,51 +1,10 @@
 /*----------   NL Styles -----------*/
-.NL_navbar {
-	background-color: #FFFFFF;
-	opacity: 0.95;
-}
-
-.NL_logo img {
-	float: left;
-	height: 35px;
-	padding-right: 10px;
-	margin-top: -8px;
-}
-
-.NL_logo span {
-	float: right;
-	color: #853E29;
-	font-size: 16px;
-	letter-spacing: 1px;
-}
-
-.NL_main_menu li a {
-	color: #222 !important;
-}
-
-.NL_main_menu li a:hover,
-.NL_main_menu li a:active {
-	color: #853E29 !important;
-	background-color: #fbe4c8 !important;
-}
-
-.NL_banner {
-	height: 400px;
-	background: url(../img/NL_banner.png) 80% 80%;
-}
-
-.NL_about {
-	margin-top: 100px;
-	margin-left: 30px;
-	margin-right: 30px;
-}
-
-.NL_footer {
-	background-color: #E14817;
-	height: 40px;
+body {
+    background-color: #FFFFFF;
 }
 
 p {
-	font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 a {
@@ -53,6 +12,165 @@ a {
 
 a:active, a:hover {
   outline: 0;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.btn {
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.tooltip-inner {
+    opacity: 1;
+    color: #444;
+    background-color: #fddcb5;
+    border-color: #fddcb5; 
+}
+.tooltip.bottom .tooltip-arrow,
+.tooltip.top .tooltip-arrow  {
+    border-bottom-color: #fddcb5; 
+    border-top-color: #fddcb5; 
+}
+
+.NL_page {
+    padding: 0px;
+}
+
+.NL_navbar {
+	background-color: #FFFFFF;
+	opacity: 0.95;
+}
+
+.NL_logo img {
+	float: left;
+	height: 29px;
+	padding-right: 10px;
+	margin-top: -5px;
+}
+
+.NL_logo span {
+	float: right;
+	color: #853E29;
+	font-size: 14px;
+    font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.NL_main_menu li a {
+	color: #222 !important;
+    font-size: 14px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.NL_main_menu li a:hover,
+.NL_main_menu li a:active {
+	color: #853E29 !important;
+	background-color: #fff8ef !important;
+}
+
+.NL_login {
+    background-color: #fbe4c8;
+}
+
+.NL_main_menu li a.NL_login:hover {
+    background-color: #fddcb5 !important;
+}
+
+.NL_mobile_menu {
+    border: none;
+}
+
+.NL_mobile_menu:hover,
+.NL_mobile_menu:visited,
+.NL_mobile_menu:focus {
+    background-color: #fff8ef !important; 
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #853E29;
+}
+
+.NL_banner {
+	height: 440px;
+	background: url(../img/NL_banner.png) 80% 80%;
+}
+
+.NL_about {
+	margin-top: 145px;
+    text-align: center;
+    color: #f9e1c4;
+}
+
+.NL_about h1{
+    color: #FFF;
+}
+
+.NL_banner_btn {
+    background: none;
+    border-radius: 0px;
+    border: 3px solid #853E29;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #853E29;
+    padding: 5px 40px 5px 40px;
+}
+
+.NL_banner_btn:hover {
+    background-color: #FFF;
+    opacity: 0.6;
+}
+
+.NL_dialog {
+    padding: 30px 30px 30px 10px;
+    font-size: 14px;
+    background-color: #fafafa;
+}
+
+.NL_dialog_img {
+    display: block;
+    float: left !important;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.NL_footer p{
+    margin-bottom: 0px;
+	background-color: #E14817;
+	height: 40px;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 3.5;
+}
+
+.NL_footer{
+    background-color: #E14817;
+ } 
+
+.NL_social p{
+    float: right;
+}  
+
+.NL_social a i {
+    color: #fff8ef;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.NL_social a i:hover {
+    color: #FFF;
+}
+
+.NL_link {
+    color:#853E29;
 }
 
 /*-------------- Scroller -----------*/
@@ -150,6 +268,15 @@ a:active, a:hover {
     -moz-transform: translateX(0px);
     transform: translateX(0px);
     opacity: 1;
+}
+
+@media screen and (max-width: 560px) {
+    .NL_about {
+        margin-top: 65px;
+        text-align: center;
+        color: #f9e1c4;
+    }
+
 }
 
 @media screen and (max-width: 73.5em) {

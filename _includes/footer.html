@@ -1,5 +1,15 @@
 <footer class="row NL_footer">
-    <p class="col-md-8">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
+    <p class="col-md-5 col-md-offset-1">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">via RSS</a></p>
+    <div class="col-md-5 NL_social">
+    	<p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    	<a data-toggle="tooltip" data-placement="top" title="RSS" href="#"><i class="fa fa-rss"></i></a></a>
+    	<a data-toggle="tooltip" data-placement="top" title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+    	<a data-toggle="tooltip" data-placement="top" title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+    	<a data-toggle="tooltip" data-placement="top" title="Flickr" href="#"><i class="fa fa-flickr"></i></a>
+    	<a data-toggle="tooltip" data-placement="top" title="GitHub" href="#"><i class="fa fa-github"></i></a>
+    	<a data-toggle="tooltip" data-placement="top" title="LinkedIn" href="#"><i class="fa fa-linkedin"></i></a>
+    	<a data-toggle="tooltip" data-placement="top" title="Xing" href="#"><i class="fa fa-xing"></i></a>
+    </p>
+	</div>
 </footer>
