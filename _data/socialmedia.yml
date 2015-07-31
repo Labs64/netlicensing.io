@@ -1,24 +1,31 @@
 - title: RSS
   url: /feed.xml
   class: fa-rss
+
 - title: Google Plus
   url: https://www.google.com/+Labs64
   class: fa-google-plus
+
 - title: Facebook
   url: https://www.facebook.com/Labs64
   class: fa-facebook
+
 - title: Twitter
   url: https://twitter.com/labs_sixty_four
   class: fa-twitter
+
 - title: Flickr
   url: http://www.flickr.com/photos/120115214@N05/
   class: fa-cloud
+
 - title: GitHub
   url: https://github.com/Labs64/
   class: fa-github
+
 - title: LinkedIn
   url: http://www.linkedin.com/company/1422539
   class: fa-linkedin
+
 - title: Xing
   url: https://www.xing.com/companies/labs64gmbh
   class: fa-xing
