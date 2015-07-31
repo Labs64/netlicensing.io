@@ -18,7 +18,7 @@
             <ul class="nav navbar-nav navbar-right NL_main_menu">
                 {% for page in site.data.navigation %}
                 {% if page.title %}
-                <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                <li><a class="page-link" href="{{ site.url }}{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
