@@ -1,28 +1,21 @@
-- name: google-plus
+- title: Google Plus
   url: https://www.google.com/+Labs64
-  class: icon-cloud
-  title: "..."
-- name: facebook
+  class: fa-google-plus
+- title: Facebook
   url: https://www.facebook.com/Labs64
-  class: icon-facebook
-  title: "..."
-- name: twitter
+  class: fa-facebook
+- title: Twitter
   url: https://twitter.com/labs_sixty_four
-  class: icon-twitter
-  title: "..."
-- name: flickr
+  class: fa-twitter
+- title: Flickr
   url: http://www.flickr.com/photos/120115214@N05/
-  class: icon-cloud
-  title: "..."
-- name: github
+  class: fa-cloud
+- title: GitHub
   url: https://github.com/Labs64/
-  class: icon-github
-  title: "..."
-- name: linkedin
+  class: fa-github
+- title: LinkedIn
   url: http://www.linkedin.com/company/1422539
-  class: icon-linkedin
-  title: "..."
-- name: xing
+  class: fa-linkedin
+- title: Xing
   url: https://www.xing.com/companies/labs64gmbh
-  class: icon-cloud
-  title: "..."
+  class: fa-xing
