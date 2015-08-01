@@ -16,8 +16,7 @@ before_script:
 
 script:
   - bundle exec jekyll build --drafts
-  - bundle exec rake test
   - bundle exec htmlproof ./_site
 
 notifications:
-  email: false
+  email: true
