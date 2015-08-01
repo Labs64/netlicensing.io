@@ -3,7 +3,8 @@ layout: page
 title: "For Integrators"
 description: "NetLicensing Wiki"
 permalink: "/documentation/"
-show_meta: true
+tags:
+- documentation
 ---
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
@@ -12,3 +13,6 @@ show_meta: true
         <button type="submit" class="btn NL_banner_btn">Live demo</button>
     </div>
 </div>
+
+
+{% gist r-brown/143255d47c3549bd62d3 %}

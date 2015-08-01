@@ -3,9 +3,7 @@ layout: page
 title: Home
 description: "Application Licensing for professionals"
 permalink: /
-show_meta: true
 ---
-
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
         <h1>Move your licensing to the Cloud</h1>

@@ -3,7 +3,8 @@ layout: page
 title: "Features"
 description: "All the features you need to effectively manage your product licenses"
 permalink: "/features/"
-show_meta: true
+tags:
+- features
 ---
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">

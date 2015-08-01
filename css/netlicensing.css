@@ -8,10 +8,11 @@ p {
 }
 
 a {
-  background-color: transparent; }
+    background-color: transparent;
+}
 
 a:active, a:hover {
-  outline: 0;
+    outline: 0;
 }
 
 .row {
@@ -30,12 +31,13 @@ a:active, a:hover {
     opacity: 1;
     color: #444;
     background-color: #fddcb5;
-    border-color: #fddcb5; 
+    border-color: #fddcb5;
 }
+
 .tooltip.bottom .tooltip-arrow,
-.tooltip.top .tooltip-arrow  {
-    border-bottom-color: #fddcb5; 
-    border-top-color: #fddcb5; 
+.tooltip.top .tooltip-arrow {
+    border-bottom-color: #fddcb5;
+    border-top-color: #fddcb5;
 }
 
 .NL_page {
@@ -43,27 +45,27 @@ a:active, a:hover {
 }
 
 .NL_navbar {
-	background-color: #FFFFFF;
-	opacity: 0.95;
+    background-color: #FFFFFF;
+    opacity: 0.95;
 }
 
 .NL_logo img {
-	float: left;
-	height: 29px;
-	padding-right: 10px;
-	margin-top: -5px;
+    float: left;
+    height: 29px;
+    padding-right: 10px;
+    margin-top: -5px;
 }
 
 .NL_logo span {
-	float: right;
-	color: #853E29;
-	font-size: 14px;
+    float: right;
+    color: #853E29;
+    font-size: 26px;
     font-weight: 400;
-	letter-spacing: 1px;
+    letter-spacing: 1px;
 }
 
 .NL_main_menu li a {
-	color: #222 !important;
+    color: #222 !important;
     font-size: 14px;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -73,8 +75,8 @@ a:active, a:hover {
 
 .NL_main_menu li a:hover,
 .NL_main_menu li a:active {
-	color: #853E29 !important;
-	background-color: #fff8ef !important;
+    color: #853E29 !important;
+    background-color: #fff8ef !important;
 }
 
 .NL_login {
@@ -92,7 +94,7 @@ a:active, a:hover {
 .NL_mobile_menu:hover,
 .NL_mobile_menu:visited,
 .NL_mobile_menu:focus {
-    background-color: #fff8ef !important; 
+    background-color: #fff8ef !important;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -100,17 +102,17 @@ a:active, a:hover {
 }
 
 .NL_banner {
-	height: 440px;
-	background: url(../img/NL_banner.png) 80% 80%;
+    height: 440px;
+    background: url(../img/NL_banner.png) 80% 80%;
 }
 
 .NL_about {
-	margin-top: 145px;
+    margin-top: 145px;
     text-align: center;
     color: #f9e1c4;
 }
 
-.NL_about h1{
+.NL_about h1 {
     color: #FFF;
 }
 
@@ -142,22 +144,22 @@ a:active, a:hover {
     border-radius: 50%;
 }
 
-.NL_footer p{
+.NL_footer p {
     margin-bottom: 0px;
-	background-color: #E14817;
-	height: 40px;
+    background-color: #E14817;
+    height: 40px;
     color: #FFF;
     font-size: 12px;
     line-height: 3.5;
 }
 
-.NL_footer{
+.NL_footer {
     background-color: #E14817;
- } 
+}
 
-.NL_social p{
+.NL_social p {
     float: right;
-}  
+}
 
 .NL_social a i {
     color: #fff8ef;
@@ -170,7 +172,7 @@ a:active, a:hover {
 }
 
 .NL_link {
-    color:#853E29;
+    color: #853E29;
 }
 
 /*-------------- Scroller -----------*/

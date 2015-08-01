@@ -3,7 +3,8 @@ layout: page
 title: "Getting Started"
 description: "This step-by-step guide helps you to customize NetLicensing to your needs."
 permalink: "/getting-started/"
-show_meta: true
+tags:
+- getting started
 ---
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
