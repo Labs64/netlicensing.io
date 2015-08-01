@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Home
+description: "Application Licensing for professionals"
 permalink: /
+show_meta: true
 ---
 
 <div class="row NL_banner">
@@ -49,7 +51,7 @@ permalink: /
                 <p>NetLicensing makes setup and integration fast, safe and very simple. So you can get up and running in
                     a few hours.</p>
                 <div class="col-md-8 col-md-offset-4 NL_dialog">
-                    <div class="col-md-3"><img class="NL_dialog_img" src="{{ "/img/NL_logo.png " | prepend: site.baseurl | prepend: site.url }}" /></div>
+                    <div class="col-md-3"><img class="NL_dialog_img" src="{{ "/img/NL_logo.png" | prepend: site.baseurl | prepend: site.url }}" /></div>
                     <div class="col-md-9">As easy as one, two, three!<br/>
                         <span class="NL_link">NetLicensing, Labs64 </span></div>
                 </div>
