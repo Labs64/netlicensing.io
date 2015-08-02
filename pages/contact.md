@@ -1,11 +1,10 @@
 ---
 layout: page
-title: "Getting Started"
-description: "This step-by-step guide helps you to customize NetLicensing to your needs."
-permalink: "/getting-started/"
+title: "Contact"
+description: "Looking for more information about Labs64 NetLicensing? You’ve come to the right place. We’d Love to Hear From You!"
+permalink: "/contact/"
 tags:
-- getting started
-- how-to
+- contact
 ---
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
@@ -14,3 +13,5 @@ tags:
         <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001" class="btn NL_banner_btn" role="button">Live Demo</a>
     </div>
 </div>
+
+{% include contact.html %}

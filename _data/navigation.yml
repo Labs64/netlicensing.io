@@ -14,9 +14,9 @@
   - title: "Roadmap"
     url: "/roadmap/"
 
-- title: "Log in"
+- title: "Log In"
   url: "https://netlicensing.labs64.com/app/v2/"
   class: NL_login
 
-- title: "Create account"
+- title: "Sign Up"
   url: "https://netlicensing.labs64.com/app/v2/content/register.xhtml"

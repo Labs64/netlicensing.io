@@ -11,7 +11,7 @@ permalink: /
             Based on open standards, it provides a cost effective, integrated and scalable platform for software vendors
             and developers who want to concentrate on their product’s core functionality instead of spending resources
             on developing an own license management software.</p>
-        <button type="submit" class="btn NL_banner_btn">Live demo</button>
+        <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001" class="btn NL_banner_btn" role="button">Live Demo</a>
     </div>
 </div>
 
