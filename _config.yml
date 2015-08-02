@@ -10,11 +10,8 @@ url: "http://netlicensing.io"
 baseurl: ""
 
 # SEO
-google_author:             "https://www.google.com/+Labs64"
-google_site_verification:  ""
-bing_webmastertools_id:    ""
-google_analytics_tracking_id: UA-32654174-2
-
+google_author: "https://www.google.com/+Labs64"
+google_analytics_tracking_id: "UA-32654174-2"
 
 # Build settings
 markdown: kramdown
@@ -29,12 +26,13 @@ compress_html:
   ignore:
     envs: []
 
-# Exclude these files from your production _site
+# Exclude these files from production _site
 exclude:
     - Gemfile
     - Gemfile.lock
     - LICENSE
     - README.md
+    - .gitignore
 
 defaults:
   -
