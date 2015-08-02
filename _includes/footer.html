@@ -1,6 +1,7 @@
 <footer class="row NL_footer">
     <p class="col-md-5 col-md-offset-1">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
     <div class="col-md-5 NL_social">
+        <p>
         {% for media in site.data.socialmedia %}
             {% if media.url %}
                 {% if media.url contains 'http' %}
