@@ -7,7 +7,15 @@
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ',' }},{{ site.keywords }}{% else %}{{ site.keywords }}{% endif %}">
     <meta name="author" content="{{ site.copyright }}">
+    <meta name="copyright" content="{{ site.copyright }}">
     <meta name="robots" content="INDEX, FOLLOW">
+    <!-- OpenGraph properties -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | {{ site.title }}"/>
+    <meta property="og:site_name" content="{{ site.title }}"/>
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+    <meta property="og:url" content="{{ site.url }}"/>
+    <meta property="og:image" content="{{ "/img/labs64-avatar-18x18.png" | prepend: site.baseurl | prepend: site.url }}"/>
 
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl | prepend: site.url }}">
     <link rel="stylesheet" href="{{ "/css/netlicensing.css" | prepend: site.baseurl | prepend: site.url }}">
