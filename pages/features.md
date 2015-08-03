@@ -8,71 +8,27 @@ tags:
 - FAQ
 ---
 <div class="row NL_banner">
-    <div class="col-md-8 col-md-offset-2 NL_about">
+    <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Features</h1>
         <p>Our enterprise services and support programs ensure your success at every step along the management of your product licensing.</p>
-        <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001" class="btn NL_banner_btn" role="button">Live Demo</a>
     </div>
 </div>
 
-#### LICENSING-AS-A-SERVICE
-Increase flexibility! NetLicensing is cloud-based, you can start using it by just <a href="https://netlicensing.labs64.com/app/v2/content/register.xhtml">creating a free account</a>. Start licensing your first product right away without installing any software!
+<div class="NL_block">
+{% for feature in site.data.features %}
+	{% if feature.name %}
+		<div class="col-md-3 NL_feature">
+			<h4>
+				<i class="fa {{ feature.class }} NL_icon"></i> 
+				{{ feature.name }}
+			</h4>
+			<p>{{ feature.discription }}</p>
+		</div>
+	{% endif %}
+{% endfor %}
+</div>
 
-#### FLEXIBLE LICENSING MODELS
-Accelerate your licensing! With NetLicensing, you can create licensing models that fit your business needs.
-
-#### ONLINE LICENSE ACQUISITION
-NetLicensing provides a seamless online purchase experience, aligned with deployed licensing models, resulting in higher conversion rates and customer retention.
-
-#### EASY SETUP
-NetLicensing makes setup and integration fast, safe and very simple.
-
-#### AVAILABILITY
-The cloud-based infrastructure of NetLicensing provides the highest availability across your entire license management process.
-
-#### CROSS-PLATFORM LICENSING
-Based on open standards, NetLicensing allows easy integration on the broadest range of platforms – mobile, embedded and on-premise.
-
-#### PRODUCT USAGE TRACKING AND ANALYSIS
-NetLicensing gives you insight into your licensees’ product usage.
-
-#### INTEGRATED PAYMENT SERVICES
-Our PayPal integration allows your global customers to pay in their preferred currency.
-
-#### FRESH AND FAIR PRICING APPROACH
-Our versatile billing system for the NetLicensing service allows you as a customer to choose your preferred payment option: usage based, fixed, or hybrid - a combination of both options.
-
-#### ONLINE MANAGEMENT PORTAL
-NetLicensing gives you one single management portal for managing all your products, modules and license templates.
-
-#### CONSULTING SERVICES
-You won't be left alone when it comes to licensing your product. We provide support and tutoring at all stages to simplify the product licensing process for you.
-
-#### SECURITY ENCRYPTION
-All data transfer handled by NetLicensing is highly encrypted to meet the best practice security standards.
-
-#### PREDEFINED CLIENT LIBRARIES
-NetLicensing client libraries and examples can be used as a foundation for integrating NetLicensing into your code.
-
-#### RESTFUL API AND INTEGRATION
-Integrate NetLicensing into your product or process! With the NetLicensing API, you can manage your licensing entities and easily integrate them into your business processes, ERP, CRM or Web shop.
-
-#### LICENSING ECOMMERCE PLATFORM
-NetLicensing Shop is an innovative eCommerce solution which provides your customers licenses acquisition possibility for every available licensing models.
-
-#### DIFFERENT HOSTING OPTIONS
-* <b>Cloud (SaaS)</b> - use NetLicensing from our servers, save on maintenance costs.
-* <b>On-Premise (Self-Hosted)</b> - get full control over NetLicensing installation within your company's infrastructure.
-
-#### ESCROW (Enterprise)
-On request, our source code can be deposited with a third party escrow agent to give you additional safety.
-
-#### SERVICE LEVEL AGREEMENT (Enterprise)
-Get extra guarantee with the Service Level Agreement (SLA): we take care your licensing is up and running >99% of the time.
-
-#### NETLICENSING ENTERPRISE (Enterprise)
-Our enterprise services and support programs ensure your success at every step along the management of your product licensing.
-
+<div class="row"></div>
 #### MISS A FEATURE?
 Do you have a question or suggestion? <a href="/contact/">Please contact us</a>
 

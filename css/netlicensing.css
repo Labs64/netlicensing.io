@@ -15,6 +15,10 @@ a:active, a:hover {
     outline: 0;
 }
 
+h4 {
+    font-weight: 400;
+}
+
 .row {
     margin-right: 0px;
     margin-left: 0px;
@@ -59,13 +63,13 @@ a:active, a:hover {
 .NL_logo span {
     float: right;
     color: #853E29;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 1px;
 }
 
 .NL_main_menu li a {
-    color: #222 !important;
+    color: #444 !important;
     font-size: 14px;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -77,14 +81,6 @@ a:active, a:hover {
 .NL_main_menu li a:active {
     color: #853E29 !important;
     background-color: #fff8ef !important;
-}
-
-.NL_login {
-    background-color: #fbe4c8;
-}
-
-.NL_main_menu li a.NL_login:hover {
-    background-color: #fddcb5 !important;
 }
 
 .NL_mobile_menu {
@@ -102,18 +98,26 @@ a:active, a:hover {
 }
 
 .NL_banner {
-    height: 440px;
-    background: url(../img/NL_banner.png) 80% 80%;
+    background: url(../img/NL_banner.png) 100% 100%;
+    background-position-y: center;
 }
 
 .NL_about {
-    margin-top: 145px;
+    height: 440px;
+    padding-top: 120px;
     text-align: center;
     color: #f9e1c4;
 }
 
-.NL_about h1 {
+.NL_about h1, .NL_about_page h1{
     color: #FFF;
+}
+
+.NL_about_page {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f9e1c4;
 }
 
 .NL_banner_btn {
@@ -163,7 +167,7 @@ a:active, a:hover {
 
 .NL_social a i {
     color: #fff8ef;
-    font-size: 14px;
+    font-size: 16px;
     padding-left: 10px;
 }
 
@@ -173,6 +177,63 @@ a:active, a:hover {
 
 .NL_link {
     color: #853E29;
+}
+
+/*---  Features --*/
+.NL_block {
+    margin-top: 30px;
+}
+
+.NL_feature {
+    min-height: 180px;
+    margin-top: 20px;
+}
+
+.NL_feature h4 {
+    line-height: 25px;
+}
+
+.NL_feature p {
+    font-size: 14px;
+    color: #777;
+}
+
+.NL_icon {
+    float: left;
+    padding: 5px;
+    margin-right: 5px;
+    width: 30px;
+    height: 100%;
+    color: #853E29;
+}
+
+.NL_footer_menu {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+    background-color: #FFF;
+    opacity: 0.9;
+}
+
+.NL_footer_menu ul {
+    padding-top: 10px;
+}
+
+.NL_footer_menu li {
+    display: inline;
+    line-height: 25px;
+    padding: 0 10px;
+}
+
+.NL_footer_menu li a{
+    font-size: 1.3rem;
+    color: #853E29;
+}
+
+.NL_footer_menu li a:hover {
+    color: #E14817;
+    text-decoration: none;
 }
 
 /*-------------- Scroller -----------*/
@@ -277,6 +338,13 @@ a:active, a:hover {
         margin-top: 65px;
         text-align: center;
         color: #f9e1c4;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+    .NL_feature {
+        min-height: 100px;
     }
 
 }

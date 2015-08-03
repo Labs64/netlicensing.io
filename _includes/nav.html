@@ -23,7 +23,14 @@
                         {% else %}
                             {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
                         {% endif %}
-                        <li><a class="page-link {{ page.class }}" href="{{ link }}">{{ page.title }}</a></li>
+                        <li>
+                            <a class="page-link {{ page.class }}" href="{{ link }}">
+                                {% if page.icon %}
+                                    <i class="fa {{ page.icon }}"></i>
+                                {% endif %}
+                                {{ page.title }}
+                            </a>
+                        </li>
                     {% endif %}
                 {% endfor %}
             </ul>

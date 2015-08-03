@@ -1,17 +1,37 @@
-<footer class="row NL_footer">
-    <p class="col-md-5 col-md-offset-1">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
-    <div class="col-md-5 NL_social">
-        <p>
-        {% for media in site.data.socialmedia %}
-            {% if media.url %}
-                {% if media.url contains 'http' %}
-                    {% assign link = media.url %}
-                {% else %}
-                    {% assign link = media.url | prepend: site.baseurl | prepend: site.url %}
+<footer>
+    <div class="row NL_footer_menu">
+        <ul class="col-md-6 col-md-offset-3">
+                {% for page in site.data.navigation %}
+                    {% if page.title %}
+                        {% if page.url contains 'http' %}
+                            {% assign link = page.url %}
+                        {% else %}
+                            {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
+                        {% endif %}
+                        <li>
+                            <a class="page-link {{ page.class }}" href="{{ link }}">
+                                {{ page.title }}
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+    </div>
+    <div class="row NL_footer">
+        <p class="col-md-5 col-md-offset-1">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
+        <div class="col-md-5 NL_social">
+            <p>
+            {% for media in site.data.socialmedia %}
+                {% if media.url %}
+                    {% if media.url contains 'http' %}
+                        {% assign link = media.url %}
+                    {% else %}
+                        {% assign link = media.url | prepend: site.baseurl | prepend: site.url %}
+                    {% endif %}
+                    <a data-toggle="tooltip" data-placement="top" title="{{ media.title }}" target="_blank" href="{{ link }}"><i class="fa {{ media.class }}"></i></a>
                 {% endif %}
-                <a data-toggle="tooltip" data-placement="top" title="{{ media.title }}" target="_blank" href="{{ link }}"><i class="fa {{ media.class }}"></i></a>
-            {% endif %}
-        {% endfor %}
-        </p>
+            {% endfor %}
+            </p>
+        </div>
     </div>
 </footer>

@@ -16,7 +16,7 @@
 
 - title: "Log In"
   url: "https://netlicensing.labs64.com/app/v2/"
-  class: NL_login
+  icon: "fa-sign-in"
 
 - title: "Sign Up"
   url: "https://netlicensing.labs64.com/app/v2/content/register.xhtml"
