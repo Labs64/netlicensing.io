@@ -16,21 +16,19 @@ tags:
 
 <div class="NL_block">
 {% for feature in site.data.features %}
-	{% if feature.name %}
-		<div class="col-md-3 NL_feature">
-			<h4>
-				<i class="fa {{ feature.class }} NL_icon"></i> 
-				{{ feature.name }}
-			</h4>
-			<p>{{ feature.discription }}</p>
-		</div>
-	{% endif %}
+    {% if feature.name %}
+        <div class="col-md-3 NL_feature">
+            <h4>
+                <i class="fa {{ feature.class }} NL_icon"></i> 
+                {{ feature.name }}
+            </h4>
+            <p>{{ feature.discription }}</p>
+        </div>
+    {% endif %}
 {% endfor %}
 </div>
 
 <div class="row"></div>
-#### MISS A FEATURE?
-Do you have a question or suggestion? <a href="/contact/">Please contact us</a>
 
 
 <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001" class="btn NL_banner_btn" role="button">Try Demo Now</a>

@@ -1,21 +1,21 @@
 <footer>
     <div class="row NL_footer_menu">
         <ul class="col-md-6 col-md-offset-3">
-                {% for page in site.data.navigation %}
-                    {% if page.title %}
-                        {% if page.url contains 'http' %}
-                            {% assign link = page.url %}
-                        {% else %}
-                            {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
-                        {% endif %}
-                        <li>
-                            <a class="page-link {{ page.class }}" href="{{ link }}">
-                                {{ page.title }}
-                            </a>
-                        </li>
+            {% for page in site.data.services %}
+                {% if page.title %}
+                    {% if page.url contains 'http' %}
+                        {% assign link = page.url %}
+                    {% else %}
+                        {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
                     {% endif %}
-                {% endfor %}
-            </ul>
+                    <li>
+                        <a class="page-link {{ page.class }}" href="{{ link }}">
+                            {{ page.title }}
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
     </div>
     <div class="row NL_footer">
         <p class="col-md-5 col-md-offset-1">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>

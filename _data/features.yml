@@ -2,7 +2,7 @@
   discription: "Increase flexibility! NetLicensing is cloud-based, you can start using it by just ...creating a free account... Start licensing your first product right away without installing any software!"
   class: "fa-google-plus"
 
-- name: "Flixible licensing models"
+- name: "Flexible licensing models"
   discription: "Accelerate your licensing! With NetLicensing, you can create licensing models that fit your business needs."
   class: "fa-google-plus"
 
@@ -72,4 +72,8 @@
 
 - name: "Netlicensing enterprise (Enterprise)"
   discription: "Our enterprise services and support programs ensure your success at every step along the management of your product licensing."
+  class: "fa-google-plus"
+
+- name: "Miss a Feature?"
+  discription: "Do you have a question or suggestion? <a href='/contact/'>Please contact us</a>"
   class: "fa-google-plus"
