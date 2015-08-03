@@ -22,7 +22,7 @@ tags:
                 <i class="fa {{ feature.class }} NL_icon"></i> 
                 {{ feature.name }}
             </h4>
-            <p>{{ feature.discription }}</p>
+            <p>{{ feature.description }}</p>
         </div>
     {% endif %}
 {% endfor %}
