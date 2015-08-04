@@ -109,7 +109,7 @@ h4 {
     color: #f9e1c4;
 }
 
-.NL_about h1, .NL_about_page h1{
+.NL_about h1, .NL_about_page h1 {
     color: #FFF;
 }
 
@@ -226,7 +226,7 @@ h4 {
     padding: 0 10px;
 }
 
-.NL_footer_menu li a{
+.NL_footer_menu li a {
     font-size: 1.3rem;
     color: #853E29;
 }
@@ -243,7 +243,7 @@ h4 {
 }
 
 .cbp-so-section {
-    margin-bottom: s5em;
+    margin-bottom: 5em;
     position: relative;
 }
 
