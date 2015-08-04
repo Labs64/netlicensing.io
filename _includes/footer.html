@@ -1,7 +1,7 @@
 <footer>
     <div class="row NL_footer_menu">
         <ul class="col-md-2 col-md-offset-1">
-            <h3> Documentation </h3>
+            <h3>Documentation</h3>
             {% for page in site.data.services %}
                 {% if page.section == 'Documentation' %}
                     {% if page.title %}
@@ -20,7 +20,7 @@
             {% endfor %}
         </ul>
         <ul class="col-md-2 col-md-offset-1">
-            <h3> Legal </h3>
+            <h3>Legal</h3>
             {% for page in site.data.services %}
                 {% if page.section == 'Legal' %}
                     {% if page.title %}
@@ -39,13 +39,13 @@
             {% endfor %}
         </ul>
         <ul class="col-md-2 col-md-offset-1 NL_footer_contacts">
-            <img src="{{ "/img/labs64-logo.png" | prepend: site.baseurl | prepend: site.url }}" alt="{{ site.data.contacts[0].title }}"/> 
-            <li> Phone: <span class="L64_links"> {{ site.data.contacts[0].phone }} </span></li>
-            <li> Email: <span class="L64_links"> {{ site.data.contacts[0].email }} </span></li>
-            <li> Web: <span class="L64_links"><a href="{{ site.data.contacts[0].url }}"> {{ site.data.contacts[0].web }} </a></span></li>
+            <img src="{{ '/img/labs64-logo.png' | prepend: site.baseurl | prepend: site.url }}" alt="{{ site.data.contacts[0].title }}"/>
+            <li> Phone: <span class="L64_links">{{ site.data.contacts[0].phone }}</span></li>
+            <li> Email: <span class="L64_links"><a href="mailto:{{ site.data.contacts[0].email }}?subject={{ site.title }}">{{ site.data.contacts[0].email }}</a></span></li>
+            <li> Web: <span class="L64_links"><a href="{{ site.data.contacts[0].url }}">{{ site.data.contacts[0].web }}</a></span></li>
         </ul>
         <ul class="col-md-2 col-md-offset-1">
-            <h3> Company </h3>
+            <h3>Company</h3>
             {% for page in site.data.services %}
                 {% if page.section == 'Company' %}
                     {% if page.title %}

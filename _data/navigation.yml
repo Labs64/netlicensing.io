@@ -7,13 +7,13 @@
 - title: For Integrators
   url: "/documentation/"
 
-- title: Licensing Model
+- title: Licensing Models
   url: "#"
 
 - title: "Sign Up"
   url: "https://netlicensing.labs64.com/app/v2/content/register.xhtml"
-  icon: "fa-sign-in"
+  class: "NL_button button_main NL_login_btn"
 
 - title: "Log In"
   url: "https://netlicensing.labs64.com/app/v2/"
-  class: "NL_button button_main NL_login_btn"
+  icon: "fa-key"
