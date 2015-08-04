@@ -2,41 +2,56 @@
 - title: "About"
   url: "https://www.labs64.com/about-us/"
   class: ""
+  section: "Company"
 
 - title: "Partners"
   url: "https://www.labs64.com/netlicensing/partners/"
   class: ""
+  section: "Company"
 
 - title: "Contact"
   url: "/contact/"
   class: ""
+  section: "Company"
 
 # Learn
 - title: Getting Started
   url: "/getting-started/"
+  section: "Documentation"
 
-- title: Documentation
+- title: Case Studies
+  url: "#"
+  section: "Documentation"
+
+- title: For Integrators
   url: "/documentation/"
+  section: "Documentation"
 
 - title: Resources
   url: "https://www.labs64.de/confluence/x/xgCo"
+  section: "Documentation"
 
 - title: Blog
   url: "http://www.labs64.com/blog/category/labs64/licensing/netlicensing/"
+  section: "Documentation"
 
 # Legal
 - title: "Terms of Service"
   url: "http://www.labs64.com/legal/terms-of-service/netlicensing/"
   class: ""
+  section: "Legal"
 
 - title: "Privacy Policy"
   url: "http://www.labs64.com/legal/privacy-policy/"
   class: ""
+  section: "Legal"
 
 - title: "Cookies Policy"
   url: "http://www.labs64.com/legal/privacy-policy/cookies-policy/"
   class: ""
+  section: "Legal"
 
 - title: "Imprint"
   url: "http://www.labs64.com/imprint/"
   class: ""
+  section: "Legal"

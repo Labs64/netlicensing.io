@@ -1,14 +1,14 @@
 - title: Features
   url: "/features/"
 
-- title: Case Studies
-  url: "#"
-
 - title: Getting Started
   url: "/getting-started/"
 
 - title: For Integrators
   url: "/documentation/"
+
+- title: Licensing Model
+  url: "#"
 
 - title: "Sign Up"
   url: "https://netlicensing.labs64.com/app/v2/content/register.xhtml"
@@ -16,4 +16,4 @@
 
 - title: "Log In"
   url: "https://netlicensing.labs64.com/app/v2/"
-  icon: "fa-key"
+  class: "NL_button button_main NL_login_btn"

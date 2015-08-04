@@ -10,7 +10,7 @@ tags:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Features</h1>
-        <p>Our enterprise services and support programs ensure your success at every step along the management of your product licensing.</p>
+        <h3>Our enterprise services and support programs ensure your success at every step along the management of your product licensing.</h3>
     </div>
 </div>
 

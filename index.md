@@ -7,11 +7,11 @@ permalink: /
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
         <h1>Move your licensing to the Cloud</h1>
-        <p>Labs64 NetLicensing is a first-class solution in the Licensing as a Service (LaaS) sector.
+        <h3>Labs64 NetLicensing is a first-class solution in the Licensing as a Service (LaaS) sector.
             Based on open standards, it provides a cost effective, integrated and scalable platform for software vendors
             and developers who want to concentrate on their product’s core functionality instead of spending resources
-            on developing an own license management software.</p>
-        <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001" class="btn NL_banner_btn" role="button">Live Demo</a>
+            on developing an own license management software.</h3>
+        <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001" class="NL_button button_main NL_banner_btn" role="button"><i class="fa fa-eye"></i> Live Demo</a>
     </div>
 </div>
 
@@ -21,9 +21,9 @@ permalink: /
             <article class="cbp-so-side cbp-so-side-left">
                 <h2>Be flexible</h2>
 
-                <p>With NetLicensing you have a choice of ready-to-use licensing models or customized licensing models
+                <h3>With NetLicensing you have a choice of ready-to-use licensing models or customized licensing models
                     may be created to suit your unique business needs and goals.
-                    NetLicensing has an open architecture that allows easy extension with new licensing models.</p>
+                    NetLicensing has an open architecture that allows easy extension with new licensing models.</h3>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
                 <img src="img/nl1.jpg" alt="img01">
@@ -37,8 +37,8 @@ permalink: /
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Streamline purchasing process</h2>
 
-                <p>NetLicensing provides a seamless online purchase experience, aligned with the deployed licensing
-                    models. Our PayPal integration allows your global customers to pay in their preferred currency.</p>
+                <h3>NetLicensing provides a seamless online purchase experience, aligned with the deployed licensing
+                    models. Our PayPal integration allows your global customers to pay in their preferred currency.</h3>
             </article>
         </section>
 
@@ -46,8 +46,8 @@ permalink: /
             <article class="cbp-so-side cbp-so-side-left">
                 <h2>Integrate fast</h2>
 
-                <p>NetLicensing makes setup and integration fast, safe and very simple. So you can get up and running in
-                    a few hours.</p>
+                <h3>NetLicensing makes setup and integration fast, safe and very simple. So you can get up and running in
+                    a few hours.</h3>
                 <div class="col-md-8 col-md-offset-4 NL_dialog">
                     <div class="col-md-3"><img class="NL_dialog_img" alt="{{ site.title }}" src="{{ "/img/NL_logo.png" | prepend: site.baseurl | prepend: site.url }}" /></div>
                     <div class="col-md-9">As easy as one, two, three!<br/>
