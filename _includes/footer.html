@@ -39,10 +39,10 @@
             {% endfor %}
         </ul>
         <ul class="col-md-2 col-md-offset-1 NL_footer_contacts">
-            <img src="{{ "/img/labs64-logo.png" | prepend: site.baseurl | prepend: site.url }}"> 
+            <img src="{{ "/img/labs64-logo.png" | prepend: site.baseurl | prepend: site.url }}" alt="{{ site.data.contacts[0].title }}"/> 
             <li> Phone: <span class="L64_links"> {{ site.data.contacts[0].phone }} </span></li>
             <li> Email: <span class="L64_links"> {{ site.data.contacts[0].email }} </span></li>
-            <li> Web: <span class="L64_links"><a href="#"> {{ site.data.contacts[0].web }} </a></span></li>
+            <li> Web: <span class="L64_links"><a href="{{ site.data.contacts[0].url }}"> {{ site.data.contacts[0].web }} </a></span></li>
         </ul>
         <ul class="col-md-2 col-md-offset-1">
             <h3> Company </h3>
