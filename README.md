@@ -12,4 +12,4 @@ Following files, directories and their contents are copyright Labs64. You may no
 * pages/
 * img/
 
-All other files and directories are licensed under the [MIT](http://www.opensource.org/licenses/mit-license.php) unless explicitly stated.
+All other files and directories are licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php) unless explicitly stated.

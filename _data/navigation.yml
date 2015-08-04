@@ -1,22 +1,19 @@
 - title: Features
   url: "/features/"
 
+- title: Case Studies
+  url: "#"
+
 - title: Getting Started
   url: "/getting-started/"
 
 - title: For Integrators
   url: "/documentation/"
-  dropdown:
-  - title: Documentation
-    url: "/documentation/"
-  - title: "Changelog"
-    url: "/changelog/"
-  - title: "Roadmap"
-    url: "/roadmap/"
-
-- title: "Log In"
-  url: "https://netlicensing.labs64.com/app/v2/"
-  icon: "fa-sign-in"
 
 - title: "Sign Up"
   url: "https://netlicensing.labs64.com/app/v2/content/register.xhtml"
+  icon: "fa-sign-in"
+
+- title: "Log In"
+  url: "https://netlicensing.labs64.com/app/v2/"
+  icon: "fa-key"
