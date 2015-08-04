@@ -19,7 +19,7 @@ permalink: /
     <div id="cbp-so-scroller" class="cbp-so-scroller">
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
-                <h3>Be flexible</h3>
+                <h2>Be flexible</h2>
 
                 <p>With NetLicensing you have a choice of ready-to-use licensing models or customized licensing models
                     may be created to suit your unique business needs and goals.
@@ -35,7 +35,7 @@ permalink: /
                 <img src="img/nl2.jpg" alt="img01">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
-                <h3>Streamline purchasing process</h3>
+                <h2>Streamline purchasing process</h2>
 
                 <p>NetLicensing provides a seamless online purchase experience, aligned with the deployed licensing
                     models. Our PayPal integration allows your global customers to pay in their preferred currency.</p>
@@ -44,7 +44,7 @@ permalink: /
 
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
-                <h3>Integrate fast</h3>
+                <h2>Integrate fast</h2>
 
                 <p>NetLicensing makes setup and integration fast, safe and very simple. So you can get up and running in
                     a few hours.</p>
