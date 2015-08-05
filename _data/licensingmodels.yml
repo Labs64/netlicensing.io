@@ -1,0 +1,82 @@
+- name: "Try & Buy"
+  aliases:
+   - Evaluation
+   - Demo
+   - Trialware
+   - Functional-limited demo version
+   - Time Limited Evaluation
+  description: "This licensing model is useful in case you want to distribute secure trial or demo version of your product. Trial licenses are granted for a short time and allow customers to try the product before buying it. Usually, production-level work is not allowed and some features may be limited or disabled in demo mode. The product is completely disabled after trial license has expired, unless full-featured license is granted."
+  tags:
+   - time
+   - onetime
+  status: "AVAILABLE"
+  class: "fa-battery-full"
+
+- name: "Subscription"
+  aliases:
+   - ABO
+   - Time-limited
+   - Time-Based
+   - TimeVolume
+  description: "Subscription licensing model allows user to enable product for a specific period of time, with the possibility of the subscription renewal. Different subscription periods can be offered each with its own price. Support for auto-renewal with recurring payment is planned."
+  tags:
+   - time
+  status: "AVAILABLE"
+  class: "fa-battery-full"
+
+- name: "Rental"
+  aliases:
+   - Leasing
+   - Feature with TimeVolume
+  description: "This is a complex licensing model, useful in the case you want to license multiple instances of some entity, each instance for a certain period of time. In other words it can be described as a bunch of independent subscriptions, where customer decides in addition for how many instances he wants to subscribe."
+  tags:
+   - time
+  status: "AVAILABLE"
+  class: "fa-battery-full"
+
+- name: "Floating"
+  aliases:
+   - Concurrent
+   - Network
+   - Shared
+  description: "Floating licensing model authorizes the use of an application with the given number of sessions (users, hosts, etc.). The number of concurrent sessions is tracked, and the total number of running sessions of the licensed application at any time is limited by the maximum allowed sessions in the floating licenses purchased by the licensee."
+  tags:
+   - concurrent
+  status: "AVAILABLE"
+  class: "fa-battery-full"
+
+- name: "Pay-per-use"
+  aliases:
+   - Pre-paid
+   - Post-paid
+   - Pay-per-click
+  description: "Limits the quantity of the license uses, in addition to the license validity. License fees are based on the actual usage.
+                The usage may be defined by various metrics such as CPU load, network bandwidth utilization, or something related to the nature of your application.
+                The billing is tied to the usage model, which can be:
+                Time based: billing on the duration of use
+                Count based: billing on the number of uses
+                Volume based: billing on the amount of resource use"
+  tags:
+   - count
+  status: "PLANNED"
+  class: "fa-battery-quarter"
+
+- name: "Standard"
+  aliases:
+   - Permanent
+   - Single-user
+   - Perpetual
+  description: "This license is a non-transferable license allowing product use on a single computer and/or by a single user. Once purchased, the product can be used without limitations."
+  tags:
+   - user
+  status: "AVAILABLE"
+  class: "fa-battery-three-quarters"
+
+- name: ""
+  aliases:
+   - xxx
+  description: ""
+  tags:
+   -
+  status: "AVAILABLE"
+  class: "fa-battery-three-quarters"

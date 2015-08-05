@@ -38,7 +38,6 @@ a:active, a:hover {
     text-decoration: none;
 }
 
-
 /*----------   NL Styles  -----------*/
 body {
     background-color: #FFFFFF;
@@ -54,7 +53,7 @@ body {
 }
 
 .NL_banner {
-    background: url(../img/NL_banner.png) 100% 100%;
+    background: url(../img/netlicensing-stage-banner.png) 100% 100%;
     background-position-y: center;
 }
 
@@ -239,7 +238,6 @@ body {
     height: 100%;
     /*color: #853E29;*/
 }
-
 
 /*-------------- Scroller -----------*/
 .cbp-so-scroller {

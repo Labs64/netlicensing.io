@@ -8,10 +8,9 @@ tags:
 - how-to
 ---
 <div class="row NL_banner">
-    <div class="col-md-8 col-md-offset-2 NL_about">
+    <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>As easy as one, two, three!</h1>
         <h3>NetLicensing makes setup and integration fast, safe and very simple. So you can get up and running in a few hours.</h3>
-        <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001" class="btn NL_banner_btn" role="button">Live Demo</a>
     </div>
 </div>
 

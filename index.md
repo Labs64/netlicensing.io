@@ -11,7 +11,7 @@ permalink: /
             Based on open standards, it provides a cost effective, integrated and scalable platform for software vendors
             and developers who want to concentrate on their product’s core functionality instead of spending resources
             on developing an own license management software.</h3>
-        <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001" class="NL_button button_main NL_banner_btn" role="button"><i class="fa fa-eye"></i> Live Demo</a>
+        <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001" class="NL_button button_main NL_banner_btn" role="button"><i class="fa fa-eye"></i>Live Demo</a>
     </div>
 </div>
 
@@ -26,13 +26,13 @@ permalink: /
                     NetLicensing has an open architecture that allows easy extension with new licensing models.</h3>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="img/nl1.jpg" alt="img01">
+                <img src="img/netlicensing-promo-01.jpg" alt="NetLicensing Flex">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="img/nl2.jpg" alt="img01">
+                <img src="img/netlicensing-promo-02.jpg" alt="NetLicensing eCommerce">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Streamline purchasing process</h2>
@@ -49,14 +49,14 @@ permalink: /
                 <h3>NetLicensing makes setup and integration fast, safe and very simple. So you can get up and running in
                     a few hours.</h3>
                 <div class="col-md-8 col-md-offset-4 NL_dialog">
-                    <div class="col-md-3"><img class="NL_dialog_img" alt="{{ site.title }}" src="{{ "/img/NL_logo.png" | prepend: site.baseurl | prepend: site.url }}" /></div>
+                    <div class="col-md-3"><img class="NL_dialog_img" alt="{{ site.title }}" src="{{ '/img/labs64-avatar-300x300.png' | prepend: site.baseurl | prepend: site.url }}" /></div>
                     <div class="col-md-9">As easy as one, two, three!<br/>
                         <span class="NL_link">NetLicensing, Labs64 </span></div>
                 </div>
                 
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="img/nl3.jpg" alt="img01">
+                <img src="img/netlicensing-promo-03.jpg" alt="NetLicensing Integration">
             </figure>
         </section>
     </div>
