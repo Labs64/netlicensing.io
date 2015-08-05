@@ -18,47 +18,79 @@ tags:
 {% for feature in site.data.features %}
     {% if feature.name %}
         <div class="col-md-3 NL_feature">
-            <h4>
+            <h3>
                 <i class="fa {{ feature.class }} NL_icon"></i> 
                 {{ feature.name }}
-            </h4>
+            </h3>
             <p>{{ feature.description }}</p>
         </div>
     {% endif %}
 {% endfor %}
 </div>
 
-<div class="row"></div>
+<div class="row">
+    <div class="col-md-12 NL_form1 NL_block">
+        <div class="col-md-6 col-md-offset-3">
+            <h2>Miss a Feature?</h2>
+            <h3>Do you have a question or suggestion?</h3>
+            <form>
+                <div class="form-group">
+                    <input class="form-control" id="feature" placeholder="Feature"/>
+                    <textarea class="form-control" rows="3" placeholder="Your question or suggestion"></textarea>
+                    <button type="submit" class="NL_button button_main NL_banner_btn" role="button"><i class="fa fa-paper-plane"></i>Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
+<div class="row NL_block">
+    <h2 class="col-md-12">You may still have some questions, so here's our FAQs</h2>
+</div>
 
-<a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001" class="btn NL_banner_btn" role="button">Try Demo Now</a>
-<a href="https://www.labs64.de/confluence/display/NLICPUB/Home" class="btn NL_banner_btn" role="button">Explore More</a>
+<div class="row NL_FAQ">
+    <div class= "col-md-4">
+        <h3>Do I have to pay to use your service?</h3>
+        <p>No. There is a Free Forever plan includes a NetLicensing account with unlimited products and API Access.</p>
+    </div>
+    <div class= "col-md-4">
+        <h3>Are there any hidden cost or extra charges?</h3>
+        <p>No. NetLicensing won’t charge you any setup fees or monthly fees if you are using a free plan.
+The selected payment service provider may charge an internet gateway fee and/or a processing fee.</p>
+    </div>
+    <div class= "col-md-4">
+        <h3>Do I need a credit card to sign up for the free plan?</h3>
+        <p>No. We do not collect credit card information when you sign up for a free account.</p>
+    </div>
+</div>
 
+<div class="row NL_FAQ">
+    <div class= "col-md-4">
+        <h3>Can I cancel anytime?</h3>
+        <p>Yes! You can cancel your plan anytime you wish and you will not be charged.</p>
+    </div>
+    <div class= "col-md-4">
+        <h3>What is Licensing eCommerce Platform? Shall I use it?</h3>
+        <p>NetLicensing Shop is an innovative eCommerce solution which provides your customers licenses acquisition possibility for every available <a title="NetLicensing Licensing Models" href="http://l64.cc/nl09">licensing models</a>.
+You may omit using of NetLicensing Shop and create all licensing entities via NetLicensing API instead.</p>
+    </div>
+    <div class= "col-md-4">
+        <h3>Do you have an API? CLI? Libraries?</h3>
+        <p>Yes. NetLicensing RESTful API documentation is available <a title="API" href="http://l64.cc/nl10">here</a>. You may also use the following <a title="NetLicensing client libraries" href="http://l64.cc/nl07">client libraries and examples</a> as a foundation for integrating NetLicensing in your code.</p>
+    </div>
+</div>
 
-## You may still have some questions, so here's our FAQs
-
-#### Do I have to pay to use your service?
-No. There is a Free Forever plan includes a NetLicensing account with unlimited products and API Access.
-
-#### Are there any hidden cost or extra charges?
-No. NetLicensing won’t charge you any setup fees or monthly fees if you are using a free plan.
-The selected payment service provider may charge an internet gateway fee and/or a processing fee.
-
-#### Do I need a credit card to sign up for the free plan?
-No. We do not collect credit card information when you sign up for a free account.
-
-#### Can I cancel anytime?
-Yes! You can cancel your plan anytime you wish and you will not be charged.
-
-#### What is Licensing eCommerce Platform? Shall I use it?
-NetLicensing Shop is an innovative eCommerce solution which provides your customers licenses acquisition possibility for every available <a title="NetLicensing Licensing Models" href="http://l64.cc/nl09">licensing models</a>.
-You may omit using of NetLicensing Shop and create all licensing entities via NetLicensing API instead.
-
-#### Do you have an API? CLI? Libraries?
-Yes. NetLicensing RESTful API documentation is available <a title="API" href="http://l64.cc/nl10">here</a>. You may also use the following <a title="NetLicensing client libraries" href="http://l64.cc/nl07">client libraries and examples</a> as a foundation for integrating NetLicensing in your code.
-
-#### How secure is this?
-NetLicensing uses industry standard SSL security. Your data is hosted in a secure hosting facility and regularly backed up.
-
-#### I have more questions. Who do I ask?
-Please <a title="Contact" href="/contact/">contact us</a> and we can put together something that fits your specific needs.
+<div class="row NL_FAQ">
+    <div class= "col-md-4">
+        <h3>How secure is this?</h3>
+        <p>NetLicensing uses industry standard SSL security. Your data is hosted in a secure hosting facility and regularly backed up.</p>
+    </div>
+    <div class= "col-md-4">
+        <h3>I have more questions. Who do I ask?</h3>
+        <p>Please <a title="Contact" href="/contact/">contact us</a> and we can put together something that fits your specific needs.</p>
+    </div>
+    <div class= "col-md-4">
+        <h3></h3>
+        <p></p>
+    </div>
+</div>

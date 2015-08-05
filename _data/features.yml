@@ -73,7 +73,3 @@
 - name: "NetLicensing Enterprise (Enterprise)"
   description: "Our enterprise services and support programs ensure your success at every step along the management of your product licensing."
   class: "fa-key"
-
-- name: "Miss a Feature?"
-  description: "Do you have a question or suggestion? <a href='/contact/'>Please contact us</a>"
-  class: "fa-key"

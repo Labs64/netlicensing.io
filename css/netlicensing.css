@@ -44,8 +44,8 @@ body {
 }
 
 .row {
-    margin-right: 0px;
     margin-left: 0px;
+    margin-right: 0px;
 }
 
 .NL_page {
@@ -93,6 +93,21 @@ body {
     float: left !important;
     width: 30px;
     border-radius: 50%;
+}
+
+/*----------   NL Forms  -----------*/
+.form-control {
+    margin-bottom: 10px;
+    opacity: 0.8;
+    box-shadow: none;
+    border-color: #FFF;
+}
+
+.NL_form1 {
+    padding: 30px; 
+    text-align: center;
+    background: url(../img/netlicensing-blurred-background.jpg) 100% 100%;
+    background-position-y: 60%;
 }
 
 /*----------   Header  -----------*/
@@ -170,7 +185,7 @@ body {
 
 .NL_footer_menu {
     display: block;
-    margin-top: 20px;
+    margin-top: 70px;
     text-align: left;
     border-top: 1px solid #e7e7e7;
     background-color: #FFF;
@@ -207,28 +222,31 @@ body {
 }
 
 .NL_about h3,
-.NL_about_page h3 {
+.NL_about_page h3, 
+.NL_form1 h3 {
     color: #f9e1c4;
+}
+
+.NL_form1 h2 {
+    color: #FFF;
 }
 
 /*----------   Features Page  -----------*/
 .NL_block {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .NL_feature {
     min-height: 180px;
-    margin-top: 20px;
 }
 
 .NL_feature h4 {
     line-height: 25px;
 }
 
-/*.NL_feature p {
-    font-size: 14px;
+.NL_feature p {
     color: #777;
-}*/
+}
 
 .NL_icon {
     float: left;
@@ -237,6 +255,10 @@ body {
     width: 30px;
     height: 100%;
     /*color: #853E29;*/
+}
+
+.NL_FAQ h3 {
+    color: #853E29;
 }
 
 /*-------------- Scroller -----------*/
@@ -349,8 +371,11 @@ body {
         min-height: 100px;
     }
 
-    .NL_footer_menu {
-        text-align: center;
+}
+
+@media screen and (min-width: 1800px) {
+    .NL_feature {
+        min-height: 120px;
     }
 
 }
