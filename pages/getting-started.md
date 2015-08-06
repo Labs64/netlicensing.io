@@ -14,17 +14,24 @@ tags:
     </div>
 </div>
 
-## Integration
+<div class="col-md-12" >
+	<h1 style="color: #444;"> Integration </h1>
+	<h3> Integration of NetLicensing into your product has two aspects: </h3>
+</div>
 
-Integration of NetLicensing into your product has two aspects:
+<div class="row NL_block">
+	<div class="col-md-6">
+		<h2>NetLicensing API</h2>
+		<p>Implement calls to the NetLicensing API in your code. <a href="https://www.labs64.de/confluence/pages/viewpage.action?pageId=11010215">NetLicensing API reference</a> and <a href="https://www.labs64.de/confluence/display/NLICPUB/Client+Libraries+and+Sample+Code">examples</a> will help you. At minimum you need a call to the <a href="https://www.labs64.de/confluence/display/NLICPUB/Licensee+Services#LicenseeServices-Validatelicensee">validate</a> method of the licensee services.</p>
+	</div>
+	<div class="col-md-6">
+		<h2>NetLicensing Shop</h2>
+		<p>Provide a link to NetLicensing Shop in the UI of your product or forward the user to NetLicensing Shop URL by other means.
+		The URL of NetLicensing Shop has the following format:
+		{% highlight ruby %}
+		https://netlicensing.labs64.com/app/v2/content/shop.xhtml?shoptoken={token}
+		{% endhighlight %}
+		_token_ must be obtained using <a href="https://www.labs64.de/confluence/display/NLICPUB/Token+Services">create token</a> service with tokenType=SHOP. The Generate token service returns also the complete shop URL for convenience.</p>
+	</div>
+</div>
 
-### NetLicensing API
-<p>Implement calls to the NetLicensing API in your code. <a href="https://www.labs64.de/confluence/pages/viewpage.action?pageId=11010215">NetLicensing API reference</a> and <a href="https://www.labs64.de/confluence/display/NLICPUB/Client+Libraries+and+Sample+Code">examples</a> will help you. At minimum you need a call to the <a href="https://www.labs64.de/confluence/display/NLICPUB/Licensee+Services#LicenseeServices-Validatelicensee">validate</a> method of the licensee services.</p>
-
-### NetLicensing Shop
-Provide a link to NetLicensing Shop in the UI of your product or forward the user to NetLicensing Shop URL by other means.
-The URL of NetLicensing Shop has the following format:
-{% highlight ruby %}
-https://netlicensing.labs64.com/app/v2/content/shop.xhtml?shoptoken={token}
-{% endhighlight %}
-_token_ must be obtained using <a href="https://www.labs64.de/confluence/display/NLICPUB/Token+Services">create token</a> service with tokenType=SHOP. The Generate token service returns also the complete shop URL for convenience.

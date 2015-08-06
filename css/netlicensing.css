@@ -31,11 +31,13 @@ h3 {
 }
 
 a {
+    border-bottom: 1px dotted #853E29;
     color: #853E29;
     background-color: transparent;
 }
 
 a:active, a:hover {
+    border-bottom: none;
     outline: 0;
     color: #E14817;
     text-decoration: none;
@@ -119,6 +121,10 @@ body {
     opacity: 0.95;
 }
 
+.NL_logo {
+    border-bottom: none;
+}
+
 .NL_logo img {
     float: left;
     height: 29px;
@@ -136,6 +142,7 @@ body {
 
 .NL_main_menu li a {
     color: #444 !important;
+    border-bottom: none;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -181,9 +188,14 @@ body {
 }
 
 .NL_social a i {
+    border-bottom: none;
     color: #f9e1c4;
     font-size: 16px;
     padding-left: 10px;
+}
+
+.NL_social a {
+    border-bottom: none;
 }
 
 .NL_footer_menu {
@@ -197,6 +209,7 @@ body {
 
 .NL_footer_menu a {
     color: #444;
+    border-bottom: none;
 }
 
 .NL_footer_menu a:hover,
