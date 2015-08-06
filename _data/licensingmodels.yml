@@ -8,9 +8,9 @@
   description: "This licensing model is useful in case you want to distribute secure trial or demo version of your product. Trial licenses are granted for a short time and allow customers to try the product before buying it. Usually, production-level work is not allowed and some features may be limited or disabled in demo mode. The product is completely disabled after trial license has expired, unless full-featured license is granted."
   tags:
    - time
-   - onetime
+   - feature
   status: "AVAILABLE"
-  img: '/img/Try-and-Buy-licensing-model.jpg'
+  img: '/img/licensing-model-try-and-buy.jpg'
   class: "fa-battery-full"
 
 - name: "Subscription"
@@ -23,7 +23,7 @@
   tags:
    - time
   status: "AVAILABLE"
-  img: '/img/Subscription-licensing-model.jpg'
+  img: '/img/licensing-model-subscription.jpg'
   class: "fa-battery-full"
 
 - name: "Floating"
@@ -35,7 +35,7 @@
   tags:
    - concurrent
   status: "AVAILABLE"
-  img: '/img/Floating-licensing-model.jpg'
+  img: '/img/licensing-model-floating.jpg'
   class: "fa-battery-full"
 
 - name: "Rental"
@@ -46,7 +46,7 @@
   tags:
    - time
   status: "AVAILABLE"
-  img: '/img/Rental-licensing-model.jpg'
+  img: '/img/licensing-model-rental.jpg'
   class: "fa-battery-full"
 
 - name: "Pay-per-use"
@@ -61,9 +61,9 @@
                 Count based: billing on the number of uses
                 Volume based: billing on the amount of resource use"
   tags:
-   - count
+   - volume
   status: "PLANNED"
-  img: '/img/Pay-per-use-licensing-model.jpg'
+  img: '/img/licensing-model-pay-per-use.jpg'
   class: "fa-battery-quarter"
 
 - name: "Standard"
@@ -75,7 +75,7 @@
   tags:
    - user
   status: "AVAILABLE"
-  img: '/img/Standard-licensing-model.jpg'
+  img: '/img/licensing-model-standard.jpg'
   class: "fa-battery-three-quarters"
 
 - name: 
