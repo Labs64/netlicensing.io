@@ -69,6 +69,19 @@ layout: compress
     border-color: #853E29;
 }
 
+.NL_LM_btn {
+    border: 1px solid #E14817;
+    color: #E14817;
+    text-transform: none;
+}
+
+.NL_LM_btn::before,
+ul#filterOptions>li.active>a {
+    background: #f9e1c4;
+    text-decoration: none;
+    color: #E14817;
+}
+
 /* Main button action */
 .button_main {
     -webkit-transition: border-color 0.7s, color 0.2s;

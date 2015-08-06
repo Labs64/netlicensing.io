@@ -263,6 +263,33 @@ body {
     color: #853E29;
 }
 
+/*----------   Licensing Model Page  -----------*/
+ul {
+    -webkit-padding-start: 0px !important;
+}
+
+ul#filterOptions {
+    margin-bottom: 30px; 
+    text-align: center;
+}
+
+ul.NL_licensing_models {
+    width: 100%;
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
+
+ul#filterOptions li { 
+    display: inline-block;  
+}
+
+ul.NL_licensing_models li.item {
+    display: block;
+    text-align: center;
+    height: 450px;
+}
+
 /*-------------- Scroller -----------*/
 .cbp-so-scroller {
     margin-top: 50px;

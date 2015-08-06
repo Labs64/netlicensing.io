@@ -10,6 +10,7 @@
    - time
    - onetime
   status: "AVAILABLE"
+  img: '/img/Try-and-Buy-licensing-model.jpg'
   class: "fa-battery-full"
 
 - name: "Subscription"
@@ -22,16 +23,7 @@
   tags:
    - time
   status: "AVAILABLE"
-  class: "fa-battery-full"
-
-- name: "Rental"
-  aliases:
-   - Leasing
-   - Feature with TimeVolume
-  description: "This is a complex licensing model, useful in the case you want to license multiple instances of some entity, each instance for a certain period of time. In other words it can be described as a bunch of independent subscriptions, where customer decides in addition for how many instances he wants to subscribe."
-  tags:
-   - time
-  status: "AVAILABLE"
+  img: '/img/Subscription-licensing-model.jpg'
   class: "fa-battery-full"
 
 - name: "Floating"
@@ -43,6 +35,18 @@
   tags:
    - concurrent
   status: "AVAILABLE"
+  img: '/img/Floating-licensing-model.jpg'
+  class: "fa-battery-full"
+
+- name: "Rental"
+  aliases:
+   - Leasing
+   - Feature with TimeVolume
+  description: "This is a complex licensing model, useful in the case you want to license multiple instances of some entity, each instance for a certain period of time. In other words it can be described as a bunch of independent subscriptions, where customer decides in addition for how many instances he wants to subscribe."
+  tags:
+   - time
+  status: "AVAILABLE"
+  img: '/img/Rental-licensing-model.jpg'
   class: "fa-battery-full"
 
 - name: "Pay-per-use"
@@ -59,6 +63,7 @@
   tags:
    - count
   status: "PLANNED"
+  img: '/img/Pay-per-use-licensing-model.jpg'
   class: "fa-battery-quarter"
 
 - name: "Standard"
@@ -70,9 +75,10 @@
   tags:
    - user
   status: "AVAILABLE"
+  img: '/img/Standard-licensing-model.jpg'
   class: "fa-battery-three-quarters"
 
-- name: ""
+- name: 
   aliases:
    - xxx
   description: ""
