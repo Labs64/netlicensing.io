@@ -1,3 +1,6 @@
+---
+layout: compress
+---
 /*----------  Typography  -----------*/
 p {
     font-size: 14px;
@@ -104,7 +107,7 @@ body {
 }
 
 .NL_form1 {
-    padding: 30px; 
+    padding: 30px;
     text-align: center;
     background: url(../img/netlicensing-blurred-background.jpg) 100% 100%;
     background-position-y: 60%;
@@ -222,7 +225,7 @@ body {
 }
 
 .NL_about h3,
-.NL_about_page h3, 
+.NL_about_page h3,
 .NL_form1 h3 {
     color: #f9e1c4;
 }
