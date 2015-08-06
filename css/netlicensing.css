@@ -227,7 +227,7 @@ body {
 
 .NL_footer_contacts img {
     padding-top: 21px;
-    width: 100px;
+    width: 120px;
 }
 
 /*----------   Index Page  -----------*/
@@ -282,7 +282,7 @@ ul {
 }
 
 ul#filterOptions {
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -293,8 +293,8 @@ ul.NL_licensing_models {
     text-decoration: none;
 }
 
-ul#filterOptions li { 
-    display: inline-block;  
+ul#filterOptions li {
+    display: inline-block;
 }
 
 ul.NL_licensing_models li.item {
