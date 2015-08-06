@@ -257,7 +257,6 @@ body {
     margin-right: 5px;
     width: 30px;
     height: 100%;
-    /*color: #853E29;*/
 }
 
 .NL_FAQ h3 {
@@ -356,7 +355,11 @@ body {
         margin-top: -60px;
         height: 500px;
         text-align: center;
-        /*color: #f9e1c4;*/
+    }
+
+    .NL_footer_menu a {
+        font-size: 16px;
+        line-height: 30px;
     }
 
     h1 {
