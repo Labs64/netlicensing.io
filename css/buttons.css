@@ -75,6 +75,10 @@ layout: compress
     text-transform: none;
 }
 
+a.NL_LM_btn:hover {
+    border: 1px solid #E14817;
+}
+
 .NL_LM_btn::before,
 ul#filterOptions>li.active>a {
     background: #f9e1c4;

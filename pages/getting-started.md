@@ -27,11 +27,11 @@ tags:
 	<div class="col-md-6">
 		<h2>NetLicensing Shop</h2>
 		<p>Provide a link to NetLicensing Shop in the UI of your product or forward the user to NetLicensing Shop URL by other means.
-		The URL of NetLicensing Shop has the following format:
+		The URL of NetLicensing Shop has the following format:</p>
 		{% highlight ruby %}
 		https://netlicensing.labs64.com/app/v2/content/shop.xhtml?shoptoken={token}
 		{% endhighlight %}
-		_token_ must be obtained using <a href="https://www.labs64.de/confluence/display/NLICPUB/Token+Services">create token</a> service with tokenType=SHOP. The Generate token service returns also the complete shop URL for convenience.</p>
+		<p>_token_ must be obtained using <a href="https://www.labs64.de/confluence/display/NLICPUB/Token+Services">create token</a> service with tokenType=SHOP. The Generate token service returns also the complete shop URL for convenience.</p>
 	</div>
 </div>
 
