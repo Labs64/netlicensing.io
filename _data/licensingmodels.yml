@@ -13,6 +13,7 @@
   img: '/img/licensing-model-try-and-buy.jpg'
   class: "fa-battery-full"
 
+
 - name: "Subscription"
   aliases:
    - ABO
@@ -26,6 +27,7 @@
   img: '/img/licensing-model-subscription.jpg'
   class: "fa-battery-full"
 
+
 - name: "Floating"
   aliases:
    - Concurrent
@@ -38,6 +40,7 @@
   img: '/img/licensing-model-floating.jpg'
   class: "fa-battery-full"
 
+
 - name: "Rental"
   aliases:
    - Leasing
@@ -48,6 +51,7 @@
   status: "AVAILABLE"
   img: '/img/licensing-model-rental.jpg'
   class: "fa-battery-full"
+
 
 - name: "Pay-per-use"
   aliases:
@@ -66,6 +70,7 @@
   img: '/img/licensing-model-pay-per-use.jpg'
   class: "fa-battery-quarter"
 
+
 - name: "Standard"
   aliases:
    - Permanent
@@ -77,6 +82,7 @@
   status: "AVAILABLE"
   img: '/img/licensing-model-standard.jpg'
   class: "fa-battery-three-quarters"
+
 
 - name: 
   aliases:
