@@ -112,6 +112,10 @@ body {
 }
 
 /*----------   NL Forms  -----------*/
+form {
+    margin-top: 20px;
+}
+
 .form-control {
     margin-bottom: 10px;
     opacity: 0.8;

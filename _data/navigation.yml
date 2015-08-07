@@ -10,10 +10,10 @@
 - title: Licensing Models
   url: "/licensing-models/"
 
+- title: "Log In"
+  url: "https://netlicensing.labs64.com/app/v2/"
+  icon: "fa-sign-in"
+
 - title: "Sign Up"
   url: "https://netlicensing.labs64.com/app/v2/content/register.xhtml"
   class: "NL_button button_main NL_login_btn"
-
-- title: "Log In"
-  url: "https://netlicensing.labs64.com/app/v2/"
-  icon: "fa-key"
