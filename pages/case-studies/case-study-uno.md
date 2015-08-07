@@ -10,7 +10,7 @@ tags:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Case Study Uno</h1>
-        <h3>Lorem ipsum dolor sit amet, an liber error vix, id pri nihil eligendi platonem.</h3>
+        <span>Lorem ipsum dolor sit amet, an liber error vix, id pri nihil eligendi platonem.</span>
     </div>
 </div>
 

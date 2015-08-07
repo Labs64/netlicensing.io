@@ -1,0 +1,20 @@
+---
+layout: null
+---
+CACHE MANIFEST
+# rev {{ site.time | date_to_xmlschema }}
+/css/bootstrap.min.css (10 minutes)
+/css/buttons.css (10 minutes)
+/css/netlicensing.css (10 minutes)
+/img/labs64-avatar-30x30.png (10 minutes)
+/img/labs64-logo.png (10 minutes)
+/img/netlicensing-promo-01.jpg (10 minutes)
+/img/netlicensing-promo-02.jpg (10 minutes)
+/img/netlicensing-promo-03.jpg (10 minutes)
+/img/netlicensing-stage-banner.png (10 minutes)
+/js/bootstrap.min.js (10 minutes)
+/js/cbpScroller.min.js (10 minutes)
+NETWORK:
+*
+http://*
+https://*

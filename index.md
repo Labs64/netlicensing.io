@@ -3,6 +3,8 @@ layout: page
 title: Innovative License Management Solution
 description: "Labs64 NetLicensing - Application Licensing for professionals"
 permalink: /
+sitemap:
+  priority: 0.7
 ---
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">

@@ -5,6 +5,8 @@ description: "NetLicensing is sophisticated enough to cover even the most outlan
 permalink: "/licensing-models/"
 tags:
 - Licensing Models
+sitemap:
+  priority: 0.5
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
