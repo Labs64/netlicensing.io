@@ -4,36 +4,40 @@ layout: compress
 /*----------  Typography  -----------*/
 body {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    font-weight: 400;
 }
 
 p {
     font-size: 14px;
     color: #333;
+    font-weight: 400;
     line-height: 18px;
 }
 
 h1 {
     font-size: 36px;
     color: #FFF;
+    font-weight: 400;
     line-height: 42px;
 }
 
 h2 {
     font-size: 24px;
     color: #333;
+    font-weight: 400;
     line-height: 36px;
 }
 
 h3 {
     font-size: 18px;
     color: #853E29;
+    font-weight: 400;
     line-height: 24px;
 }
 
 h4 {
     font-size: 16px;
     color: #333;
+    font-weight: 300;
     line-height: 24px;
 }
 
