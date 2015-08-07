@@ -10,7 +10,7 @@ tags:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Case Studies</h1>
-        <h3>Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start.</h3>
+        <span>Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start.</span>
     </div>
 </div>
 

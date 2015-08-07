@@ -24,6 +24,13 @@ h2 {
 }
 
 h3 {
+    font-size: 18px;
+    color: #853E29;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+h4 {
     font-size: 16px;
     color: #333;
     font-weight: 400;
@@ -212,8 +219,7 @@ body {
     border-bottom: none;
 }
 
-.NL_footer_menu a:hover,
-.NL_footer_menu h3 {
+.NL_footer_menu a:hover {
     color: #853E29;
 }
 
@@ -237,10 +243,13 @@ body {
     text-align: center;
 }
 
-.NL_about h3,
-.NL_about_page h3,
-.NL_form1 h3 {
+.NL_about span,
+.NL_about_page span,
+.NL_form1 span {
     color: #f9e1c4;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .NL_form1 h2 {
@@ -270,10 +279,6 @@ body {
     margin-right: 5px;
     width: 30px;
     height: 100%;
-}
-
-.NL_FAQ h3 {
-    color: #853E29;
 }
 
 /*----------   Licensing Model Page  -----------*/

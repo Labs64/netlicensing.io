@@ -10,7 +10,7 @@ tags:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Features</h1>
-        <h3>Our enterprise services and support programs ensure your success at every step along the management of your product licensing.</h3>
+        <span>Our enterprise services and support programs ensure your success at every step along the management of your product licensing.</span>
     </div>
 </div>
 
@@ -32,7 +32,7 @@ tags:
     <div class="col-md-12 NL_form1 NL_block">
         <div class="col-md-6 col-md-offset-3">
             <h2>Miss a Feature?</h2>
-            <h3>Do you have an idea for a cool new feature of NetLicensing that you think could be the Next Big Thing™?</h3>
+            <span>Do you have an idea for a cool new feature of NetLicensing that you think could be the Next Big Thing™?</span>
             <form>
                 <div class="form-group">
                     <input class="form-control" id="feature" placeholder="A one-line feature description"/>

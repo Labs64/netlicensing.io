@@ -9,7 +9,7 @@ tags:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>NetLicensing Wiki</h1>
-        <h3>Here you will find resources that will help you learn about NetLicensing, including the current specification, documentation, implementation status, as well as a repository of demos and resources that take advantage of NetLicensing.</h3>
+        <span>Here you will find resources that will help you learn about NetLicensing, including the current specification, documentation, implementation status, as well as a repository of demos and resources that take advantage of NetLicensing.</span>
     </div>
 </div>
 
