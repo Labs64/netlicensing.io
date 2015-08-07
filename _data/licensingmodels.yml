@@ -11,7 +11,7 @@
    - feature
   status: "AVAILABLE"
   img: 'licensing-model-try-and-buy.jpg'
-  class: "fa-battery-full"
+  url: "https://www.labs64.de/confluence/x/twCo"
 
 
 - name: "Subscription"
@@ -25,7 +25,7 @@
    - time
   status: "AVAILABLE"
   img: 'licensing-model-subscription.jpg'
-  class: "fa-battery-full"
+  url: "https://www.labs64.de/confluence/x/ugCo"
 
 
 - name: "Floating"
@@ -38,7 +38,7 @@
    - concurrent
   status: "AVAILABLE"
   img: 'licensing-model-floating.jpg'
-  class: "fa-battery-full"
+  url: "https://www.labs64.de/confluence/x/3YHW"
 
 
 - name: "Rental"
@@ -50,7 +50,7 @@
    - time
   status: "AVAILABLE"
   img: 'licensing-model-rental.jpg'
-  class: "fa-battery-full"
+  url: "https://www.labs64.de/confluence/x/uACo"
 
 
 - name: "Pay-per-Use"
@@ -68,7 +68,7 @@
    - volume
   status: "PLANNED"
   img: 'licensing-model-pay-per-use.jpg'
-  class: "fa-battery-quarter"
+  url: "https://www.labs64.de/confluence/x/tgCo"
 
 
 - name: "Standard"
@@ -81,7 +81,7 @@
    - user
   status: "AVAILABLE"
   img: 'licensing-model-standard.jpg'
-  class: "fa-battery-three-quarters"
+  url: "https://www.labs64.de/confluence/x/tgCo"
 
 
 - name: "Multi-Feature"
@@ -96,7 +96,7 @@
    - feature
   status: "AVAILABLE"
   img: 'licensing-model-standard.jpg'
-  class: "fa-battery-three-quarters"
+  url: "https://www.labs64.de/confluence/x/tgCo"
 
 
 - name: "Named User"
@@ -107,4 +107,4 @@
    - user
   status: "AVAILABLE"
   img: 'licensing-model-standard.jpg'
-  class: "fa-battery-three-quarters"
+  url: "https://www.labs64.de/confluence/x/tgCo"

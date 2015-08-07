@@ -34,7 +34,7 @@ tags:
     <div class="col-md-12 NL_form1 NL_block">
         <div class="col-md-6 col-md-offset-3">
             <h2>Submit a Case Study</h2>
-            <h3>Get your project listed on the NetLicensing website</h3>
+            <span>Get your project listed on the NetLicensing website</span>
             <form>
                 <div class="form-group">
                     <input class="form-control" id="case-study" placeholder="A one-line case study description"/>

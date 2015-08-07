@@ -31,7 +31,7 @@ sitemap:
                 {% if licensingmodel.name %}
                     <li class="item col-md-4" data-id="id-{{ forloop.index }}" data-type="{{ licensingmodel.tags | join: ' '}}">
                         <img alt="{{ licensingmodel.name }}" title="Licensing Model: {{ licensingmodel.name }}" src="/img/{{ licensingmodel.img }}"/>
-                        <h3>{{ licensingmodel.name }}</h3>
+                        <a href="{{ licensingmodel.url }}"><h3>{{ licensingmodel.name }}</h3></a>
                         <p style="font-style: italic; font-size: small; color:#853E29;">
                             {{ licensingmodel.aliases | join: ', ' }}
                         </p>
