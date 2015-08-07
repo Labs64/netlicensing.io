@@ -10,7 +10,7 @@
    - time
    - feature
   status: "AVAILABLE"
-  img: '/img/licensing-model-try-and-buy.jpg'
+  img: 'licensing-model-try-and-buy.jpg'
   class: "fa-battery-full"
 
 
@@ -24,7 +24,7 @@
   tags:
    - time
   status: "AVAILABLE"
-  img: '/img/licensing-model-subscription.jpg'
+  img: 'licensing-model-subscription.jpg'
   class: "fa-battery-full"
 
 
@@ -37,7 +37,7 @@
   tags:
    - concurrent
   status: "AVAILABLE"
-  img: '/img/licensing-model-floating.jpg'
+  img: 'licensing-model-floating.jpg'
   class: "fa-battery-full"
 
 
@@ -49,11 +49,11 @@
   tags:
    - time
   status: "AVAILABLE"
-  img: '/img/licensing-model-rental.jpg'
+  img: 'licensing-model-rental.jpg'
   class: "fa-battery-full"
 
 
-- name: "Pay-per-use"
+- name: "Pay-per-Use"
   aliases:
    - Pre-paid
    - Post-paid
@@ -67,7 +67,7 @@
   tags:
    - volume
   status: "PLANNED"
-  img: '/img/licensing-model-pay-per-use.jpg'
+  img: 'licensing-model-pay-per-use.jpg'
   class: "fa-battery-quarter"
 
 
@@ -80,15 +80,31 @@
   tags:
    - user
   status: "AVAILABLE"
-  img: '/img/licensing-model-standard.jpg'
+  img: 'licensing-model-standard.jpg'
   class: "fa-battery-three-quarters"
 
 
-- name: 
+- name: "Multi-Feature"
   aliases:
-   - xxx
-  description: ""
+   - Pay-per-feature
+   - Feature-based
+   - Modular
+   - Multi-Module
+  description: "This licensing model allows enabling or disabling product features on the user's needs and budget.
+                It may be used to create an upgrade path from a “lite” version to “standard,” “pro,” “enterprise” etc. versions without modifying the software or uninstalling the existing version."
   tags:
-   -
+   - feature
   status: "AVAILABLE"
+  img: 'licensing-model-standard.jpg'
+  class: "fa-battery-three-quarters"
+
+
+- name: "Named User"
+  aliases:
+   - Personal License
+  description: "License rights are granted to specific user IDs. The software may be used on any computer by a user ID that is on a list of licensed users."
+  tags:
+   - user
+  status: "AVAILABLE"
+  img: 'licensing-model-standard.jpg'
   class: "fa-battery-three-quarters"

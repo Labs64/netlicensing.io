@@ -32,11 +32,11 @@ tags:
     <div class="col-md-12 NL_form1 NL_block">
         <div class="col-md-6 col-md-offset-3">
             <h2>Miss a Feature?</h2>
-            <h3>Do you have a question or suggestion?</h3>
+            <h3>Do you have an idea for a cool new feature of NetLicensing that you think could be the Next Big Thing™?</h3>
             <form>
                 <div class="form-group">
-                    <input class="form-control" id="feature" placeholder="Feature"/>
-                    <textarea class="form-control" rows="3" placeholder="Your question or suggestion"></textarea>
+                    <input class="form-control" id="feature" placeholder="A one-line feature description"/>
+                    <textarea class="form-control" rows="3" placeholder="A summary of the feature"></textarea>
                     <button type="submit" class="NL_button button_main NL_banner_btn" role="button"><i class="fa fa-paper-plane"></i>Send</button>
                 </div>
             </form>

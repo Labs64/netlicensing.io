@@ -1,0 +1,17 @@
+- name: "Case Study Uno"
+  description: "Lorem ipsum dolor sit amet, et sit modo solum malis, mei et populo dictas vivendum. At vim stet malis erroribus, ne sed prima vocibus vivendum. Cum ei stet intellegam voluptatibus, pro error denique sententiae eu, eam aeque iudicabit ad. Pro et novum assueverit, iudico prompta inimicus pri in. Denique pertinacia no nec. Quo cu enim mundi.
+                Esse sanctus ex pro, ex efficiendi neglegentur his. Mutat clita eum cu, has ne quas viderer hendrerit, quo verterem principes repudiare at. Ius quem erat ad. Modo eloquentiam vim at, ea eum solum accommodare. Has at idque bonorum adipiscing, ius no consul doctus."
+  url: "/case-studies/case-study-uno/"
+  class: "fa-file-text-o"
+
+- name: "Case Study Due"
+  description: "Everti gloriatur scripserit ex quo, possit tamquam quaeque ex mea. Est et dicta luptatum accusata, sea ubique tibique eu. Hendrerit democritum mea cu, his an quidam voluptua. Has aeque putant in.
+                Mandamus corrumpit vituperatoribus te qui, in prima oportere pro, nec ne ceteros oportere. Everti temporibus contentiones his eu. Cu has aperiam appareat oporteat. Probo novum reprimique te his. Commodo accusam iudicabit ex sea. Etiam mollis ut sed, case appellantur pri at."
+  url: "/case-studies/case-study-due/"
+  class: "fa-file-text-o"
+
+- name: "Case Study Tre"
+  description: "Mandamus corrumpit vituperatoribus te qui, in prima oportere pro, nec ne ceteros oportere. Everti temporibus contentiones his eu. Cu has aperiam appareat oporteat. Probo novum reprimique te his. Commodo accusam iudicabit ex sea. Etiam mollis ut sed, case appellantur pri at.
+                Mei an labitur honestatis ullamcorper, ex mei aliquid minimum gubergren, eirmod accumsan eleifend cu quo. At mea tamquam platonem, ferri constituto no duo, aliquid deseruisse at vix. An pro nostrud cotidieque, eu qui soleat iracundia hendrerit. Hinc congue consetetur ea cum. Utamur veritus adolescens sea no."
+  url: "/case-studies/case-study-tre/"
+  class: "fa-file-text-o"
