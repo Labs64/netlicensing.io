@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Home
-description: "Application Licensing for professionals"
+title: Innovative License Management Solution
+description: "Labs64 NetLicensing - Application Licensing for professionals"
 permalink: /
 ---
 <div class="row NL_banner">
