@@ -12,6 +12,8 @@
                 <form action="//formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contactForm"
                       novalidate>
                     <input type="hidden" name="_next" value="{{ site.url }}"/>
+                    <input type="hidden" name="_subject" value="NetLicensing Contact">
+                    <input type="text" name="_gotcha" style="display:none"/>
 
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
@@ -30,10 +32,6 @@
 
                             <p class="help-block text-danger"></p>
                         </div>
-                    </div>
-                    <div>
-                        <input type="hidden" name="_subject" value="NetLicensing Contact">
-                        <input type="text" name="_gotcha" style="display:none"/>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">

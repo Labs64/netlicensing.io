@@ -35,11 +35,25 @@ tags:
         <div class="col-md-6 col-md-offset-3">
             <h2>Submit a Case Study</h2>
             <span>Get your project listed on the NetLicensing website</span>
-            <form>
+
+            <form action="//formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contactForm"
+                  novalidate>
+                <input type="hidden" name="_next" value="/case-studies/"/>
+                <input type="hidden" name="_subject" value="NetLicensing Contact">
+                <input type="text" name="_gotcha" style="display:none"/>
+
                 <div class="form-group">
-                    <input class="form-control" id="case-study" placeholder="A one-line case study description"/>
-                    <textarea class="form-control" rows="3" placeholder="A summary of the case study"></textarea>
-                    <button type="submit" class="NL_button button_main NL_banner_btn" role="button"><i class="fa fa-paper-plane"></i>Send</button>
+                    <input type="text" name="case-study" class="form-control" placeholder="A one-line case study description"
+                           id="case-study"
+                           data-validation-required-message="Please enter a case study description.">
+
+                    <textarea rows="3" name="summary" class="form-control" placeholder="A summary of the case study"
+                              id="summary"
+                              data-validation-required-message="Please enter a summary of the case study."></textarea>
+
+                    <button type="submit" class="NL_button button_main NL_banner_btn" role="button"><i
+                            class="fa fa-paper-plane"></i>Send
+                    </button>
                 </div>
             </form>
         </div>

@@ -33,14 +33,27 @@ tags:
         <div class="col-md-6 col-md-offset-3">
             <h2>Miss a Feature?</h2>
             <span>Do you have an idea for a cool new feature of NetLicensing that you think could be the Next Big Thing™?</span>
-            <form>
+
+            <form action="//formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contactForm"
+                  novalidate>
+                <input type="hidden" name="_next" value="/features/"/>
+                <input type="hidden" name="_subject" value="NetLicensing Contact">
+                <input type="text" name="_gotcha" style="display:none"/>
+
                 <div class="form-group">
-                    <input class="form-control" id="feature" placeholder="A one-line feature description"/>
-                    <textarea class="form-control" rows="3" placeholder="A summary of the feature"></textarea>
-                    <button type="submit" class="NL_button button_main NL_banner_btn" role="button"><i class="fa fa-paper-plane"></i>Send</button>
+                    <input type="text" name="feature" class="form-control" placeholder="A one-line feature description"
+                           id="feature"
+                           data-validation-required-message="Please enter a feature description.">
+
+                    <textarea rows="3" name="summary" class="form-control" placeholder="A summary of the feature"
+                              id="summary"
+                              data-validation-required-message="Please enter a summary of the feature."></textarea>
+
+                    <button type="submit" class="NL_button button_main NL_banner_btn" role="button"><i
+                            class="fa fa-paper-plane"></i>Send
+                    </button>
                 </div>
             </form>
         </div>
     </div>
 </div>
-
