@@ -34,7 +34,20 @@ exclude:
     - README.md
     - .gitignore
 
+# Custom collections
+collections:
+  case-studies:
+    output: true
+
 defaults:
+  -
+    scope:
+      path: "" 				# an empty string here means all files in the project
+      type: "case-studies"
+    values:
+      layout: "page"
+      show_meta: true 	# Show metadata beneath all pages
+      author: "Labs64"
   -
     scope:
       path: "" 				# an empty string here means all files in the project

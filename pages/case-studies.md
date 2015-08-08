@@ -15,17 +15,23 @@ tags:
 </div>
 
 <div class="NL_block">
-{% for casestudy in site.data.casestudies %}
-    {% if casestudy.name %}
-        <div class="col-md-4 NL_feature">
+{% for casestudy in site.case-studies %}
+    {% if casestudy.title %}
+    <div class="panel-body row">
+        <div class="col-md-4">
             <a href="{{ casestudy.url }}">
-            <h3>
-                <i class="fa {{ casestudy.class }} NL_icon"></i>
-                {{ casestudy.name }}
-            </h3>
+                <img alt="{{ casestudy.title }}" title="Case Study: {{ casestudy.title }}"
+                 src="/img/case-studies/{{ casestudy.img }}" style="width: 350px;padding-left:20px;"/>
             </a>
+        </div>
+        <div class="col-md-8">
+            <a href="{{ casestudy.url }}">
+                <h2>{{ casestudy.title }}</h2>
+            </a>
+
             <p>{{ casestudy.description }}</p>
         </div>
+    </div>
     {% endif %}
 {% endfor %}
 </div>

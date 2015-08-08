@@ -1,8 +1,9 @@
 ---
 layout: page
 title: "Case Study Tre"
-description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start."
+description: "Lorem ipsum dolor sit amet, ut sea nisl mediocrem disputationi, vim eruditi voluptatum ullamcorper eu. Cibo facete tractatos his in. Et latine iracundia definitionem est, te has vocibus intellegam. Sea ullum offendit no, platonem eloquentiam consequuntur eu pri. Convenire consetetur interpretaris mel no, mei ea minim hendrerit intellegat, porro alterum argumentum vis ne. Ad sed vide iudico vocent, vis dico imperdiet ei."
 permalink: "/case-studies/case-study-tre/"
+img: "labs64-netlicensing-lifecycle.png"
 tags:
 - Case Studies
 - Use Cases
@@ -14,7 +15,7 @@ tags:
     </div>
 </div>
 
-## Case Study Tre
+## Problem -> Solution
 
 Lorem ipsum dolor sit amet, ut sea nisl mediocrem disputationi, vim eruditi voluptatum ullamcorper eu. Cibo facete tractatos his in. Et latine iracundia definitionem est, te has vocibus intellegam. Sea ullum offendit no, platonem eloquentiam consequuntur eu pri. Convenire consetetur interpretaris mel no, mei ea minim hendrerit intellegat, porro alterum argumentum vis ne. Ad sed vide iudico vocent, vis dico imperdiet ei.
 

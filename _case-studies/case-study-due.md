@@ -1,8 +1,9 @@
 ---
 layout: page
 title: "Case Study Due"
-description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start."
+description: "Lorem ipsum dolor sit amet, ne eos dolor affert, id sed etiam scribentur. Duo eu ferri perpetua, clita gubergren cu mei. Suas stet mei no, ceteros ancillae ad pri. Ea nec blandit urbanitas. Vis id quas dicat accumsan."
 permalink: "/case-studies/case-study-due/"
+img: "labs64-netlicensing-lifecycle.png"
 tags:
 - Case Studies
 - Use Cases
@@ -14,7 +15,7 @@ tags:
     </div>
 </div>
 
-## Case Study Due
+## Problem -> Solution
 
 Lorem ipsum dolor sit amet, ne eos dolor affert, id sed etiam scribentur. Duo eu ferri perpetua, clita gubergren cu mei. Suas stet mei no, ceteros ancillae ad pri. Ea nec blandit urbanitas. Vis id quas dicat accumsan.
 

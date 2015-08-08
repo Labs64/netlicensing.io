@@ -1,8 +1,9 @@
 ---
 layout: page
 title: "Case Study Uno"
-description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start."
+description: "Lorem ipsum dolor sit amet, an liber error vix, id pri nihil eligendi platonem. Imperdiet inciderint cu nam, ut mundi elitr perfecto vel. Ex offendit qualisque sit, illud definiebas ea per, at pro legimus dolorem accusam. Dolore facilisis ne pro, mel ad integre tractatos. Et nihil voluptaria eam, eu dolore aperiam prompta sit. Ancillae expetendis sed at, modo solum soleat vim et, case alterum sed cu."
 permalink: "/case-studies/case-study-uno/"
+img: "labs64-netlicensing-lifecycle.png"
 tags:
 - Case Studies
 - Use Cases
@@ -14,7 +15,7 @@ tags:
     </div>
 </div>
 
-## Case Study Uno
+## Problem -> Solution
 
 Lorem ipsum dolor sit amet, an liber error vix, id pri nihil eligendi platonem. Imperdiet inciderint cu nam, ut mundi elitr perfecto vel. Ex offendit qualisque sit, illud definiebas ea per, at pro legimus dolorem accusam. Dolore facilisis ne pro, mel ad integre tractatos. Et nihil voluptaria eam, eu dolore aperiam prompta sit. Ancillae expetendis sed at, modo solum soleat vim et, case alterum sed cu.
 
