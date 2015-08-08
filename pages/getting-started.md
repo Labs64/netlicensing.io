@@ -25,7 +25,7 @@ tags:
         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
             <div class="panel-body row NL_accordion_content">
                 <div class="col-md-4">
-                    <img src="/img/getting-started-01.jpg" alt="Create NetLicensing account"
+                    <img src="/img/getting-started/getting-started-01.jpg" alt="Create NetLicensing account"
                          style="width: 350px;padding-left:20px;">
                 </div>
                 <div class="col-md-8">
@@ -46,7 +46,7 @@ tags:
         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
             <div class="panel-body row NL_accordion_content">
                 <div class="col-md-4">
-                    <img src="/img/getting-started-02.jpg" alt="Configure product"
+                    <img src="/img/getting-started/getting-started-02.jpg" alt="Configure product"
                          style="width: 350px;padding-left:20px;">
                 </div>
                 <div class="col-md-8">
@@ -72,31 +72,30 @@ tags:
         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
             <div class="panel-body row NL_accordion_content">
                 <div class="col-md-4">
-                    <img src="/img/getting-started-03.jpg" alt="Validate licensee"
+                    <img src="/img/getting-started/getting-started-03.jpg" alt="Validate licensee"
                          style="width: 350px;padding-left:20px;">
                 </div>
                 <div class="col-md-8">
                     Request:
                     {% highlight ruby %}
-                    GET https://netlicensing.labs64.com/core/v2/rest/licensee/I011/validate
+$ curl --header "Accept: application/xml" --insecure --user demo:demo --request GET https://netlicensing.labs64.com/core/v2/rest/licensee/%LICENSEE_NUMBER%/validate
                     {% endhighlight %}
                     Response:
                     {% highlight xml %}
-                    <netlicensing xmlns="http://netlicensing.labs64.com/schema/context">
-                        <items>
-                            <item type="ProductModuleValidation">
-                                <property name="productModuleNumber">M011</property>
-                                <property name="productModuleName">Terminal Devices</property>
-                                <property name="licensingModel">Rental</property>
-                                <list name="L011">
-                                    <property name="valid">false</property>
-                                </list>
-                                <list name="L012">
-                                    <property name="valid">false</property>
-                                </list>
-                            </item>
-                        </items>
-                    </netlicensing>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<netlicensing xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://netlicensing.labs64.com/schema/context" ttl="2015-08-09T06:41:15.854Z">
+    <infos/>
+    <items>
+        <item type="ProductModuleValidation">
+            <property name="productModuleNumber">M22-DEMO</property>
+            <property name="valid">true</property>
+            <property name="licensingModel">TryAndBuy</property>
+            <property name="productModuleName">Module licensed under Try &amp; Buy LM</property>
+            <property name="evaluationExpires">2015-09-07T06:38:16.809Z</property>
+            <property name="evaluation">true</property>
+        </item>
+    </items>
+</netlicensing>
                     {% endhighlight %}
                 </div>
             </div>
@@ -113,7 +112,7 @@ tags:
         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
             <div class="panel-body row NL_accordion_content">
                 <div class="col-md-4">
-                    <img src="/img/getting-started-04.jpg" alt="Integrate NetLicensing API"
+                    <img src="/img/getting-started/getting-started-04.jpg" alt="Integrate NetLicensing API"
                          style="width: 350px;padding-left:20px;">
                 </div>
                 <div class="col-md-8">
@@ -133,7 +132,7 @@ tags:
         <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
             <div class="panel-body row NL_accordion_content">
                 <div class="col-md-4">
-                    <img src="/img/getting-started-05.jpg" alt="Acquire licenses via NetLicensing Shop"
+                    <img src="/img/getting-started/getting-started-05.jpg" alt="Acquire licenses via NetLicensing Shop"
                          style="width: 350px;padding-left:20px;">
                 </div>
                 <div class="col-md-8">
