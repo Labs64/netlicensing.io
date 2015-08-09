@@ -1,68 +1,76 @@
 <footer>
     <div class="row NL_footer_menu">
-        <ul class="col-md-2 col-md-offset-1">
+        <div class="col-md-2 col-md-offset-1">
             <h3>Documentation</h3>
-            {% for page in site.data.services %}
-                {% if page.section == 'Documentation' %}
-                    {% if page.title %}
-                        {% if page.url contains 'http' %}
-                            {% assign link = page.url %}
-                        {% else %}
-                            {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
+            <ul>
+                {% for page in site.data.services %}
+                    {% if page.section == 'Documentation' %}
+                        {% if page.title %}
+                            {% if page.url contains 'http' %}
+                                {% assign link = page.url %}
+                            {% else %}
+                                {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
+                            {% endif %}
+                            <li>
+                                <a class="page-link {{ page.class }}" href="{{ link }}">
+                                    {{ page.title }}
+                                </a>
+                            </li>
                         {% endif %}
-                        <li>
-                            <a class="page-link {{ page.class }}" href="{{ link }}">
-                                {{ page.title }}
-                            </a>
-                        </li>
                     {% endif %}
-                {% endif %}
-            {% endfor %}
-        </ul>
-        <ul class="col-md-2 col-md-offset-1">
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="col-md-2 col-md-offset-1">
             <h3>Legal</h3>
-            {% for page in site.data.services %}
-                {% if page.section == 'Legal' %}
-                    {% if page.title %}
-                        {% if page.url contains 'http' %}
-                            {% assign link = page.url %}
-                        {% else %}
-                            {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
+            <ul>
+                {% for page in site.data.services %}
+                    {% if page.section == 'Legal' %}
+                        {% if page.title %}
+                            {% if page.url contains 'http' %}
+                                {% assign link = page.url %}
+                            {% else %}
+                                {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
+                            {% endif %}
+                            <li>
+                                <a class="page-link {{ page.class }}" href="{{ link }}">
+                                    {{ page.title }}
+                                </a>
+                            </li>
                         {% endif %}
-                        <li>
-                            <a class="page-link {{ page.class }}" href="{{ link }}">
-                                {{ page.title }}
-                            </a>
-                        </li>
                     {% endif %}
-                {% endif %}
-            {% endfor %}
-        </ul>
-        <ul class="col-md-2 col-md-offset-1 NL_footer_contacts">
-            <img src="{{ '/img/labs64-logo.png' | prepend: site.baseurl | prepend: site.url }}" alt="{{ site.data.contacts[0].title }}"/>
-            <li> Phone: <span class="L64_links">{{ site.data.contacts[0].phone }}</span></li>
-            <li> Email: <span class="L64_links"><a href="mailto:{{ site.data.contacts[0].email }}?subject={{ site.title }}">{{ site.data.contacts[0].email }}</a></span></li>
-            <li> Web: <span class="L64_links"><a href="{{ site.data.contacts[0].url }}">{{ site.data.contacts[0].web }}</a></span></li>
-        </ul>
-        <ul class="col-md-2 col-md-offset-1">
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="col-md-2 col-md-offset-1">
+            <ul class="NL_footer_contacts">
+                <img src="{{ '/img/labs64-logo.png' | prepend: site.baseurl | prepend: site.url }}" alt="{{ site.data.contacts[0].title }}"/>
+                <li> Phone: <span class="L64_links">{{ site.data.contacts[0].phone }}</span></li>
+                <li> Email: <span class="L64_links"><a href="mailto:{{ site.data.contacts[0].email }}?subject={{ site.title }}">{{ site.data.contacts[0].email }}</a></span></li>
+                <li> Web: <span class="L64_links"><a href="{{ site.data.contacts[0].url }}">{{ site.data.contacts[0].web }}</a></span></li>
+            </ul>
+        </div>
+        <div class="col-md-2 col-md-offset-1">
             <h3>Company</h3>
-            {% for page in site.data.services %}
-                {% if page.section == 'Company' %}
-                    {% if page.title %}
-                        {% if page.url contains 'http' %}
-                            {% assign link = page.url %}
-                        {% else %}
-                            {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
+            <ul>
+                {% for page in site.data.services %}
+                    {% if page.section == 'Company' %}
+                        {% if page.title %}
+                            {% if page.url contains 'http' %}
+                                {% assign link = page.url %}
+                            {% else %}
+                                {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
+                            {% endif %}
+                            <li>
+                                <a class="page-link {{ page.class }}" href="{{ link }}">
+                                    {{ page.title }}
+                                </a>
+                            </li>
                         {% endif %}
-                        <li>
-                            <a class="page-link {{ page.class }}" href="{{ link }}">
-                                {{ page.title }}
-                            </a>
-                        </li>
                     {% endif %}
-                {% endif %}
-            {% endfor %}
-        </ul>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
     <div class="row NL_footer">
         <p class="col-md-5 col-md-offset-1">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
