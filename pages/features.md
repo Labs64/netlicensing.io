@@ -14,18 +14,21 @@ tags:
     </div>
 </div>
 
-<div class="NL_block">
-{% for feature in site.data.features %}
-    {% if feature.name %}
+<div class="row">
+    <div class="NL_block">
+        {% for feature in site.data.features %}
+        {% if feature.name %}
         <div class="col-md-3 NL_feature">
             <h3>
-                <i class="fa {{ feature.class }} NL_icon"></i> 
+                <i class="fa {{ feature.class }} NL_icon"></i>
                 {{ feature.name }}
             </h3>
+
             <p>{{ feature.description }}</p>
         </div>
-    {% endif %}
-{% endfor %}
+        {% endif %}
+        {% endfor %}
+    </div>
 </div>
 
 <div class="row">
@@ -55,5 +58,39 @@ tags:
                 </div>
             </form>
         </div>
+    </div>
+</div>
+
+<div class="row NL_block">
+    <h2 class="col-md-12">NetLicensing Software Licensing</h2>
+
+    <p class="col-md-12">A Online Software Licensing Management Service for Application Control, Trial Management and
+        Software Activation. Easily retrofit your product and then control all the aspects of a users interaction and
+        usage.</p>
+</div>
+
+<div class="row NL_FAQ">
+    <div class="col-md-6">
+        <h3>Protect your Intellectual Property and give users a great experience</h3>
+        <ul style="margin-left: 20px;">
+            <li>Control, secure and manage your software assets</li>
+            <li>Save engineering time and forget expensive infrastructure costs by outsourcing your license management</li>
+            <li>Automated systems capture license abuse and convert it to new revenues</li>
+            <li>Total control of your installed apps from a central server using NetLicensing API</li>
+            <li>Measure and report license activation and usage</li>
+            <li>Virtualization management and control</li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h3>All you need out of the box</h3>
+        <ul style="margin-left: 20px;">
+            <li>99.9% UPTIME</li>
+            <li>FREE support</li>
+            <li>FREE maintenance</li>
+            <li>FREE updates</li>
+            <li>Support for ALL environments</li>
+            <li>Easy to retrofit to your product then setup and use</li>
+            <li>No additional requirements, just NetLicensing API - the rest works out of the box</li>
+        </ul>
     </div>
 </div>

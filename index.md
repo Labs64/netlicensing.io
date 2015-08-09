@@ -13,7 +13,8 @@ sitemap:
             Based on open standards, it provides a cost effective, integrated and scalable platform for software vendors
             and developers who want to concentrate on their product’s core functionality instead of spending resources
             on developing an own license management software.</span>
-        <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001" class="NL_button button_main NL_banner_btn" role="button"><i class="fa fa-eye"></i>Live Demo</a>
+        <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001"
+           class="NL_button button_main NL_banner_btn" role="button"><i class="fa fa-eye"></i>Live Demo</a>
     </div>
 </div>
 
@@ -40,7 +41,8 @@ sitemap:
                 <h2>Streamline purchasing process</h2>
 
                 <h4>NetLicensing provides a seamless online purchase experience, aligned with the deployed licensing
-                    models. Our PayPal integration allows your global customers to pay in their preferred currency.</h4>
+                    models.<br/>Our PayPal integration allows your global customers to pay in their preferred currency.
+                </h4>
             </article>
         </section>
 
@@ -48,18 +50,34 @@ sitemap:
             <article class="cbp-so-side cbp-so-side-left">
                 <h2>Integrate fast</h2>
 
-                <h4>NetLicensing makes setup and integration fast, safe and very simple. So you can get up and running in
-                    a few hours.</h4>
+                <h4>NetLicensing makes setup and integration fast, safe and very simple.<br/>
+                    So you can get up and running in a few hours.</h4>
+
                 <div class="col-md-8 col-md-offset-4 NL_dialog">
-                    <div class="col-md-3"><img class="NL_dialog_img" alt="{{ site.title }}" src="{{ '/img/labs64-avatar-30x30.png' | prepend: site.baseurl | prepend: site.url }}" /></div>
-                    <div class="col-md-9">As easy as one, two, three!<br/>
-                        <span class="NL_link">NetLicensing, Labs64 </span></div>
+                    <div class="col-md-3"><img class="NL_dialog_img" alt="{{ site.title }}"
+                                               src="{{ '/img/labs64-avatar-30x30.png' | prepend: site.baseurl | prepend: site.url }}"/>
+                    </div>
+                    <div class="col-md-9">As easy as one, two, three!</div>
                 </div>
-                
+
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
                 <img src="img/netlicensing-promo-03.jpg" alt="NetLicensing Integration">
             </figure>
         </section>
+
+        <section class="cbp-so-section">
+            <figure class="cbp-so-side cbp-so-side-left">
+                <img src="img/netlicensing-promo-04.jpg" alt="NetLicensing Activation">
+            </figure>
+            <article class="cbp-so-side cbp-so-side-right">
+                <h2>Activate over the Internet</h2>
+
+                <h4>NetLicensing allows you to deliver and activate product licenses to your customers 24x7x365, without
+                    customer support involvement. With NetLicensing, your licensing back-office can be completely
+                    automated.<br/>In addition, you can manage licenses in the field with NetLicensing Manage.</h4>
+            </article>
+        </section>
+
     </div>
 </div>

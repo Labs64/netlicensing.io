@@ -29,8 +29,10 @@ tags:
                          style="width: 350px;padding-left:20px;">
                 </div>
                 <div class="col-md-8">
-                    <p>Signup for a NetLicensing account</p>
-                    <a class="NL_button button_main NL_LM_btn" href="https://netlicensing.labs64.com/app/v2/content/register.xhtml">Sign Up Now!</a>
+                    <p>IT’S NOT JUST FREE TO GET STARTED, IT’S FREE FOREVER!</p>
+                    <ul style="margin-left: 20px;">
+                        <li><a href="https://netlicensing.labs64.com/app/v2/content/register.xhtml">Sign-up for a NetLicensing account</a> and get started for FREE</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -50,7 +52,7 @@ tags:
                          style="width: 350px;padding-left:20px;">
                 </div>
                 <div class="col-md-8">
-                    <ul>
+                    <ul style="margin-left: 20px;">
                         <li>Navigate to <a href="https://netlicensing.labs64.com/app/v2/content/vendor/demodata.xhtml">'Settings -> Demo Data'</a></li>
                         <li>Select 'Licensing Model'</li>
                         <li>(Optional) provide custom identifier</li>
