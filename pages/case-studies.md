@@ -19,13 +19,13 @@ tags:
     {% if casestudy.title %}
     <div class="panel-body row">
         <div class="col-md-4">
-            <a href="{{ casestudy.url }}">
+            <a href="{{ casestudy.url }}" title="Case Study: {{ casestudy.title }}">
                 <img alt="{{ casestudy.title }}" title="Case Study: {{ casestudy.title }}"
                  src="/img/case-studies/{{ casestudy.img }}" style="width: 350px;padding-left:20px;"/>
             </a>
         </div>
         <div class="col-md-8">
-            <a href="{{ casestudy.url }}">
+            <a href="{{ casestudy.url }}" title="Case Study: {{ casestudy.title }}">
                 <h2>{{ casestudy.title }}</h2>
             </a>
 

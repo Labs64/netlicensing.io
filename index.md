@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Innovative License Management Solution
-description: "Labs64 NetLicensing - Application Licensing for professionals"
+description: "Labs64 NetLicensing - Application License Management for Professionals"
 permalink: /
 sitemap:
   priority: 0.7
@@ -57,7 +57,7 @@ sitemap:
                     <div class="col-md-3"><img class="NL_dialog_img" alt="{{ site.title }}"
                                                src="{{ '/img/labs64-avatar-30x30.png' | prepend: site.baseurl | prepend: site.url }}"/>
                     </div>
-                    <div class="col-md-9">As easy as one, two, three!</div>
+                    <div class="col-md-9"><i>As easy as one, two, three!</i></div>
                 </div>
 
             </article>

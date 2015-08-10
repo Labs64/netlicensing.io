@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "For Integrators"
-description: "NetLicensing Wiki"
+description: "NetLicensing Wik: current specification, documentation, implementation status, as well as a repository of examples and resources."
 permalink: "/documentation/"
 tags:
 - documentation
