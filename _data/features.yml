@@ -23,8 +23,12 @@
   class: "fa-hourglass-end"
 
 - name: "Cross-Platform Licensing"
-  description: "Based on open standards, NetLicensing allows easy integration on the broadest range of platforms – mobile, embedded and on-premise."
+  description: "Based on open standards, NetLicensing allows easy integration on the broadest range of platforms – IoT, mobile, embedded and on-premise."
   class: "fa-cubes"
+
+- name: "Internet of Things (IoT) Licensing"
+  description: "Allow your customers 'borrow' or 'lease' rather than 'buy' your <i>'Internet of Things'</i> product."
+  class: "fa-car"
 
 - name: "Virtualization Support"
   description: "NetLicensing offers a comprehensive licensing support for virtual environments and sandboxing."
@@ -35,7 +39,7 @@
   class: "fa-server"
 
 - name: "Product Usage Tracking and Analytics"
-  description: "See how your software is performing out in the wild. NetLicensing gives you insight into your licensees’ product usage."
+  description: "See how your software is performing out in the wild. NetLicensing gives you insight into your licensees' product usage."
   class: "fa-line-chart"
 
 - name: "Online Management Portal"
