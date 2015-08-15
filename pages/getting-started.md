@@ -29,10 +29,11 @@ tags:
                          style="width: 350px;padding-left:20px;">
                 </div>
                 <div class="col-md-8">
-                    <p>IT’S NOT JUST FREE TO GET STARTED, IT’S FREE FOREVER!</p>
                     <ul style="margin-left: 20px;">
-                        <li><a href="https://netlicensing.labs64.com/app/v2/content/register.xhtml">Sign-up for a NetLicensing account</a> and or use our <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001">Demo account</a></li>
+                        <li>Sign-up for a <a href="https://netlicensing.labs64.com/app/v2/content/register.xhtml" title="It’s not just free to get started, it’s FREE forever!">free NetLicensing account</a> and or use our <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001">demo account</a></li>
                         <li>Add your username, password, email and company name</li>
+                        <li>Agree to the NetLicensing <i>Terms of Service</i> and <i>Privacy Policy</i></li>
+                        <li>Enable <i>'Newsletter'</i> checkbox if want to be notified about NetLicensing announcements, news and promo actions</li>
                     </ul>
                 </div>
             </div>
@@ -54,12 +55,12 @@ tags:
                 </div>
                 <div class="col-md-8">
                     <ul style="margin-left: 20px;">
-                        <li>Navigate to <a href="https://netlicensing.labs64.com/app/v2/content/vendor/demodata.xhtml">'Settings -> Demo Data'</a></li>
-                        <li>Select 'Licensing Model'</li>
+                        <li>Navigate to <i><a href="https://netlicensing.labs64.com/app/v2/content/vendor/demodata.xhtml">'Settings -> Demo Data'</a></i></li>
+                        <li>Select <i>'Licensing Model'</i></li>
                         <li>(Optional) provide custom identifier</li>
-                        <li>Click on 'Create'</li>
+                        <li>Click on <i>'Create'</i></li>
                     </ul>
-                    Demo entities (Product, Product Module, License Templates, Licensee) will be created
+                    Demo NetLicensing entities (Product, Product Module, License Templates, Licensee) will be created
                 </div>
             </div>
         </div>
@@ -79,18 +80,26 @@ tags:
                          style="width: 350px;padding-left:20px;">
                 </div>
                 <div class="col-md-8">
-                    Request:
+                    <ul style="margin-left: 20px;">
+                        <li>Navigate to <i><a href="https://netlicensing.labs64.com/app/v2/content/vendor/licensee.xhtml">'Operate -> Licensee'</a></i></li>
+                        <li>Identify newly created licensee and note <i>Licensee Number</i></li>
+                        <li>Send first validation request (replace %LICENSEE_NUMBER%)</li>
+                        <li>In case you are using your vendor account please provide <i>username:password</i> in the <i>--user</i> attribute</li>
+                        <li>Alternatively you can use NetLicensing API <i><a href="http://io.labs64.com/NetLicensing-API/">test application</a></i>, which provides easy access to all NetLicensing functions</li>
+                    </ul>
+                    <span>
+                    Sample request:
                     {% highlight ruby %}
 $ curl --header "Accept: application/xml" --insecure --user demo:demo --request GET https://netlicensing.labs64.com/core/v2/rest/licensee/%LICENSEE_NUMBER%/validate
                     {% endhighlight %}
-                    Response:
+                    Sample response:
                     {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <netlicensing xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://netlicensing.labs64.com/schema/context" ttl="2015-08-09T06:41:15.854Z">
     <infos/>
     <items>
         <item type="ProductModuleValidation">
-            <property name="productModuleNumber">M22-DEMO</property>
+            <property name="productModuleNumber">MNLIC-DEMO</property>
             <property name="valid">true</property>
             <property name="licensingModel">TryAndBuy</property>
             <property name="productModuleName">Module licensed under Try &amp; Buy LM</property>
@@ -100,6 +109,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
     </items>
 </netlicensing>
                     {% endhighlight %}
+                    </span>
                 </div>
             </div>
         </div>
@@ -119,7 +129,11 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
                          style="width: 350px;padding-left:20px;">
                 </div>
                 <div class="col-md-8">
-                    Integrate <a href="https://www.labs64.de/confluence/x/pwCo">NetLicensing API</a> in your product
+                    <ul style="margin-left: 20px;">
+                        <li>NetLicensing API allows you automate managing of all licensing entities (from <i>product</i> to <i>transaction</i>)</li>
+                        <li>Please refer to the <i><a href="https://www.labs64.de/confluence/x/sQCo">NetLicensing Object Model</a></i> in order to better understand licensing entities relationship</li>
+                        <li>Page <i><a href="/documentation/">For Integrators</a></i> will give you overview over all existing NetLicensing resources (Test App, RESTful API, JavaDoc, Client Libraries etc.)</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -139,15 +153,17 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
                          style="width: 350px;padding-left:20px;">
                 </div>
                 <div class="col-md-8">
-                    <p>Provide a link to NetLicensing Shop in the UI of your product or forward the user to NetLicensing
-                        Shop URL by other means.The URL of NetLicensing Shop has the following format:</p>
-                    {% highlight ruby %}
-                    https://netlicensing.labs64.com/app/v2/content/shop.xhtml?shoptoken={token}
-                    {% endhighlight %}
-                    <p>_token_ must be obtained using <a
-                            href="https://www.labs64.de/confluence/display/NLICPUB/Token+Services">create token</a>
-                        service with tokenType=SHOP. The Generate token service returns also the complete shop URL for
-                        convenience.</p>
+                    <ul style="margin-left: 20px;">
+                        <li>Provide a link to NetLicensing Shop in the UI of your product or forward the user to NetLicensing Shop URL by other means</li>
+                        <li>The URL of NetLicensing Shop has the following format:</li>
+                        {% highlight ruby %}
+                        https://netlicensing.labs64.com/app/v2/content/shop.xhtml?shoptoken=%TOKEN%
+                        {% endhighlight %}
+                        <p><i>%TOKEN%</i> must be obtained using <a
+                                href="https://www.labs64.de/confluence/display/NLICPUB/Token+Services">create token</a>
+                            service with <i>tokenType=SHOP</i>. The <i>Create token</i> service returns also the complete <i>shopURL</i> for
+                            convenience.</p>
+                    </ul>
                 </div>
             </div>
         </div>
