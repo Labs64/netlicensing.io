@@ -80,4 +80,20 @@ sitemap:
         </section>
 
     </div>
+
+    <div class="row">
+        <div class="col-md-12 NL_form1 NL_block">
+            <div class="col-md-6 col-md-offset-3">
+                <h2>Signup for a NetLicensing account</h2>
+                <span>Join the hundreds of happy NetLicensing customers</span>
+                <form action="https://netlicensing.labs64.com/app/v2/content/register.xhtml" method="GET" name="register" id="register"
+                      novalidate>
+                        <button type="submit" class="NL_button button_main NL_banner_btn" role="button"><i
+                                class="fa fa-paper-plane"></i>Sign Up Now!
+                        </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
 </div>

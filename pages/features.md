@@ -10,7 +10,7 @@ tags:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Features</h1>
-        <span>Our enterprise services and support programs ensure your success at every step along the management of your product licensing.</span>
+        <span>World class features, integrated to save you time & money.</span>
     </div>
 </div>
 
@@ -75,9 +75,10 @@ tags:
         <ul style="margin-left: 20px;">
             <li>Control, secure and manage your software assets</li>
             <li>Save engineering time and forget expensive infrastructure costs by outsourcing your license management</li>
+            <li>Our enterprise services and support programs ensure your success at every step along the management of your product licensing</li>
             <li>Automated systems capture license abuse and convert it to new revenues</li>
-            <li>Total control of your installed apps from a central server using NetLicensing API</li>
-            <li>Measure and report license activation and usage</li>
+            <li>Total control of your installed software from a central server using NetLicensing API</li>
+            <li>Measure and report license activation and product usage</li>
             <li>Virtualization management and control</li>
         </ul>
     </div>
