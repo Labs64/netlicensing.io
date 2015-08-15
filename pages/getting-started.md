@@ -31,7 +31,8 @@ tags:
                 <div class="col-md-8">
                     <p>IT’S NOT JUST FREE TO GET STARTED, IT’S FREE FOREVER!</p>
                     <ul style="margin-left: 20px;">
-                        <li><a href="https://netlicensing.labs64.com/app/v2/content/register.xhtml">Sign-up for a NetLicensing account</a> and get started for FREE</li>
+                        <li><a href="https://netlicensing.labs64.com/app/v2/content/register.xhtml">Sign-up for a NetLicensing account</a> and or use our <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001">Demo account</a></li>
+                        <li>Add your username, password, email and company name</li>
                     </ul>
                 </div>
             </div>

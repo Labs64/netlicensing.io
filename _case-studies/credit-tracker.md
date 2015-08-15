@@ -20,7 +20,7 @@ tags:
 
 ![{{ page.title }}](/img/case-studies/{{ page.img }} "{{ page.title }}")
 
-### Problem -> Solution
+### Challenge
 
 The effective use of stock images and photography on your website and blog can have a massive impact on the number of visits which your site receives, and the positive response which visitors have to your sites content. Whilst a great deal of high quality images are available for free in the public domain, to really make your site stand out you’ll want to use images which are supplied by a top quality photographer or company.
 
@@ -49,3 +49,23 @@ This plugin adds the following fields to all images in WordPress Media Library:
 * Add microdata to the images
 
 Website: [{{ page.website }}]({{ page.website }})
+
+### Approach
+
+
+### Results
+
+### Case Facts
+
+#### Company
+* Labs64 GmbH
+
+#### Industry
+* Software as a Service
+
+#### Use Case
+* In-plugin engagement
+* Product monitoring
+
+#### Favorite Feature
+* Product Usage
