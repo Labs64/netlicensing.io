@@ -1,8 +1,8 @@
 # Site settings
-title: "NetLicensing"
+title: NetLicensing
 email: info@labs64.com
-description: "Labs64 NetLicensing is a first-class solution in the Licensing as a Service (LaaS) sector."
-keywords: netlicensing,floating licensing model,license management,license manager,license server,licensing as a service,licensing model,security license,site license,software activation,software license,software license control,software license management,software license types,software licenses,software licensing,software licensing models,software licensing service,subscription licensing model
+description: Labs64 NetLicensing is a first-class solution in the Licensing as a Service (LaaS) sector.
+keywords: netlicensing,software license,licensing model,license types,license management,licensing as a service,software activation,subscription,floating
 copyright: Labs64 GmbH
 
 url: "http://netlicensing.io"

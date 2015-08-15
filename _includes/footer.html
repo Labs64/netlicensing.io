@@ -42,12 +42,12 @@
                 {% endfor %}
             </ul>
         </div>
-        <div class="col-md-2 col-md-offset-1">
-            <h3><img src="{{ '/img/labs64-logo.png' | prepend: site.baseurl | prepend: site.url }}" alt="{{ site.data.contacts[0].title }}"/></h3>
+        <div itemscope itemtype="http://schema.org/Organization" class="col-md-2 col-md-offset-1">
+            <h3><img itemprop="image" src="{{ '/img/labs64-logo.png' | prepend: site.baseurl | prepend: site.url }}" alt="{{ site.data.contacts[0].title }}"/></h3>
             <ul class="NL_footer_contacts">
-                <li> Phone: <span class="L64_links">{{ site.data.contacts[0].phone }}</span></li>
-                <li> Email: <span class="L64_links"><a href="mailto:{{ site.data.contacts[0].email }}?subject={{ site.title }}">{{ site.data.contacts[0].email }}</a></span></li>
-                <li> Web: <span class="L64_links"><a href="{{ site.data.contacts[0].url }}">{{ site.data.contacts[0].web }}</a></span></li>
+                <li> Phone: <span itemprop="telephone" class="L64_links">{{ site.data.contacts[0].phone }}</span></li>
+                <li> Email: <span class="L64_links"><a href="mailto:{{ site.data.contacts[0].email }}?subject={{ site.title }}" itemprop="email">{{ site.data.contacts[0].email }}</a></span></li>
+                <li> Web: <span class="L64_links"><a href="{{ site.data.contacts[0].url }}" itemprop="url">{{ site.data.contacts[0].web }}</a></span></li>
             </ul>
         </div>
         <div class="col-md-2 col-md-offset-1">
@@ -73,7 +73,7 @@
         </div>
     </div>
     <div class="row NL_footer">
-        <p class="col-md-5 col-md-offset-1">{{ site.title }} - Innovative License Management Solution | Copyright &copy; 2010 - 20{{ site.time | date: '%y' }} {{ site.copyright }}</p>
+        <p class="col-md-5 col-md-offset-1">Innovative License Management Solution | Copyright &copy; 2010 - 20{{ site.time | date: '%y' }} {{ site.copyright }}</p>
         <div class="col-md-5 NL_social">
             <p>
             {% for media in site.data.socialmedia %}

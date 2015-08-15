@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Features"
-description: "All the features you need to effectively manage your product licenses"
+description: "World class features you need to effectively manage your product licenses"
 permalink: "/features/"
 tags:
 - features

@@ -69,6 +69,13 @@ body {
     padding: 0px;
 }
 
+.NL_intro span {
+    font-size: 16px;
+    color: #333;
+    font-weight: 300;
+    line-height: 24px;
+}
+
 .NL_banner {
     background: url(../img/netlicensing-stage-banner.png) 100% 100%;
     background-position-y: center;

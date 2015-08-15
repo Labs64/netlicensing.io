@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Innovative License Management Solution
-description: "Labs64 NetLicensing - Application License Management for Professionals"
+description: "Labs64 NetLicensing - Innovative License Management Solution for software vendors (ISVs)"
 permalink: /
 sitemap:
   priority: 0.7
 ---
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
-        <h1>Move your licensing to the Cloud</h1>
+        <h1>Move your Licensing to the Cloud</h1>
         <span>Labs64 NetLicensing is a first-class solution in the Licensing as a Service (LaaS) sector.
             Based on open standards, it provides a cost effective, integrated and scalable platform for software vendors
             and developers who want to concentrate on their product’s core functionality instead of spending resources
@@ -19,14 +19,14 @@ sitemap:
 </div>
 
 <div class="row">
-    <div id="cbp-so-scroller" class="cbp-so-scroller">
+    <div id="cbp-so-scroller" class="cbp-so-scroller NL_intro">
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
                 <h2>Be flexible</h2>
 
-                <h4>With NetLicensing you have a choice of ready-to-use licensing models or customized licensing models
+                <span>With NetLicensing you have a choice of ready-to-use licensing models or customized licensing models
                     may be created to suit your unique business needs and goals.
-                    NetLicensing has an open architecture that allows easy extension with new licensing models.</h4>
+                    NetLicensing has an open architecture that allows easy extension with new licensing models.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
                 <img src="img/netlicensing-promo-01.jpg" alt="NetLicensing Flex">
@@ -40,9 +40,9 @@ sitemap:
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Streamline purchasing process</h2>
 
-                <h4>NetLicensing provides a seamless online purchase experience, aligned with the deployed licensing
+                <span>NetLicensing provides a seamless online purchase experience, aligned with the deployed licensing
                     models.<br/>Our PayPal integration allows your global customers to pay in their preferred currency.
-                </h4>
+                </span>
             </article>
         </section>
 
@@ -50,8 +50,8 @@ sitemap:
             <article class="cbp-so-side cbp-so-side-left">
                 <h2>Integrate fast</h2>
 
-                <h4>NetLicensing makes setup and integration fast, safe and very simple.<br/>
-                    So you can get up and running in a few hours.</h4>
+                <span>NetLicensing makes setup and integration fast, safe and very simple.<br/>
+                    So you can get up and running in a few hours.</span>
 
                 <div class="col-md-8 col-md-offset-4 NL_dialog">
                     <div class="col-md-3"><img class="NL_dialog_img" alt="{{ site.title }}"
@@ -73,9 +73,9 @@ sitemap:
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Activate over the Internet</h2>
 
-                <h4>NetLicensing allows you to deliver and activate product licenses to your customers 24x7x365, without
+                <span>NetLicensing allows you to deliver and activate product licenses to your customers 24x7x365, without
                     customer support involvement. With NetLicensing, your licensing back-office can be completely
-                    automated.<br/>In addition, you can manage licenses in the field with NetLicensing Manage.</h4>
+                    automated.<br/>In addition, you can manage licenses in the field with NetLicensing Manage.</span>
             </article>
         </section>
 

@@ -4,7 +4,6 @@ layout: null
 CACHE MANIFEST
 # rev {{ site.time | date_to_xmlschema }}
 /css/bootstrap.min.css
-/css/buttons.css
 /css/netlicensing.css
 /img/labs64-avatar-30x30.png
 /img/labs64-logo.png

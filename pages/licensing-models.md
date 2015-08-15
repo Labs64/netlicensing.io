@@ -5,6 +5,11 @@ description: "NetLicensing is sophisticated enough to cover even the most outlan
 permalink: "/licensing-models/"
 tags:
 - Licensing Models
+- Try & Buy
+- Subscription
+- Rental
+- Floating
+- Pay-per-use
 sitemap:
   priority: 0.5
 ---

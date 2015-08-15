@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Getting Started"
-description: "This step-by-step guide helps you to customize NetLicensing to your needs."
+description: "Step-by-step guide helps you to integrate and customize NetLicensing to your needs"
 permalink: "/getting-started/"
 tags:
 - getting started
