@@ -14,7 +14,7 @@ tags:
     </div>
 </div>
 
-<div class="panel-group NL_accordion" id="accordion" role="tablist" aria-multiselectable="true">
+<div class="row panel-group NL_accordion" id="accordion" role="tablist" aria-multiselectable="true">
     <div class="panel NL_accordion_panel">
         <div class="NL_accordion_heading" role="tab" id="headingOne">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
@@ -88,11 +88,11 @@ tags:
                         <li>Alternatively you can use NetLicensing API <i><a href="http://io.labs64.com/NetLicensing-API/">test application</a></i>, which provides easy access to all NetLicensing functions</li>
                     </ul>
                     <span>
-                    Sample request:
+                    <u>Sample request:</u>
                     {% highlight ruby %}
 $ curl --header "Accept: application/xml" --insecure --user demo:demo --request GET https://netlicensing.labs64.com/core/v2/rest/licensee/%LICENSEE_NUMBER%/validate
                     {% endhighlight %}
-                    Sample response:
+                    <u>Sample response:</u>
                     {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <netlicensing xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://netlicensing.labs64.com/schema/context" ttl="2015-08-09T06:41:15.854Z">
@@ -154,18 +154,55 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
                 </div>
                 <div class="col-md-8">
                     <ul style="margin-left: 20px;">
-                        <li>Provide a link to NetLicensing Shop in the UI of your product or forward the user to NetLicensing Shop URL by other means</li>
+                        <li>Create shop token for the given licensee (replace %LICENSEE_NUMBER%)</li>
+                        <u>Create token request:</u>
+                        {% highlight ruby %}
+$ curl --header "Accept: application/xml" --header "Content-Type: application/x-www-form-urlencoded" --insecure --user demo:demo --request POST https://netlicensing.labs64.com/core/v2/rest/token --data "tokenType=SHOP&licenseeNumber=%LICENSEE_NUMBER%"
+                        {% endhighlight %}
+                        <u>Create token response:</u>
+                        {% highlight xml %}
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<netlicensing xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://netlicensing.labs64.com/schema/context">
+    <infos/>
+    <items>
+        <item type="Token">
+            <property name="number">00d08804-2d09-44c2-a853-7feffbfd2a17</property>
+            <property name="active">true</property>
+            <property name="expirationTime">2015-08-16T09:12:05.065Z</property>
+            <property name="tokenType">SHOP</property>
+            <property name="shopURL">https://netlicensing.labs64.com/app/v2/content/shop.xhtml?shoptoken=00d08804-2d09-44c2-a853-7feffbfd2a17</property>
+            <property name="licenseeNumber">INLIC-DEMO</property>
+            <property name="vendorNumber">VDEMO</property>
+        </item>
+    </items>
+</netlicensing>
+                        {% endhighlight %}
+                        <li><i><a href="https://www.labs64.de/confluence/x/rwCo">Create token</a></i> service returns also the complete <i>shopURL</i> for convenience</li>
+                        <li>Provide a link to NetLicensing Shop (<i>shopURL</i>) in the UI of your product or forward the user to NetLicensing Shop URL by other means</li>
                         <li>The URL of NetLicensing Shop has the following format:</li>
                         {% highlight ruby %}
-                        https://netlicensing.labs64.com/app/v2/content/shop.xhtml?shoptoken=%TOKEN%
+                        https://netlicensing.labs64.com/app/v2/content/shop.xhtml?shoptoken=%TOKEN_NUMBER%
                         {% endhighlight %}
-                        <p><i>%TOKEN%</i> must be obtained using <a
-                                href="https://www.labs64.de/confluence/display/NLICPUB/Token+Services">create token</a>
-                            service with <i>tokenType=SHOP</i>. The <i>Create token</i> service returns also the complete <i>shopURL</i> for
-                            convenience.</p>
                     </ul>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 NL_form1 NL_block">
+        <div class="col-md-6 col-md-offset-3">
+            <h2>Signup for a NetLicensing account</h2>
+            <span>Join the hundreds of happy NetLicensing customers</span>
+
+            <form action="https://netlicensing.labs64.com/app/v2/content/register.xhtml" method="GET"
+                  name="register" id="register"
+                  novalidate>
+                <button type="submit" class="NL_button button_main NL_banner_btn" style="max-width: 400px;">
+                    <i class="fa fa-user-plus"></i>Start Your Free License Management
+                </button>
+            </form>
         </div>
     </div>
 </div>

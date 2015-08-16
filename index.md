@@ -78,24 +78,22 @@ sitemap:
                     automated.<br/>In addition, you can manage licenses in the field with NetLicensing Manage.</span>
             </article>
         </section>
-
     </div>
+</div>
 
-    <div class="row">
-        <div class="col-md-12 NL_form1 NL_block">
-            <div class="col-md-6 col-md-offset-3">
-                <h2>Signup for a NetLicensing account</h2>
-                <span>Join the hundreds of happy NetLicensing customers</span>
+<div class="row">
+    <div class="col-md-12 NL_form1 NL_block">
+        <div class="col-md-6 col-md-offset-3">
+            <h2>Signup for a NetLicensing account</h2>
+            <span>Join the hundreds of happy NetLicensing customers</span>
 
-                <form action="https://netlicensing.labs64.com/app/v2/content/register.xhtml" method="GET"
-                      name="register" id="register"
-                      novalidate>
-                    <button type="submit" class="NL_button button_main NL_banner_btn" style="max-width: 400px;">
-                        <i class="fa fa-paper-plane"></i>Start Your Free License Management
-                    </button>
-                </form>
-            </div>
+            <form action="https://netlicensing.labs64.com/app/v2/content/register.xhtml" method="GET"
+                  name="register" id="register"
+                  novalidate>
+                <button type="submit" class="NL_button button_main NL_banner_btn" style="max-width: 400px;">
+                    <i class="fa fa-user-plus"></i>Start Your Free License Management
+                </button>
+            </form>
         </div>
     </div>
-
 </div>
