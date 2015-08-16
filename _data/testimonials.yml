@@ -1,34 +1,23 @@
 - testimonial: As easy as one, two, three!
-  author: Alexey Averikhin
-  company: Labs64 GmbH
-  url: http://www.labs64.com
+  author: Ready Brown
+  role: Lead Developer, Credit Tracker
 
 - testimonial: Terrific system, immensely scalable, a feature list that is endless.
   author: Alexey Averikhin
-  company: Labs64 GmbH
-  url: http://www.labs64.com
-
-- testimonial: Very easy to work with and fantastic, quick response on-line customer service chat.
-  author: Alexey Averikhin
-  company: Labs64 GmbH
-  url: http://www.labs64.com
-
-- testimonial: I'm literally blown away. This is the answer we've all been looking for.
-  author: Alexey Averikhin
-  company: Labs64 GmbH
-  url: http://www.labs64.com
+  role: CEO, Labs64
 
 - testimonial: The company culture is much more appreciative of a small business and will treat you with respect and dignity.
-  author: Alexey Averikhin
-  company: Labs64 GmbH
-  url: http://www.labs64.com
+  author: Konstantin Korotkov
+  role: CEO, Labs64
 
 - testimonial: The on-premise installation is a big advantage for companies that need to keep sensitive information in-house.
-  author: Alexey Averikhin
-  company: Labs64 GmbH
-  url: http://www.labs64.com
+  author: Roman Kuznetsov
+  role: Lead Developer, Laboratoria 64
 
 - testimonial: NetLicensing is an excellent option for product licensing.
-  author: Alexey Averikhin
-  company: Labs64 GmbH
-  url: http://www.labs64.com
+  author: Michail Preissnerov
+  role: Freelancer
+
+- testimonial: Very easy to work with and fantastic, quick response email customer service.
+  author: Darya Herasimovich
+  role: Partner Management, Laboratoria 64

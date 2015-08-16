@@ -97,3 +97,21 @@ sitemap:
         </div>
     </div>
 </div>
+
+<div class="row">
+    <div class="row NL_block_center">
+        <h2 class="col-md-12">Companies trust NetLicensing to provide a secure License Management Solution</h2>
+    </div>
+
+    <div class="NL_block">
+        {% for testimonial in site.data.testimonials %}
+        {% if testimonial.testimonial %}
+        <div class="col-md-4 NL_feature">
+            <blockquote class="testimonial"><p>{{ testimonial.testimonial }}</p></blockquote>
+            <div class="arrow-down"></div>
+            <p class="testimonial-author">{{ testimonial.author }} | <span>{{ testimonial.role }}</span></p>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>

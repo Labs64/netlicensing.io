@@ -95,7 +95,8 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
                     <u>Sample response:</u>
                     {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<netlicensing xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://netlicensing.labs64.com/schema/context" ttl="2015-08-09T06:41:15.854Z">
+<netlicensing xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://netlicensing.labs64.com/schema/context"
+              ttl="2015-08-09T06:41:15.854Z">
     <infos/>
     <items>
         <item type="ProductModuleValidation">
@@ -170,7 +171,9 @@ $ curl --header "Accept: application/xml" --header "Content-Type: application/x-
             <property name="active">true</property>
             <property name="expirationTime">2015-08-16T09:12:05.065Z</property>
             <property name="tokenType">SHOP</property>
-            <property name="shopURL">https://netlicensing.labs64.com/app/v2/content/shop.xhtml?shoptoken=00d08804-2d09-44c2-a853-7feffbfd2a17</property>
+            <property name="shopURL">
+                https://netlicensing.labs64.com/app/v2/content/shop.xhtml?shoptoken=00d08804-2d09-44c2-a853-7feffbfd2a17
+            </property>
             <property name="licenseeNumber">INLIC-DEMO</property>
             <property name="vendorNumber">VDEMO</property>
         </item>
