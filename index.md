@@ -90,9 +90,8 @@ sitemap:
                 <form action="https://netlicensing.labs64.com/app/v2/content/register.xhtml" method="GET"
                       name="register" id="register"
                       novalidate>
-                    <button type="submit" class="NL_button button_main NL_banner_btn" role="button"
-                            style="max-width: 400px;"><i
-                            class="fa fa-paper-plane"></i>Start Your Free License Management
+                    <button type="submit" class="NL_button button_main NL_banner_btn" style="max-width: 400px;">
+                        <i class="fa fa-paper-plane"></i>Start Your Free License Management
                     </button>
                 </form>
             </div>
