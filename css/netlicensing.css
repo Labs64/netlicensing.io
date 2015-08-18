@@ -455,14 +455,15 @@ ul.NL_licensing_models li.item {
 
 .testimonial {
     margin: 0;
-    background: #e7e7e7;
+    background: #FFFDFD;
     padding: 10px 50px;
     position: relative;
     color: #333;
     border-radius: 5px;
     font-style: italic;
-    text-shadow: 0 1px 0 #e7e7e7;
-    background-image: linear-gradient(#f7f7f7, #e7e7e7);
+    text-shadow: 0 1px 0 #FFF4F1;
+    background-image: linear-gradient(#FFFDFD, #FFF4F1);
+    border-left: 1px solid #eee;
 }
 
 .testimonial:before, .testimonial:after {
@@ -491,7 +492,7 @@ ul.NL_licensing_models li.item {
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 15px solid #e7e7e7;
+    border-top: 15px solid #FFF4F1;
     margin: 0 0 0 25px;
 }
 
