@@ -12,6 +12,7 @@ baseurl: ""
 # SEO
 google_author: "https://www.google.com/+Labs64"
 google_analytics_tracking_id: "UA-32654174-2"
+quantcast_code: "p-RQ36fR9PJnAcZ"
 
 # Build settings
 markdown: kramdown
