@@ -1,14 +1,18 @@
-- title: RSS
-  url: /feed.xml
-  class: fa-rss
+#- title: RSS
+#  url: /feed.xml
+#  class: fa-rss
 
 - title: Google Plus
-  url: https://www.google.com/+Labs64
+  url: https://plus.google.com/+NetlicensingIoLabs64
   class: fa-google-plus
 
-- title: Flickr
-  url: http://www.flickr.com/photos/120115214@N05/
-  class: fa-cloud
+- title: Facebook
+  url: https://www.facebook.com/netlicensing
+  class: fa-facebook
+
+- title: Twitter
+  url: https://twitter.com/netlicensing
+  class: fa-twitter
 
 - title: GitHub
   url: https://github.com/Labs64/
