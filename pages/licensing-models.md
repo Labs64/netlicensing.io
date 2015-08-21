@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Licensing Models"
-description: "NetLicensing is sophisticated enough to cover even the most outlandish licensing models"
+description: "NetLicensing is sophisticated enough to cover even the most outlandish software licensing models"
 permalink: "/licensing-models/"
 tags:
 - Licensing Models
@@ -11,7 +11,7 @@ tags:
 - Floating
 - Pay-per-use
 sitemap:
-  priority: 0.5
+  priority: 0.6
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
@@ -52,7 +52,7 @@ sitemap:
     <div class="col-md-12 NL_form1 NL_block">
         <div class="col-md-6 col-md-offset-3">
             <h2>Need a special Licensing Model?</h2>
-            <span>With NetLicensing, complex licensing models can be created that fit your business needs.</span>
+            <span>With NetLicensing, complex software licensing models can be created that fit your business needs.</span>
 
             <form action="//formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contactForm"
                   novalidate>
