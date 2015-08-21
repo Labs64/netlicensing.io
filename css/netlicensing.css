@@ -1,5 +1,7 @@
 ---
 layout: compress
+sitemap:
+  exclude: "true"
 ---
 
 /*----------  Typography  -----------*/

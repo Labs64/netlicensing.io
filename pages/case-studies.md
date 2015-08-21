@@ -40,7 +40,7 @@ tags:
     <div class="col-md-12 NL_form1 NL_block">
         <div class="col-md-6 col-md-offset-3">
             <h2>Submit a Case Study</h2>
-            <span>Get your project listed on the NetLicensing website</span>
+            <span>Get your project listed on the NetLicensing website.</span>
 
             <form action="//formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contactForm"
                   novalidate>

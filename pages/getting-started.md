@@ -197,7 +197,7 @@ $ curl --header "Accept: application/xml" --header "Content-Type: application/x-
     <div class="col-md-12 NL_form1 NL_block">
         <div class="col-md-6 col-md-offset-3">
             <h2>Signup for a NetLicensing account</h2>
-            <span>Join the hundreds of happy NetLicensing customers</span>
+            <span>Join the hundreds of happy NetLicensing customers.</span>
 
             <form action="https://netlicensing.labs64.com/app/v2/content/register.xhtml" method="GET"
                   name="register" id="register"

@@ -47,3 +47,33 @@ sitemap:
           </ul>
     </div>
 </div>
+
+<div class="row">
+    <div class="col-md-12 NL_form1 NL_block">
+        <div class="col-md-6 col-md-offset-3">
+            <h2>Need a special Licensing Model?</h2>
+            <span>With NetLicensing, complex licensing models can be created that fit your business needs.</span>
+
+            <form action="//formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contactForm"
+                  novalidate>
+                <input type="hidden" name="_next" value="/licensing-models/"/>
+                <input type="hidden" name="_subject" value="NetLicensing Licensing Model Request">
+                <input type="text" name="_gotcha" style="display:none"/>
+
+                <div class="form-group">
+                    <input type="text" name="feature" class="form-control" placeholder="A one-line licensing model description"
+                           id="licensing-model"
+                           data-validation-required-message="Please enter a licensing model description.">
+
+                    <textarea rows="3" name="summary" class="form-control" placeholder="A summary of the licensing model"
+                              id="summary"
+                              data-validation-required-message="Please enter a summary of the licensing model."></textarea>
+
+                    <button type="submit" class="NL_button button_main NL_banner_btn" role="button"><i
+                            class="fa fa-paper-plane"></i>Send
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,5 +1,7 @@
 ---
 layout: null
+sitemap:
+  exclude: "true"
 ---
 CACHE MANIFEST
 # rev {{ site.time | date_to_xmlschema }}
