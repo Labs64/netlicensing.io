@@ -117,7 +117,7 @@ body {
 .NL_dialog_img {
     display: block;
     float: left !important;
-    width: 30px;
+    width: 30px !important;
     border-radius: 50%;
 }
 
@@ -326,6 +326,10 @@ form {
 
 .NL_form1 h2 {
     color: #FFF;
+}
+
+.cbp-so-side-left img {
+    width: 400px;
 }
 
 /*----------   Features Page  -----------*/
