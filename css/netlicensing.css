@@ -7,40 +7,40 @@ sitemap:
 /*----------  Typography  -----------*/
 body {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 300;
 }
 
-p {
+p, span {
     font-size: 14px;
     color: #333;
-    font-weight: 400;
     line-height: 18px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 300;
 }
 
 h1 {
     font-size: 36px;
     color: #FFF;
-    font-weight: 400;
     line-height: 42px;
 }
 
 h2 {
     font-size: 24px;
     color: #333;
-    font-weight: 400;
     line-height: 36px;
 }
 
 h3 {
     font-size: 18px;
     color: #853E29;
-    font-weight: 400;
     line-height: 24px;
 }
 
 h4 {
     font-size: 16px;
     color: #333;
-    font-weight: 300;
     line-height: 24px;
 }
 
@@ -140,6 +140,35 @@ form {
     background-position-y: 60%;
 }
 
+/*----------   NL Containers  -----------*/
+
+.NL_container {
+    margin: 20px 0 30px 0;
+    padding: 40px 30px 40px 30px;
+    text-align: center;
+    background: url(../img/netlicensing-signup-banner.png);
+    background-size: cover;
+}
+
+.NL_container_text {
+    padding-bottom: 20px;
+    background: rgba(255,255,255,0.8);
+}
+
+.NL_container span {
+    color: #333;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.NL_container h2 {
+    color: #853E29;
+}
+
+.NL_container button {
+    margin: 0 auto;
+}
+
 /*----------   NL accordion  -----------*/
 .NL_accordion {
     margin: 40px;
@@ -213,6 +242,7 @@ form {
 
 .NL_logo span {
     float: right;
+    padding-top: 2px;
     color: #853E29;
     font-size: 16px;
     font-weight: 400;
@@ -277,6 +307,10 @@ form {
     border-bottom: none;
 }
 
+.Labs64_logo {
+    width: 120px;
+}
+
 .NL_footer_menu {
     display: block;
     margin-top: 70px;
@@ -310,8 +344,8 @@ form {
 
 /*----------   Index Page  -----------*/
 .NL_about {
-    height: 440px;
-    padding-top: 120px;
+    height: 380px;
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -320,16 +354,11 @@ form {
 .NL_form1 span {
     color: #f9e1c4;
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
 }
 
 .NL_form1 h2 {
     color: #FFF;
-}
-
-.cbp-so-side-left img {
-    width: 400px;
 }
 
 /*----------   Features Page  -----------*/
@@ -458,38 +487,19 @@ ul.NL_licensing_models li.item {
 
 /*----------  Testimonial  -----------*/
 
+.NL_testimonial {
+    margin-top: 60px;
+}
+
 .testimonial {
     margin: 0;
     background: #FFFDFD;
     padding: 10px 50px;
     position: relative;
-    color: #333;
-    border-radius: 5px;
     font-style: italic;
     text-shadow: 0 1px 0 #FFF4F1;
-    background-image: linear-gradient(#FFFDFD, #FFF4F1);
+    background-image: linear-gradient(#FFF, #FAFAFA);
     border-left: 1px solid #eee;
-}
-
-.testimonial:before, .testimonial:after {
-    font-family: Georgia, serif;
-    content: "\201C";
-    position: absolute;
-    font-size: 80px;
-    line-height: 1;
-    color: #999;
-    font-style: normal;
-}
-
-.testimonial:before {
-    top: 0;
-    left: 10px;
-}
-
-.testimonial:after {
-    content: "\201D";
-    right: 10px;
-    bottom: -0.5em;
 }
 
 .arrow-down {
@@ -497,7 +507,7 @@ ul.NL_licensing_models li.item {
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 15px solid #FFF4F1;
+    border-top: 15px solid #FAFAFA;
     margin: 0 0 0 25px;
 }
 
@@ -508,7 +518,7 @@ ul.NL_licensing_models li.item {
 }
 
 .testimonial-author span {
-    font-size: 12px;
+    font-size: 13px;
     color: #333;
 }
 
@@ -569,6 +579,7 @@ ul.NL_licensing_models li.item {
 
 .cbp-so-side-left img {
     float: right;
+    width: 380px;
 }
 
 .cbp-so-init .cbp-so-side {

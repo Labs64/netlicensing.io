@@ -82,15 +82,15 @@ sitemap:
 </div>
 
 <div class="row">
-    <div class="col-md-12 NL_form1 NL_block">
-        <div class="col-md-6 col-md-offset-3">
+    <div class="col-md-12 NL_container">
+        <div class="col-md-6 col-md-offset-3 NL_container_text">
             <h2>Signup for a NetLicensing account</h2>
             <span>Join the hundreds of happy NetLicensing customers.</span>
 
             <form action="https://netlicensing.labs64.com/app/v2/content/register.xhtml" method="GET"
                   name="register" id="register"
                   novalidate>
-                <button type="submit" class="NL_button button_main NL_banner_btn" style="max-width: 400px;">
+                <button type="submit" class="NL_button button_main NL_login_btn" style="max-width: 400px;">
                     <i class="fa fa-user-plus"></i>Start Your Free License Management
                 </button>
             </form>
@@ -103,7 +103,7 @@ sitemap:
         <h2 class="col-md-12">Companies trust NetLicensing to provide a secure License Management Solution</h2>
     </div>
 
-    <div class="NL_block">
+    <div class="NL_testimonial">
         {% for testimonial in site.data.testimonials %}
         {% if testimonial.testimonial %}
         <div class="col-md-4 NL_feature">
