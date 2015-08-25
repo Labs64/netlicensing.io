@@ -79,7 +79,7 @@ body {
 }
 
 .NL_banner {
-    background: url(../img/netlicensing-stage-banner.png) 100% 100%;
+    background: url(../img/netlicensing-stage-banner-01.png) 100% 100%;
     background-position-y: center;
 }
 
@@ -146,13 +146,13 @@ form {
     margin: 20px 0 30px 0;
     padding: 40px 30px 40px 30px;
     text-align: center;
-    background: url(../img/netlicensing-signup-banner.png);
+    background: url(../img/netlicensing-stage-banner-02.png);
     background-size: cover;
 }
 
 .NL_container_text {
     padding-bottom: 20px;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .NL_container span {
