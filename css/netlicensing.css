@@ -658,7 +658,7 @@ ul.NL_licensing_models li.item {
 .NL_banner_btn:hover {
     color: #853E29;
     text-decoration: none;
-    border-color: #fff;
+    border: 2px solid #fff;
 }
 
 .NL_button.NL_login_btn {
