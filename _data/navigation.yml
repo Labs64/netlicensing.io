@@ -16,4 +16,4 @@
 
 - title: "Sign Up"
   url: "https://netlicensing.labs64.com/app/v2/content/register.xhtml"
-  class: "NL_button button_main NL_login_btn"
+  class: "NL_button button_main NL_dark_btn"

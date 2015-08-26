@@ -140,6 +140,22 @@ form {
     background-position-y: 60%;
 }
 
+.form_dark {
+    border-color: #CCC;
+}
+.NL_form_dark label {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.NL_form_dark button {
+    margin: 0 auto;
+}
+
+.text-center h2 {
+    color: #853E29;
+}
+
 /*----------   NL Containers  -----------*/
 
 .NL_container {
@@ -639,29 +655,29 @@ ul.NL_licensing_models li.item {
 }
 
 /* NL buttons */
-.NL_banner_btn {
+.NL_light_btn {
     border: 2px solid #f9e1c4;
     color: #f9e1c4;
     margin: 0 auto;
     margin-top: 20px;
 }
 
-.NL_banner_btn i {
+.NL_light_btn i {
     font-size: 18px;
     padding-right: 5px;
 }
 
-.NL_banner_btn::before {
+.NL_light_btn::before {
     background: #fff;
 }
 
-.NL_banner_btn:hover {
+.NL_light_btn:hover {
     color: #853E29;
     text-decoration: none;
     border: 2px solid #fff;
 }
 
-.NL_button.NL_login_btn {
+.NL_button.NL_dark_btn {
     text-transform: none;
     line-height: 2px;
     margin-top: 8px;
@@ -670,27 +686,31 @@ ul.NL_licensing_models li.item {
     color: #853E29 !important;
 }
 
-.NL_button.NL_login_btn::before {
+.NL_button.NL_dark_btn::before {
     background: #853E29;
 }
 
-.NL_button.NL_login_btn:hover {
+.NL_dark_btn i {
+    padding-right: 5px;
+}
+
+.NL_button.NL_dark_btn:hover {
     color: #fff !important;
     text-decoration: none;
     border-color: #853E29;
 }
 
-.NL_LM_btn {
+.NL_orange_btn {
     border: 1px solid #E14817;
     color: #E14817;
     text-transform: none;
 }
 
-a.NL_LM_btn:hover {
+a.NL_orange_btn:hover {
     border: 1px solid #E14817;
 }
 
-.NL_LM_btn::before,
+.NL_orange_btn::before,
 ul#filterOptions>li.active>a {
     background: #f9e1c4;
     text-decoration: none;

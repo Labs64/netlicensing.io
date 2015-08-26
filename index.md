@@ -14,7 +14,7 @@ sitemap:
             and developers who want to concentrate on their product’s core functionality instead of spending resources
             on developing an own license management software.</span>
         <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001"
-           class="NL_button button_main NL_banner_btn" role="button"><i class="fa fa-eye"></i>Live Demo</a>
+           class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-eye"></i>Live Demo</a>
     </div>
 </div>
 
@@ -90,7 +90,7 @@ sitemap:
             <form action="https://netlicensing.labs64.com/app/v2/content/register.xhtml" method="GET"
                   name="register" id="register"
                   novalidate>
-                <button type="submit" class="NL_button button_main NL_login_btn" style="max-width: 400px;">
+                <button type="submit" class="NL_button button_main NL_dark_btn" style="max-width: 400px;">
                     <i class="fa fa-user-plus"></i>Start Your Free License Management
                 </button>
             </form>

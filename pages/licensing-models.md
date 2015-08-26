@@ -23,12 +23,12 @@ sitemap:
 <div class="row NL_block">
     <div class="col-md-12">
         <ul id="filterOptions">
-            <li class="active"><a href="" class="NL_button button_main NL_LM_btn" id="all">All</a></li>
-            <li><a href="" class="NL_button button_main NL_LM_btn" id="time">Time</a></li>
-            <li><a href="" class="NL_button button_main NL_LM_btn" id="volume">Volume</a></li>
-            <li><a href="" class="NL_button button_main NL_LM_btn" id="feature">Feature</a></li>
-            <li><a href="" class="NL_button button_main NL_LM_btn" id="user">User</a></li>
-            <li><a href="" class="NL_button button_main NL_LM_btn" id="concurrent">Concurrent</a></li>
+            <li class="active"><a href="" class="NL_button button_main NL_orange_btn" id="all">All</a></li>
+            <li><a href="" class="NL_button button_main NL_orange_btn" id="time">Time</a></li>
+            <li><a href="" class="NL_button button_main NL_orange_btn" id="volume">Volume</a></li>
+            <li><a href="" class="NL_button button_main NL_orange_btn" id="feature">Feature</a></li>
+            <li><a href="" class="NL_button button_main NL_orange_btn" id="user">User</a></li>
+            <li><a href="" class="NL_button button_main NL_orange_btn" id="concurrent">Concurrent</a></li>
           </ul>
 
           <ul class="NL_licensing_models">
@@ -69,7 +69,7 @@ sitemap:
                               id="summary"
                               data-validation-required-message="Please enter a summary of the licensing model."></textarea>
 
-                    <button type="submit" class="NL_button button_main NL_banner_btn" role="button"><i
+                    <button type="submit" class="NL_button button_main NL_light_btn" role="button"><i
                             class="fa fa-paper-plane"></i>Send
                     </button>
                 </div>

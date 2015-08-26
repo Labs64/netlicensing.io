@@ -202,7 +202,7 @@ $ curl --header "Accept: application/xml" --header "Content-Type: application/x-
             <form action="https://netlicensing.labs64.com/app/v2/content/register.xhtml" method="GET"
                   name="register" id="register"
                   novalidate>
-                <button type="submit" class="NL_button button_main NL_banner_btn" style="max-width: 400px;">
+                <button type="submit" class="NL_button button_main NL_light_btn" style="max-width: 400px;">
                     <i class="fa fa-user-plus"></i>Start Your Free License Management
                 </button>
             </form>
