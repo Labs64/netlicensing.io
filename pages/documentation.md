@@ -20,25 +20,25 @@ tags:
 <div class="row NL_block">
     <div class="col-md-6">
         <div class="card">
-            <div class="content">
+            <img class="image col-md-4" src="/img/how_it_works.png" alt="How it Works">
+            <div class="content col-md-8">
                 <span class="title">How it Works</span>
-
                 <p>As a vendor, you need just few steps to integrate NetLicensing into your product.</p>
             </div>
-            <div class="action">
+            <div class="action col-md-12">
                 <a href="https://www.labs64.de/confluence/x/vQCo">Read More</a>
             </div>
         </div>
     </div>
     <div class="col-md-6">
         <div class="card">
-            <div class="content">
+            <img class="image col-md-4" src="/img/getting_started.png" alt="Getting Started">
+            <div class="content col-md-8">
                 <span class="title">Getting Started</span>
-
                 <p>Getting started guide provides step-by-step instructions for the vendor how to begin with the
                     NetLicensing service.</p>
             </div>
-            <div class="action">
+            <div class="action col-md-12">
                 <a href="https://www.labs64.de/confluence/x/sgCo">Read More</a>
             </div>
         </div>
@@ -47,14 +47,14 @@ tags:
 <div class="row NL_block">
     <div class="col-md-6">
         <div class="card">
-            <div class="content">
+            <img class="image col-md-4" src="/img/api.png" alt="NetLicensing API">
+            <div class="content col-md-8">
                 <span class="title">NetLicensing API</span>
-
                 <p>The NetLicensing API (RESTful / JavaDoc) is for developers integrating NetLicensing with applications
                     and
                     administrators who want to script interactions with the NetLicensing server.</p>
             </div>
-            <div class="action">
+            <div class="action col-md-12">
                 <a href="http://io.labs64.com/NetLicensing-API/">Test It</a>
                 <a href="https://www.labs64.de/confluence/x/pwCo">RESTful</a>
                 <a href="http://netlicensing.labs64.com/javadoc/v2/index.html">JavaDoc</a>
@@ -63,9 +63,9 @@ tags:
     </div>
     <div class="col-md-6">
         <div class="card">
-            <div class="content">
+            <img class="image col-md-4" src="/img/libraries.png" alt="Client Libraries">
+            <div class="content col-md-8">
                 <span class="title">Client Libraries</span>
-
                 <p>Use the following client libraries and examples as a foundation for integrating NetLicensing in
                     your
                     code. It will help you to understand how to perform the validation, build the infrastructure to
@@ -73,7 +73,7 @@ tags:
                     and track licenses, perform various vendor administrative tasks, etc. using the NetLicensing
                     API.</p>
             </div>
-            <div class="action">
+            <div class="action col-md-12">
                 <a href="https://www.labs64.de/confluence/x/xgCo">Read More</a>
             </div>
         </div>
