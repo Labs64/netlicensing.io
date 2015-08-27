@@ -441,6 +441,15 @@ ul.NL_licensing_models li.item {
     height: 450px;
 }
 
+/*----------   FAQ  -----------*/
+.NL_FAQ {
+    margin-top: 25px;
+}
+
+.NL_FAQ p {
+    text-align: justify;
+}
+
 /*----------  Material Cards  -----------*/
 
 .card {
