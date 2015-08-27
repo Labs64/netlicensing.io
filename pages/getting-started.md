@@ -15,7 +15,7 @@ tags:
 </div>
 
 <div class="row panel-group NL_accordion" id="accordion" role="tablist" aria-multiselectable="true">
-    <div class="panel NL_accordion_panel">
+    <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
         <div class="NL_accordion_heading" role="tab" id="headingOne">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
                aria-controls="collapseOne">
@@ -28,7 +28,7 @@ tags:
                     <img src="/img/getting-started/getting-started-01.jpg" alt="Create NetLicensing account"
                          style="width: 350px;padding-left:20px;">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
                         <li>Sign-up for a <a href="https://netlicensing.labs64.com/app/v2/content/register.xhtml" title="It’s not just free to get started, it’s FREE forever!">free NetLicensing account</a> and or use our <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001">demo account</a></li>
                         <li>Add your username, password, email and company name</li>
@@ -40,7 +40,7 @@ tags:
         </div>
     </div>
 
-    <div class="panel NL_accordion_panel">
+    <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
         <div class="NL_accordion_heading" role="tab" id="headingTwo">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true"
                aria-controls="collapseOne">
@@ -53,7 +53,7 @@ tags:
                     <img src="/img/getting-started/getting-started-02.jpg" alt="Configure product"
                          style="width: 350px;padding-left:20px;">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
                         <li>Navigate to <i><a href="https://netlicensing.labs64.com/app/v2/content/vendor/demodata.xhtml">'Settings -> Demo Data'</a></i></li>
                         <li>Select <i>'Licensing Model'</i></li>
@@ -66,7 +66,7 @@ tags:
         </div>
     </div>
 
-    <div class="panel NL_accordion_panel">
+    <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
         <div class="NL_accordion_heading" role="tab" id="headingThree">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true"
                aria-controls="collapseOne">
@@ -79,7 +79,7 @@ tags:
                     <img src="/img/getting-started/getting-started-03.jpg" alt="Validate licensee"
                          style="width: 350px;padding-left:20px;">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
                         <li>Navigate to <i><a href="https://netlicensing.labs64.com/app/v2/content/vendor/licensee.xhtml">'Operate -> Licensee'</a></i></li>
                         <li>Identify newly created licensee and note <i>Licensee Number</i></li>
@@ -116,7 +116,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
         </div>
     </div>
 
-    <div class="panel NL_accordion_panel">
+    <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
         <div class="NL_accordion_heading" role="tab" id="headingFour">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true"
                aria-controls="collapseOne">
@@ -129,7 +129,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
                     <img src="/img/getting-started/getting-started-04.jpg" alt="Integrate NetLicensing API"
                          style="width: 350px;padding-left:20px;">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
                         <li>NetLicensing API allows you automate managing of all licensing entities (from <i>product</i> to <i>transaction</i>)</li>
                         <li>Please refer to the <i><a href="https://www.labs64.de/confluence/x/sQCo">NetLicensing Object Model</a></i> in order to better understand licensing entities relationship</li>
@@ -140,7 +140,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
         </div>
     </div>
 
-    <div class="panel NL_accordion_panel">
+    <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
         <div class="NL_accordion_heading" role="tab" id="headingFive">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true"
                aria-controls="collapseOne">
@@ -153,7 +153,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
                     <img src="/img/getting-started/getting-started-05.jpg" alt="Acquire licenses via NetLicensing Shop"
                          style="width: 350px;padding-left:20px;">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
                         <li>Create shop token for the given licensee (replace %LICENSEE_NUMBER%)</li>
                         <u>Create token request:</u>

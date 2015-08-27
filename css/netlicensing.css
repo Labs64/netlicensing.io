@@ -190,7 +190,7 @@ form {
 
 /*----------   NL accordion  -----------*/
 .NL_accordion {
-    margin: 40px;
+    margin: 50px 0 80px 0;
 }
 
 .NL_accordion_heading a {
@@ -217,16 +217,29 @@ form {
 }
 
 .NL_accordion_heading {
+    margin-top: -6px;
     background: #FFF;
-    border-top: 1px solid #f9e1c4;
-    border-bottom: 1px solid #f9e1c4;
+    border-top: 1px solid #EEE;
+}
+
+#headingFive {
+    border-bottom: 1px solid #EEE;
+}
+
+div.in > .NL_accordion_content {
+    margin-top: -1px;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #EEE;
+}
+
+.NL_accordion_content ul li {
+    margin-top: 6px;
 }
 
 .NL_accordion_heading:hover,
 .NL_accordion_heading:active {
     background: #FFF;
     border-top: 1px solid #853E29;
-    border-bottom: 1px solid #853E29;
 }
 
 .NL_accordion_panel {
@@ -236,7 +249,7 @@ form {
 }
 
 .NL_accordion_content {
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 .NL_accordion_content .highlight pre {
