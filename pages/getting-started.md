@@ -194,15 +194,15 @@ $ curl --header "Accept: application/xml" --header "Content-Type: application/x-
 </div>
 
 <div class="row">
-    <div class="col-md-12 NL_form1 NL_block">
-        <div class="col-md-6 col-md-offset-3">
+    <div class="col-md-12 NL_container">
+        <div class="col-md-6 col-md-offset-3 NL_container_text">
             <h2>Signup for a NetLicensing account</h2>
             <span>Join the hundreds of happy NetLicensing customers.</span>
 
             <form action="https://netlicensing.labs64.com/app/v2/content/register.xhtml" method="GET"
                   name="register" id="register"
                   novalidate>
-                <button type="submit" class="NL_button button_main NL_light_btn" style="max-width: 400px;">
+                <button type="submit" class="NL_button button_main NL_dark_btn" style="max-width: 400px;">
                     <i class="fa fa-user-plus"></i>Start Your Free License Management
                 </button>
             </form>
