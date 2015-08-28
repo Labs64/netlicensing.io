@@ -252,8 +252,14 @@ div.in > .NL_accordion_content {
     padding: 50px 0;
 }
 
-.NL_accordion_content .highlight pre {
-    font-size: smaller;
+.NL_accordion_content .highlight pre code {
+    font-size: 11px;
+    line-height: 0px;
+}
+
+.NL_accordion_content .highlight pre span {
+    font-size: 11px;
+    line-height: 0px;
 }
 
 /*----------   Header  -----------*/

@@ -95,8 +95,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
                     <u>Sample response:</u>
                     {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<netlicensing xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://netlicensing.labs64.com/schema/context"
-              ttl="2015-08-09T06:41:15.854Z">
+<netlicensing xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://netlicensing.labs64.com/schema/context" ttl="2015-08-09T06:41:15.854Z">
     <infos/>
     <items>
         <item type="ProductModuleValidation">
