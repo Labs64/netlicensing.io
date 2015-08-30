@@ -23,6 +23,10 @@ CACHE MANIFEST
 /img/netlicensing-promo-04.jpg
 /img/netlicensing-stage-banner-01.png
 /img/netlicensing-stage-banner-02.png
+/img/getting_started.png
+/img/how_it_works.png
+/img/api.png
+/img/libraries.png
 /img/case-studies/netlicensing-case-study-credit-tracker.png
 /img/case-studies/netlicensing-case-study-online-service.png
 /img/getting-started/getting-started-01.jpg
@@ -36,6 +40,8 @@ CACHE MANIFEST
 /img/licensing-model/licensing-model-standard.jpg
 /img/licensing-model/licensing-model-subscription.jpg
 /img/licensing-model/licensing-model-try-and-buy.jpg
+/img/licensing-model/licensing-model-multi-feature.jpg
+/img/licensing-model/licensing-model-named-user.jpg
 # JavaScripts
 /js/bootstrap.js
 /js/bootstrap.min.js
