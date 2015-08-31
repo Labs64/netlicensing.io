@@ -127,6 +127,14 @@ div[data-toggle="modal"] {
     cursor: pointer;
 }
 
+div[data-toggle="modal"] img { 
+    width: 350px;
+    padding-left:20px;
+    float: right;
+    margin-right: -25px;
+    margin-bottom: 30px;
+}
+
 .modal-body img { 
     padding: 20px;
     width: 100%;

@@ -27,8 +27,7 @@ tags:
                 <div class="col-md-4">
 
                     <div data-toggle="modal" data-target="#myModal">
-                        <img src="/img/getting-started/getting-started-01.jpg" alt="Create NetLicensing account"
-                         style="width: 350px;padding-left:20px;"/>
+                        <img src="/img/getting-started/getting-started-01.jpg" alt="Create NetLicensing account"/>
                         <i class="fa fa-search-plus NL-see-popup"></i>
                     </div>
 
