@@ -295,7 +295,7 @@ div.in > .NL_accordion_content {
   border-radius: inherit;
   z-index: -1;
   box-shadow: inset 0 0 0 35px #f9e1c4;
-  -webkit-transform: scale3d(0.9, 0.9, 1);
+  -webkit-transform: scale3d(1.05, 1.05, 1);
   transform: scale3d(1.05, 1.05, 1);
   -webkit-transition: box-shadow 0.4s, -webkit-transform 0.4;
   transition: box-shadow 0.4s, transform 0.4s;
