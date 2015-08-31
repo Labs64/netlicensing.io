@@ -8,7 +8,7 @@ sitemap:
 ---
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
-        <h1>Move your Licensing to the Cloud</h1>
+        <h1>Move your Net<i class="fa fa-cloud"></i>Licensing to the Cloud</h1>
         <span>Labs64 NetLicensing is a first-class solution in the Licensing as a Service (LaaS) sector.
             Based on open standards, it provides a cost effective, integrated and scalable platform for software vendors
             and developers who want to concentrate on their product’s core functionality instead of spending resources
@@ -51,7 +51,9 @@ sitemap:
                 <h2>Integrate fast</h2>
 
                 <span>NetLicensing makes setup and integration fast, safe and very simple.<br/>
-                    So you can get up and running in a few hours.</span>
+                    So you can get up and running in a few hours.<br/>
+                    Our NetLicensing API gives you a full control over all existing licensing entities, so NetLicensing can be easily integrated into your business processes, ERP, CRM, e-Commerce or your IoT device.
+                </span>
 
                 <div class="col-md-8 col-md-offset-4 NL_dialog">
                     <div class="col-md-3"><img class="NL_dialog_img" alt="{{ site.title }}"

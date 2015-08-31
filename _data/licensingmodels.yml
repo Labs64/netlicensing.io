@@ -95,7 +95,7 @@
   tags:
    - feature
   status: "AVAILABLE"
-  img: 'licensing-model-standard.jpg'
+  img: 'licensing-model-multi-feature.jpg'
   url: "https://www.labs64.de/confluence/x/tgCo"
 
 
@@ -106,5 +106,5 @@
   tags:
    - user
   status: "AVAILABLE"
-  img: 'licensing-model-standard.jpg'
+  img: 'licensing-model-named-user.jpg'
   url: "https://www.labs64.de/confluence/x/tgCo"

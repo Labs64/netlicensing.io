@@ -216,6 +216,16 @@ form {
     border-bottom: 1px solid #EEE;
 }
 
+.NL_accordion_heading {
+    margin-top: -6px;
+    background: #FFF;
+    border-top: 1px solid #EEE;
+}
+
+#headingFive {
+    border-bottom: 1px solid #EEE;
+}
+
 div.in > .NL_accordion_content {
     margin-top: -1px;
     border-top: 1px solid #FFF;
@@ -245,6 +255,7 @@ div.in > .NL_accordion_content {
 .NL_accordion_content .highlight pre code {
     font-size: 11px;
     line-height: 0px;
+
 }
 
 .NL_accordion_content .highlight pre span {
@@ -309,6 +320,11 @@ div.in > .NL_accordion_content {
   box-shadow: inset 0 0 0 1px #E14817;
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
+}
+
+.NL_accordion_content .highlight pre span {
+    font-size: 11px;
+    line-height: 0px;
 }
 
 /*----------   Header  -----------*/
@@ -534,6 +550,7 @@ ul.NL_licensing_models li.item {
     font-size: 24px;
     margin-top: 0px;
     font-weight: 300;
+    margin-top: 0px;
 }
 
 .card .content {

@@ -22,7 +22,7 @@ tags:
         <div class="card">
             <img class="image col-md-4" src="/img/how_it_works.png" alt="How it Works">
             <div class="content col-md-8">
-                <span class="title">How it Works</span>
+                <h3 class="title">How it Works</h3>
                 <p>As a vendor, you need just few steps to integrate NetLicensing into your product.</p>
             </div>
             <div class="action col-md-12">
@@ -34,7 +34,7 @@ tags:
         <div class="card">
             <img class="image col-md-4" src="/img/getting_started.png" alt="Getting Started">
             <div class="content col-md-8">
-                <span class="title">Getting Started</span>
+                <h3 class="title">Getting Started</h3>
                 <p>Getting started guide provides step-by-step instructions for the vendor how to begin with the
                     NetLicensing service.</p>
             </div>
@@ -49,7 +49,7 @@ tags:
         <div class="card">
             <img class="image col-md-4" src="/img/api.png" alt="NetLicensing API">
             <div class="content col-md-8">
-                <span class="title">NetLicensing API</span>
+                <h3 class="title">NetLicensing API</h3>
                 <p>The NetLicensing API (RESTful / JavaDoc) is for developers integrating NetLicensing with applications
                     and
                     administrators who want to script interactions with the NetLicensing server.</p>
@@ -65,7 +65,7 @@ tags:
         <div class="card">
             <img class="image col-md-4" src="/img/libraries.png" alt="Client Libraries">
             <div class="content col-md-8">
-                <span class="title">Client Libraries</span>
+                <h3 class="title">Client Libraries</h3>
                 <p>Use the following client libraries and examples as a foundation for integrating NetLicensing in
                     your
                     code. It will help you to understand how to perform the validation, build the infrastructure to
