@@ -97,6 +97,39 @@ body {
     color: #853E29 !important;
 }
 
+/*----------   NL Popup  -----------*/
+i.NL-see-popup {
+    font-size: 24px;
+    position: absolute;
+    padding: 7px 9px;
+    border: 1px solid #CCC;
+    top: 0px;
+    right: 0px;
+    color: #CCC;
+    background-color: #FFF;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+div[data-toggle="modal"]:hover i {
+    color: #853E29;
+    border-color: #853E29;
+}
+
+div[data-toggle="modal"] { 
+    cursor: pointer;
+}
+
+.modal-body img { 
+    padding: 20px;
+    width: 100%;
+}
+
+.modal-header {
+    background-color: #F9E1BE;
+    border-radius: 4px;
+}
+
 /*----------   NL Tooltip  -----------*/
 .tooltip-inner {
     opacity: 1;

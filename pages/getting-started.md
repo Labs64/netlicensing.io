@@ -25,8 +25,27 @@ tags:
         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
             <div class="panel-body row NL_accordion_content">
                 <div class="col-md-4">
-                    <img src="/img/getting-started/getting-started-01.jpg" alt="Create NetLicensing account"
-                         style="width: 350px;padding-left:20px;">
+
+                    <div data-toggle="modal" data-target="#myModal">
+                        <img src="/img/getting-started/getting-started-01.jpg" alt="Create NetLicensing account"
+                         style="width: 350px;padding-left:20px;"/>
+                        <i class="fa fa-search-plus NL-see-popup"></i>
+                    </div>
+
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Create NetLicensing account</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/img/getting-started/getting-started-01.jpg" alt="Create NetLicensing account">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
