@@ -146,6 +146,7 @@ form {
 .form_dark {
     border-color: #CCC;
 }
+
 .NL_form_dark label {
     font-weight: 300;
     font-size: 16px;
@@ -190,7 +191,7 @@ form {
 
 /*----------   NL accordion  -----------*/
 .NL_accordion {
-    margin: 40px;
+    margin: 50px 0 80px 0;
 }
 
 .NL_accordion_heading a {
@@ -199,34 +200,36 @@ form {
     border-bottom: none;
     font-size: 18px;
     padding: 15px 20px;
+    color: #853E29;
     width: 100%;
 }
 
-.NL_accordion_heading a span {
-    display: block;
-    float: left;
-    background-color: #f9e1c4;
-    border-radius: 50%;
-    padding: 7px 14px;
-    margin-top: -7px;
-    margin-right: 10px;
-}
-
-.NL_accordion_heading a {
-    color: #853E29;
-}
-
 .NL_accordion_heading {
+    margin-top: -6px;
     background: #FFF;
-    border-top: 1px solid #f9e1c4;
-    border-bottom: 1px solid #f9e1c4;
+    border-top: 1px solid #EEE;
+    -webkit-transition: border 0.4s;
+    transition: border 0.4s;
+}
+
+#headingFive {
+    border-bottom: 1px solid #EEE;
+}
+
+div.in > .NL_accordion_content {
+    margin-top: -1px;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #EEE;
+}
+
+.NL_accordion_content ul li {
+    margin-top: 6px;
 }
 
 .NL_accordion_heading:hover,
 .NL_accordion_heading:active {
     background: #FFF;
     border-top: 1px solid #853E29;
-    border-bottom: 1px solid #853E29;
 }
 
 .NL_accordion_panel {
@@ -236,11 +239,76 @@ form {
 }
 
 .NL_accordion_content {
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
-.NL_accordion_content .highlight pre {
-    font-size: smaller;
+.NL_accordion_content .highlight pre code {
+    font-size: 11px;
+    line-height: 0px;
+}
+
+.NL_accordion_content .highlight pre span {
+    font-size: 11px;
+    line-height: 0px;
+}
+
+/*-----------  Accordion Animations -------------*/
+
+.NL_accordion_heading a span {
+  display: block;
+  float: left;
+  background-color: #E14817;
+  border-radius: 50%;
+  padding: 7px 14px;
+  margin-top: -7px;
+  margin-right: 10px;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+  position: relative;
+  z-index: 1;
+}
+
+.NL_accordion_heading a span:focus,
+.NL_accordion_heading a:focus {
+  outline: none;
+  border: none;
+}
+
+.NL_accordion_heading a span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  z-index: -1;
+  box-shadow: inset 0 0 0 35px #f9e1c4;
+  -webkit-transform: scale3d(0.9, 0.9, 1);
+  transform: scale3d(1.05, 1.05, 1);
+  -webkit-transition: box-shadow 0.4s, -webkit-transform 0.4;
+  transition: box-shadow 0.4s, transform 0.4s;
+}
+
+.NL_accordion_heading:hover {
+  border-top: 1px solid #E14817;
+}
+
+.NL_accordion_heading:hover span,
+.NL_accordion_heading a span:hover {
+  color: #FFF;
+}
+
+.NL_accordion_heading:hover span:before {
+  box-shadow: inset 0 0 0 1px #E14817;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+
+.NL_accordion_heading a span:hover::before {
+  box-shadow: inset 0 0 0 1px #E14817;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
 }
 
 /*----------   Header  -----------*/
@@ -261,7 +329,6 @@ form {
 
 .NL_logo span {
     float: right;
-    padding-top: 2px;
     color: #853E29;
     font-size: 16px;
     font-weight: 400;
@@ -376,7 +443,7 @@ footer {
 .NL_about_page span,
 .NL_form1 span {
     color: #f9e1c4;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
 }
 
@@ -463,8 +530,9 @@ ul.NL_licensing_models li.item {
 }
 
 .card .title {
-    line-height: 48px;
+    line-height: 40px;
     font-size: 24px;
+    margin-top: 0px;
     font-weight: 300;
 }
 
