@@ -15,6 +15,52 @@ tags:
 </div>
 
 <div class="row">
+
+    <div class="NL_block">
+        {% for feature in site.data.features %}
+        {% if feature.show == "Y" %}
+        <div class="col-md-3 NL_feature">
+            <figure class="hover_effect">
+                <figcaption>
+                <img src="/img/licensing-as-a-service.png"/>  
+                <h3>
+                {{ feature.name }}
+                </h3>
+
+                <p>{{ feature.description }}</p>
+                </figcaption>
+            </figure>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <div class="col-md-12 content hideContent">
+        {% for feature in site.data.features %}
+        {% if feature.show != "Y" %}
+        <div class="col-md-3 NL_feature">
+            <figure class="hover_effect">
+                <figcaption>
+                <img src="/img/licensing-as-a-service.png"/>  
+                <h3>
+                {{ feature.name }}
+                </h3>
+
+                <p>{{ feature.description }}</p>
+                </figcaption>
+            </figure>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <div class="col-md-12 show-more">
+        <a href="#" class="NL_button button_main NL_dark_btn">Show more</a>
+    </div>
+
+</div>
+
+<!--<div class="row">
     <div class="NL_block">
         {% for feature in site.data.features %}
         {% if feature.name %}
@@ -29,7 +75,7 @@ tags:
         {% endif %}
         {% endfor %}
     </div>
-</div>
+</div>-->
 
 <div class="row">
     <div class="col-md-12 NL_form1 NL_block">

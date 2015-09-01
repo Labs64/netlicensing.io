@@ -52,6 +52,7 @@ a, a:focus {
     border-bottom: 1px dotted #853E29;
     color: #853E29;
     background-color: transparent;
+    text-decoration: none;
 }
 
 a:active, a:hover {
@@ -517,19 +518,12 @@ footer {
 /*----------   Features Page  -----------*/
 .NL_block {
     margin-top: 40px;
-}
-
-.NL_block_center {
-    margin-top: 40px;
-    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .NL_feature {
-    min-height: 180px;
-}
-
-.NL_feature h4 {
-    line-height: 25px;
+    min-height: 320px;
 }
 
 .NL_feature p {
@@ -543,6 +537,101 @@ footer {
     width: 30px;
     height: 100%;
 }
+
+figcaption img {
+    width: 70px;
+    margin-top: 20px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figure figcaption::before,
+figure figcaption::after {
+    pointer-events: none;
+}
+
+figure.hover_effect figcaption::before,
+figure.hover_effect figcaption::after {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    opacity: 1;
+    z-index: 700;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.hover_effect figcaption::before {
+    border-top: 1px solid #E14817;
+    border-bottom: 1px solid #E14817;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+}
+
+figure.hover_effect figcaption::after {
+    border-right: 1px solid #f9e1c4;
+    border-left: 1px solid #f9e1c4;
+    -webkit-transform: scale(1,0);
+    transform: scale(1,0);
+}
+
+figure.hover_effect h3,
+figure.hover_effect img {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,10px,0);
+    transform: translate3d(0,10px,0);
+}
+
+figure.hover_effect p {
+    padding: 20px 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,-10px,0);
+    transform: translate3d(0,-10px,0);
+}
+
+figure.hover_effect:hover figcaption::before,
+figure.hover_effect:hover figcaption::after {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+figure.hover_effect:hover h3,
+figure.hover_effect:hover p,
+figure.hover_effect:hover img {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+/*------------- Features loader  ---------------*/
+
+
+.hideContent {
+    overflow: hidden;
+    height: 0px;
+}
+
+.showContent {
+    height: auto;
+}
+
+.show-more {
+    padding: 40px 0;
+}
+
+.show-more a{
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 /*----------   Licensing Model Page  -----------*/
 ul {
