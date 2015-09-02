@@ -16,7 +16,7 @@ tags:
 
 <div class="row">
 
-    <div class="NL_block" id="#showContent">
+    <div class="NL_block" name="showContent">
         {% for feature in site.data.features %}
         {% if feature.show == "Y" %}
         <div class="col-md-3 NL_feature">
