@@ -108,7 +108,7 @@ sitemap:
     <div class="NL_testimonial">
         {% for testimonial in site.data.testimonials %}
         {% if testimonial.testimonial %}
-        <div class="col-md-4 NL_feature">
+        <div class="col-md-4 NL_testimonial_block">
             <blockquote class="testimonial"><p>{{ testimonial.testimonial }}</p></blockquote>
             <div class="arrow-down"></div>
             <p class="testimonial-author">{{ testimonial.author }} | <span>{{ testimonial.role }}</span></p>

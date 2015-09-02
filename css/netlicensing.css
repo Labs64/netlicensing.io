@@ -10,7 +10,7 @@ body {
     font-weight: 300;
     font-size: 15px;
     line-height: 22px;
-    background-color: #EEE;
+    background-color: #F9F9F9;
 }
 
 p, span {
@@ -63,7 +63,9 @@ a:active, a:hover {
 }
 
 /*----------   NL Styles  -----------*/
-#wrapper, nav, footer {
+#wrapper, 
+.container-fluid,
+.row.NL_footer_menu {
     max-width: 1600px;
     margin: 0 auto;
     background-color: #FFF;
@@ -444,6 +446,8 @@ footer {
 }
 
 .NL_footer {
+    max-width: 1600px;
+    margin: 0 auto;
     background-color: #E14817;
 }
 
@@ -470,8 +474,15 @@ footer {
     display: block;
     text-align: left;
     border-top: 1px solid #e7e7e7;
+}
+
+.NL_white_footer {
     background-color: #FFF;
     opacity: 0.9;
+}
+
+.NL_orange_footer {
+    background-color: #E14817;
 }
 
 .NL_footer_menu a {
@@ -731,14 +742,17 @@ ul.NL_licensing_models li.item {
     margin-top: 60px;
 }
 
+.NL_testimonial_block {
+    padding: 35px;
+}
+
 .testimonial {
     margin: 0;
     background: #FFFDFD;
     padding: 10px 50px;
     position: relative;
     font-style: italic;
-    text-shadow: 0 1px 0 #FFF4F1;
-    background-image: linear-gradient(#FFF, #FAFAFA);
+    background-image: linear-gradient(#FFF, #F2F2F2);
     border-left: 1px solid #eee;
 }
 
@@ -747,7 +761,7 @@ ul.NL_licensing_models li.item {
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 15px solid #FAFAFA;
+    border-top: 15px solid #F2F2F2;
     margin: 0 0 0 25px;
 }
 

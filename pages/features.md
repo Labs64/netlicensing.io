@@ -16,13 +16,13 @@ tags:
 
 <div class="row">
 
-    <div class="NL_block">
+    <div class="NL_block" id="#showContent">
         {% for feature in site.data.features %}
         {% if feature.show == "Y" %}
         <div class="col-md-3 NL_feature">
             <figure class="hover_effect">
                 <figcaption>
-                <img src="/img/licensing-as-a-service.png"/>  
+                <img src="/img/licensing-as-a-service.png" alt="{{ feature.name }}"/>  
                 <h3>
                 {{ feature.name }}
                 </h3>
@@ -41,7 +41,7 @@ tags:
         <div class="col-md-3 NL_feature">
             <figure class="hover_effect">
                 <figcaption>
-                <img src="/img/licensing-as-a-service.png"/>  
+                <img src="/img/licensing-as-a-service.png" alt="{{ feature.name }}"/>  
                 <h3>
                 {{ feature.name }}
                 </h3>
@@ -54,8 +54,8 @@ tags:
         {% endfor %}
     </div>
 
-    <div class="col-md-12 show-more">
-        <a href="#" class="NL_button button_main NL_dark_btn">Show more</a>
+    <div class="col-md-12 show-more" >
+        <a href="#showContent" class="NL_button button_main NL_dark_btn">Show more</a>
     </div>
 
 </div>

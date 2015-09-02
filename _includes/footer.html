@@ -1,93 +1,97 @@
 <footer>
-    <div class="row NL_footer_menu">
-        <div class="col-md-2 col-md-offset-1">
-            <h3>Documentation</h3>
-            <ul>
-                {% for page in site.data.services %}
-                    {% if page.section == 'Documentation' %}
-                        {% if page.title %}
-                            {% if page.url contains 'http' %}
-                                {% assign link = page.url %}
-                            {% else %}
-                                {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
+    <div class="NL_white_footer">
+        <div class="row NL_footer_menu">
+            <div class="col-md-2 col-md-offset-1">
+                <h3>Documentation</h3>
+                <ul>
+                    {% for page in site.data.services %}
+                        {% if page.section == 'Documentation' %}
+                            {% if page.title %}
+                                {% if page.url contains 'http' %}
+                                    {% assign link = page.url %}
+                                {% else %}
+                                    {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
+                                {% endif %}
+                                <li>
+                                    <a class="page-link {{ page.class }}" href="{{ link }}">
+                                        {{ page.title }}
+                                    </a>
+                                </li>
                             {% endif %}
-                            <li>
-                                <a class="page-link {{ page.class }}" href="{{ link }}">
-                                    {{ page.title }}
-                                </a>
-                            </li>
                         {% endif %}
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        </div>
-        <div class="col-md-2 col-md-offset-1">
-            <h3>Legal</h3>
-            <ul>
-                {% for page in site.data.services %}
-                    {% if page.section == 'Legal' %}
-                        {% if page.title %}
-                            {% if page.url contains 'http' %}
-                                {% assign link = page.url %}
-                            {% else %}
-                                {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-2 col-md-offset-1">
+                <h3>Legal</h3>
+                <ul>
+                    {% for page in site.data.services %}
+                        {% if page.section == 'Legal' %}
+                            {% if page.title %}
+                                {% if page.url contains 'http' %}
+                                    {% assign link = page.url %}
+                                {% else %}
+                                    {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
+                                {% endif %}
+                                <li>
+                                    <a class="page-link {{ page.class }}" href="{{ link }}">
+                                        {{ page.title }}
+                                    </a>
+                                </li>
                             {% endif %}
-                            <li>
-                                <a class="page-link {{ page.class }}" href="{{ link }}">
-                                    {{ page.title }}
-                                </a>
-                            </li>
                         {% endif %}
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        </div>
-        <div itemscope itemtype="http://schema.org/Organization" class="col-md-2 col-md-offset-1">
-            <h3><img itemprop="image" class="Labs64_logo" src="{{ '/img/labs64-logo.png' | prepend: site.baseurl | prepend: site.url }}" alt="{{ site.data.contacts[0].title }}"/></h3>
-            <ul class="NL_footer_contacts">
-                <li> Phone: <span itemprop="telephone" class="L64_links">{{ site.data.contacts[0].phone }}</span></li>
-                <li> Email: <span class="L64_links"><a href="mailto:{{ site.data.contacts[0].email }}?subject={{ site.title }}" itemprop="email">{{ site.data.contacts[0].email }}</a></span></li>
-                <li> Web: <span class="L64_links"><a href="{{ site.data.contacts[0].url }}" itemprop="url">{{ site.data.contacts[0].web }}</a></span></li>
-            </ul>
-        </div>
-        <div class="col-md-2 col-md-offset-1">
-            <h3>Company</h3>
-            <ul>
-                {% for page in site.data.services %}
-                    {% if page.section == 'Company' %}
-                        {% if page.title %}
-                            {% if page.url contains 'http' %}
-                                {% assign link = page.url %}
-                            {% else %}
-                                {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
+                    {% endfor %}
+                </ul>
+            </div>
+            <div itemscope itemtype="http://schema.org/Organization" class="col-md-2 col-md-offset-1">
+                <h3><img itemprop="image" class="Labs64_logo" src="{{ '/img/labs64-logo.png' | prepend: site.baseurl | prepend: site.url }}" alt="{{ site.data.contacts[0].title }}"/></h3>
+                <ul class="NL_footer_contacts">
+                    <li> Phone: <span itemprop="telephone" class="L64_links">{{ site.data.contacts[0].phone }}</span></li>
+                    <li> Email: <span class="L64_links"><a href="mailto:{{ site.data.contacts[0].email }}?subject={{ site.title }}" itemprop="email">{{ site.data.contacts[0].email }}</a></span></li>
+                    <li> Web: <span class="L64_links"><a href="{{ site.data.contacts[0].url }}" itemprop="url">{{ site.data.contacts[0].web }}</a></span></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-md-offset-1">
+                <h3>Company</h3>
+                <ul>
+                    {% for page in site.data.services %}
+                        {% if page.section == 'Company' %}
+                            {% if page.title %}
+                                {% if page.url contains 'http' %}
+                                    {% assign link = page.url %}
+                                {% else %}
+                                    {% assign link = page.url | prepend: site.baseurl | prepend: site.url %}
+                                {% endif %}
+                                <li>
+                                    <a class="page-link {{ page.class }}" href="{{ link }}">
+                                        {{ page.title }}
+                                    </a>
+                                </li>
                             {% endif %}
-                            <li>
-                                <a class="page-link {{ page.class }}" href="{{ link }}">
-                                    {{ page.title }}
-                                </a>
-                            </li>
                         {% endif %}
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <a href="http://www.alexa.com/siteinfo/netlicensing.io"><script type="text/javascript" src="http://xslt.alexa.com/site_stats/js/t/a?url=netlicensing.io"></script></a>
+                    {% endfor %}
+                </ul>
+                <a href="http://www.alexa.com/siteinfo/netlicensing.io"><script type="text/javascript" src="http://xslt.alexa.com/site_stats/js/t/a?url=netlicensing.io"></script></a>
+            </div>
         </div>
     </div>
-    <div class="row NL_footer">
-        <p class="col-md-5 col-md-offset-1">Innovative License Management Solution | Copyright &copy; 2010 - 20{{ site.time | date: '%y' }} {{ site.copyright }}</p>
-        <div class="col-md-5 NL_social">
-            <p>
-            {% for media in site.data.socialmedia %}
-                {% if media.url %}
-                    {% if media.url contains 'http' %}
-                        {% assign link = media.url %}
-                    {% else %}
-                        {% assign link = media.url | prepend: site.baseurl | prepend: site.url %}
+    <div class="NL_orange_footer">
+        <div class="row NL_footer">
+            <p class="col-md-5 col-md-offset-1">Innovative License Management Solution | Copyright &copy; 2010 - 20{{ site.time | date: '%y' }} {{ site.copyright }}</p>
+            <div class="col-md-5 NL_social">
+                <p>
+                {% for media in site.data.socialmedia %}
+                    {% if media.url %}
+                        {% if media.url contains 'http' %}
+                            {% assign link = media.url %}
+                        {% else %}
+                            {% assign link = media.url | prepend: site.baseurl | prepend: site.url %}
+                        {% endif %}
+                        <a data-toggle="tooltip" data-placement="top" title="{{ media.title }}" target="_blank" href="{{ link }}"><i class="fa {{ media.class }}"></i></a>
                     {% endif %}
-                    <a data-toggle="tooltip" data-placement="top" title="{{ media.title }}" target="_blank" href="{{ link }}"><i class="fa {{ media.class }}"></i></a>
-                {% endif %}
-            {% endfor %}
-            </p>
+                {% endfor %}
+                </p>
+            </div>
         </div>
     </div>
 </footer>
