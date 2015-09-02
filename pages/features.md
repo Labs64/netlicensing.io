@@ -15,8 +15,7 @@ tags:
 </div>
 
 <div class="row">
-
-    <div class="NL_block" name="showContent">
+    <div style="padding:40px;">
         {% for feature in site.data.features %}
         {% if feature.show == "Y" %}
         <div class="col-md-3 NL_feature">
@@ -35,7 +34,7 @@ tags:
         {% endfor %}
     </div>
 
-    <div class="col-md-12 content hideContent">
+    <div class="col-md-12 content hideContent" name="showContent">
         {% for feature in site.data.features %}
         {% if feature.show != "Y" %}
         <div class="col-md-3 NL_feature">
@@ -110,13 +109,13 @@ tags:
 <div class="row NL_block">
     <h2 class="col-md-12">NetLicensing Software Licensing</h2>
 
-    <p class="col-md-12">A Online Software Licensing Management Service for Application Control, Trial Management and
+    <p class="col-md-8 col-md-offset-2" style="text-align:center;">A Online Software Licensing Management Service for Application Control, Trial Management and
         Software Activation. Easily retrofit your product and then control all the aspects of a users interaction and
         usage.</p>
 </div>
 
 <div class="row NL_FAQ">
-    <div class="col-md-6">
+    <div class="col-md-5 col-md-offset-1">
         <h3>Protect your Intellectual Property and give users a great experience</h3>
         <ul style="margin-left: 20px;">
             <li>Control, secure and manage your software assets</li>
@@ -128,7 +127,7 @@ tags:
             <li>Virtualization management and control</li>
         </ul>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-5 col-md-offset-1">
         <h3>All you need out of the box</h3>
         <ul style="margin-left: 20px;">
             <li>99.9% UPTIME</li>

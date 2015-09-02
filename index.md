@@ -100,10 +100,8 @@ sitemap:
     </div>
 </div>
 
-<div class="row">
-    <div class="row NL_block_center">
+<div class="row NL_block">
         <h2 class="col-md-12">Companies trust NetLicensing to provide a secure License Management Solution</h2>
-    </div>
 
     <div class="NL_testimonial">
         {% for testimonial in site.data.testimonials %}

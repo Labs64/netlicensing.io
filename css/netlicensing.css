@@ -66,6 +66,7 @@ a:active, a:hover {
 #wrapper, 
 .container-fluid,
 .row.NL_footer_menu {
+    position: relative;
     max-width: 1600px;
     margin: 0 auto;
     background-color: #FFF;
@@ -92,6 +93,7 @@ a:active, a:hover {
 }
 
 .NL_banner {
+    margin-top: 0px;
     background: url(../img/netlicensing-stage-banner-01.png) 100% 100%;
     background-position-y: center;
 }
@@ -214,7 +216,6 @@ form {
 /*----------   NL Containers  -----------*/
 
 .NL_container {
-    margin: 20px 0 30px 0;
     padding: 40px 30px 40px 30px;
     text-align: center;
     background: url(../img/netlicensing-stage-banner-02.png);
@@ -476,15 +477,6 @@ footer {
     border-top: 1px solid #e7e7e7;
 }
 
-.NL_white_footer {
-    background-color: #FFF;
-    opacity: 0.9;
-}
-
-.NL_orange_footer {
-    background-color: #E14817;
-}
-
 .NL_footer_menu a {
     color: #444;
     border-bottom: none;
@@ -528,7 +520,7 @@ footer {
 
 /*----------   Features Page  -----------*/
 .NL_block {
-    margin-top: 40px;
+    margin-top: 70px;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -550,7 +542,7 @@ footer {
 }
 
 figcaption img {
-    width: 70px;
+    width: 90px;
     margin-top: 20px;
 }
 
@@ -634,7 +626,7 @@ figure.hover_effect:hover img {
 }
 
 .show-more {
-    padding: 40px 0;
+    padding: 20px 0 40px 0;
 }
 
 .show-more a{
@@ -739,7 +731,7 @@ ul.NL_licensing_models li.item {
 /*----------  Testimonial  -----------*/
 
 .NL_testimonial {
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .NL_testimonial_block {
