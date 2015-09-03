@@ -49,8 +49,8 @@ sitemap:
 </div>
 
 <div class="row">
-    <div class="col-md-12 NL_form1 NL_block">
-        <div class="col-md-6 col-md-offset-3">
+    <div class="col-md-12 NL_form_light NL_block">
+        <div class="col-md-8 col-md-offset-2 NL_form_light_text">
             <h2>Need a special Licensing Model?</h2>
             <span>With NetLicensing, complex software licensing models can be created that fit your business needs.</span>
 
@@ -69,7 +69,7 @@ sitemap:
                               id="summary"
                               data-validation-required-message="Please enter a summary of the licensing model."></textarea>
 
-                    <button type="submit" class="NL_button button_main NL_light_btn" role="button"><i
+                    <button type="submit" class="NL_button button_main NL_dark_btn" role="button"><i
                             class="fa fa-paper-plane"></i>Send
                     </button>
                 </div>

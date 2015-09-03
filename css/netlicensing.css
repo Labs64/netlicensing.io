@@ -186,18 +186,28 @@ form {
     margin-bottom: 10px;
     opacity: 0.8;
     box-shadow: none;
-    border-color: #FFF;
+    border-color: #CCC;
 }
 
-.NL_form1 {
-    padding: 30px;
+.NL_form_light {
+    padding: 60px 0;
     text-align: center;
-    background: url(../img/netlicensing-blurred-background.jpg) 100% 100%;
+    background: url(../img/netlicensing-promo-05.jpg);
     background-position-y: 60%;
 }
 
-.form_dark {
-    border-color: #CCC;
+.NL_form_light_text {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+.NL_form_light span {
+    color: #853E29;
+}
+
+.NL_form_light button {
+    margin: 0px auto;
 }
 
 .NL_form_dark label {
@@ -507,15 +517,10 @@ footer {
 }
 
 .NL_about span,
-.NL_about_page span,
-.NL_form1 span {
+.NL_about_page span {
     color: #f9e1c4;
     font-size: 18px;
     line-height: 24px;
-}
-
-.NL_form1 h2 {
-    color: #FFF;
 }
 
 /*----------   Features Page  -----------*/
@@ -707,6 +712,7 @@ ul.NL_licensing_models li.item {
 }
 
 .card a {
+    float: right;
     margin-right: 20px;
     -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;

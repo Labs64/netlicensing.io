@@ -21,7 +21,7 @@ tags:
         <div class="col-md-3 NL_feature">
             <figure class="hover_effect">
                 <figcaption>
-                <img src="/img/licensing-as-a-service.png" alt="{{ feature.name }}"/>  
+                <img src="{{ feature.icon }}" alt="{{ feature.name }}"/>  
                 <h3>
                 {{ feature.name }}
                 </h3>
@@ -40,7 +40,7 @@ tags:
         <div class="col-md-3 NL_feature">
             <figure class="hover_effect">
                 <figcaption>
-                <img src="/img/licensing-as-a-service.png" alt="{{ feature.name }}"/>  
+                <img src="{{ feature.icon }}" alt="{{ feature.name }}"/>  
                 <h3>
                 {{ feature.name }}
                 </h3>
@@ -59,26 +59,9 @@ tags:
 
 </div>
 
-<!--<div class="row">
-    <div class="NL_block">
-        {% for feature in site.data.features %}
-        {% if feature.name %}
-        <div class="col-md-3 NL_feature">
-            <h3>
-                <i class="fa {{ feature.class }} NL_icon"></i>
-                {{ feature.name }}
-            </h3>
-
-            <p>{{ feature.description }}</p>
-        </div>
-        {% endif %}
-        {% endfor %}
-    </div>
-</div>-->
-
 <div class="row">
-    <div class="col-md-12 NL_form1 NL_block">
-        <div class="col-md-6 col-md-offset-3">
+    <div class="col-md-12 NL_form_light NL_block">
+        <div class="col-md-8 col-md-offset-2 NL_form_light_text">
             <h2>Miss a Feature?</h2>
             <span>Do you have an idea for a cool new feature of NetLicensing that you think could be the Next Big Thing™?</span>
 
@@ -97,7 +80,7 @@ tags:
                               id="summary"
                               data-validation-required-message="Please enter a summary of the feature."></textarea>
 
-                    <button type="submit" class="NL_button button_main NL_light_btn" role="button"><i
+                    <button type="submit" class="NL_button button_main NL_dark_btn" role="button"><i
                             class="fa fa-paper-plane"></i>Send
                     </button>
                 </div>
