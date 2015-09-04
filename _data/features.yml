@@ -40,48 +40,48 @@
 
 - name: "Virtualization Support"
   description: "NetLicensing offers a comprehensive licensing support for virtual environments and sandboxing."
-  icon: "/img/features/flexible_licensing_models.png"
+  icon: "/img/features/virtualization_support.png"
 
 - name: "Different Hosting Options"
   description: "<strong>Cloud (SaaS)</strong> - use NetLicensing from our servers, save on maintenance costs.<br/><strong>On-Premise (Self-Hosted)</strong> - get full control over NetLicensing installation within your company's infrastructure  (Enterprise)."
-  icon: "/img/features/flexible_licensing_models.png"
+  icon: "/img/features/different_hosting_options.png"
 
 - name: "Product Usage Tracking and Analytics"
   description: "See how your software is performing out in the wild. NetLicensing gives you insight into your licensees' product usage."
-  icon: "/img/features/flexible_licensing_models.png"
+  icon: "/img/features/product_usage_tracking_and_analytics.png"
 
 - name: "Online Management Portal"
   description: "NetLicensing Manage gives you one single management portal for managing all your products, modules and license templates."
-  icon: "/img/features/flexible_licensing_models.png"
+  icon: "/img/features/online_management_portal.png"
 
 - name: "Security Encryption"
   description: "All data transfer handled by NetLicensing is highly encrypted to meet the best practice security standards."
-  icon: "/img/features/flexible_licensing_models.png"
+  icon: "/img/features/security_encryption.png"
 
 - name: "Predefined Client Libraries"
   description: "NetLicensing <a href='https://www.labs64.de/confluence/x/xgCo'>client libraries and examples</a> can be used as a foundation for integrating NetLicensing into your code."
-  icon: "/img/features/flexible_licensing_models.png"
+  icon: "/img/features/predefined_client_libraries.png"
 
 - name: "RESTful API and Integration"
   description: "Integrate NetLicensing into your product or process! With the <a href='https://www.labs64.de/confluence/x/pwCo'>NetLicensing API</a>, you can manage your licensing entities and easily integrate them into your business processes, ERP, CRM or Web shop."
-  icon: "/img/features/flexible_licensing_models.png"
+  icon: "/img/features/restful_api_and_integration.png"
 
 - name: "Licensing eCommerce Platform"
   description: "NetLicensing Shop is an innovative eCommerce solution which provides your customers licenses acquisition possibility for every available licensing models."
-  icon: "/img/features/flexible_licensing_models.png"
+  icon: "/img/features/licensing_ecommerce_platform.png"
 
 - name: "Consulting Services"
   description: "You won't be left alone when it comes to licensing your product. We provide support and tutoring at all stages to simplify the product licensing process for you."
-  icon: "/img/features/flexible_licensing_models.png"
+  icon: "/img/features/consulting_services.png"
 
 - name: "Escrow (Enterprise)"
   description: "On request, our source code can be deposited with a third party escrow agent to give you additional safety."
-  icon: "/img/features/flexible_licensing_models.png"
+  icon: "/img/features/escrow.png"
 
 - name: "Service Level Agreement (Enterprise)"
   description: "Get extra guarantee with the Service Level Agreement (SLA): we take care your licensing is up and running >99,9% of the time."
-  icon: "/img/features/flexible_licensing_models.png"
+  icon: "/img/features/service_level_agreement .png"
 
 - name: "NetLicensing Enterprise (Enterprise)"
   description: "Our enterprise services and support programs ensure your success at every step along the management of your product licensing."
-  icon: "/img/features/flexible_licensing_models.png"
+  icon: "/img/features/netlicensing_enterprise.png"
