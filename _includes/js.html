@@ -16,19 +16,19 @@
 	})
 </script>
 <script>
-	$(".show-more a").on("click", function() {
-	    var $this = $(this); 
-	    var $content = $this.parent().prev("div.content");
-	    var linkText = $this.text().toUpperCase();    
-	    
-	    if(linkText === "SHOW MORE"){
-	        linkText = "Hide";
-	        $content.switchClass("hideContent", "showContent", 1500);
-	    } else {
-	        linkText = "Show more";
-	        $content.switchClass("showContent", "hideContent", 1500);
-	    };
+    $(".show-more a").on("click", function () {
+        var $this = $(this);
+        var $content = $this.parent().prev("div.content");
+        var linkText = $this.text().toUpperCase();
 
-	    $this.text(linkText);
-	});
+        if (linkText === "SHOW MORE FEATURES") {
+            linkText = "Hide";
+            $content.switchClass("hideContent", "showContent", 1500);
+        } else {
+            linkText = "Show more features";
+            $content.switchClass("showContent", "hideContent", 1500);
+        };
+
+        $this.text(linkText);
+    });
 </script>
