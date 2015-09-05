@@ -54,7 +54,7 @@ tags:
     </div>
 
     <div class="col-md-12 show-more" >
-        <a href="#showContent" class="NL_button button_main NL_dark_btn">Show more</a>
+        <a href="#showContent" class="NL_button button_main NL_dark_btn">Show more features</a>
     </div>
 
 </div>
