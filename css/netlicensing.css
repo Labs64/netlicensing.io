@@ -986,43 +986,68 @@ ul#filterOptions>li.active>a {
     transform: translate3d(0, 0, 0);
 }
 
-@media screen and (max-width: 767px) {
-    .NL_button.NL_login_btn {
-        max-width: 140px;
-        margin: 0 auto;
-        text-align: center;
+@media only screen and (min-width: 479px) and (max-width: 993px) {
+    i.NL-see-popup {
+        float: left;
+    }
+
+    div[data-toggle="modal"] img {
+        margin: 8px 0px 30px -50px; 
     }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 767px) {
     .NL_about {
-        margin-top: -60px;
-        height: 500px;
-        text-align: center;
-    }
-
-    .NL_footer_menu a {
-        font-size: 16px;
-        line-height: 30px;
+        height: 380px;
     }
 
     h1 {
         font-size: 24px;
+        margin-top: -20px;
     }
 
-    .NL_social a i {
-        font-size: 24px;
+    .NL_container_text {
+        padding-top: 10px;
     }
 
-}
+    .NL_testimonial {
+        margin-top: 50px;
+    }
+    
+    .NL_button.NL_dark_btn {
+        margin: 0 auto;
+        text-align: center;
+    }
 
-@media screen and (max-width: 990px) {
     .NL_feature {
-        min-height: 100px;
+        min-height: 260px;
+    }
+
+    .NL_about_page {
+        padding-top: 100px;
+    }
+
+    .NL_FAQ {
+        margin-top: 0px;
+    }
+
+    .NL_FAQ div{
+        margin-top: 40px;
+    }
+
+    .card a {
+        margin-bottom: 20px;
     }
 
 }
 
+@media screen and (max-width: 479px) {
+
+
+
+}
+
+/*-------------- Scroller -----------*/
 @media screen and (max-width: 73.5em) {
     .cbp-so-scroller {
         font-size: 65%;
