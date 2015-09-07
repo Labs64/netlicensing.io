@@ -16,6 +16,8 @@ tags:
 
 <div class="row panel-group NL_accordion" id="accordion" role="tablist" aria-multiselectable="true">
     <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
+
+        <!-- Step 1: Create NetLicensing account  -->
         <div class="NL_accordion_heading" role="tab" id="headingOne">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
                aria-controls="collapseOne">
@@ -26,20 +28,20 @@ tags:
             <div class="panel-body row NL_accordion_content">
                 <div class="col-md-4">
 
-                    <div data-toggle="modal" data-target="#myModal">
-                        <img src="/img/getting-started/getting-started-01.jpg" alt="Create NetLicensing account"/>
+                    <div data-toggle="modal" data-target="#step1">
                         <i class="fa fa-search-plus NL-see-popup"></i>
+                        <img src="/img/getting-started/getting-started-01.jpg" alt="Create NetLicensing account"/>
                     </div>
 
-                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div class="modal-dialog" role="document">
+                    <div id="step1" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Create NetLicensing account</h4>
+                                    <h4 class="modal-title">Create NetLicensing account</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="/img/getting-started/getting-started-01.jpg" alt="Create NetLicensing account">
+                                    <img src="/img/getting-started/getting-started-01-big.jpg" alt="Create NetLicensing account">
                                 </div>
                             </div>
                         </div>
@@ -58,6 +60,7 @@ tags:
         </div>
     </div>
 
+    <!-- Step 2: Configure product -->
     <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
         <div class="NL_accordion_heading" role="tab" id="headingTwo">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true"
@@ -68,8 +71,26 @@ tags:
         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
             <div class="panel-body row NL_accordion_content">
                 <div class="col-md-4">
-                    <img src="/img/getting-started/getting-started-02.jpg" alt="Configure product"
-                         style="width: 350px;padding-left:20px;">
+
+                    <div data-toggle="modal" data-target=".bs-example-modal-lg" data-target="#step2">
+                        <i class="fa fa-search-plus NL-see-popup"></i>
+                        <img src="/img/getting-started/getting-started-02.jpg" alt="Configure product"/>
+                    </div>
+
+                    <div id="step2" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Configure product</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/img/getting-started/getting-started-02-big.jpg" alt="Configure product">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
@@ -84,6 +105,7 @@ tags:
         </div>
     </div>
 
+    <!-- Step 3: Validate licensee -->
     <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
         <div class="NL_accordion_heading" role="tab" id="headingThree">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true"
@@ -94,8 +116,26 @@ tags:
         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
             <div class="panel-body row NL_accordion_content">
                 <div class="col-md-4">
-                    <img src="/img/getting-started/getting-started-03.jpg" alt="Validate licensee"
-                         style="width: 350px;padding-left:20px;">
+
+                    <div data-toggle="modal" data-target=".bs-example-modal-lg" data-target="#step3">
+                        <i class="fa fa-search-plus NL-see-popup"></i>
+                        <img src="/img/getting-started/getting-started-03.jpg" alt="Validate licensee"/>
+                    </div>
+
+                    <div id="step3" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Validate licensee</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/img/getting-started/getting-started-03-big.jpg" alt="Validate licensee">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
@@ -133,6 +173,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
         </div>
     </div>
 
+    <!-- Step 4: Integrate NetLicensing API -->
     <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
         <div class="NL_accordion_heading" role="tab" id="headingFour">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true"
@@ -143,8 +184,26 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
             <div class="panel-body row NL_accordion_content">
                 <div class="col-md-4">
-                    <img src="/img/getting-started/getting-started-04.jpg" alt="Integrate NetLicensing API"
-                         style="width: 350px;padding-left:20px;">
+
+                    <div data-toggle="modal" data-target=".bs-example-modal-lg" data-target="#step4">
+                        <i class="fa fa-search-plus NL-see-popup"></i>
+                        <img src="/img/getting-started/getting-started-04.jpg" alt="Integrate NetLicensing API"/>
+                    </div>
+
+                    <div id="step4" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Integrate NetLicensing API</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/img/getting-started/getting-started-04-big.jpg" alt="Integrate NetLicensing API">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
@@ -157,6 +216,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
         </div>
     </div>
 
+    <!-- Step 5: Acquire licenses via NetLicensing Shop -->
     <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
         <div class="NL_accordion_heading" role="tab" id="headingFive">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true"
@@ -167,8 +227,26 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
         <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
             <div class="panel-body row NL_accordion_content">
                 <div class="col-md-4">
-                    <img src="/img/getting-started/getting-started-05.jpg" alt="Acquire licenses via NetLicensing Shop"
-                         style="width: 350px;padding-left:20px;">
+
+                    <div data-toggle="modal" data-target=".bs-example-modal-lg" data-target="#step5">
+                        <i class="fa fa-search-plus NL-see-popup"></i>
+                        <img src="/img/getting-started/getting-started-05.jpg" alt="Acquire licenses via NetLicensing Shop"/>
+                    </div>
+
+                    <div id="step5" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Acquire licenses via NetLicensing Shop</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/img/getting-started/getting-started-05-big.jpg" alt="Acquire licenses via NetLicensing Shop">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
