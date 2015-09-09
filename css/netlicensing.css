@@ -504,6 +504,10 @@ footer {
     list-style-type: none;
 }
 
+.NL_footer_menu h3 i {
+    display: none;
+}
+
 .NL_footer_contacts img {
     padding-top: 21px;
     width: 120px;
@@ -705,7 +709,6 @@ ul.NL_licensing_models li.item {
 }
 
 .card .action {
-    border-top: 1px solid rgba(160, 160, 160, 0.2);
     padding: 20px;
 }
 
@@ -994,16 +997,36 @@ ul#filterOptions>li.active>a {
     div[data-toggle="modal"] img {
         margin: 8px 0px 30px -50px; 
     }
+
+    .NL_banner h1 {
+        margin-top: 40px;
+    }
 }
 
-@media screen and (max-width: 767px) {
-    .NL_about {
-        height: 380px;
+@media only screen and (max-width: 993px) {
+    .NL_footer_menu > .col-md-2 {
+        margin-top: 10px;
     }
 
-    h1 {
-        font-size: 24px;
-        margin-top: -20px;
+    .NL_footer_menu ul {
+        height: 0px;
+        overflow: hidden;
+        padding-bottom: 0px;
+    }
+
+    .NL_footer_menu h3 i {
+        display: block;
+        float: right;
+        font-size: 10px;
+        margin-top: 6px;
+        margin-right: 30px;
+    }
+
+    .NL_footer_menu h3 {
+        margin: 0px;
+        border-bottom: 1px solid #E7E7E7;
+        padding-top: 15px;
+        padding-bottom: 20px;
     }
 
     .NL_container_text {
@@ -1011,7 +1034,22 @@ ul#filterOptions>li.active>a {
     }
 
     .NL_testimonial {
-        margin-top: 50px;
+        margin-top: 30px;
+    }
+
+    .card a {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .NL_about {
+        height: 390px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-top: -20px;
     }
     
     .NL_button.NL_dark_btn {
@@ -1034,16 +1072,34 @@ ul#filterOptions>li.active>a {
     .NL_FAQ div{
         margin-top: 40px;
     }
-
-    .card a {
-        margin-bottom: 20px;
-    }
-
 }
 
 @media screen and (max-width: 479px) {
+    h2 {
+        font-size: 18px;
+    }
 
+    .NL_about {
+        height: 520px;
+    }
 
+    .NL_banner {
+        height: inherit;
+        background-size: 300% 100%;
+    }
+
+    .NL_button.NL_dark_btn {
+        line-height: 20px;
+    }
+
+    .NL_testimonial_block {
+        padding: 35px 0px;
+    }
+
+    .NL_block {
+        padding: 0px;
+        margin-top: 10px;
+    }
 
 }
 
