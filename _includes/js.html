@@ -8,7 +8,11 @@
 <script src="{{ '/js/quicksand.min.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
 <script src="{{ '/js/jquery-ui.min.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
 <script>
-    new cbpScroller(document.getElementById('cbp-so-scroller'));
+	$(function () {
+		if ($("div").is("#cbp-so-scroller")){
+			new cbpScroller(document.getElementById('cbp-so-scroller'));
+		}
+	});
 </script>
 <script>
     $(function () {
