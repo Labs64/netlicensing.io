@@ -109,6 +109,10 @@ a:active, a:hover {
     color: #853E29 !important;
 }
 
+#uvTabLabel {
+    border: none;
+}
+
 /*----------   NL Popup  -----------*/
 i.NL-see-popup {
     font-size: 24px;
@@ -136,9 +140,8 @@ div[data-toggle="modal"] img {
 }
 
 .modal-body img {
-    margin: 0 auto;
-    padding: 30px;
-    width: 100%;
+    margin-left: 10%;
+    width: 80%;
 }
 
 .modal-header {
