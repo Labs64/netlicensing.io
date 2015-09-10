@@ -7,6 +7,7 @@
 <script src="{{ '/js/jquery.quicksand.min.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
 <script src="{{ '/js/quicksand.min.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
 <script src="{{ '/js/jquery-ui.min.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
+<script src="{{ '/js/changeURL.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
 <script>
 	$(function () {
 		if ($("div").is("#cbp-so-scroller")){
@@ -18,23 +19,6 @@
     $(function () {
 	  $('[data-toggle="tooltip"]').tooltip()
 	})
-</script>
-<script>
-    $(".show-more a").on("click", function () {
-        var $this = $(this);
-        var $content = $this.parent().prev("div.content");
-        var linkText = $this.text().toUpperCase();
-
-        if (linkText === "SHOW MORE FEATURES") {
-            linkText = "Hide";
-            $content.switchClass("hideContent", "showContent", 1500);
-        } else {
-            linkText = "Show more features";
-            $content.switchClass("showContent", "hideContent", 1500);
-        };
-
-        $this.text(linkText);
-    });
 </script>
 <script>
 	$(".NL_footer_menu h3").on("click", function () {
