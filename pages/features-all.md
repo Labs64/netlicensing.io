@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "All Features"
+title: "Features"
 description: "World class features you need to effectively manage your product licenses"
 permalink: "/features-all/"
 tags:
-- all features
+- features
 - FAQ
 ---
 <div class="row NL_banner">
