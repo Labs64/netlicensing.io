@@ -34,7 +34,24 @@ tags:
         {% endfor %}
     </div>
 
-    <div id="showContent" class="col-md-12 content"></div>
+    <div id="showContent" class="col-md-12 content hideContent">
+        {% for feature in site.data.features %}
+        {% if feature.show != "Y" %}
+        <div class="col-md-3 NL_feature">
+            <figure class="hover_effect">
+                <figcaption>
+                <img src="{{ feature.icon }}" alt="{{ feature.name }}"/>  
+                <h3>
+                {{ feature.name }}
+                </h3>
+
+                <p>{{ feature.description }}</p>
+                </figcaption>
+            </figure>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
     <div class="col-md-12 show-more" >
         <a id="load-features" href="/features-all" class="NL_button button_main NL_dark_btn">Show more features</a>
     </div>
