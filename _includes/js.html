@@ -9,34 +9,34 @@
 <script src="{{ '/js/jquery-ui.min.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
 <script src="{{ '/js/changeURL.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
 <script>
-	$(function () {
-		if ($("div").is("#cbp-so-scroller")){
-			new cbpScroller(document.getElementById('cbp-so-scroller'));
-		}
-	});
+    $(function () {
+        if ($("div").is("#cbp-so-scroller")) {
+            new cbpScroller(document.getElementById('cbp-so-scroller'));
+        }
+    });
 </script>
 <script>
     $(function () {
-	  $('[data-toggle="tooltip"]').tooltip()
-	})
+        $('[data-toggle="tooltip"]').tooltip()
+    })
 </script>
 <script>
-	$(".NL_footer_menu h3").on("click", function () {
-		var $this = $(this);
-		var $icon = $this.children(".fa");
-		var $content = $this.next("ul");
-		if ($(window).width() <= '993'){
-			if ($icon.hasClass("fa-chevron-down")) {
-				$this.css({border: "none"});
-				$content.css({'border-bottom': '1px solid #E7E7E7'});
-				$icon.switchClass("fa-chevron-down", "fa-chevron-up", 500);
-				$content.animate({height: "100px"}, 700);
-			} else {
-				$content.css({border: "none"});
-				$icon.switchClass("fa-chevron-up", "fa-chevron-down", 500);
-				$content.animate({height: "0px"}, 700);
-				$this.css({'border-bottom': '1px solid #E7E7E7'});
-			}
-		}
-	});
+    $(".NL_footer_menu h3").on("click", function () {
+        var $this = $(this);
+        var $icon = $this.children(".fa");
+        var $content = $this.next("ul");
+        if ($(window).width() <= '993') {
+            if ($icon.hasClass("fa-chevron-down")) {
+                $this.css({border: "none"});
+                $content.css({'border-bottom': '1px solid #E7E7E7'});
+                $icon.switchClass("fa-chevron-down", "fa-chevron-up", 500);
+                $content.animate({height: "100px"}, 700);
+            } else {
+                $content.css({border: "none"});
+                $icon.switchClass("fa-chevron-up", "fa-chevron-down", 500);
+                $content.animate({height: "0px"}, 700);
+                $this.css({'border-bottom': '1px solid #E7E7E7'});
+            }
+        }
+    });
 </script>
