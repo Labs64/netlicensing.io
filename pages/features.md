@@ -6,6 +6,7 @@ permalink: "/features/"
 tags:
 - features
 - FAQ
+fragmented: "true"
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
