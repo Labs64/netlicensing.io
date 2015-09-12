@@ -998,7 +998,7 @@ ul#filterOptions>li.active>a {
     }
 
     div[data-toggle="modal"] img {
-        margin: 8px 0px 30px -50px; 
+        margin: 8px 0px 30px -50px;
     }
 
     .NL_banner h1 {
@@ -1054,7 +1054,7 @@ ul#filterOptions>li.active>a {
         font-size: 24px;
         margin-top: -20px;
     }
-    
+
     .NL_button.NL_dark_btn {
         margin: 0 auto;
         text-align: center;
@@ -1072,7 +1072,7 @@ ul#filterOptions>li.active>a {
         margin-top: 0px;
     }
 
-    .NL_FAQ div{
+    .NL_FAQ div {
         margin-top: 40px;
     }
 }
