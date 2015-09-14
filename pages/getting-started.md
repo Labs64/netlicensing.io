@@ -145,12 +145,12 @@ tags:
                         <li>In case you are using your vendor account please provide <i>username:password</i> in the <i>--user</i> attribute</li>
                         <li>Alternatively you can use NetLicensing API <i><a href="http://io.labs64.com/NetLicensing-API/">test application</a></i>, which provides easy access to all NetLicensing functions</li>
                     </ul>
-                    <span>
-                    <u>Sample request:</u>
+                    <div>
+                    <em>Sample request:</em>
                     {% highlight ruby %}
 $ curl --header "Accept: application/xml" --insecure --user demo:demo --request GET https://netlicensing.labs64.com/core/v2/rest/licensee/%LICENSEE_NUMBER%/validate
                     {% endhighlight %}
-                    <u>Sample response:</u>
+                    <em>Sample response:</em>
                     {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <netlicensing xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://netlicensing.labs64.com/schema/context" ttl="2015-08-09T06:41:15.854Z">
@@ -167,7 +167,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
     </items>
 </netlicensing>
                     {% endhighlight %}
-                    </span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -251,11 +251,11 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
                 <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
                         <li>Create shop token for the given licensee (replace %LICENSEE_NUMBER%)</li>
-                        <u>Create token request:</u>
+                        <em>Create token request:</em>
                         {% highlight ruby %}
 $ curl --header "Accept: application/xml" --header "Content-Type: application/x-www-form-urlencoded" --insecure --user demo:demo --request POST https://netlicensing.labs64.com/core/v2/rest/token --data "tokenType=SHOP&licenseeNumber=%LICENSEE_NUMBER%"
                         {% endhighlight %}
-                        <u>Create token response:</u>
+                        <em>Create token response:</em>
                         {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <netlicensing xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://netlicensing.labs64.com/schema/context">
