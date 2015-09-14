@@ -3,10 +3,11 @@ layout: page
 title: "Features"
 description: "World class features you need to effectively manage your product licenses"
 permalink: "/features/"
+canonical: "/features-all/"
+fragmented: "true"
 tags:
 - features
 - FAQ
-fragmented: "true"
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">

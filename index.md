@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Innovative License Management Solution
-description: "Labs64 NetLicensing - Innovative License Management Solution for software vendors (ISVs)"
+description: "NetLicensing allows Software Vendors (ISVs) to deliver and activate product licenses online and provides the ability to map/combine numerous ready-to-use licensing models"
 permalink: /
 sitemap:
   priority: 0.7

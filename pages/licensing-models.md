@@ -10,13 +10,16 @@ tags:
 - Rental
 - Floating
 - Pay-per-use
+- Standard
+- Multi-Feature
+- Named User
 sitemap:
   priority: 0.6
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Licensing Models</h1>
-        <span>NetLicensing is sophisticated enough to cover even the most outlandish licensing models: from single-user to network overflow licenses. NetLicensing provides the software vendor with the ability to map/combine numerous licensing models.</span>
+        <span>NetLicensing is sophisticated enough to cover even the most outlandish licensing models: from single-user to network overflow licenses. NetLicensing provides software vendors with the ability to map/combine numerous licensing models.</span>
     </div>
 </div>
 

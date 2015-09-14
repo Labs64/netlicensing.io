@@ -29,11 +29,11 @@ compress_html:
 
 # Exclude these files from production _site
 exclude:
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
-    - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - .gitignore
 
 # Custom collections
 collections:
