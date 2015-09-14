@@ -80,8 +80,8 @@ tags:
                               id="summary"
                               data-validation-required-message="Please enter a summary of the feature."></textarea>
 
-                    <button type="submit" class="NL_button button_main NL_dark_btn" role="button"><i
-                            class="fa fa-paper-plane"></i>Send
+                    <button type="submit" class="NL_button button_main NL_dark_btn">
+                        <i class="fa fa-paper-plane"></i>Send
                     </button>
                 </div>
             </form>

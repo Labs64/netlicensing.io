@@ -57,8 +57,8 @@ tags:
                               id="summary"
                               data-validation-required-message="Please enter a summary of the case study."></textarea>
 
-                    <button type="submit" class="NL_button button_main NL_banner_btn" role="button"><i
-                            class="fa fa-paper-plane"></i>Send
+                    <button type="submit" class="NL_button button_main NL_banner_btn">
+                        <i class="fa fa-paper-plane"></i>Send
                     </button>
                 </div>
             </form>
