@@ -250,7 +250,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
                 </div>
                 <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
-                        <li>Create shop token for the given licensee (replace %LICENSEE_NUMBER%)</li>
+                        <li>Create shop token for the given licensee (replace %LICENSEE_NUMBER%)<br/>
                         <em>Create token request:</em>
                         {% highlight ruby %}
 $ curl --header "Accept: application/xml" --header "Content-Type: application/x-www-form-urlencoded" --insecure --user demo:demo --request POST https://netlicensing.labs64.com/core/v2/rest/token --data "tokenType=SHOP&licenseeNumber=%LICENSEE_NUMBER%"
@@ -275,6 +275,7 @@ $ curl --header "Accept: application/xml" --header "Content-Type: application/x-
     </items>
 </netlicensing>
                         {% endhighlight %}
+                        </li>
                         <li><i><a href="https://www.labs64.de/confluence/x/rwCo">Create token</a></i> service returns also the complete <i>shopURL</i> for convenience</li>
                         <li>Provide a link to NetLicensing Shop (<i>shopURL</i>) in the UI of your product or forward the user to NetLicensing Shop URL by other means</li>
                         <li>The URL of NetLicensing Shop has the following format:</li>
