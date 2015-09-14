@@ -278,10 +278,11 @@ $ curl --header "Accept: application/xml" --header "Content-Type: application/x-
                         </li>
                         <li><i><a href="https://www.labs64.de/confluence/x/rwCo">Create token</a></i> service returns also the complete <i>shopURL</i> for convenience</li>
                         <li>Provide a link to NetLicensing Shop (<i>shopURL</i>) in the UI of your product or forward the user to NetLicensing Shop URL by other means</li>
-                        <li>The URL of NetLicensing Shop has the following format:</li>
+                        <li>The URL of NetLicensing Shop has the following format:
                         {% highlight ruby %}
                         https://netlicensing.labs64.com/app/v2/content/shop.xhtml?shoptoken=%TOKEN_NUMBER%
                         {% endhighlight %}
+                        </li>
                     </ul>
                 </div>
             </div>
