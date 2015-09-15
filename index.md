@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Innovative License Management Solution
-description: "NetLicensing allows Software Vendors (ISVs) to deliver and activate product licenses online and provides the ability to map/combine numerous ready-to-use licensing models"
+description: "NetLicensing allows Software Vendors (ISV) to deliver and activate product licenses online and provides the ability to adopt numerous ready-to-use licensing models"
 permalink: /
 sitemap:
-  priority: 0.7
+  priority: 0.8
 ---
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
