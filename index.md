@@ -29,13 +29,13 @@ sitemap:
                     NetLicensing has an open architecture that allows easy extension with new licensing models.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="img/netlicensing-promo-01.jpg" alt="NetLicensing Flex">
+                <img src="img/netlicensing-promo-00.jpg" alt="NetLicensing Flex">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="img/netlicensing-promo-02.jpg" alt="NetLicensing eCommerce">
+                <img src="img/netlicensing-promo-00.jpg" alt="NetLicensing eCommerce">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Streamline purchasing process</h2>
@@ -64,13 +64,13 @@ sitemap:
 
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="img/netlicensing-promo-03.jpg" alt="NetLicensing Integration">
+                <img src="img/netlicensing-promo-00.jpg" alt="NetLicensing Integration">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="img/netlicensing-promo-04.jpg" alt="NetLicensing Activation">
+                <img src="img/netlicensing-promo-00.jpg" alt="NetLicensing Activation">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Activate over the Internet</h2>
