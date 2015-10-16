@@ -13,7 +13,7 @@ env:
 
 script:
   - bundle exec jekyll build --drafts
-  - bundle exec htmlproof ./_site --verbose --check-html --href-ignore "/.*www.linkedin.com.*/" "/.*mc.yandex.ru.*/"
+  - bundle exec htmlproof ./_site --verbose --check-html --href-ignore "/.*www.linkedin.com.*/"
 
 notifications:
   email: true
