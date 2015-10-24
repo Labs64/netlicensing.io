@@ -21,7 +21,9 @@ tags:
                src="/img/case-studies/how-to-select-licensing-model-infographic-netlicensing-icon.png" style="width: 350px;padding-left:20px;"/>
       </div>
       <div class="col-md-8">
-          <h2>Infographic: How To Select Licensing Model</h2>
+          <a href="/resources/how-to-select-licensing-model-infographic-netlicensing.png" title="Infographic: How To Select Licensing Model">
+            <h2>Infographic: How To Select Licensing Model</h2>
+          </a>
           <p>
             <a href="/resources/how-to-select-licensing-model-infographic-netlicensing_lo.pdf" title="Infographic: How To Select Licensing Model (low)">Infographic: How To Select Licensing Model (PDF / lo-res)</a>
             <br/>
