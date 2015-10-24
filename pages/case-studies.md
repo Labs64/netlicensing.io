@@ -14,11 +14,21 @@ tags:
     </div>
 </div>
 
-[Infographic: How To Select Licensing Model (PDF / lo-res)](/resources/how-to-select-licensing-model-infographic-netlicensing_lo.pdf "Infographic: How To Select Licensing Model (low)")
-
-[Infographic: How To Select Licensing Model (PDF / hi-res)](/resources/how-to-select-licensing-model-infographic-netlicensing_hi.pdf "Infographic: How To Select Licensing Model (high)")
-
 <div class="NL_block">
+  <div class="panel-body row">
+      <div class="col-md-4">
+          <img alt="Infographic: How To Select Licensing Model" title="Infographic: How To Select Licensing Model"
+               src="/img/case-studies/how-to-select-licensing-model-infographic-netlicensing-icon.png" style="width: 350px;padding-left:20px;"/>
+      </div>
+      <div class="col-md-8">
+          <h2>Infographic: How To Select Licensing Model</h2>
+          <p>
+            <a href="/resources/how-to-select-licensing-model-infographic-netlicensing_lo.pdf" title="Infographic: How To Select Licensing Model (low)">Infographic: How To Select Licensing Model (PDF / lo-res</a>
+            <br/>
+            <a href="/resources/how-to-select-licensing-model-infographic-netlicensing_hi.pdf" title="Infographic: How To Select Licensing Model (high)">Infographic: How To Select Licensing Model (PDF / hi-res</a>
+          </p>
+      </div>
+  </div>
 {% for casestudy in site.case-studies %}
     {% if casestudy.title %}
     <div class="panel-body row">
