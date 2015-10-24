@@ -23,9 +23,9 @@ tags:
       <div class="col-md-8">
           <h2>Infographic: How To Select Licensing Model</h2>
           <p>
-            <a href="/resources/how-to-select-licensing-model-infographic-netlicensing_lo.pdf" title="Infographic: How To Select Licensing Model (low)">Infographic: How To Select Licensing Model (PDF / lo-res</a>
+            <a href="/resources/how-to-select-licensing-model-infographic-netlicensing_lo.pdf" title="Infographic: How To Select Licensing Model (low)">Infographic: How To Select Licensing Model (PDF / lo-res)</a>
             <br/>
-            <a href="/resources/how-to-select-licensing-model-infographic-netlicensing_hi.pdf" title="Infographic: How To Select Licensing Model (high)">Infographic: How To Select Licensing Model (PDF / hi-res</a>
+            <a href="/resources/how-to-select-licensing-model-infographic-netlicensing_hi.pdf" title="Infographic: How To Select Licensing Model (high)">Infographic: How To Select Licensing Model (PDF / hi-res)</a>
           </p>
       </div>
   </div>
