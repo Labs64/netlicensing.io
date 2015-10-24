@@ -14,6 +14,10 @@ tags:
     </div>
 </div>
 
+[Infographic: How To Select Licensing Model (PDF / lo-res)](/resources/how-to-select-licensing-model-infographic-netlicensing_lo.pdf "Infographic: How To Select Licensing Model (low)")
+
+[Infographic: How To Select Licensing Model (PDF / hi-res)](/resources/how-to-select-licensing-model-infographic-netlicensing_hi.pdf "Infographic: How To Select Licensing Model (high)")
+
 <div class="NL_block">
 {% for casestudy in site.case-studies %}
     {% if casestudy.title %}
