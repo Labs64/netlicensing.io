@@ -6,7 +6,7 @@ permalink: /
 sitemap:
   priority: 0.8
 ---
-<div class="row NL_banner">
+<div class="row NL_main_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
         <h1>Move your Licensing to the Cloud</h1>
         <span>Labs64 NetLicensing is a first-class solution in the Licensing as a Service (LaaS) sector.

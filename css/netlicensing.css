@@ -92,10 +92,14 @@ a:active, a:hover {
     line-height: 24px;
 }
 
-.NL_banner {
+.NL_banner, .NL_main_banner {
     margin-top: 0px;
     background: url(../img/netlicensing-stage-banner-01.png) 100% 100%;
     background-position-y: center;
+}
+
+.NL_main_banner {
+    background: url(../img/netlicensing-stage-banner-04.png) 100% 100%;
 }
 
 .NL_about_page {
@@ -1001,7 +1005,7 @@ ul#filterOptions>li.active>a {
         margin: 8px 0px 30px -50px;
     }
 
-    .NL_banner h1 {
+    .NL_banner h1, .NL_main_banner h1 {
         margin-top: 40px;
     }
 }
@@ -1068,6 +1072,11 @@ ul#filterOptions>li.active>a {
         padding-top: 100px;
     }
 
+    .NL_about {
+        height: 430px;
+        padding-top: 60px;
+    }
+
     .NL_FAQ {
         margin-top: 0px;
     }
@@ -1083,10 +1092,11 @@ ul#filterOptions>li.active>a {
     }
 
     .NL_about {
-        height: 520px;
+        height: 510px;
+        padding-top: 100px;
     }
 
-    .NL_banner {
+    .NL_banner, .NL_main_banner {
         height: inherit;
         background-size: 300% 100%;
     }
