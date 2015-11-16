@@ -53,8 +53,8 @@ tags:
 </div>
 
 <div class="row">
-    <div class="col-md-12 NL_form1 NL_block">
-        <div class="col-md-6 col-md-offset-3">
+    <div class="col-md-12 NL_form_light NL_block">
+        <div class="col-md-8 col-md-offset-2 NL_form_light_text">
             <h2>Submit a Case Study</h2>
             <span>Get your project listed on the NetLicensing website.</span>
 
