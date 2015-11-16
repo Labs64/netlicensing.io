@@ -6,8 +6,11 @@ keywords: netlicensing,software license,licensing model,license types,license ma
 copyright: Labs64 GmbH
 
 url: "http://netlicensing.io"
-# the subpath of your site, e.g. /blog/
+# subpath of the site, e.g. /blog/
 baseurl: ""
+
+# Styling
+stage_banner_image: "../img/netlicensing-stage-banner-01.png"
 
 # SEO
 google_author: "https://www.google.com/+Labs64"
@@ -44,19 +47,19 @@ collections:
 defaults:
   -
     scope:
-      path: "" 				# an empty string here means all files in the project
+      path: ""              # an empty string here means all files in the project
       type: "case-studies"
     values:
       layout: "page"
-      show_meta: true 	# Show metadata beneath all pages
+      show_meta: true       # Show metadata beneath all pages
       author: "Labs64"
   -
     scope:
-      path: "" 				# an empty string here means all files in the project
+      path: ""
       type: "pages"
     values:
       layout: "page"
-      show_meta: true 	# Show metadata beneath all pages
+      show_meta: true
       author: "Labs64"
   -
     scope:
@@ -64,5 +67,5 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      show_meta: true   # Show metadata beneath all posts
+      show_meta: true
       author: "Labs64"
