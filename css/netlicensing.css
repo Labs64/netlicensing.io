@@ -98,10 +98,10 @@ a:active, a:hover {
     background-position-y: center;
 }
 
-.NL_main_banner {
+/*.NL_main_banner {
     background: url(../img/netlicensing-stage-banner-advent.png);
     background-size: cover;
-}
+}*/
 
 .NL_about_page {
     padding-top: 80px;
@@ -1049,9 +1049,9 @@ ul#filterOptions>li.active>a {
         margin-bottom: 20px;
     }
 
-    .NL_main_banner {
-        background-position: 100% 100%; /* temporary style */
-    }
+    /*.NL_main_banner {
+        background-position: 100% 100%;  
+    }*/
 }
 
 @media screen and (max-width: 767px) {
