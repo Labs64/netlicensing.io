@@ -99,7 +99,8 @@ a:active, a:hover {
 }
 
 .NL_main_banner {
-    background: url(../img/netlicensing-stage-banner-01.png) 100% 100%;
+    background: url(../img/netlicensing-stage-banner-advent.png);
+    background-size: cover;
 }
 
 .NL_about_page {
@@ -1046,6 +1047,10 @@ ul#filterOptions>li.active>a {
 
     .card a {
         margin-bottom: 20px;
+    }
+
+    .NL_main_banner {
+        background-position: 100% 100%; /* temporary style */
     }
 }
 
