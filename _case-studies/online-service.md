@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Online Service subscription"
-description: "A simple way to show credits for the images used on your website."
+title: "Online Service Subscription"
+description: "Find out how NetLicensing can revolutionize the way you do business."
 permalink: "/case-studies/online-service/"
 img: "netlicensing-case-study-online-service.png"
 website: http://netlicensing.de
@@ -9,6 +9,7 @@ tags:
 - Case Studies
 - Use Cases
 - Online Service
+- Subscription
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
@@ -21,50 +22,31 @@ tags:
 
 ### Challenge
 
-The effective use of stock images and photography on your website and blog can have a massive impact on the number of visits which your site receives, and the positive response which visitors have to your sites content. Whilst a great deal of high quality images are available for free in the public domain, to really make your site stand out you’ll want to use images which are supplied by a top quality photographer or company.
+At NetLicensing we make it our mission to make your easier – enabling you to utilize our products to help sell yours and to provide outstanding customer service each and every time. A number of our articles have looked at the changing model of licensing. Specifically the shift from a one-off fee to a subscription model. We have seen heard from a number of our customers about how NetLicensing has helped streamline their business and we would like to share this example with you.
 
-However, the inclusion of images which are not in the public domain means that you must provide proper attribution credits to the photographers and image creators.
-
-The Credit Tracker plugin allows you to create Media Credits Tables, meaning you can easily track which images on your site require accreditation. It also adds a few additional fields to the Media Library which are not included in the original installation. The function of these fields is to help you fetch the credit information from different image agencies and then show it in the required format.
-
-The Plugin is designed to be easy-to-use and to fit easily and neatly within the current design of your website with fully customisable colours, fonts and styles. For the more confident designer you can also override the standard WordPress Shortcode.
-
-This plugin adds the following fields to all images in WordPress Media Library:
-
-* Ident-Nr.
-* Source
-* Owner/Author
-* Publisher
-* License
-* Link
-
-#### Features
-* Retrieve Media information from the different stock agencies (Flickr, Fotolia, iStockphoto etc.)
-* Append credits to the Media Library elements
-* Configurable copyright format string
-* "credit_tracker_table" shortcode to construct a nicely-styled 'Image Credits' table
-* Fully customisable to look just like your own website's style: customise the colours, styles and fonts
-* Ability to override standard WordPress shortcode [caption]
-* Add microdata to the images
-
-Website: [{{ page.website }}]({{ page.website }})
+The customer was selling stock photographs to a variety of customer bases; particularly designers who were looking for images to use with client websites and materials. The images were sold individually or in ‘batches’ and the price reflected the number of images that were purchased; i.e. 1 bought on its own would have a higher price than if bought as part of a batch of images. The thinking behind this model was to encourage customers to buy more images at one time; which would save them money in the long term – this would also mean that the company selling the images would ultimately make a larger profit.
 
 ### Approach
 
+The problem with this though was two-fold; firstly it did not provide a regular income stream and secondly it meant that customers would have to go through a checkout process each time they wanted to purchase any images. This meant that the process took longer than necessary and there was a noticeable problem with customer retention.
+
+The approach that we suggested to them was to retain their existing model but to also offer a tier-based subscription system – using NetLicensing to track payments and subscription usage. The model was based on three separate tiers of payment; each of them coming with a certain number of image downloads per month. With the top (and most expensive) tier offering unlimited downloads.
+
+Initially, there were only a few subscribers, but this number grew steadily and previous customers who had purchased under the old model moved over to the subscription as it allowed them to access the images more quickly and with less hassle than before. As the subscriber base grew, so did the regular income and all of this was managed through NetLicensing – where the company was able to track subscription payments, as well as see how subscribers they had on each tier and how often they were logging in to the site and downloading images.
 
 ### Results
 
+The end result was that the revenue stream increased and became regulated, it also significantly improved the customer experience which in turn helped to drive sales and greatly improve retention.
+
 ### Case Facts
 
-#### Company
-* Labs64 GmbH
-
 #### Industry
-* Software as a Service
+* Online Service
 
 #### Use Case
-* In-plugin engagement
-* Product monitoring
+* Subscription
+* e-Commerce
 
 #### Favorite Feature
-* Product Usage
+* Licensing Model "Subscription"
++ NetLicensing Shop

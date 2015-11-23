@@ -15,22 +15,6 @@ tags:
 </div>
 
 <div class="NL_block">
-  <div class="panel-body row">
-      <div class="col-md-4">
-          <img alt="Infographic: How To Select Licensing Model" title="Infographic: How To Select Licensing Model"
-               src="/img/case-studies/how-to-select-licensing-model-infographic-netlicensing-icon.png" style="width: 350px;padding-left:20px;"/>
-      </div>
-      <div class="col-md-8">
-          <a href="/resources/how-to-select-licensing-model-infographic-netlicensing.png" title="Infographic: How To Select Licensing Model">
-            <h2>Infographic: How To Select Licensing Model</h2>
-          </a>
-          <p>
-            <a href="/resources/how-to-select-licensing-model-infographic-netlicensing_lo.pdf" title="Infographic: How To Select Licensing Model (low)">Infographic: How To Select Licensing Model (PDF / lo-res)</a>
-            <br/>
-            <a href="/resources/how-to-select-licensing-model-infographic-netlicensing_hi.pdf" title="Infographic: How To Select Licensing Model (high)">Infographic: How To Select Licensing Model (PDF / hi-res)</a>
-          </p>
-      </div>
-  </div>
 {% for casestudy in site.case-studies %}
     {% if casestudy.title %}
     <div class="panel-body row">
@@ -50,6 +34,24 @@ tags:
     </div>
     {% endif %}
 {% endfor %}
+
+<div class="panel-body row">
+    <div class="col-md-4">
+        <img alt="Infographic: How To Select Licensing Model" title="Infographic: How To Select Licensing Model"
+             src="/img/case-studies/how-to-select-licensing-model-infographic-netlicensing-icon.png" style="width: 350px;padding-left:20px;"/>
+    </div>
+    <div class="col-md-8">
+        <a href="/resources/how-to-select-licensing-model-infographic-netlicensing.png" title="Infographic: How To Select Licensing Model">
+          <h2>Infographic: How To Select Licensing Model</h2>
+        </a>
+        <p>
+          <a href="/resources/how-to-select-licensing-model-infographic-netlicensing_lo.pdf" title="Infographic: How To Select Licensing Model (low)">Infographic: How To Select Licensing Model (PDF / lo-res)</a>
+          <br/>
+          <a href="/resources/how-to-select-licensing-model-infographic-netlicensing_hi.pdf" title="Infographic: How To Select Licensing Model (high)">Infographic: How To Select Licensing Model (PDF / hi-res)</a>
+        </p>
+    </div>
+</div>
+
 </div>
 
 <div class="row">
