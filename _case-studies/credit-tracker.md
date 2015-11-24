@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Wordpress Plugin usage tracking"
+title: "Wordpress Plugin: Credit Tracker"
 description: "A simple way to show credits for the images used on your website."
 permalink: "/case-studies/credit-tracker/"
 img: "netlicensing-case-study-credit-tracker.png"
@@ -48,8 +48,6 @@ This plugin adds the following fields to all images in WordPress Media Library:
 * Ability to override standard WordPress shortcode [caption]
 * Add microdata to the images
 
-Website: [{{ page.website }}]({{ page.website }})
-
 ### Approach
 
 
@@ -69,3 +67,5 @@ Website: [{{ page.website }}]({{ page.website }})
 
 #### Favorite Feature
 * Product Usage
+
+Website: [{{ page.website }}]({{ page.website }})
