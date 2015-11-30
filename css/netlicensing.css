@@ -687,6 +687,99 @@ ul.NL_licensing_models li.item {
     text-align: justify;
 }
 
+/*----------   Case Studies Page  -----------*/
+a.NL_cases_card {
+    margin: 20px 0;
+    border-bottom: none;
+    text-align: left;
+}
+
+.NL_cases_card > div {
+    min-height: 170px;
+    width: 100%; 
+    border:1px solid #EEE;
+}
+
+.NL_cases_card > div:hover { 
+    border:1px solid #f9e1c4;
+}
+
+.view {
+    width: 200px;
+    height: 168px;
+    padding: 0px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+.view .mask, .view .content {
+    width: 200px;
+    height: 168px;
+    padding: 0px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+
+img.view-img {
+    width: 200px;
+    height: 168px; 
+    display: block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.mask p {
+    font-size: 13px;
+    font-weight: 400;
+    position: relative;
+    color: #853E29;
+    padding: 10px 20px 20px;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+
+.mask img {
+    width:30px;
+    height:30px;
+    margin-top: 50px;
+}
+
+.mask {
+    background-color: #f9e1c4;
+    transform: translateX(-200px);
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
+}
+
+a.NL_cases_card:hover div.view-info .mask {
+    transform: translateX(0px);
+}
+
+a.NL_cases_card:hover .view-info img.view-img {
+    transform: translateX(300px);
+    transition-delay: 0.1s;
+}
+
+a.NL_cases_card:hover .view-info p{
+    opacity: 1;
+    transition-delay: 0.4s;
+}
+
+.NL_infographic {
+    margin-top: 50px;
+}
+
+.NL_infographic > .NL_container {
+    background: url(../img/case-studies/how-to-select-licensing-model-infographic.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 /*----------  Material Cards  -----------*/
 
 .card {
@@ -1048,6 +1141,19 @@ ul#filterOptions>li.active>a {
     .card a {
         margin-bottom: 20px;
     }
+
+    a.NL_cases_card > div > div.col-md-offset-1 {
+        padding: 10px;
+        text-align: right;
+    }
+
+    .view-info {
+        margin-right: 10px;
+    }
+
+    .NL_infographic > .NL_container {
+        background-size: cover;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -1114,7 +1220,6 @@ ul#filterOptions>li.active>a {
         padding: 0px;
         margin-top: 10px;
     }
-
 }
 
 /*-------------- Scroller -----------*/

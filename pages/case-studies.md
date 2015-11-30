@@ -14,28 +14,49 @@ tags:
     </div>
 </div>
 
-<div class="NL_block">
+<div class="NL_block row">
 {% for casestudy in site.case-studies %}
     {% if casestudy.title %}
-    <div class="panel-body row">
-        <div class="col-md-4">
-            <a href="{{ casestudy.url }}" title="Case Study: {{ casestudy.title }}">
-                <img alt="{{ casestudy.title }}" title="Case Study: {{ casestudy.title }}"
-                 src="/img/case-studies/{{ casestudy.img }}" style="width: 350px;padding-left:20px;"/>
-            </a>
-        </div>
-        <div class="col-md-8">
-            <a href="{{ casestudy.url }}" title="Case Study: {{ casestudy.title }}">
-                <h2>{{ casestudy.title }}</h2>
-            </a>
+    
+        <a href="{{ casestudy.url }}" class="NL_cases_card col-md-6" title="Case Study: {{ casestudy.title }}">
+            <div>
 
-            <p>{{ casestudy.description }}</p>
-        </div>
-    </div>
+                <div class="view view-info col-md-5">
+                    <img class="view-img" src="/img/case-studies/{{ casestudy.img }}" alt="{{ casestudy.title }}" />
+                    <div class="mask">
+                        <img alt="{{ site.title }}" src="{{ '/img/labs64-avatar-30x30.png' | prepend: site.baseurl | prepend: site.url }}" />
+                        <p>{{ casestudy.title }}</p>
+                    </div>
+                </div>
+
+                <div class="col-md-5 col-md-offset-1">
+                    <h3>{{ casestudy.title }}</h3>
+                    <p>{{ casestudy.description }}</p>
+                </div>
+
+            </div>
+        </a>
     {% endif %}
 {% endfor %}
+</div>
 
-<div class="panel-body row">
+<div class="row NL_infographic">
+    <div class="col-md-12 NL_container">
+        <div class="col-md-6 col-md-offset-3 NL_container_text">
+            <a href="/resources/how-to-select-licensing-model-infographic-netlicensing.png" title="Infographic: How To Select Licensing Model">
+              <h2>Infographic: How To Select Licensing Model</h2>
+            </a>
+            <p>
+              <a href="/resources/how-to-select-licensing-model-infographic-netlicensing_lo.pdf" title="Infographic: How To Select Licensing Model (low)">Infographic: How To Select Licensing Model (PDF / lo-res)</a>
+              <br/>
+              <a href="/resources/how-to-select-licensing-model-infographic-netlicensing_hi.pdf" title="Infographic: How To Select Licensing Model (high)">Infographic: How To Select Licensing Model (PDF / hi-res)</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--
+<div class="NL_block row">
     <div class="col-md-4">
         <img alt="Infographic: How To Select Licensing Model" title="Infographic: How To Select Licensing Model"
              src="/img/case-studies/how-to-select-licensing-model-infographic-netlicensing-icon.png" style="width: 350px;padding-left:20px;"/>
@@ -50,8 +71,6 @@ tags:
           <a href="/resources/how-to-select-licensing-model-infographic-netlicensing_hi.pdf" title="Infographic: How To Select Licensing Model (high)">Infographic: How To Select Licensing Model (PDF / hi-res)</a>
         </p>
     </div>
-</div>
-
 </div>
 
 <div class="row">
@@ -82,4 +101,4 @@ tags:
             </form>
         </div>
     </div>
-</div>
+</div>-->
