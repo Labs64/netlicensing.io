@@ -712,7 +712,6 @@ a.NL_cases_card {
     overflow: hidden;
     position: relative;
     text-align: center;
-    cursor: default;
 }
 .view .mask, .view .content {
     width: 200px;
@@ -754,6 +753,7 @@ img.view-img {
     transform: translateX(-200px);
     opacity: 1;
     transition: all 0.4s ease-in-out;
+    cursor: pointer;
 }
 
 a.NL_cases_card:hover div.view-info .mask {
@@ -778,6 +778,51 @@ a.NL_cases_card:hover .view-info p{
     background: url(../img/case-studies/how-to-select-licensing-model-infographic.png) no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+.NL_case_study {
+    text-align: justify;
+}
+
+.NL_case_study img {
+    float:left; 
+    padding: 0 20px 20px 0;
+    width: 250px;
+}
+
+.NL_case_study h3 {
+    margin-top: 50px;
+}
+
+.NL_case_study h3:nth-child(1) {
+    margin-top: 0px;
+}
+
+.NL_case_facts {
+    display: block;
+    border-bottom: 1px solid #E14817;
+    border-top: 1px solid #E14817;
+    border-left: 1px solid #F9E1C4;
+    border-right: 1px solid #F9E1C4;
+    padding: 0px 20px 40px 40px;
+}
+
+.NL_case_facts p {
+    margin-top: 20px;
+    font-weight: 400;
+    margin-bottom: -1px;
+}
+
+.NL_case_facts h3 {
+    line-height: 30px;
+}
+
+.NL_case_facts ul {
+    list-style-type: square;
+}
+
+.NL_case_facts ul li {
+    margin-left: 20px;
 }
 
 /*----------  Material Cards  -----------*/
@@ -1154,6 +1199,10 @@ ul#filterOptions>li.active>a {
     .NL_infographic > .NL_container {
         background-size: cover;
     }
+
+    .NL_case_facts {
+        margin-top: 50px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -1219,6 +1268,10 @@ ul#filterOptions>li.active>a {
     .NL_block {
         padding: 0px;
         margin-top: 10px;
+    }
+
+    .NL_case_study h3:nth-child(1) {
+        margin-top: 50px;
     }
 }
 
