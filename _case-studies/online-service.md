@@ -4,15 +4,21 @@ title: "Online Service Subscription"
 description: "Find out how NetLicensing can revolutionize the way you do business."
 permalink: "/case-studies/online-service/"
 img: "netlicensing-case-study-online-service.png"
-website: http://netlicensing.de
 tags:
 - Case Studies
 - Use Cases
 - Online Service
 - Subscription
+industry:
+- Online Service
+use-case:
+- Subscription
+- e-Commerce
+favorite-feature:
+- Licensing Model "Subscription"
+- NetLicensing Shop
+website: http://netlicensing.de
 ---
-
-![{{ page.title }}](/img/case-studies/{{ page.img }} "{{ page.title }}")
 
 ### Challenge
 
@@ -31,18 +37,3 @@ Initially, there were only a few subscribers, but this number grew steadily and 
 ### Results
 
 The end result was that the revenue stream increased and became regulated, it also significantly improved the customer experience which in turn helped to drive sales and greatly improve retention.
-
-### Case Facts
-
-#### Industry
-* Online Service
-
-#### Use Case
-* Subscription
-* e-Commerce
-
-#### Favorite Feature
-* Licensing Model "Subscription"
-+ NetLicensing Shop
-
-Website: [{{ page.website }}]({{ page.website }})

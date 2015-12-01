@@ -805,6 +805,7 @@ a.NL_cases_card:hover .view-info p{
     border-left: 1px solid #F9E1C4;
     border-right: 1px solid #F9E1C4;
     padding: 0px 20px 40px 40px;
+    margin-left: 4%;
 }
 
 .NL_case_facts p {

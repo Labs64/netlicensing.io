@@ -4,15 +4,22 @@ title: "Wordpress Plugin: Credit Tracker"
 description: "A simple way to show credits for the images used on your website."
 permalink: "/case-studies/credit-tracker/"
 img: "netlicensing-case-study-credit-tracker.png"
-website: https://wordpress.org/plugins/credit-tracker/
 tags:
 - Case Studies
 - Use Cases
 - Wordpress Plugin
 - Credit Tracker
+company:
+- Labs64 GmbH
+industry:
+- Software as a Service
+use-case:
+- In-plugin engagement
+- Product monitoring
+favorite-feature:
+- Product Usage
+website: https://wordpress.org/plugins/credit-tracker/
 ---
-
-![{{ page.title }}](/img/case-studies/{{ page.img }} "{{ page.title }}")
 
 ### Challenge
 
@@ -46,20 +53,3 @@ This plugin adds the following fields to all images in WordPress Media Library:
 
 
 ### Results
-
-### Case Facts
-
-#### Company
-* Labs64 GmbH
-
-#### Industry
-* Software as a Service
-
-#### Use Case
-* In-plugin engagement
-* Product monitoring
-
-#### Favorite Feature
-* Product Usage
-
-Website: [{{ page.website }}]({{ page.website }})

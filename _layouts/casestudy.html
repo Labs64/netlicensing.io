@@ -9,9 +9,48 @@ layout: default
         </div>
     </div>
 
-    <article class="page-content NL_page">
-        {{ content }}
-    </article>
+    <div class="row NL_block">
+        <div class="col-md-8 NL_case_study">
+            {{ content }}
+        </div>
+        <div class="col-md-3 col-md-offset-1 NL_case_facts">
+
+            <img src="/img/case-studies/{{ page.img }}" alt="{{ page.title }}" title="{{ page.title }}">
+
+            <h3>Case Facts</h3>
+            {% if page.company %}
+            <p>Company</p>
+            <ul>
+                <li>{{ page.company }}</li>
+            </ul>
+            {% endif %}
+            {% if page.industry %}
+            <p>Industry</p>
+            <ul>
+                {% for industry in page.industry %}
+                <li>{{ industry }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% if page.use-case %}
+            <p>Use Case</p>
+            <ul>
+                {% for usecase in page.use-case %}
+                <li>{{ usecase }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% if page.favorite-feature %}
+            <p>Favorite Feature</p>
+            <ul>
+                {% for feature in page.favorite-feature %}
+                <li>{{ feature }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            <p>Website:</p><a href="{{ page.website }}" target="_blank">{{ page.website }}</a>
+        </div>
+    </div>
 
     <div class="NL_block row">
         <h2>Case Studies</h2>
@@ -35,6 +74,7 @@ layout: default
                 </div>
                 <div class="col-md-5 col-md-offset-1">
                     <h3>{{ casestudy.title }}</h3>
+
                     <p>{{ casestudy.description }}</p>
                 </div>
             </div>
