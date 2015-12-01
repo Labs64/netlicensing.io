@@ -50,7 +50,7 @@ defaults:
       path: ""              # an empty string here means all files in the project
       type: "case-studies"
     values:
-      layout: "page"
+      layout: "casestudy"
       show_meta: true       # Show metadata beneath all pages
       author: "Labs64"
   -

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: casestudy
 title: "Wordpress Plugin: Credit Tracker"
 description: "A simple way to show credits for the images used on your website."
 permalink: "/case-studies/credit-tracker/"
@@ -11,12 +11,6 @@ tags:
 - Wordpress Plugin
 - Credit Tracker
 ---
-<div class="row NL_banner">
-    <div class="col-md-6 col-md-offset-3 NL_about_page">
-        <h1>{{ page.title }}</h1>
-        <span>{{ page.description }}</span>
-    </div>
-</div>
 
 ![{{ page.title }}](/img/case-studies/{{ page.img }} "{{ page.title }}")
 

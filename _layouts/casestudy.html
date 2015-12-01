@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<div class="casestudy">
+    <div class="row NL_banner">
+        <div class="col-md-6 col-md-offset-3 NL_about_page">
+            <h1>{{ page.title }}</h1>
+            <span>{{ page.description }}</span>
+        </div>
+    </div>
+
+    <article class="page-content NL_page">
+        {{ content }}
+    </article>
+
+    <div class="NL_block row">
+        <h2>Case Studies</h2>
+
+        <p class="col-md-8 col-md-offset-2" style="text-align:center;">Whether you're looking for inspiration, business
+            models, or precedents, the NetLicensing Case Studies are a perfect place to start.</p>
+        {% for casestudy in site.case-studies limit:3 %}
+        {% if casestudy.title %}
+        {% if casestudy.title != page.title %}
+        <a href="{{ casestudy.url }}" class="NL_cases_card col-md-6" title="Case Study: {{ casestudy.title }}">
+            <div>
+                <div class="view view-info col-md-5">
+                    <img class="view-img" src="/img/case-studies/{{ casestudy.img }}" alt="{{ casestudy.title }}"/>
+
+                    <div class="mask">
+                        <img alt="{{ site.title }}"
+                             src="{{ '/img/labs64-avatar-30x30.png' | prepend: site.baseurl | prepend: site.url }}"/>
+
+                        <p>{{ casestudy.title }}</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-md-offset-1">
+                    <h3>{{ casestudy.title }}</h3>
+                    <p>{{ casestudy.description }}</p>
+                </div>
+            </div>
+        </a>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>

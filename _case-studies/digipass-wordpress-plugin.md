@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: casestudy
 title: "Wordpress Plugin: DigiPass"
 description: "DigiPass is the best way for publishers and bloggers to monetize their digital content."
 permalink: "/case-studies/digipass-wordpress-plugin/"
@@ -13,12 +13,6 @@ tags:
 - Subscription
 - PayWall
 ---
-<div class="row NL_banner">
-    <div class="col-md-6 col-md-offset-3 NL_about_page">
-        <h1>{{ page.title }}</h1>
-        <span>{{ page.description }}</span>
-    </div>
-</div>
 
 <!--![{{ page.title }}](/img/case-studies/{{ page.img }} "{{ page.title }}")-->
 
@@ -40,7 +34,10 @@ tags:
 	</div>
 	<div class="col-md-4 col-md-offset-1 NL_case_facts">
 		<h3>Case Facts</h3>
-		<p>Industry</p><span>Online Publishing</span>
+		<p>Industry</p>
+        <ul>
+            <li>Online Publishing</li>
+        </ul>
 		<p>Use Case</p>
 		<ul>
 			<li>Subscription</li>
@@ -52,31 +49,6 @@ tags:
 			<li>Licensing Model "Subscription"</li>
 			<li>NetLicensing Shop</li>
 		</ul>
-		<p>Website:</p><a href="{{ page.website }}">{{ page.website }}</a>
+		<p>Website:</p><a href="{{ page.website }}" target="_blank">{{ page.website }}</a>
 	</div>
 </div>
-
-<div class="NL_block row">
-	<h2>Case Studies</h2>
-	<p class="col-md-8 col-md-offset-2" style="text-align:center;">Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start.</p>
-	{% for casestudy in site.case-studies %}
-	    {% if casestudy.title %}
-	        <a href="{{ casestudy.url }}" class="NL_cases_card col-md-6" title="Case Study: {{ casestudy.title }}">
-	            <div>
-	                <div class="view view-info col-md-5">
-	                    <img class="view-img" src="/img/case-studies/{{ casestudy.img }}" alt="{{ casestudy.title }}" />
-	                    <div class="mask">
-	                        <img alt="{{ site.title }}" src="{{ '/img/labs64-avatar-30x30.png' | prepend: site.baseurl | prepend: site.url }}" />
-	                        <p>{{ casestudy.title }}</p>
-	                    </div>
-	                </div>
-	                <div class="col-md-5 col-md-offset-1">
-	                    <h3>{{ casestudy.title }}</h3>
-	                    <p>{{ casestudy.description }}</p>
-	                </div>
-	            </div>
-	        </a>
-	    {% endif %}
-	{% endfor %}
-</div>
-
