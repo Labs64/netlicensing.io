@@ -9,13 +9,10 @@ layout: default
         </div>
     </div>
 
-    <div class="row NL_block">
-        <div class="col-md-8 NL_case_study">
-            {{ content }}
-        </div>
+    <div class="row">
         <div class="col-md-3 col-md-offset-1 NL_case_facts">
 
-            <img src="/img/case-studies/{{ page.img }}" alt="{{ page.title }}" title="{{ page.title }}">
+            <div class="NL_case_img" style="background-image:url(/img/case-studies/{{ page.img }})" alt="{{ page.title }}" title="{{ page.title }}"></div>
 
             <h3>Case Facts</h3>
             {% if page.company %}
@@ -50,10 +47,14 @@ layout: default
             {% endif %}
             <p>Website:</p><a href="{{ page.website }}" target="_blank">{{ page.website }}</a>
         </div>
+
+        <div class="col-md-7 NL_case_study">
+            {{ content }}
+        </div>
     </div>
 
     <div class="NL_block row">
-        <h2>Case Studies</h2>
+        <h2>Other Case Studies</h2>
 
         <p class="col-md-8 col-md-offset-2" style="text-align:center;">Whether you're looking for inspiration, business
             models, or precedents, the NetLicensing Case Studies are a perfect place to start.</p>
