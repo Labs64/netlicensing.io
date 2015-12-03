@@ -781,7 +781,7 @@ a.NL_cases_card:hover .view-info p{
 }
 
 .casestudy {
-    padding-bottom: 70px;
+    padding-bottom: 90px;
 }
 
 .NL_case_study {
@@ -810,9 +810,10 @@ a.NL_cases_card:hover .view-info p{
 
 .NL_case_facts {
     display: block;
-    border: 1px solid #EEE;
+    border: 1px solid #E1E1E1;
     word-wrap: break-word;
     margin-top: 70px;
+    background: url(../img/case-studies/case-facts-pattern.png);
 }
 
 .NL_case_facts p {
@@ -823,8 +824,11 @@ a.NL_cases_card:hover .view-info p{
 }
 
 .NL_case_facts h3 {
-    margin-top: 30px;
+    margin-top: 0px;
+    border-top: 1px solid #E1E1E1;
     text-align: center;
+    background-color: #EEE;
+    line-height: 42px;
 }
 
 .NL_case_facts ul {
@@ -837,6 +841,11 @@ a.NL_cases_card:hover .view-info p{
 
 .NL_case_facts a {
     margin-left: 20px;
+}
+
+.NL_case_study ul {
+    margin-left: 30px;
+    list-style-type: square;
 }
 
 /*----------  Material Cards  -----------*/
@@ -977,12 +986,8 @@ a.NL_cases_card:hover .view-info p{
     clear: both;
 }
 
-.cbp-so-side-right {
-    text-align: left;
-}
-
-.cbp-so-side-left {
-    text-align: right;
+.cbp-so-side-right, .cbp-so-side-left {
+    text-align: center;
 }
 
 .cbp-so-side-right img {
