@@ -12,7 +12,8 @@ layout: default
     <div class="row">
         <div class="col-md-3 col-md-offset-1 NL_case_facts">
 
-            <div class="NL_case_img" style="background-image:url(/img/case-studies/{{ page.img }})" alt="{{ page.title }}" title="{{ page.title }}"></div>
+            <div class="NL_case_img" style="background-image:url(/img/case-studies/{{ page.img }})"
+                 alt="{{ page.title }}" title="{{ page.title }}"></div>
 
             <h3>Case Facts</h3>
             {% if page.company %}
@@ -45,7 +46,9 @@ layout: default
                 {% endfor %}
             </ul>
             {% endif %}
+            {% if page.website %}
             <p>Website:</p><a href="{{ page.website }}" target="_blank">{{ page.website }}</a>
+            {% endif %}
         </div>
 
         <div class="col-md-7 NL_case_study">
@@ -54,13 +57,15 @@ layout: default
     </div>
 
     <div class="NL_block row">
-        <h2>Other Case Studies</h2>
+        <h2>More Case Studies</h2>
 
-        <p class="col-md-8 col-md-offset-2" style="text-align:center;">Whether you're looking for inspiration, business
-            models, or precedents, the NetLicensing Case Studies are a perfect place to start.</p>
-        {% for casestudy in site.case-studies limit:3 %}
-        {% if casestudy.title %}
-        {% if casestudy.title != page.title %}
+        {% assign casestudyTotal = 2 %}
+        {% assign casestudyCnt = 0 %}
+        {% for casestudy in site.case-studies %}
+        {% capture casestudyDiff %}{{ casestudyTotal | minus:casestudyCnt }}{% endcapture %}
+        {% unless casestudyDiff == '0' %}
+        {% if casestudy.title and casestudy.title != page.title %}
+        {% capture casestudyCnt %}{{ casestudyCnt | plus:1 }}{% endcapture %}
         <a href="{{ casestudy.url }}" class="NL_cases_card col-md-6" title="Case Study: {{ casestudy.title }}">
             <div>
                 <div class="view view-info col-md-5">
@@ -81,7 +86,7 @@ layout: default
             </div>
         </a>
         {% endif %}
-        {% endif %}
+        {% endunless %}
         {% endfor %}
     </div>
 </div>

@@ -27,6 +27,8 @@ The effective use of stock images and photography on your website and blog can h
 
 However, the inclusion of images which are not in the public domain means that you must provide proper attribution credits to the photographers and image creators.
 
+### Approach
+
 The Credit Tracker plugin allows you to create Media Credits Tables, meaning you can easily track which images on your site require accreditation. It also adds a few additional fields to the Media Library which are not included in the original installation. The function of these fields is to help you fetch the credit information from different image agencies and then show it in the required format.
 
 The Plugin is designed to be easy-to-use and to fit easily and neatly within the current design of your website with fully customisable colours, fonts and styles. For the more confident designer you can also override the standard WordPress Shortcode.
@@ -40,7 +42,9 @@ This plugin adds the following fields to all images in WordPress Media Library:
 * License
 * Link
 
-#### Features
+### Results
+
+#### Credit Tracker features:
 * Retrieve Media information from the different stock agencies (Flickr, Fotolia, iStockphoto etc.)
 * Append credits to the Media Library elements
 * Configurable copyright format string
@@ -48,8 +52,3 @@ This plugin adds the following fields to all images in WordPress Media Library:
 * Fully customisable to look just like your own website's style: customise the colours, styles and fonts
 * Ability to override standard WordPress shortcode [caption]
 * Add microdata to the images
-
-### Approach
-
-
-### Results

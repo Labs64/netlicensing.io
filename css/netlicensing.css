@@ -696,12 +696,12 @@ a.NL_cases_card {
 
 .NL_cases_card > div {
     min-height: 170px;
-    width: 100%; 
-    border:1px solid #EEE;
+    width: 100%;
+    border: 1px solid #EEE;
 }
 
-.NL_cases_card > div:hover { 
-    border:1px solid #f9e1c4;
+.NL_cases_card > div:hover {
+    border: 1px solid #f9e1c4;
 }
 
 .view {
@@ -713,6 +713,7 @@ a.NL_cases_card {
     position: relative;
     text-align: center;
 }
+
 .view .mask, .view .content {
     width: 200px;
     height: 168px;
@@ -725,7 +726,7 @@ a.NL_cases_card {
 
 img.view-img {
     width: 200px;
-    height: 168px; 
+    height: 168px;
     display: block;
     position: relative;
     transition: all 0.3s ease-in-out;
@@ -743,8 +744,8 @@ img.view-img {
 }
 
 .mask img {
-    width:30px;
-    height:30px;
+    width: 30px;
+    height: 30px;
     margin-top: 50px;
 }
 
@@ -765,7 +766,7 @@ a.NL_cases_card:hover .view-info img.view-img {
     transition-delay: 0.1s;
 }
 
-a.NL_cases_card:hover .view-info p{
+a.NL_cases_card:hover .view-info p {
     opacity: 1;
     transition-delay: 0.4s;
 }
@@ -802,7 +803,7 @@ a.NL_cases_card:hover .view-info p{
     padding: 0 0 30px 0;
 }
 
-.NL_case_img { 
+.NL_case_img {
     height: 220px;
     background-repeat: no-repeat;
     background-size: cover;

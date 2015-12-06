@@ -17,7 +17,6 @@ use-case:
 favorite-feature:
 - Licensing Model "Subscription"
 - NetLicensing Shop
-website: http://netlicensing.de
 ---
 
 ### Challenge
