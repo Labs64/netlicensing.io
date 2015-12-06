@@ -8,8 +8,9 @@ Visit Labs64 NetLicensing at http://netlicensing.io
 
 Following files, directories and their contents are copyright Labs64. You may not reuse anything therein without permission:
 
-* _posts/
-* pages/
+* _case-studies/
 * img/
+* pages/
+* resources/
 
 All other files and directories are licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php) unless explicitly stated.
