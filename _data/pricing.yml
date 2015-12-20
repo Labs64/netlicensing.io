@@ -1,0 +1,74 @@
+- name: "Products"
+  free: "Unlimited"
+  enterprise: "Unlimited"
+
+- name: "Validations"
+  free: "Unlimited"
+  enterprise: "Unlimited"
+
+- name: "Activations"
+  free: "Unlimited"
+  enterprise: "Unlimited"
+
+- name: "Licensing Models"
+  description: "Accelerate your licensing! With NetLicensing, you can create <a href='/licensing-models/'>licensing models</a> that fit your business needs."
+  free: "Y"
+  enterprise: "Y"
+
+- name: "Online Management Portal"
+  description: "NetLicensing Manage gives you one single management portal for managing all your products, modules and license templates."
+  free: "Y"
+  enterprise: "Y"
+
+- name: "Product Usage Tracking and Analytics"
+  description: "See how your software is performing out in the wild. NetLicensing gives you insight into your licensees' product usage."
+  free: "Y"
+  enterprise: "Y"
+
+- name: "RESTful API and Integration"
+  description: "Integrate NetLicensing into your product or process! With the <a href='https://www.labs64.de/confluence/x/pwCo'>NetLicensing API</a>, you can manage your licensing entities and easily integrate them into your business processes, ERP, CRM or Web shop."
+  free: "Y"
+  enterprise: "Y"
+
+- name: "Predefined Client Libraries"
+  description: "NetLicensing <a href='https://www.labs64.de/confluence/x/xgCo'>client libraries and examples</a> can be used as a foundation for integrating NetLicensing into your code."
+  free: "Y"
+  enterprise: "Y"
+
+- name: "Licensing E-commerce Platform"
+  description: "NetLicensing Shop is an innovative eCommerce solution which provides your customers licenses acquisition possibility for every available licensing models."
+  free: "Y"
+  enterprise: "Y"
+
+- name: "Payment Services"
+  description: "Our PayPal integration allows your global customers to pay in their preferred currency."
+  free: "Y"
+  enterprise: "Y"
+
+- name: "Online License Acquisition"
+  description: "NetLicensing provides a seamless online purchase experience, aligned with deployed licensing models, resulting in higher conversion rates and customer retention."
+  free: "Y"
+  enterprise: "Y"
+
+- name: "Virtualization Support"
+  description: "NetLicensing offers a comprehensive licensing support for virtual environments and sandboxing."
+  free: "Y"
+  enterprise: "Y"
+
+- name: "Hosting Options"
+  description: "<strong>Cloud (SaaS)</strong> - use NetLicensing from our servers, save on maintenance costs.<br/><strong>On-Premise (Self-Hosted)</strong> - get full control over NetLicensing installation within your company's infrastructure."
+  free: "Cloud (SaaS)"
+  enterprise: "Cloud (SaaS)<br/>On-Premise (Self-Hosted)"
+
+- name: "Maintenance/Updates"
+  free: "N"
+  enterprise: "Y"
+
+- name: "Technical Support"
+  free: "eMail (3 days)"
+  enterprise: "eMail (4 hours)"
+
+- name: "Service Level Agreement"
+  description: "Get extra guarantee with the Service Level Agreement (SLA): we take care your licensing is up and running >99,9% of the time."
+  free: "N"
+  enterprise: "Y"
