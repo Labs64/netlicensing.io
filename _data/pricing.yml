@@ -2,7 +2,7 @@
   free: "Unlimited"
   enterprise: "Unlimited"
 
-- name: "Validations"
+- name: "Licenses"
   free: "Unlimited"
   enterprise: "Unlimited"
 
@@ -10,8 +10,17 @@
   free: "Unlimited"
   enterprise: "Unlimited"
 
+- name: "Validations"
+  free: "Unlimited"
+  enterprise: "Unlimited"
+
 - name: "Licensing Models"
   description: "Accelerate your licensing! With NetLicensing, you can create <a href='/licensing-models/'>licensing models</a> that fit your business needs."
+  free: "<a href='/licensing-models/'>All supported</a>"
+  enterprise: "<a href='/licensing-models/'>All supported</a>"
+
+- name: "Virtualization Support"
+  description: "NetLicensing offers a comprehensive licensing support for virtual environments and sandboxing."
   free: "Y"
   enterprise: "Y"
 
@@ -25,16 +34,6 @@
   free: "Y"
   enterprise: "Y"
 
-- name: "RESTful API and Integration"
-  description: "Integrate NetLicensing into your product or process! With the <a href='https://www.labs64.de/confluence/x/pwCo'>NetLicensing API</a>, you can manage your licensing entities and easily integrate them into your business processes, ERP, CRM or Web shop."
-  free: "Y"
-  enterprise: "Y"
-
-- name: "Predefined Client Libraries"
-  description: "NetLicensing <a href='https://www.labs64.de/confluence/x/xgCo'>client libraries and examples</a> can be used as a foundation for integrating NetLicensing into your code."
-  free: "Y"
-  enterprise: "Y"
-
 - name: "Licensing E-commerce Platform"
   description: "NetLicensing Shop is an innovative eCommerce solution which provides your customers licenses acquisition possibility for every available licensing models."
   free: "Y"
@@ -45,13 +44,25 @@
   free: "Y"
   enterprise: "Y"
 
-- name: "Online License Acquisition"
-  description: "NetLicensing provides a seamless online purchase experience, aligned with deployed licensing models, resulting in higher conversion rates and customer retention."
+- name: "Shop Customization"
   free: "Y"
   enterprise: "Y"
 
-- name: "Virtualization Support"
-  description: "NetLicensing offers a comprehensive licensing support for virtual environments and sandboxing."
+- name: "RESTful API and Integration"
+  description: "Integrate NetLicensing into your product or process! With the <a href='https://www.labs64.de/confluence/x/pwCo'>NetLicensing API</a>, you can manage your licensing entities and easily integrate them into your business processes, ERP, CRM or Web shop."
+  free: "Y"
+  enterprise: "Y"
+
+- name: "Predefined Client Libraries"
+  description: "NetLicensing <a href='https://www.labs64.de/confluence/x/xgCo'>client libraries and examples</a> can be used as a foundation for integrating NetLicensing into your code."
+  free: "Y"
+  enterprise: "Y"
+
+- name: "Supported languages and operating systems"
+  free: "No restrictions"
+  enterprise: "No restrictions"
+
+- name: "NetLicensing Agent"
   free: "Y"
   enterprise: "Y"
 
