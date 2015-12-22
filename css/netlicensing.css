@@ -1253,7 +1253,14 @@ ul#filterOptions>li.active>a {
 }
 
 .orange {
-    background: #f9e1c4 !important;
+    background: rgba(0,0,0,0.1) !important;
+}
+
+a.NL_pricing_tooltip {
+    font-size: 16px;
+    color: #999999;
+    border-bottom-color: #999999;
+    padding-left: 5px;
 }
 
 @media only screen and (min-width: 479px) and (max-width: 993px) {
