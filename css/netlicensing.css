@@ -405,20 +405,35 @@ div.in > .NL_accordion_content {
 
 .NL_logo {
     border-bottom: none;
+    padding-right: 10px;
 }
 
 .NL_logo img {
     float: left;
-    padding-right: 10px;
     margin-top: -5px;
+    padding-right: 10px;
 }
 
 .NL_logo span {
+    display: block;
     float: right;
     color: #853E29;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 1px;
+}
+
+.NL_by {
+    font-size: 13px;
+    line-height: 13px;
+    color: #E14817;
+    float: right;
+    margin-top: 21px;
+}
+
+.NL_by a {
+    color: #E14817;
+    border-bottom-color: #E14817;
 }
 
 .NL_main_menu li a {
@@ -1155,6 +1170,92 @@ ul#filterOptions>li.active>a {
     transform: translate3d(0, 0, 0);
 }
 
+/* Pricing */
+.NL_price_feature {
+    display: none;
+}
+
+.NL_pricing ul {
+    margin: 0 0;
+}
+
+.NL_pricing ul li {
+    display: block;
+    padding: 15px 0;
+    max-height: 60px;
+    list-style-type: none;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.NL_pricing ul li:nth-child(2n+1) {
+    background: rgba(0,0,0,0.02);
+}
+
+.NL_pricing ul li:nth-child(2n) {
+    background: rgba(0,0,0,0.05);
+}
+
+.NL_pricing ul li:nth-child(16) {
+    padding: 10px 0 0 0;
+    height: 60px;
+}
+
+.NL_pricing h3 {
+    text-align: center;
+    display: block;
+    padding: 20px 0;
+    margin: 0 0;
+}
+
+.NL_price_captions h3 {
+    padding: 40px 0 0 0; 
+}
+
+.NL_price_captions ul li,
+.NL_price_captions ul li:nth-child(16) {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.NL_price_free ul li:nth-child(16),
+.NL_price_captions ul li:nth-child(16) {
+    padding-top: 20px;
+}
+
+.NL_price_free ul li {
+    color: #E14817;
+}
+
+.NL_price_enterprise ul li {
+    color: #853E29;
+}
+
+.NL_price_free h3 {
+    color: #FFFFFF;
+    background-color: #E14817;
+}
+
+.NL_price_free {
+    border: 1px solid #E14817;
+}
+
+.NL_price_enterprise {
+    border: 1px solid #853E29;
+}
+
+.NL_price_enterprise h3 {
+    color: #FFFFFF;
+    background-color: #853E29;
+}
+
+.orange {
+    background: #f9e1c4 !important;
+}
+
 @media only screen and (min-width: 479px) and (max-width: 993px) {
     i.NL-see-popup {
         float: left;
@@ -1227,6 +1328,29 @@ ul#filterOptions>li.active>a {
     .NL_case_study {
         margin-right: 4%;
     }
+
+    .NL_price_captions {
+        display: none;
+    }
+
+    .NL_price_feature {
+        display: inline;
+    }
+
+    .NL_price_feature {
+        float: left;
+        padding-left: 30px;
+    }
+
+    .NL_pricing ul li,
+    .NL_pricing ul li:nth-child(16) {
+        text-align: right;
+        padding-right: 50px;
+    }
+
+    .NL_price_enterprise {
+        margin-top: 50px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -1264,6 +1388,19 @@ ul#filterOptions>li.active>a {
     .NL_FAQ div {
         margin-top: 40px;
     }
+
+    .NL_pricing ul li,
+    .NL_pricing ul li:nth-child(16) {
+        padding-right: 20px;
+    }
+
+    .NL_pricing ul li {
+        max-height: 100px; 
+    }
+
+    .NL_by {
+        float: left;
+    }
 }
 
 @media screen and (max-width: 479px) {
@@ -1296,6 +1433,16 @@ ul#filterOptions>li.active>a {
 
     .NL_case_study h3:nth-child(1) {
         margin-top: 50px;
+    }
+
+    .NL_price_free {
+        margin-top: 50px;
+    }
+
+    .NL_price_feature {
+        padding-left: 20px;
+        max-width: 280px;
+        text-align: left;
     }
 }
 

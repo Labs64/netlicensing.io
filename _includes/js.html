@@ -40,3 +40,10 @@
         }
     });
 </script>
+<script>
+    $(function(){
+        $('.NL_pricing ul li').hover(function() {
+            $('.NL_pricing ul li:nth-child('+($(this).index()+1)+') ').toggleClass('orange');
+        })
+    });
+</script>
