@@ -67,7 +67,7 @@
   enterprise: "Y"
 
 - name: "Hosting Options"
-  description: "<strong>Cloud (SaaS)</strong> - use NetLicensing from our servers, save on maintenance costs.<br/><strong>On-Premise (Self-Hosted)</strong> - get full control over NetLicensing installation within your company's infrastructure."
+  description: "Use NetLicensing from our servers and save on maintenance costs or on-premises (self-hosted) in order to get full control over NetLicensing installation within your company's infrastructure."
   free: "Cloud (SaaS)"
   enterprise: "Cloud (SaaS)<br/>On-Premise (Self-Hosted)"
 
@@ -76,8 +76,8 @@
   enterprise: "Y"
 
 - name: "Technical Support"
-  free: "eMail (3 days)"
-  enterprise: "eMail (4 hours)"
+  free: "<a href='https://www.labs64.de/confluence/x/pgCo'>Online</a> &#8226; <a href='mailto:netlicensing@labs64.com'>eMail</a> (3 days)"
+  enterprise: "<a href='https://www.labs64.de/confluence/x/pgCo'>Online</a> &#8226; <a href='mailto:netlicensing@labs64.com'>eMail</a> (4 hours)"
 
 - name: "Service Level Agreement"
   description: "Get extra guarantee with the Service Level Agreement (SLA): we take care your licensing is up and running >99,9% of the time."

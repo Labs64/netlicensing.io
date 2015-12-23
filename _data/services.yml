@@ -12,6 +12,10 @@
   section: "Company"
 
 # Learn
+- title: Pricing
+  url: "/pricing/"
+  section: "Documentation"
+
 - title: Getting Started
   url: "/getting-started/"
   section: "Documentation"

@@ -1226,12 +1226,12 @@ ul#filterOptions>li.active>a {
     padding-top: 20px;
 }
 
-.NL_price_free ul li {
+.NL_price_free a {
     color: #E14817;
 }
 
-.NL_price_enterprise ul li {
-    color: #853E29;
+.NL_price_free ul li {
+    color: #E14817;
 }
 
 .NL_price_free h3 {
@@ -1241,6 +1241,14 @@ ul#filterOptions>li.active>a {
 
 .NL_price_free {
     border: 1px solid #E14817;
+}
+
+.NL_price_enterprise a {
+    color: #853E29;
+}
+
+.NL_price_enterprise ul li {
+    color: #853E29;
 }
 
 .NL_price_enterprise {
@@ -1254,6 +1262,10 @@ ul#filterOptions>li.active>a {
 
 .orange {
     background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.NL_price_features .fa {
+    font-size: larger;
 }
 
 a.NL_pricing_tooltip {
