@@ -1192,11 +1192,11 @@ ul#filterOptions>li.active>a {
 }
 
 .NL_pricing ul li:nth-child(2n+1) {
-    background: rgba(0,0,0,0.02);
+    background: rgba(0, 0, 0, 0.02);
 }
 
 .NL_pricing ul li:nth-child(2n) {
-    background: rgba(0,0,0,0.05);
+    background: rgba(0, 0, 0, 0.05);
 }
 
 .NL_pricing ul li:nth-child(16) {
@@ -1212,7 +1212,7 @@ ul#filterOptions>li.active>a {
 }
 
 .NL_price_captions h3 {
-    padding: 40px 0 0 0; 
+    padding: 40px 0 0 0;
 }
 
 .NL_price_captions ul li,
@@ -1253,7 +1253,7 @@ ul#filterOptions>li.active>a {
 }
 
 .orange {
-    background: rgba(0,0,0,0.1) !important;
+    background: rgba(0, 0, 0, 0.1) !important;
 }
 
 a.NL_pricing_tooltip {
@@ -1402,7 +1402,7 @@ a.NL_pricing_tooltip {
     }
 
     .NL_pricing ul li {
-        max-height: 100px; 
+        max-height: 100px;
     }
 
     .NL_by {

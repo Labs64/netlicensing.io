@@ -5,6 +5,7 @@ description: "Whether you’re just getting started or are ready to bring licens
 permalink: "/pricing/"
 tags:
 - Pricing
+- Plan
 - Free
 - Enterprise
 ---
@@ -20,14 +21,16 @@ tags:
         <div class="NL_price_captions">
             <h3> &#160; <br/> &#160; </h3>
             <ul>
-            {% for feature in site.data.pricing %}
+                {% for feature in site.data.pricing %}
                 <li>
-                    {{ feature.name }} 
+                    {{ feature.name }}
                     {% if feature.description %}
-                    <a class="NL_pricing_tooltip" data-toggle="tooltip" data-placement="right" title="{{ feature.description }}" target="_blank" href="{{ link }}"><i class="fa fa-question-circle"></i></a>
+                    <a class="NL_pricing_tooltip" data-toggle="tooltip" data-placement="right"
+                       title="{{ feature.description }}" target="_blank" href="{{ link }}"><i
+                            class="fa fa-question-circle"></i></a>
                     {% endif %}
                 </li>
-            {% endfor %}
+                {% endfor %}
             </ul>
         </div>
     </div>
@@ -36,7 +39,7 @@ tags:
         <div class="NL_price_features NL_price_free">
             <h3><strong>FREE forever</strong><br/>built for freelancers and start ups</h3>
             <ul>
-            {% for feature in site.data.pricing %}
+                {% for feature in site.data.pricing %}
                 <li>
                     <span class="NL_price_feature"> {{ feature.name }} </span>
                     {% if feature.free == "Y" %}
@@ -47,7 +50,7 @@ tags:
                     {{ feature.free }}
                     {% endif %}
                 </li>
-            {% endfor %}
+                {% endfor %}
             </ul>
 
             <div class="show-more" style="padding: 5px 0 10px 0;">
@@ -61,7 +64,7 @@ tags:
         <div class="NL_price_features NL_price_enterprise">
             <h3><strong>Enterprise</strong><br/>built for businesses and enterprises</h3>
             <ul>
-            {% for feature in site.data.pricing %}
+                {% for feature in site.data.pricing %}
                 <li>
                     <span class="NL_price_feature"> {{ feature.name }} </span>
                     {% if feature.enterprise == "Y" %}
@@ -72,7 +75,7 @@ tags:
                     {{ feature.enterprise }}
                     {% endif %}
                 </li>
-            {% endfor %}
+                {% endfor %}
             </ul>
 
             <div class="show-more" style="padding: 5px 0 10px 0;">
