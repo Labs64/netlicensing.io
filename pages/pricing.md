@@ -26,8 +26,9 @@ tags:
                     {{ feature.name }}
                     {% if feature.description %}
                     <a class="NL_pricing_tooltip" data-toggle="tooltip" data-placement="right"
-                       title="{{ feature.description }}" target="_blank" href="{{ link }}"><i
-                            class="fa fa-question-circle"></i></a>
+                       title="{{ feature.description }}" target="_blank" href="#">
+                        <i class="fa fa-question-circle"></i>
+                    </a>
                     {% endif %}
                 </li>
                 {% endfor %}
