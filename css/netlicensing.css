@@ -416,24 +416,27 @@ div.in > .NL_accordion_content {
 
 .NL_logo span {
     display: block;
-    float: right;
     color: #853E29;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 1px;
+    line-height: 10px;
+    margin-left: 41px;
 }
 
-.NL_by {
+a.NL_by {
     font-size: 13px;
     line-height: 13px;
-    color: #E14817;
-    float: right;
-    margin-top: 21px;
+    color: #f8ae54;
+    float: left;
+    margin-top: 34px;
+    margin-left: -71px;
+    font-style: italic;
+    border: none;
 }
 
-.NL_by a {
+a.NL_by:hover {
     color: #E14817;
-    border-bottom-color: #E14817;
 }
 
 .NL_main_menu li a {
@@ -1271,7 +1274,7 @@ ul#filterOptions>li.active>a {
 a.NL_pricing_tooltip {
     font-size: 16px;
     color: #999999;
-    border-bottom-color: #999999;
+    border: none;
     padding-left: 5px;
 }
 
