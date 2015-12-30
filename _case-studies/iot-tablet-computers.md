@@ -3,7 +3,7 @@ layout: casestudy
 title: "Internet of Things: Tablet Computers"
 description: "Track all of the necessary information including; usage, payments and length of subscription"
 permalink: "/case-studies/iot-tablet-computers/"
-img: "/img/case-studies/netlicensing-case-study-online-service.png"
+img: "/img/case-studies/netlicensing-case-study-iot-tablet-computers.png"
 tags:
 - Case Studies
 - Use Cases

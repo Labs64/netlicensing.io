@@ -3,7 +3,7 @@ layout: casestudy
 title: "Internet Access Control"
 description: "Dedicated ‘connection points’ offering ethernet sockets as well as multiple plug sockets."
 permalink: "/case-studies/internet-access-control/"
-img: "/img/case-studies/netlicensing-case-study-online-service.png"
+img: "/img/case-studies/netlicensing-case-study-internet-access-control.png"
 tags:
 - Case Studies
 - Use Cases
