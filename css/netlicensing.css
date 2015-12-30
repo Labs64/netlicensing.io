@@ -1246,6 +1246,10 @@ ul#filterOptions>li.active>a {
     border: 1px solid #E14817;
 }
 
+.NL_price_free a {
+    border-bottom-color: #E14817;
+}
+
 .NL_price_enterprise a {
     color: #853E29;
 }
@@ -1293,6 +1297,12 @@ a.NL_pricing_tooltip {
 }
 
 @media only screen and (max-width: 993px) {
+    .NL_about {
+        height: 390px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    
     .NL_footer_menu > .col-md-2 {
         margin-top: 10px;
     }
