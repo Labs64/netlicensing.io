@@ -20,7 +20,7 @@ tags:
 <div class="row NL_block">
     <div class="col-md-6">
         <div class="card">
-            <img class="image col-md-4" src="/img/how_it_works.png" alt="How it Works">
+            <img class="image col-md-4" src="{{ '/img/how_it_works.png' | prepend: site.baseurl | prepend: site.url }}" alt="How it Works">
             <div class="content col-md-8">
                 <h3 class="title">How it Works</h3>
                 <p>As a vendor, you need just few steps to integrate NetLicensing into your product.</p>
@@ -32,7 +32,7 @@ tags:
     </div>
     <div class="col-md-6">
         <div class="card">
-            <img class="image col-md-4" src="/img/getting_started.png" alt="Getting Started">
+            <img class="image col-md-4" src="{{ '/img/getting_started.png' | prepend: site.baseurl | prepend: site.url }}" alt="Getting Started">
             <div class="content col-md-8">
                 <h3 class="title">Getting Started</h3>
                 <p>Getting started guide provides step-by-step instructions for the vendor how to begin with the
@@ -47,7 +47,7 @@ tags:
 <div class="row NL_block">
     <div class="col-md-6">
         <div class="card">
-            <img class="image col-md-4" src="/img/api.png" alt="NetLicensing API">
+            <img class="image col-md-4" src="{{ '/img/api.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing API">
             <div class="content col-md-8">
                 <h3 class="title">NetLicensing API</h3>
                 <p>The NetLicensing API (RESTful / JavaDoc) is for developers integrating NetLicensing with applications
@@ -63,7 +63,7 @@ tags:
     </div>
     <div class="col-md-6">
         <div class="card">
-            <img class="image col-md-4" src="/img/libraries.png" alt="Client Libraries">
+            <img class="image col-md-4" src="{{ '/img/libraries.png' | prepend: site.baseurl | prepend: site.url }}" alt="Client Libraries">
             <div class="content col-md-8">
                 <h3 class="title">Client Libraries</h3>
                 <p>Use the following client libraries and examples as a foundation for integrating NetLicensing in

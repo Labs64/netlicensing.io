@@ -30,7 +30,7 @@ tags:
 
                     <div data-toggle="modal" data-target="#step1">
                         <i class="fa fa-search-plus NL-see-popup"></i>
-                        <img src="/img/getting-started/getting-started-01.jpg" alt="Create NetLicensing account"/>
+                        <img src="{{ '/img/getting-started/getting-started-01.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Create NetLicensing account"/>
                     </div>
 
                     <div id="step1" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
@@ -41,7 +41,7 @@ tags:
                                     <h4 class="modal-title">Create NetLicensing account</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="/img/getting-started/getting-started-01-big.jpg" alt="Create NetLicensing account">
+                                    <img src="{{ '/img/getting-started/getting-started-01-big.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Create NetLicensing account">
                                 </div>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ tags:
 
                     <div data-toggle="modal" data-target=".bs-example-modal-lg" data-target="#step2">
                         <i class="fa fa-search-plus NL-see-popup"></i>
-                        <img src="/img/getting-started/getting-started-02.jpg" alt="Configure product"/>
+                        <img src="{{ '/img/getting-started/getting-started-02.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Configure product"/>
                     </div>
 
                     <div id="step2" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
@@ -85,7 +85,7 @@ tags:
                                     <h4 class="modal-title">Configure product</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="/img/getting-started/getting-started-02-big.jpg" alt="Configure product">
+                                    <img src="{{ '/img/getting-started/getting-started-02-big.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Configure product">
                                 </div>
                             </div>
                         </div>
@@ -119,7 +119,7 @@ tags:
 
                     <div data-toggle="modal" data-target=".bs-example-modal-lg" data-target="#step3">
                         <i class="fa fa-search-plus NL-see-popup"></i>
-                        <img src="/img/getting-started/getting-started-03.jpg" alt="Validate licensee"/>
+                        <img src="{{ '/img/getting-started/getting-started-03.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Validate licensee"/>
                     </div>
 
                     <div id="step3" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
@@ -130,7 +130,7 @@ tags:
                                     <h4 class="modal-title">Validate licensee</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="/img/getting-started/getting-started-03-big.jpg" alt="Validate licensee">
+                                    <img src="{{ '/img/getting-started/getting-started-03-big.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Validate licensee">
                                 </div>
                             </div>
                         </div>
@@ -187,7 +187,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
 
                     <div data-toggle="modal" data-target=".bs-example-modal-lg" data-target="#step4">
                         <i class="fa fa-search-plus NL-see-popup"></i>
-                        <img src="/img/getting-started/getting-started-04.jpg" alt="Integrate NetLicensing API"/>
+                        <img src="{{ '/img/getting-started/getting-started-04.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Integrate NetLicensing API"/>
                     </div>
 
                     <div id="step4" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
@@ -198,7 +198,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
                                     <h4 class="modal-title">Integrate NetLicensing API</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="/img/getting-started/getting-started-04-big.jpg" alt="Integrate NetLicensing API">
+                                    <img src="{{ '/img/getting-started/getting-started-04-big.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Integrate NetLicensing API">
                                 </div>
                             </div>
                         </div>
@@ -230,7 +230,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
 
                     <div data-toggle="modal" data-target=".bs-example-modal-lg" data-target="#step5">
                         <i class="fa fa-search-plus NL-see-popup"></i>
-                        <img src="/img/getting-started/getting-started-05.jpg" alt="Acquire licenses via NetLicensing Shop"/>
+                        <img src="{{ '/img/getting-started/getting-started-05.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Acquire licenses via NetLicensing Shop"/>
                     </div>
 
                     <div id="step5" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
@@ -241,7 +241,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
                                     <h4 class="modal-title">Acquire licenses via NetLicensing Shop</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="/img/getting-started/getting-started-05-big.jpg" alt="Acquire licenses via NetLicensing Shop">
+                                    <img src="{{ '/img/getting-started/getting-started-05-big.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="Acquire licenses via NetLicensing Shop">
                                 </div>
                             </div>
                         </div>

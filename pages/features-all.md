@@ -23,7 +23,7 @@ tags:
         <div class="col-md-3 NL_feature">
             <figure class="hover_effect">
                 <figcaption>
-                <img src="{{ feature.icon }}" alt="{{ feature.name }}"/>  
+                <img src="{{ feature.icon | prepend: site.baseurl | prepend: site.url }}" alt="{{ feature.name }}"/>
                 <h3>
                 {{ feature.name }}
                 </h3>
@@ -42,7 +42,7 @@ tags:
         <div class="col-md-3 NL_feature">
             <figure class="hover_effect">
                 <figcaption>
-                <img src="{{ feature.icon }}" alt="{{ feature.name }}"/>  
+                <img src="{{ feature.icon | prepend: site.baseurl | prepend: site.url }}" alt="{{ feature.name }}"/>
                 <h3>
                 {{ feature.name }}
                 </h3>
