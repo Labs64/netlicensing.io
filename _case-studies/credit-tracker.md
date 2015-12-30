@@ -3,7 +3,7 @@ layout: casestudy
 title: "Wordpress Plugin: Credit Tracker"
 description: "A simple way to show credits for the images used on your website."
 permalink: "/case-studies/credit-tracker/"
-img: "netlicensing-case-study-credit-tracker.png"
+img: "/img/case-studies/netlicensing-case-study-credit-tracker.png"
 tags:
 - Case Studies
 - Use Cases

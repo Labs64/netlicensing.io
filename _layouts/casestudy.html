@@ -12,7 +12,7 @@ layout: default
     <div class="row">
         <div class="col-md-3 col-md-offset-1 NL_case_facts">
 
-            <div class="NL_case_img" style="background-image:url(/img/case-studies/{{ page.img }})"
+            <div class="NL_case_img" style="background-image:url({{ page.img }})"
                  alt="{{ page.title }}" title="{{ page.title }}"></div>
 
             <h3>Case Facts</h3>
@@ -69,7 +69,7 @@ layout: default
         <a href="{{ casestudy.url }}" class="NL_cases_card col-md-6" title="Case Study: {{ casestudy.title }}">
             <div>
                 <div class="view view-info col-md-5">
-                    <img class="view-img" src="/img/case-studies/{{ casestudy.img }}" alt="{{ casestudy.title }}"/>
+                    <img class="view-img" src="{{ casestudy.img }}" alt="{{ casestudy.title }}"/>
 
                     <div class="mask">
                         <img alt="{{ site.title }}"

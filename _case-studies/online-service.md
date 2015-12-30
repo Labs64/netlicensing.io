@@ -3,7 +3,7 @@ layout: casestudy
 title: "Online Service Subscription"
 description: "Find out how NetLicensing can revolutionize the way you do business."
 permalink: "/case-studies/online-service/"
-img: "netlicensing-case-study-online-service.png"
+img: "/img/case-studies/netlicensing-case-study-online-service.png"
 tags:
 - Case Studies
 - Use Cases

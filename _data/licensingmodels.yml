@@ -10,7 +10,7 @@
    - time
    - feature
   status: "AVAILABLE"
-  img: 'licensing-model-try-and-buy.jpg'
+  img: '/img/licensing-model/licensing-model-try-and-buy.jpg'
   url: "https://www.labs64.de/confluence/x/twCo"
 
 
@@ -24,7 +24,7 @@
   tags:
    - time
   status: "AVAILABLE"
-  img: 'licensing-model-subscription.jpg'
+  img: '/img/licensing-model/licensing-model-subscription.jpg'
   url: "https://www.labs64.de/confluence/x/ugCo"
 
 
@@ -37,7 +37,7 @@
   tags:
    - concurrent
   status: "AVAILABLE"
-  img: 'licensing-model-floating.jpg'
+  img: '/img/licensing-model/licensing-model-floating.jpg'
   url: "https://www.labs64.de/confluence/x/3YHW"
 
 
@@ -49,7 +49,7 @@
   tags:
    - time
   status: "AVAILABLE"
-  img: 'licensing-model-rental.jpg'
+  img: '/img/licensing-model/licensing-model-rental.jpg'
   url: "https://www.labs64.de/confluence/x/uACo"
 
 
@@ -67,7 +67,7 @@
   tags:
    - volume
   status: "PLANNED"
-  img: 'licensing-model-pay-per-use.jpg'
+  img: '/img/licensing-model/licensing-model-pay-per-use.jpg'
   url: "https://www.labs64.de/confluence/x/tgCo"
 
 
@@ -80,7 +80,7 @@
   tags:
    - user
   status: "AVAILABLE"
-  img: 'licensing-model-standard.jpg'
+  img: '/img/licensing-model/licensing-model-standard.jpg'
   url: "https://www.labs64.de/confluence/x/tgCo"
 
 
@@ -95,7 +95,7 @@
   tags:
    - feature
   status: "AVAILABLE"
-  img: 'licensing-model-multi-feature.jpg'
+  img: '/img/licensing-model/licensing-model-multi-feature.jpg'
   url: "https://www.labs64.de/confluence/x/tgCo"
 
 
@@ -106,5 +106,5 @@
   tags:
    - user
   status: "AVAILABLE"
-  img: 'licensing-model-named-user.jpg'
+  img: '/img/licensing-model/licensing-model-named-user.jpg'
   url: "https://www.labs64.de/confluence/x/tgCo"

@@ -78,7 +78,7 @@ sitemap:
       {% endif %}
       {% if casestudy.img %}
         <image:image>
-            <image:loc>{{ site.url }}/img/case-studies/{{ casestudy.img }}</image:loc>
+            <image:loc>{{ casestudy.img | prepend: site.baseurl | prepend: site.url }}</image:loc>
             <image:caption>NetLicensing Case Study - {{ casestudy.title }}</image:caption>
             <image:title>{{ casestudy.title }}</image:title>
         </image:image>

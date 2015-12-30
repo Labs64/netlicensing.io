@@ -3,7 +3,7 @@ layout: casestudy
 title: "Mobile Device Management"
 description: "Mobile Device Management is a something that has now become integral to modern business operations."
 permalink: "/case-studies/mobile-device-management/"
-img: "netlicensing-case-study-online-service.png"
+img: "/img/case-studies/netlicensing-case-study-online-service.png"
 tags:
 - Case Studies
 - Use Cases

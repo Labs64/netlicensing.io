@@ -20,7 +20,7 @@ tags:
         <a href="{{ casestudy.url }}" class="NL_cases_card col-md-6" title="Case Study: {{ casestudy.title }}">
             <div>
                 <div class="view view-info col-md-5">
-                    <img class="view-img" src="/img/case-studies/{{ casestudy.img }}" alt="{{ casestudy.title }}" />
+                    <img class="view-img" src="{{ casestudy.img }}" alt="{{ casestudy.title }}" />
                     <div class="mask">
                         <img alt="{{ site.title }}" src="{{ '/img/labs64-avatar-30x30.png' | prepend: site.baseurl | prepend: site.url }}" />
                         <p>{{ casestudy.title }}</p>

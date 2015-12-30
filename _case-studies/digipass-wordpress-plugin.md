@@ -3,7 +3,7 @@ layout: casestudy
 title: "Wordpress Plugin: DigiPass"
 description: "DigiPass is the best way for publishers and bloggers to monetize their digital content."
 permalink: "/case-studies/digipass-wordpress-plugin/"
-img: "netlicensing-case-study-digipass.png"
+img: "/img/case-studies/netlicensing-case-study-digipass.png"
 tags:
 - Case Studies
 - Use Cases
