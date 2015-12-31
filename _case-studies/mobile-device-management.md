@@ -38,3 +38,17 @@ All fairly common challenges with mobile device management; but with a unique tw
 ### Results
 
 In essence, the company were able to deploy NetLicensing to track the device by serial number, the individual it had been issued to and the location where they were based. This meant that at all times they had a comprehensive database of all the devices and locations which then meant that they could deploy all necessary software and updates, as well as monitor all the devices, all of the time.
+
+
+{% for file in site.static_files %}
+* [{{ file.path }}]({{ site.baseurl }}{{ file.path }})
+{% endfor %}
+
+
+# Images
+
+{% for file in site.static_files %}
+{% if file.path contains '/img/' %}
++ [{{ file.path }}]({{ site.baseurl }}{{ file.path }})
+{% endif %}
+{% endfor %}
