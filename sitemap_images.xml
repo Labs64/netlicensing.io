@@ -1,0 +1,26 @@
+---
+layout: compress
+sitemap:
+  exclude: "true"
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated-on="{{ site.time | date_to_rfc822 }}" -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>{{ site.url }}</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        {% for file in site.static_files %}
+        {% if file.path contains '/img/' or file.path contains '/resources/' %}
+        <image:image>
+            <image:loc>{{ file.path | prepend: site.baseurl | prepend: site.url }}</image:loc>
+            <image:caption></image:caption>
+            <image:title></image:title>
+            <image:license></image:license>
+        </image:image>
+        {% endif %}
+        {% endfor %}
+    </url>
+</urlset>
