@@ -14,12 +14,7 @@ sitemap:
         <priority>1.0</priority>
         {% for file in site.static_files %}
         {% if file.path contains '/img/' or file.path contains '/resources/' %}
-        <image:image>
-            <image:loc>{{ file.path | prepend: site.baseurl | prepend: site.url }}</image:loc>
-            <image:caption></image:caption>
-            <image:title></image:title>
-            <image:license></image:license>
-        </image:image>
+        {% include image4sitemap.html image=file.path %}
         {% endif %}
         {% endfor %}
     </url>

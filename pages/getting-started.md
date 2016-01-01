@@ -6,6 +6,13 @@ permalink: "/getting-started/"
 tags:
 - getting started
 - how-to
+sitemap:
+  images:
+    - /img/getting-started/getting-started-01-big.jpg
+    - /img/getting-started/getting-started-02-big.jpg
+    - /img/getting-started/getting-started-03-big.jpg
+    - /img/getting-started/getting-started-04-big.jpg
+    - /img/getting-started/getting-started-05-big.jpg
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">

@@ -28,6 +28,11 @@ sitemap:
       {% else %}
         <priority>0.4</priority>
       {% endif %}
+      {% if post.sitemap.images %}
+        {% for post_image in post.sitemap.images %}
+          {% include image4sitemap.html image=post_image %}
+        {% endfor %}
+      {% endif %}
     </url>
     {% endunless %}
   {% endfor %}
@@ -51,6 +56,11 @@ sitemap:
         <priority>{{ page.sitemap.priority }}</priority>
       {% else %}
         <priority>0.5</priority>
+      {% endif %}
+      {% if page.sitemap.images %}
+        {% for page_image in page.sitemap.images %}
+          {% include image4sitemap.html image=page_image %}
+        {% endfor %}
       {% endif %}
     </url>
     {% endunless %}
@@ -77,11 +87,12 @@ sitemap:
         <priority>0.6</priority>
       {% endif %}
       {% if casestudy.img %}
-        <image:image>
-            <image:loc>{{ casestudy.img | prepend: site.baseurl | prepend: site.url }}</image:loc>
-            <image:caption>NetLicensing Case Study - {{ casestudy.title }}</image:caption>
-            <image:title>{{ casestudy.title }}</image:title>
-        </image:image>
+        {% include image4sitemap.html image=casestudy.img %}
+      {% endif %}
+      {% if casestudy.sitemap.images %}
+        {% for casestudy_image in casestudy.sitemap.images %}
+          {% include image4sitemap.html image=casestudy_image %}
+        {% endfor %}
       {% endif %}
     </url>
     {% endunless %}

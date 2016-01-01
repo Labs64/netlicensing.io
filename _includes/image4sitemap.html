@@ -1,0 +1,22 @@
+{% assign image = nil %}
+{% for data_image in site.data.images %}
+  {% if data_image.source == include.image %}
+    {% assign image = data_image %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if image %}
+{% unless image.exclude %}
+<image:image>
+    <image:loc>{{ image.source | prepend: site.baseurl | prepend: site.url }}</image:loc>
+    {% if image.caption %}<image:caption>{{ image.caption }}</image:caption>{% endif %}
+    {% if image.title %}<image:title>{{ image.title }}</image:title>{% endif %}
+    {% if image.license %}<image:license>{{ image.license }}</image:license>{% endif %}
+</image:image>
+{% endunless %}
+{% else %}
+<image:image>
+    <image:loc>{{ include.image | prepend: site.baseurl | prepend: site.url }}</image:loc>
+</image:image>
+{% endif %}

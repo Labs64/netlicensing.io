@@ -15,6 +15,15 @@ tags:
 - Named User
 sitemap:
   priority: 0.6
+  images:
+   - /img/licensing-model/licensing-model-floating.jpg
+   - /img/licensing-model/licensing-model-multi-feature.jpg
+   - /img/licensing-model/licensing-model-named-user.jpg
+   - /img/licensing-model/licensing-model-pay-per-use.jpg
+   - /img/licensing-model/licensing-model-rental.jpg
+   - /img/licensing-model/licensing-model-standard.jpg
+   - /img/licensing-model/licensing-model-subscription.jpg
+   - /img/licensing-model/licensing-model-try-and-buy.jpg
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">

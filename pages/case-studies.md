@@ -6,6 +6,15 @@ permalink: "/case-studies/"
 tags:
 - Case Studies
 - Use Cases
+sitemap:
+  images:
+   - /img/case-studies/netlicensing-case-study-credit-tracker.png
+   - /img/case-studies/netlicensing-case-study-digipass.png
+   - /img/case-studies/netlicensing-case-study-internet-access-control.png
+   - /img/case-studies/netlicensing-case-study-iot-tablet-computers.png
+   - /img/case-studies/netlicensing-case-study-mobile-device-management.png
+   - /img/case-studies/netlicensing-case-study-online-service.png
+   - /resources/how-to-select-licensing-model-infographic-netlicensing.png
 ---
 <div class="row NL_banner">
 	<div class="col-md-6 col-md-offset-3 NL_about_page">

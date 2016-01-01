@@ -10,6 +10,28 @@ sitemap:
 tags:
 - features
 - FAQ
+sitemap:
+  images:
+    - /img/features/availability.png
+    - /img/features/consulting_services.png
+    - /img/features/cross_platform_licensing.png
+    - /img/features/different_hosting_options.png
+    - /img/features/easy_setup_and_integration.png
+    - /img/features/escrow.png
+    - /img/features/flexible_licensing_models.png
+    - /img/features/integrated_payment_services.png
+    - /img/features/internet_of_things.png
+    - /img/features/licensing-as-a-service.png
+    - /img/features/licensing_ecommerce_platform.png
+    - /img/features/netlicensing_enterprise.png
+    - /img/features/online_license_acquisition.png
+    - /img/features/online_management_portal.png
+    - /img/features/predefined_client_libraries.png
+    - /img/features/product_usage_tracking_and_analytics.png
+    - /img/features/restful_api_and_integration.png
+    - /img/features/security_encryption.png
+    - /img/features/service_level_agreement.png
+    - /img/features/virtualization_support.png
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
