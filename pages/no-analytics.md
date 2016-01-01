@@ -2,7 +2,7 @@
 layout: compress
 permalink: "/no-analytics/"
 sitemap:
-  exclude: "true"
+  exclude: true
 ---
 <html>
 <head>

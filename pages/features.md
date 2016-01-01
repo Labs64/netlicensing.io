@@ -4,7 +4,7 @@ title: "Features"
 description: "World class features you need to effectively manage your product licenses"
 permalink: "/features/"
 canonical: "/features-all/"
-fragmented: "true"
+fragmented: true
 sitemap:
   priority: 0.5
 tags:

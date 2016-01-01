@@ -1,7 +1,7 @@
 ---
 layout: compress
 sitemap:
-  exclude: "true"
+  exclude: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- generated-on="{{ site.time | date_to_rfc822 }}" -->

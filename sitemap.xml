@@ -1,7 +1,7 @@
 ---
 layout: compress
 sitemap:
-  exclude: "true"
+  exclude: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- generated-on="{{ site.time | date_to_rfc822 }}" -->
@@ -37,7 +37,7 @@ sitemap:
     {% endunless %}
   {% endfor %}
   {% for page in site.pages %}
-    {% unless page.sitemap.exclude == "true" %}
+    {% unless page.sitemap.exclude %}
     <url>
       <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
       {% if page.sitemap.lastmod %}
@@ -66,7 +66,7 @@ sitemap:
     {% endunless %}
   {% endfor %}
   {% for casestudy in site.case-studies %}
-    {% unless casestudy.sitemap.exclude == "true" %}
+    {% unless casestudy.sitemap.exclude %}
     <url>
       <loc>{{ site.url }}{{ casestudy.url | remove: "index.html" }}</loc>
       {% if casestudy.sitemap.lastmod %}

@@ -1,7 +1,7 @@
 ---
 layout: null
 sitemap:
-  exclude: "true"
+  exclude: true
 ---
 # blocked robots
 User-agent: 008
