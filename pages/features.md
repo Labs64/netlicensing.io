@@ -43,7 +43,7 @@ sitemap:
 <div class="row">
     <div style="padding:40px;">
         {% for feature in site.data.features %}
-        {% if feature.show-default == "Y" %}
+        {% if feature.show-default %}
         <div class="col-md-3 NL_feature">
             <figure class="hover_effect">
                 <figcaption>
@@ -62,7 +62,7 @@ sitemap:
 
     <div id="showContent" class="col-md-12 content hideContent">
         {% for feature in site.data.features %}
-        {% if feature.show-default != "Y" %}
+        {% unless feature.show-default %}
         <div class="col-md-3 NL_feature">
             <figure class="hover_effect">
                 <figcaption>
@@ -75,7 +75,7 @@ sitemap:
                 </figcaption>
             </figure>
         </div>
-        {% endif %}
+        {% endunless %}
         {% endfor %}
     </div>
     <div class="col-md-12 show-more" >

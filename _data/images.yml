@@ -1,20 +1,4 @@
-- id: netlicensing-case-study-mobile-device-management
-  source: /img/case-studies/netlicensing-case-study-mobile-device-management.png
-  title: "Mobile Device Management"
-  caption: "NetLicensing Case Study - Mobile Device Management"
-  license: CC BY-NC-ND
-  author: Labs64
-  publisher: Labs64
-  creditlink: http://netlicensing.io
-
-- id: netlicensing-case-study-online-service
-  source: /img/case-studies/netlicensing-case-study-online-service.png
-  title: "Online Service Subscription"
-  caption: "NetLicensing Case Study - Online Service Subscription"
-  license: CC BY-NC-ND
-  author: Labs64
-  publisher: Labs64
-  creditlink: http://netlicensing.io
+# Excluded images
 
 - id: case-facts-pattern
   source: /img/case-studies/case-facts-pattern.png
@@ -23,3 +7,24 @@
 - id: netlicensing-promo-00
   source: /img/netlicensing-promo-00.jpg
   exclude: true
+
+
+# Included images attribution
+
+- id: netlicensing-case-study-mobile-device-management
+  source: /img/case-studies/netlicensing-case-study-mobile-device-management.png
+  title: "Mobile Device Management"
+  caption: "NetLicensing Case Study - Mobile Device Management"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id: netlicensing-case-study-online-service
+  source: /img/case-studies/netlicensing-case-study-online-service.png
+  title: "Online Service Subscription"
+  caption: "NetLicensing Case Study - Online Service Subscription"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
