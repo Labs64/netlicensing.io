@@ -9,7 +9,88 @@
   exclude: true
 
 
-# Included images attribution
+# Images attribution
+
+- id: how-to-select-licensing-model-infographic-netlicensing-preview
+  source: /resources/how-to-select-licensing-model-infographic-netlicensing-preview.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /resources/how-to-select-licensing-model-infographic-netlicensing.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id: 39455947
+  source: /img/Fotolia_39455947_stage.jpg
+  title: "Standing out business concept"
+  caption: "Standing out business concept"
+  license: https://en.fotolia.com/Info/Agreements/TermsAndConditions
+  author: "Jezper"
+  publisher: "Fotolia"
+  creditlink: https://en.fotolia.com/id/39455947
+
+- id:
+  source: /img/api.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/case-studies/how-to-select-licensing-model-infographic.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/case-studies/netlicensing-case-study-credit-tracker.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/case-studies/netlicensing-case-study-digipass.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/case-studies/netlicensing-case-study-internet-access-control.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/case-studies/netlicensing-case-study-iot-tablet-computers.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
 
 - id: netlicensing-case-study-mobile-device-management
   source: /img/case-studies/netlicensing-case-study-mobile-device-management.png
@@ -24,6 +105,564 @@
   source: /img/case-studies/netlicensing-case-study-online-service.png
   title: "Online Service Subscription"
   caption: "NetLicensing Case Study - Online Service Subscription"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/availability.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/consulting_services.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/cross_platform_licensing.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/different_hosting_options.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/easy_setup_and_integration.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/escrow.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/flexible_licensing_models.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/integrated_payment_services.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/internet_of_things.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/licensing-as-a-service.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/licensing_ecommerce_platform.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/netlicensing_enterprise.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/online_license_acquisition.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/online_management_portal.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/predefined_client_libraries.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/product_usage_tracking_and_analytics.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/restful_api_and_integration.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/security_encryption.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/service_level_agreement.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/features/virtualization_support.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/getting-started/getting-started-01-big.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/getting-started/getting-started-01.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/getting-started/getting-started-02-big.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/getting-started/getting-started-02.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/getting-started/getting-started-03-big.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/getting-started/getting-started-03.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/getting-started/getting-started-04-big.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/getting-started/getting-started-04.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/getting-started/getting-started-05-big.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/getting-started/getting-started-05.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/getting_started.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/how_it_works.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/labs64-avatar-18x18.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/labs64-avatar-30x30.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/labs64-logo.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/labs64-netlicensing-lifecycle.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/labs64-stage-01.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/libraries.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/licensing-model/licensing-model-floating.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/licensing-model/licensing-model-multi-feature.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/licensing-model/licensing-model-named-user.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/licensing-model/licensing-model-pay-per-use.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/licensing-model/licensing-model-rental.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/licensing-model/licensing-model-standard.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/licensing-model/licensing-model-subscription.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/licensing-model/licensing-model-try-and-buy.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/netlicensing-blurred-background.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/netlicensing-promo-01.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id: 56349432
+  source: /img/netlicensing-promo-02.jpg
+  title: "Mobile payment"
+  caption: "Mobile payment"
+  license: https://en.fotolia.com/Info/Agreements/TermsAndConditions
+  author: "Sinisa Botas"
+  publisher: "Fotolia"
+  creditlink: https://en.fotolia.com/id/56349432
+
+- id: 7567904
+  source: /img/netlicensing-promo-03.jpg
+  title: "light feather on white"
+  caption: "light feather on white"
+  license: https://en.fotolia.com/Info/Agreements/TermsAndConditions
+  author: "Alexander Potapov"
+  publisher: "Fotolia"
+  creditlink: https://en.fotolia.com/id/7567904
+
+- id:
+  source: /img/netlicensing-promo-04.jpg
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/netlicensing-stage-banner-01.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/netlicensing-stage-banner-02.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/netlicensing-stage-banner-03.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/netlicensing-stage-banner-04.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/netlicensing-stage-banner-advent-0.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/netlicensing-stage-banner-advent-1.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/netlicensing-stage-banner-advent-2.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/netlicensing-stage-banner-advent-3.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/netlicensing-stage-banner-advent-4.png
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/netlicensing-stage-banner-christmas.gif
+  title:
+  caption:
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id:
+  source: /img/netlicensing-stage-banner-new-year.gif
+  title:
+  caption:
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
   author: Labs64
   publisher: Labs64
