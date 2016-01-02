@@ -10,8 +10,8 @@
 {% unless image.exclude %}
 <image:image>
     <image:loc>{{ image.source | prepend: site.baseurl | prepend: site.url }}</image:loc>
-    {% if image.caption %}<image:caption>{{ image.caption }}</image:caption>{% endif %}
-    {% if image.title %}<image:title>{{ image.title }}</image:title>{% endif %}
+    {% if image.caption %}<image:caption>{{ image.caption | xml_escape }}</image:caption>{% endif %}
+    {% if image.title %}<image:title>{{ image.title | xml_escape }}</image:title>{% endif %}
     {% if image.license %}<image:license>{{ image.license }}</image:license>{% endif %}
 </image:image>
 {% endunless %}

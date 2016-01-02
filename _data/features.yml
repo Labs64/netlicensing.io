@@ -50,7 +50,7 @@
   description: "See how your software is performing out in the wild. NetLicensing gives you insight into your licensees' product usage."
   icon: "/img/features/product_usage_tracking_and_analytics.png"
 
-- name: "Online Management Portal"
+- name: "Online Licenses Management Portal"
   description: "NetLicensing Manage gives you one single management portal for managing all your products, modules and license templates."
   icon: "/img/features/online_management_portal.png"
 
