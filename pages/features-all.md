@@ -3,6 +3,8 @@ layout: page
 title: "Features"
 description: "World class features you need to effectively manage your product licenses"
 permalink: "/features-all/"
+prefetch:
+- /features/
 sitemap:
   priority: 0.7
 tags:

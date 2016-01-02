@@ -11,6 +11,12 @@ url: "http://netlicensing.io"
 # subpath of the site, e.g. /blog/
 baseurl: ""
 
+dns_prefetch:
+ - //netlicensing.labs64.com
+ - //go.netlicensing.io
+ - //www.labs64.de
+ - //www.labs64.com
+
 # Styling
 stage_banner_image: "../img/netlicensing-stage-banner-new-year.gif"
 

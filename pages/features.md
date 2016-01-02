@@ -5,6 +5,8 @@ description: "World class features you need to effectively manage your product l
 permalink: "/features/"
 canonical: "/features-all/"
 fragmented: true
+prefetch:
+- /features-all/
 sitemap:
   priority: 0.5
 tags:

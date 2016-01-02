@@ -11,6 +11,19 @@
     {% if page.fragmented %}
     <meta name="fragment" content="!">
     {% endif %}
+
+    <!-- Prefetch resources -->
+    {% if site.dns_prefetch %}
+      {% for dns_prefetch in site.dns_prefetch %}
+      <link rel="dns-prefetch" href="{{ dns_prefetch }}">
+      {% endfor %}
+    {% endif %}
+    {% if page.prefetch %}
+      {% for page_prefetch in page.prefetch %}
+      <link rel="prefetch" href="{{ page_prefetch | prepend: site.baseurl | prepend: site.url }}">
+      {% endfor %}
+    {% endif %}
+
     <meta name="yandex-verification" content="7e08c321f4f5426a"/>
     <meta name="norton-safeweb-site-verification" content="csf59i9rq-cyd7j7zlt-9ihurvss12wjpdwjrr0048wj7zcffa57ca-5q14cwzsn-5y99a58pdr1r5mujrv6vyypfsv7jb3j88-vzoquwyuuqgymidml46o65uer0mj8" />
     <!-- OpenGraph -->
