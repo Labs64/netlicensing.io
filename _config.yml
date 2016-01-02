@@ -13,7 +13,7 @@ baseurl: ""
 
 dns_prefetch:
  - //netlicensing.labs64.com
- - //go.netlicensing.io
+# - //go.netlicensing.io
  - //www.labs64.de
  - //www.labs64.com
 
