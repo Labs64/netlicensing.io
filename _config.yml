@@ -16,6 +16,8 @@ dns_prefetch:
 # - //go.netlicensing.io
  - //www.labs64.de
  - //www.labs64.com
+ - //io.labs64.com
+ - //l64.cc
 
 # Styling
 stage_banner_image: "../img/netlicensing-stage-banner-new-year.gif"
