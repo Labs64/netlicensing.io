@@ -13,7 +13,7 @@ sitemap:
             Based on open standards, it provides a cost effective, integrated and scalable platform for software vendors
             and developers who want to concentrate on their product’s core functionality instead of spending resources
             on developing an own license management software.</span>
-        <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001"
+        <a href="https://go.netlicensing.io/app/v2/?lc=4b566c7e20&source=lmbox001"
            class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-eye"></i>Live Demo</a>
     </div>
 </div>
@@ -89,7 +89,7 @@ sitemap:
             <h2>Signup for a NetLicensing account</h2>
             <span>Join the hundreds of happy NetLicensing customers.</span>
 
-            <form action="https://netlicensing.labs64.com/app/v2/content/register.xhtml" method="GET"
+            <form action="https://go.netlicensing.io/app/v2/content/register.xhtml" method="GET"
                   name="register" id="register"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn" style="max-width: 400px;">

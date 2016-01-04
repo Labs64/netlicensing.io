@@ -57,7 +57,7 @@ sitemap:
                 </div>
                 <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
-                        <li>Sign-up for a <a href="https://netlicensing.labs64.com/app/v2/content/register.xhtml" title="It’s not just free to get started, it’s FREE forever!">free NetLicensing account</a> and or use our <a href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001">demo account</a></li>
+                        <li>Sign-up for a <a href="https://go.netlicensing.io/app/v2/content/register.xhtml" title="It’s not just free to get started, it’s FREE forever!">free NetLicensing account</a> and or use our <a href="https://go.netlicensing.io/app/v2/?lc=4b566c7e20&source=lmbox001">demo account</a></li>
                         <li>Add your username, password, email and company name</li>
                         <li>Agree to the NetLicensing <i>Terms of Service</i> and <i>Privacy Policy</i></li>
                         <li>Enable <i>'Newsletter'</i> checkbox if want to be notified about NetLicensing announcements, news and promo actions</li>
@@ -101,7 +101,7 @@ sitemap:
                 </div>
                 <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
-                        <li>Navigate to <i><a href="https://netlicensing.labs64.com/app/v2/content/vendor/demodata.xhtml">'Settings -> Demo Data'</a></i></li>
+                        <li>Navigate to <i><a href="https://go.netlicensing.io/app/v2/content/vendor/demodata.xhtml">'Settings -> Demo Data'</a></i></li>
                         <li>Select <i>'Licensing Model'</i></li>
                         <li>(Optional) provide custom identifier</li>
                         <li>Click on <i>'Create'</i></li>
@@ -146,7 +146,7 @@ sitemap:
                 </div>
                 <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
-                        <li>Navigate to <i><a href="https://netlicensing.labs64.com/app/v2/content/vendor/licensee.xhtml">'Operate -> Licensee'</a></i></li>
+                        <li>Navigate to <i><a href="https://go.netlicensing.io/app/v2/content/vendor/licensee.xhtml">'Operate -> Licensee'</a></i></li>
                         <li>Identify newly created licensee and note <i>Licensee Number</i></li>
                         <li>Send first validation request (replace %LICENSEE_NUMBER%)</li>
                         <li>In case you are using your vendor account please provide <i>username:password</i> in the <i>--user</i> attribute</li>
@@ -155,7 +155,7 @@ sitemap:
                     <div>
                     <em>Sample request:</em>
                     {% highlight ruby %}
-$ curl --header "Accept: application/xml" --insecure --user demo:demo --request GET https://netlicensing.labs64.com/core/v2/rest/licensee/%LICENSEE_NUMBER%/validate
+$ curl --header "Accept: application/xml" --insecure --user demo:demo --request GET https://go.netlicensing.io/core/v2/rest/licensee/%LICENSEE_NUMBER%/validate
                     {% endhighlight %}
                     <em>Sample response:</em>
                     {% highlight xml %}
@@ -260,7 +260,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
                         <li>Create shop token for the given licensee (replace %LICENSEE_NUMBER%)<br/>
                         <em>Create token request:</em>
                         {% highlight ruby %}
-$ curl --header "Accept: application/xml" --header "Content-Type: application/x-www-form-urlencoded" --insecure --user demo:demo --request POST https://netlicensing.labs64.com/core/v2/rest/token --data "tokenType=SHOP&licenseeNumber=%LICENSEE_NUMBER%"
+$ curl --header "Accept: application/xml" --header "Content-Type: application/x-www-form-urlencoded" --insecure --user demo:demo --request POST https://go.netlicensing.io/core/v2/rest/token --data "tokenType=SHOP&licenseeNumber=%LICENSEE_NUMBER%"
                         {% endhighlight %}
                         <em>Create token response:</em>
                         {% highlight xml %}
@@ -274,7 +274,7 @@ $ curl --header "Accept: application/xml" --header "Content-Type: application/x-
             <property name="expirationTime">2015-08-16T09:12:05.065Z</property>
             <property name="tokenType">SHOP</property>
             <property name="shopURL">
-                https://netlicensing.labs64.com/app/v2/content/shop.xhtml?shoptoken=00d08804-2d09-44c2-a853-7feffbfd2a17
+                https://go.netlicensing.io/shop/v2/?shoptoken=00d08804-2d09-44c2-a853-7feffbfd2a17
             </property>
             <property name="licenseeNumber">INLIC-DEMO</property>
             <property name="vendorNumber">VDEMO</property>
@@ -287,7 +287,7 @@ $ curl --header "Accept: application/xml" --header "Content-Type: application/x-
                         <li>Provide a link to NetLicensing Shop (<i>shopURL</i>) in the UI of your product or forward the user to NetLicensing Shop URL by other means</li>
                         <li>The URL of NetLicensing Shop has the following format:
                         {% highlight ruby %}
-                        https://netlicensing.labs64.com/app/v2/content/shop.xhtml?shoptoken=%TOKEN_NUMBER%
+                            https://go.netlicensing.io/shop/v2/?shoptoken=%TOKEN_NUMBER%
                         {% endhighlight %}
                         </li>
                     </ul>
@@ -303,7 +303,7 @@ $ curl --header "Accept: application/xml" --header "Content-Type: application/x-
             <h2>Signup for a NetLicensing account</h2>
             <span>Join the hundreds of happy NetLicensing customers.</span>
 
-            <form action="https://netlicensing.labs64.com/app/v2/content/register.xhtml" method="GET"
+            <form action="https://go.netlicensing.io/app/v2/content/register.xhtml" method="GET"
                   name="register" id="register"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn" style="max-width: 400px;">

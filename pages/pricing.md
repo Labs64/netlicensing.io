@@ -55,7 +55,7 @@ tags:
             </ul>
 
             <div class="show-more" style="padding: 5px 0 10px 0;">
-                <a href="https://netlicensing.labs64.com/app/v2/content/register.xhtml"
+                <a href="https://go.netlicensing.io/app/v2/content/register.xhtml"
                    class="NL_button button_main NL_dark_btn">Register Now for FREE</a>
             </div>
         </div>

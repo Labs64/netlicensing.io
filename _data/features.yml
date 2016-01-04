@@ -1,5 +1,5 @@
 - name: "Licensing-as-a-Service"
-  description: "Increase flexibility! NetLicensing is cloud-based, you can start using it by just <a href='https://netlicensing.labs64.com/app/v2/content/register.xhtml'>creating a free account</a>. Start licensing your first product right away without installing any software!"
+  description: "Increase flexibility! NetLicensing is cloud-based, you can start using it by just <a href='https://go.netlicensing.io/app/v2/content/register.xhtml'>creating a free account</a>. Start licensing your first product right away without installing any software!"
   icon: "/img/features/licensing-as-a-service.png"
   show-default: true
 
