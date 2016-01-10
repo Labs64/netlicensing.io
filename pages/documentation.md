@@ -57,7 +57,7 @@ tags:
             <div class="action col-md-12">
                 <a href="http://io.labs64.com/NetLicensing-API/">Test It</a>
                 <a href="https://www.labs64.de/confluence/x/pwCo">RESTful</a>
-                <a href="http://netlicensing.labs64.com/javadoc/v2/index.html">JavaDoc</a>
+                <a href="https://go.netlicensing.io/javadoc/v2/index.html">JavaDoc</a>
             </div>
         </div>
     </div>
