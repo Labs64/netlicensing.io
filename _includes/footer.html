@@ -47,9 +47,9 @@
             <meta itemprop="name" content="{{ site.company }}" />
             <meta itemprop="legalName" content="{{ site.data.contacts[0].title }}" />
             <meta itemprop="address" content="{{ site.data.contacts[0].address }}" />
+            <meta itemprop="faxNumber" content="{{ site.data.contacts[0].fax }}" />
             <ul class="NL_footer_contacts">
                 <li> Phone: <span itemprop="telephone" class="L64_links">{{ site.data.contacts[0].phone }}</span></li>
-                <meta itemprop="faxNumber" content="{{ site.data.contacts[0].fax }}" />
                 <li> Email: <span class="L64_links"><a href="mailto:{{ site.data.contacts[0].email }}?subject={{ site.title | uri_escape }}" itemprop="email">{{ site.data.contacts[0].email }}</a></span></li>
                 <li> Web: <span class="L64_links"><a href="{{ site.data.contacts[0].url }}" itemprop="url">{{ site.data.contacts[0].web }}</a></span></li>
             </ul>
