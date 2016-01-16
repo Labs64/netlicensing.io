@@ -1124,6 +1124,10 @@ a.NL_cases_card:hover .view-info p {
     color: #853E29 !important;
 }
 
+.NL_button.NL_wide_btn {
+    max-width: 400px;
+}
+
 .NL_button.NL_dark_btn::before {
     background: #853E29;
 }

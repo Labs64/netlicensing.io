@@ -92,7 +92,7 @@ sitemap:
             <form action="https://go.netlicensing.io/app/v2/content/register.xhtml" method="GET"
                   name="register" id="register"
                   novalidate>
-                <button type="submit" class="NL_button button_main NL_dark_btn" style="max-width: 400px;">
+                <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
                     <i class="fa fa-user-plus"></i>Start Your Free License Management
                 </button>
             </form>
