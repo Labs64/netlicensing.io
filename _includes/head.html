@@ -55,11 +55,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{ '/img/labs64-avatar-18x18.png' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="apple-touch-icon" type="image/x-icon" href="{{ '/img/labs64-avatar-18x18.png' | prepend: site.baseurl | prepend: site.url }}">
     {% if page.canonical %}
-        {% assign canonical = page.canonical %}
-    {% else %}
-        {% assign canonical = page.url %}
+      <link rel="canonical" href="{{ page.canonical | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     {% endif %}
-    <link rel="canonical" href="{{ canonical | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="publisher" href="{{ site.google_author }}">
