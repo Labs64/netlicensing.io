@@ -965,6 +965,23 @@ a.NL_cases_card:hover .view-info p {
 
 /*----------  Testimonial (end)  -----------*/
 
+/*----------  Cookie Consent  -----------*/
+.cc_container .cc_btn:hover, .cc_container .cc_btn:active {
+    color: #fff !important;
+    background-color: #853E29 !important;
+}
+
+.cc_container .cc_btn, .cc_container .cc_btn:visited {
+    color: #fff !important;
+    background-color: #853E29 !important;
+}
+
+.cc_container a, .cc_container a:visited {
+    color: #853E29 !important;
+}
+
+/*----------  Cookie Consent (end)  -----------*/
+
 /*-------------- Scroller -----------*/
 .cbp-so-scroller {
     margin-top: 50px;
