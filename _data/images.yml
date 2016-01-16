@@ -566,8 +566,8 @@
   publisher: Labs64
   creditlink: http://netlicensing.io
 
-- id: netlicensing-stage-banner-04
-  source: /img/netlicensing-stage-banner-04.png
+- id: netlicensing-stage-banner-helloween
+  source: /img/netlicensing-stage-banner-helloween.png
   title: "NetLicensing Stage"
   caption: "NetLicensing Stage"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
