@@ -411,7 +411,8 @@ div.in > .NL_accordion_content {
 .NL_logo img {
     float: left;
     margin-top: -5px;
-    padding-right: 10px;
+    width: 30px;
+    height: 30px;
 }
 
 .NL_logo span {
