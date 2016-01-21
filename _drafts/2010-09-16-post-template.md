@@ -2,17 +2,21 @@
 layout: post
 title: "Post template - Title"
 description: "Post template - Description"
-image:
+canonical: ""
+image: /img/netlicensing-promo-04.jpg
 tags:
-- TechExpress
+- NetLicensing
 author:
-  name: TechExpress
-  url: http://tech-x.press
+  name: NetLicensing
+  url: http://netlicensing
+sitemap:
+  images:
+    - /img/netlicensing-promo-04.jpg
 ---
 
 [Markdown](http://daringfireball.net/projects/markdown/) allows you to write using an easy-to-read, easy-to-write plain text format, which then converts to valid HTML post.
 
-This [post template](https://raw.githubusercontent.com/Labs64/tech-x.press/gh-pages/_drafts/2010-09-16-post-template.md) includes sample content to guide you on how to create content on [TechExpress](http://tech-x.press).
+This [post template](https://raw.githubusercontent.com/Labs64/tech-x.press/gh-pages/_drafts/2010-09-16-post-template.md) includes sample content to guide you on how to create content on [NetLicensing](http://tech-x.press).
 
 ## HEADERS
 ---
@@ -94,7 +98,7 @@ This a [link](http://netlicensing.io)
 
 This a [link with title](http://netlicensing.io "Innovative License Management Solution")
 
-Reference-style links: [NetLicensing][NLIC] and [TechExpress][2] were developed by [Labs64][3]
+Reference-style links: [NetLicensing][NLIC] and [NetLicensing][2] were developed by [Labs64][3]
 
 [NLIC]: http://netlicensing.io   "Labs64 NetLicensing - Innovative License Management Solution"
 [2]: http://tech-x.press         "TechExpress - Latest Tech News Around the World"
@@ -105,7 +109,7 @@ Reference-style links: [NetLicensing][NLIC] and [TechExpress][2] were developed 
 
 Image with title and alt tags
 
-![Labs64 QR Code](/img/labs64-QR-white.png "Labs64 QR Code")
+![Labs64 QR Code](/img/netlicensing-promo-04.jpg "Labs64 NetLicensing Lifecycle")
 
 ## CODE
 ---

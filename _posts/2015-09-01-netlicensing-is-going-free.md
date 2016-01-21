@@ -3,7 +3,7 @@ layout: post
 title: "Labs64 NetLicensing is going FREE!"
 description: "Today, we are announcing a new availability model – NetLicensing is going free!"
 canonical: "http://tech-x.press/2015/09/01/netlicensing-is-going-free/"
-image: /img/blog/netlicensing-promo-04.jpg
+image: /img/netlicensing-promo-04.jpg
 tags:
 - NetLicensing
 author:
