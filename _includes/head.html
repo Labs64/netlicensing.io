@@ -24,38 +24,26 @@
       {% endfor %}
     {% endif %}
 
+    {% include opengraph.html %}
+    {% include twittercard.html %}
+    {% include dublincore.html %}
+
     <meta name="yandex-verification" content="7e08c321f4f5426a"/>
     <meta name="norton-safeweb-site-verification" content="csf59i9rq-cyd7j7zlt-9ihurvss12wjpdwjrr0048wj7zcffa57ca-5q14cwzsn-5y99a58pdr1r5mujrv6vyypfsv7jb3j88-vzoquwyuuqgymidml46o65uer0mj8" />
-    <!-- OpenGraph -->
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | {{ site.title }}"/>
-    <meta property="og:site_name" content="{{ site.title }}"/>
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
-    <meta property="og:image" content="{{ '/img/labs64-avatar-18x18.png' | prepend: site.baseurl | prepend: site.url }}"/>
-    <!-- Dublin Core -->
-    <meta name="DC.Title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | {{ site.title }}">
-    <meta name="DC.Description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="DC.Subject" content="{% if page.tags %}{{ page.tags | join: ',' }},{{ site.keywords }}{% else %}{{ site.keywords }}{% endif %}">
-    <meta name="DC.Identifier" content="{{ site.title }}">
-    <meta name="DC.Creator" content="{{ site.copyright }}">
-    <meta name="DC.Publisher" content="{{ site.copyright }}">
-    <meta name="DC.RightsHolder" content="{{ site.copyright }}">
-    <meta name="DC.Type" content="Text">
-    <meta name="DC.Format" content="text/html">
-    <meta name="DC.Language" content="en">
-    <meta name="DC.Date" content="{{ site.time | date: '%Y-%m-%d' }}">
-    <meta name="DC.Source" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <meta name="DC.Rights" content="http://www.labs64.com/legal/terms-of-service/netlicensing/">
-    <meta name="DC.Audience" content="Software Vendors (ISV)">
 
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,700,500italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/css/bootstrap.min.css' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="stylesheet" href="{{ '/css/netlicensing.css' | prepend: site.baseurl | prepend: site.url }}?{{ site.time | date:'%Y%m%d%H%M' }}">
     <link rel="shortcut icon" type="image/x-icon" href="{{ '/img/labs64-avatar-18x18.png' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="apple-touch-icon" type="image/x-icon" href="{{ '/img/labs64-avatar-18x18.png' | prepend: site.baseurl | prepend: site.url }}">
+
     {% if page.canonical %}
-      <link rel="canonical" href="{{ page.canonical | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+      {% if page.canonical contains 'http' %}
+        {% assign canonical = page.canonical %}
+      {% else %}
+        {% assign canonical = page.canonical | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+      {% endif %}
+      <link rel="canonical" href="{{ canonical }}">
     {% endif %}
     <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | prepend: site.baseurl | prepend: site.url }}">

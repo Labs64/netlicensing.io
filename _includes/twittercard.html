@@ -1,0 +1,7 @@
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@netlicensing"/>
+<meta name="twitter:creator" content="@netlicensing">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | {{ site.title }}"/>
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+<meta name="twitter:image" content="{{ '/img/netlicensing-promo-04.jpg' | prepend: site.baseurl | prepend: site.url }}"/>

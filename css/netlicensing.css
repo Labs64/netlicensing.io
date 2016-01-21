@@ -62,6 +62,45 @@ a:active, a:hover {
     text-decoration: none;
 }
 
+/*----------   Blog -----------*/
+p.blog_img_credit {
+    color: #bbb;
+    margin-top: 20px;
+}
+
+.post h1 {
+    color: #853E29;
+}
+
+.post {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.post-meta {
+    color: #bbb;
+}
+
+.post-meta address {
+    margin-bottom: 20px;
+}
+.post-meta ul {
+    list-style: none;
+    margin-left: 0px !important;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.post-meta ul li {
+    display: table-cell;
+}
+
+.post ul {
+    margin-left: 40px;
+}
+
 /*----------   NL Styles  -----------*/
 #wrapper,
 .container-fluid,

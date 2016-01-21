@@ -1,0 +1,15 @@
+<!-- Dublin Core -->
+<meta name="DC.Title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | {{ site.title }}">
+<meta name="DC.Description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="DC.Subject" content="{% if page.tags %}{{ page.tags | join: ',' }},{{ site.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+<meta name="DC.Identifier" content="{{ site.title }}">
+<meta name="DC.Creator" content="{{ site.copyright }}">
+<meta name="DC.Publisher" content="{{ site.copyright }}">
+<meta name="DC.RightsHolder" content="{{ site.copyright }}">
+<meta name="DC.Type" content="Text">
+<meta name="DC.Format" content="text/html">
+<meta name="DC.Language" content="en">
+<meta name="DC.Date" content="{{ site.time | date: '%Y-%m-%d' }}">
+<meta name="DC.Source" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta name="DC.Rights" content="http://www.labs64.com/legal/terms-of-service/netlicensing/">
+<meta name="DC.Audience" content="Software Vendors (ISV)">

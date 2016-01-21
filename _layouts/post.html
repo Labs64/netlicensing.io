@@ -4,9 +4,34 @@ layout: default
 <div class="post">
     <header class="post-header">
         <h1 class="post-title">{{ page.title }}</h1>
-        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{%if page.meta %} • {{ page.meta }}{% endif %}</p>
+        <div class="post-meta">
+        <ul>
+            <li>
+                <time pubdate datetime="{{ page.date | date: '%Y-%m-%d' }}"
+                      title="{{ page.date | date: '%b %-d, %Y' }}">{{ page.date | date: "%b %-d, %Y" }}
+                </time>
+            </li>
+            <li>
+                <address class="author">&nbsp;by
+                    {% if page.author.name %}
+                        {% assign author_name = page.author.name %}
+                    {% else %}
+                        {% assign author_name = site.title %}
+                    {% endif %}
+
+                    {% if page.author.url %}
+                        <a rel="nofollow" href="{{ page.author.url }}" target="_blank">{{ author_name }}</a>
+                    {% else %}
+                        {{ author_name }}
+                    {% endif %}
+                </address>
+            </li>
+        </ul>
+        </div>
     </header>
     <article class="post-content">
         {{ content }}
     </article>
+    {% include addthis.html %}
+    {% include disqus.html %}
 </div>
