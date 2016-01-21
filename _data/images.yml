@@ -637,3 +637,12 @@
   author: Labs64
   publisher: Labs64
   creditlink: http://netlicensing.io
+
+- id: netlicensing-bee.png
+  source: /img/blog/netlicensing-bee.png
+  title: "NetLicensing Bee"
+  caption: "NetLicensing Bee"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
