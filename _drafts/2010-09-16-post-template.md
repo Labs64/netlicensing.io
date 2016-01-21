@@ -8,7 +8,7 @@ tags:
 - NetLicensing
 author:
   name: NetLicensing
-  url: http://netlicensing
+  url: http://netlicensing.io
 sitemap:
   images:
     - /img/netlicensing-promo-04.jpg
@@ -121,15 +121,3 @@ require 'netlicensing'
 res = NetLicensing.validate("1234-5678-90")
 puts res.to_html
 {% endhighlight %}
-
-Syntax highlighting (var 2)
-
-```xml
-<dependencies>
-  <dependency>
-    <groupId>com.labs64.netlicensing</groupId>
-    <artifactId>netlicensing-client</artifactId>
-    <version>2.2.1</version>
-  </dependency>
-</dependencies>
-```
