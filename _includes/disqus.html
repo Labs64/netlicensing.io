@@ -1,13 +1,8 @@
 <div id="disqus_thread"></div>
 <script>
-    {% if page.canonical %}
-        {% assign url = page.canonical %}
-    {% else %}
-        {% assign url = page.url %}
-    {% endif %}
      var disqus_config = function () {
-     this.page.url = '{{ url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}';
-     this.page.identifier = '{{ url }}';
+     this.page.url = '{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}';
+     this.page.identifier = '{{ page.id }}';
      };
     (function() { // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
