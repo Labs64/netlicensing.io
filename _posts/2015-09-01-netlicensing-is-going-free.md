@@ -2,16 +2,14 @@
 layout: post
 title: "Labs64 NetLicensing is going FREE!"
 description: "Today, we are announcing a new availability model – NetLicensing is going free!"
-canonical: "http://tech-x.press/2015/09/01/netlicensing-is-going-free/"
-image: /img/netlicensing-promo-04.jpg
+image: /img/blog/blog-placeholder.jpg
 tags:
-- NetLicensing
+- Free
+- Announcement
 author:
   name: TechExpress
   url: http://tech-x.press/2015/09/01/netlicensing-is-going-free/
-sitemap:
-  images:
-    - /img/netlicensing-promo-04.jpg
+canonical: http://tech-x.press/2015/09/01/netlicensing-is-going-free/
 ---
 
 Labs64 NetLicensing - [Online License Management Service](http://netlicensing.io) is taking a huge step forward in making it easy for vendors to sign up with their licensing management service.

@@ -28,6 +28,9 @@ sitemap:
       {% else %}
         <priority>0.4</priority>
       {% endif %}
+      {% if post.image %}
+        {% include image4sitemap.html image=post.image %}
+      {% endif %}
       {% if post.sitemap.images %}
         {% for post_image in post.sitemap.images %}
           {% include image4sitemap.html image=post_image %}

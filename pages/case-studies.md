@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Case Studies"
-description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start."
+description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start"
 permalink: "/case-studies/"
 tags:
 - Case Studies
