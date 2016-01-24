@@ -20,7 +20,7 @@ layout: default
                     {% endif %}
 
                     {% if page.author.url %}
-                        <a rel="nofollow" href="{{ page.author.url }}" target="_blank">{{ author_name }}</a>
+                        <a href="{{ page.author.url }}" target="_blank">{{ author_name }}</a>
                     {% else %}
                         {{ author_name }}
                     {% endif %}
@@ -30,6 +30,16 @@ layout: default
         </div>
     </header>
     <article class="post-content">
+        {% if page.image.url %}
+          {% unless page.image.hide %}
+            {% if page.image.width %}
+              {% assign image_width = page.image.width %}
+            {% else %}
+              {% assign image_width = '30%' %}
+            {% endif %}
+            <img src="{{ page.image.url }}" alt="{{ page.title }}" class="thumbnail" width="{{ image_width }}">
+          {% endunless %}
+        {% endif %}
         {{ content }}
     </article>
     {% include addthis.html %}

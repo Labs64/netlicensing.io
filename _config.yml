@@ -20,6 +20,7 @@ dns_prefetch:
 
 # Styling
 stage_banner_image: "../img/netlicensing-stage-banner-01.png"
+blog_placeholder_image: "/img/blog/blog-placeholder.jpg"
 
 # SEO
 google_author: "https://plus.google.com/+NetlicensingIoLabs64"

@@ -2,7 +2,8 @@
 layout: post
 title: "Labs64 NetLicensing is going FREE!"
 description: "Today, we are announcing a new availability model – NetLicensing is going free!"
-image: /img/blog/blog-placeholder.jpg
+image:
+  url: /img/blog/blog-placeholder.jpg
 tags:
 - Free
 - Announcement

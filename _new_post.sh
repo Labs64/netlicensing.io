@@ -27,7 +27,10 @@ read -d '' body <<EOF
 layout: post
 title: "$title"
 description: "Description: $title"
-image: /img/blog/blog-placeholder.jpg
+image:
+  url: /img/blog/blog-placeholder.jpg
+  hide: false
+  width: 30%;
 tags:
 - NetLicensing
 author:

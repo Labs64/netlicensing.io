@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "NetLicensing Can Save Lives"
-description: "Labs64 NetLicensing is a first-class solution in the Licensing as a Service (LaaS) sector."
-image: /img/blog/netlicensing-bee.png
+description: "Labs64 NetLicensing is a first-class solution in the Licensing as a Service (LaaS) sector"
+image:
+  url: /img/blog/netlicensing-bee.png
 tags:
 - Fairy tale
 - Story
@@ -26,5 +27,4 @@ We’ve just made NetLicensing even easier to access – with it now being compl
 
 Safe. Secure. Efficient. A real life-saver!
 
-{:.blog_img_credit}
-Image Credits: Alexey Averikhin
+{% include credit-tracker.html image='/img/blog/netlicensing-bee.png' %}

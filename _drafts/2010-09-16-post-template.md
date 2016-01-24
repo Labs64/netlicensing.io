@@ -2,7 +2,10 @@
 layout: post
 title: "Post template - Title"
 description: "Post template - Description"
-image: /img/blog/blog-placeholder.jpg
+image:
+  url: /img/blog/blog-placeholder.jpg
+  hide: false
+  width: 30%;
 tags:
 - NetLicensing
 author:

@@ -12,7 +12,8 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 script:
-  - bundle exec jekyll build --drafts
+  - bundle exec jekyll build
+  # - bundle exec jekyll build --drafts
   - bundle exec htmlproof ./_site --verbose --check-html --ignore-script-embeds --href-ignore '/.*www.linkedin.com.*/,#'
 
 notifications:

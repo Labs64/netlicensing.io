@@ -1,0 +1,12 @@
+{% assign image = nil %}
+{% for data_image in site.data.images %}
+  {% if data_image.source == include.image %}
+    {% assign image = data_image %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if image %}
+{:.blog_img_credit}
+Image Credits: {{ image.author }}
+{% endif %}

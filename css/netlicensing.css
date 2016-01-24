@@ -63,6 +63,11 @@ a:active, a:hover {
 }
 
 /*----------   Blog -----------*/
+section#articles {
+    margin: 50px auto;
+    max-width: 1220px;
+}
+
 p.blog_img_credit {
     color: #bbb;
     margin-top: 20px;
@@ -85,6 +90,7 @@ p.blog_img_credit {
 .post-meta address {
     margin-bottom: 20px;
 }
+
 .post-meta ul {
     list-style: none;
     margin-left: 0px !important;
@@ -100,6 +106,101 @@ p.blog_img_credit {
 .post ul {
     margin-left: 40px;
 }
+
+.post img.thumbnail {
+    float: left;
+    margin-right: 15px;
+    border: 0;
+}
+
+/*----------  Material Cards  -----------*/
+
+/**
+ * Helpers
+ */
+.border-tlr-radius {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.radius {
+    border-radius: 2px;
+}
+
+.padding-tb {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
+.shadowDepth0 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.shadowDepth1 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+/**
+ * Card Styles
+ */
+
+.card {
+    max-width: 400px;
+    background-color: #fff;
+}
+
+.card__padding {
+    padding: 1.6rem;
+}
+
+.card__image {
+    min-height: 100px;
+    background-color: #eee;
+}
+
+.card__image img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.card__content {
+    position: relative;
+}
+
+/* card meta */
+.card__meta {
+    color: #bbb;
+}
+
+.card__meta address {
+    margin-bottom: 0px;
+}
+
+.card__meta ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.card__meta ul li {
+    display: table-cell;
+}
+
+/* card action */
+.card__action {
+    overflow: hidden;
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
+/*----------  Material Cards (end)  -----------*/
 
 /*----------   NL Styles  -----------*/
 #wrapper,
@@ -138,7 +239,7 @@ p.blog_img_credit {
 }
 
 .NL_main_banner {
-    background: url({{ site.stage_banner_image }});
+    background: url({{ site.stage_banner_image }} );
     background-size: cover;
 }
 
@@ -907,62 +1008,6 @@ a.NL_cases_card:hover .view-info p {
     list-style-type: square;
 }
 
-/*----------  Material Cards  -----------*/
-
-.card {
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    overflow: hidden;
-    margin: 10px;
-    background: #FFF;
-    border: 1px solid #EEE;
-}
-
-.card .title {
-    line-height: 40px;
-    font-size: 24px;
-    margin-top: 0px;
-    font-weight: 300;
-    margin-top: 0px;
-}
-
-.card .content {
-    position: relative;
-    padding: 15px 20px 20px 10px;
-}
-
-.card p {
-    margin: 0;
-}
-
-.card .action {
-    padding: 20px;
-}
-
-.card a {
-    float: right;
-    margin-right: 20px;
-    -webkit-transition: color 0.3s ease;
-    transition: color 0.3s ease;
-    text-decoration: none;
-}
-
-.card .image {
-    padding: 20px;
-    width: 130px;
-}
-
-.card .image .title {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 20px;
-    color: #FFF;
-}
-
-/*----------  Material Cards (end)  -----------*/
-
 /*----------  Testimonial  -----------*/
 
 .NL_testimonial {
@@ -1363,7 +1408,7 @@ a.NL_pricing_tooltip {
         width: 80%;
         margin-left: 10%;
     }
-    
+
     .NL_footer_menu > .col-md-2 {
         margin-top: 10px;
     }
@@ -1494,6 +1539,13 @@ a.NL_pricing_tooltip {
     .NL_by {
         float: left;
     }
+
+    .post {
+        padding-top: 75px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 }
 
 @media screen and (max-width: 479px) {
