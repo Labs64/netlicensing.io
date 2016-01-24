@@ -2,16 +2,15 @@
 layout: post
 title: "Post template - Title"
 description: "Post template - Description"
-canonical: ""
-image: /img/netlicensing-promo-04.jpg
+image: /img/blog/blog-placeholder.jpg
 tags:
 - NetLicensing
 author:
   name: NetLicensing
   url: http://netlicensing.io
+canonical:
 sitemap:
   images:
-    - /img/netlicensing-promo-04.jpg
 ---
 
 [Markdown](http://daringfireball.net/projects/markdown/) allows you to write using an easy-to-read, easy-to-write plain text format, which then converts to valid HTML post.
