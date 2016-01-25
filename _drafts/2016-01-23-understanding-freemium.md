@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding Freemium"
-description: ""
+description: "There are a number of ways in which the content or service can be restricted..."
 author:
   name: NetLicensing
   url: http://netlicensing.io
