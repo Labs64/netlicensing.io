@@ -9,7 +9,7 @@
   exclude: true
 
 - id: netlicensing-blurred-background
-  source: /img/netlicensing-blurred-background.jpg
+  source: /img/netlicensing-blurred-background.png
   exclude: true
 
 - id: getting-started-01
