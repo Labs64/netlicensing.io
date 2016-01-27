@@ -19,7 +19,7 @@ tags:
 
 <div class="row NL_block">
     <div class="col-md-6">
-        <div class="card">
+        <div class="docu-card">
             <img class="image col-md-4" src="{{ '/img/how_it_works.png' | prepend: site.baseurl | prepend: site.url }}" alt="How it Works">
             <div class="content col-md-8">
                 <h3 class="title">How it Works</h3>
@@ -31,7 +31,7 @@ tags:
         </div>
     </div>
     <div class="col-md-6">
-        <div class="card">
+        <div class="docu-card">
             <img class="image col-md-4" src="{{ '/img/getting_started.png' | prepend: site.baseurl | prepend: site.url }}" alt="Getting Started">
             <div class="content col-md-8">
                 <h3 class="title">Getting Started</h3>
@@ -46,7 +46,7 @@ tags:
 </div>
 <div class="row NL_block">
     <div class="col-md-6">
-        <div class="card">
+        <div class="docu-card">
             <img class="image col-md-4" src="{{ '/img/api.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing API">
             <div class="content col-md-8">
                 <h3 class="title">NetLicensing API</h3>
@@ -62,7 +62,7 @@ tags:
         </div>
     </div>
     <div class="col-md-6">
-        <div class="card">
+        <div class="docu-card">
             <img class="image col-md-4" src="{{ '/img/libraries.png' | prepend: site.baseurl | prepend: site.url }}" alt="Client Libraries">
             <div class="content col-md-8">
                 <h3 class="title">Client Libraries</h3>

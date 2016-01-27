@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Labs64 – Innovations Delivered &#8211; Company profile (EN)"
-description: ""
+title: "Labs64 – Innovations Delivered &#8211; Company profile"
+description: "We design, develop and implement a broad range of IT solutions based on our customer&#8217;s individual requirements."
 author:
-  name: NetLicensing
-  url: http://netlicensing.io
+  name: Labs64
+  url: http://www.labs64.com
 image:
-  url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2010/09/labs64-innovations-delivered-company-profile-en/
+  url: /img/blog/Labs64_LogoS.png
+  hide: true
 tags:
   - Backup
   - Consulting
@@ -24,8 +24,10 @@ tags:
   - SCRUM
   - Software Development
   - Website Maintenance
+canonical: http://www.labs64.com/blog/2010/09/labs64-innovations-delivered-company-profile-en/
 ---
-## <img class="aligncenter size-full wp-image-3694" alt="Labs64" src="/content/uploads/2013/05/Labs64_LogoS.png" width="237" height="80" /> {#Companyprofile%28EN%29-THECOMPANY}
+
+![Labs64](/img/blog/Labs64_LogoS.png "Labs64 - Innovation Delivered"){:class="NL_aligncenter"}
 
 ## THE COMPANY
 
@@ -35,7 +37,7 @@ Labs64 is an independent IT service provider. We design, develop and implement a
 
 Our client base includes small and medium-sized companies as well as global enterprises, such as BMW, Siemens Enterprise Communications, MSI Solutions, WIP Immobilien and Zurich Instruments.
 
-## OUR COMMITMENT {#Companyprofile%28EN%29-OURCOMMITMENT}
+## OUR COMMITMENT
 
 Our team is committed to provide IT services with:
 
@@ -44,13 +46,13 @@ Our team is committed to provide IT services with:
   * Technology
   * Support
 
-## PRODUCTS AND SERVICES {#Companyprofile%28EN%29-PRODUCTSANDSERVICES}
+## PRODUCTS AND SERVICES
 
 _Services, tailored to your needs _
 
 Being both dynamic and innovative, Labs64 is committed to supporting our business partners at every step of any project&#8217;s life-cycle. Experience in very different environments and the ability to anticipate developments in the market is the basis for rewarding customer relationships. Labs64 offers comprehensive and highly flexible services which can be precisely tailored to your needs and requirements.
 
-### OUR SPECIALITY {#Companyprofile%28EN%29-OURSPECIALITY}
+### OUR SPECIALITY
 
 Labs64 has extensive experience across very different platforms. Our services include:
 
@@ -67,7 +69,7 @@ Labs64 has extensive experience across very different platforms. Our services in
 
     Are you about to open your own online business? Do you want to attract more customers to an existing store by adding more payment methods? By developing in-house NetLicensing solutions, we integrate the payment services into an online shop. Labs64 has built expertise in PSP integration, most importantly PayPal. We help you to integrate PayPal on different levels, ranging from simple HTML buttons to a secure PayPal API.
 
-### OUR KEY STRENGTHS {#Companyprofile%28EN%29-OURKEYSTRENGTHS}
+### OUR KEY STRENGTHS
 
 At Labs64, everything is based on innovation. Or consultants and resources possess a very broad knowledge about the industry in general, including the following skills:
 
@@ -81,7 +83,7 @@ At Labs64, everything is based on innovation. Or consultants and resources posse
   * Application Maintenance & Support
   * Offshore Software Development
 
-### OUR TOOLS & METHODS {#Companyprofile%28EN%29-OURTOOLS%26METHODS}
+### OUR TOOLS & METHODS
 
 Our development methodology provides a structured framework aimed at delivering high quality software solutions. Over the years, we have refined our business process by blending best industry practices using agile methodology and absorbed the best approach to ensure maximum performance and best quality for projects while reducing complexity that may effect budget or timing of projects.
 
@@ -95,52 +97,55 @@ Our development methodology provides a structured framework aimed at delivering 
   * Test-Driven Development
   * Software Modelling (UML, Enterprise Architect)
 
-### NETLICENSING {#Companyprofile%28EN%29-NETLICENSING}
+### NETLICENSING
 
-Labs64 is one of the first companies worldwide with a cloud-based solution that can be individually configured, delivering “Licensing as a Service”. NetLicensing makes product and software licensing easy and flexible. NetLicensing can be used for cloud-based SaaS, embedded software or for licensing and protection of on-premise software.
+Labs64 is one of the first companies worldwide with a cloud-based solution that can be individually configured, delivering _“Licensing as a Service”_. [NetLicensing](http://netlicensing.io) makes product and software licensing easy and flexible. NetLicensing can be used for cloud-based SaaS, embedded software or for licensing and protection of on-premise software.
 
 > NetLicensing moves product and software licensing to the cloud, making it available at any time.
 
 With Labs64 NetLicensing, new and extremely flexible licensing models can be implemented. It can also be used with an integrated payment gateway to monetise your products and services. The service is set up and operational in less than an hour through easy parameterisation.
 
-## CONTACT US {#Companyprofile%28EN%29-CONTACTUS}
+## CONTACT US
 
 If you are interested in our services and products and/or want to know more about Labs64, we are looking forward to hearing from you:
 
 <table width="100%" border="0" cellspacing="0" cellpadding="5">
-  <tr>
-    <td valign="top" width="10%">
-      Phone:</p>
+    <tr>
+        <td valign="top" width="10%">
+            Phone:</p>
 
-      <p>
-        Fax:
-      </p>
+            <p>
+                Fax:
+            </p>
 
-      <p>
-        Email:
-      </p>
+            <p>
+                Email:
+            </p>
 
-      <p>
-        Website:
-      </p>
+            <p>
+                Website:
+            </p>
 
-      <p>
-        Address:</td>
+            <p>
+                Address:</td>
 
         <td valign="top">
-          +49 (89) 741185-130 / -131</p>
+            +49 (89) 741185-130 / -131</p>
 
-          <p>
-            +49 (89) 741185-133
-          </p>
+            <p>
+                +49 (89) 741185-133
+            </p>
 
-          <p>
-            <a href="mailto:info@labs64.com" rel="nofollow" target="_blank">info@labs64.com</a>
-          </p>
+            <p>
+                <a href="mailto:info@labs64.com" target="_blank">info@labs64.com</a>
+            </p>
 
-          <p>
-            <a href="http://www.labs64.com/" rel="nofollow">http://www.labs64.com</a>
-          </p>
+            <p>
+                <a href="http://www.labs64.com/" target="_blank">http://www.labs64.com</a>
+            </p>
 
-          <p>
-            Radlkoferstr. 2 Munich 81373 Germany</td> </tr> </tbody> </table>
+            <p>
+                Radlkoferstr. 2 Munich 81373 Germany</td>
+    </tr>
+    </tbody>
+</table>

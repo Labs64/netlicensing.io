@@ -113,6 +113,14 @@ p.blog_img_credit {
     border: 0;
 }
 
+.NL_aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 /*----------  Material Cards  -----------*/
 
 /**
@@ -202,6 +210,62 @@ p.blog_img_credit {
 
 /*----------  Material Cards (end)  -----------*/
 
+/*----------  Docu Cards  -----------*/
+
+.docu-card {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    background: #FFF;
+    border: 1px solid #EEE;
+}
+
+.docu-card .title {
+    line-height: 40px;
+    font-size: 24px;
+    margin-top: 0px;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+.docu-card .content {
+    position: relative;
+    padding: 15px 20px 20px 10px;
+}
+
+.docu-card p {
+    margin: 0;
+}
+
+.docu-card .action {
+    padding: 20px;
+}
+
+.docu-card a {
+    float: right;
+    margin-right: 20px;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.docu-card .image {
+    padding: 20px;
+    width: 130px;
+}
+
+.docu-card .image .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    color: #FFF;
+}
+
+/*----------  Docu Cards (end)  -----------*/
+
 /*----------   NL Styles  -----------*/
 #wrapper,
 .container-fluid,
@@ -239,7 +303,7 @@ p.blog_img_credit {
 }
 
 .NL_main_banner {
-    background: url({{ site.stage_banner_image }} );
+    background: url({{ site.stage_banner_image }});
     background-size: cover;
 }
 
