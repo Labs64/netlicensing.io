@@ -5,7 +5,7 @@
   exclude: true
 
 - id: netlicensing-promo-00
-  source: /img/netlicensing-promo-00.jpg
+  source: /img/netlicensing-promo-00.png
   exclude: true
 
 - id: netlicensing-blurred-background
@@ -54,7 +54,7 @@
   creditlink: http://netlicensing.io
 
 - id: 39455947
-  source: /img/Fotolia_39455947_stage.jpg
+  source: /img/Fotolia_39455947_stage.png
   title: "Standing out business concept"
   caption: "Standing out business concept"
   license: https://en.fotolia.com/Info/Agreements/TermsAndConditions
@@ -414,7 +414,7 @@
   creditlink: http://netlicensing.io
 
 - id: labs64-stage-01
-  source: /img/labs64-stage-01.jpg
+  source: /img/labs64-stage-01.png
   title: "NetLicensing Stage"
   caption: "NetLicensing Stage"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
@@ -504,7 +504,7 @@
   creditlink: http://netlicensing.io
 
 - id: netlicensing-promo-01
-  source: /img/netlicensing-promo-01.jpg
+  source: /img/netlicensing-promo-01.png
   title: "Be flexible"
   caption: "NetLicensing - Be flexible"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
@@ -513,7 +513,7 @@
   creditlink: http://netlicensing.io
 
 - id: 56349432
-  source: /img/netlicensing-promo-02.jpg
+  source: /img/netlicensing-promo-02.png
   title: "Mobile payment"
   caption: "NetLicensing - Streamline purchasing process"
   license: https://en.fotolia.com/Info/Agreements/TermsAndConditions
@@ -522,7 +522,7 @@
   creditlink: https://en.fotolia.com/id/56349432
 
 - id: 7567904
-  source: /img/netlicensing-promo-03.jpg
+  source: /img/netlicensing-promo-03.png
   title: "light feather on white"
   caption: "NetLicensing - Integrate fast"
   license: https://en.fotolia.com/Info/Agreements/TermsAndConditions
@@ -531,7 +531,7 @@
   creditlink: https://en.fotolia.com/id/7567904
 
 - id: netlicensing-promo-04
-  source: /img/netlicensing-promo-04.jpg
+  source: /img/netlicensing-promo-04.png
   title: "Activate over the Internet"
   caption: "NetLicensing - Activate over the Internet"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode

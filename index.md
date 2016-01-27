@@ -29,13 +29,13 @@ sitemap:
                     NetLicensing has an open architecture that allows easy extension with new licensing models.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-promo-01.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Flex">
+                <img src="{{ '/img/netlicensing-promo-01.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Flex">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-promo-02.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing eCommerce">
+                <img src="{{ '/img/netlicensing-promo-02.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing eCommerce">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Streamline purchasing process</h2>
@@ -64,13 +64,13 @@ sitemap:
 
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-promo-03.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Integration">
+                <img src="{{ '/img/netlicensing-promo-03.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Integration">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-promo-04.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Activation">
+                <img src="{{ '/img/netlicensing-promo-04.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Activation">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Activate over the Internet</h2>

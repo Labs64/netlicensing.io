@@ -111,7 +111,7 @@ Reference-style links: [NetLicensing][NLIC] and [NetLicensing][2] were developed
 
 Image with title and alt tags
 
-![Labs64 QR Code](/img/netlicensing-promo-04.jpg "Labs64 NetLicensing Lifecycle")
+![Labs64 QR Code](/img/netlicensing-promo-04.png "Labs64 NetLicensing Lifecycle")
 
 ## CODE
 ---
