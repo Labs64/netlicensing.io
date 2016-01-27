@@ -127,7 +127,9 @@ If you are interested in our services and products and/or want to know more abou
             </p>
 
             <p>
-                Address:</td>
+                Address:
+            </p>
+        </td>
 
         <td valign="top">
             +49 (89) 741185-130 / -131</p>
@@ -145,7 +147,9 @@ If you are interested in our services and products and/or want to know more abou
             </p>
 
             <p>
-                Radlkoferstr. 2 Munich 81373 Germany</td>
+                Radlkoferstr. 2 Munich 81373 Germany
+            </p>
+        </td>
     </tr>
     </tbody>
 </table>
