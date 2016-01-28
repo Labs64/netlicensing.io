@@ -28,8 +28,8 @@
   url: "/documentation/"
   section: "Documentation"
 
-- title: Blog
-  url: "http://www.labs64.com/blog/category/labs64/licensing/netlicensing/"
+- title: Journal
+  url: "/blog/"
   section: "Documentation"
 
 # Legal

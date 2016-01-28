@@ -3,25 +3,22 @@ layout: post
 title: "Who&#8217;s Watching You?"
 description: ""
 author:
-  name: NetLicensing
-  url: http://netlicensing.io
+  name: Labs64
+  url: http://www.labs64.com
 image:
-  url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2014/12/whos-watching-you/
+  url: /img/blog/Fotolia_67672288_XS.jpg
 tags:
   - Cloud
   - NSA
   - Personal cloud
   - Privacy
   - Security
+canonical: http://www.labs64.com/blog/2014/12/whos-watching-you/
 ---
+
 It is undeniable that one of the largest technology stories of 2013 was not a new range of televisions, or a revolutionary smartphone. Although these were both technologies that emerged in this year, the story which saw a UK newspaper destroy computer hard disk drives in the presence of members of the Security Forces and a well-documented man-hunt across half of the world was the revelations released by a former employee of the American National Security Agency that millions of people had had their personal emails and mobile phone records accessed by agencies in both America and Europe.
 
 Although the initial impact of this was the shock that agencies had first of all been able to access this material with such ease and that it had been considered acceptable; the secondary effect was the realisation that major email and telecommunications companies had been willing to hand over information about their customers to these agencies.
-
-<p style="text-align: center;">
-  <img class="size-full wp-image-5419 aligncenter" alt="Fotolia_67672288_XS" src="http://www.labs64.com/content/uploads/2014/08/Fotolia_67672288_XS.jpg" width="424" height="184" srcset="http://www.labs64.com/content/uploads/2014/08/Fotolia_67672288_XS-300x130.jpg 300w, http://www.labs64.com/content/uploads/2014/08/Fotolia_67672288_XS.jpg 424w" sizes="(max-width: 424px) 100vw, 424px" />
-</p>
 
 This was particularly significant as it included information which people had stored in their own personal cloud storage space &#8211; most notably those which are provided by major email providers. In a world where more and more people are using a variety of cloud storage services, we like to think that our data is safe. The truth, it would seem, is somewhat different.
 
@@ -36,3 +33,5 @@ However, there has been an increase in people’s awareness of exactly what they
 It is yet to be seen what the long-term impact will be, or whether there will indeed be a significant impact upon how people use these services. With this in mind, we’d like to know if your habits have been changed as a result of this news? Were you already storing your own personal and business data on encrypted servers? Have you actively sought out more secure ways of transmitting and storing data?
 
 Let us know!
+
+{% include credit-tracker.html image='/img/blog/Fotolia_67672288_XS.jpg' %}

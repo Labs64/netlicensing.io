@@ -638,7 +638,7 @@
   publisher: Labs64
   creditlink: http://netlicensing.io
 
-- id: netlicensing-bee.png
+- id: netlicensing-bee
   source: /img/blog/netlicensing-bee.png
   title: "NetLicensing Bee"
   caption: "NetLicensing Bee"
@@ -646,3 +646,30 @@
   author: Labs64
   publisher: Labs64
   creditlink: http://netlicensing.io
+
+- id: Fotolia_68929807_S
+  source: /img/blog/Fotolia_68929807_S.jpg
+  title: "Business People Working with Technology"
+  caption: "Business People Working with Technology"
+  license: https://en.fotolia.com/Info/Agreements/TermsAndConditions
+  author: "Rawpixel.com"
+  publisher: "Fotolia"
+  creditlink: https://de.fotolia.com/id/68929807
+
+- id: Fotolia_55239022_S
+  source: /img/blog/Fotolia_55239022_S.jpg
+  title: "Cloud networking concept: Silver Cloud With Padlock on digital b"
+  caption: "Cloud networking concept: Silver Cloud With Padlock on digital b"
+  license: https://en.fotolia.com/Info/Agreements/TermsAndConditions
+  author: "Maksim Kabakou"
+  publisher: "Fotolia"
+  creditlink: https://de.fotolia.com/id/55239022
+
+- id: Fotolia_67672288_XS.jpg
+  source: /img/blog/Fotolia_67672288_XS.jpg
+  title: "Data protection"
+  caption: "Data protection"
+  license: https://en.fotolia.com/Info/Agreements/TermsAndConditions
+  author: "Jürgen Fälchle"
+  publisher: "Fotolia"
+  creditlink: https://de.fotolia.com/id/67672288
