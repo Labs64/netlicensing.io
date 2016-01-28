@@ -1452,6 +1452,16 @@ a.NL_pricing_tooltip {
     padding-left: 5px;
 }
 
+/* Blog styles */
+img.size-full {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.card__article h2 a {
+    border-bottom: none;
+}
+
 @media only screen and (min-width: 479px) and (max-width: 993px) {
     i.NL-see-popup {
         float: left;
