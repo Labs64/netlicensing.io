@@ -1,19 +1,20 @@
 ---
 layout: post
 title: "Apps in Education"
-description: ""
+description: "The potential for educational apps is vast, but the range of different levels of learning as well as learning and teaching styles, is even greater"
 author:
-  name: NetLicensing
-  url: http://netlicensing.io
+  name: Labs64
+  url: http://www.labs64.com
 image:
-  url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2014/06/apps-in-education/
+  url: /img/blog/Fotolia_63176711_XS.jpg
 tags:
   - App
   - Education
   - Trends
+canonical: http://www.labs64.com/blog/2014/06/apps-in-education/
 ---
-In our recent <a title="Is there an application ‘crash’ looming?" href="/blog/2014/05/is-there-an-application-crash-looming/" target="_blank" rel="nofollow">article</a>, we looked at the question of whether or not an increasingly saturated application market is leading towards an application &#8216;crash&#8217;. There is a strong argument to be made that developing for niche markets is the way forward if companies and developers are to be successful.
+
+In our recent [article](/blog/2014/05/19/is-there-an-application-crash-looming/), we looked at the question of whether or not an increasingly saturated application market is leading towards an application &#8216;crash&#8217;. There is a strong argument to be made that developing for niche markets is the way forward if companies and developers are to be successful.
 
 The rapidly decreasing costs of technology has meant that a larger number of educational institutions are investing in application based technology. With a particular focus on tablet computers and touch-control technology.
 
@@ -34,3 +35,5 @@ Although creating bespoke applications can sometimes mean that the marketability
 Where teaching styles, curriculum and markers for assessment shift, the fundamentals of learning remain largely unchanged.
 
 It is therefore not unrealistic, to suggest that the best educational apps of today, could well have a long and profitable life ahead.
+
+{% include credit-tracker.html image='/img/blog/Fotolia_63176711_XS.jpg' %}
