@@ -13,23 +13,23 @@
   exclude: true
 
 - id: getting-started-01
-  source: /img/getting-started/getting-started-01.jpg
+  source: /img/getting-started/getting-started-01.png
   exclude: true
 
 - id: getting-started-02
-  source: /img/getting-started/getting-started-02.jpg
+  source: /img/getting-started/getting-started-02.png
   exclude: true
 
 - id: getting-started-03
-  source: /img/getting-started/getting-started-03.jpg
+  source: /img/getting-started/getting-started-03.png
   exclude: true
 
 - id: getting-started-04
-  source: /img/getting-started/getting-started-04.jpg
+  source: /img/getting-started/getting-started-04.png
   exclude: true
 
 - id: getting-started-05
-  source: /img/getting-started/getting-started-05.jpg
+  source: /img/getting-started/getting-started-05.png
   exclude: true
 
 
@@ -315,7 +315,7 @@
   creditlink: http://netlicensing.io
 
 - id: getting-started-01-big
-  source: /img/getting-started/getting-started-01-big.jpg
+  source: /img/getting-started/getting-started-01-big.png
   title: "Create NetLicensing account"
   caption: "NetLicensing Getting Started - Create NetLicensing account"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
@@ -324,7 +324,7 @@
   creditlink: http://netlicensing.io
 
 - id: getting-started-02-big
-  source: /img/getting-started/getting-started-02-big.jpg
+  source: /img/getting-started/getting-started-02-big.png
   title: "Configure product"
   caption: "NetLicensing Getting Started - Configure product"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
@@ -333,7 +333,7 @@
   creditlink: http://netlicensing.io
 
 - id: getting-started-03-big
-  source: /img/getting-started/getting-started-03-big.jpg
+  source: /img/getting-started/getting-started-03-big.png
   title: "Validate licensee"
   caption: "NetLicensing Getting Started - Validate licensee"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
@@ -342,7 +342,7 @@
   creditlink: http://netlicensing.io
 
 - id: getting-started-04-big
-  source: /img/getting-started/getting-started-04-big.jpg
+  source: /img/getting-started/getting-started-04-big.png
   title: "Integrate NetLicensing API"
   caption: "NetLicensing Getting Started - Integrate NetLicensing API"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
@@ -351,7 +351,7 @@
   creditlink: http://netlicensing.io
 
 - id: getting-started-05-big
-  source: /img/getting-started/getting-started-05-big.jpg
+  source: /img/getting-started/getting-started-05-big.png
   title: "Acquire licenses via NetLicensing Shop"
   caption: "NetLicensing Getting Started - Acquire licenses via NetLicensing Shop"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
