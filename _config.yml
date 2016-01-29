@@ -31,7 +31,7 @@ disqus_shortname: "netlicensing"
 
 # Build settings
 markdown: kramdown
-highlight: pygments
+highlight: rouge
 permalink: /blog/:year/:month/:day/:title/
 
 compress_html:

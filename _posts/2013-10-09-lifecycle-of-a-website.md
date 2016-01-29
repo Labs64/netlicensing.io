@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Lifecycle of a Website"
-description: ""
+description: "All new websites starts with innovative thoughts and plans, and precise planning is instrumental in making it a grand success"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2013/10/lifecycle-of-a-website/
+  url: /img/blog/Fotolia_35854655_XS.jpg
 tags:
   - Programming
   - Design
@@ -19,8 +18,10 @@ tags:
   - specification
   - Testing
   - website
+canonical: http://www.labs64.com/blog/2013/10/lifecycle-of-a-website/
 ---
-<img class="alignleft size-full wp-image-4389" alt="Website development. WWW with tools isolated on white background" src="/content/uploads/2013/05/Fotolia_35854655_XS_copyright.jpg" width="427" height="311" srcset="http://www.labs64.com/content/uploads/2013/05/Fotolia_35854655_XS_copyright-300x218.jpg 300w, http://www.labs64.com/content/uploads/2013/05/Fotolia_35854655_XS_copyright.jpg 427w" sizes="(max-width: 427px) 100vw, 427px" />The lifecycle of a website consists of various phases. It starts from information gathering, design and development of the website and finally the maintenance phase makes it a constant attention seeking process.
+
+The lifecycle of a website consists of various phases. It starts from information gathering, design and development of the website and finally the maintenance phase makes it a constant attention seeking process.
 
 The different stages are:
 
@@ -47,3 +48,5 @@ _Types of hosting:_ Considering the type of database server software, operating 
 **The Maintenance Phase:** Maintaining a website is the most crucial phase of its life cycle. Regular revamps are necessary for sustaining a competitive edge. Applications and contents need to be regularly updated. Constant grooming is required for keeping the website “live”. A lot of work is required to be done like SSL Certificates renewal, updating security patches, Frameworks & Tools Update, DDoS Attack preventions, etc.
 
 All new websites starts with innovative thoughts and plans, and precise planning is instrumental in making it a grand success. Adopting all the steps with exact methodology during the creation of the website will surely reflect in a better quality of the outcome.
+
+{% include credit-tracker.html image='/img/blog/Fotolia_35854655_XS.jpg' %}

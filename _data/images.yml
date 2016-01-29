@@ -683,6 +683,24 @@
   publisher: "Fotolia"
   creditlink: https://de.fotolia.com/id/60998181
 
+- id: Fotolia_35854655_XS
+  source: /img/blog/Fotolia_35854655_XS.jpg
+  title: "Website development. WWW with tools isolated on white background"
+  caption: "Website development. WWW with tools isolated on white background"
+  license: https://en.fotolia.com/Info/Agreements/TermsAndConditions
+  author: "Bedrin"
+  publisher: "Fotolia"
+  creditlink: https://de.fotolia.com/id/35854655
+
+- id: Fotolia_68537090_S
+  source: /img/blog/Fotolia_68537090_S.jpg
+  title: "businessman using a stylus pen in his tablet"
+  caption: "businessman using a stylus pen in his tablet"
+  license: https://en.fotolia.com/Info/Agreements/TermsAndConditions
+  author: "nito"
+  publisher: "Fotolia"
+  creditlink: https://de.fotolia.com/id/68537090
+
 - id: 1_think_all
   source: /img/blog/1_think_all.png
   title: "4eloCode - think"
