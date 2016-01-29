@@ -432,7 +432,7 @@
   creditlink: http://netlicensing.io
 
 - id: licensing-model-floating
-  source: /img/licensing-model/licensing-model-floating.jpg
+  source: /img/licensing-model/licensing-model-floating.png
   title: "Floating"
   caption: "NetLicensing Licensing Models - Floating"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
@@ -441,7 +441,7 @@
   creditlink: http://netlicensing.io
 
 - id: licensing-model-multi-feature
-  source: /img/licensing-model/licensing-model-multi-feature.jpg
+  source: /img/licensing-model/licensing-model-multi-feature.png
   title: "Multi-Feature"
   caption: "NetLicensing Licensing Models - Multi-Feature"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
@@ -450,7 +450,7 @@
   creditlink: http://netlicensing.io
 
 - id: licensing-model-named-user
-  source: /img/licensing-model/licensing-model-named-user.jpg
+  source: /img/licensing-model/licensing-model-named-user.png
   title: "Named User"
   caption: "NetLicensing Licensing Models - Named User"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
@@ -459,7 +459,7 @@
   creditlink: http://netlicensing.io
 
 - id: licensing-model-pay-per-use
-  source: /img/licensing-model/licensing-model-pay-per-use.jpg
+  source: /img/licensing-model/licensing-model-pay-per-use.png
   title: "Pay-per-Use"
   caption: "NetLicensing Licensing Models - Pay-per-Use"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
@@ -468,7 +468,7 @@
   creditlink: http://netlicensing.io
 
 - id: licensing-model-rental
-  source: /img/licensing-model/licensing-model-rental.jpg
+  source: /img/licensing-model/licensing-model-rental.png
   title: "Rental"
   caption: "NetLicensing Licensing Models - Rental"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
@@ -477,7 +477,7 @@
   creditlink: http://netlicensing.io
 
 - id: licensing-model-standard
-  source: /img/licensing-model/licensing-model-standard.jpg
+  source: /img/licensing-model/licensing-model-standard.png
   title: "Standard"
   caption: "NetLicensing Licensing Models - Standard"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
@@ -486,7 +486,7 @@
   creditlink: http://netlicensing.io
 
 - id: licensing-model-subscription
-  source: /img/licensing-model/licensing-model-subscription.jpg
+  source: /img/licensing-model/licensing-model-subscription.png
   title: "Subscription"
   caption: "NetLicensing Licensing Models - Subscription"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
@@ -495,7 +495,7 @@
   creditlink: http://netlicensing.io
 
 - id: licensing-model-try-and-buy
-  source: /img/licensing-model/licensing-model-try-and-buy.jpg
+  source: /img/licensing-model/licensing-model-try-and-buy.png
   title: "Try & Buy"
   caption: "NetLicensing Licensing Models - Try & Buy"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
