@@ -665,7 +665,7 @@
   publisher: "Fotolia"
   creditlink: https://de.fotolia.com/id/55239022
 
-- id: Fotolia_67672288_XS.jpg
+- id: Fotolia_67672288_XS
   source: /img/blog/Fotolia_67672288_XS.jpg
   title: "Data protection"
   caption: "Data protection"
@@ -673,3 +673,21 @@
   author: "Jürgen Fälchle"
   publisher: "Fotolia"
   creditlink: https://de.fotolia.com/id/67672288
+
+- id: Fotolia_60998181_XS
+  source: /img/blog/Fotolia_60998181_XS.jpg
+  title: "NFC - Near field communication"
+  caption: "NFC - Near field communication"
+  license: https://en.fotolia.com/Info/Agreements/TermsAndConditions
+  author: "Artur Marciniec"
+  publisher: "Fotolia"
+  creditlink: https://de.fotolia.com/id/60998181
+
+- id: 1_think_all
+  source: /img/blog/1_think_all.png
+  title: "4eloCode - think"
+  caption: "4eloCode - think"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io

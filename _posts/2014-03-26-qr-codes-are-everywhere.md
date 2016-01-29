@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "QR Codes are everywhere"
-description: ""
+description: "Quick Response (QR) Codes are everywhere we go"
 author:
-  name: NetLicensing
-  url: http://netlicensing.io
+  name: Labs64
+  url: http://www.labs64.com
 image:
-  url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2014/03/qr-codes-are-everywhere/
+  url: /img/blog/1_think_all.png
 tags:
   - 4eloCode
   - Advertising
@@ -24,12 +23,10 @@ tags:
   - Scanner
   - think
   - Trends
+canonical: http://www.labs64.com/blog/2014/03/qr-codes-are-everywhere/
 ---
-Quick Response (QR) Codes are [everywhere](http://www.labs64.com/codeman/ "codeMan") we go. They are on adverts, in newspapers, on the backs of books and appearing on television screens. They make use of a technology which has been in existence for some time, but that until now has been more common in supermarkets than out on the street.
 
-<p style="text-align: center;">
-  <img class="wp-image-5214 aligncenter" alt="4eloCode - think" src="http://www.labs64.com/content/uploads/2013/05/1_think_all.png" width="470" height="476" srcset="http://www.labs64.com/content/uploads/2013/05/1_think_all-296x300.png 296w, http://www.labs64.com/content/uploads/2013/05/1_think_all-1010x1024.png 1010w, http://www.labs64.com/content/uploads/2013/05/1_think_all.png 1865w" sizes="(max-width: 470px) 100vw, 470px" />
-</p>
+*Quick Response (QR) Codes* are [everywhere](http://www.labs64.com/codeman/ "codeMan") we go. They are on adverts, in newspapers, on the backs of books and appearing on television screens. They make use of a technology which has been in existence for some time, but that until now has been more common in supermarkets than out on the street.
 
 The barcode is a versatile and compact means of storing a great deal of information in a relatively small space. Information which can then be called up from a database and used when it is needed. Although barcodes are still in wide use for this, the advent of mobile devices which are able to use their inbuilt cameras as barcode scanners has led to an increase in the use of QR codes as a means of delivering content to end users through their internet connection.
 

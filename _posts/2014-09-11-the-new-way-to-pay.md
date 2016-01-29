@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "The New Way to Pay"
-description: ""
+description: "Do you use your mobile devices to carry out day to day financial tasks? What impact do you think that it is having on your business?"
 author:
-  name: NetLicensing
-  url: http://netlicensing.io
-layout: post
-canonical: http://www.labs64.com/blog/2014/09/the-new-way-to-pay/
+  name: Labs64
+  url: http://www.labs64.com
+image:
+  url: /img/blog/Fotolia_60998181_XS.jpg
 tags:
   - Mobile payment
   - Online payment
@@ -16,8 +16,10 @@ tags:
   - QR
   - QRCode
   - VISA
+canonical: http://www.labs64.com/blog/2014/09/the-new-way-to-pay/
 ---
- <img class="alignleft size-full wp-image-5398" alt="NFC - Near field communication" src="http://www.labs64.com/content/uploads/2014/08/Fotolia_60998181_XS.jpg" width="424" height="283" srcset="http://www.labs64.com/content/uploads/2014/08/Fotolia_60998181_XS-300x200.jpg 300w, http://www.labs64.com/content/uploads/2014/08/Fotolia_60998181_XS.jpg 424w" sizes="(max-width: 424px) 100vw, 424px" />The defining aspect of the success of Smartphones over the last five years has been the ability that they have given us to literally do anything we want in practically any place. The phrase ‘there is an app for everything’ has now become common parlance amongst both industry members and consumers alike. We carry in our pockets mini-computers with more power and potential than those which we used in offices just 10 years ago.
+
+The defining aspect of the success of Smartphones over the last five years has been the ability that they have given us to literally do anything we want in practically any place. The phrase ‘there is an app for everything’ has now become common parlance amongst both industry members and consumers alike. We carry in our pockets mini-computers with more power and potential than those which we used in offices just 10 years ago.
 
 We are also using our phones and tablet devices for much more than the simple entertainment devices which can make and  receive calls that was the at the core of the first smartphones. Millions of people now manage their finances largely through online banking and carry out a significant number of transactions and transfers just using their thumbs on the 4 inch screen of a mobile phone.
 
@@ -31,6 +33,8 @@ As smartphone technology has become more advanced users are now able to use thei
 
 It is also possible for small businesses to now take card payments using just a mobile phone, massively reducing the time and costs of paper processing. These types of payments are also having a significant impact in developing countries where it has now become cheaper than ever to make secure financial transactions.
 
-In a recent article we looked at the impact that <a title="QR Codes are everywhere" href="/blog/2014/03/qr-codes-are-everywhere/" target="_blank" rel="nofollow">QR codes</a> are having on the technology industry, and a significant area of this is in mobile payments. The payer selects how much they want to pay and to whom, this then generates a QR code which is scanned by the merchant and the payment is complete! There has been no messing about with cards, PINs or cash. It has all be done instantaneously and securely.
+In a recent article we looked at the impact that [QR codes](/blog/2014/03/26/qr-codes-are-everywhere/ "QR Codes are everywhere") are having on the technology industry, and a significant area of this is in mobile payments. The payer selects how much they want to pay and to whom, this then generates a QR code which is scanned by the merchant and the payment is complete! There has been no messing about with cards, PINs or cash. It has all be done instantaneously and securely.
 
 Do you use your mobile devices to carry out day to day financial tasks? What impact do you think that it is having on your business? Let us know!
+
+{% include credit-tracker.html image='/img/blog/Fotolia_60998181_XS.jpg' %}
