@@ -59,3 +59,5 @@ tags:
     </div>
     {% endfor %}
 </section>
+
+{% include google-search.html %}
