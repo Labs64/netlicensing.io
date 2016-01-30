@@ -37,7 +37,7 @@ layout: default
             {% else %}
               {% assign image_width = '30%' %}
             {% endif %}
-            <img src="{{ page.image.url }}" alt="{{ page.title }}" class="thumbnail" width="{{ image_width }}">
+            <img src="{{ page.image.url }}" alt="{{ page.title }}" class="blog-thumbnail" width="{{ image_width }}">
           {% endunless %}
         {% endif %}
         {{ content }}

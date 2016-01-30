@@ -107,18 +107,27 @@ p.blog_img_credit {
     margin-left: 40px;
 }
 
-.post img.thumbnail {
+.post img.blog-thumbnail {
+    clear: left;
+    display: block;
     float: left;
-    margin-right: 15px;
     border: 0;
+    margin-right: 15px;
+    margin-top: 5px;
 }
 
-.NL_aligncenter {
+.post img.blog-center {
     clear: both;
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+.post img.blog-left {
+}
+
+.post img.blog-right {
 }
 
 /*----------  Material Cards  -----------*/
@@ -1614,6 +1623,19 @@ a.NL_pricing_tooltip {
         padding-right: 20px;
     }
 
+    .post img.blog-thumbnail {
+        max-width: 100%;
+        min-width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .post img.blog-center {
+        max-width: 100%;
+        min-width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
 }
 
 @media screen and (max-width: 479px) {
