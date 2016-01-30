@@ -4,6 +4,7 @@ title: "NetLicensing Can Save Lives"
 description: "Labs64 NetLicensing is a first-class solution in the Licensing as a Service (LaaS) sector"
 image:
   url: /img/blog/netlicensing-bee.png
+  hide: true
 tags:
 - Fairy tale
 - Story
@@ -14,6 +15,8 @@ canonical: http://tech-x.press/2015/08/10/NetLicensing-saves-live/
 ---
 
 We have always known that NetLicensing is a great product. With the ability to save vendors of all sizes; time, money and effort. Now, it would seem NetLicensing can even save actual lives! We recently received this story in an email from one of our customers, and thought that we would share it with you – maybe NetLicensing could save your (work)life?
+
+![NetLicensing Can Save Lives](/img/blog/netlicensing-bee.png "NetLicensing Can Save Lives"){:class="blog-center"}
 
 > *It was a normal day in the office, with nothing unusual happening at all. It was quite a warm day so I had decided to open the windows and get some fresh air. Little did I know that this open window would let in more than just fresh air!*
 

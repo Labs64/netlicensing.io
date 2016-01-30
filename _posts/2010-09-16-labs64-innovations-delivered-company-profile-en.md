@@ -27,7 +27,7 @@ tags:
 canonical: http://www.labs64.com/blog/2010/09/labs64-innovations-delivered-company-profile-en/
 ---
 
-![Labs64](/img/blog/Labs64_LogoS.png "Labs64 - Innovation Delivered"){:class="NL_aligncenter"}
+![Labs64](/img/blog/Labs64_LogoS.png "Labs64 - Innovation Delivered"){:class="blog-center"}
 
 ## THE COMPANY
 
