@@ -1,20 +1,21 @@
 ---
 layout: post
 title: "Technology in 2014&#58; Top Emerging Trends"
-description: ""
+description: "2014 could see a shift towards single, multi-functional devices whose users are all inter-connected through private and public, company and personal clouds"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2014/02/technology-in-2014-top-emerging-trends/
 tags:
   - Trends
   - 2014
   - 3D
   - Cloud
   - Trend
+canonical: http://www.labs64.com/blog/2014/02/technology-in-2014-top-emerging-trends/
 ---
+
 At the start of every new year, there is always a great deal written about what industry experts and writers alike; expect to be the ‘top’ trends for that year. What will be the next big thing? Everyone tries to predict it, and few people often get it exactly right.
 
 Technological advances such as **3-D printing** and augmented reality equipment are certainly not new, but they are rapidly dropping in price. This means that they are becoming more readily available to consumers and businesses alike. 3-D Printing in particular, has existed in some form or another for almost twenty years. It is only now, that the prospect a 3-D printer in the small business setting is becoming a realistic prospect.

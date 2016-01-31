@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "SaaS vs. Traditional Software Licensing Model"
-description: ""
+description: "Software as a Service model is user friendly and incurs comparatively lower cost"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2013/09/saas-vs-traditional-software-licensing-model/
+  url: /img/blog/Fotolia_56105002_XS.jpg
 tags:
   - Licensing
   - Benefit
@@ -18,8 +17,8 @@ tags:
   - on-premise
   - SaaS
   - technical
+canonical: http://www.labs64.com/blog/2013/09/saas-vs-traditional-software-licensing-model/
 ---
-<img class="alignleft size-full wp-image-4331" src="/content/uploads/2013/05/Fotolia_56105002_XS_copyright.jpg" alt="SAAS. Yellow Sticker on Bulletin." width="346" height="376" srcset="http://www.labs64.com/content/uploads/2013/05/Fotolia_56105002_XS_copyright-276x300.jpg 276w, http://www.labs64.com/content/uploads/2013/05/Fotolia_56105002_XS_copyright.jpg 346w" sizes="(max-width: 346px) 100vw, 346px" />
 
 Software as a Service has been instrumental in harnessing benefits of productivity of man and organization in working environment by delivering a diverse range of remotely maintained applications over the Internet. Unlike Traditional Software Licensing Model, SaaS strives to resolve the inflexibility of software that arises during maintenance and evolution. Software as a Service model is user friendly and incurs comparatively lower cost.
 
@@ -44,3 +43,5 @@ Software as a Service has been instrumental in harnessing benefits of productivi
 ### Conclusion
 
 Organizations should move forward in using the SaaS application, as by using it they get the freedom of investing in their projects better, rather than maintaining the infrastructure for on-premise software which is both complex and expensive. <a href="http://netlicensing.io" target="_blank">Outsourcing the licensing</a> part to SaaS providers makes the process much easier, as the security, performance and hardware management, all are dealt by the provider. SaaS provides the freedom of access as it is a web based software application delivery system. It can be used both as a business application and a development tool, and equipped with fresh innovative ideas; SaaS will soon outperform the Traditional Software Licensing model.
+
+{% include credit-tracker.html image='/img/blog/Fotolia_56105002_XS.jpg' %}

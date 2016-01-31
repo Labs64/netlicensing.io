@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Paywall &#8211; making users pay for what they see online"
-description: ""
+description: "The most successful examples of uses of a paywall have actually come from organisations who had built their brand in more traditional methods"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2013/11/paywall-making-users-pay-for-what-they-see-online/
+  url: /img/blog/Fotolia_53221200_XS.jpg
 tags:
   - Licensing
   - CMS
@@ -18,22 +17,8 @@ tags:
   - Paywall
   - subscription
   - Wordpress
+canonical: http://www.labs64.com/blog/2013/11/paywall-making-users-pay-for-what-they-see-online/
 ---
-<div id="attachment_4429" class="wp-caption credit-tracker-caption alignleft" itemscope itemtype="http://schema.org/ImageObject" style="width: 379px">
-  <img itemprop="contentUrl" class="size-full wp-image-4429" alt="Digital PayWall" src="/content/uploads/2013/05/Fotolia_53221200_XS.jpg" width="379" height="317" />
-
-  <p class="wp-caption-text" itemprop="copyrightHolder">
-    &copy; 3Dmask - Fotolia.com
-  </p>
-
-  <meta itemprop="name" content="3d business news" />
-
-  <meta itemprop="caption" content="© 3Dmask &#8211; Fotolia.com" />
-
-  <meta itemprop="author" content="3Dmask" />
-
-  <meta itemprop="publisher" content="Fotolia" />
-</div>
 
 A question which has often presented itself to the producers of News and Media content for the internet is how to make their work pay in an environment where the expectation is that all content can be easily accessed and most of the time for free. Consumers are naturally drawn to the content which is readily available and free. If they can find a free alternative, then they will stop paying for a service. That is, unless the quality of the paid service is of a good enough value, and a high enough quality that the consumer will be prepared to pay.
 
@@ -54,3 +39,5 @@ The logistics of setting up a paywall on your website are easier than you might 
 The ‘million dollar question’ of whether or not to implement a paywall is one which only the business owner can really answer. It is, like everything in business a risk; but one which can see significant rewards if you are successful.
 
 Do you use a paywall on any of your websites? How as it affected your business? Let us know in the comments below.
+
+{% include credit-tracker.html image='/img/blog/Fotolia_53221200_XS.jpg' %}

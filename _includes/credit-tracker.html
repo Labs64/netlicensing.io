@@ -7,6 +7,16 @@
 {% endfor %}
 
 {% if image %}
-{:.blog_img_credit}
-Image Credits: {{ image.author }}
+  {% if image.publisher == 'Fotolia' %}
+    {% capture image_credit %}&copy; {{ image.author }} - Fotolia.com{% endcapture %}
+  {% elsif image.publisher == 'Flickr' %}
+    {% capture image_credit %}&copy; {{ image.author }} - Flickr.com{% endcapture %}
+  {% elsif image.publisher == 'iStockphoto' %}
+    {% capture image_credit %}&copy;iStockphoto.com/{{ image.author }}{% endcapture %}
+  {% else %}
+    {% capture image_credit %}{{ image.author }}{% endcapture %}
+  {% endif %}
+
+  {:.blog_img_credit}
+  Image Credits: {{ image_credit }}
 {% endif %}

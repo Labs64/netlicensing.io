@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "The Ins and Outs of Outsourcing"
-description: ""
+description: "Outsourcing is a great way to increase productivity and reduce running costs at the same time"
 author:
-  name: NetLicensing
-  url: http://netlicensing.io
+  name: Labs64
+  url: http://www.labs64.com
 image:
-  url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2013/11/the-ins-and-outs-of-outsourcing/
+  url: /img/blog/Fotolia_57409041_XS.jpg
 tags:
   - Howto
   - Cost reduction
@@ -20,24 +19,10 @@ tags:
   - Quality
   - Service
   - Shared service
+canonical: http://www.labs64.com/blog/2013/11/the-ins-and-outs-of-outsourcing/
 ---
+
 If you run a medium to large sized business you will likely have considered outsourcing at some step along the way to building your successful company. Even if you have only recently started out as a small business with just a handful of employees you may well have built outsourcing into your five or ten year plan for the company’s infrastructure.
-
-<div id="attachment_4417" class="wp-caption credit-tracker-caption aligncenter" itemscope itemtype="http://schema.org/ImageObject" style="width: 427px">
-  <img itemprop="contentUrl" class="size-full wp-image-4417" alt="Outsourcing" src="/content/uploads/2013/05/Fotolia_57409041_XS.jpg" width="427" height="281" srcset="http://www.labs64.com/content/uploads/2013/05/Fotolia_57409041_XS-300x197.jpg 300w, http://www.labs64.com/content/uploads/2013/05/Fotolia_57409041_XS.jpg 427w" sizes="(max-width: 427px) 100vw, 427px" />
-
-  <p class="wp-caption-text" itemprop="copyrightHolder">
-    &copy; Jérôme Rommé - Fotolia.com
-  </p>
-
-  <meta itemprop="name" content="Outsourcing" />
-
-  <meta itemprop="caption" content="© Jérôme Rommé &#8211; Fotolia.com" />
-
-  <meta itemprop="author" content="Jérôme Rommé" />
-
-  <meta itemprop="publisher" content="Fotolia" />
-</div>
 
 Outsourcing is a great way to increase productivity and reduce running costs at the same time. There are three main types of outsourcing which we are going to cover: Internal Outsourcing, External Outsourcing and Mid-Level Outsourcing.
 
@@ -59,8 +44,10 @@ This type of outsourcing falls somewhere in-between internal and external outsou
 
 This company then functions as a kind of ‘Outsourcing Management’ where they take on a number of jobs for your company and then outsource within their own subsidiaries. The structure looks something like this
 
-<img class="size-full wp-image-4421" alt="@Labs64" src="/content/uploads/2013/05/outsourcing-flow.png" width="674" height="103" />
+![Outsourcing](/img/blog/outsourcing-flow.png "The Ins and Outs of Outsourcing"){:class="blog-center"}
 
 The cost of implementing this kind of outsourcing is greater than the external model, but is still cheaper than not outsourcing at all. It also means that you maintain greater control over how different parts of your business are run, giving you greater security. As a business owner/ operator you are given a single point of contact who then takes care of the process of management of each individual subsidiary on your behalf.
 
 Do you use outsourcing within your company? Which method do you use and why? Let us know in the comments below.
+
+{% include credit-tracker.html image='/img/blog/Fotolia_57409041_XS.jpg' %}
