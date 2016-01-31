@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "License Mobility"
-description: ""
+description: "License mobility is made possible through the definition of a ‘single physical machine’ which is typically defined by the number of ‘cores’"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2016/01/license-mobility/
 tags:
   - License Mobility
 ---
+
 The concept of license mobility is actually surprisingly easy to understand in essence it means that can reassign your license between devices as and when it is required. For this article, we are going to look at the limitations about options that you have when assigning software licenses in a couple of settings. Specifically, server farms and server repartitioning. We will look at these in more detail shortly, but first we are going to explain the rules of license reassignment, and what is defined as ‘short-term’.
 
 The general rule with Microsoft software licensing is that you cannot reassign a license more frequently than every 90 days. Meaning that once you have assigned and registered a license to a device you will have to wait for three months before you can reassign that same license to a new device. However, as we have already said, there are certain cases where you can reassign licenses on a short-term basis. This is what is know as ‘license mobility’.

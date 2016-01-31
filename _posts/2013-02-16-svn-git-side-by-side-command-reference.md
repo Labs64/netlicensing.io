@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SVN / Git &#58; side-by-side command reference"
-description: ""
+description: "We created for you this hands-on SVN / Git side-by-side command reference"
 author:
   name: NetLicensing
   url: http://netlicensing.io

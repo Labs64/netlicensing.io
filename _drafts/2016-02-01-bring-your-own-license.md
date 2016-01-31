@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Bring Your Own License"
-description: ""
+description: "The cloud revolution has until now been driven by two key features; storage and collaboration"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2016/01/bring-your-own-license/
 ---
+
 It would not be an understatement to say that cloud computing has revolutionized and democratized the technology industry. It has enabled companies to vastly expand their field of operations with almost no upfront cost. Companies comprised of just a few individuals can now easily operate on a truly global scale like never before.
 
 The cloud revolution has until now been driven by two key features; storage and collaboration. It has made managing complex backups a thing of the past and has saved countless hours by giving companies and their employees the ability to work together on the same project, at the same time.
@@ -27,12 +27,12 @@ We should note that the BYOL model is mostly available from larger vendors (i.e.
 
 The key features of BYOL:
 
-Greater flexibility enabled by true license mobility
+- Greater flexibility enabled by true license mobility
 
-Reduction or removal of upfront cost when upscaling use of software
+- Reduction or removal of upfront cost when upscaling use of software
 
-Increased freedom of use within the license terms
+- Increased freedom of use within the license terms
 
-In-depth tracking and reporting of license validity and usage
+- In-depth tracking and reporting of license validity and usage
 
 We hope that this article has gone someway to helping you understand the exciting trend of being able to ‘bring your own license’.

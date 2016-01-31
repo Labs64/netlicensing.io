@@ -7,7 +7,6 @@ author:
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2016/01/understanding-freemium/
 tags:
   - Freemium
 ---

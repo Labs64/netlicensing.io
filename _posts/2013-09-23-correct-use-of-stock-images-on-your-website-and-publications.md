@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Correct Use of Stock Images on your Website and Publications"
-description: ""
+description: "It is important then, to make sure that the company which you use to purchase your stock images will offer you a fair deal and won’t impose any unreasonable restrictions on your use of the images which you purchase"
 author:
   name: NetLicensing
   url: http://netlicensing.io

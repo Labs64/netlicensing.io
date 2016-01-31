@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Labs64 NetLicensing 2.0 is Out"
-description: ""
+description: "Labs64 team is pleased to announce the availability of NetLicensing v2.0"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2014/04/labs64-netlicensing-2-0-is-out/
 tags:
   - ABO
   - API
@@ -21,7 +20,9 @@ tags:
   - subscription
   - NetLicensing
   - News and Announcements
+canonical: http://www.labs64.com/blog/2014/04/labs64-netlicensing-2-0-is-out/
 ---
+
 During the past month we’ve been focusing on improving NetLicensing, and today Labs64 team is pleased to announce the availability of NetLicensing <a title="Release Notes - NetLicensing 2.0.0-FINAL" href="https://www.labs64.de/confluence/x/D4HH" target="_blank">version 2.0</a>.
 
 We hope you enjoyed Easter holidays, and are ready to try the new NetLicensing.
@@ -42,7 +43,7 @@ Please see the <a title="Release Notes - NetLicensing 2.0.0-FINAL" href="https:/
 What’s Next:
 
   * Discover [NetLicensing Website](http://www.labs64.com/netlicensing "NetLicensing - Innovative License Management Solution") and <a title="NetLicensing Wiki" href="https://www.labs64.de/confluence/x/pgCo" target="_blank">documentation</a>
-  * <a title="Try Labs64 NetLicensing Now!" href="https://netlicensing.labs64.com/app/v2/?lc=4b566c7e20&source=lmbox001" target="_blank">Try NetLicensing right away</a> using free demo account
+  * <a title="Try Labs64 NetLicensing Now!" href="https://go.netlicensing.io/app/v2/?lc=4b566c7e20&source=lmbox001" target="_blank">Try NetLicensing right away</a> using free demo account
   * Get Involved – your opinion and ideas are highly welcome!
 
 Our <a title="NetLicensing Feedback" href="https://netlicensing.uservoice.com" target="_blank" rel="nofollow">Feedback Tool</a>, <a title="Labs64 Journal" href="/blog/" target="_blank" rel="nofollow">Blog</a> or <a title="Labs64 Social - Facebook" href="https://www.facebook.com/Labs64" target="_blank" rel="nofollow">Facebook</a> are at your disposal.

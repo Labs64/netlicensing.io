@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "LmBox 1.0.0-RC1 is available"
-description: ""
+description: "We pleased to announce the availability of the first release candidate of our Innovative License Management Solution LmBox"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2012/11/lmbox-1-0-0-rc1-is-available/
+  url: /img/blog/logo_lmbox.png
+  hide: true
 tags:
   - News and Announcements
   - Framework
@@ -18,8 +18,10 @@ tags:
   - Management
   - Release
   - shop
+canonical: http://www.labs64.com/blog/2012/11/lmbox-1-0-0-rc1-is-available/
 ---
-We pleased to announce the availability of the first <a title="Release Notes - LmBox 1.0.0-RC1" href="https://www.labs64.de/confluence/x/1ACd" target="_blank">release candidate</a> of our Innovative License Management Solution LmBox.
+
+We pleased to announce the availability of the first <a title="Release Notes - LmBox 1.0.0-RC1" href="https://www.labs64.de/confluence/x/wQCo" target="_blank">release candidate</a> of our Innovative License Management Solution LmBox.
 
 In a nutshell, LmBox is a fully customizable license management framework designed for use by vendors with enterprise needs.
 
@@ -31,6 +33,4 @@ Here are some LmBox highlights:
   * Product usage statistics
   * Secure RESTful-based LmBoxAPI allows integration to any environment
 
-Check out the <a title="LmBox - Innovative License Management Solution" href="http://netlicensing.labs64.com" target="_blank">LmBox home page</a> for more detailed information.
-
-&nbsp;
+Check out the <a title="LmBox - Innovative License Management Solution" href="http://netlicensing.io">LmBox home page</a> for more detailed information.
