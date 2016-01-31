@@ -1,20 +1,21 @@
 ---
 layout: post
 title: "Application Security&#58; The Essentials &#8211; Unvalidated Redirects and Forwards"
-description: ""
+description: "A redirect or forward is when the application automatically sends the user to an external webpage through a link which has been placed in the code"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2014/01/application-security-the-essentials-unvalidated-redirects-and-forwards/
 tags:
   - Security
   - Forward
   - Redirect
   - URL
+canonical: http://www.labs64.com/blog/2014/01/application-security-the-essentials-unvalidated-redirects-and-forwards/
 ---
-In this third article on [application security](http://www.labs64.com/?s=Application+Security+Essentials "Application Security"), we will be looking at Unvalidated Redirects and Forwards, an uncommon flaw but one which can have a damaging effect on your company’s reputation as it targets your customers rather than you directly.
+
+In this third article on [application security](https://www.google.com/search?q=site%3Anetlicensing.io%20Application%20Security%20Essentials "Application Security Essentials"){:target="_blank"}, we will be looking at Unvalidated Redirects and Forwards, an uncommon flaw but one which can have a damaging effect on your company’s reputation as it targets your customers rather than you directly.
 
 A redirect or forward is when the application automatically sends the user to an external webpage through a link which has been placed in the code. If you are using a .Net Framework to build your application, a redirect is known as a transfer.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Internet of Things &#8211; Part II"
-description: ""
+description: "The device would be internet enabled, and it would be possible for the subscription to be directly linked to it – by serial number or another unique identifier"
 author:
   name: Labs64
   url: http://www.labs64.com

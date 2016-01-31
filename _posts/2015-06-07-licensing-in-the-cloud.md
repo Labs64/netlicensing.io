@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Licensing in the Cloud"
-description: ""
+description: "Cloud Computing is here to stay, and cloud based licensing is just the next stage in an already exciting technological revolution"
 author:
   name: Labs64
   url: http://www.labs64.com

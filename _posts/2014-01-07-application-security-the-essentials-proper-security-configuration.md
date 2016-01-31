@@ -1,20 +1,21 @@
 ---
 layout: post
 title: "Application Security&#58; The Essentials &#8211; Proper Security Configuration"
-description: ""
+description: "A regular and well-streamlined routine to perfect checks on your security and eliminate faults"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2014/01/application-security-the-essentials-proper-security-configuration/
 tags:
   - Security
   - Configuration
   - Policy
   - Security
+canonical: http://www.labs64.com/blog/2014/01/application-security-the-essentials-proper-security-configuration/
 ---
-Welcome to our second article on [application security](http://www.labs64.com/?s=Application+Security+Essentials "Application Security"), a guide to the essentials. In this series we are conducting an overview of the major security risks and concerns which present themselves to companies who are looking to move into the highly profitable area of application development.
+
+Welcome to our second article on [application security](https://www.google.com/search?q=site%3Anetlicensing.io%20Application%20Security%20Essentials "Application Security Essentials"){:target="_blank"}, a guide to the essentials. In this series we are conducting an overview of the major security risks and concerns which present themselves to companies who are looking to move into the highly profitable area of application development.
 
 In this article, we will be looking at the importance of proper security configuration within your operation.
 

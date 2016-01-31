@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Application Security&#58; The Essentials &#8211; Cross Site Scripting (XSS)"
-description: ""
+description: "If ever you become concerned that there may be a risk of XSS, act immediately"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2014/01/application-security-the-essentials-cross-site-scripting-xss/
 tags:
   - Security
   - Browser
@@ -15,12 +14,14 @@ tags:
   - JavaScript
   - UI
   - XSS
+canonical: http://www.labs64.com/blog/2014/01/application-security-the-essentials-cross-site-scripting-xss/
 ---
+
 Cross Site Scripting, or XSS as it is also known, is when the data which is taken by an application and sent to a web browser is done so without proper validation and authentication being carried out first. It leaves the user open to attacking scripts from hackers and hijackers; the effect of this being that they can potentially hijack the user’s session and obtain a vast amount of data.
 
 As well as this cross site scripting can also be used to redirect the user to malicious websites which then implants viruses and other invasive and damaging software on the user’s device or computer.
 
-This brings us back to the issue which we discussed in a [previous article](http://www.labs64.com/?s=Application+Security+Essentials "Application Security"); about the dangers of redirects and external references within an application. Whenever an application links to a web browser it immediately opens up a ‘gap’ which can potentially be used by attackers to access the user’s confidential data and information.
+This brings us back to the issue which we discussed in a [previous article](/blog/2014/01/15/application-security-the-essentials-unvalidated-redirects-and-forwards/ "Application Security: The Essentials – Unvalidated Redirects and Forwards"); about the dangers of redirects and external references within an application. Whenever an application links to a web browser it immediately opens up a ‘gap’ which can potentially be used by attackers to access the user’s confidential data and information.
 
 Although this is not an attack which has a direct impact upon your application – insofar as the attackers are not targeting the application directly – however they can have a disastrous impact upon your users. If your application has a strong business user base, or involves the processing of sensitive information, then it can have a highly negative effect upon the public image of your product.
 

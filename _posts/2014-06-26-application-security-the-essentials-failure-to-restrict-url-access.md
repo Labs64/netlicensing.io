@@ -1,23 +1,24 @@
 ---
 layout: post
 title: "Application Security&#58; The Essentials &#8211; Failure to Restrict URL Access"
-description: ""
+description: "Access should be denied by default, if authentication fails for any user then they should not have any access"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2014/06/application-security-the-essentials-failure-to-restrict-url-access/
 tags:
   - Security
   - Access Rights
   - Link
   - Security
   - URL
+canonical: http://www.labs64.com/blog/2014/06/application-security-the-essentials-failure-to-restrict-url-access/
 ---
+
 It is often the case that applications will contain URL references to its separate pages through the use of protected links and buttons. The content to which you link depends entirely upon the application and its function; however, you should consider every link to be a potential gateway for an attack. Within an application, there is likely to be references to pages which contain confidential or sensitive data and unless you have correctly configured the restrictions; anyone with network access could potentially access private pages.
 
-This is a [security](http://www.labs64.com/?s=Application+Security+Essentials "Application Security") flaw which is easily exploited by attackers. This is because all they need to do to access a private page is make a manual change to the URL which forces the browser to open a different page to the one which you may have originally intended – this means that instead of accessing the pages designed for users, they can access those which are in place for use by admins only.
+This is a [security](https://www.google.com/search?q=site%3Anetlicensing.io%20Application%20Security%20Essentials "Application Security Essentials"){:target="_blank"} flaw which is easily exploited by attackers. This is because all they need to do to access a private page is make a manual change to the URL which forces the browser to open a different page to the one which you may have originally intended – this means that instead of accessing the pages designed for users, they can access those which are in place for use by admins only.
 
 Depending upon the access rights which they have been granted, users are able to access different pages within the application, each of which has its own unique URL. Although links and buttons may be visible to users with all levels of access, if the access rights have been correctly configured then they will only be able to access the levels which they are supposed to.
 

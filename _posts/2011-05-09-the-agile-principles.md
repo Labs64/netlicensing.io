@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Agile Principles"
-description: ""
+description: "Our highest priority is to satisfy the customer"
 author:
   name: Labs64
   url: http://www.labs64.com

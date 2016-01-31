@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Application Security&#58; The Essentials &#8211; Cross Site Request Forgery"
-description: ""
+description: "With Cross Site Request Forgery you are dealing specifically with an application which sends HTTP requests to the user’s browser"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2014/05/application-security-the-essentials-cross-site-request-forgery/
 tags:
   - Browser
   - CSRF
@@ -15,8 +14,10 @@ tags:
   - Request
   - URL
   - Security
+canonical: http://www.labs64.com/blog/2014/05/application-security-the-essentials-cross-site-request-forgery/
 ---
-We have already looked at how applications which use external references to a browser can be vulnerable to attacks (see <a title="Application Security: The Essentials – Unvalidated Redirects and Forwards" href="/blog/2014/01/application-security-the-essentials-unvalidated-redirects-and-forwards/" target="_blank" rel="nofollow">Unvalidated Redirects and Forwards</a>). With Cross Site Request Forgery you are dealing specifically with an application which sends HTTP requests to the user’s browser, as a part of its day to day functionality. External URL requests are, as we have previously discussed, a risk because they take the user outside of the boundaries of the application. This means that the level of control which you as a developer have is immediately impeded. However, there are still a number of steps you can take to prevent cross site request forgery.
+
+We have already looked at how applications which use external references to a browser can be vulnerable to attacks (see [Unvalidated Redirects and Forwards](/blog/2014/01/15/application-security-the-essentials-unvalidated-redirects-and-forwards/ "Application Security: The Essentials – Unvalidated Redirects and Forwards")). With Cross Site Request Forgery you are dealing specifically with an application which sends HTTP requests to the user’s browser, as a part of its day to day functionality. External URL requests are, as we have previously discussed, a risk because they take the user outside of the boundaries of the application. This means that the level of control which you as a developer have is immediately impeded. However, there are still a number of steps you can take to prevent cross site request forgery.
 
 In essence, CSRF forces the user’s browser to request fraudulent HTTP requests which the application believes to be genuine. As this is an attack which targets users who are logged into the application, it immediately opens them up the potential for data to be stolen by the attackers through what appears to be a genuine request by the application.
 

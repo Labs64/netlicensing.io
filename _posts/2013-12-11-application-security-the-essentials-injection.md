@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Application Security&#58; The Essentials &#8211; Injection"
-description: ""
+description: "When and where you can, use a safe and secure API"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2013/12/application-security-the-essentials-injection/
 tags:
   - Security
   - API
@@ -15,8 +14,10 @@ tags:
   - Risk
   - Security
   - SQL
+canonical: http://www.labs64.com/blog/2013/12/application-security-the-essentials-injection/
 ---
-In this next [series of articles](http://www.labs64.com/?s=Application+Security+Essentials "Application Security") we will be looking in some detail at some of the major risks which present themselves to creators and users of applications. We will not be targeting developers themselves, but those of you who either run a business or are looking to get started in the world of application development this is good place to start. You will often be dealing with large amounts of highly sensitive data and security is there absolute paramount to your operation.
+
+In this next [series of articles](https://www.google.com/search?q=site%3Anetlicensing.io%20Application%20Security%20Essentials "Application Security Essentials"){:target="_blank"} we will be looking in some detail at some of the major risks which present themselves to creators and users of applications. We will not be targeting developers themselves, but those of you who either run a business or are looking to get started in the world of application development this is good place to start. You will often be dealing with large amounts of highly sensitive data and security is there absolute paramount to your operation.
 
 ### Injection
 

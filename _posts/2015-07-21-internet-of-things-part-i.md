@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Internet of Things &#8211; Part I"
-description: ""
+description: "The growth in SaaS (Software as a Service) has also raised issues around licensing"
 author:
   name: Labs64
   url: http://www.labs64.com

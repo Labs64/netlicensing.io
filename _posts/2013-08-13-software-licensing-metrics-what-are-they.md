@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Software Licensing Metrics – What are they?"
-description: ""
+description: "It is important to ensure that you are charging the right amount for the products which you are distributing"
 author:
   name: NetLicensing
   url: http://netlicensing.io
@@ -30,4 +30,4 @@ It is worthwhile noting that the more open and honest you are with your customer
 
 If, for example, the metric which is in place is the number of ‘named users’ who access the software over a month, your customers will be significantly more relaxed about using the software by knowing _precisely_ what it is that they will be charged for.
 
-We will look in more detail into the administration of licensing metrics in our next article.
+We will look in more detail into the administration of licensing metrics in our [next article](/blog/2013/08/19/software-licensing-metrics-the-value-of-simplicity/ "Software Licensing Metrics – The Value of Simplicity").

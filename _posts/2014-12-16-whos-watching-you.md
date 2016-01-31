@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Who&#8217;s Watching You?"
-description: ""
+description: "Have you actively tought out more secure ways of transmitting and storing data?"
 author:
   name: Labs64
   url: http://www.labs64.com
@@ -30,7 +30,7 @@ The reaction amongst people within the technology industry has been notably diff
 
 However, there has been an increase in people’s awareness of exactly what they share online and what it is that they are storing in their cloud drives and sending via email. Consumer trust in large technology companies has been damaged and people are becoming more aware of the methods through which they can reduce the amount of information that their personal devices and services sends back to the companies.
 
-It is yet to be seen what the long-term impact will be, or whether there will indeed be a significant impact upon how people use these services. With this in mind, we’d like to know if your habits have been changed as a result of this news? Were you already storing your own personal and business data on encrypted servers? Have you actively sought out more secure ways of transmitting and storing data?
+It is yet to be seen what the long-term impact will be, or whether there will indeed be a significant impact upon how people use these services. With this in mind, we’d like to know if your habits have been changed as a result of this news? Were you already storing your own personal and business data on encrypted servers? Have you actively tought out more secure ways of transmitting and storing data?
 
 Let us know!
 

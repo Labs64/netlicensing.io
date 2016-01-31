@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Internet of Things – Part III"
-description: ""
+description: "Significantly, in the past 2 years there has been a noticeable shift away from ‘one-off’ license payments to a ‘subscription’ model"
 author:
   name: Labs64
   url: http://www.labs64.com
