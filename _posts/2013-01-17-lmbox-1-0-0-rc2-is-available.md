@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/logo_lmbox.png
+  url: /img/blog/LmBox-Motivation-View.png
   hide: true
 tags:
   - News and Announcements

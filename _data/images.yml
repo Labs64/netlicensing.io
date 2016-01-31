@@ -898,3 +898,48 @@
   author: Labs64
   publisher: Labs64
   creditlink: http://www.labs64.com
+
+- id: LmBox-Motivation-View
+  source: /img/blog/LmBox-Motivation-View.png
+  title: "LmBox - Motivation View"
+  caption: "LmBox - Motivation View"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id: labs64-blog-howto-idea001
+  source: /img/blog/labs64-blog-howto-idea001.png
+  title: "IntelliJ IDEA - serialVersionUID"
+  caption: "IntelliJ IDEA - serialVersionUID"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id: labs64-blog-howto-idea002
+  source: /img/blog/labs64-blog-howto-idea002.png
+  title: "IntelliJ IDEA - serialVersionUID"
+  caption: "IntelliJ IDEA - serialVersionUID"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id: labs64-blog-howto-idea003
+  source: /img/blog/labs64-blog-howto-idea003.png
+  title: "IntelliJ IDEA - serialVersionUID"
+  caption: "IntelliJ IDEA - serialVersionUID"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id: HTML5-working-with-canvas
+  source: /img/blog/HTML5-working-with-canvas.png
+  title: "HTML5 Working with Canvas"
+  caption: "HTML5 Working with Canvas"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io

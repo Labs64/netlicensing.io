@@ -7,6 +7,7 @@ author:
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
+  hide: true
 tags:
   - demo
   - Floating
@@ -32,7 +33,7 @@ Release highlights:
 Please see the <a title="Release Notes - NetLicensing 2.2.0-FINAL" href="https://www.labs64.de/confluence/x/F4LW" target="_blank">Release Notes</a> for complete list of changes and new features.
 What’s Next:
 
-  * Discover <a title="NetLicensing - Innovative License Management Solution" href="http://netlicensing.io" target="_blank">NetLicensing Website</a> and explore our <a title="NetLicensing Wiki" href="https://www.labs64.de/confluence/x/pgCo" target="_blank">documentation</a>
+  * Discover <a title="NetLicensing - Innovative License Management Solution" href="http://netlicensing.io">NetLicensing Website</a> and explore our <a title="NetLicensing Wiki" href="https://www.labs64.de/confluence/x/pgCo" target="_blank">documentation</a>
   * <a title="Try Labs64 NetLicensing Now!" href="https://go.netlicensing.io/app/v2/?lc=4b566c7e20&source=lmbox001" target="_blank">Try NetLicensing right away</a> using public demo account &#8211; no registration required!
   * Get Involved – your opinion and ideas are highly welcome!
 
@@ -41,19 +42,3 @@ Our <a title="NetLicensing Feedback" href="https://netlicensing.uservoice.com" t
 We hope you will enjoy this new release!
 
 _Happy licensing!_
-
-<div class="fusion-reading-box-container reading-box-container-29" style="margin-bottom:84px;">
-  <div class="reading-box" style="background-color:#f6f6f6;border-width:0px;border-color:#f6f6f6;border-left-width:3px;border-left-color:#E14817;border-style:solid;">
-    <a class="button fusion-button button-default button-round fusion-button-large button-large button-flat continue continue-right" style="-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;" href="/content/uploads/2013/05/NetLicensing.pdf" target="_self"><span>Download</span></a>
-
-    <h2>
-      Labs64 NetLicensing Whitepaper
-    </h2>
-
-    <div class="reading-box-description">
-      This white paper provides an overview of the Labs64 NetLicensing and how it supports enterprise-grade license management for businesses of all sizes.
-    </div>
-
-    <a class="button fusion-button button-default button-round fusion-button-large button-large button-flat mobile-button continue-right" style="-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;" href="/content/uploads/2013/05/NetLicensing.pdf" target="_self"><span>Download</span></a>
-  </div>
-</div>

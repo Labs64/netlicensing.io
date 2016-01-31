@@ -16,6 +16,11 @@ tags:
   - JavaEE
   - Serializable
   - serialVersionUID
+sitemap:
+  images:
+    - /img/blog/labs64-blog-howto-idea001.png
+    - /img/blog/labs64-blog-howto-idea002.png
+    - /img/blog/labs64-blog-howto-idea003.png
 canonical: http://www.labs64.com/blog/2012/12/intellij-idea-how-to-generate-serialversionuid/
 ---
 
