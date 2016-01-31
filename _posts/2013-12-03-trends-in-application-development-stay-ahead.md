@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Trends in Application Development &#8211; Stay Ahead"
-description: ""
+description: "Stay ahead, stay innovative, stay on top!"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2013/12/trends-in-application-development-stay-ahead/
 tags:
   - Programming
   - 3D
@@ -22,7 +21,9 @@ tags:
   - SaaS
   - UI
   - Virtual Reality
+canonical: http://www.labs64.com/blog/2013/12/trends-in-application-development-stay-ahead/
 ---
+
 If your company is to stay ahead in the highly competitive market of application development it is imperative that you stay on top of all of the latest trends, as the consumer will likely already be several steps ahead of you. You should also bear in mind that every single one of your competitors will be pouring as much, if not more, time and money researching the latest trends and seeking out new ways to be innovative.
 
 The most successful technologies of the last ten years; **smartphones**, tablets, cloud computing and -storage have all been born out of a desire to find bigger and better ways to enable to consumer to work wherever they are. The genius of such innovations has been in making mobile technology an indispensable tool to anyone who wants to get on in business, or even just go about their daily lives in an easy and efficient manner.
@@ -41,4 +42,4 @@ If an application is to be a success its Graphical **User Interface** (GUI) need
 
 Where applications and software were once an additional part of people’s lives, on the periphery, they are now dead centre. People’s lives revolve around how they use technology and the technology they own and use has a tremendous influence on what they will do under any given circumstance.
 
-> _Stay ahead, stay innovative, stay on top._
+> _Stay ahead, stay innovative, stay on top!_

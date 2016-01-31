@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Future trends in mobile payments"
-description: ""
+description: "The current trend of using mobile devices to read credit cards is expected to further evolve, however, removing the need for physical cards and eventually your billfold"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2014/04/future-trends-in-mobile-payments/
+  url: /img/blog/Fotolia_56349432_XS.jpg
 tags:
   - Android
   - Apple
@@ -21,16 +20,14 @@ tags:
   - Smartphone
   - Wallet
   - Trends
+canonical: http://www.labs64.com/blog/2014/04/future-trends-in-mobile-payments/
 ---
+
 Mobile payment systems are taking root around the globe, reaching major retailers and coffee shops as well as the single-store small and mid-sized boutiques that dot the landscape.
 
 Payments through mobile card-reader apps are currently available from 40% of small and mid-size businesses, or SMBs, according to researcher BIA Kelsey. That number is expected to rise to more than half of SMBs by the end of 2014.
 
 The current trend of using mobile devices to read credit cards is expected to further evolve, however, removing the need for physical cards and eventually your billfold.
-
-<p style="text-align: center;">
-  <img class="size-full wp-image-5148 aligncenter" alt="Mobile payment" src="http://www.labs64.com/content/uploads/2013/05/Fotolia_56349432_XS.jpg" width="400" height="300" srcset="http://www.labs64.com/content/uploads/2013/05/Fotolia_56349432_XS-300x225.jpg 300w, http://www.labs64.com/content/uploads/2013/05/Fotolia_56349432_XS.jpg 400w" sizes="(max-width: 400px) 100vw, 400px" /><br /> <!--more-->
-</p>
 
 ### Smartphones: your next wallet
 
@@ -63,3 +60,5 @@ Mobile payment platforms are available on nearly every smartphone today, but the
 Customers have to actively download apps and input their credit card information, potentially multiple times if their preferred vendors use apps instead of BLE or NFC. Presently, there is little perceived value to adding in all of these payment options when carrying a wallet or purse is still commonplace.
 
 A successful future for this space will require some market contraction, whether that’s consolidation through acquisition or the loss of competition through attrition. Mobile payment platforms will need to address customer habits and preferences, making it easy and convenient for adoption.
+
+{% include credit-tracker.html image='/img/blog/Fotolia_56349432_XS.jpg' %}

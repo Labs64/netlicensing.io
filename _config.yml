@@ -7,9 +7,6 @@ copyright: Labs64 GmbH
 company: Labs64
 company_url: "https://www.labs64.com"
 
-hiring: We're Hiring!
-hiring_url: "http://www.labs64.com/career/software-developer-javaee-mf-116-l64-17/"
-
 url: "http://netlicensing.io"
 # subpath of the site, e.g. /blog/
 baseurl: ""
@@ -24,6 +21,10 @@ dns_prefetch:
 # Styling
 stage_banner_image: "../img/netlicensing-stage-banner-01.png"
 blog_placeholder_image: "/img/blog/blog-placeholder.jpg"
+
+# Ads
+ads_hiring_text: We Are Hiring!
+ads_hiring_url: "http://www.labs64.com/career/software-developer-javaee-mf-116-l64-17/"
 
 # SEO
 google_author: "https://plus.google.com/+NetlicensingIoLabs64"

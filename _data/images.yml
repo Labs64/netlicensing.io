@@ -406,13 +406,12 @@
 
 - id: labs64-hiring
   source: /img/labs64-hiring.png
-  title: "We're Hiring"
-  caption: "We're Hiring"
+  title: "We Are Hiring"
+  caption: "We Are Hiring"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
   author: Labs64
   publisher: Labs64
-  creditlink: http://netlicensing.io
-
+  creditlink: http://www.labs64.com
 
 - id: labs64-netlicensing-lifecycle
   source: /img/labs64-netlicensing-lifecycle.png

@@ -1,22 +1,23 @@
 ---
 layout: post
 title: "DNS provider comparison"
-description: ""
+description: "There are many providers where you can get DNS hosting services for free"
 author:
-  name: NetLicensing
-  url: http://netlicensing.io
+  name: Labs64
+  url: http://www.labs64.com
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2012/05/dns-provider-comparison/
 tags:
   - Programming
   - DNS
   - Provider
   - Service
+canonical: http://www.labs64.com/blog/2012/05/dns-provider-comparison/
 ---
+
 In general, there are many providers where you can get DNS hosting services for free. This, however, is not always the best choice as you only get a basic service.
 
-When we were searching for a suitable DNS provider with the best price-performance ratio for our domain <a title="Labs64 - Innovations delivered" href="http://www.labs64.com" target="_blank">www.labs64.com</a>, we took our time. As we were looking for a more sophisticated service, we limited our search down to the following providers.
+When we were searching for a suitable DNS provider with the best price-performance ratio for our domain [labs64.com](http://www.labs64.com "Labs64 - Innovations delivered"), we took our time. As we were looking for a more sophisticated service, we limited our search down to the following providers.
 
 **DynDNS**
 

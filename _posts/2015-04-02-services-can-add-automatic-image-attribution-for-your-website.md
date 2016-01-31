@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Services Can Add Automatic Image Attribution for Your Website"
-description: ""
+description: "For WordPress sites, a plug-in named Credit Tracker makes it easy for you to show credits for the images you’re using"
 author:
-  name: NetLicensing
-  url: http://netlicensing.io
+  name: Labs64
+  url: https://wordpress.org/plugins/credit-tracker/
 image:
-  url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2015/04/services-can-add-automatic-image-attribution-for-your-website/
+  url: /img/blog/Fotolia_64558749_S.jpg
+  hide: true
 tags:
   - Attribution
   - copyright
@@ -16,16 +16,18 @@ tags:
   - plugin
   - Publisher
   - Wordpress
+canonical: http://www.labs64.com/blog/2015/04/services-can-add-automatic-image-attribution-for-your-website/
 ---
-<img class="alignleft size-full wp-image-5401" src="http://www.labs64.com/content/uploads/2014/08/Fotolia_64558749_S.jpg" alt="Multiethnic Group of Hands Holding Copyright" width="1044" height="460" srcset="http://www.labs64.com/content/uploads/2014/08/Fotolia_64558749_S-300x132.jpg 300w, http://www.labs64.com/content/uploads/2014/08/Fotolia_64558749_S-1024x451.jpg 1024w, http://www.labs64.com/content/uploads/2014/08/Fotolia_64558749_S.jpg 1044w" sizes="(max-width: 1044px) 100vw, 1044px" />
 
 Stock and custom photos and images can add a nice final touch to your website and blog when making a point. The prevalence of photo sharing services and new digital technologies has made photos more common across the Web, so your content needs to secure stunning images to keep up with the competition.
+
+![Credit Tracker](/img/blog/Fotolia_64558749_S.jpg "WordPress: Add Automatic Image Attribution for Your Website"){:class="blog-center"}
 
 Adding photos and creative captions makes your content more likely to be shared, putting more emphasis on the photos you use. This increased pressure tempts many to use photos they find around the Web without proper attribution or sometimes without the proper license. This can harm your reputation and potentially your bottom line.
 
 For WordPress sites, a plug-in named Credit Tracker makes it easy for you to show credits for the images you’re using. The service reaches out to image agencies and photo houses to locate used images and add in proper attribution, that way you’re always compliant with the photo agreements you sign with stock services.
 
-Adding Credit Tracker’s <a href="http://wordpress.org/plugins/credit-tracker/faq/" target="_blank" rel="nofollow">simple code</a> to your site will not only locate information about photos but also allows you to create Media Credit Tables, allowing you to track and properly attribute all of the images on your site. These tables give you a central house to manage all of your photos.
+Adding Credit Tracker’s [simple code](http://wordpress.org/plugins/credit-tracker/faq/ "Credit Tracker"){:target="_blank"} to your site will not only locate information about photos but also allows you to create Media Credit Tables, allowing you to track and properly attribute all of the images on your site. These tables give you a central house to manage all of your photos.
 
 This means that you can properly attribute photos from other sources, such as those from photo publishing services like Flickr that use a Creative Commons license. These licenses often allow you to use photos without needing to pay anyone but require you to properly attribute the owner.
 
@@ -47,4 +49,6 @@ It’s very likely that you’ll need to edit your media library at some point, 
 
 For artists and sites that want to potentially share or show-off content, the Credit Tracker plug-in can be displayed on your website. The service provides code so that you can show the Tracker itself, with options to customize it to fit your theme.
 
-Labs64 created <a title="Show credits for the images used on your website" href="http://wordpress.org/plugins/credit-tracker/" target="_blank" rel="nofollow">Credit Tracker</a> to provide companies with a quick and easy way to properly attribute photos on their websites. This keeps you in the clear with the owners of photos you license. It also shows your visitors that you’re willing to do the right thing and take pride in both your work and the work of others.
+Labs64 created [Credit Tracker](http://wordpress.org/plugins/credit-tracker/ "Show credits for the images used on your website"){:target="_blank"} to provide companies with a quick and easy way to properly attribute photos on their websites. This keeps you in the clear with the owners of photos you license. It also shows your visitors that you’re willing to do the right thing and take pride in both your work and the work of others.
+
+{% include credit-tracker.html image='/img/blog/Fotolia_64558749_S.jpg' %}

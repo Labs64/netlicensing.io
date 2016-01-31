@@ -7,7 +7,7 @@ author:
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2013/02/svn-git-side-by-side-command-reference/
+  hide: true
 tags:
   - Programming
   - command
@@ -18,7 +18,9 @@ tags:
   - Subversion
   - SVN
   - VCS
+canonical: http://www.labs64.com/blog/2013/02/svn-git-side-by-side-command-reference/
 ---
+
 In our projects we use both SVN and Git and know how difficult sometimes it can be to mentally switch from one version control to another. As an aid, we created for you this hands-on SVN / Git side-by-side command reference:
 
 <table border="0">
@@ -42,11 +44,11 @@ In our projects we use both SVN and Git and know how difficult sometimes it can 
     </td>
 
     <td>
-      <kbd>svn checkout https://www.labs64.com/<br /> LmBoxClient-java/trunk</kbd>
+      <kbd>svn checkout https://www.labs64.com/<br /> NetLicensingClient-java/trunk</kbd>
     </td>
 
     <td>
-      <kbd>git clone https://github.com/Labs64/<br /> LmBoxClient-csharp.git</kbd>
+      <kbd>git clone https://github.com/Labs64/<br /> NetLicensingClient-csharp.git</kbd>
     </td>
   </tr>
 

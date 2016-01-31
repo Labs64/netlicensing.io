@@ -1,21 +1,20 @@
 ---
 layout: post
 title: "The Consumerization of IT &#8211; Introducing Bring Your Own Device"
-description: ""
+description: "A well-written, secure ‘BYOD’ Policy is normally all that is needed"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2013/09/the-consumerization-of-it-introducing-bring-your-own-device/
+  url: /img/blog/Fotolia_51001863_XS.jpg
 tags:
   - Howto
   - BYOD
   - Device
   - Law
   - Policy
+canonical: http://www.labs64.com/blog/2013/09/the-consumerization-of-it-introducing-bring-your-own-device/
 ---
-<img class="aligncenter size-full wp-image-4335" alt="Bring Your Own Device" src="/content/uploads/2013/05/Fotolia_51001863_XS_copyright.jpg" width="418" height="317" srcset="http://www.labs64.com/content/uploads/2013/05/Fotolia_51001863_XS_copyright-300x227.jpg 300w, http://www.labs64.com/content/uploads/2013/05/Fotolia_51001863_XS_copyright.jpg 418w" sizes="(max-width: 418px) 100vw, 418px" />
 
 The modern world is a minefield of potential lawsuits, with every turn we are faced with more and more pitfalls and traps presented by the ever increasing availability of technology. If you are a business owner you will be all too aware of the ongoing ‘Consumerisation of IT’: namely the increased use within the business environment of personal devices. Whether this be tablets, mobile phones or in an increasingly rare case – laptops.
 
@@ -30,3 +29,5 @@ As an employer, you don’t want to be preventing your employee’s from bringin
 It is therefore absolutely imperative that as a business owner you are prepared for this increasing trend and embrace it with open-arms. Although you may have concerns about the implications of BYOD and how best to deal with it, all you need to do is make sure that when your employees bring their devices into work that both you and they are clear about exactly who is responsible for it.
 
 A well-written, secure ‘BYOD’ Policy is normally all that is needed. A well-formed WiFi infrastructure will enable you to easily control precisely who has access to your network. Whilst you can’t stop your employees bringing their devices into work, you can control the access they have and keep yourself safe.
+
+{% include credit-tracker.html image='/img/blog/Fotolia_51001863_XS.jpg' %}

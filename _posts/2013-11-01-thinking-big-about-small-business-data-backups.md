@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Thinking big about small business data backups"
-description: ""
+description: "One hazard of operating a small business is thinking that your data backup plans have to be small too"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2013/11/thinking-big-about-small-business-data-backups/
+  url: /img/blog/Fotolia_43041942_XS_s.jpg
 tags:
   - Howto
   - Backup
@@ -16,26 +15,14 @@ tags:
   - Restore
   - Storage
   - Tape
+canonical: http://www.labs64.com/blog/2013/11/thinking-big-about-small-business-data-backups/
 ---
-<div id="attachment_4403" class="wp-caption credit-tracker-caption aligncenter" itemscope itemtype="http://schema.org/ImageObject" style="width: 669px">
-  <img itemprop="contentUrl" class=" wp-image-4403 " title="Backup & Restore" alt="Backup & Restore" src="/content/uploads/2013/05/Fotolia_43041942_XS_s.jpg" width="669" height="162" />
-
-  <p class="wp-caption-text" itemprop="copyrightHolder">
-    &copy; Schlierner - Fotolia.com
-  </p>
-
-  <meta itemprop="name" content="Backup &#038; Restore" />
-
-  <meta itemprop="caption" content="© Schlierner &#8211; Fotolia.com" />
-
-  <meta itemprop="author" content="Schlierner" />
-
-  <meta itemprop="publisher" content="Fotolia" />
-</div>
 
 One hazard of operating a small business is thinking that your data backup plans have to be small too. Data backups are essential to maintaining your business, especially as databases grow and press the limits of your hardware.
 
 In 2012, 29% of small businesses actually lost revenue because equipment outages and data loss while more than half attributed productivity loss to these events, according to a Disaster Preparedness Survey by Symantec.
+
+&nbsp;
 
 When discussing backup options, there are a few key things to list out to help gauge your needs:
 
@@ -73,3 +60,5 @@ If you want an off-site storage option but don’t like the idea of sending data
 We suggest small businesses rely on systems that are smart enough to save multiple copies of your data, regardless of how you save it. Smart options include having a mix of backup services, at least one of which should be offsite. They also need to support your proprietary systems as well as your off-the-shelf business software.
 
 This post is just an overview of the types of backup systems available for your operations. Let our experts find solutions tailored specifically to your needs instead of going it alone, because a business catastrophe is something no small business can afford.
+
+{% include credit-tracker.html image='/img/blog/Fotolia_43041942_XS_s.jpg' %}
