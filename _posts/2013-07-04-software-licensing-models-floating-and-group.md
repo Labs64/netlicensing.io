@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Software Licensing Models – Floating and Group"
-description: ""
+description: "We will be looking at Floating (concurrent) network licenses, Floating (concurrent) host list licenses and Group Licenses"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2013/07/software-licensing-models-floating-and-group/
 tags:
   - Floating
   - Group
@@ -16,8 +15,10 @@ tags:
   - Licensing Model
   - Software
   - Software Licensing
+canonical: http://www.labs64.com/blog/2013/07/software-licensing-models-floating-and-group/
 ---
-In this third article of our ongoing series about Software Licensing Types (see here for the <a title="Software Licensing Models – Types, Sizes and Uses" href="/blog/2013/06/software-licensing-models-types-sizes-and-uses/" target="_blank" rel="nofollow">first</a> and <a title="Software Licensing Models – Beta and Development" href="/blog/2013/06/software-licensing-models-beta-and-development/" target="_blank" rel="nofollow">second</a> articles) we will be looking at Floating (concurrent) network licenses, Floating (concurrent) host list licenses and Group Licenses. These are best applied in medium to large businesses; however they may also hold some benefits for smaller businesses. This is particularly true where we are dealing with a piece of software that will be used by a large number of people.
+
+In this third article of our ongoing series about Software Licensing Types (see here for the [first](/blog/2013/06/13/software-licensing-models-types-sizes-and-uses/ "Software Licensing Models – Types, Sizes and Uses") and [second](/blog/2013/06/25/software-licensing-models-beta-and-development/ "Software Licensing Models – Beta and Development") articles) we will be looking at Floating (concurrent) network licenses, Floating (concurrent) host list licenses and Group Licenses. These are best applied in medium to large businesses; however they may also hold some benefits for smaller businesses. This is particularly true where we are dealing with a piece of software that will be used by a large number of people.
 
 It is important to note that whilst there are certainly some similarities between the license models which we will be looking at in this article and the &#8216;Site License&#8217; which was discussed in the first article in this series. There are also some key differences. Ultimately making a difference to the cost to the end user and can potentially have an effect on your profit as a vendor.
 
@@ -41,4 +42,4 @@ The actual use of a group license can require the licensee to grant specific usa
 
 As with all software licensing; there are many similarities between these three types of license. However, as we have seen there are also some fundamental differences. It is also worth remembering that not all types of software will allow for all these variations of license. For example, some software may only offer the license over host list meaning that your customers should be made aware of the limitations of this particular license type.
 
-We hope that you have continued to find this [series](http://www.labs64.com/?s=Software+Licensing+Models "Software Licensing Models") of articles both informative and interesting.
+We hope that you have continued to find this [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"} of articles both informative and interesting.

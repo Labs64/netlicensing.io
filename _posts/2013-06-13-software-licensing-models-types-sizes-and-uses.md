@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Software Licensing Models – Types, Sizes and Uses"
-description: ""
+description: "This article will look at End User License Agreements (or Single User Licensing), Pay-Per-Use, Sharing Licenses and Site License"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2013/06/software-licensing-models-types-sizes-and-uses/
 tags:
   - Licensing
   - Duplicate Grouping
@@ -22,7 +21,9 @@ tags:
   - Site License
   - Software
   - Software Licensing
+canonical: http://www.labs64.com/blog/2013/06/software-licensing-models-types-sizes-and-uses/
 ---
+
 If you’ve ever purchased a piece of software you’ll have been given a software license key by the manufacturer. This would either have come in the case or have been sent out in the software documentation. The Software License Key is the unique string of numbers and letters which identifies the software as legitimate and which enables you to use all of the features it has to offer.
 
 There are numerous types of software license model, and this article is not going to go into too much detail about each and every variable. Software licensing can easily become confusing and for the majority of the time there will only be a handful of which you will need to be aware. This article will look at _End User License Agreements_ (or Single User Licensing), _Pay-Per-Use_, _Sharing Licenses_ and _Site License_. These are the four most common forms of license which a small to medium size business will use.
@@ -61,22 +62,6 @@ The major advantage of a site license from your perspective as the vendor is tha
 
 &nbsp;
 
-This is only a brief over-view of software licensing. It has covered those which are most frequently used by businesses. There are many different types of license available and it is always worth researching your options. There <a title="Software Licensing Models – Beta and Development" href="/blog/2013/06/software-licensing-models-beta-and-development/" target="_blank" rel="nofollow">will be more</a> in-depth discussion of software licensing in the future, exploring models such as Beta, Package and Development licenses.
+This is only a brief over-view of software licensing. It has covered those which are most frequently used by businesses. There are many different types of license available and it is always worth researching your options. There [will be more](/blog/2013/06/25/software-licensing-models-beta-and-development/ "Software Licensing Models – Beta and Development") in-depth discussion of software licensing in the future, exploring models such as Beta, Package and Development licenses.
 
-Hopefully that was interesting and that it went some way to helping you understand the complex world of [Software Licensing Types](http://www.labs64.com/?s=Software+Licensing+Models "Software Licensing Models")!
-
-<div class="fusion-reading-box-container reading-box-container-24" style="margin-bottom:84px;">
-  <div class="reading-box" style="background-color:#f6f6f6;border-width:0px;border-color:#f6f6f6;border-left-width:3px;border-left-color:#E14817;border-style:solid;">
-    <a class="button fusion-button button-default button-round fusion-button-large button-large button-flat continue continue-right" style="-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;" href="http://netlicensing.io/licensing-models/" target="_self"><span>Discover</span></a>
-
-    <h2>
-      NetLicensing Licensing Models
-    </h2>
-
-    <div class="reading-box-description">
-      Labs64 NetLicensing is sophisticated enough to cover even the most outlandish licensing models: from single-user to network overflow licenses. Labs64 NetLicensing provides the software vendor with the ability to map/combine numerous licensing models.
-    </div>
-
-    <a class="button fusion-button button-default button-round fusion-button-large button-large button-flat mobile-button continue-right" style="-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;" href="http://netlicensing.io/licensing-models/" target="_self"><span>Discover</span></a>
-  </div>
-</div>
+Hopefully that was interesting and that it went some way to helping you understand the complex world of [Software Licensing Types](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"}!

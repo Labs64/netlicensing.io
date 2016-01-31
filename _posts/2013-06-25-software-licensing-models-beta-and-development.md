@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Software Licensing Models – Beta and Development"
-description: ""
+description: "In this article we’ll be looking at the two types of license which are aimed at those vendors who have an interest in being at the forefront of software development"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2013/06/software-licensing-models-beta-and-development/
 tags:
   - Beta
   - Development
@@ -18,8 +17,10 @@ tags:
   - Licensing Model
   - Software
   - Software Licensing
+canonical: http://www.labs64.com/blog/2013/06/software-licensing-models-beta-and-development/
 ---
-In this second article in our s[eries](http://www.labs64.com/?s=Software+Licensing+Models "Software Licensing Models") on software licensing models, we’ll be looking at two more types of software license: Beta and Development. If you haven’t already done so, then we’d suggest you read the <a title="Software Licensing Models – Types, Sizes and Uses" href="/blog/2013/06/software-licensing-models-types-sizes-and-uses/" target="_blank" rel="nofollow">first article</a> in the series as it has more detail about what software licenses are, how they are relevant to you and your business and it also covers the four ‘main’ types of software licenses which are available to you.
+
+In this second article in our [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"} on software licensing models, we’ll be looking at two more types of software license: Beta and Development. If you haven’t already done so, then we’d suggest you read the [first article](/blog/2013/06/13/software-licensing-models-types-sizes-and-uses/ "Software Licensing Models – Types, Sizes and Uses") in the series as it has more detail about what software licenses are, how they are relevant to you and your business and it also covers the four ‘main’ types of software licenses which are available to you.
 
 In this article we’ll be looking at the two types of license which are aimed at those vendors who have an interest in being at the forefront of software development and have the drive to be involved in the process of testing out new and cutting edge software. Both of these license types are essentially used to achieve the same goal; to help the software developer make their software as good as possible prior to release. There are however, some key differences: one is purely for testing whereas the other allows for development.
 
@@ -37,8 +38,6 @@ A development license is granted by software developers to a set group of licens
 
 The actual ownership of the software and the subsequent derivatives varies from company to company and if you are going to start performing some development work yourself, it is worthwhile ensuring that you will not be working for free – with all of the ownership being taken by the original developer. Development licenses are a great way to have a significant input on new software, as well as building exciting add-ons for it, all of which can lead to greater sales for both you and the software developer.
 
-&nbsp;
-
 Don’t be afraid to explore the world of software testing and development, as it has a lot to offer you as a vendor as well as your customers. It is an excellent way to build your business relationships and grow your business into new and exciting areas.
 
-In the <a title="Software Licensing Models – Floating and Group" href="/blog/2013/07/software-licensing-models-floating-and-group/" target="_blank" rel="nofollow">next few articles</a> we’ll be covering the numerous licensing options which are designed to suit business users – see you then!
+In the [next few articles](/blog/2013/07/04/software-licensing-models-floating-and-group/ "Software Licensing Models – Floating and Group") we’ll be covering the numerous licensing options which are designed to suit business users – see you then!

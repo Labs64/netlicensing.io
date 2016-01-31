@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Software Licensing Models – OEM, Time Limited and Upgrade Licenses"
-description: ""
+description: "OEM, Time Limited and Upgrade have a limited field of use and are only useful to a small selection of end-users"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2013/08/software-licensing-models-oem-time-limited-and-upgrade-licenses/
 tags:
   - License
   - Licensing
@@ -17,8 +16,10 @@ tags:
   - Software Licensing
   - Time-Limited
   - Upgrade
+canonical: http://www.labs64.com/blog/2013/08/software-licensing-models-oem-time-limited-and-upgrade-licenses/
 ---
-In this, our last article in our [series](http://www.labs64.com/?s=Software+Licensing+Models "Software Licensing Models") on Software Licensing types, we will be looking at three final licensing types: OEM, Time Limited and Upgrade. The reason that these have been left to our last post that that they do not easily ‘fit’ within a certain group of license types and their uses are arguably esoteric. They have a limited field of use and are only useful to a small selection of end-users.
+
+In this, our last article in our [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"} on Software Licensing types, we will be looking at three final licensing types: OEM, Time Limited and Upgrade. The reason that these have been left to our last post that that they do not easily ‘fit’ within a certain group of license types and their uses are arguably esoteric. They have a limited field of use and are only useful to a small selection of end-users.
 
 However, as we have said on numerous occasions throughout this series, there is no reason why you should not take the time to learn about different software licensing types because in your position as a vendor – an increased knowledge will only serve to benefit you and your business though an increased quality of service to your customers.
 

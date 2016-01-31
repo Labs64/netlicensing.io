@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Software Licensing Models – Feature and Exclusive Software Licenses"
-description: ""
+description: "The enable/disable product feature license grants you, the vendor and the developer, greater control over the distribution of a certain software package"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-canonical: http://www.labs64.com/blog/2013/07/software-licensing-models-feature-and-exclusive-software-licenses/
 tags:
   - Exclusive
   - Feature
@@ -16,8 +15,10 @@ tags:
   - Licensing Model
   - Software
   - Software Licensing
+canonical: http://www.labs64.com/blog/2013/07/software-licensing-models-feature-and-exclusive-software-licenses/
 ---
-Hello and welcome to this next article in our ongoing [series](http://www.labs64.com/?s=Software+Licensing+Models "Software Licensing Models") on Software Licensing Types. If you are new to this series it would be worthwhile reading the previous articles which you can find on our blog. The <a title="Software Licensing Models – Types, Sizes and Uses" href="/blog/2013/06/software-licensing-models-types-sizes-and-uses/" target="_blank" rel="nofollow">first post</a> has more detail about what it is that these articles are doing and you will also find our discussion in this article more useful if you have read those which come before it.
+
+Hello and welcome to this next article in our ongoing [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"} on Software Licensing Types. If you are new to this series it would be worthwhile reading the previous articles which you can find on our blog. The [first post](/blog/2013/06/13/software-licensing-models-types-sizes-and-uses/ "Software Licensing Models – Types, Sizes and Uses") has more detail about what it is that these articles are doing and you will also find our discussion in this article more useful if you have read those which come before it.
 
 In this article we will look at two more software license types: Enable/Disable Product Features and Exclusive Licenses. As ever we will be looking at how these license types work in deployment, how they can be useful to your customers and what you need to know to help your customers make the right decision and finally we will be looking at some examples of use for these license types. All with the aim of leaving you better equipped to make the right decisions about which Software License is for which customer.
 
