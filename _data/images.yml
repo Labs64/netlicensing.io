@@ -404,6 +404,16 @@
   publisher: Labs64
   creditlink: http://netlicensing.io
 
+- id: labs64-hiring
+  source: /img/labs64-hiring.png
+  title: "We're Hiring"
+  caption: "We're Hiring"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+
 - id: labs64-netlicensing-lifecycle
   source: /img/labs64-netlicensing-lifecycle.png
   title: "NetLicensing Lifecycle"

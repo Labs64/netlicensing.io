@@ -335,6 +335,33 @@ p.blog_img_credit {
     border: none;
 }
 
+.NL_hiring {
+    float: right;
+    margin-left: 170px;
+    margin-top: -45px;
+}
+
+.NL_hiring a {
+    border-bottom: none;
+}
+
+.NL_hiring a img {
+    width: 120px;
+    opacity: 0.8;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.NL_hiring a:hover img {
+    opacity: 1;
+}
+
 /*----------   NL Popup  -----------*/
 i.NL-see-popup {
     font-size: 24px;
@@ -1615,6 +1642,10 @@ a.NL_pricing_tooltip {
 
     .NL_by {
         float: left;
+    }
+
+    .NL_hiring {
+        display: none;
     }
 
     .post {
