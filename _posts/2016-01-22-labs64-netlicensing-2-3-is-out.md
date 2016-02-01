@@ -21,7 +21,7 @@ We also have a brand new home for NetLicensing, with **Amazon Web Services (AWS)
 
 With this change we also have a new base URL for the NetLicensing API: [https://go.netlicensing.io](https://go.netlicensing.io/app/v2/?lc=4b566c7e20&source=lmbox001) make sure you update!
 
-We also have a new licensing model - **Multi-Feature**. Designed to make NetLicensing easier to use and deploy in your environment. This model comes with the option for your customers to enable and disable features as and when they need them.
+We also have a new Lcensing Model - **Multi-Feature**. Designed to make NetLicensing easier to use and deploy in your environment. This model comes with the option for your customers to enable and disable features as and when they need them.
 
 > What is even better what will really want to make you Go NetLicensing is that all of this can be done without the need to modify the existing installation. Bringing a whole new meaning to the term ‘in place upgrade’.
 
