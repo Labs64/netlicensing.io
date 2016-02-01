@@ -15,10 +15,6 @@ tags:
 	</div>
 </div>
 
-<div class="row">
-    <p class="col-md-6 col-md-offset-3 NL_block">{% include google-search.html %}</p>
-</div>
-
 <section id="articles" class="js-packery" data-packery-options='{ "itemSelector": ".card", "gutter": 10 }'>
     {% for post in site.posts %}
     <div class="card radius shadowDepth1">
