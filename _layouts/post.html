@@ -31,17 +31,25 @@ layout: default
     </header>
     <article class="post-content">
         {% if page.image.url %}
-          {% unless page.image.hide %}
+          
             {% if page.image.width %}
               {% assign image_width = page.image.width %}
             {% else %}
               {% assign image_width = '30%' %}
             {% endif %}
             <img src="{{ page.image.url }}" alt="{{ page.title }}" class="blog-thumbnail" width="{{ image_width }}">
-          {% endunless %}
+         
         {% endif %}
         {{ content }}
     </article>
     {% include addthis.html %}
+    <div class="row">
+        <div class="col-md-4 col-md-offset-2 NL_previous_articles">
+            <a href="#"> Read previous article </br><span> Article Name </span> </a>
+        </div>
+        <div class="col-md-4 NL_next_articles">
+            <a href="#"> Read next article </br><span> Article Name </span> </a>
+        </div>
+    </div>
     {% include disqus.html %}
 </div>
