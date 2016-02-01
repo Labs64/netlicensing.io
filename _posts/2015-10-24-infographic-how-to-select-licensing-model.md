@@ -21,7 +21,7 @@ There are several options to choose when it refers to licensing, it’s very imp
 
 This infographic will lead you to make the right decision.
 
-<div id="0" class="wp-caption credit-tracker-caption aligncenter blog-center" itemscope itemtype="http://schema.org/ImageObject" >
+<div id="0" class="wp-caption credit-tracker-caption aligncenter" itemscope itemtype="http://schema.org/ImageObject" style="width: 650px">
   <a href="/resources/how-to-select-licensing-model-infographic-netlicensing.png" target="_blank"><img itemprop="contentUrl" class="" src="/resources/how-to-select-licensing-model-infographic-netlicensing-preview.png" alt="Infographic: How to select a suitable Licensing Model for your product" width="650" height="1783" /></a>
   <meta itemprop="name" content="how-to-select-licensing-model-infographic-netlicensing" />
   <meta itemprop="caption" content="Infographic: How to select a suitable Licensing Model for your product" />
