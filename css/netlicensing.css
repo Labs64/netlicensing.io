@@ -74,12 +74,13 @@ p.blog_img_credit {
 }
 
 .post h1 {
-    padding-top: 20px;
     color: #853E29;
 }
 
 .post {
-    padding: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .post-meta {
@@ -91,12 +92,10 @@ p.blog_img_credit {
 }
 
 .post-meta ul {
-    display: block;
-    width: 100%;
     list-style: none;
     margin-left: 0px !important;
     margin: 0;
-    padding: 0 0 15px 0;
+    padding: 0;
     white-space: nowrap;
 }
 
@@ -104,16 +103,20 @@ p.blog_img_credit {
     display: table-cell;
 }
 
+.post ul {
+    margin-left: 40px;
+}
+
 .post img.blog-thumbnail {
     clear: left;
     display: block;
     float: left;
     border: 0;
-    margin: 5px 5% 30px 0;
+    margin-right: 15px;
+    margin-top: 5px;
 }
 
 .post img.blog-center {
-    width: 100%;
     clear: both;
     display: block;
     margin-left: auto;
@@ -122,69 +125,10 @@ p.blog_img_credit {
 }
 
 .post img.blog-left {
-    width: 100%;
 }
 
 .post img.blog-right {
-    width: 100%;
 }
-
-.post-content > p, 
-.post-content > h3, 
-.post-content > ul,
-.post-content > blockquote {
-    display: block;
-    width: 65%;
-    float: right;
-    list-style-type: square;
-}
-
-.post-content ul li {
-    margin-left: 30px;
-}
-
-.post-content p {
-    text-align: justify;
-}
-
-.post-content p em {
-    font-size: 14px;
-    color: #3f4549;
-}
-
-.post-content > div {
-    width: 65%;
-    float: right;
-} 
-
-.post-content > div a img {
-    margin: 20px 0;
-}
-
-.post-content > img {
-    width: 30%;
-}
-
-blockquote {
-    border-left: none;
-}
-
-.NL_previous_articles, .NL_next_articles {
-    margin-top: 60px;
-    margin-bottom: 70px;
-    text-align: center;
-}
-
-.NL_previous_articles a, .NL_next_articles a {
-    display: block;
-    padding: 20px;
-    border: 1px solid #853E29;
-}
-
-.NL_previous_articles a:hover, .NL_next_articles a:hover {
-    border-color: #E14817;
-}
-
 
 /*----------  Material Cards  -----------*/
 
@@ -1648,25 +1592,6 @@ a.NL_pricing_tooltip {
 
     .NL_price_enterprise {
         margin-top: 50px;
-    }
-
-    .post-content > img {
-        width: 100%;
-    }
-    .post-content p,
-    .post-content h3,
-    .post-content ul,
-    .post-content > div,
-    .post-content > img   {
-        width: 100%;
-    }
-
-    .NL_next_articles {
-        margin-top: 20px;
-    }
-
-    .NL_previous_articles {
-        margin-bottom: 10px;
     }
 }
 
