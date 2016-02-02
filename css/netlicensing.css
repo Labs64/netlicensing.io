@@ -74,13 +74,12 @@ p.blog_img_credit {
 }
 
 .post h1 {
+    padding-top: 20px;
     color: #853E29;
 }
 
 .post {
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 50px;
 }
 
 .post-meta {
@@ -92,10 +91,12 @@ p.blog_img_credit {
 }
 
 .post-meta ul {
+    display: block;
+    width: 100%;
     list-style: none;
     margin-left: 0px !important;
     margin: 0;
-    padding: 0;
+    padding: 0 0 15px 0;
     white-space: nowrap;
 }
 
@@ -103,20 +104,16 @@ p.blog_img_credit {
     display: table-cell;
 }
 
-.post ul {
-    margin-left: 40px;
-}
-
 .post img.blog-thumbnail {
     clear: left;
     display: block;
     float: left;
     border: 0;
-    margin-right: 15px;
-    margin-top: 5px;
+    margin: 5px 5% 30px 0;
 }
 
 .post img.blog-center {
+    width: 100%;
     clear: both;
     display: block;
     margin-left: auto;
@@ -125,9 +122,54 @@ p.blog_img_credit {
 }
 
 .post img.blog-left {
+    width: 100%;
 }
 
 .post img.blog-right {
+    width: 100%;
+}
+
+.post-content > p, 
+.post-content > h3, 
+.post-content > ul,
+.post-content > blockquote,
+.post-content > h2,
+.post-content > table {
+    display: block;
+    width: 65%;
+    float: right;
+    list-style-type: square;
+}
+
+.post-content ul li {
+    margin-left: 30px;
+}
+
+.post-content p {
+    text-align: justify;
+}
+
+.post-content p em {
+    font-size: 14px;
+    color: #3f4549;
+}
+
+.post-content > div {
+    width: 65%;
+    float: right;
+} 
+
+.post-content > div a img {
+    margin: 20px 0;
+}
+
+.post-content > img,
+.addthis_sharing_toolbox {
+    width: 30%;
+}
+
+blockquote {
+    border-left: none;
 }
 
 /*----------  Material Cards  -----------*/
@@ -349,12 +391,8 @@ p.blog_img_credit {
     width: 120px;
     opacity: 0.8;
     -webkit-transition-property: opacity;
-    -moz-transition-property: opacity;
-    -o-transition-property: opacity;
     transition-property: opacity;
     -webkit-transition-duration: 0.5s;
-    -moz-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
 
@@ -1592,6 +1630,18 @@ a.NL_pricing_tooltip {
 
     .NL_price_enterprise {
         margin-top: 50px;
+    }
+
+    .post-content p,
+    .post-content h3,
+    .post-content ul,
+    .post-content > div,
+    .post-content > img,
+    .addthis_sharing_toolbox,
+    .post-content > blockquote,
+    .post-content > h2,
+    .post-content > table {
+        width: 100%;
     }
 }
 
