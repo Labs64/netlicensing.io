@@ -43,7 +43,7 @@ What’s Next:
   * <a title="Try Labs64 NetLicensing Now!" href="https://go.netlicensing.io/app/v2/?lc=4b566c7e20&source=lmbox001" target="_blank">Try NetLicensing right away</a> using free demo account
   * Get Involved – your opinion and ideas are highly welcome!
 
-Our <a title="NetLicensing Feedback" href="https://netlicensing.uservoice.com" target="_blank" rel="nofollow">Feedback Tool</a>, <a title="Labs64 Journal" href="/blog/" target="_blank" rel="nofollow">Blog</a> or <a title="Labs64 Social - Facebook" href="https://www.facebook.com/NetLicensing" target="_blank" rel="nofollow">Facebook</a> are at your disposal.
+Our <a title="NetLicensing Feedback" href="https://netlicensing.uservoice.com" target="_blank" rel="nofollow">Feedback Tool</a>, <a title="Labs64 Journal" href="/blog/">Blog</a> or <a title="Labs64 Social - Facebook" href="https://www.facebook.com/NetLicensing" target="_blank" rel="nofollow">Facebook</a> are at your disposal.
 
 We hope you will enjoy this new release!
 

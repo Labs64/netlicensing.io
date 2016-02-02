@@ -33,8 +33,8 @@ The highlights of this release:
   * Transaction view has now improved filtering
   * Better PayPal discounts handling
   * Extended transaction parameters with ability to filter related licenses
-  * <a title="LmBoxClient-csharp" href="https://github.com/Labs64/NetLicensingClient-csharp" target="_blank" rel="nofollow">C# library</a> synchronized with the latest LmBoxAPI
-  * <a title="LmBoxClient-demo" href="https://github.com/Labs64/NetLicensingClient-csharp/tree/master/NetLicensingDemo" target="_blank" rel="nofollow">C# LmBoxClient-demo</a> covers all <a title="LmBoxAPI (RESTful)" href="https://www.labs64.de/confluence/x/pwCo" target="_blank">LmBoxAPI RESTful</a> functions
+  * <a title="LmBoxClient-csharp" href="https://github.com/Labs64/NetLicensingClient-csharp" target="_blank">C# library</a> synchronized with the latest LmBoxAPI
+  * <a title="LmBoxClient-demo" href="https://github.com/Labs64/NetLicensingClient-csharp/tree/master/NetLicensingDemo" target="_blank">C# LmBoxClient-demo</a> covers all <a title="LmBoxAPI (RESTful)" href="https://www.labs64.de/confluence/x/pwCo" target="_blank">LmBoxAPI RESTful</a> functions
   * Parent entities numbers can now be selected via combo-boxes
   * License templates edit dialogues are now licensing model specific
   * Licensing Model TimeEvaluation renamed to <a title="Licensing Models: Time Limited Evaluation" href="https://www.labs64.de/confluence/x/twCo" target="_blank">Time Limited Evaluation</a>
