@@ -31,14 +31,12 @@ layout: default
     </header>
     <article class="post-content">
         {% if page.image.url %}
-          {% unless page.image.hide %}
             {% if page.image.width %}
               {% assign image_width = page.image.width %}
             {% else %}
               {% assign image_width = '30%' %}
             {% endif %}
             <img src="{{ page.image.url }}" alt="{{ page.title }}" class="blog-thumbnail" width="{{ image_width }}">
-          {% endunless %}
         {% endif %}
         {{ content }}
     </article>
