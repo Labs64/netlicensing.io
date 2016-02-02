@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/labs64-netlicensing-2_3.gif
+  url: /img/netlicensing-stage-banner-new-year.gif
   width: 100%
 tags:
   - AWS
