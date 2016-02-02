@@ -172,38 +172,6 @@ blockquote {
     border-left: none;
 }
 
-/*----------  Blog Search  -----------*/
-input.gsc-input {
-    border-color: #BBBBBB !important;
-    padding: 5px 6px !important;
-}
-
-input.gsc-search-button {
-    height: 33px !important;
-    min-width: 75px !important;
-    font-weight: 300 !important;
-    -webkit-transition: background-color 0.5s ease;
-    transition: background-color 0.5s ease;
-}
-
-input.gsc-search-button:hover {
-    background-color: #E14817;
-    border-color: #E14817;
-}
-
-.gsc-selected-option-container {
-    min-width: 90px !important;
-}
-
-.gs-web-image-box {
-    margin-right: 25px !important;
-}
-
-.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
-    background-color: #FFFFFF !important;
-    border-color: #FFFFFF !important;
-}
-
 /*----------  Material Cards  -----------*/
 
 /**
