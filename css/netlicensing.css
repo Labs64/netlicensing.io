@@ -169,7 +169,7 @@ p.blog_img_credit {
 }
 
 blockquote {
-    border-left: none;
+    border-left: 3px solid #f08b53;
 }
 
 /*----------  Blog Search  -----------*/
