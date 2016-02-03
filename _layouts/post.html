@@ -29,7 +29,53 @@ layout: default
         </ul>
         </div>
     </header>
-    <article class="post-content">
+
+
+    <div class="row">
+        <div class="col-md-8 NL_post">
+            <article class="post-content">
+                {% if page.image.url %}
+                    {% unless page.image.hide %}
+                        {% if page.image.width %}
+                          {% assign image_width = page.image.width %}
+                        {% else %}
+                          {% assign image_width = '100%' %}
+                        {% endif %}
+                        <img src="{{ page.image.url }}" alt="{{ page.title }}" class="blog-thumbnail" width="{{ image_width }}">
+                    {% endunless %}
+                {% endif %}
+                {{ content }}
+            </article>
+
+            <div class="NL_share_icons">{% include addthis.html %}</div>
+            <div class="NL_disqus">{% include disqus.html %}</div>
+        </div>
+        <div class="col-md-3 col-md-offset-1 NL_other_posts">
+            <div class="NL_previous_post">
+              {% if page.previous.url %}
+                <h4>Read previous article: </h4>
+                <a class="prev" href="{{page.previous.url}}">
+                    <img src="{{ page.previous.image.url }}" alt="{{ page.previous.title }}" class="NL_post_img NL_img_hover" >
+                    <p><span>{{page.previous.title}}</span></p>
+                </a>
+              {% endif %}
+            </div>
+
+            <div class="NL_next_post">
+              {% if page.next.url %}
+                <h4>Read next article: </h4>
+                <a class="next" href="{{page.next.url}}">
+                    <img src="{{ page.next.image.url }}" alt="{{ page.next.title }}" class="NL_post_img NL_img_hover" >
+                    <p><span>{{page.next.title}}</span></p>
+                </a>
+              {% endif %}
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--<article class="post-content">
         {% if page.image.url %}
             {% if page.image.width %}
               {% assign image_width = page.image.width %}
@@ -40,6 +86,28 @@ layout: default
         {% endif %}
         {{ content }}
     </article>
+
     {% include addthis.html %}
-    {% include disqus.html %}
-</div>
+    <div class="NL_disqus">{% include disqus.html %}</div>
+
+    <div class="NL_page_navigation">
+        <h3>Read more:</h3>
+        <div class="NL_previous_post">
+          {% if page.previous.url %}
+            <a class="prev" href="{{page.previous.url}}">
+                <img src="{{ page.previous.image.url }}" alt="{{ page.previous.title }}" >
+                <p>{{page.previous.title}}</p>
+            </a>
+          {% endif %}
+        </div>
+        <div class="NL_next_post">
+          {% if page.next.url %}
+            <a class="next" href="{{page.next.url}}">
+                <img src="{{ page.next.image.url }}" alt="{{ page.next.title }}" >
+                <p>{{page.next.title}}</p>
+            </a>
+          {% endif %}
+        </div>
+    </div>
+    <div class="row"/>
+</div> -->

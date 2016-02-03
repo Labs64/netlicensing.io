@@ -112,7 +112,15 @@ p.blog_img_credit {
     margin: 5px 5% 30px 0;
 }
 
-.post img.blog-center {
+.NL_post {
+    padding: 0;
+}
+
+.NL_other_posts > h4 {
+    margin-top: 0;
+}
+
+.blog-center {
     width: auto;
     max-width: 100%;
     margin: 15px auto;
@@ -121,21 +129,8 @@ p.blog_img_credit {
     text-align: center;
 }
 
-.post img.blog-left {
-    width: auto;
-    max-width: 100%;
-}
-
-.post img.blog-right {
-    width: auto;
-    max-width: 100%;
-}
-
-.post-content > * {
-    display: block;
-    width: 65%;
-    float: right;
-    list-style-type: square;
+.NL_disqus {
+    margin-top: 40px;
 }
 
 .post-content > table,
@@ -162,22 +157,71 @@ p.blog_img_credit {
     color: #3f4549;
 }
 
-.post-content > div {
-    width: 65%;
-    float: right;
-} 
-
-.post-content > div a img {
-    margin: 20px 0;
-}
-
-.post-content > img,
-.addthis_sharing_toolbox {
-    width: 30%;
-}
-
 blockquote {
     border-left: 3px solid #f08b53;
+}
+
+.NL_share_icons {
+    padding: 30px 0 0 0;
+}
+
+.NL_previous_post,
+.NL_next_post {
+    display: block;
+    margin-bottom: 70px;
+}
+
+.NL_previous_post a,
+.NL_next_post a {
+    border-bottom: none;
+}
+
+.NL_previous_post a,
+.NL_next_post a {
+    cursor: pointer;
+}
+
+img.NL_post_img {
+    width: 100%;
+}
+
+img.NL_img_hover {
+    width: 100%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+.NL_previous_post a:hover img,
+.NL_next_post a:hover img {
+    -webkit-filter: grayscale(30%);
+}
+
+.NL_previous_post p,
+.NL_next_post p {
+    display: block;
+    text-align: center;
+    padding: 15px 10px;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+.NL_previous_post p span,
+.NL_next_post p span {
+    color: #853E29;
+    border-bottom: 1px dotted #853E29;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.NL_previous_post a:hover p span,
+.NL_next_post a:hover p span {
+    border-bottom-color: #fafafa;
 }
 
 /*----------  Blog Search  -----------*/
@@ -1672,9 +1716,9 @@ a.NL_pricing_tooltip {
         margin-top: 50px;
     }
 
-    .post-content > *,
-    .addthis_sharing_toolbox {
-        width: 100%;
+    .NL_previous_post,
+    .NL_next_post {
+        margin-bottom: 40px;
     }
 }
 
@@ -1749,6 +1793,10 @@ a.NL_pricing_tooltip {
         min-width: 100%;
         margin-right: 0;
         margin-bottom: 15px;
+    }
+
+    .NL_other_posts > h4 {
+        margin-top: 40px;
     }
 }
 
