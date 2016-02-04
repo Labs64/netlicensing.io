@@ -4,29 +4,30 @@ layout: default
 <div class="post">
     <header class="post-header">
         <h1 class="post-title">{{ page.title }}</h1>
-        <div class="post-meta">
-        <ul>
-            <li>
-                <time pubdate datetime="{{ page.date | date: '%Y-%m-%d' }}"
-                      title="{{ page.date | date: '%b %-d, %Y' }}">{{ page.date | date: "%b %-d, %Y" }}
-                </time>
-            </li>
-            <li>
-                <address class="author">&nbsp;by
-                    {% if page.author.name %}
-                        {% assign author_name = page.author.name %}
-                    {% else %}
-                        {% assign author_name = site.title %}
-                    {% endif %}
 
-                    {% if page.author.url %}
-                        <a href="{{ page.author.url }}" target="_blank">{{ author_name }}</a>
-                    {% else %}
-                        {{ author_name }}
-                    {% endif %}
-                </address>
-            </li>
-        </ul>
+        <div class="post-meta">
+            <ul>
+                <li>
+                    <time pubdate datetime="{{ page.date | date: '%Y-%m-%d' }}"
+                          title="{{ page.date | date: '%b %-d, %Y' }}">{{ page.date | date: "%b %-d, %Y" }}
+                    </time>
+                </li>
+                <li>
+                    <address class="author">&nbsp;by
+                        {% if page.author.name %}
+                          {% assign author_name = page.author.name %}
+                        {% else %}
+                          {% assign author_name = site.title %}
+                        {% endif %}
+
+                        {% if page.author.url %}
+                          <a href="{{ page.author.url }}" target="_blank">{{ author_name }}</a>
+                        {% else %}
+                          {{ author_name }}
+                        {% endif %}
+                    </address>
+                </li>
+            </ul>
         </div>
     </header>
 
@@ -35,15 +36,15 @@ layout: default
         <div class="col-md-8 NL_post">
             <article class="post-content">
                 {% if page.image.url %}
-                    {% unless page.image.hide %}
-                        {% if page.image.width %}
-                          {% assign image_width = page.image.width %}
-                        {% else %}
-                          {% assign image_width = '100%' %}
-                        {% endif %}
-                        <img src="{{ page.image.url }}" alt="{{ page.title }}" class="blog-thumbnail" width="{{ image_width }}">
-                    {% endunless %}
+                  {% unless page.image.hide %}
+                    {% if page.image.width %}
+                  {% assign image_width = page.image.width %}
+                    {% else %}
+                  {% assign image_width = '100%' %}
                 {% endif %}
+                <img src="{{ page.image.url }}" alt="{{ page.title }}" class="blog-thumbnail" width="{{ image_width }}">
+                {% endunless %}
+                  {% endif %}
                 {{ content }}
             </article>
 
@@ -51,63 +52,38 @@ layout: default
             <div class="NL_disqus">{% include disqus.html %}</div>
         </div>
         <div class="col-md-3 col-md-offset-1 NL_other_posts">
+            {% if page.previous.url %}
             <div class="NL_previous_post">
-              {% if page.previous.url %}
                 <h4>Read previous article: </h4>
                 <a class="prev" href="{{page.previous.url}}">
-                    <img src="{{ page.previous.image.url }}" alt="{{ page.previous.title }}" class="NL_post_img NL_img_hover" >
-                    <p><span>{{page.previous.title}}</span></p>
-                </a>
-              {% endif %}
-            </div>
+                    <img src="{{ page.previous.image.url }}" alt="{{ page.previous.title }}"
+                         class="NL_post_img" />
 
+                    <p>
+                        <time class="NL_post_time" pubdate datetime="{{ page.previous.date | date: '%Y-%m-%d' }}"
+                             title="{{ page.previous.date | date: '%b %-d, %Y' }}">{{ page.previous.date | date: "%b %-d, %Y" }}
+                        </time>
+                        <span>{{page.previous.title}}</span>
+                    </p>
+                </a>
+            </div>
+            {% endif %}
+
+            {% if page.next.url %}
             <div class="NL_next_post">
-              {% if page.next.url %}
                 <h4>Read next article: </h4>
                 <a class="next" href="{{page.next.url}}">
-                    <img src="{{ page.next.image.url }}" alt="{{ page.next.title }}" class="NL_post_img NL_img_hover" >
-                    <p><span>{{page.next.title}}</span></p>
+                    <img src="{{ page.next.image.url }}" alt="{{ page.next.title }}" class="NL_post_img NL_img_hover" />
+
+                    <p>
+                        <time class="NL_post_time" pubdate datetime="{{ page.next.date | date: '%Y-%m-%d' }}"
+                             title="{{ page.next.date | date: '%b %-d, %Y' }}">{{ page.next.date | date: "%b %-d, %Y" }}
+                        </time>
+                        <span>{{page.next.title}}</span>
+                    </p>
                 </a>
-              {% endif %}
             </div>
-        </div>
-    </div>
-
-
-
-    <!--<article class="post-content">
-        {% if page.image.url %}
-            {% if page.image.width %}
-              {% assign image_width = page.image.width %}
-            {% else %}
-              {% assign image_width = '30%' %}
             {% endif %}
-            <img src="{{ page.image.url }}" alt="{{ page.title }}" class="blog-thumbnail" width="{{ image_width }}">
-        {% endif %}
-        {{ content }}
-    </article>
-
-    {% include addthis.html %}
-    <div class="NL_disqus">{% include disqus.html %}</div>
-
-    <div class="NL_page_navigation">
-        <h3>Read more:</h3>
-        <div class="NL_previous_post">
-          {% if page.previous.url %}
-            <a class="prev" href="{{page.previous.url}}">
-                <img src="{{ page.previous.image.url }}" alt="{{ page.previous.title }}" >
-                <p>{{page.previous.title}}</p>
-            </a>
-          {% endif %}
-        </div>
-        <div class="NL_next_post">
-          {% if page.next.url %}
-            <a class="next" href="{{page.next.url}}">
-                <img src="{{ page.next.image.url }}" alt="{{ page.next.title }}" >
-                <p>{{page.next.title}}</p>
-            </a>
-          {% endif %}
         </div>
     </div>
-    <div class="row"/>
-</div> -->
+</div>

@@ -62,6 +62,18 @@ a:active, a:hover {
     text-decoration: none;
 }
 
+/*----------   Transitions -----------*/
+.NL_previous_post p span,
+.NL_next_post p span,
+img.NL_post_img {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer !important;
+}
+
 /*----------   Blog -----------*/
 section#articles {
     margin: 50px auto;
@@ -165,6 +177,11 @@ blockquote {
     padding: 30px 0 0 0;
 }
 
+.NL_post_time {
+    display: block;
+    font-size: 14px;
+}
+
 .NL_previous_post,
 .NL_next_post {
     display: block;
@@ -176,34 +193,20 @@ blockquote {
     border-bottom: none;
 }
 
-.NL_previous_post a,
-.NL_next_post a {
-    cursor: pointer;
-}
-
 img.NL_post_img {
     width: 100%;
+    border: 2px solid #fafafa;
 }
 
-img.NL_img_hover {
-    width: 100%;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-
-}
-.NL_previous_post a:hover img,
-.NL_next_post a:hover img {
-    -webkit-filter: grayscale(30%);
+a:hover img.NL_post_img {
+    opacity: 0.8;
 }
 
 .NL_previous_post p,
 .NL_next_post p {
     display: block;
-    text-align: center;
-    padding: 15px 10px;
+    text-align: left;
+    padding: 15px 15px;
     margin: 0;
     background-color: #fafafa;
 }
@@ -212,16 +215,13 @@ img.NL_img_hover {
 .NL_next_post p span {
     color: #853E29;
     border-bottom: 1px dotted #853E29;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
 }
 
 .NL_previous_post a:hover p span,
 .NL_next_post a:hover p span {
     border-bottom-color: #fafafa;
+    color: #E14817;
+    cursor: pointer;
 }
 
 /*----------  Blog Search  -----------*/
