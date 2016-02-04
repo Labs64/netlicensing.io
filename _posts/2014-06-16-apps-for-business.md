@@ -11,7 +11,6 @@ tags:
   - Apps
   - Business
   - Trends
-canonical: http://www.labs64.com/blog/2014/06/apps-for-business/
 ---
 
 In this next article in our ongoing [series](/blog/2014/06/01/apps-in-education/) on the future for application developers, we now turn to applications which are commissioned and made for business. The stereotypical image of a businessman with both his suitcase and email-enabled phone hastiled checking, reading and replying whilst on the go.

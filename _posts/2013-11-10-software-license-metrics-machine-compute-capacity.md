@@ -14,7 +14,6 @@ tags:
   - Licensing Metrics
   - Machine
   - Performance
-canonical: http://www.labs64.com/blog/2013/11/software-license-metrics-machine-compute-capacity/
 ---
 
 Welcome to this final article on [software licensing metrics](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Metrics "Software Licensing Metrics"){:target="_blank"}, we hope that you have found it both interesting and informative. In this last article we will be looking at Machine Compute Capacity as a license metric.

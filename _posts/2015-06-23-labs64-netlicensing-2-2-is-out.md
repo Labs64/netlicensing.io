@@ -15,7 +15,6 @@ tags:
   - NetLicensing
   - Release
   - Reseller
-canonical: http://www.labs64.com/blog/2015/06/labs64-netlicensing-2-2-is-out/
 ---
 
 Today we’re excited to finally announce the availability of the Labs64 NetLicensing <a title="Release Notes - NetLicensing 2.2.0-FINAL" href="https://www.labs64.de/confluence/x/F4LW" target="_blank">version 2.2</a>.

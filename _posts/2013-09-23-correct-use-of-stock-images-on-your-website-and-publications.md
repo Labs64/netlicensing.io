@@ -29,7 +29,6 @@ tags:
   - stock
   - Stock Images
   - Wordpress
-canonical: http://www.labs64.com/blog/2013/09/correct-use-of-stock-images-on-your-website-and-publications/
 ---
 
 The effective use of images and photography on your website and blog can have a massive impact upon the message which you convey to your customers. A phrase which is well known and perhaps now a little too often used – _a picture speaks a thousand words_ – is actually truer now than ever before. The advent of ever smaller technology and a greater degree of reading ‘on the go’ it has become absolutely paramount to make you website content as eye-catching as possible. If you have strong title and header image people are more likely to bookmark any blog posts of yours which they are linked to by friends and colleagues, than those which are pure text.

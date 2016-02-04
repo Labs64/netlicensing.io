@@ -22,7 +22,6 @@ tags:
   - SaaS
   - Service
   - vendor
-canonical: http://www.labs64.com/blog/2013/01/operating-as-a-service-different-choices-from-saas-to-laas/
 ---
 
 The cloud has become an integral part of our daily lives. For business cases, we typically refer to the connection and all of our data interactions as taking place in the cloud. This has led to a rise of many new terms starting with the ever-present Software as a Service (SaaS).

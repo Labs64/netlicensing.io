@@ -12,7 +12,6 @@ tags:
   - IoT
   - License
   - subscription
-canonical: http://www.labs64.com/blog/2015/08/internet-of-things-part-iii/
 ---
 In our last [article](/blog/2015/08/07/internet-of-things-part-ii/) we briefly looked at the question of how the _&#8216;Internet of Things&#8217;_ could be set to drastically change the world of licensing. Until now most of us have been familiar with the process of licensing software; and how that model is changing. Significantly, in the past 2 years there has been a noticeable shift away from &#8216;one-off&#8217; license payments to a &#8216;subscription&#8217; model. This has made it more affordable for many customers, as it has also seen a shift in the way that the software is distributed. Rather than having annual releases with a two-tiered price model (Upgrade or Buy) with a large amount of software you now pay a fixed monthly fee and receive all updates for as long as you continue to pay the fee.
 

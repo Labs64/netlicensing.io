@@ -14,7 +14,6 @@ tags:
   - JavaScript
   - UI
   - XSS
-canonical: http://www.labs64.com/blog/2014/01/application-security-the-essentials-cross-site-scripting-xss/
 ---
 
 Cross Site Scripting, or XSS as it is also known, is when the data which is taken by an application and sent to a web browser is done so without proper validation and authentication being carried out first. It leaves the user open to attacking scripts from hackers and hijackers; the effect of this being that they can potentially hijack the user’s session and obtain a vast amount of data.

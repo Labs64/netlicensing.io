@@ -12,7 +12,6 @@ tags:
   - Howto
   - Agile
   - Book
-canonical: http://www.labs64.com/blog/2011/05/the-agile-principles/
 ---
 
 1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.

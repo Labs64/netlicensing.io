@@ -16,7 +16,6 @@ tags:
   - Script
   - Shortcut
   - Windows
-canonical: http://www.labs64.com/blog/2012/06/set-environment-variables-in-windows-shortcut/
 ---
 
 I faced this problem when installed Inkscape (GNU GPL licensed SVG editor) with multiple language packs. Once I started the Inkscape for the first time, I got the UI in German language. Not nice, I wanted it in English. So, I started to look where can I switch the language, and surprisingly I didn&#8217;t find this option. Also there appeared to be no command-line switch for it. Brief search through the Web revealed, that the Inkscape shows its UI in default system locale (which is German in my case), unless locale is overridden by the LANG environment variable. Tested from the command line &#8211; worked like a charm. So far so good, but I don&#8217;t like to start Inkscape from the command line each time.

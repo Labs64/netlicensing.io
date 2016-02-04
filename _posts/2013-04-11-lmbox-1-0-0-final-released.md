@@ -19,7 +19,6 @@ tags:
   - Release
   - subscription
   - Time-Volume
-canonical: http://www.labs64.com/blog/2013/04/lmbox-1-0-0-final-released/
 ---
 
 The <a title="LmBox - Innovative License Management Solution" href="http://netlicensing.io">LmBox</a> team is pleased to announce the availability of LmBox version <a title="Release Notes - LmBox 1.0.0-Final" href="https://www.labs64.de/confluence/x/xQCo" target="_blank">1.0.0-Final</a>.

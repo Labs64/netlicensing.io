@@ -15,7 +15,6 @@ tags:
   - Licensing Model
   - Software
   - Software Licensing
-canonical: http://www.labs64.com/blog/2013/07/software-licensing-models-floating-and-group/
 ---
 
 In this third article of our ongoing series about Software Licensing Types (see here for the [first](/blog/2013/06/13/software-licensing-models-types-sizes-and-uses/ "Software Licensing Models – Types, Sizes and Uses") and [second](/blog/2013/06/25/software-licensing-models-beta-and-development/ "Software Licensing Models – Beta and Development") articles) we will be looking at Floating (concurrent) network licenses, Floating (concurrent) host list licenses and Group Licenses. These are best applied in medium to large businesses; however they may also hold some benefits for smaller businesses. This is particularly true where we are dealing with a piece of software that will be used by a large number of people.

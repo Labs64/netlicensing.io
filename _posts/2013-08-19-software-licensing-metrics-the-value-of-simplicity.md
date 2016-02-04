@@ -14,7 +14,6 @@ tags:
   - Licensing Metrics
   - PaaS
   - SaaS
-canonical: http://www.labs64.com/blog/2013/08/software-licensing-metrics-the-value-of-simplicity/
 ---
 
 At the heart of an effective software metric system is its inherent simplicity and the ease of explanation granted to the vendor. The key to selling a product well is the first impression it makes on the customer. Although every salesperson will always say when they are talking to a potential customer they want to keep as far away from discussion of the price as possible; it is often the deciding factor in the decision by a business or individual about whether or not to purchase a piece of software or a service.

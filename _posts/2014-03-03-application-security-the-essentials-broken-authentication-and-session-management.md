@@ -13,7 +13,6 @@ tags:
   - Password
   - Session
   - Strength Indicator
-canonical: http://www.labs64.com/blog/2014/03/application-security-the-essentials-broken-authentication-and-session-management/
 ---
 
 Modern applications frequently handle sensitive data and as such it is common practice for developers to implement varying layers of authentication to access the application. This also means that as a developer you can gather more detailed information about your users i.e. through their email address, which can be used as a marketing tool.

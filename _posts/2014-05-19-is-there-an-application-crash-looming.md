@@ -12,7 +12,6 @@ tags:
   - Smartphone
   - Tablet
   - Trends
-canonical: http://www.labs64.com/blog/2014/05/is-there-an-application-crash-looming/
 ---
 
 ### How to keep producing relevant software:

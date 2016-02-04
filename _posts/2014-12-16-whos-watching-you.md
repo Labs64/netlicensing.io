@@ -13,7 +13,6 @@ tags:
   - Personal cloud
   - Privacy
   - Security
-canonical: http://www.labs64.com/blog/2014/12/whos-watching-you/
 ---
 
 It is undeniable that one of the largest technology stories of 2013 was not a new range of televisions, or a revolutionary smartphone. Although these were both technologies that emerged in this year, the story which saw a UK newspaper destroy computer hard disk drives in the presence of members of the Security Forces and a well-documented man-hunt across half of the world was the revelations released by a former employee of the American National Security Agency that millions of people had had their personal emails and mobile phone records accessed by agencies in both America and Europe.

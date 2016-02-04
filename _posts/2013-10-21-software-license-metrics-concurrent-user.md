@@ -12,7 +12,6 @@ tags:
   - Concurrent
   - Licensing Metrics
   - User
-canonical: http://www.labs64.com/blog/2013/10/software-license-metrics-concurrent-user/
 ---
 
 In our last article on [software licensing metrics](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Metrics "Software Licensing Metrics"){:target="_blank"} we discussed ‘Named User’ as a unit of measurement. In this article we will be looking at ‘Concurrent Users’ which is easily confused with Named User as they both rely on measuring the usage level according to the number of users. The crucial difference, which we will elaborate on more in a moment, is that where the Named User uses either the number of logins, Users with access or the actual CPU usage by each user – Concurrent users relies on the number of _simultaneous_ uses. A seemingly minor, but still important distinction.

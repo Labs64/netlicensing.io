@@ -12,7 +12,6 @@ tags:
   - Licensing Metrics
   - Named User
   - Role
-canonical: http://www.labs64.com/blog/2013/09/software-licensing-metrics-named-user-role/
 ---
 
 Hello and welcome to this next article in our ongoing [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Metrics "Software Licensing Metrics"){:target="_blank"} on Software Licensing Metrics. In this article we will be looking at what is considered by some companies to be the most cost-effective of all metrics &#8211; ‘Named User’. It is, in principle a very straightforward metric to understand. If your customers business operates using a Group Policy where each user is assigned a unique login then a Named User can be an easy to implement means of managing their license costs.

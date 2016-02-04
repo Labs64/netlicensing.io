@@ -12,7 +12,6 @@ tags:
   - DNS
   - Provider
   - Service
-canonical: http://www.labs64.com/blog/2012/05/dns-provider-comparison/
 ---
 
 In general, there are many providers where you can get DNS hosting services for free. This, however, is not always the best choice as you only get a basic service.

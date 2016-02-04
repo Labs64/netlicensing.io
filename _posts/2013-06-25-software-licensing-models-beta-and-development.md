@@ -17,7 +17,6 @@ tags:
   - Licensing Model
   - Software
   - Software Licensing
-canonical: http://www.labs64.com/blog/2013/06/software-licensing-models-beta-and-development/
 ---
 
 In this second article in our [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"} on software licensing models, we’ll be looking at two more types of software license: Beta and Development. If you haven’t already done so, then we’d suggest you read the [first article](/blog/2013/06/13/software-licensing-models-types-sizes-and-uses/ "Software Licensing Models – Types, Sizes and Uses") in the series as it has more detail about what software licenses are, how they are relevant to you and your business and it also covers the four ‘main’ types of software licenses which are available to you.

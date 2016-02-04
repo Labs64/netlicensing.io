@@ -15,7 +15,6 @@ tags:
   - Restore
   - Storage
   - Tape
-canonical: http://www.labs64.com/blog/2013/11/thinking-big-about-small-business-data-backups/
 ---
 
 One hazard of operating a small business is thinking that your data backup plans have to be small too. Data backups are essential to maintaining your business, especially as databases grow and press the limits of your hardware.

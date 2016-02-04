@@ -13,7 +13,6 @@ tags:
   - Machine
   - Physical
   - SMB
-canonical: http://www.labs64.com/blog/2013/10/software-license-metrics-physical-machine/
 ---
 
 In this series of articles on [software licensing metrics](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Metrics "Software Licensing Metrics"){:target="_blank"} we have so far covered a range of different metric types which measure the process or task carried out by the software in a variety of ways. In these two final articles in the series, we will be looking at Physical Machine and Machine Compute Capacity as metrics.

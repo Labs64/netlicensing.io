@@ -16,7 +16,6 @@ tags:
   - Software
   - Software Licensing
   - Usage Based
-canonical: http://www.labs64.com/blog/2013/07/software-licensing-models-usage-and-performance/
 ---
 
 It is likely that when they are investigating a new piece of software in which they are considering investing, your customers will want to be sure that they get the absolute best value for their money. In your position as a vendor, it is worthwhile building strong relationships with your customers by always helping them to get the best deal possible. This will save them money in the short term and help build stronger relationships in the long term.

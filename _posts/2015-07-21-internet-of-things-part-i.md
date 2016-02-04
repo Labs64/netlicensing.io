@@ -14,7 +14,6 @@ tags:
   - IoT
   - Licensing
   - SaaS
-canonical: http://www.labs64.com/blog/2015/07/internet-of-things-part-i/
 ---
 
 It’s a little over thirty years since the first internet domain name was registered, and although a lot has happened to the internet since then. It is still a fairly young technology. It is in this short time that the internet has become a central part of our lives.

@@ -13,7 +13,6 @@ tags:
   - Encryption
   - PayPal
   - Security
-canonical: http://www.labs64.com/blog/2014/03/application-security-the-essentials-insecure-cryptographic-storage/
 ---
 
 In the past few years there has been an exponential increase in the volume of sensitive and confidential data which is being stored by applications and other software. The reason for this change has been a particular drive towards a need for immediacy and ease of use amongst consumers. In short; people now want to do things even faster and with less effort that before. This means that they are entrusting a larger amount of personal data to automated processes within software and applications.

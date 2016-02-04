@@ -11,7 +11,6 @@ tags:
   - Licensing
   - Licensing Metrics
   - Licensing Model
-canonical: http://www.labs64.com/blog/2013/08/software-licensing-metrics-what-are-they/
 ---
 
 As a company who distributes software to both domestic and business customers, it is important to ensure that you are charging the right amount for the products which you are distributing. In order to give your customers the best value possible, you need to make sure that your price is competitive and that it reflects the usage of the software.

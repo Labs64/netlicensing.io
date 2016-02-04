@@ -16,7 +16,6 @@ tags:
   - QR
   - QRCode
   - VISA
-canonical: http://www.labs64.com/blog/2014/09/the-new-way-to-pay/
 ---
 
 The defining aspect of the success of Smartphones over the last five years has been the ability that they have given us to literally do anything we want in practically any place. The phrase ‘there is an app for everything’ has now become common parlance amongst both industry members and consumers alike. We carry in our pockets mini-computers with more power and potential than those which we used in offices just 10 years ago.

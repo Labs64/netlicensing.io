@@ -12,7 +12,6 @@ tags:
   - Licensing Metrics
   - Performance
   - VPN
-canonical: http://www.labs64.com/blog/2013/10/software-license-metrics-performance/
 ---
 
 In our most recent article on [software licensing metrics](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Metrics "Software Licensing Metrics"){:target="_blank"}, we looked at the Managed Capacity metric which enables you to distribute different types of software to a wide range of customers of different sizes and charge them accordingly. In this article we will be looking at the Performance metric, which is a little harder to define, but is still worth considering as it comes under the same banner as Managed Capacity metric  &#8211; namely a metric which does not measure the individual aspects of the software’s use but rather the overall service which it provides to the customer.

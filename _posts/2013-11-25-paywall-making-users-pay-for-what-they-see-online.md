@@ -17,7 +17,6 @@ tags:
   - Paywall
   - subscription
   - Wordpress
-canonical: http://www.labs64.com/blog/2013/11/paywall-making-users-pay-for-what-they-see-online/
 ---
 
 A question which has often presented itself to the producers of News and Media content for the internet is how to make their work pay in an environment where the expectation is that all content can be easily accessed and most of the time for free. Consumers are naturally drawn to the content which is readily available and free. If they can find a free alternative, then they will stop paying for a service. That is, unless the quality of the paid service is of a good enough value, and a high enough quality that the consumer will be prepared to pay.

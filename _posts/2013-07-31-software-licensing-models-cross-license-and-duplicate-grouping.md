@@ -16,7 +16,6 @@ tags:
   - Licensing Model
   - Software
   - Software Licensing
-canonical: http://www.labs64.com/blog/2013/07/software-licensing-models-cross-license-and-duplicate-grouping/
 ---
 
 This is now our seventh article, in our ongoing [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"} on different software licensing models, their benefits and uses. We are now nearing the end of this particular series and as a result, the final couple of articles will see us cover those license models which we haven’t found space for previously. Rather than focusing on a specific type of licensing model in each article we will be covering a variety of types which link back to those which have already been discussed.

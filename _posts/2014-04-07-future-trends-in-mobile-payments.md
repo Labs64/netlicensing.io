@@ -20,7 +20,6 @@ tags:
   - Smartphone
   - Wallet
   - Trends
-canonical: http://www.labs64.com/blog/2014/04/future-trends-in-mobile-payments/
 ---
 
 Mobile payment systems are taking root around the globe, reaching major retailers and coffee shops as well as the single-store small and mid-sized boutiques that dot the landscape.

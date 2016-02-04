@@ -12,7 +12,6 @@ tags:
   - Configuration
   - Policy
   - Security
-canonical: http://www.labs64.com/blog/2014/01/application-security-the-essentials-proper-security-configuration/
 ---
 
 Welcome to our second article on [application security](https://www.google.com/search?q=site%3Anetlicensing.io%20Application%20Security%20Essentials "Application Security Essentials"){:target="_blank"}, a guide to the essentials. In this series we are conducting an overview of the major security risks and concerns which present themselves to companies who are looking to move into the highly profitable area of application development.

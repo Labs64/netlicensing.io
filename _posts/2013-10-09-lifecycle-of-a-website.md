@@ -18,7 +18,6 @@ tags:
   - specification
   - Testing
   - website
-canonical: http://www.labs64.com/blog/2013/10/lifecycle-of-a-website/
 ---
 
 The lifecycle of a website consists of various phases. It starts from information gathering, design and development of the website and finally the maintenance phase makes it a constant attention seeking process.

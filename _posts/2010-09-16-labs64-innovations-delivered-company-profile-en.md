@@ -24,7 +24,6 @@ tags:
   - SCRUM
   - Software Development
   - Website Maintenance
-canonical: http://www.labs64.com/blog/2010/09/labs64-innovations-delivered-company-profile-en/
 ---
 
 ## THE COMPANY

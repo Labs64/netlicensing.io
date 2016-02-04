@@ -21,7 +21,6 @@ tags:
   - subscription
   - NetLicensing
   - News and Announcements
-canonical: http://www.labs64.com/blog/2014/04/labs64-netlicensing-2-0-is-out/
 ---
 
 During the past month we’ve been focusing on improving NetLicensing, and today Labs64 team is pleased to announce the availability of NetLicensing <a title="Release Notes - NetLicensing 2.0.0-FINAL" href="https://www.labs64.de/confluence/x/D4HH" target="_blank">version 2.0</a>.

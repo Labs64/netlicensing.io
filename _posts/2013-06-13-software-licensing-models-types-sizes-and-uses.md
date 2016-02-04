@@ -21,7 +21,6 @@ tags:
   - Site License
   - Software
   - Software Licensing
-canonical: http://www.labs64.com/blog/2013/06/software-licensing-models-types-sizes-and-uses/
 ---
 
 If you’ve ever purchased a piece of software you’ll have been given a software license key by the manufacturer. This would either have come in the case or have been sent out in the software documentation. The Software License Key is the unique string of numbers and letters which identifies the software as legitimate and which enables you to use all of the features it has to offer.

@@ -12,7 +12,6 @@ tags:
   - Howto
   - Agile
   - Book
-canonical: http://www.labs64.com/blog/2011/12/recommended-agile-books/
 ---
 
 Let us begin with some good Agile Book recommendations! Here is a short list of titles that I really found helpful…

@@ -13,7 +13,6 @@ tags:
   - Link
   - Security
   - URL
-canonical: http://www.labs64.com/blog/2014/06/application-security-the-essentials-failure-to-restrict-url-access/
 ---
 
 It is often the case that applications will contain URL references to its separate pages through the use of protected links and buttons. The content to which you link depends entirely upon the application and its function; however, you should consider every link to be a potential gateway for an attack. Within an application, there is likely to be references to pages which contain confidential or sensitive data and unless you have correctly configured the restrictions; anyone with network access could potentially access private pages.

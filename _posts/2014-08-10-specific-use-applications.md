@@ -13,7 +13,6 @@ tags:
   - Facebook
   - Messaging
   - Social
-canonical: http://www.labs64.com/blog/2014/08/specific-use-applications/
 ---
 
 It might seem strange to think that it is now ten years since the largest social network every created was first dreamt up in the dormitory of an American University. It’s uniquely recognisable symbol is everywhere and can be used to access almost everything. It is undeniable that social networking has completely changed the way in which we interact with people as well as how we approach our day to day communications with one another.

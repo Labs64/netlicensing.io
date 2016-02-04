@@ -19,7 +19,6 @@ tags:
   - PHP
   - Release
   - subscription
-canonical: http://www.labs64.com/blog/2014/11/labs64-netlicensing-2-1-is-out/
 ---
 
 Today we’re excited to finally announce the availability of the Labs64 NetLicensing <a title="Release Notes - NetLicensing 2.1.0-FINAL" href="https://www.labs64.de/confluence/x/24DW" target="_blank">version 2.1</a>.

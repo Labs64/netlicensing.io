@@ -23,7 +23,6 @@ tags:
   - Scanner
   - think
   - Trends
-canonical: http://www.labs64.com/blog/2014/03/qr-codes-are-everywhere/
 ---
 
 *Quick Response (QR) Codes* are [everywhere](http://www.labs64.com/codeman/ "codeMan") we go. They are on adverts, in newspapers, on the backs of books and appearing on television screens. They make use of a technology which has been in existence for some time, but that until now has been more common in supermarkets than out on the street.

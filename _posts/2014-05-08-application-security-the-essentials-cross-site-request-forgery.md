@@ -14,7 +14,6 @@ tags:
   - Request
   - URL
   - Security
-canonical: http://www.labs64.com/blog/2014/05/application-security-the-essentials-cross-site-request-forgery/
 ---
 
 We have already looked at how applications which use external references to a browser can be vulnerable to attacks (see [Unvalidated Redirects and Forwards](/blog/2014/01/15/application-security-the-essentials-unvalidated-redirects-and-forwards/ "Application Security: The Essentials – Unvalidated Redirects and Forwards")). With Cross Site Request Forgery you are dealing specifically with an application which sends HTTP requests to the user’s browser, as a part of its day to day functionality. External URL requests are, as we have previously discussed, a risk because they take the user outside of the boundaries of the application. This means that the level of control which you as a developer have is immediately impeded. However, there are still a number of steps you can take to prevent cross site request forgery.

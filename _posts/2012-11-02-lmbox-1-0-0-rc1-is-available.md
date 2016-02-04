@@ -18,7 +18,6 @@ tags:
   - Management
   - Release
   - shop
-canonical: http://www.labs64.com/blog/2012/11/lmbox-1-0-0-rc1-is-available/
 ---
 
 We pleased to announce the availability of the first <a title="Release Notes - LmBox 1.0.0-RC1" href="https://www.labs64.de/confluence/x/wQCo" target="_blank">release candidate</a> of our Innovative License Management Solution LmBox.

@@ -13,7 +13,6 @@ tags:
   - Licensing Model
   - Software
   - Software Licensing
-canonical: http://www.labs64.com/blog/2015/10/infographic-how-to-select-licensing-model/
 ---
 [Labs64 NetLicensing](/licensing-models/) allows you to monetize your products by licensing them to companies or individuals.
 

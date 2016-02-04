@@ -15,7 +15,6 @@ tags:
   - Licensing Model
   - Software
   - Software Licensing
-canonical: http://www.labs64.com/blog/2013/07/software-licensing-models-feature-and-exclusive-software-licenses/
 ---
 
 Hello and welcome to this next article in our ongoing [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"} on Software Licensing Types. If you are new to this series it would be worthwhile reading the previous articles which you can find on our blog. The [first post](/blog/2013/06/13/software-licensing-models-types-sizes-and-uses/ "Software Licensing Models – Types, Sizes and Uses") has more detail about what it is that these articles are doing and you will also find our discussion in this article more useful if you have read those which come before it.

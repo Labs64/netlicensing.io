@@ -13,7 +13,6 @@ tags:
   - IoT
   - License
   - subscription
-canonical: http://www.labs64.com/blog/2015/08/internet-of-things-part-ii/
 ---
 
 In our last [article](/blog/2015/07/21/internet-of-things-part-i/) we looked at how the internet has become an integral part of our lives, rather than simply being a resource where we find information and a tool that we use to communicate. It is now at the centre of our lives. We are reliant upon it to carry out everyday tasks and for our numerous devices to work properly.

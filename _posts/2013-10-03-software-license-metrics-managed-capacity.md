@@ -12,7 +12,6 @@ tags:
   - Capacity
   - Licensing Metrics
   - Managed Capacity
-canonical: http://www.labs64.com/blog/2013/10/software-license-metrics-managed-capacity/
 ---
 
 The common theme which has run through all of our previous articles on [software licensing metrics](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Metrics "Software Licensing Metrics"){:target="_blank"} is how to find the best metric for your product and customer base. Acknowledging that every use of the software will be different and hopefully providing you with some information which will help you to make the right decision. The three types of metric which we have covered so far have been reliant upon a pre-determined installation or permissive use of the software by a user. This article is about a metric which fits into a rather different category, it is a metric which does not measure individual uses or installations of the software but rather measures the size of the overall task which the software is used to perform.

@@ -15,7 +15,6 @@ tags:
   - Personal
   - Software
   - Software Licensing
-canonical: http://www.labs64.com/blog/2013/07/software-licensing-models-personal-node-locked/
 ---
 
 Hello and welcome to this next article in our ongoing [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"} on software licensing types. It would be worthwhile reading the first post in this series before any others – but after that it doesn&#8217;t really matter in which order you read them! This article does follow on from the types of licenses discussed in the previous one, namely licenses which are likely to be used by your business customers.

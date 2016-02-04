@@ -15,7 +15,6 @@ tags:
   - Device
   - Trend
   - Wi-Fi
-canonical: http://www.labs64.com/blog/2014/11/is-there-a-decline-in-personal-device-usage/
 ---
 
 The change in application use is reflective of a broader shift in the way that people interact with the technology around them. Even five years ago, people were not as ‘connected’ as they are now. Increasing broadband connection speeds, wider availability of free Wi-Fi, 3G and 4G mobile networks has meant that we are hardly ever away from the multitude of computers that we now carry with us, wherever we go.

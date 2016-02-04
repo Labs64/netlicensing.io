@@ -15,7 +15,6 @@ tags:
   - Technology
   - Trend
   - Wallet
-canonical: http://www.labs64.com/blog/2014/08/think-outside-the-box-and-your-wallet/
 ---
 
 You are an inventor, you have a great idea for a new piece of technology but you don’t have the resources to properly explore your ideas and bring them to fruition. You don’t have any great amount of disposable income and there is no one willing to back you. You don’t want to do a half hearted job as you’re worried that if you don’t get it right first time, then you will have lost your chance and your dreams will be over.

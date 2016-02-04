@@ -22,7 +22,6 @@ tags:
   - RESTful
   - Transaction
   - 'Try &amp; Buy'
-canonical: http://www.labs64.com/blog/2013/03/lmbox-1-0-0-rc4-is-available/
 ---
 
 The <a title="LmBox - Innovative License Management Solution" href="http://netlicensing.io">LmBox</a> team is pleased to announce the release of LmBox version <a title="Release Notes - LmBox 1.0.0-RC4" href="https://www.labs64.de/confluence/x/xACo" target="_blank">1.0.0-RC4</a>.

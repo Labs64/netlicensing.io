@@ -11,7 +11,6 @@ tags:
   - App
   - Education
   - Trends
-canonical: http://www.labs64.com/blog/2014/06/apps-in-education/
 ---
 
 In our recent [article](/blog/2014/05/19/is-there-an-application-crash-looming/), we looked at the question of whether or not an increasingly saturated application market is leading towards an application &#8216;crash&#8217;. There is a strong argument to be made that developing for niche markets is the way forward if companies and developers are to be successful.

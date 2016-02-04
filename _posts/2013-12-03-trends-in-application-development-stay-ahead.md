@@ -21,7 +21,6 @@ tags:
   - SaaS
   - UI
   - Virtual Reality
-canonical: http://www.labs64.com/blog/2013/12/trends-in-application-development-stay-ahead/
 ---
 
 If your company is to stay ahead in the highly competitive market of application development it is imperative that you stay on top of all of the latest trends, as the consumer will likely already be several steps ahead of you. You should also bear in mind that every single one of your competitors will be pouring as much, if not more, time and money researching the latest trends and seeking out new ways to be innovative.

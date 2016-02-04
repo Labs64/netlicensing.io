@@ -19,7 +19,6 @@ tags:
   - Quality
   - Service
   - Shared service
-canonical: http://www.labs64.com/blog/2013/11/the-ins-and-outs-of-outsourcing/
 ---
 
 If you run a medium to large sized business you will likely have considered outsourcing at some step along the way to building your successful company. Even if you have only recently started out as a small business with just a handful of employees you may well have built outsourcing into your five or ten year plan for the company’s infrastructure.

@@ -16,7 +16,6 @@ tags:
   - GitHub
   - HTML5
   - JavaScript
-canonical: http://www.labs64.com/blog/2014/07/working-with-canvas-the-new-technology-of-vector-animation/
 ---
 
 Use of HTML5 gives developers new horizons in animation implement for their websites. There is no need to use outdated Flash technology or to overload traffic with large images, you can simply familiarize with a few norms of creation of motion interpretation by canvas redraw.

@@ -12,7 +12,6 @@ tags:
   - Cloud
   - LaaS
   - NetLicensing
-canonical: http://www.labs64.com/blog/2015/06/licensing-in-the-cloud/
 ---
 
 A topic that we have covered on repeated occasions has been the perpetual increase in the number of devices which can access the internet. We have looked at this from a number of perspectives but one that has so far eluded us is the subject of licensing and license activation.

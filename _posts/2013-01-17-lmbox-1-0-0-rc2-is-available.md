@@ -20,7 +20,6 @@ tags:
   - PayPal
   - Release
   - vendor
-canonical: http://www.labs64.com/blog/2013/01/lmbox-1-0-0-rc2-is-available/
 ---
 
 The <a title="LmBox - Innovative License Management Solution" href="http://netlicensing.io">LmBox</a> team is pleased to announce the release of LmBox version <a title="Release Notes - LmBox 1.0.0-RC2" href="https://www.labs64.de/confluence/x/wgCo" target="_blank">1.0.0-RC2</a>.

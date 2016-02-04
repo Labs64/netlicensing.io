@@ -12,7 +12,6 @@ tags:
   - Forward
   - Redirect
   - URL
-canonical: http://www.labs64.com/blog/2014/01/application-security-the-essentials-unvalidated-redirects-and-forwards/
 ---
 
 In this third article on [application security](https://www.google.com/search?q=site%3Anetlicensing.io%20Application%20Security%20Essentials "Application Security Essentials"){:target="_blank"}, we will be looking at Unvalidated Redirects and Forwards, an uncommon flaw but one which can have a damaging effect on your company’s reputation as it targets your customers rather than you directly.

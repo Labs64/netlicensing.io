@@ -13,7 +13,6 @@ tags:
   - Device
   - Law
   - Policy
-canonical: http://www.labs64.com/blog/2013/09/the-consumerization-of-it-introducing-bring-your-own-device/
 ---
 
 The modern world is a minefield of potential lawsuits, with every turn we are faced with more and more pitfalls and traps presented by the ever increasing availability of technology. If you are a business owner you will be all too aware of the ongoing ‘Consumerisation of IT’: namely the increased use within the business environment of personal devices. Whether this be tablets, mobile phones or in an increasingly rare case – laptops.

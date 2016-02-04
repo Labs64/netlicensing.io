@@ -13,7 +13,6 @@ tags:
   - 3D
   - Cloud
   - Trend
-canonical: http://www.labs64.com/blog/2014/02/technology-in-2014-top-emerging-trends/
 ---
 
 At the start of every new year, there is always a great deal written about what industry experts and writers alike; expect to be the ‘top’ trends for that year. What will be the next big thing? Everyone tries to predict it, and few people often get it exactly right.

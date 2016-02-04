@@ -18,7 +18,6 @@ tags:
   - Safety
   - Security
   - Smartphone
-canonical: http://www.labs64.com/blog/2013/12/how-to-safely-implement-byod/
 ---
 
 The age of the Internet is coming to your employees’ pockets as the Bring Your Own Device (BYOD) trend continues to sweep across industries all over the world. Employees already use their smartphones to check email, send out company updates and schedule meetings. Allowing employees to conduct these and other company business on their smartphones, tablets, and laptops can be dangerous when left unchecked, but proper BYOD policies and software can keep your mobile operations safe.

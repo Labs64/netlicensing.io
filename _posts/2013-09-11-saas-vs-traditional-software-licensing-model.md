@@ -17,7 +17,6 @@ tags:
   - on-premise
   - SaaS
   - technical
-canonical: http://www.labs64.com/blog/2013/09/saas-vs-traditional-software-licensing-model/
 ---
 
 Software as a Service has been instrumental in harnessing benefits of productivity of man and organization in working environment by delivering a diverse range of remotely maintained applications over the Internet. Unlike Traditional Software Licensing Model, SaaS strives to resolve the inflexibility of software that arises during maintenance and evolution. Software as a Service model is user friendly and incurs comparatively lower cost.

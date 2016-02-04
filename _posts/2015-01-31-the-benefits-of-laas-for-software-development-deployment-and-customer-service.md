@@ -14,7 +14,6 @@ tags:
   - NetLicensing
   - Online
   - SaaS
-canonical: http://www.labs64.com/blog/2015/01/the-benefits-of-laas-for-software-development-deployment-and-customer-service/
 ---
 
 The movement of infrastructure, processing and networks to the cloud often involves the emulation of software and services that run these cloud-based platforms. Software running in the ether still requires a license, but managing the licensing for virtual machines can become a complex task, especially when a single server or machine may run multiple instances of your software.

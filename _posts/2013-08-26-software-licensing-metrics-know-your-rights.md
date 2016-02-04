@@ -11,7 +11,6 @@ tags:
   - Licensing
   - Licensing Metrics
   - SLA
-canonical: http://www.labs64.com/blog/2013/08/software-licensing-metrics-know-your-rights/
 ---
 
 Hello and welcome to our third article on [Software Licensing Metrics](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Metrics "Software Licensing Metrics"){:target="_blank"}. You’ll need to have read the first two articles in order if you’re going to get the most out of this one which will cover the importance of the definition of rights in an agreement over license metrics. We will look at the common problems which vendors encounter; the common disagreements which often occur, some possible methods which you can use to avoid those, management methods for when disagreements do happen and the best course of action which you can take to avoid losing business.
