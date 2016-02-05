@@ -6,8 +6,7 @@ author:
   name: Labs64
   url: http://www.labs64.com
 image:
-  url: /img/blog/blog-placeholder.jpg
-  hide: true
+  url: /img/blog/unsplash-gm18kqu9TxQ.png
 tags:
   - Howto
   - Agile
@@ -69,3 +68,5 @@ Let us begin with some good Agile Book recommendations! Here is a short list of 
 <a href="http://www.amazon.com/Practical-Guide-Successful-Software-Projects/dp/0974514047/ref=sr_1_7?ie=UTF8&s=books&qid=1204745878&sr=1-7" target="_blank" rel="nofollow">Ship IT</a> A book I have heard good reviews about, good practical advise!
 
 <a href="http://www.amazon.com/o/ASIN/0321268776/002-5811903-8328845?SubscriptionId=19BAZMZQFZJ6G2QYGCG2" target="_blank" rel="nofollow">Collaboration Explained</a> I&#8217;ve heard the author speak at conferences, she seems to have good experience and is articulate, let me know if you like it!
+
+{% include credit-tracker.html image='/img/blog/unsplash-gm18kqu9TxQ.png' %}
