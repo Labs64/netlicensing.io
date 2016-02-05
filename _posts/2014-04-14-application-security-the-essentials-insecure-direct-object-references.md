@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/the-essentials-insecure-direct-object-references.png
+  url: /img/blog/unsplash-7_cSSarxoAA.png
 tags:
   - Access
   - Authentication
@@ -14,7 +14,6 @@ tags:
   - Session
   - SQL
   - Security
-canonical: http://www.labs64.com/blog/2014/04/application-security-the-essentials-insecure-direct-object-references/
 ---
 
 In the articles which we have already published on the topic of [application security](https://www.google.com/search?q=site%3Anetlicensing.io%20Application%20Security%20Essentials "Application Security Essentials"){:target="_blank"}, there has been a recurring topic of proper authentication within the application. Applications are built in layers, with different degrees of access being granted to different users; depending upon whether their credentials have been correctly authenticated. Obviously the primary access to the application should be as secure as possible, with timeouts, secure password policies etc. This article will look at the need for secure references _within_ the application.
@@ -32,3 +31,5 @@ There are a number of ways to prevent insecure direct object references; as with
 Use per-session or per-user references; this limits the availability of potential flaws which could enable attackers to gain access to secure information.
 
 Try and limit the amount of information which is stored in any one place within the application. Although this can take longer to code and can mean that the user has to go through a couple of additional steps in order to complete tasks within the application, it acts as damage limitation should any unauthorized access occur.
+
+{% include credit-tracker.html image='/img/blog/unsplash-7_cSSarxoAA.png' %}

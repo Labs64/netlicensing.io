@@ -6,12 +6,11 @@ author:
   name: Labs64
   url: http://www.labs64.com
 image:
-  url: /img/blog/apps-for-business.png
+  url: /img/blog/unsplash-Hi9GSwWkCJk.png
 tags:
   - Apps
   - Business
   - Trends
-canonical: http://www.labs64.com/blog/2014/06/apps-for-business/
 ---
 
 In this next article in our ongoing [series](/blog/2014/06/01/apps-in-education/) on the future for application developers, we now turn to applications which are commissioned and made for business. The stereotypical image of a businessman with both his suitcase and email-enabled phone hastiled checking, reading and replying whilst on the go.
@@ -32,4 +31,4 @@ From the perspective a business owner, they want to be able to gain the advantag
 
 As we have already suggested, the amount of potential end-users for such an application will of course be far smaller than the applications which developers have grown used to, however the financial rewards will be proportionally greater. When working with a business, and particularly where the application has been developed for use by that business, there is potential for long-term regulated income through Technical Support agreements.
 
-{% include credit-tracker.html image='/img/blog/Fotolia_63176711_XS.jpg' %}
+{% include credit-tracker.html image='/img/blog/unsplash-Hi9GSwWkCJk.png' %}

@@ -6,13 +6,12 @@ author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/application-security-the-essentials-insufficient-transport-layer-protection.png
+  url: /img/blog/unsplash-YoadQb46v6k.png
 tags:
   - Certificate
   - Encryption
   - SSL
   - TLS
-canonical: http://www.labs64.com/blog/2014/07/application-security-the-essentials-insufficient-transport-layer-protection/
 ---
 
 In this, our final article in our [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Application%20Security%20Essentials "Application Security Essentials"){:target="_blank"} on the essentials of Application Security, we will be looking at Insufficient Transport Layer Protection. This occurs when an application has failed to properly encrypt network traffic, which means that confidentiality and overall integrity has been compromised. ITLP also covers the times when applications network level security is weakened; this can be because of flaws in algorithms, improper use of certificates and use of security certificates which have expired.
@@ -36,3 +35,5 @@ Secondly; keep every, and all certificates VALID. You would be surprised at how 
 Finally, require SSL/TLS for frontend as well as backend connections, this means that your own developmental connections are encrypted.
 
 As we have often found with application security, a keen eye and remaining vigilant can set on a strong path to a secure application.
+
+{% include credit-tracker.html image='/img/blog/unsplash-YoadQb46v6k.png' %}

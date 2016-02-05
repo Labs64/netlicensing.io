@@ -6,14 +6,13 @@ author:
   name: Labs64
   url: http://www.labs64.com
 image:
-  url: /img/blog/internet-of-things-part-2.png
+  url: /img/blog/unsplash-1uxV8fAfhVM.png
 tags:
   - Internet of Things
   - Internet Radio
   - IoT
   - License
   - subscription
-canonical: http://www.labs64.com/blog/2015/08/internet-of-things-part-ii/
 ---
 
 In our last [article](/blog/2015/07/21/internet-of-things-part-i/) we looked at how the internet has become an integral part of our lives, rather than simply being a resource where we find information and a tool that we use to communicate. It is now at the centre of our lives. We are reliant upon it to carry out everyday tasks and for our numerous devices to work properly.
@@ -30,4 +29,4 @@ An obvious example would be the option to have different tiers of usage; i.e. ba
 
 The device would be internet enabled, and it would be possible for the subscription to be directly linked to it &#8211; by serial number or another unique identifier. Whilst the subscription would not need to be managed from the device itself &#8211; rather through a web portal or similar method, the internet connectivity would be used to &#8216;control&#8217; the devices operation.
 
-{% include credit-tracker.html image='/img/blog/Fotolia_68929807_S.jpg' %}
+{% include credit-tracker.html image='/img/blog/unsplash-1uxV8fAfhVM.png' %}

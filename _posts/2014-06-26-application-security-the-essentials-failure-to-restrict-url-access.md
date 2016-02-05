@@ -6,14 +6,13 @@ author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/application-security-the-essentials-failure-to-restrict-url-access.png
+  url: /img/blog/unsplash-4aQY2CrXsa8.png
 tags:
   - Security
   - Access Rights
   - Link
   - Security
   - URL
-canonical: http://www.labs64.com/blog/2014/06/application-security-the-essentials-failure-to-restrict-url-access/
 ---
 
 It is often the case that applications will contain URL references to its separate pages through the use of protected links and buttons. The content to which you link depends entirely upon the application and its function; however, you should consider every link to be a potential gateway for an attack. Within an application, there is likely to be references to pages which contain confidential or sensitive data and unless you have correctly configured the restrictions; anyone with network access could potentially access private pages.
@@ -31,3 +30,5 @@ In order to prevent Unrestricted URL Access there are a number of steps which yo
 The access policy should be based upon the defined user role, so as to make it easier to configure any additional pages which are added so that only authorized users can have access to them; i.e. having a standard and admin user roles already configured means that you can then easily assigned the relative access rights to new pages as they are created – rather than having to set the access policies for each individual page.
 
 Access should be denied by default, if authentication fails for any user then they should not have any access. This can cause frustration but is an obvious step in the prevention of unauthorized access to your application.
+
+{% include credit-tracker.html image='/img/blog/unsplash-4aQY2CrXsa8.png' %}
