@@ -6,7 +6,7 @@ author:
   name: Labs64
   url: http://www.labs64.com
 image:
-  url: /img/blog/Fotolia_63176711_XS.jpg
+  url: /img/blog/apps-for-business.png
 tags:
   - Apps
   - Business

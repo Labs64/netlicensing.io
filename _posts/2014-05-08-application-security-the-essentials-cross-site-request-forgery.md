@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/blog-placeholder.jpg
+  url: /img/blog/application-security-the-essentials-cross-site-request-forgery.png
 tags:
   - Browser
   - CSRF

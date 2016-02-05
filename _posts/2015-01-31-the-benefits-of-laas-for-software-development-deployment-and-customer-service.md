@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/Fotolia_55239022_S.jpg
+  url: /img/blog/the-benefits-of-laas-for-software-development.png
 tags:
   - ISV
   - LaaS

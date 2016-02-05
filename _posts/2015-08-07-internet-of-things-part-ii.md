@@ -6,7 +6,7 @@ author:
   name: Labs64
   url: http://www.labs64.com
 image:
-  url: /img/blog/Fotolia_68929807_S.jpg
+  url: /img/blog/internet-of-things-part-2.png
 tags:
   - Internet of Things
   - Internet Radio
