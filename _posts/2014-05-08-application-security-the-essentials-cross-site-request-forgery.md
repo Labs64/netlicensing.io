@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/blog-placeholder.jpg
+  url: /img/blog/unsplash-ICW6QYOcdlg.png
 tags:
   - Browser
   - CSRF
@@ -29,3 +29,5 @@ As ever the most important question is; how do I prevent an attack by cross site
 The resultant impact upon you as a business owner is twofold; firstly you will not be able to determine the difference between genuine and fraudulent requests and such an attack can be damaging to your reputation.
 
 Although CSRF is widespread and effect’s many thousands of applications; it is easily detected and prevented. Detection of any cross site request forgery flaws is possible through careful checking of code by security expert as well as through penetration testing.
+
+{% include credit-tracker.html image='/img/blog/unsplash-ICW6QYOcdlg.png' %}

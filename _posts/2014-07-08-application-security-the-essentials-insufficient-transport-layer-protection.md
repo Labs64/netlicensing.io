@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/blog-placeholder.jpg
+  url: /img/blog/unsplash-YoadQb46v6k.png
 tags:
   - Certificate
   - Encryption
@@ -35,3 +35,5 @@ Secondly; keep every, and all certificates VALID. You would be surprised at how 
 Finally, require SSL/TLS for frontend as well as backend connections, this means that your own developmental connections are encrypted.
 
 As we have often found with application security, a keen eye and remaining vigilant can set on a strong path to a secure application.
+
+{% include credit-tracker.html image='/img/blog/unsplash-YoadQb46v6k.png' %}

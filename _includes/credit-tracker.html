@@ -13,6 +13,8 @@
     {% capture image_credit %}&copy; {{ image.author }} - Flickr.com{% endcapture %}
   {% elsif image.publisher == 'iStockphoto' %}
     {% capture image_credit %}&copy;iStockphoto.com/{{ image.author }}{% endcapture %}
+  {% elsif image.publisher == 'Unsplash' %}
+    {% capture image_credit %}&copy; {{ image.author }} - unsplash.com{% endcapture %}
   {% else %}
     {% capture image_credit %}{{ image.author }}{% endcapture %}
   {% endif %}

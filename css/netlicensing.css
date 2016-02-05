@@ -65,7 +65,7 @@ a:active, a:hover {
 /*----------   Transitions -----------*/
 .NL_previous_post p span,
 .NL_next_post p span,
-img.NL_post_img {
+img.NL_post_img, .card__image {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -124,33 +124,6 @@ p.blog_img_credit {
     margin: 5px 5% 30px 0;
 }
 
-.NL_post {
-    padding: 0;
-}
-
-.NL_other_posts > h4 {
-    margin-top: 0;
-}
-
-.blog-center {
-    width: auto;
-    max-width: 100%;
-    margin: 15px auto;
-    clear: both;
-    display: block;
-    text-align: center;
-}
-
-.blog-left {
-}
-
-.blog-right {
-}
-
-.NL_disqus {
-    margin-top: 40px;
-}
-
 .post-content > table,
 .post-content > pre,
 .post-content > ol {
@@ -175,8 +148,38 @@ p.blog_img_credit {
     color: #3f4549;
 }
 
+.blog-center, 
+.blog-left,
+.blog-right {
+    width: auto;
+    max-width: 100%;
+    margin: 15px auto;
+    clear: both;
+    display: block;
+}
+
+.blog-center {
+    margin: 15px auto;
+}
+
+.blog-left {
+    margin: 15px 0;
+}
+
+.blog-right {
+    margin: 15px 0 15px auto;
+}
+
 blockquote {
     border-left: 3px solid #f08b53;
+}
+
+.NL_post {
+    padding: 0;
+}
+
+.NL_disqus {
+    margin-top: 40px;
 }
 
 .NL_share_icons {
@@ -194,6 +197,11 @@ blockquote {
     margin-bottom: 70px;
 }
 
+.NL_previous_post > h4,
+.NL_next_post > h4 {
+    margin-top: 0;
+}
+
 .NL_previous_post a,
 .NL_next_post a {
     border-bottom: none;
@@ -204,7 +212,8 @@ img.NL_post_img {
     border: 2px solid #fafafa;
 }
 
-a:hover img.NL_post_img {
+a:hover img.NL_post_img,
+.card__image:hover {
     opacity: 0.8;
 }
 

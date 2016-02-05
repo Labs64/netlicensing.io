@@ -6,8 +6,7 @@ author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/blog-placeholder.jpg
-  hide: true
+  url: /img/blog/unsplash-1eWaod96d3k.png
 tags:
   - App
   - Facebook
@@ -31,3 +30,5 @@ Where then, does this leave developers? Clearly there is a fork in the road with
 If you are able to produce an apps which doesn’t necessarily offer something drastically new, but which makes an everyday task easier to carry out, then you may well be on to something.
 
 As ever, we’d like to know your opinion on all the topics we cover; are there any apps which you’re particularly excited about? Is this just a ‘flash in the pan’ and will there be something else that we are all talking about in 12 months time? Let us know!
+
+{% include credit-tracker.html image='/img/blog/unsplash-1eWaod96d3k.png' %}

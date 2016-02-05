@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/Fotolia_55239022_S.jpg
+  url: /img/blog/unsplash-nJdwUHmaY8A.png
 tags:
   - ISV
   - LaaS
@@ -36,4 +36,4 @@ Some of the other key benefits for a vendor to adopt a LaaS model include:
 
 The benefits are all a piece of the same goal: improving the flexibility of your software at minimal infrastructure investment. Whether you choose to charge by user, processor, or host, cloud management will allow you to take a hands-off approach as you monitor client usage and cost.
 
-{% include credit-tracker.html image='/img/blog/Fotolia_55239022_S.jpg' %}
+{% include credit-tracker.html image='/img/blog/unsplash-nJdwUHmaY8A.png' %}

@@ -6,7 +6,7 @@ author:
   name: Labs64
   url: http://www.labs64.com
 image:
-  url: /img/blog/Fotolia_68929807_S.jpg
+  url: /img/blog/unsplash-1uxV8fAfhVM.png
 tags:
   - Internet of Things
   - Internet Radio
@@ -29,4 +29,4 @@ An obvious example would be the option to have different tiers of usage; i.e. ba
 
 The device would be internet enabled, and it would be possible for the subscription to be directly linked to it &#8211; by serial number or another unique identifier. Whilst the subscription would not need to be managed from the device itself &#8211; rather through a web portal or similar method, the internet connectivity would be used to &#8216;control&#8217; the devices operation.
 
-{% include credit-tracker.html image='/img/blog/Fotolia_68929807_S.jpg' %}
+{% include credit-tracker.html image='/img/blog/unsplash-1uxV8fAfhVM.png' %}
