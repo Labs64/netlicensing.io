@@ -21,6 +21,10 @@ dns_prefetch:
 # Styling
 stage_banner_image: "../img/netlicensing-stage-banner-01.png"
 blog_placeholder_image: "/img/blog/blog-placeholder.jpg"
+blog_popular:
+ - /blog/2016/01/22/labs64-netlicensing-2-3-is-out/
+ - /blog/2015/10/24/infographic-how-to-select-licensing-model/
+ - /blog/2015/04/02/services-can-add-automatic-image-attribution-for-your-website/
 
 # Ads
 ads_hiring_text: We Are Hiring!
