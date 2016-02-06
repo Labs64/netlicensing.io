@@ -63,8 +63,7 @@ a:active, a:hover {
 }
 
 /*----------   Transitions -----------*/
-.NL_previous_post p span,
-.NL_next_post p span,
+.NL_related_post p span,
 img.NL_post_img, .card__image {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -148,7 +147,7 @@ p.blog_img_credit {
     color: #3f4549;
 }
 
-.blog-center, 
+.blog-center,
 .blog-left,
 .blog-right {
     width: auto;
@@ -191,19 +190,18 @@ blockquote {
     font-size: 14px;
 }
 
-.NL_previous_post,
-.NL_next_post {
+.NL_related_post {
     display: block;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
-.NL_previous_post > h4,
-.NL_next_post > h4 {
+.NL_related_post > div {
     margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
 }
 
-.NL_previous_post a,
-.NL_next_post a {
+.NL_related_post a {
     border-bottom: none;
 }
 
@@ -217,8 +215,7 @@ a:hover img.NL_post_img,
     opacity: 0.8;
 }
 
-.NL_previous_post p,
-.NL_next_post p {
+.NL_related_post p {
     display: block;
     text-align: left;
     padding: 15px 15px;
@@ -226,14 +223,12 @@ a:hover img.NL_post_img,
     background-color: #fafafa;
 }
 
-.NL_previous_post p span,
-.NL_next_post p span {
+.NL_related_post p span {
     color: #853E29;
     border-bottom: 1px dotted #853E29;
 }
 
-.NL_previous_post a:hover p span,
-.NL_next_post a:hover p span {
+.NL_related_post a:hover p span {
     border-bottom-color: #fafafa;
     color: #E14817;
     cursor: pointer;
@@ -457,7 +452,7 @@ input.gsc-search-button:hover {
 }
 
 .NL_main_banner {
-    background: url({{ site.stage_banner_image }});
+    background: url({{ site.stage_banner_image }} );
     background-size: cover;
 }
 
@@ -1731,8 +1726,7 @@ a.NL_pricing_tooltip {
         margin-top: 50px;
     }
 
-    .NL_previous_post,
-    .NL_next_post {
+    .NL_related_post {
         margin-bottom: 40px;
     }
 }
