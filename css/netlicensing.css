@@ -190,6 +190,10 @@ blockquote {
     font-size: 14px;
 }
 
+.NL_other_posts > h4 {
+    margin-top: 0px;
+}
+
 .NL_related_post {
     display: block;
     margin-bottom: 40px;

@@ -18,7 +18,7 @@ tags:
   - Mobile payment
   - PayPal
   - QR
-  - QRCode
+  - QR Code
   - Scan
   - Scanner
   - think

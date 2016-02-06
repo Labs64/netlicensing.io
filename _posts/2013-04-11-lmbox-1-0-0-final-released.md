@@ -9,7 +9,8 @@ image:
   url: /img/blog/LmBox-Motivation-View.png
   hide: true
 tags:
-  - News and Announcements
+  - News
+  - Announcements
   - ABO
   - auto-creation
   - Final

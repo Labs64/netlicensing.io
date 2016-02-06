@@ -6,8 +6,9 @@ image:
   url: /img/blog/netlicensing-bee.png
   hide: true
 tags:
-- Fairy tale
-- Story
+  - Fairy Tale
+  - Story
+  - Flyer
 author:
   name: TechExpress
   url: http://tech-x.press/2015/08/10/NetLicensing-saves-live/

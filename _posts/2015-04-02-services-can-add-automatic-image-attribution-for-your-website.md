@@ -10,12 +10,12 @@ image:
   hide: true
 tags:
   - Attribution
-  - copyright
+  - Copyright
   - Credit Tracker
   - License
-  - plugin
+  - Plugin
   - Publisher
-  - Wordpress
+  - WordPress
 ---
 
 Stock and custom photos and images can add a nice final touch to your website and blog when making a point. The prevalence of photo sharing services and new digital technologies has made photos more common across the Web, so your content needs to secure stunning images to keep up with the competition.

@@ -7,9 +7,10 @@ author:
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-  hide: true
 tags:
-  - demo
+  - News
+  - Announcements
+  - Demo
   - Floating
   - Java Client
   - NetLicensing

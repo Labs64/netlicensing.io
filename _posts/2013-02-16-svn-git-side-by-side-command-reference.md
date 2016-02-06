@@ -10,11 +10,10 @@ image:
   hide: true
 tags:
   - Programming
-  - command
-  - command-line
-  - DVCS
+  - CommandLine
   - Git
-  - reference
+  - GitHub
+  - Reference
   - Subversion
   - SVN
   - VCS

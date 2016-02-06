@@ -9,6 +9,8 @@ image:
   url: /img/blog/labs64-netlicensing-2_3.gif
   width: 100%
 tags:
+  - News
+  - Announcements
   - AWS
   - Multi-Feature
   - Shop

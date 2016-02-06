@@ -5,8 +5,11 @@ description: "Today, we are announcing a new availability model – NetLicensing
 image:
   url: /img/blog/unsplash-7P_2hzKryQE.png
 tags:
-- Free
-- Announcement
+  - News
+  - Announcement
+  - Pricing
+  - Plan
+  - Free
 author:
   name: TechExpress
   url: http://tech-x.press/2015/09/01/netlicensing-is-going-free/

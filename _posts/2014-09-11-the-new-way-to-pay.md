@@ -8,13 +8,13 @@ author:
 image:
   url: /img/blog/Fotolia_60998181_XS.jpg
 tags:
-  - Mobile payment
-  - Online payment
+  - Mobile Payment
+  - Online Payment
   - Payment
   - PayPal
   - PSP
   - QR
-  - QRCode
+  - QR Code
   - VISA
 ---
 

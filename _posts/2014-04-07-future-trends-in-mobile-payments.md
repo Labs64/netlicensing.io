@@ -15,7 +15,7 @@ tags:
   - Credit Card
   - eWallet
   - Mobile
-  - Mobile payment
+  - Mobile Payment
   - NFC
   - Smartphone
   - Wallet

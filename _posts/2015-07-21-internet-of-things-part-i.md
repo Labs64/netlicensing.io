@@ -9,7 +9,7 @@ image:
   url: /img/blog/Fotolia_68929807_S.jpg
 tags:
   - 4G
-  - innovation
+  - Innovation
   - Internet of Things
   - IoT
   - Licensing

@@ -8,9 +8,10 @@ author:
 image:
   url: /img/blog/Fotolia_55239022_S.jpg
 tags:
-  - activation
+  - Activation
   - Cloud
   - LaaS
+  - SaaS
   - NetLicensing
 ---
 

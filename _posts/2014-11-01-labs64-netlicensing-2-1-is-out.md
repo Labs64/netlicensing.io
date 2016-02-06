@@ -7,8 +7,9 @@ author:
   url: http://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
-  hide: true
 tags:
+  - News
+  - Announcements
   - ABO
   - API
   - APIKey
@@ -18,7 +19,7 @@ tags:
   - NetLicensing
   - PHP
   - Release
-  - subscription
+  - Subscription
 ---
 
 Today we’re excited to finally announce the availability of the Labs64 NetLicensing <a title="Release Notes - NetLicensing 2.1.0-FINAL" href="https://www.labs64.de/confluence/x/24DW" target="_blank">version 2.1</a>.

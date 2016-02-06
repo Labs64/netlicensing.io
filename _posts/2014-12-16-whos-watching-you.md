@@ -10,7 +10,7 @@ image:
 tags:
   - Cloud
   - NSA
-  - Personal cloud
+  - Personal Cloud
   - Privacy
   - Security
 ---

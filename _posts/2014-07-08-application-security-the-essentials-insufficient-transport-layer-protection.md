@@ -8,6 +8,7 @@ author:
 image:
   url: /img/blog/unsplash-YoadQb46v6k.png
 tags:
+  - Securiry
   - Certificate
   - Encryption
   - SSL
