@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/unsplash-l5Tzv1alcps.png
+  url: /img/blog/unsplash-URmkfvtK3Qw.png
 tags:
   - Free
   - Freemium
@@ -29,4 +29,4 @@ Additional features can then be purchased either for small one-off fees or for a
 
 In essence, freemium means that you can make your product available to everyone but with the ultimate goal of drawing in a group of customers who are willing to pay to access the premium product.
 
-{% include credit-tracker.html image='/img/blog/unsplash-l5Tzv1alcps.png' %}
+{% include credit-tracker.html image='/img/blog/unsplash-URmkfvtK3Qw.png' %}
