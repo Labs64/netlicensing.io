@@ -57,7 +57,8 @@ layout: default
             <!-- Related Posts (prev/next) -->
             {% if page.previous.url %}
             <div class="NL_related_post">
-                <a class="prev" href="{{page.previous.url}}">
+                <span class="watermark">Previous</span>
+                <a href="{{page.previous.url}}">
                     <img src="{{ page.previous.image.url }}" alt="{{ page.previous.title }}" class="NL_post_img" />
                     <p>
                         <time class="NL_post_time" pubdate datetime="{{ page.previous.date | date: '%Y-%m-%d' }}"
@@ -71,7 +72,8 @@ layout: default
 
             {% if page.next.url %}
             <div class="NL_related_post">
-                <a class="next" href="{{page.next.url}}">
+                <span class="watermark">Next</span>
+                <a href="{{page.next.url}}">
                     <img src="{{ page.next.image.url }}" alt="{{ page.next.title }}" class="NL_post_img NL_img_hover" />
                     <p>
                         <time class="NL_post_time" pubdate datetime="{{ page.next.date | date: '%Y-%m-%d' }}"
@@ -91,7 +93,8 @@ layout: default
                     {% for tag in page.tags %}
                       {% if post.tags contains tag %}
             <div class="NL_related_post">
-                <a class="next" href="{{post.url}}">
+                <span class="watermark">{{ tag }}</span>
+                <a href="{{post.url}}">
                     <img src="{{ post.image.url }}" alt="{{ post.title }}" class="NL_post_img NL_img_hover" />
                     <p>
                         <time class="NL_post_time" pubdate datetime="{{ post.date | date: '%Y-%m-%d' }}"
@@ -108,20 +111,18 @@ layout: default
                 {% endif %}
               {% endif %}
             {% endfor %}
-        </div>
 
-        <!-- Recommended Posts -->
-        <div class="col-md-3 col-md-offset-1 NL_other_posts">
-            <h4>Recommended Posts</h4>
+            <!-- Recommended Posts -->
             {% if site.blog_recommended_posts %}
-            {% for recommended_post in site.blog_recommended_posts %}
-            {% if recommended_post != page.url %}
-            {% if recommended_post != page.previous.url %}
-            {% if recommended_post != page.next.url %}
-            {% for post in site.posts %}
-            {% if recommended_post == post.url %}
+              {% for recommended_post in site.blog_recommended_posts %}
+                {% if recommended_post != page.url %}
+                  {% if recommended_post != page.previous.url %}
+                    {% if recommended_post != page.next.url %}
+                      {% for post in site.posts %}
+                        {% if recommended_post == post.url %}
             <div class="NL_related_post">
-                <a class="next" href="{{post.url}}">
+                <span class="watermark">Recommended</span>
+                <a href="{{post.url}}">
                     <img src="{{ post.image.url }}" alt="{{ post.title }}" class="NL_post_img NL_img_hover" />
                     <p>
                         <time class="NL_post_time" pubdate datetime="{{ post.date | date: '%Y-%m-%d' }}"
@@ -131,13 +132,13 @@ layout: default
                     </p>
                 </a>
             </div>
-            {% break %}
-            {% endif %}
-            {% endfor %}
-            {% endif %}
-            {% endif %}
-            {% endif %}
-            {% endfor %}
+                          {% break %}
+                        {% endif %}
+                      {% endfor %}
+                    {% endif %}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
             {% endif %}
         </div>
     </div>

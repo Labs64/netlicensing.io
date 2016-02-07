@@ -196,27 +196,30 @@ blockquote {
 
 .NL_related_post {
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
-.NL_related_post > div {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 16px;
+.NL_related_post .watermark {
+    display: inline-block;
+    position: relative;
+    top: 27px;
+    left: 10px;
+    padding: 1px 5px;
+    color: #fff;
+    background-color: #E14817;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: .6em;
+    line-height: 14px;
 }
 
 .NL_related_post a {
     border-bottom: none;
-}
-
-img.NL_post_img {
-    width: 100%;
-    border: 2px solid #fafafa;
-}
-
-a:hover img.NL_post_img,
-.card__image:hover {
-    opacity: 0.8;
 }
 
 .NL_related_post p {
@@ -236,6 +239,16 @@ a:hover img.NL_post_img,
     border-bottom-color: #fafafa;
     color: #E14817;
     cursor: pointer;
+}
+
+img.NL_post_img {
+    width: 100%;
+    border: 2px solid #fafafa;
+}
+
+a:hover img.NL_post_img,
+.card__image:hover {
+    opacity: 0.8;
 }
 
 /*----------  Blog Search  -----------*/
