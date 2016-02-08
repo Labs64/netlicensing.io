@@ -63,7 +63,7 @@ a:active, a:hover {
 }
 
 /*----------   Transitions -----------*/
-.NL_related_post p span,
+.NL_related_post > a > div > h4,
 img.NL_post_img, .card__image {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -204,7 +204,7 @@ blockquote {
     position: relative;
     top: 27px;
     left: 10px;
-    padding: 1px 5px;
+    padding: 3px 6px;
     color: #fff;
     background-color: #E14817;
     text-transform: uppercase;
@@ -213,16 +213,17 @@ blockquote {
     white-space: nowrap;
     border-radius: 2px;
     box-sizing: border-box;
-    font-weight: 600;
-    font-size: .6em;
+    font-weight: 400;
+    font-size: 12px;
     line-height: 14px;
+    z-index: 99;
 }
 
 .NL_related_post a {
     border-bottom: none;
 }
 
-.NL_related_post p {
+.NL_related_post div {
     display: block;
     text-align: left;
     padding: 15px 15px;
@@ -230,13 +231,16 @@ blockquote {
     background-color: #fafafa;
 }
 
-.NL_related_post p span {
+.NL_related_post > a > div > h4 {
     color: #853E29;
-    border-bottom: 1px dotted #853E29;
+    line-height: 18px;
 }
 
-.NL_related_post a:hover p span {
-    border-bottom-color: #fafafa;
+.NL_related_post > a > div > time {
+    color: #666666;
+}
+
+.NL_related_post a:hover > div > h4  {
     color: #E14817;
     cursor: pointer;
 }
@@ -244,9 +248,10 @@ blockquote {
 img.NL_post_img {
     width: 100%;
     border: 2px solid #fafafa;
+    z-index: 50;
 }
 
-a:hover img.NL_post_img,
+.NL_related_post > a:hover > img.NL_post_img,
 .card__image:hover {
     opacity: 0.8;
 }

@@ -60,12 +60,12 @@ layout: default
                 <span class="watermark">Previous</span>
                 <a href="{{page.previous.url}}">
                     <img src="{{ page.previous.image.url }}" alt="{{ page.previous.title }}" class="NL_post_img" />
-                    <p>
+                    <div>
                         <time class="NL_post_time" pubdate datetime="{{ page.previous.date | date: '%Y-%m-%d' }}"
                              title="{{ page.previous.date | date: '%b %-d, %Y' }}">{{ page.previous.date | date: "%b %-d, %Y" }}
                         </time>
-                        <span>{{page.previous.title}}</span>
-                    </p>
+                        <h4>{{page.previous.title}}</h4>
+                    </div>
                 </a>
             </div>
             {% endif %}
@@ -74,13 +74,13 @@ layout: default
             <div class="NL_related_post">
                 <span class="watermark">Next</span>
                 <a href="{{page.next.url}}">
-                    <img src="{{ page.next.image.url }}" alt="{{ page.next.title }}" class="NL_post_img NL_img_hover" />
-                    <p>
+                    <img src="{{ page.next.image.url }}" alt="{{ page.next.title }}" class="NL_post_img" />
+                    <div>
                         <time class="NL_post_time" pubdate datetime="{{ page.next.date | date: '%Y-%m-%d' }}"
                              title="{{ page.next.date | date: '%b %-d, %Y' }}">{{ page.next.date | date: "%b %-d, %Y" }}
                         </time>
-                        <span>{{page.next.title}}</span>
-                    </p>
+                        <h4>{{page.next.title}}</h4>
+                    </div>
                 </a>
             </div>
             {% endif %}
@@ -95,13 +95,13 @@ layout: default
             <div class="NL_related_post">
                 <span class="watermark">{{ tag }}</span>
                 <a href="{{post.url}}">
-                    <img src="{{ post.image.url }}" alt="{{ post.title }}" class="NL_post_img NL_img_hover" />
-                    <p>
+                    <img src="{{ post.image.url }}" alt="{{ post.title }}" class="NL_post_img" />
+                    <div>
                         <time class="NL_post_time" pubdate datetime="{{ post.date | date: '%Y-%m-%d' }}"
                               title="{{ post.date | date: '%b %-d, %Y' }}">{{ post.date | date: "%b %-d, %Y" }}
                         </time>
-                        <span>{{post.title}}</span>
-                    </p>
+                        <h4>{{post.title}}</h4>
+                    </div>
                 </a>
             </div>
                         {% break %}
@@ -123,13 +123,13 @@ layout: default
             <div class="NL_related_post">
                 <span class="watermark">Recommended</span>
                 <a href="{{post.url}}">
-                    <img src="{{ post.image.url }}" alt="{{ post.title }}" class="NL_post_img NL_img_hover" />
-                    <p>
+                    <img src="{{ post.image.url }}" alt="{{ post.title }}" class="NL_post_img" />
+                    <div>
                         <time class="NL_post_time" pubdate datetime="{{ post.date | date: '%Y-%m-%d' }}"
                               title="{{ post.date | date: '%b %-d, %Y' }}">{{ post.date | date: "%b %-d, %Y" }}
                         </time>
-                        <span>{{post.title}}</span>
-                    </p>
+                        <h4>{{post.title}}</h4>
+                    </div>
                 </a>
             </div>
                           {% break %}
