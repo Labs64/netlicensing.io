@@ -214,7 +214,7 @@ blockquote {
     border-radius: 2px;
     box-sizing: border-box;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 14px;
     z-index: 99;
 }
@@ -233,7 +233,7 @@ blockquote {
 
 .NL_related_post > a > div > h4 {
     color: #853E29;
-    line-height: 18px;
+    line-height: 20px;
 }
 
 .NL_related_post > a > div > time {
