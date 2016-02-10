@@ -190,8 +190,9 @@ blockquote {
     font-size: 14px;
 }
 
-.NL_other_posts > h4 {
+.NL_other_posts > h3 {
     margin-top: 0px;
+    color: #666666;
 }
 
 .NL_related_post {
