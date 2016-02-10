@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/blog-placeholder.jpg
+  url: /img/blog/unsplash-8z2Q6XWLYa4.png
 tags:
   - Security
   - API

@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/blog-placeholder.jpg
+  url: /img/blog/unsplash-4vr9a_sdJ78.png
 tags:
   - Licensing
   - Licensing Metrics
