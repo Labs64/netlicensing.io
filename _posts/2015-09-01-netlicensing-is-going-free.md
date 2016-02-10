@@ -28,5 +28,3 @@ We take great pride in NetLicensing as a product, and that is why we are making 
 We are still going to have the option of paying for a premium service, and our Enterprise package will remain the same as before, with Enterprise customers receiving priority support and been given exclusive access to the latest NetLicensing features.
 
 > *It’s a freemium model, the basic NetLicensing licensing management plan is free. We offer premium services and can add more in the future. We think this has the potential to change interchange fees by giving vendors around the world relief from these high fees.*
-
-{% include credit-tracker.html image='/img/blog/unsplash-7P_2hzKryQE.png' %}

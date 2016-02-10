@@ -34,5 +34,3 @@ Although creating bespoke applications can sometimes mean that the marketability
 Where teaching styles, curriculum and markers for assessment shift, the fundamentals of learning remain largely unchanged.
 
 It is therefore not unrealistic, to suggest that the best educational apps of today, could well have a long and profitable life ahead.
-
-{% include credit-tracker.html image='/img/blog/Fotolia_63176711_XS.jpg' %}

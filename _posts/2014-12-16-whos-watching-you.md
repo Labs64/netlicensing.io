@@ -32,5 +32,3 @@ However, there has been an increase in people’s awareness of exactly what they
 It is yet to be seen what the long-term impact will be, or whether there will indeed be a significant impact upon how people use these services. With this in mind, we’d like to know if your habits have been changed as a result of this news? Were you already storing your own personal and business data on encrypted servers? Have you actively tought out more secure ways of transmitting and storing data?
 
 Let us know!
-
-{% include credit-tracker.html image='/img/blog/Fotolia_67672288_XS.jpg' %}

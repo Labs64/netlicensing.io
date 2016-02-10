@@ -53,5 +53,3 @@ The BYOD trend is growing around the world. In major cities such as New York, 91
 Nearly half of all managers view BYOD as a positive program specifically for the sake of productivity, and 58% of employees think it will make them happier, according to Quest and Gartner. In the EU and the Americas, security is the largest concern for instituting a BYOD program but security is also the largest point of investment for BYOD companies and services.
 
 BYOD programs are coming, and soon they will be expected by employees. Starting with the right security and management foundation can make your program successful and keep employees happy while limiting the risk you face in case of loss or theft.
-
-{% include credit-tracker.html image='/img/blog/Fotolia_51001863_XS.jpg' %}

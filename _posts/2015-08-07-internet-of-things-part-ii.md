@@ -28,5 +28,3 @@ What the features where would obviously be dependent upon the devices function. 
 An obvious example would be the option to have different tiers of usage; i.e. basic and premium where the higher cost gives access to more features and perhaps a higher-end device. This would broaden the potential customer base for the manufacturer, as well as give the consumer a greater degree of choice.
 
 The device would be internet enabled, and it would be possible for the subscription to be directly linked to it &#8211; by serial number or another unique identifier. Whilst the subscription would not need to be managed from the device itself &#8211; rather through a web portal or similar method, the internet connectivity would be used to &#8216;control&#8217; the devices operation.
-
-{% include credit-tracker.html image='/img/blog/unsplash-1uxV8fAfhVM.png' %}

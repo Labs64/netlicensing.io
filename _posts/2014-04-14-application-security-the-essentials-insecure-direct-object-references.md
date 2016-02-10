@@ -31,5 +31,3 @@ There are a number of ways to prevent insecure direct object references; as with
 Use per-session or per-user references; this limits the availability of potential flaws which could enable attackers to gain access to secure information.
 
 Try and limit the amount of information which is stored in any one place within the application. Although this can take longer to code and can mean that the user has to go through a couple of additional steps in order to complete tasks within the application, it acts as damage limitation should any unauthorized access occur.
-
-{% include credit-tracker.html image='/img/blog/unsplash-7_cSSarxoAA.png' %}

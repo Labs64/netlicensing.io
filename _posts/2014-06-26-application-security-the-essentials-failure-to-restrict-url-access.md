@@ -29,5 +29,3 @@ In order to prevent Unrestricted URL Access there are a number of steps which yo
 The access policy should be based upon the defined user role, so as to make it easier to configure any additional pages which are added so that only authorized users can have access to them; i.e. having a standard and admin user roles already configured means that you can then easily assigned the relative access rights to new pages as they are created – rather than having to set the access policies for each individual page.
 
 Access should be denied by default, if authentication fails for any user then they should not have any access. This can cause frustration but is an obvious step in the prevention of unauthorized access to your application.
-
-{% include credit-tracker.html image='/img/blog/unsplash-4aQY2CrXsa8.png' %}

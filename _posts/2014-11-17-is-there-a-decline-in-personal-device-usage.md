@@ -32,5 +32,3 @@ Where then does this leave developers? The knee-jerk reaction would be to panic,
 Consumers are likely to be more selective in the applications which they choose to use, setting aside the less-useful apps and using only those which they feel they need or which, in the case of games, are enjoyable in short bursts of use. It is likely that users will seek out applications that benefit their productivity and will set aside those which they consider to be novelty and of little or no use.
 
 Have you made a conscious change in the way you use your devices? Are you buying fewer apps than you were a year ago? Let us know!
-
-{% include credit-tracker.html image='/img/blog/Fotolia_68537090_S.jpg' %}

@@ -28,5 +28,3 @@ As an employer, you don’t want to be preventing your employee’s from bringin
 It is therefore absolutely imperative that as a business owner you are prepared for this increasing trend and embrace it with open-arms. Although you may have concerns about the implications of BYOD and how best to deal with it, all you need to do is make sure that when your employees bring their devices into work that both you and they are clear about exactly who is responsible for it.
 
 A well-written, secure ‘BYOD’ Policy is normally all that is needed. A well-formed WiFi infrastructure will enable you to easily control precisely who has access to your network. Whilst you can’t stop your employees bringing their devices into work, you can control the access they have and keep yourself safe.
-
-{% include credit-tracker.html image='/img/blog/Fotolia_51001863_XS.jpg' %}

@@ -35,5 +35,3 @@ Some of the other key benefits for a vendor to adopt a LaaS model include:
   * Affiliates and additional programs can be covered under a single agreement and customers can access them through the **cloud model**.
 
 The benefits are all a piece of the same goal: improving the flexibility of your software at minimal infrastructure investment. Whether you choose to charge by user, processor, or host, cloud management will allow you to take a hands-off approach as you monitor client usage and cost.
-
-{% include credit-tracker.html image='/img/blog/unsplash-nJdwUHmaY8A.png' %}

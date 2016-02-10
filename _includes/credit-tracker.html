@@ -1,4 +1,5 @@
 {% assign image = nil %}
+
 {% for data_image in site.data.images %}
   {% if data_image.source == include.image %}
     {% assign image = data_image %}
@@ -19,6 +20,5 @@
     {% capture image_credit %}{{ image.author }}{% endcapture %}
   {% endif %}
 
-  {:.blog_img_credit}
   Image Credits: {{ image_credit }}
 {% endif %}

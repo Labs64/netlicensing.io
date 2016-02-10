@@ -37,14 +37,15 @@ layout: default
                 {% if page.image.url %}
                   {% unless page.image.hide %}
                     {% if page.image.width %}
-                  {% assign image_width = page.image.width %}
+                      {% assign image_width = page.image.width %}
                     {% else %}
-                  {% assign image_width = '100%' %}
-                {% endif %}
+                      {% assign image_width = '100%' %}
+                    {% endif %}
                 <img src="{{ page.image.url }}" alt="{{ page.title }}" class="blog-thumbnail" width="{{ image_width }}">
-                {% endunless %}
-                  {% endif %}
+                  {% endunless %}
+                {% endif %}
                 {{ content }}
+                <p class="blog_img_credit">{% include credit-tracker.html image=page.image.url %}</p>
             </article>
 
             <div class="NL_share_icons">{% include addthis.html %}</div>

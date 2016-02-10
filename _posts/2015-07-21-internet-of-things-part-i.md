@@ -27,5 +27,3 @@ The changes in the way that we use mobile technology is symptomatic of the way t
 The one flaw that no one is talking about, is what happens when the internet connection stops working. Although we now have ever-increasing reliability with our internet connections, it is never guaranteed to work all of the time.
 
 The growth in SaaS (Software as a Service) has also raised issues around licensing. A growing number of companies are now using subscription based models for their licensing and whilst there are benefits to both the consumer and provider, there are a number of pitfalls with this model, which we will explore in more detail in our next article.
-
-{% include credit-tracker.html image='/img/blog/Fotolia_68929807_S.jpg' %}

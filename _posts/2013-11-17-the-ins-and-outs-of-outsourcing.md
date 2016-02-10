@@ -48,5 +48,3 @@ This company then functions as a kind of ‘Outsourcing Management’ where they
 The cost of implementing this kind of outsourcing is greater than the external model, but is still cheaper than not outsourcing at all. It also means that you maintain greater control over how different parts of your business are run, giving you greater security. As a business owner/ operator you are given a single point of contact who then takes care of the process of management of each individual subsidiary on your behalf.
 
 Do you use outsourcing within your company? Which method do you use and why? Let us know in the comments below.
-
-{% include credit-tracker.html image='/img/blog/Fotolia_57409041_XS.jpg' %}

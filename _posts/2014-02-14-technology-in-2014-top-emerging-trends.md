@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/unsplash-t5BvA-Q_m_Y.png
+  url: /img/blog/unsplash-lZlfHGqx44Q.png
 tags:
   - Trends
   - 2014
@@ -30,5 +30,3 @@ Access to Wi-Fi in cafes, shopping malls and city centres is becoming less of a 
 The result of this permanent connectivity is likely to be a continued blurring of the lines between home and the workplace. Some devices are now openly advertised as being ‘great for work and play’, which is a useful marketing tool as it encourages the belief that users only need one device but equally it highlights how the cloud architecture is continuing to deconstruct the traditional concept of an office.
 
 Where the last five years has seen an explosion in the number of devices which users carry to ensure that they can carry out all possible tasks regardless of location, it is highly possible that 2014 could see a shift towards single, multi-functional devices whose users are all inter-connected through private and public, company and personal clouds.
-
-{% include credit-tracker.html image='/img/blog/unsplash-t5BvA-Q_m_Y.png' %}

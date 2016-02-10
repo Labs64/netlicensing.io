@@ -49,5 +49,3 @@ It’s very likely that you’ll need to edit your media library at some point, 
 For artists and sites that want to potentially share or show-off content, the Credit Tracker plug-in can be displayed on your website. The service provides code so that you can show the Tracker itself, with options to customize it to fit your theme.
 
 Labs64 created [Credit Tracker](http://wordpress.org/plugins/credit-tracker/ "Show credits for the images used on your website"){:target="_blank"} to provide companies with a quick and easy way to properly attribute photos on their websites. This keeps you in the clear with the owners of photos you license. It also shows your visitors that you’re willing to do the right thing and take pride in both your work and the work of others.
-
-{% include credit-tracker.html image='/img/blog/Fotolia_64558749_S.jpg' %}

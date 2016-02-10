@@ -23,5 +23,3 @@ The new challenge that this presents for companies is how to manage this licensi
 What then, does this mean for consumers? On the one hand, it is a good thing. They will be able to access a wider range of software and hardware than ever before and will not have to save for months at a time in order to be able to afford it. The issue with this model though, is that because they will never truly own something, then will always be at risk of losing it should they fail to make a payment (or a series of payments &#8211; dependent upon the terms that have been agreed with the supplier). A &#8216;worst case scenario&#8217; is for someone who has all of their electronics under licensed agreements and they lose their job. They are unable to afford to pay the licenses and they will face the potential that their appliances will cease to work until payment is resumed.
 
 It would seem that it is not just the suppliers who will have to start managing their subscriptions, the consumers will to.
-
-{% include credit-tracker.html image='/img/blog/unsplash-Dl6jeyfihLk.png' %}

@@ -38,5 +38,3 @@ When a user initially registers to try your software or product it is reasonable
 The aim of any company is to make money and at first, it might seem strange to be advocating giving away your work for free. However in an increasingly overcrowded market it is the expectation of many consumers to be able to *‘try before they buy’*.
 
 As a business model, freemium operates on the basis that if a company can convert a small fraction of their free users to paying users they will be able to continue offering their product for free whilst also making a profit and investing in further development.
-
-{% include credit-tracker.html image='/img/blog/unsplash-l5Tzv1alcps.png' %}

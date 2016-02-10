@@ -26,5 +26,3 @@ Cloud Computing has yet to be fully utilized for licensing and activation, altho
 This then, is going to be the legacy of _Licensing in the Cloud_. As with other aspects of Cloud Computing (SaaS, Back-ups etc.) it is a long term, low cost solution which is easily adjusted to accommodate the needs of your business &#8211; Large or Small.
 
 Cloud Computing is here to stay, and cloud based licensing is just the next stage in an already exciting technological revolution.
-
-{% include credit-tracker.html image='/img/blog/Fotolia_55239022_S.jpg' %}

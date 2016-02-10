@@ -64,5 +64,3 @@ It is also possible to display the copyright information on a reference page.
 &nbsp;
 
 [Credit Tracker](http://wordpress.org/plugins/credit-tracker/ "Credit Tracker WordPress plugin"){:target="_blank"} WordPress plugin - a simple way to credit images used on your website.
-
-{% include credit-tracker.html image='/img/blog/Fotolia_46388849_XS.jpg' %}

@@ -59,5 +59,3 @@ Mobile payment platforms are available on nearly every smartphone today, but the
 Customers have to actively download apps and input their credit card information, potentially multiple times if their preferred vendors use apps instead of BLE or NFC. Presently, there is little perceived value to adding in all of these payment options when carrying a wallet or purse is still commonplace.
 
 A successful future for this space will require some market contraction, whether that’s consolidation through acquisition or the loss of competition through attrition. Mobile payment platforms will need to address customer habits and preferences, making it easy and convenient for adoption.
-
-{% include credit-tracker.html image='/img/blog/Fotolia_56349432_XS.jpg' %}

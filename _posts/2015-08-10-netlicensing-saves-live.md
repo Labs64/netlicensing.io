@@ -30,5 +30,3 @@ There we are, not only is NetLicensing a first-class solution to all your licens
 We’ve just made NetLicensing even easier to access – with it now being completely free! Stop wasting time and money, and save yourself today with NetLicensing.
 
 Safe. Secure. Efficient. A real life-saver!
-
-{% include credit-tracker.html image='/img/blog/netlicensing-bee.png' %}

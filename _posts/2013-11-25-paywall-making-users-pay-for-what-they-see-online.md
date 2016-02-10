@@ -38,5 +38,3 @@ The logistics of setting up a paywall on your website are easier than you might 
 The ‘million dollar question’ of whether or not to implement a paywall is one which only the business owner can really answer. It is, like everything in business a risk; but one which can see significant rewards if you are successful.
 
 Do you use a paywall on any of your websites? How as it affected your business? Let us know in the comments below.
-
-{% include credit-tracker.html image='/img/blog/Fotolia_53221200_XS.jpg' %}

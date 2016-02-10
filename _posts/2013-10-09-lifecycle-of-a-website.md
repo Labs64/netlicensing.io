@@ -47,5 +47,3 @@ _Types of hosting:_ Considering the type of database server software, operating 
 **The Maintenance Phase:** Maintaining a website is the most crucial phase of its life cycle. Regular revamps are necessary for sustaining a competitive edge. Applications and contents need to be regularly updated. Constant grooming is required for keeping the website “live”. A lot of work is required to be done like SSL Certificates renewal, updating security patches, Frameworks & Tools Update, DDoS Attack preventions, etc.
 
 All new websites starts with innovative thoughts and plans, and precise planning is instrumental in making it a grand success. Adopting all the steps with exact methodology during the creation of the website will surely reflect in a better quality of the outcome.
-
-{% include credit-tracker.html image='/img/blog/Fotolia_35854655_XS.jpg' %}

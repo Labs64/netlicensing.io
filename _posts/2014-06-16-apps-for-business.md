@@ -30,5 +30,3 @@ The way in which this is possible is similar to the reasons discussed in our pre
 From the perspective a business owner, they want to be able to gain the advantage over their main competitors and they are unlikely to want to use the same software or applications as them. Instead, they will be significantly more attracted to the opportunity to commission and use an application which has been tailored to their precise needs.
 
 As we have already suggested, the amount of potential end-users for such an application will of course be far smaller than the applications which developers have grown used to, however the financial rewards will be proportionally greater. When working with a business, and particularly where the application has been developed for use by that business, there is potential for long-term regulated income through Technical Support agreements.
-
-{% include credit-tracker.html image='/img/blog/unsplash-Hi9GSwWkCJk.png' %}

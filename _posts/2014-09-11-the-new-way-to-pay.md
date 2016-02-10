@@ -35,5 +35,3 @@ It is also possible for small businesses to now take card payments using just a 
 In a recent article we looked at the impact that [QR codes](/blog/2014/03/26/qr-codes-are-everywhere/ "QR Codes are everywhere") are having on the technology industry, and a significant area of this is in mobile payments. The payer selects how much they want to pay and to whom, this then generates a QR code which is scanned by the merchant and the payment is complete! There has been no messing about with cards, PINs or cash. It has all be done instantaneously and securely.
 
 Do you use your mobile devices to carry out day to day financial tasks? What impact do you think that it is having on your business? Let us know!
-
-{% include credit-tracker.html image='/img/blog/Fotolia_60998181_XS.jpg' %}

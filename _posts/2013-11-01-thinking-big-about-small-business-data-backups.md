@@ -59,5 +59,3 @@ If you want an off-site storage option but don’t like the idea of sending data
 We suggest small businesses rely on systems that are smart enough to save multiple copies of your data, regardless of how you save it. Smart options include having a mix of backup services, at least one of which should be offsite. They also need to support your proprietary systems as well as your off-the-shelf business software.
 
 This post is just an overview of the types of backup systems available for your operations. Let our experts find solutions tailored specifically to your needs instead of going it alone, because a business catastrophe is something no small business can afford.
-
-{% include credit-tracker.html image='/img/blog/Fotolia_43041942_XS_s.jpg' %}
