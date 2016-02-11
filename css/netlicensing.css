@@ -1881,6 +1881,11 @@ a.NL_pricing_tooltip {
 }
 
 @media screen and (max-width: 41.125em) {
+    #cbp-so-scroller > section:nth-child(3) > figure,
+    #cbp-so-scroller > section:nth-child(2) > figure {
+        display: none;
+    }
+
     .cbp-so-side {
         float: none;
         width: 100%;
