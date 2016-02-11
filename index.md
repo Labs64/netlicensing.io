@@ -13,8 +13,16 @@ sitemap:
             Based on open standards, it provides a cost effective, integrated and scalable platform for software vendors
             and developers who want to concentrate on their product’s core functionality instead of spending resources
             on developing an own license management software.</span>
-        <a href="https://go.netlicensing.io/app/v2/?lc=4b566c7e20&source=lmbox001"
-           class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-eye"></i>Live Demo</a>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-2">
+                <a href="https://go.netlicensing.io/app/v2/?lc=4b566c7e20&source=lmbox001"
+                   class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-eye"></i>Live Demo</a>
+            </div>
+            <div class="col-md-4">
+                <a href="/getting-started/"
+                   class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-rocket"></i>Getting Started</a>
+            </div>
+        </div>
     </div>
 </div>
 

@@ -4,14 +4,14 @@
 - title: Pricing
   url: "/pricing/"
 
-- title: Getting Started
-  url: "/getting-started/"
-
 - title: For Integrators
   url: "/documentation/"
 
 - title: Licensing Models
   url: "/licensing-models/"
+
+- title: Journal
+  url: "/blog/"
 
 - title: "Log In"
   url: "https://go.netlicensing.io/app/v2/"

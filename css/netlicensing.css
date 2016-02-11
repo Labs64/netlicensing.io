@@ -63,8 +63,7 @@ a:active, a:hover {
 }
 
 /*----------   Transitions -----------*/
-.NL_previous_post p span,
-.NL_next_post p span,
+.NL_related_post > a > div > h4,
 img.NL_post_img, .card__image {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -148,7 +147,7 @@ p.blog_img_credit {
     color: #3f4549;
 }
 
-.blog-center, 
+.blog-center,
 .blog-left,
 .blog-right {
     width: auto;
@@ -191,34 +190,41 @@ blockquote {
     font-size: 14px;
 }
 
-.NL_previous_post,
-.NL_next_post {
+.NL_other_posts > h3 {
+    margin-top: 0px;
+    color: #666666;
+}
+
+.NL_related_post {
     display: block;
-    margin-bottom: 70px;
+    margin-bottom: 10px;
 }
 
-.NL_previous_post > h4,
-.NL_next_post > h4 {
-    margin-top: 0;
+.NL_related_post .watermark {
+    display: inline-block;
+    position: relative;
+    top: 27px;
+    left: 10px;
+    padding: 3px 6px;
+    color: #fff;
+    background-color: #E14817;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    z-index: 99;
 }
 
-.NL_previous_post a,
-.NL_next_post a {
+.NL_related_post a {
     border-bottom: none;
 }
 
-img.NL_post_img {
-    width: 100%;
-    border: 2px solid #fafafa;
-}
-
-a:hover img.NL_post_img,
-.card__image:hover {
-    opacity: 0.8;
-}
-
-.NL_previous_post p,
-.NL_next_post p {
+.NL_related_post div {
     display: block;
     text-align: left;
     padding: 15px 15px;
@@ -226,17 +232,29 @@ a:hover img.NL_post_img,
     background-color: #fafafa;
 }
 
-.NL_previous_post p span,
-.NL_next_post p span {
+.NL_related_post > a > div > h4 {
     color: #853E29;
-    border-bottom: 1px dotted #853E29;
+    line-height: 20px;
 }
 
-.NL_previous_post a:hover p span,
-.NL_next_post a:hover p span {
-    border-bottom-color: #fafafa;
+.NL_related_post > a > div > time {
+    color: #666666;
+}
+
+.NL_related_post a:hover > div > h4  {
     color: #E14817;
     cursor: pointer;
+}
+
+img.NL_post_img {
+    width: 100%;
+    border: 2px solid #fafafa;
+    z-index: 50;
+}
+
+.NL_related_post > a:hover > img.NL_post_img,
+.card__image:hover {
+    opacity: 0.8;
 }
 
 /*----------  Blog Search  -----------*/
@@ -457,7 +475,7 @@ input.gsc-search-button:hover {
 }
 
 .NL_main_banner {
-    background: url({{ site.stage_banner_image }});
+    background: url({{ site.stage_banner_image }} );
     background-size: cover;
 }
 
@@ -923,8 +941,9 @@ footer {
 
 /*----------   Index Page  -----------*/
 .NL_about {
-    height: 380px;
-    padding-top: 100px;
+    height: auto;
+    padding-top: 80px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -1423,7 +1442,7 @@ a.NL_cases_card:hover .view-info p {
     border: 2px solid #f9e1c4;
     color: #f9e1c4;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .NL_light_btn i {
@@ -1645,9 +1664,12 @@ a.NL_pricing_tooltip {
 
 @media only screen and (max-width: 993px) {
     .NL_about {
-        height: 390px;
         width: 80%;
         margin-left: 10%;
+    }
+
+    .NL_light_btn {
+        margin-top: 20px;
     }
 
     .NL_footer_menu > .col-md-2 {
@@ -1731,17 +1753,12 @@ a.NL_pricing_tooltip {
         margin-top: 50px;
     }
 
-    .NL_previous_post,
-    .NL_next_post {
+    .NL_related_post {
         margin-bottom: 40px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .NL_about {
-        height: 390px;
-    }
-
     h1 {
         font-size: 24px;
         margin-top: -20px;
@@ -1758,11 +1775,6 @@ a.NL_pricing_tooltip {
 
     .NL_about_page {
         padding-top: 100px;
-    }
-
-    .NL_about {
-        height: 430px;
-        padding-top: 60px;
     }
 
     .NL_FAQ {
@@ -1818,11 +1830,6 @@ a.NL_pricing_tooltip {
 @media screen and (max-width: 479px) {
     h2 {
         font-size: 18px;
-    }
-
-    .NL_about {
-        height: 510px;
-        padding-top: 100px;
     }
 
     .NL_banner, .NL_main_banner {
