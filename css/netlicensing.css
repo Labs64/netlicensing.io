@@ -941,8 +941,9 @@ footer {
 
 /*----------   Index Page  -----------*/
 .NL_about {
-    height: 380px;
-    padding-top: 100px;
+    height: auto;
+    padding-top: 80px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -1441,7 +1442,7 @@ a.NL_cases_card:hover .view-info p {
     border: 2px solid #f9e1c4;
     color: #f9e1c4;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .NL_light_btn i {
@@ -1663,9 +1664,12 @@ a.NL_pricing_tooltip {
 
 @media only screen and (max-width: 993px) {
     .NL_about {
-        height: 390px;
         width: 80%;
         margin-left: 10%;
+    }
+
+    .NL_light_btn {
+        margin-top: 20px;
     }
 
     .NL_footer_menu > .col-md-2 {
@@ -1755,10 +1759,6 @@ a.NL_pricing_tooltip {
 }
 
 @media screen and (max-width: 767px) {
-    .NL_about {
-        height: 390px;
-    }
-
     h1 {
         font-size: 24px;
         margin-top: -20px;
@@ -1775,11 +1775,6 @@ a.NL_pricing_tooltip {
 
     .NL_about_page {
         padding-top: 100px;
-    }
-
-    .NL_about {
-        height: 430px;
-        padding-top: 60px;
     }
 
     .NL_FAQ {
@@ -1837,11 +1832,6 @@ a.NL_pricing_tooltip {
         font-size: 18px;
     }
 
-    .NL_about {
-        height: 510px;
-        padding-top: 100px;
-    }
-
     .NL_banner, .NL_main_banner {
         height: inherit;
         background-size: 300% 100%;
@@ -1891,6 +1881,11 @@ a.NL_pricing_tooltip {
 }
 
 @media screen and (max-width: 41.125em) {
+    #cbp-so-scroller > section:nth-child(3) > figure,
+    #cbp-so-scroller > section:nth-child(2) > figure {
+        display: none;
+    }
+
     .cbp-so-side {
         float: none;
         width: 100%;
