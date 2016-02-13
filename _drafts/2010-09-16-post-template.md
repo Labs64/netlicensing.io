@@ -5,7 +5,6 @@ description: "Post template - Description"
 image:
   url: /img/blog/blog-placeholder.jpg
   hide: false
-  width: 30%;
 tags:
 - NetLicensing
 author:
@@ -46,7 +45,7 @@ _Emphasized_ text (var 2)
 
 __Strong__ text (var 2)
 
-~~Strikethrough~~ text
+~~Strikethrough~~ text => this doesn't work as per 02.2016
 
 Citations:
 
@@ -123,3 +122,20 @@ require 'netlicensing'
 res = NetLicensing.validate("1234-5678-90")
 puts res.to_html
 {% endhighlight %}
+
+Syntax highlighting (var 2)
+{% highlight java %}
+final ValidationParameters validationParameters = new ValidationParameters();
+validationParameters.put(productModuleNumber, "paramKey", "paramValue");
+ValidationResult validationResult = LicenseeService.validate(context, licenseeNumber, productNumber,
+licenseeName, validationParameters);
+out.writeObject("Validation result for created licensee:", validationResult);
+
+context.setSecurityMode(SecurityMode.APIKEY_IDENTIFICATION);
+validationResult = LicenseeService.validate(context, licenseeNumber, productNumber, licenseeName,
+validationParameters);
+context.setSecurityMode(SecurityMode.BASIC_AUTHENTICATION);
+out.writeObject("Validation repeated with APIKey:", validationResult);
+{% endhighlight %}
+
+see also [List of supported languages and lexers](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers)

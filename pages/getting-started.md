@@ -154,7 +154,7 @@ sitemap:
                     </ul>
                     <div>
                     <em>Sample request:</em>
-                    {% highlight ruby %}
+                    {% highlight shell %}
 $ curl --header "Accept: application/xml" --insecure --user demo:demo --request GET https://go.netlicensing.io/core/v2/rest/licensee/%LICENSEE_NUMBER%/validate
                     {% endhighlight %}
                     <em>Sample response:</em>
@@ -259,7 +259,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
                     <ul style="margin-left: 20px;">
                         <li>Create shop token for the given licensee (replace %LICENSEE_NUMBER%)<br/>
                         <em>Create token request:</em>
-                        {% highlight ruby %}
+                        {% highlight shell %}
 $ curl --header "Accept: application/xml" --header "Content-Type: application/x-www-form-urlencoded" --insecure --user demo:demo --request POST https://go.netlicensing.io/core/v2/rest/token --data "tokenType=SHOP&licenseeNumber=%LICENSEE_NUMBER%"
                         {% endhighlight %}
                         <em>Create token response:</em>
@@ -287,7 +287,7 @@ $ curl --header "Accept: application/xml" --header "Content-Type: application/x-
                         <li>Provide a link to NetLicensing Shop (<i>shopURL</i>) in the UI of your product or forward the user to NetLicensing Shop URL by other means</li>
                         <li>The URL of NetLicensing Shop has the following format:
                         {% highlight ruby %}
-                            https://go.netlicensing.io/shop/v2/?shoptoken=%TOKEN_NUMBER%
+https://go.netlicensing.io/shop/v2/?shoptoken=%TOKEN_NUMBER%
                         {% endhighlight %}
                         </li>
                     </ul>

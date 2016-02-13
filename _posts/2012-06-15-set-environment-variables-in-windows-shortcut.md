@@ -27,7 +27,9 @@ Another possibility would be to set the environment variable for my entire user 
 So, here is my final recipie, how to do it for a single program via the Windows shortcut without a separate batch script (on the example of Inkscape):
 1. Create a new shortcut, enter the following command line:
 
-<pre>C:\Windows\System32\cmd.exe /c "SET LANG=en && START /D ^"C:\Program Files (x86)\Inkscape^" inkscape.exe"</pre>
+{% highlight shell %}
+C:\Windows\System32\cmd.exe /c "SET LANG=en && START /D ^"C:\Program Files (x86)\Inkscape^" inkscape.exe"
+{% endhighlight %}
 
 Drill-down:
 
