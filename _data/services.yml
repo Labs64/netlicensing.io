@@ -12,14 +12,6 @@
   section: "Company"
 
 # Learn
-- title: Journal
-  url: "/blog/"
-  section: "Documentation"
-
-- title: Pricing
-  url: "/pricing/"
-  section: "Documentation"
-
 - title: Getting Started
   url: "/getting-started/"
   section: "Documentation"
@@ -30,6 +22,14 @@
 
 - title: For Integrators
   url: "/documentation/"
+  section: "Documentation"
+
+- title: Pricing
+  url: "/pricing/"
+  section: "Documentation"
+
+- title: Journal
+  url: "/blog/"
   section: "Documentation"
 
 # Legal

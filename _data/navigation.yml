@@ -1,14 +1,14 @@
 - title: Features
   url: "/features/"
 
+- title: Licensing Models
+  url: "/licensing-models/"
+
 - title: Pricing
   url: "/pricing/"
 
 - title: For Integrators
   url: "/documentation/"
-
-- title: Licensing Models
-  url: "/licensing-models/"
 
 - title: Journal
   url: "/blog/"
