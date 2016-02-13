@@ -44,6 +44,11 @@ markdown: kramdown
 highlight: rouge
 permalink: /blog/:year/:month/:day/:title/
 
+# Sass
+sass:
+  sass_dir: _scss
+  style: :compressed
+
 compress_html:
   clippings: []
   comments: []
