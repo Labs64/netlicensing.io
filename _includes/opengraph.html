@@ -4,4 +4,4 @@
 <meta property="og:site_name" content="{{ site.title }}"/>
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
-<meta property="og:image" content="{{ '/img/labs64-avatar-18x18.png' | prepend: site.baseurl | prepend: site.url }}"/>
+<meta property="og:image" content="{% if page.image.url %}{{ page.image.url | prepend: site.baseurl | prepend: site.url }}{% else %}{{ '/img/netlicensing-twittercard.png' | prepend: site.baseurl | prepend: site.url }}{% endif %}"/>

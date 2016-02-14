@@ -6,13 +6,13 @@ image:
   url: /img/blog/blog-placeholder.jpg
   hide: false
 tags:
-- NetLicensing
+  - NetLicensing
 author:
   name: NetLicensing
   url: http://netlicensing.io
-canonical:
 sitemap:
   images:
+canonical:
 ---
 
 [Markdown](http://daringfireball.net/projects/markdown/) allows you to write using an easy-to-read, easy-to-write plain text format, which then converts to valid HTML post.

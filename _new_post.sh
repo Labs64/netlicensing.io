@@ -30,15 +30,14 @@ description: "Description: $title"
 image:
   url: /img/blog/blog-placeholder.jpg
   hide: false
-  width: 30%;
 tags:
-- NetLicensing
+  - NetLicensing
 author:
   name: NetLicensing
   url: http://netlicensing.io
-canonical:
 sitemap:
   images:
+canonical:
 ---
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.

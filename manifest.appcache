@@ -6,7 +6,7 @@ sitemap:
 CACHE MANIFEST
 # rev {{ site.time | date_to_xmlschema }}
 # CSS
-/css/netlicensing.css?{{ site.time | date:'%Y%m%d%H%M' }}
+/css/netlicensing.css#{{ site.time | date:'%Y%m%d%H%M' }}
 {% for file in site.static_files %}{% if file.path contains '/css/' %}{{ file.path | prepend: site.baseurl }}?{{ file.modified_time | date:'%Y%m%d%H%M' }}{% endif %}
 {% endfor %}
 # Images
