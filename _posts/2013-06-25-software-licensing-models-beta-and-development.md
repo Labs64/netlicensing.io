@@ -4,9 +4,9 @@ title: "Software Licensing Models – Beta and Development"
 description: "In this article we’ll be looking at the two types of license which are aimed at those vendors who have an interest in being at the forefront of software development"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: http://netlicensing.io/licensing-models/
 image:
-  url: /img/blog/blog-placeholder.jpg
+  url: /img/blog/netlicensing-licensing-models.png
 tags:
   - Beta
   - Development

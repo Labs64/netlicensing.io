@@ -1222,3 +1222,12 @@
   author: "Luke Chesser"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/a2NRu2Wxa2o
+
+- id: netlicensing-licensing-models
+  source: /img/blog/netlicensing-licensing-models.png
+  title: "Licensing Models"
+  caption: "NetLicensing Licensing Models"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io/licensing-models/

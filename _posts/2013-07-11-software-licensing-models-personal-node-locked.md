@@ -4,9 +4,9 @@ title: "Software Licensing Models – Personal, Node-locked"
 description: "In this article we will be looking at Named-user (personal licenses), Node-locked (named-host) and Node-locked counted licenses"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: http://netlicensing.io/licensing-models/
 image:
-  url: /img/blog/blog-placeholder.jpg
+  url: /img/blog/netlicensing-licensing-models.png
 tags:
   - License
   - Licensing

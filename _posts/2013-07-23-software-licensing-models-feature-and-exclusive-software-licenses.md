@@ -4,9 +4,9 @@ title: "Software Licensing Models – Feature and Exclusive Software Licenses"
 description: "The enable/disable product feature license grants you, the vendor and the developer, greater control over the distribution of a certain software package"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: http://netlicensing.io/licensing-models/
 image:
-  url: /img/blog/blog-placeholder.jpg
+  url: /img/blog/netlicensing-licensing-models.png
 tags:
   - Exclusive
   - Feature

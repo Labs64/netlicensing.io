@@ -4,9 +4,9 @@ title: "Software Licensing Models – Floating and Group"
 description: "We will be looking at Floating (concurrent) network licenses, Floating (concurrent) host list licenses and Group Licenses"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: http://netlicensing.io/licensing-models/
 image:
-  url: /img/blog/blog-placeholder.jpg
+  url: /img/blog/netlicensing-licensing-models.png
 tags:
   - Floating
   - Group

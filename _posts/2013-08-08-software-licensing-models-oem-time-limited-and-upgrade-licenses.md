@@ -4,9 +4,9 @@ title: "Software Licensing Models – OEM, Time Limited and Upgrade Licenses"
 description: "OEM, Time Limited and Upgrade have a limited field of use and are only useful to a small selection of end-users"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: http://netlicensing.io/licensing-models/
 image:
-  url: /img/blog/blog-placeholder.jpg
+  url: /img/blog/netlicensing-licensing-models.png
 tags:
   - License
   - Licensing
