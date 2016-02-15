@@ -102,28 +102,28 @@
   source: /img/case-studies/netlicensing-case-study-internet-access-control.png
   title: "Internet Access Control"
   caption: "NetLicensing Case Study - Internet Access Control"
-  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
-  author: Labs64
-  publisher: Labs64
-  creditlink: http://netlicensing.io
+  license: http://creativecommons.org/publicdomain/zero/1.0/
+  author: "Daria Shevtsova"
+  publisher: "Unsplash"
+  creditlink: https://unsplash.com/photos/k_RYBedEvDw
 
 - id: netlicensing-case-study-iot-tablet-computers
   source: /img/case-studies/netlicensing-case-study-iot-tablet-computers.png
   title: "Internet of Things: Tablet Computers"
   caption: "NetLicensing Case Study - Internet of Things: Tablet Computers"
-  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
-  author: Labs64
-  publisher: Labs64
-  creditlink: http://netlicensing.io
+  license: http://creativecommons.org/publicdomain/zero/1.0/
+  author: "William Iven"
+  publisher: "Unsplash"
+  creditlink: https://unsplash.com/photos/OP2EQ5g-Zkw
 
 - id: netlicensing-case-study-mobile-device-management
   source: /img/case-studies/netlicensing-case-study-mobile-device-management.png
   title: "Mobile Device Management"
   caption: "NetLicensing Case Study - Mobile Device Management"
-  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
-  author: Labs64
-  publisher: Labs64
-  creditlink: http://netlicensing.io
+  license: http://creativecommons.org/publicdomain/zero/1.0/
+  author: "Alejandro Escamilla"
+  publisher: "Unsplash"
+  creditlink: https://unsplash.com/photos/Dl6jeyfihLk
 
 - id: netlicensing-case-study-online-service
   source: /img/case-studies/netlicensing-case-study-online-service.png
