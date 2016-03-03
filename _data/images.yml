@@ -647,6 +647,24 @@
   publisher: Labs64
   creditlink: http://netlicensing.io
 
+- id: netlicensing-stage-banner-birthday
+  source: /img/netlicensing-stage-banner-birthday.gif
+  title: "NetLicensing Birthday"
+  caption: "NetLicensing Birthday"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id: netlicensing-stage-banner-8-march
+  source: /img/netlicensing-stage-banner-8-march.gif
+  title: "NetLicensing 8 March"
+  caption: "NetLicensing 8 March"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
 - id: netlicensing-bee
   source: /img/blog/netlicensing-bee.png
   title: "NetLicensing Bee"
