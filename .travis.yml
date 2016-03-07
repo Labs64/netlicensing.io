@@ -14,7 +14,7 @@ env:
 script:
   - bundle exec jekyll build
   # - bundle exec jekyll build --drafts
-  - bundle exec htmlproof ./_site --verbose --check-html --ignore-script-embeds --href-ignore '/.*www.linkedin.com.*/,#'
+  - bundle exec htmlproofer ./_site --check-html --url-ignore '/.*www.linkedin.com.*/,#'
 
 notifications:
   email: true
