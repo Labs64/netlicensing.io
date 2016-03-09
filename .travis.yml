@@ -13,8 +13,7 @@ env:
 
 script:
   - bundle exec jekyll build
-  # - bundle exec jekyll build --drafts
-  - bundle exec htmlproofer ./_site --check-html --url-ignore '/.*www.linkedin.com.*/,#'
+  - bundle exec htmlproofer ./_site --check-html --allow-hash-href
 
 notifications:
   email: true
