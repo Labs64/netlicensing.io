@@ -15,7 +15,7 @@ sitemap:
             on developing an own license management software.</span>
         <div class="row">
             <div class="col-md-4 col-md-offset-2">
-                <a href="https://go.netlicensing.io/app/v2/?lc=4b566c7e20&source=lmbox001"
+                <a href="https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001"
                    class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-eye"></i>Live Demo</a>
             </div>
             <div class="col-md-4">
@@ -97,7 +97,7 @@ sitemap:
             <h2>Signup for a NetLicensing account</h2>
             <span>Join the hundreds of happy NetLicensing customers.</span>
 
-            <form action="https://go.netlicensing.io/app/v2/content/register.xhtml" method="GET"
+            <form action="https://go.netlicensing.io/console/v2/content/register.xhtml" method="GET"
                   name="register" id="register"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">

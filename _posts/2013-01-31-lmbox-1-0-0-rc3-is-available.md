@@ -26,7 +26,7 @@ The <a title="LmBox - Innovative License Management Solution" href="http://netl
 
 The highlights of this release:
 
-  * Filter functionality in <a title="LmBoxManage" href="https://go.netlicensing.io/app/v2/?lc=4b566c7e20&source=lmbox001" target="_blank">LmBoxManage</a> extended
+  * Filter functionality in <a title="LmBoxManage" href="https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001" target="_blank">LmBoxManage</a> extended
   * Context menus in table view allow easy navigation between linked objects
   * Revisited PayPal integration, stability improved
   * List and view modes for transactions extended

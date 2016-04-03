@@ -40,7 +40,7 @@ Please see the <a title="Release Notes - LmBox 1.0.0-Final" href="https://www.l
 ##### What&#8217;s Next
 
   * Discover <a title="LmBox - Innovative License Management Solution" href="http://netlicensing.io">LmBox Website</a> and <a title="LmBox documentation" href="https://www.labs64.de/confluence/x/pgCo" target="_blank">documentation</a>
-  * <a title="LmBox - Innovative License Management Solution" href="https://go.netlicensing.io/app/v2/?lc=4b566c7e20&source=lmbox001" target="_blank">Try LmBox right away</a> using free demo account
+  * <a title="LmBox - Innovative License Management Solution" href="https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001" target="_blank">Try LmBox right away</a> using free demo account
   * Get Involved &#8211; your opinion and ideas are highly welcome!
 
     Our <a title="LmBox Feedback" href="https://netlicensing.uservoice.com" target="_blank" rel="nofollow">Feedback Tool</a>, [Blog](http://www.labs64.com/blog "Labs64 Blog") or <a title="Labs64 Facebook" href="https://www.facebook.com/NetLicensing" target="_blank" rel="nofollow">Facebook</a> are at your disposal.

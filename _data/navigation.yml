@@ -14,9 +14,9 @@
   url: "/blog/"
 
 - title: "Log In"
-  url: "https://go.netlicensing.io/app/v2/"
+  url: "https://go.netlicensing.io/console/v2/"
   icon: "fa-sign-in"
 
 - title: "Sign Up"
-  url: "https://go.netlicensing.io/app/v2/content/register.xhtml"
+  url: "https://go.netlicensing.io/console/v2/content/register.xhtml"
   class: "NL_button button_main NL_dark_btn"
