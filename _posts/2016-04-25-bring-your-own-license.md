@@ -6,18 +6,22 @@ author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/blog-placeholder.jpg
+  url: /img/blog/unsplash-Dl6jeyfihLk.png
+tags:
+  - BYOL
+  - Bring Your Own License
+  - License Mobility
 ---
 
 It would not be an understatement to say that cloud computing has revolutionized and democratized the technology industry. It has enabled companies to vastly expand their field of operations with almost no upfront cost. Companies comprised of just a few individuals can now easily operate on a truly global scale like never before.
 
 The cloud revolution has until now been driven by two key features; storage and collaboration. It has made managing complex backups a thing of the past and has saved countless hours by giving companies and their employees the ability to work together on the same project, at the same time.
 
-The next stage of the cloud revolution is how it will use the internet to utilize the power of license mobility, a topic we explored in a recent article, to enable you to ‘Bring Your Own License’.
+The next stage of the cloud revolution is how it will use the internet to utilize the power of license mobility, a topic we explored in a [recent article](/blog/2016/03/14/license-mobility/ "License Mobility"), to enable you to *‘Bring Your Own License’*.
 
 Licensing is a complex and often frustrating challenge for companies. Managing your licenses; ensuring their validity and availability to employees as and where they are needed can be a real problem. Whilst a great deal of software distributors and vendors now offer subscription-based licensing models, many companies already have sufficient licenses to cover their requirements and do not need to take on the expense of purchasing a new one.
 
-This is where the concept of ‘Bring Your Own License’ (BYOL) comes to save the day. The essence of the ‘Bring Your Own License’ model is that it enables companies to leverage the power of cloud computing in order to use their existing licenses to deploy and track their license use across the entire company.
+This is where the concept of *‘**B**ring **Y**our **O**wn **L**icense’ (**BYOL**)* comes to save the day. The essence of the ‘Bring Your Own License’ model is that it enables companies to leverage the power of cloud computing in order to use their existing licenses to deploy and track their license use across the entire company.
 
 Our article on license mobility talked about the reasons why companies may need to reassign licenses regularly across devices and this also applies to BYOL. Let us look at the example of a company that uses freelance engineers to complete specific projects over a period of between three and six months. Every engineer is issued with a tablet device to help them complete the project. Different projects and sites call for different software and these needs are changing all of the time.
 
@@ -35,4 +39,4 @@ The key features of BYOL:
 
 - In-depth tracking and reporting of license validity and usage
 
-We hope that this article has gone someway to helping you understand the exciting trend of being able to ‘bring your own license’.
+We hope that this article has gone someway to helping you understand the exciting trend of being able to *‘Bring Your Own License’*.
