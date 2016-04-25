@@ -39,4 +39,5 @@ The key features of BYOL:
 
 - In-depth tracking and reporting of license validity and usage
 
+
 We hope that this article has gone someway to helping you understand the exciting trend of being able to *‘Bring Your Own License’*.
