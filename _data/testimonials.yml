@@ -1,3 +1,7 @@
+#- testimonial: The company culture is much more appreciative of a small business and will treat you with respect and dignity.
+#  author: Konstantin Korotkov
+#  role: CEO, Labs64
+
 - testimonial: Terrific system, immensely scalable, a feature list that is endless.
   author: Julian Philipp
   role: rocklube.eu
@@ -8,11 +12,7 @@
 
 - testimonial: NetLicensing is the perfect solution to my licensing requirements.
   author: Craig Jorgensen
-  role: Pocket Playground
-
-#- testimonial: The company culture is much more appreciative of a small business and will treat you with respect and dignity.
-#  author: Konstantin Korotkov
-#  role: CEO, Labs64
+  role: CEO, Pocket Playground
 
 - testimonial: The on-premise installation is a big advantage for companies that need to keep sensitive information in-house.
   author: Andrei Magyarov
