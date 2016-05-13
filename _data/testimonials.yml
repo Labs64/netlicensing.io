@@ -6,9 +6,13 @@
   author: Ready Brown
   role: Lead Developer, Credit Tracker
 
-- testimonial: The company culture is much more appreciative of a small business and will treat you with respect and dignity.
-  author: Konstantin Korotkov
-  role: CEO, Labs64
+- testimonial: NetLicensing is the perfect solution to my licensing requirements.
+  author: Craig Jorgensen
+  role: Pocket Playground
+
+#- testimonial: The company culture is much more appreciative of a small business and will treat you with respect and dignity.
+#  author: Konstantin Korotkov
+#  role: CEO, Labs64
 
 - testimonial: The on-premise installation is a big advantage for companies that need to keep sensitive information in-house.
   author: Andrei Magyarov
