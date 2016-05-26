@@ -665,6 +665,15 @@
   publisher: Labs64
   creditlink: http://netlicensing.io
 
+- id: netlicensing-stage-banner-em2016
+  source: /img/netlicensing-stage-banner-em2016.png
+  title: "NetLicensing UEFA Euro 2016"
+  caption: "NetLicensing UEFA Euro 2016"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
 - id: netlicensing-bee
   source: /img/blog/netlicensing-bee.png
   title: "NetLicensing Bee"
@@ -1240,6 +1249,15 @@
   author: "Luke Chesser"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/a2NRu2Wxa2o
+
+- id: unsplash-SJWPKMb9u-k
+  source: /img/blog/unsplash-SJWPKMb9u-k.png
+  title: ""
+  caption: ""
+  license: http://creativecommons.org/publicdomain/zero/1.0/
+  author: "Maico Amorim"
+  publisher: "Unsplash"
+  creditlink: https://unsplash.com/photos/SJWPKMb9u-k
 
 - id: netlicensing-licensing-models
   source: /img/blog/netlicensing-licensing-models.png
