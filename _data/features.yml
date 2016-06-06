@@ -19,7 +19,7 @@
   show-default: true
 
 - name: "Integrated Payment Services"
-  description: "Our PayPal integration allows your global customers to pay in their preferred currency."
+  description: "Our PayPal, Stripe and FastSpring integrations allow your global customers to pay in their preferred currency."
   icon: "/img/features/integrated_payment_services.png"
   show-default: true
 
@@ -51,7 +51,7 @@
   icon: "/img/features/product_usage_tracking_and_analytics.png"
 
 - name: "Online Licenses Management Portal"
-  description: "NetLicensing Manage gives you one single management portal for managing all your products, modules and license templates."
+  description: "NetLicensing Management Console gives you one single management portal for managing all your products, modules and license templates."
   icon: "/img/features/online_management_portal.png"
 
 - name: "Security Encryption"
