@@ -5,6 +5,7 @@ description: "NetLicensing allows Software Vendors (ISV) to deliver and activate
 permalink: /
 sitemap:
   priority: 0.8
+no-cache: true
 ---
 <div class="row NL_main_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
