@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Labs64 NetLicensing 2.3.2 is Out!"
+title: "Labs64 NetLicensing 2.3.3 is Out!"
 description: "In this feature push release, we focused on fixing a few specific and annoying bugs and improvements reported by our vendors"
 author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/labs64-netlicensing-2_3_2.png
+  url: /img/blog/labs64-netlicensing-2_3_3.png
 tags:
   - News
   - Announcements
@@ -17,7 +17,7 @@ tags:
 ---
 
 At NetLicensing, our promise to you is to make licensing management painless for software vendors.
-To that end, we are extremely happy to announce that NetLicensing 2.3.2 is now Generally Available!
+To that end, we are extremely happy to announce that NetLicensing 2.3.3 is now Generally Available!
 
 Notable changes in this release:
 
@@ -29,9 +29,9 @@ Notable changes in this release:
 
 * **Labs64 NetLicensing integration with FastSpring** - NetLicensing [integration](https://github.com/Labs64/NetLicensing-FastSpring){:target="_blank"} lets FastSpring to create licenses in NetLicensing, allowing flexible licenses validation via NetLicensing API. Both one-time and subscription models are supported.
 
-* Java Client was updated according to the latest NetLicensing API; **NetLicensing Java Client** v2.3.2 is available immediately from its [GitHub repository](https://github.com/Labs64/NetLicensingClient-java){:target="_blank"} and [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.labs64.netlicensing%22){:target="_blank"} repository
+* Java Client was updated according to the latest NetLicensing API; **NetLicensing Java Client** is available immediately from its [GitHub repository](https://github.com/Labs64/NetLicensingClient-java){:target="_blank"} and [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.labs64.netlicensing%22){:target="_blank"} repository
 
-For a detailed list of changes in this release, see [NetLicensing 2.3.2 Release Notes](https://www.labs64.de/confluence/x/BQDx).
+For a detailed list of changes in this release, see [NetLicensing 2.3.3 Release Notes](https://www.labs64.de/confluence/x/IQDx).
 
 As always, your feedback is important to us - please visit [NetLicensing Website](http://netlicensing.io) - [Leave Feedback](https://netlicensing.uservoice.com/){:target="_blank"}.
 
