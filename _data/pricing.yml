@@ -34,7 +34,7 @@
   free: "Y"
   enterprise: "Y"
 
-- name: "Licensing E-commerce Platform"
+- name: "Licensing eCommerce Platform"
   description: "NetLicensing Shop is an innovative eCommerce solution which provides your customers licenses acquisition possibility for every available licensing models."
   free: "Y"
   enterprise: "Y"
@@ -79,7 +79,7 @@
   free: "<a href='https://www.labs64.de/confluence/x/pgCo'>Online</a> &#8226; <a href='mailto:netlicensing@labs64.com'>eMail</a> (3 days)"
   enterprise: "<a href='https://www.labs64.de/confluence/x/pgCo'>Online</a> &#8226; <a href='mailto:netlicensing@labs64.com'>eMail</a> (4 hours)"
 
-- name: "Service Level Agreement"
-  description: "Get extra guarantee with the Service Level Agreement (SLA): we take care your licensing is up and running >99,9% of the time."
+- name: "<a href='https://www.labs64.com/legal/terms-of-service/netlicensing/service-level-agreement-1-0/'>Service Level Agreement</a>"
+  description: "Get extra guarantee with the Service Level Agreement (SLA): we take care your licensing is up and running 99.0% of the time."
   free: "N"
   enterprise: "Y"
