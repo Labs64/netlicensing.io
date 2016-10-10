@@ -55,7 +55,7 @@ tags:
                     administrators who want to script interactions with the NetLicensing server.</p>
             </div>
             <div class="action col-md-12">
-                <a href="http://io.labs64.com/NetLicensing-API/">Test It</a>
+                <a href="http://io.labs64.com/NetLicensing-API/">API Test Center</a>
                 <a href="https://www.labs64.de/confluence/x/pwCo">RESTful</a>
                 <a href="https://go.netlicensing.io/javadoc/v2/index.html">JavaDoc</a>
             </div>

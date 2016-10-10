@@ -137,7 +137,7 @@ sitemap:
     <div class="col-md-5 col-md-offset-1">
         <h3>All you need out of the box</h3>
         <ul style="margin-left: 20px;">
-            <li>99.9% UPTIME</li>
+            <li>99.0% UPTIME</li>
             <li>FREE support</li>
             <li>FREE maintenance</li>
             <li>FREE updates</li>

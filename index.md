@@ -30,34 +30,47 @@ no-cache: true
 <div class="row">
     <div id="cbp-so-scroller" class="cbp-so-scroller NL_intro">
         <section class="cbp-so-section">
+            <figure class="cbp-so-side cbp-so-side-left">
+                <img src="{{ '/img/netlicensing-promo-04.png' | prepend: site.baseurl | prepend: site.url }}" alt="LaaS - Licensing as a Service">
+            </figure>
+            <article class="cbp-so-side cbp-so-side-right">
+                <h2>Licensing as a Service</h2>
+
+                <span>NetLicensing allows you to deliver and activate product licenses to your customers 24x7x365, without
+                    customer support involvement. With NetLicensing, your licensing back-office can be completely
+                    automated.<br/>In addition, you can manage licenses in the field with NetLicensing Manage.</span>
+            </article>
+        </section>
+
+        <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
-                <h2>Be flexible</h2>
+                <h2>Flexible Licensing Models</h2>
 
                 <span>With NetLicensing you have a choice of ready-to-use licensing models or customized licensing models
                     may be created to suit your unique business needs and goals.
                     NetLicensing has an open architecture that allows easy extension with new licensing models.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-promo-01.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Flex">
+                <img src="{{ '/img/netlicensing-promo-01.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Licensing Models">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-promo-02.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing eCommerce">
+                <img src="{{ '/img/netlicensing-promo-02.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Shop">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
-                <h2>Streamline purchasing process</h2>
+                <h2>NetLicensing Integrated Shop</h2>
 
                 <span>NetLicensing provides a seamless online purchase experience, aligned with the deployed licensing
-                    models.<br/>Our PayPal integration allows your global customers to pay in their preferred currency.
+                    models.<br/>Our PayPal and Stripe integrations allow your global customers to pay in their preferred currency.
                 </span>
             </article>
         </section>
 
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
-                <h2>Integrate fast</h2>
+                <h2>NetLicensing RESTful API</h2>
 
                 <span>NetLicensing makes setup and integration fast, safe and very simple.<br/>
                     So you can get up and running in a few hours.<br/>
@@ -75,19 +88,6 @@ no-cache: true
             <figure class="cbp-so-side cbp-so-side-right">
                 <img src="{{ '/img/netlicensing-promo-03.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Integration">
             </figure>
-        </section>
-
-        <section class="cbp-so-section">
-            <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-promo-04.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Activation">
-            </figure>
-            <article class="cbp-so-side cbp-so-side-right">
-                <h2>Activate over the Internet</h2>
-
-                <span>NetLicensing allows you to deliver and activate product licenses to your customers 24x7x365, without
-                    customer support involvement. With NetLicensing, your licensing back-office can be completely
-                    automated.<br/>In addition, you can manage licenses in the field with NetLicensing Manage.</span>
-            </article>
         </section>
     </div>
 </div>

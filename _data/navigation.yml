@@ -1,4 +1,4 @@
-- title: Features
+- title: Product
   url: "/features/"
 
 - title: Licensing Models
@@ -10,13 +10,10 @@
 - title: Pricing
   url: "/pricing/"
 
-- title: Journal
-  url: "/blog/"
-
 - title: "Log In"
   url: "https://go.netlicensing.io/console/v2/"
   icon: "fa-sign-in"
 
-- title: "Sign Up"
+- title: "Sign Up for Free"
   url: "https://go.netlicensing.io/console/v2/content/register.xhtml"
   class: "NL_button button_main NL_dark_btn"
