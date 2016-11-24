@@ -19,7 +19,7 @@ On this Cyber Monday, we are happy to announce NetLicensing 2.3.4 availability.
 
 Wit this release we are introducing very notable security feature - Licensee Secret, which will allow vendors to improve license misuse significantly.
 
-For a detailed list of changes in this release, see [NetLicensing 2.3.4 Release Notes](https://www.labs64.de/confluence/x/IQDx).
+For a detailed list of changes in this release, see [NetLicensing 2.3.4 Release Notes](https://www.labs64.de/confluence/x/XQDx).
 
 Cyber Monday is on its way, and you don’t want to miss the biggest offer of the year!
 We're offering a 1-year FREE subscription for all new premium features of NetLicensing, which will be introduced in the new year 2017.
