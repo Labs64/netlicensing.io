@@ -9,19 +9,19 @@ no-cache: true
 ---
 <div class="row NL_main_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
-        <h1>Move your Licensing to the Cloud</h1>
-        <span>Labs64 NetLicensing is a first-class solution in the Licensing as a Service (LaaS) sector.
+        <h1 style="color:#333333">Move your Licensing to the Cloud</h1>
+        <span style="color:#333333">Labs64 NetLicensing is a first-class solution in the Licensing as a Service (LaaS) sector.
             Based on open standards, it provides a cost effective, integrated and scalable platform for software vendors
             and developers who want to concentrate on their product’s core functionality instead of spending resources
             on developing an own license management software.</span>
         <div class="row">
             <div class="col-md-4 col-md-offset-2">
                 <a href="https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001"
-                   class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-eye"></i>Live Demo</a>
+                   class="page-link NL_button button_main NL_dark_btn" role="button"><i class="fa fa-eye"></i>Live Demo</a>
             </div>
             <div class="col-md-4">
                 <a href="/getting-started/"
-                   class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-rocket"></i>Getting Started</a>
+                   class="page-link NL_button button_main NL_dark_btn" role="button"><i class="fa fa-rocket"></i>Getting Started</a>
             </div>
         </div>
     </div>
