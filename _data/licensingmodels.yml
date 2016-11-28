@@ -60,10 +60,10 @@
    - Pay-per-click
   description: "Limits the quantity of the license uses, in addition to the license validity. License fees are based on the actual usage.
                 The usage may be defined by various metrics such as CPU load, network bandwidth utilization, or something related to the nature of your application.
-                The billing is tied to the usage model, which can be:
-                Time based: billing on the duration of use
-                Count based: billing on the number of uses
-                Volume based: billing on the amount of resource use"
+                The billing is tied to the usage model, which can be:<br/>
+                Time based: billing on the duration of use<br/>
+                Count based: billing on the number of uses<br/>
+                Volume based: billing on the amount of resource use."
   tags:
    - volume
   status: "PLANNED"
