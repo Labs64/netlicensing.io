@@ -99,6 +99,21 @@
   url: "https://www.labs64.de/confluence/x/IYDt"
 
 
+- name: "Node-Locked"
+  aliases:
+   - Named host
+   - Local
+  description: "Software is licensed for use only on one or more named computer systems. Usually, CPU serial number verification is used to enforce this type of license."
+  tags:
+   - time
+   - volume
+   - feature
+   - user
+  status: "AVAILABLE"
+  img: '/img/licensing-model/licensing-model-node-locked.png'
+  url: "https://www.labs64.de/confluence/x/bADx"
+
+
 - name: "Named User"
   aliases:
    - Personal License

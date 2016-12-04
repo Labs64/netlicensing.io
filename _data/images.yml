@@ -467,6 +467,15 @@
   publisher: Labs64
   creditlink: http://netlicensing.io
 
+- id: licensing-model-node-locked
+  source: /img/licensing-model/licensing-model-node-locked.png
+  title: "Node-Locked"
+  caption: "NetLicensing Licensing Models - Node-Locked"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
 - id: licensing-model-pay-per-use
   source: /img/licensing-model/licensing-model-pay-per-use.png
   title: "Pay-per-Use"
