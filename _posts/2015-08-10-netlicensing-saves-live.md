@@ -11,8 +11,7 @@ tags:
   - Flyer
 author:
   name: TechExpress
-  url: http://tech-x.press/2015/08/10/NetLicensing-saves-live/
-canonical: http://tech-x.press/2015/08/10/NetLicensing-saves-live/
+  url: http://tech-x.press
 ---
 
 We have always known that NetLicensing is a great product. With the ability to save vendors of all sizes; time, money and effort. Now, it would seem NetLicensing can even save actual lives! We recently received this story in an email from one of our customers, and thought that we would share it with you – maybe NetLicensing could save your (work)life?
