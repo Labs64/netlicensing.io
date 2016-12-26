@@ -19,7 +19,7 @@ Let us begin with some good Agile Book recommendations! Here is a short list of 
 
 <a href="http://www.amazon.com/Agile-Software-Development-SCRUM-Schwaber/dp/0130676349/ref=pd_bbs_sr_2/103-1604320-4330200?ie=UTF8&s=books&qid=1177366449&sr=8-2" target="_blank" rel="nofollow">Agile Software Development with Scrum</a> Let this be the first &#8216;Scrum&#8217; book you read!
 
-<a href="http://www.amazon.com/Agile-Project-Management-Microsoft-Professional/dp/073561993X/ref=pd_bbs_sr_1/103-1604320-4330200?ie=UTF8&s=books&qid=1177366449&sr=8-1" target="_blank" rel="nofollow">Agile Project Management with Scrum</a> Lot of case studies for the Scrum Master in you…
+<a href="https://www.amazon.com/Agile-Project-Management-Developer-Practices-ebook/dp/B00JDMPOZW/ref=sr_1_1?ie=UTF8&qid=1482785336&sr=8-1&keywords=Agile+Project+Management+with+Scrum" target="_blank" rel="nofollow">Agile Project Management with Scrum</a> Lot of case studies for the Scrum Master in you…
 
 <a href="http://www.amazon.com/Agile-Iterative-Development-Managers-Guide/dp/0131111558/ref=pd_bbs_sr_1/103-1604320-4330200?ie=UTF8&s=books&qid=1177367511&sr=8-1" target="_blank" rel="nofollow">Agile and Iterative Development: A Manager&#8217;s Guide</a> Overview of Agile Methods for the Management types. Good reading to select which method to use.
 
