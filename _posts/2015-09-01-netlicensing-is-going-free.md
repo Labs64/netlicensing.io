@@ -12,7 +12,7 @@ tags:
   - Free
 author:
   name: TechExpress
-  url: http://tech-x.press/2015/09/01/netlicensing-is-going-free/
+  url: http://tech-x.press
 ---
 
 Labs64 NetLicensing - [Online License Management Service](http://netlicensing.io) is taking a huge step forward in making it easy for vendors to sign up with their licensing management service.
