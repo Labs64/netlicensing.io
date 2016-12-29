@@ -66,9 +66,9 @@
                 Volume based: billing on the amount of resource use."
   tags:
    - volume
-  status: "PLANNED"
+  status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-pay-per-use.png'
-  url: "https://www.labs64.de/confluence/x/tgCo"
+  url: "https://www.labs64.de/confluence/x/uQCo"
 
 
 - name: "Standard"
