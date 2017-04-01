@@ -31,14 +31,14 @@ no-cache: true
     <div id="cbp-so-scroller" class="cbp-so-scroller NL_intro">
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-promo-04.png' | prepend: site.baseurl | prepend: site.url }}" alt="LaaS - Licensing as a Service">
+                <img src="{{ '/img/netlicensing-landing-laas.png' | prepend: site.baseurl | prepend: site.url }}" alt="LaaS - Licensing as a Service">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Licensing as a Service</h2>
 
                 <span>NetLicensing allows you to deliver and activate product licenses to your customers 24x7x365, without
                     customer support involvement. With NetLicensing, your licensing back-office can be completely
-                    automated.<br/>In addition, you can manage licenses in the field with NetLicensing Manage.</span>
+                    automated.<br/>In addition, you can manage licenses in the field with NetLicensing Management Console.</span>
             </article>
         </section>
 
@@ -51,13 +51,13 @@ no-cache: true
                     NetLicensing has an open architecture that allows easy extension with new licensing models.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-promo-01.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Licensing Models">
+                <img src="{{ '/img/netlicensing-landing-licensing-models.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Licensing Models">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-promo-02.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Shop">
+                <img src="{{ '/img/netlicensing-landing-shop.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Shop">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>NetLicensing Integrated Shop</h2>
@@ -86,7 +86,7 @@ no-cache: true
 
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-promo-03.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Integration">
+                <img src="{{ '/img/netlicensing-landing-api.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Integration">
             </figure>
         </section>
     </div>
