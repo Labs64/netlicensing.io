@@ -557,6 +557,42 @@
   publisher: Labs64
   creditlink: http://netlicensing.io
 
+- id: netlicensing-landing-api
+  source: /img/netlicensing-landing-api.png
+  title: "NetLicensing API"
+  caption: "NetLicensing RESTful API"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id: netlicensing-landing-laas
+  source: /img/netlicensing-landing-laas.png
+  title: "NetLicensing LaaS"
+  caption: "Licensing as a Service"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id: netlicensing-landing-licensing-models
+  source: /img/netlicensing-landing-licensing-models.png
+  title: "NetLicensing Licensing Models"
+  caption: "Flexible Licensing Models"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
+- id: netlicensing-landing-shop
+  source: /img/netlicensing-landing-shop.png
+  title: "NetLicensing Shop"
+  caption: "NetLicensing Integrated Shop"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
 - id: netlicensing-stage-banner-01
   source: /img/netlicensing-stage-banner-01.png
   title: "NetLicensing Stage"
