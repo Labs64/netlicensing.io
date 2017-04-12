@@ -75,6 +75,8 @@ sitemap:
                 <input type="text" name="_gotcha" style="display:none"/>
 
                 <div class="form-group">
+                    <input type="email" name="email" class="form-control" placeholder="Email" id="email"
+                           required data-validation-required-message="Please enter your email address.">
                     <input type="text" name="feature" class="form-control" placeholder="A one-line licensing model description"
                            id="licensing-model"
                            data-validation-required-message="Please enter a licensing model description.">
