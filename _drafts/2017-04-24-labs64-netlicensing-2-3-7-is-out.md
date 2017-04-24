@@ -23,9 +23,9 @@ At NetLicensing, our promise to you is to make licensing management painless for
 
 Notable changes in this release:
 
-* Starting January 1, 2015 the new telecommunications, broadcasting and electronic services [regulation](http://ec.europa.eu/taxation_customs/business/vat/telecommunications-broadcasting-electronic-services_en){:target="_blank"} is applicable and mandatory for all digital goods and services. In order to satisfy these rules we’ve introduced **VAT/Tax ID Support** in NetLicensing Shop.
+* Effective January 1, 2015, the new telecommunications, broadcasting and electronic services [regulation](http://ec.europa.eu/taxation_customs/business/vat/telecommunications-broadcasting-electronic-services_en){:target="_blank"} is changed, and mandatory for all businesses which are providing digital goods and services to EU residents. In order to satisfy these rules and minimize implications on vendor side, we’ve introduced **VAT/Tax ID Support** in NetLicensing Shop.
 * **Transfer Licenses** between licensees allowing flexible assets reallocation and perfectly extending stateless integration of external e-Commerce systems via [NetLicensing Gateway](https://github.com/Labs64/NetLicensing-Gateway){:target="_blank"}.
-* As usual we implemented many improvements and bug fixes across NetLicensing Modules: *NetLicensing Core*, *NetLicensing Management Console*, *NetLicensing Shop*, *NetLicensing Gateway*, *NetLicensing Client Libraries* and *NetLicensing Documentation*.
+* As usual we've implemented many improvements and bug fixes across NetLicensing Modules: *NetLicensing Core*, *NetLicensing Management Console*, *NetLicensing Shop*, *NetLicensing Gateway*, *NetLicensing Client Libraries*, and *NetLicensing Documentation*.
 
 For a detailed list of changes in this release, see [NetLicensing 2.3.7 Release Notes](https://www.labs64.de/confluence/x/jgHx).
 
