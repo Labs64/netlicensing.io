@@ -1,3 +1,29 @@
+---
+layout: post
+title: "EU VAT rules 2015 - Infographic"
+description: "NetLicensing will make you ready for these regulations and establish your VAT configuration and purchasing process as simple as possible"
+author:
+  name: NetLicensing
+  url: http://netlicensing.io
+image:
+  url: /img/blog/labs64-netlicensing-2_3_3.png
+tags:
+  - News
+  - Announcements
+  - Shop
+  - NetLicensing Shop
+  - EU
+  - VAT
+  - VAT2015
+  - Tax
+  - MOSS
+  - Taxation
+  - Digital Goods
+  - eCommerce
+  - Transfer Licenses
+  - Licensee
+  - NetLicensing Gateway
+---
 Effective 1 January 2015 tax regulations are changed for the online sale of telecoms, broadcasting and digital content to private individuals who are resident in the European Union (EU).
 Tax became payable in the country where the customer resides. Anyone selling digital goods such as newspapers, music, software, games or services (SaaS) within the European Union is affected.
 
