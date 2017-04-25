@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: http://netlicensing.io
 image:
-  url: /img/blog/labs64-netlicensing-2_3_3.png
+  url: /img/blog/blog-placeholder.jpg
 tags:
   - News
   - Announcements
