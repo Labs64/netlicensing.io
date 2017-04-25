@@ -12,8 +12,12 @@ tags:
   - Announcements
   - Shop
   - NetLicensing Shop
+  - EU
   - VAT
+  - VAT2015
   - Tax
+  - MOSS
+  - Taxation
   - Digital Goods
   - eCommerce
   - Transfer Licenses
