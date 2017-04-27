@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Labs64 NetLicensing 2.3.7 is Out!"
-description: "In order to satisfy the new telecommunications, broadcasting and electronic services rules we’ve introduced VAT/Tax ID Support in NetLicensing Shop"
+description: "In order to satisfy the new telecommunications, broadcasting and electronic services rules we’ve introduced VAT/Sales Tax ID Support in NetLicensing Shop"
 author:
   name: NetLicensing
   url: http://netlicensing.io
@@ -29,8 +29,7 @@ At NetLicensing, our promise to you as a software vendor is to make licensing ma
 
 Major changes in this release:
 
-
-* Effective January 1, 2015, the [telecommunications, broadcasting and electronic services regulations](http://ec.europa.eu/taxation_customs/business/vat/telecommunications-broadcasting-electronic-services_en){:target="_blank"} have changed, and the new regulations are mandatory for all businesses which are providing digital goods and services to EU residents. In order to comply with the new regulations and minimize the impact of the changes on you as a software vendor, we’ve introduced **VAT / Sales tax support** in NetLicensing Shop.
+* Effective January 1, 2015, the [telecommunications, broadcasting and electronic services regulations](http://ec.europa.eu/taxation_customs/business/vat/telecommunications-broadcasting-electronic-services_en){:target="_blank"} have changed, and are mandatory for all businesses which are providing digital goods and services to EU residents. In order to comply with the new regulations and minimize the impact of the changes on you as a software vendor, we’ve introduced **VAT / Sales Tax support** in NetLicensing Shop.
 * **Licenses transfer** between licensees allows flexible assets reassignment and is a perfect instrument for delivering new licenses to existing customers when stateless integration of external e-Commerce systems via [NetLicensing Gateway](https://github.com/Labs64/NetLicensing-Gateway){:target="_blank"} is used.
 * As usual, we've implemented many improvements and bug fixes across all NetLicensing components: *Core*, *Management Console*, *Shop*, *Gateway*, *Client Libraries*, and *Documentation*.
 
