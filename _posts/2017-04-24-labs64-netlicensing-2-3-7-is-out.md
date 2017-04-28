@@ -14,6 +14,8 @@ tags:
   - NetLicensing Shop
   - EU
   - VAT
+  - MwSt
+  - Mehrwertsteuer
   - VAT2015
   - Tax
   - MOSS
