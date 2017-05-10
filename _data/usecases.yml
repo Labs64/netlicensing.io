@@ -1,29 +1,35 @@
-- name: "Pricing Plans"
+- name: "Software Licensing"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu velit, ultricies a pharetra et, sagittis sed magna. Vestibulum dapibus, augue at aliquam commodo, lacus elit eleifend nisi, vitae congue turpis quam at velit."
 
-- name: "Use Case 2"
+- name: "Pricing Tables"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu velit, ultricies a pharetra et, sagittis sed magna. Vestibulum dapibus, augue at aliquam commodo, lacus elit eleifend nisi, vitae congue turpis quam at velit."
 
-- name: "Use Case 3"
+- name: "Access Control"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu velit, ultricies a pharetra et, sagittis sed magna. Vestibulum dapibus, augue at aliquam commodo, lacus elit eleifend nisi, vitae congue turpis quam at velit."
 
-- name: "Use Case 4"
+- name: "Ticketing"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu velit, ultricies a pharetra et, sagittis sed magna. Vestibulum dapibus, augue at aliquam commodo, lacus elit eleifend nisi, vitae congue turpis quam at velit."
 
-- name: "Use Case 5"
+- name: "eSIM features activation"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu velit, ultricies a pharetra et, sagittis sed magna. Vestibulum dapibus, augue at aliquam commodo, lacus elit eleifend nisi, vitae congue turpis quam at velit."
 
-- name: "Use Case 6"
+- name: "Gaming"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu velit, ultricies a pharetra et, sagittis sed magna. Vestibulum dapibus, augue at aliquam commodo, lacus elit eleifend nisi, vitae congue turpis quam at velit."
 
-- name: "Use Case 7"
+- name: "eBooks rent"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu velit, ultricies a pharetra et, sagittis sed magna. Vestibulum dapibus, augue at aliquam commodo, lacus elit eleifend nisi, vitae congue turpis quam at velit."
 
-- name: "Use Case 8"
+- name: "IoT features activation"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu velit, ultricies a pharetra et, sagittis sed magna. Vestibulum dapibus, augue at aliquam commodo, lacus elit eleifend nisi, vitae congue turpis quam at velit."
 
-- name: "Use Case 9"
+- name: "Connected cars services enablement"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu velit, ultricies a pharetra et, sagittis sed magna. Vestibulum dapibus, augue at aliquam commodo, lacus elit eleifend nisi, vitae congue turpis quam at velit."
 
-- name: "Use Case 10"
+- name: "Microsoft Office plugins"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu velit, ultricies a pharetra et, sagittis sed magna. Vestibulum dapibus, augue at aliquam commodo, lacus elit eleifend nisi, vitae congue turpis quam at velit."
+
+- name: "Smart TV"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu velit, ultricies a pharetra et, sagittis sed magna. Vestibulum dapibus, augue at aliquam commodo, lacus elit eleifend nisi, vitae congue turpis quam at velit."
+
+- name: "Cross-Platform license sharing"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu velit, ultricies a pharetra et, sagittis sed magna. Vestibulum dapibus, augue at aliquam commodo, lacus elit eleifend nisi, vitae congue turpis quam at velit."
