@@ -88,3 +88,9 @@
   description: "Get extra guarantee with the Service Level Agreement (SLA): we take care your licensing is up and running 99.0% of the time."
   free: "N"
   enterprise: "Y"
+
+- name: "Attribution required"
+  description: "We request that you place NetLicensing attribution on your main page or/and in your product when you use a FREE forever plan."
+  free: "Y"
+  enterprise: "N"
+  
