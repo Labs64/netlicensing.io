@@ -1,5 +1,10 @@
 - name: "Products"
-  free: "Unlimited"
+  free: "1 product"
+  enterprise: "Unlimited"
+
+- name: "Licensees"
+  description: "Licensee is usually an end customer, capable of obtaining licenses for the product."
+  free: "1000 / product"
   enterprise: "Unlimited"
 
 - name: "Licenses"
@@ -7,7 +12,7 @@
   enterprise: "Unlimited"
 
 - name: "Activations"
-  free: "Unlimited"
+  free: "1000 / month"
   enterprise: "Unlimited"
 
 - name: "Validations"
@@ -45,7 +50,7 @@
   enterprise: "Y"
 
 - name: "Shop Customization"
-  free: "Y"
+  free: "N"
   enterprise: "Y"
 
 - name: "RESTful API and Integration"
@@ -63,7 +68,7 @@
   enterprise: "No restrictions"
 
 - name: "NetLicensing Agent"
-  free: "Y"
+  free: "N"
   enterprise: "Y"
 
 - name: "Hosting Options"
