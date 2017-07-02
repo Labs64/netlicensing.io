@@ -16,7 +16,7 @@ no-cache: true
             on developing an own license management software.</span>
         <div class="row">
             <div class="col-md-4 col-md-offset-2">
-                <a href="https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001"
+                <a href="/demo-optin/"
                    class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-eye"></i>Live Demo</a>
             </div>
             <div class="col-md-4">
