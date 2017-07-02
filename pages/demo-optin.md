@@ -36,7 +36,7 @@ sitemap:
       	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
       </style>
       <div id="mc_embed_signup">
-      <form action="//netlicensing.us8.list-manage.com/subscribe/post?u=8a0e57c2b59ea992f9cebd5f7&amp;id=d953a4df01" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <form action="//netlicensing.us8.list-manage.com/subscribe/post?u=8a0e57c2b59ea992f9cebd5f7&amp;id=dee5fb5f57" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           <div id="mc_embed_signup_scroll">
       	<h3>Subscribe to our newsletter and stay up to date with the latest NetLicensing news!</h3>
       <div class="mc-field-group">
@@ -51,7 +51,7 @@ sitemap:
       		<div class="response" id="mce-error-response" style="display:none"></div>
       		<div class="response" id="mce-success-response" style="display:none"></div>
       	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8a0e57c2b59ea992f9cebd5f7_d953a4df01" tabindex="-1" value=""></div>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8a0e57c2b59ea992f9cebd5f7_dee5fb5f57" tabindex="-1" value=""></div>
           <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
           </div>
           <p>We guarantee 100% privacy. Your information will not be shared.</p>
