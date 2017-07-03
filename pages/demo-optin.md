@@ -4,11 +4,13 @@ title: "NetLicensing FREE Demo / Newsletter"
 description: "Stay up to date with NetLicensing news and information by subscribing to our newsletter."
 permalink: "/demo-optin/"
 tags:
-- NetLicensing
 - demo
 - Management Console
 - newsletter
 - subscribe
+- announcement
+- news
+- email
 image:
   url: /img/netlicensing-promo-01.png
 sitemap:
