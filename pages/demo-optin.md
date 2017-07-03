@@ -9,6 +9,8 @@ tags:
 - Management Console
 - newsletter
 - subscribe
+image:
+  url: /img/netlicensing-promo-01.png
 sitemap:
   priority: 0.4
   images:
