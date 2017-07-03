@@ -58,7 +58,7 @@ sitemap:
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8a0e57c2b59ea992f9cebd5f7_dee5fb5f57" tabindex="-1" value=""></div>
           <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
           </div>
-          <p>We guarantee 100% privacy. Your information will not be shared.</p>
+          <p>Your privacy is important to us - we will not share your private data with anyone.</p>
           <a style="font-size: small;" href="https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001&utm_source=netlicensing.io_demo_optin&utm_medium=website&utm_campaign=netlicensing.io_demo_optin&utm_content=opt-in">No thanks, just let me to the demo.</a>
       </form>
       </div>
