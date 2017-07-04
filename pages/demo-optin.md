@@ -56,7 +56,7 @@ sitemap:
       		<div class="response" id="mce-success-response" style="display:none"></div>
       	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8a0e57c2b59ea992f9cebd5f7_dee5fb5f57" tabindex="-1" value=""></div>
-          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+          <div class="clear"><input type="submit" value="Subscribe and open demo" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
           </div>
           <p>Your privacy is important to us - we will not share your private data with anyone.</p>
           <a style="font-size: small;" href="https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001&utm_source=netlicensing.io_demo_optin&utm_medium=website&utm_campaign=netlicensing.io_demo_optin&utm_content=opt-in">No thanks, just let me to the demo.</a>
