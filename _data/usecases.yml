@@ -1,44 +1,41 @@
 - name: "Software Licensing"
-  description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start."
+  description: "Protect and monetize your software products and services by enabling flexible licensing models, track software usage, and verify performance of the chosen licensing models using A/B testing."
 
 - name: "Pricing Tables"
-  description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start."
+  description: "Integrate pricing tables with NetLicensing to allow your customers seamless pricing plan acquisition and great experience with enabling of the your service(-s) options."
 
 - name: "Access Control"
-  description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start."
+  description: "Easily control access and permissions to the resources or properties."
 
 - name: "Ticketing"
-  description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start."
+  description: "Evolve new ticketing possibilities for your customers by enabling Subscription, Per-Event or even Floating/Concurrent access to the events."
 
-- name: "eSIM features activation"
-  description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start."
+- name: "eSIM Features Enablement"
+  description: "Offer new possibilities for your customers by simply features activation and management."
 
 - name: "Gaming"
-  description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start."
+  description: "Offer in-game purchases to unlock new levels and assets, as well as possibility to interface with third-party gears."
 
-- name: "eBooks rent"
-  description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start."
+- name: "eBooks Rent"
+  description: "Allow your readers to rent and access eBooks, digital media and other unique content."
 
-- name: "IoT features activation"
-  description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start."
+- name: "IoT Features Activation"
+  description: "Enable Internet-of-Things features easy and on-demand."
 
-- name: "Connected cars services enablement"
-  description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start."
+- name: "Connected Cars Services"
+  description: "Extend offerings to your customers by enabling of streaming entertainment and downloading navigation data, communication with manufacturers, dealerships and insurance companies to keep operation at maximum efficiency and safety."
 
-- name: "Microsoft Office plugins"
-  description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start."
+- name: "Proprietary Software Plugins"
+  description: "Monetize your plugins for the proprietary and open source software, e.g. Microsoft Office, AutoCAD, WordPress, etc."
 
 - name: "Smart TV"
-  description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start."
+  description: "Offer new possibilities for your customers, such as paid channels, additional TV-Set enhancements and renting of the shows and movies."
 
-- name: "Cross-Platform license sharing"
-  description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start."
-
-- name: "Connected Car"
-  description: "In addition to streaming entertainment and downloading navigation data, it’s possible now for cars to communicate with manufacturers, dealerships and insurance companies – keeping these automobiles operating at maximum efficiency and safety. Wireless technology can even turn your car into a mobile hotspot for other devices."
+- name: "Cross-Platform License Sharing"
+  description: "Achieve brilliant customer experience by allowing cross-platform and devices usage of your services."
 
 - name: "Smart Metering"
-  description: "Meters of today and tomorrow need access to communications technologies to keep them connected."
+  description: "Ease enabling of features on smart metering devices."
 
 - name: "Connected Home"
-  description: "For manufacturers, this new Internet of Things represents an opportunity to expand product offerings in a way that was never possible before, providing everyday households with an edge of convenience and security."
+  description: "Expand connected & smart home product offerings in a way that was never possible before, providing everyday households with an edge of convenience and security."
