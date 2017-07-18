@@ -1,7 +1,7 @@
 - name: "Software Licensing"
   description: "Protect and monetize your software products and services by enabling flexible licensing models, track software usage, and verify performance of the chosen licensing models using A/B testing."
 
-- name: "Pricing Tables"
+- name: "Pricing Tables & Membership Plans"
   description: "Integrate pricing tables with NetLicensing to allow your customers seamless pricing plan acquisition and great experience with enabling of the your service(-s) options."
 
 - name: "Access Control"
