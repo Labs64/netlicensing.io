@@ -35,7 +35,7 @@ sitemap:
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
-        <h1>NetLicensing Features</h1>
+        <h1>All the features needed<br/>for your business process</h1>
         <span>World class features, integrated to save you time & money.</span>
     </div>
 </div>

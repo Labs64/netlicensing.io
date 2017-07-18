@@ -18,8 +18,8 @@ sitemap:
 ---
 <div class="row NL_banner">
 	<div class="col-md-6 col-md-offset-3 NL_about_page">
-		<h1>Case Studies</h1>
-		<span>Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start.</span>
+		<h1>NetLicensing Case Studies</h1>
+		<span>Whether you're looking for inspiration, business models, or precedents,<br/>the NetLicensing Case Studies are a perfect place to start.</span>
 	</div>
 </div>
 

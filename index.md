@@ -9,11 +9,8 @@ no-cache: true
 ---
 <div class="row NL_main_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
-        <h1>Move your Licensing to the Cloud</h1>
-        <span>Labs64 NetLicensing is a first-class solution in the Licensing as a Service (LaaS) sector.
-            Based on open standards, it provides a cost effective, integrated and scalable platform for software vendors
-            and developers who want to concentrate on their product’s core functionality instead of spending resources
-            on developing an own license management software.</span>
+        <h1>Monetize your digital products and services</h1>
+        <span>Labs64 NetLicensing is a first-class solution in the <i>Licensing-as-a-Service (LaaS)</i> sector. Based on open standards, it provides a cost effective, integrated and scalable platform for software vendors and developers who want to concentrate on their product’s core functionality instead of spending resources on developing an own license management software.</span>
         <div class="row">
             <div class="col-md-4 col-md-offset-2">
                 <a href="/demo-optin/"
@@ -31,24 +28,20 @@ no-cache: true
     <div id="cbp-so-scroller" class="cbp-so-scroller NL_intro">
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-landing-laas.png' | prepend: site.baseurl | prepend: site.url }}" alt="LaaS - Licensing as a Service">
+                <img src="{{ '/img/netlicensing-landing-laas.png' | prepend: site.baseurl | prepend: site.url }}" alt="LaaS - Licensing-as-a-Service">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
-                <h2>Licensing as a Service</h2>
+                <h2>Simplify license activation</h2>
 
-                <span>NetLicensing allows you to deliver and activate product licenses to your customers 24x7x365, without
-                    customer support involvement. With NetLicensing, your licensing back-office can be completely
-                    automated.<br/>In addition, you can manage licenses in the field with NetLicensing Management Console.</span>
+                <span>NetLicensing allows you to deliver and activate product licenses to your customers 24x7x365, without customer support involvement. With NetLicensing, your licensing back-office can be completely automated.<br/> In addition, you can manage licenses in the field with NetLicensing Management Console.</span>
             </article>
         </section>
 
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
-                <h2>Flexible Licensing Models</h2>
+                <h2>Maximize revenue with flexible licensing models</h2>
 
-                <span>With NetLicensing you have a choice of ready-to-use licensing models or customized licensing models
-                    may be created to suit your unique business needs and goals.
-                    NetLicensing has an open architecture that allows easy extension with new licensing models.</span>
+                <span>WWith NetLicensing you have a choice of ready-to-use licensing models or customized licensing models may be created to suit your unique business needs and goals. NetLicensing has an open architecture that allows easy extension with new licensing models.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
                 <img src="{{ '/img/netlicensing-landing-licensing-models.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Licensing Models">
@@ -60,21 +53,20 @@ no-cache: true
                 <img src="{{ '/img/netlicensing-landing-shop.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Shop">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
-                <h2>NetLicensing Integrated Shop</h2>
+                <h2>Reduce your e-Commerce complexity</h2>
 
-                <span>NetLicensing provides a seamless online purchase experience, aligned with the deployed licensing
-                    models.<br/>Our PayPal and Stripe integrations allow your global customers to pay in their preferred currency.
+                <span>NetLicensing integrated shop provides a seamless online purchase experience, aligned with the deployed licensing models.<br/>Our PayPal and Stripe integrations allow your global customers to pay in their preferred currency.
                 </span>
             </article>
         </section>
 
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
-                <h2>NetLicensing RESTful API</h2>
+                <h2>Automate your processes</h2>
 
-                <span>NetLicensing makes setup and integration fast, safe and very simple.<br/>
+                <span>NetLicensing RESTful API makes setup and integration fast, safe and very simple.<br/>
                     So you can get up and running in a few hours.<br/>
-                    Our NetLicensing API gives you a full control over all existing licensing entities, so NetLicensing can be easily integrated into your business processes, ERP, CRM, e-Commerce or your IoT device.
+                    NetLicensing API gives you a full control over all existing licensing entities, so NetLicensing can be easily integrated into your business processes, ERP, CRM, e-Commerce or your IoT device.
                 </span>
 
                 <div class="col-md-8 col-md-offset-4 NL_dialog">

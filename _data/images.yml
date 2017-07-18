@@ -569,7 +569,7 @@
 - id: netlicensing-landing-laas
   source: /img/netlicensing-landing-laas.png
   title: "NetLicensing LaaS"
-  caption: "Licensing as a Service"
+  caption: "Licensing-as-a-Service"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
   author: Labs64
   publisher: Labs64

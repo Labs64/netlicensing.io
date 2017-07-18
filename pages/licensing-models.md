@@ -27,7 +27,7 @@ sitemap:
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
-        <h1>Licensing Models</h1>
+        <h1>Licensing models tailored to your needs</h1>
         <span>NetLicensing is sophisticated enough to cover even the most outlandish licensing models: from single-user to network overflow licenses. NetLicensing provides software vendors with the ability to map/combine numerous licensing models.</span>
     </div>
 </div>

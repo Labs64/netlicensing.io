@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NetLicensing Can Save Lives"
-description: "Labs64 NetLicensing is a first-class solution in the Licensing as a Service (LaaS) sector"
+description: "Labs64 NetLicensing is a first-class solution in the Licensing-as-a-Service (LaaS) sector"
 image:
   url: /img/blog/netlicensing-bee.png
   hide: true

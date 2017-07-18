@@ -12,8 +12,8 @@ tags:
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
-        <h1>Pick your NetLicensing plan</h1>
-        <span>Whether you’re just getting started or are ready to bring licensing to your enterprise, there’s a NetLicensing level that’s right for you.</span>
+        <h1>Choose optimal pricing for your scale</h1>
+        <span>Whether you’re just getting started or are ready to bring licensing to your enterprise,<br/>there is a NetLicensing level that’s right for you.</span>
     </div>
 </div>
 

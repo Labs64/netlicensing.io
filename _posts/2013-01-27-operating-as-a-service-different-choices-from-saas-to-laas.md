@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Operating as a Service&#58; Different Choices from SaaS to LaaS"
-description: "Our favorite new term is: LaaS - Licensing as a Service"
+description: "Our favorite new term is: LaaS - Licensing-as-a-Service"
 author:
   name: NetLicensing
   url: http://netlicensing.io
@@ -35,7 +35,7 @@ Some of the recent launches and names to be aware of are:
   * **PaaS:** The “Platform as a Service” offering is a type of cloud computing that lets you develop your software or applications by using Web-based tools and libraries from the PaaS provider. Most deployments incorporate renting hardware, operating systems, storage and even capacity via the cloud. You’re essentially renting virtualized, scalable servers so you can develop and test new software.
   * **MaaS:** “Monitoring as a Service” is one of the latest cloud offerings to arrive, but it will play a significant role in the future of enterprise. MaaS allows companies to monitor applications across their entire deployment without needing to be in the same area as the deployment. Initial MaaS services have focused on monitoring power consumption and utilities; but newer models are managing applications or services to ensure you’re fully operational as you move computing power to the cloud. MaaS is helping companies adopt many other “aaS” solutions.
 
-Our favorite new term, however, is **LaaS**: [Licensing as a Service](http://netlicensing.io "NetLicensing - Innovative Licensing"). A LaaS platform will replace your traditional license management by removing the need to store and install applications with specific license keys. Instead, you’ll use a dashboard – typically Web browser based – to validate your products and licenses as the software is used.
+Our favorite new term, however, is **LaaS**: [Licensing-as-a-Service](http://netlicensing.io "NetLicensing - Innovative Licensing"). A LaaS platform will replace your traditional license management by removing the need to store and install applications with specific license keys. Instead, you’ll use a dashboard – typically Web browser based – to validate your products and licenses as the software is used.
 
 LaaS services can be used by software vendors to continually validate the deployments of their customers by monitoring usage locations and platforms. This can ensure that a company is paying for all of the licenses it needs by providing an easy-to-use management platform. Adopting a LaaS platform frees up software vendors from having to develop their own content and license management, so they can focus on further development of the core software that customers are purchasing.
 
