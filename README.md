@@ -37,6 +37,8 @@ $ docker-compose down
 Following files, directories and their contents are copyright Labs64. You may not reuse anything therein without permission:
 
 * _case-studies/
+* _drafts/
+* _posts/
 * img/
 * pages/
 * resources/
