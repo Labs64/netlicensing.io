@@ -1366,6 +1366,22 @@ a.NL_cases_card:hover .view-info p {
     text-align: center;
 }
 
+article.cbp-so-side-right {
+    text-align: left;
+}
+
+article.cbp-so-side-right h2 {
+    text-align: left;
+}
+
+article.cbp-so-side-left {
+    text-align: right;
+}
+
+article.cbp-so-side-left h2 {
+    text-align: right;
+}
+
 .cbp-so-side-right img {
     float: left;
     width: 500px;

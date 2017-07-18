@@ -41,7 +41,7 @@ no-cache: true
             <article class="cbp-so-side cbp-so-side-left">
                 <h2>Maximize revenue with flexible licensing models</h2>
 
-                <span>WWith NetLicensing you have a choice of ready-to-use licensing models or customized licensing models may be created to suit your unique business needs and goals. NetLicensing has an open architecture that allows easy extension with new licensing models.</span>
+                <span>With NetLicensing you have a choice of ready-to-use licensing models or customized licensing models may be created to suit your unique business needs and goals. NetLicensing has an open architecture that allows easy extension with new licensing models.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
                 <img src="{{ '/img/netlicensing-landing-licensing-models.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Licensing Models">
