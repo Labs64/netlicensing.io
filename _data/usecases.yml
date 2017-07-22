@@ -1,8 +1,8 @@
 - name: "Software Licensing"
-  description: "Protect and monetize your software products and services by enabling flexible licensing models, track software usage, and verify performance of the chosen licensing models using A/B testing."
+  description: "Protect and monetize your software products and services by enabling flexible licensing models, track software usage, and verify the performance of the chosen licensing models using A/B testing."
 
 - name: "Pricing Tables & Membership Plans"
-  description: "Integrate pricing tables with NetLicensing to allow your customers seamless pricing plan acquisition and great experience with enabling of the your service(-s) options."
+  description: "Integrate pricing tables with NetLicensing to allow your customers seamless pricing plan acquisition and great experience with enabling of your service(-s) options."
 
 - name: "Access Control"
   description: "Easily control access and permissions to the resources or properties."
@@ -14,10 +14,10 @@
   description: "Offer new possibilities for your customers by simply features activation and management."
 
 - name: "Gaming"
-  description: "Offer in-game purchases to unlock new levels and assets, as well as possibility to interface with third-party gears."
+  description: "Offer in-game purchases to unlock new levels and assets, as well as the possibility to interface with third-party gears."
 
 - name: "eBooks Rent"
-  description: "Allow your readers to rent and access eBooks, digital media and other unique content."
+  description: "Allow your readers to rent and access eBooks, digital media, and other unique content."
 
 - name: "IoT Features Activation"
   description: "Enable Internet-of-Things features easy and on-demand."
