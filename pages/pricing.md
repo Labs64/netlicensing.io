@@ -39,7 +39,7 @@ tags:
 
     <div class="col-md-4">
         <div class="NL_price_features NL_price_free">
-            <h3><strong>FREE forever</strong><br/>built for freelancers and start ups</h3>
+            <h3>Quick and simple for individuals and startups</h3>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
@@ -56,7 +56,7 @@ tags:
             </ul>
 
             <div class="show-more" style="padding: 5px 0 10px 0;">
-                <a href="https://go.netlicensing.io/console/v2/content/register.xhtml"
+                <a href="https://go.netlicensing.io/console/v2/content/register.xhtml?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=free"
                    class="NL_button button_main NL_dark_btn">Register Now for FREE</a>
             </div>
         </div>
@@ -64,7 +64,7 @@ tags:
 
     <div class="col-md-4">
         <div class="NL_price_features NL_price_enterprise">
-            <h3><strong>Enterprise</strong><br/>built for businesses and enterprises</h3>
+            <h3>Advanced functionality and customization for specific requirements</h3>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
@@ -81,7 +81,7 @@ tags:
             </ul>
 
             <div class="show-more" style="padding: 5px 0 10px 0;">
-                <a href="/contact/" class="NL_button button_main NL_dark_btn">Contact Us</a>
+                <a href="/contact/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=enterprise" class="NL_button button_main NL_dark_btn">Contact Us</a>
             </div>
         </div>
     </div>
@@ -102,7 +102,7 @@ tags:
     <div class="col-md-4 col-md-offset-1">
         <h3>Do I have to pay to use your service?</h3>
 
-        <p>No. There is a Free Forever plan includes a NetLicensing account with unlimited products and API Access.</p>
+        <p>Our Free Forever plan is perfect for individuals and startups who want to enable license managing for their products and services.</p>
     </div>
 </div>
 
