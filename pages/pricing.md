@@ -39,7 +39,7 @@ tags:
 
     <div class="col-md-4">
         <div class="NL_price_features NL_price_free">
-            <h3>Quick and simple for individuals and startups</h3>
+            <h3><strong>FREE forever</strong><br/>Quick and simple for individuals and startups</h3>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
@@ -64,7 +64,7 @@ tags:
 
     <div class="col-md-4">
         <div class="NL_price_features NL_price_enterprise">
-            <h3>Advanced functionality and customization for specific requirements</h3>
+            <h3><strong>Enterprise</strong><br/>Advanced functionality and customization for specific requirements</h3>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
