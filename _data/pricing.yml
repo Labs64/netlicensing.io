@@ -1,23 +1,23 @@
 - name: "Active products"
   free: "1"
-  enterprise: "Unlimited"
+  enterprise: "unlimited"
 
 - name: "Product Modules (per product)"
   free: "2"
-  enterprise: "Unlimited"
+  enterprise: "unlimited"
 
 - name: "Licensees"
   description: "Licensee is usually an end customer, capable of obtaining licenses for the product."
   free: "100"
-  enterprise: "Unlimited"
+  enterprise: "unlimited"
 
 - name: "Licenses"
-  free: "Unlimited"
-  enterprise: "Unlimited"
+  free: "unlimited"
+  enterprise: "unlimited"
 
 - name: "Validations"
   free: "60 / min / licensee"
-  enterprise: "Unlimited"
+  enterprise: "unlimited"
 
 - name: "RESTful API and Integration"
   description: "Integrate NetLicensing into your product or process! With the NetLicensing API, you can manage your licensing entities and easily integrate them into your business processes, ERP, CRM or Web shop."
@@ -36,7 +36,7 @@
 
 - name: "Licensing Models"
   description: "Accelerate your licensing! With NetLicensing, you can create licensing models that fit your business needs."
-  free: "Try &amp; Buy<br/>Subscription"
+  free: "Try &amp; Buy &#8226; Subscription"
   enterprise: "<a href='/licensing-models/'>All supported</a>"
 
 - name: "Licensee Secret (Node Locked)"
@@ -80,7 +80,7 @@
 
 - name: "Maintenance/Updates"
   free: "Cloud"
-  enterprise: "Cloud + On-Premises"
+  enterprise: "Cloud &#8226; On-Premises"
 
 - name: "<a href='https://www.labs64.com/legal/terms-of-service/netlicensing/service-level-agreement-1-0/'>Service Level Agreement</a>"
   description: "Get extra guarantee with the Service Level Agreement (SLA): we take care your licensing is up and running 99.0% of the time."
