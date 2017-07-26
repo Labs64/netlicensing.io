@@ -64,7 +64,7 @@ tags:
 
     <div class="col-md-4">
         <div class="NL_price_features NL_price_enterprise">
-            <h3><strong>Enterprise</strong><br/>Advanced functionality and customization for specific requirements</h3>
+            <h3><strong>Enterprise</strong><br/>Advanced functionality for specific requirements</h3>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
