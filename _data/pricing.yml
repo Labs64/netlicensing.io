@@ -1,96 +1,101 @@
-- name: "Products"
-  free: "1 product"
+- name: "Active products"
+  free: "1"
+  enterprise: "Unlimited"
+
+- name: "Product Modules (per product)"
+  free: "2"
   enterprise: "Unlimited"
 
 - name: "Licensees"
   description: "Licensee is usually an end customer, capable of obtaining licenses for the product."
-  free: "1000 / product"
+  free: "100"
   enterprise: "Unlimited"
 
 - name: "Licenses"
   free: "Unlimited"
   enterprise: "Unlimited"
 
-- name: "Activations"
-  free: "1000 / month"
-  enterprise: "Unlimited"
-
 - name: "Validations"
-  free: "Unlimited"
+  free: "60 / min / licensee"
   enterprise: "Unlimited"
-
-- name: "Licensing Models"
-  description: "Accelerate your licensing! With NetLicensing, you can create licensing models that fit your business needs."
-  free: "<a href='/licensing-models/'>All supported</a>"
-  enterprise: "<a href='/licensing-models/'>All supported</a>"
-
-- name: "Virtualization Support"
-  description: "NetLicensing offers a comprehensive licensing support for virtual environments and sandboxing."
-  free: "Y"
-  enterprise: "Y"
-
-- name: "Online Management Portal"
-  description: "NetLicensing Manage gives you one single management portal for managing all your products, modules and license templates."
-  free: "Y"
-  enterprise: "Y"
-
-- name: "Product Usage Tracking and Analytics"
-  description: "See how your software is performing out in the wild. NetLicensing gives you insight into your licensees' product usage."
-  free: "Y"
-  enterprise: "Y"
-
-- name: "Licensing eCommerce Platform"
-  description: "NetLicensing Shop is an innovative eCommerce solution which provides your customers licenses acquisition possibility for every available licensing models."
-  free: "Y"
-  enterprise: "Y"
-
-- name: "Payment Services"
-  description: "Our PayPal integration allows your global customers to pay in their preferred currency."
-  free: "Y"
-  enterprise: "Y"
-
-- name: "Shop Customization"
-  free: "N"
-  enterprise: "Y"
 
 - name: "RESTful API and Integration"
   description: "Integrate NetLicensing into your product or process! With the NetLicensing API, you can manage your licensing entities and easily integrate them into your business processes, ERP, CRM or Web shop."
   free: "Y"
   enterprise: "Y"
 
-- name: "Predefined Client Libraries"
-  description: "NetLicensing client libraries and examples can be used as a foundation for integrating NetLicensing into your code."
+- name: "Management Console"
+  description: "NetLicensing Manage gives you one single management portal for managing all your products, modules and license templates."
   free: "Y"
-  enterprise: "Y"
-
-- name: "Supported languages and operating systems"
-  free: "No restrictions"
-  enterprise: "No restrictions"
-
-- name: "NetLicensing Agent"
-  free: "N"
-  enterprise: "Y"
-
-- name: "Hosting Options"
-  description: "Use NetLicensing from our servers and save on maintenance costs or on-premises (self-hosted) in order to get full control over NetLicensing installation within your company's infrastructure."
-  free: "Cloud (SaaS)"
-  enterprise: "Cloud (SaaS)<br/>On-Premise (Self-Hosted)"
-
-- name: "Maintenance/Updates"
-  free: "N"
-  enterprise: "Y"
-
-- name: "Technical Support"
-  free: "<a href='https://www.labs64.de/confluence/x/pgCo'>Online</a> &#8226; <a href='mailto:netlicensing@labs64.com'>eMail</a> (3 days)"
-  enterprise: "<a href='https://www.labs64.de/confluence/x/pgCo'>Online</a> &#8226; <a href='mailto:netlicensing@labs64.com'>eMail</a> (4 hours)"
-
-- name: "<a href='https://www.labs64.com/legal/terms-of-service/netlicensing/service-level-agreement-1-0/'>Service Level Agreement</a>"
-  description: "Get extra guarantee with the Service Level Agreement (SLA): we take care your licensing is up and running 99.0% of the time."
-  free: "N"
   enterprise: "Y"
 
 - name: "Attribution required"
   description: "We request that you place NetLicensing attribution on your main page or/and in your product when you use a FREE forever plan."
   free: "Y"
   enterprise: "N"
-  
+
+- name: "Licensing Models"
+  description: "Accelerate your licensing! With NetLicensing, you can create licensing models that fit your business needs."
+  free: "Try &amp; Buy<br/>Subscription"
+  enterprise: "<a href='/licensing-models/'>All supported</a>"
+
+- name: "Licensee Secret (Node Locked)"
+  description: "NetLicensing offers a comprehensive licensing support for virtual environments and sandboxing."
+  free: "N"
+  enterprise: "Y"
+
+- name: "NetLicensing Shop"
+  description: "NetLicensing Shop is an innovative eCommerce solution which provides your customers licenses acquisition possibility for every available licensing models."
+  free: "Y"
+  enterprise: "Y"
+
+- name: "EU VAT Support"
+  description: ""
+  free: "N"
+  enterprise: "Y"
+
+- name: "Shop Customization"
+  free: "N"
+  enterprise: "Y"
+
+- name: "Payment Services"
+  description: "Our PayPal and Stripe integration allows your global customers to pay in their preferred currency."
+  free: "PayPal"
+  enterprise: "All supported"
+
+- name: "Product Usage Tracking and Analytics"
+  description: "See how your software is performing out in the wild. NetLicensing gives you insight into your licensees' product usage."
+  free: "N"
+  enterprise: "Y"
+
+- name: "NetLicensing Agent"
+  description: "Offline Licensing"
+  free: "N"
+  enterprise: "Y"
+
+- name: "Hosting Options"
+  description: "Use NetLicensing from our servers and save on maintenance costs or on-premises (self-hosted) in order to get full control over NetLicensing installation within your company's infrastructure."
+  free: "Cloud (SaaS)"
+  enterprise: "Cloud (SaaS)<br/>On-Premises (Self-Hosted)"
+
+- name: "Maintenance/Updates"
+  free: "Cloud"
+  enterprise: "Cloud + On-Premises"
+
+- name: "<a href='https://www.labs64.com/legal/terms-of-service/netlicensing/service-level-agreement-1-0/'>Service Level Agreement</a>"
+  description: "Get extra guarantee with the Service Level Agreement (SLA): we take care your licensing is up and running 99.0% of the time."
+  free: "N"
+  enterprise: "Y"
+
+- name: "Technical Support"
+  free: "<a href='https://www.labs64.de/confluence/x/pgCo'>Online</a> &#8226; <a href='mailto:netlicensing@labs64.com'>eMail</a> (3 days)"
+  enterprise: "<a href='https://www.labs64.de/confluence/x/pgCo'>Online</a> &#8226; <a href='mailto:netlicensing@labs64.com'>eMail</a> (4 hours) - 8/5"
+
+- name: "Online Licensing Training"
+  description: ""
+  free: "N"
+  enterprise: "Y"
+
+- name: "Dedicated Technical Success Manager"
+  free: "N"
+  enterprise: "Y"
