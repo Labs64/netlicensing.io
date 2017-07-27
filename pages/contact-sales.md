@@ -37,7 +37,7 @@ tags:
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>First Name</label>
-                            <input type="text" name="fname" class="form-control form_dark" placeholder="First Name" id="fname" required
+                            <input type="text" name="firstname" class="form-control form_dark" placeholder="First Name" id="firstname" required
                                    data-validation-required-message="Please enter your first name.">
 
                             <p class="help-block text-danger"></p>
@@ -46,7 +46,7 @@ tags:
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Last Name</label>
-                            <input type="text" name="lname" class="form-control form_dark" placeholder="Last Name" id="lname" required
+                            <input type="text" name="lastname" class="form-control form_dark" placeholder="Last Name" id="lastname" required
                                    data-validation-required-message="Please enter your last name.">
 
                             <p class="help-block text-danger"></p>
@@ -64,7 +64,7 @@ tags:
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Phone</label>
-                            <input type="phone" name="phone" class="form-control form_dark" placeholder="Phone" id="phone"
+                            <input type="tel" name="phone" class="form-control form_dark" placeholder="Phone" id="phone"
                                    required data-validation-required-message="Please enter your phone number.">
 
                             <p class="help-block text-danger"></p>
@@ -73,7 +73,7 @@ tags:
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Job Title</label>
-                            <input type="job" name="job" class="form-control form_dark" placeholder="Job Title" id="job"
+                            <input type="text" name="jobtitle" class="form-control form_dark" placeholder="Job Title" id="jobtitle"
                                    required data-validation-required-message="Please enter your job title.">
 
                             <p class="help-block text-danger"></p>
@@ -82,7 +82,7 @@ tags:
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Company</label>
-                            <input type="company" name="company" class="form-control form_dark" placeholder="Company" id="company"
+                            <input type="text" name="company" class="form-control form_dark" placeholder="Company" id="company"
                                    required data-validation-required-message="Please enter your company name.">
 
                             <p class="help-block text-danger"></p>
@@ -91,7 +91,7 @@ tags:
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Website</label>
-                            <input type="website" name="website" class="form-control form_dark" placeholder="Website" id="website"
+                            <input type="url" name="website" class="form-control form_dark" placeholder="Website" id="website"
                                    required data-validation-required-message="Please enter your website URL.">
 
                             <p class="help-block text-danger"></p>
@@ -99,7 +99,7 @@ tags:
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>How can we help you?</label>
+                            <label>How may we assist you?</label>
                             <textarea rows="5" name="message" class="form-control form_dark" placeholder="Message" id="message"
                                       required data-validation-required-message="Please enter a message."></textarea>
 
