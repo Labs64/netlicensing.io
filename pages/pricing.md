@@ -81,7 +81,7 @@ tags:
             </ul>
 
             <div class="show-more" style="padding: 5px 0 10px 0;">
-                <a href="/contact/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=enterprise" class="NL_button button_main NL_dark_btn">Contact Us</a>
+                <a href="/contact-sales/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=enterprise" class="NL_button button_main NL_dark_btn">Contact Sales</a>
             </div>
         </div>
     </div>
