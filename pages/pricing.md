@@ -18,9 +18,9 @@ tags:
 </div>
 
 <div class="row NL_block NL_pricing">
-    <div class="col-md-4">
+    <div class="col-md-15 col-sm-3">
         <div class="NL_price_captions">
-            <h3> &#160; <br/> &#160; </h3>
+            <h3 style="font-size:larger;"> &#160; <br/> &#160; <br/> &#160; <br/> &#160; <br/> &#160;</h3>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
@@ -37,9 +37,10 @@ tags:
         </div>
     </div>
 
-    <div class="col-md-4">
-        <div class="NL_price_features NL_price_free">
-            <h3><strong>FREE forever</strong><br/>Quick and simple for individuals and startups</h3>
+    <div class="col-md-15 col-sm-3">
+        <div class="NL_price_features NL_price_regular">
+            <h3><strong style="font-size:larger;">FREE forever</strong><br/>Quick and simple for individuals and startups</h3>
+            <div class="NL_price_tag">0 € / month</div>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
@@ -55,16 +56,69 @@ tags:
                 {% endfor %}
             </ul>
 
-            <div class="show-more" style="padding: 5px 0 10px 0;">
+            <div class="NL_btn" style="padding: 5px 0 10px 0;">
                 <a href="https://go.netlicensing.io/console/v2/content/register.xhtml?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=free"
                    class="NL_button button_main NL_dark_btn">Register Now for FREE</a>
             </div>
         </div>
     </div>
 
-    <div class="col-md-4">
-        <div class="NL_price_features NL_price_enterprise">
-            <h3><strong>Enterprise</strong><br/>Advanced functionality for specific requirements</h3>
+    <div class="col-md-15 col-sm-3">
+        <div class="NL_price_features NL_price_regular">
+            <h3><strong style="font-size:larger;">Basic</strong><br/>For growing businesses with more customers</h3>
+            <div class="NL_price_tag">48 € / month</div>
+            <ul>
+                {% for feature in site.data.pricing %}
+                <li>
+                    <span class="NL_price_feature"> {{ feature.name }} </span>
+                    {% if feature.basic == "Y" %}
+                    <i class="fa fa-check-square"></i>
+                    {% elsif feature.basic == "N" %}
+                    <i class="fa fa-square-o"></i>
+                    {% else %}
+                    {{ feature.basic }}
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+
+            <div class="NL_btn" style="padding: 5px 0 10px 0;">
+                <a href="/contact-sales/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=basic"
+                   class="NL_button button_main NL_dark_btn">Start Free Trial</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-15 col-sm-3">
+        <div class="NL_price_features NL_price_promo">
+            <h3><strong style="font-size:larger;">Premium</strong><br/>Full featured for comprehensive products</h3>
+            <div class="NL_price_tag">298 € / month</div>
+            <ul>
+                {% for feature in site.data.pricing %}
+                <li>
+                    <span class="NL_price_feature"> {{ feature.name }} </span>
+                    {% if feature.premium == "Y" %}
+                    <i class="fa fa-check-square"></i>
+                    {% elsif feature.premium == "N" %}
+                    <i class="fa fa-square-o"></i>
+                    {% else %}
+                    {{ feature.premium }}
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+
+            <div class="NL_btn" style="padding: 5px 0 10px 0;">
+                <a href="/contact-sales/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=premium"
+                   class="NL_button button_main NL_dark_btn">Start Free Trial</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-15 col-sm-3">
+        <div class="NL_price_features NL_price_regular">
+            <h3><strong style="font-size:larger;">Enterprise</strong><br/>Advanced functionality for specific requirements</h3>
+            <div class="NL_price_tag">Customizable</div>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
@@ -80,13 +134,12 @@ tags:
                 {% endfor %}
             </ul>
 
-            <div class="show-more" style="padding: 5px 0 10px 0;">
+            <div class="NL_btn" style="padding: 5px 0 10px 0;">
                 <a href="/contact-sales/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=enterprise" class="NL_button button_main NL_dark_btn">Contact Sales</a>
             </div>
         </div>
     </div>
 </div>
-
 
 <div class="row NL_block">
     <h2 class="col-md-12">You may still have some questions, so here's our FAQs</h2>
@@ -100,9 +153,9 @@ tags:
             The selected payment service provider may charge an internet gateway fee and/or a processing fee.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
-        <h3>Do I have to pay to use your service?</h3>
+        <h3>What is included in Free Trial?</h3>
 
-        <p>Our Free Forever plan is perfect for individuals and startups who want to enable license managing for their products and services.</p>
+        <p>Free Trial includes all functionality of Premium Plan for 90 days, except product / product module and licensee limits.</p>
     </div>
 </div>
 

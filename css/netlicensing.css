@@ -1055,11 +1055,11 @@ figure.hover_effect:hover img {
     height: auto;
 }
 
-.show-more {
+.NL_btn {
     padding: 20px 0 40px 0;
 }
 
-.show-more a {
+.NL_btn a {
     padding: 20px;
     margin: 0 auto;
     text-align: center;
@@ -1601,45 +1601,45 @@ ul#filterOptions>li.active>a {
     padding-left: 20px;
 }
 
-.NL_price_free ul li:nth-child(16),
+.NL_price_regular ul li:nth-child(16),
 .NL_price_captions ul li:nth-child(16) {
     padding-top: 20px;
 }
 
-.NL_price_free a {
+.NL_price_regular a {
     color: #E14817;
 }
 
-.NL_price_free ul li {
+.NL_price_regular ul li {
     color: #E14817;
 }
 
-.NL_price_free h3 {
+.NL_price_regular h3 {
     color: #FFFFFF;
     background-color: #E14817;
 }
 
-.NL_price_free {
+.NL_price_regular {
     border: 1px solid #E14817;
 }
 
-.NL_price_free a {
+.NL_price_regular a {
     border-bottom-color: #E14817;
 }
 
-.NL_price_enterprise a {
+.NL_price_promo a {
     color: #853E29;
 }
 
-.NL_price_enterprise ul li {
+.NL_price_promo ul li {
     color: #853E29;
 }
 
-.NL_price_enterprise {
+.NL_price_promo {
     border: 1px solid #853E29;
 }
 
-.NL_price_enterprise h3 {
+.NL_price_promo h3 {
     color: #FFFFFF;
     background-color: #853E29;
 }
@@ -1658,6 +1658,52 @@ a.NL_pricing_tooltip {
     border: none;
     padding-left: 5px;
 }
+
+.NL_price_tag {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #853E29;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* 5 columns pricing */
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+/* end of 5 columns pricing */
 
 @media only screen and (min-width: 479px) and (max-width: 993px) {
     i.NL-see-popup {
@@ -1760,7 +1806,7 @@ a.NL_pricing_tooltip {
         padding-right: 50px;
     }
 
-    .NL_price_enterprise {
+    .NL_price_promo {
         margin-top: 50px;
     }
 
@@ -1865,7 +1911,7 @@ a.NL_pricing_tooltip {
         margin-top: 50px;
     }
 
-    .NL_price_free {
+    .NL_price_regular {
         margin-top: 50px;
     }
 

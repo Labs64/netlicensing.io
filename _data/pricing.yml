@@ -10,12 +10,11 @@
   premium: "10"
   enterprise: "unlimited"
 
-- name: "Licensees"
-  description: "Licensee is usually an end customer, capable of obtaining licenses for the product."
-  free: "100"
-  basic: "10000<br/>+ 10 €/mo per 1k extra"
-  premium: "50000<br/>+ 10 €/mo per 1k extra"
-  enterprise: "unlimited"
+- name: "Licensees<br/>&nbsp;"
+  free: "100<br/>&nbsp;"
+  basic: "5000<br/>+ 10 €/mo per 1k extra"
+  premium: "25000<br/>+ 10 €/mo per 1k extra"
+  enterprise: "unlimited<br/>&nbsp;"
 
 - name: "Licenses"
   free: "unlimited"

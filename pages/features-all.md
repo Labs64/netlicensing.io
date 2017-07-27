@@ -78,7 +78,7 @@ sitemap:
         {% endunless %}
         {% endfor %}
     </div>
-    <div class="col-md-12 show-more" >
+    <div class="col-md-12 NL_btn" >
         <a id="load-features" href="/features" class="NL_button button_main NL_dark_btn">Hide</a>
     </div>
 </div>
