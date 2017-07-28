@@ -30,9 +30,25 @@ tags:
             <div class="col-lg-8 col-lg-offset-2 NL_form_dark">
                 <form action="//formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contactForm"
                       novalidate>
-                    <input type="hidden" name="_next" value="{{ site.url }}"/>
-                    <input type="hidden" name="_subject" value="NetLicensing Contact">
+                    <input type="hidden" name="_next" value="{{ site.url }}#emailsent"/>
+                    <input type="hidden" name="_subject" value="NetLicensing Sales Contact">
                     <input type="text" name="_gotcha" style="display:none"/>
+
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>NetLicensing Plan</label>
+                            <select name="pricingplan" class="form-control form_dark" id="pricingplan" required
+                                   data-validation-required-message="Please select a plan.">
+                                <option value="" disabled="disabled" selected="selected">Please select a plan</option>
+                                <option value="free">FREE forever</option>
+                                <option value="basic">Basic</option>
+                                <option value="premium">Premium</option>
+                                <option value="enterprise">Enterprise</option>
+                            </select>
+
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
 
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
