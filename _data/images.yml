@@ -593,6 +593,15 @@
   publisher: Labs64
   creditlink: http://netlicensing.io
 
+- id: netlicensing-landing-shop
+  source: /img/blog/netlicensing-stage-twitter.jpg
+  title: "NetLicensing Stage (Twitter)"
+  caption: "NetLicensing Stage (Twitter)"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: http://netlicensing.io
+
 - id: netlicensing-stage-banner-01
   source: /img/netlicensing-stage-banner-01.png
   title: "NetLicensing Stage"
