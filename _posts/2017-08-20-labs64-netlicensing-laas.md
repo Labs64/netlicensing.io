@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Labs64 NetLicensing - Licensing-as-a-Service"
-description: ""
+description: "If you can think of a licensing model – NetLicensing can help you deliver it"
 author:
   name: NetLicensing
   url: http://netlicensing.io
