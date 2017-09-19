@@ -4,7 +4,7 @@ title: "Software Licensing Metrics &#8211; Performance"
 description: "The performance metric is used to measure the speed or capacity of the software independent of the hardware upon which it is being run"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-JWiMShWiF14.png
 tags:

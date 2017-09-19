@@ -4,7 +4,7 @@ title: "Labs64 NetLicensing 2.3 is Out!"
 description: "It’s a New Year which means new opportunities and, more importantly, a new version of NetLicensing 2.3 is here"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/labs64-netlicensing-2_3.gif
   width: 100%

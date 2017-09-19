@@ -4,7 +4,7 @@ title: "Software Licensing Metrics – Instance / Installation"
 description: "A simple, effective metric; even if it does limit your potential earnings"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-wnShDP37vB4.png
 tags:

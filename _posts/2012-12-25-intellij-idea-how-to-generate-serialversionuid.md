@@ -4,7 +4,7 @@ title: "IntelliJ IDEA&#58; How to generate &#8216;serialVersionUID&#8217;"
 description: "It is strongly recommended that all serializable classes explicitly declare serialVersionUID values"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/labs64-blog-howto-idea002.png
   hide: true

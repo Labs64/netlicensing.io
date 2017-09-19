@@ -4,7 +4,7 @@ title: "How to Safely Implement BYOD"
 description: "BYOD programs are coming, and soon they will be expected by employees"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/Fotolia_51001863_XS.jpg
 tags:

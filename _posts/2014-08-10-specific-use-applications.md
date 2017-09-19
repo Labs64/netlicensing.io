@@ -4,7 +4,7 @@ title: "‘Specific Use’ Applications"
 description: "If you are able to produce an apps which doesn’t necessarily offer something drastically new, but which makes an everyday task easier to carry out, then you may well be on to something"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-1eWaod96d3k.png
 tags:

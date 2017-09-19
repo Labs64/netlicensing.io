@@ -4,7 +4,7 @@ title: "Software Licensing Metrics – What are they?"
 description: "It is important to ensure that you are charging the right amount for the products which you are distributing"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
 tags:

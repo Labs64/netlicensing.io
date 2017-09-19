@@ -9,7 +9,7 @@ tags:
   - NetLicensing
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 sitemap:
   images:
 canonical:
@@ -65,7 +65,7 @@ Unordered (bulleted) list (var 1)
 Unordered (bulleted) list (var 2)
 
 - labs64.com
-- [netlicensing.io](http://netlicensing.io "Innovative License Management Solution")
+- [netlicensing.io](https://netlicensing.io "Innovative License Management Solution")
 - tech-x.press
 
 Unordered (bulleted) list (var 3)
@@ -95,13 +95,13 @@ Nested lists
 ## LINKS
 ---
 
-This a [link](http://netlicensing.io)
+This a [link](https://netlicensing.io)
 
-This a [link with title](http://netlicensing.io "Innovative License Management Solution")
+This a [link with title](https://netlicensing.io "Innovative License Management Solution")
 
 Reference-style links: [NetLicensing][NLIC] and [NetLicensing][2] were developed by [Labs64][3]
 
-[NLIC]: http://netlicensing.io   "Labs64 NetLicensing - Innovative License Management Solution"
+[NLIC]: https://netlicensing.io   "Labs64 NetLicensing - Innovative License Management Solution"
 [2]: http://tech-x.press         "TechExpress - Latest Tech News Around the World"
 [3]: http://www.labs64.com       "Labs64 - Innovations Delivered"
 

@@ -4,7 +4,7 @@ title: "Labs64 NetLicensing 2.3.7 is Out!"
 description: "In order to satisfy the new telecommunications, broadcasting and electronic services rules we’ve introduced VAT/Sales Tax ID Support in NetLicensing Shop"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-pElSkGRA2NU.jpg
 tags:
@@ -37,6 +37,6 @@ Major changes in this release:
 
 For a detailed list of changes in this release, see [NetLicensing 2.3.7 Release Notes](https://www.labs64.de/confluence/x/jgHx).
 
-As always, your feedback is important to us - please visit [NetLicensing Website](http://netlicensing.io) - [Leave Feedback](https://netlicensing.uservoice.com/){:target="_blank"}.
+As always, your feedback is important to us - please visit [NetLicensing Website](https://netlicensing.io) - [Leave Feedback](https://netlicensing.uservoice.com/){:target="_blank"}.
 
 Thank you for your contributions & *Happy Licensing*!

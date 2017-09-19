@@ -4,7 +4,7 @@ title: "Software Licensing Metrics – Named User / Role"
 description: "‘Named User’ is considered by some companies to be the most cost-effective of all metrics"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-4vr9a_sdJ78.png
 tags:

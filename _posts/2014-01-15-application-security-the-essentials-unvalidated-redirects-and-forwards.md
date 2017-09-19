@@ -4,7 +4,7 @@ title: "Application Security&#58; The Essentials &#8211; Unvalidated Redirects a
 description: "A redirect or forward is when the application automatically sends the user to an external webpage through a link which has been placed in the code"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-D2K1UZr4vxk.png
 tags:

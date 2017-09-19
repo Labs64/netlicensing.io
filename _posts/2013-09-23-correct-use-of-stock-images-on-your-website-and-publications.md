@@ -4,7 +4,7 @@ title: "Correct Use of Stock Images on your Website and Publications"
 description: "The inclusion of images which are not in the public domain means that you must provide proper attribution credits to the image creators"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/Fotolia_46388849_XS.jpg
 tags:

@@ -4,7 +4,7 @@ title: "EU VAT rules 2015 - Infographic"
 description: "NetLicensing will make you ready for these regulations and establish your VAT configuration and purchasing process as simple as possible"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/labs64-netlicensing-2_3_3.png
 tags:

@@ -4,7 +4,7 @@ title: "Application Security&#58; The Essentials &#8211; Cross Site Scripting (X
 description: "If ever you become concerned that there may be a risk of XSS, act immediately"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-mCg0ZgD7BgU.png
 tags:

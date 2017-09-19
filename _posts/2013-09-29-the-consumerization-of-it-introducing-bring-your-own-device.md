@@ -4,7 +4,7 @@ title: "The Consumerization of IT &#8211; Introducing Bring Your Own Device"
 description: "A well-written, secure ‘BYOD’ Policy is normally all that is needed"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/Fotolia_51001863_XS.jpg
 tags:

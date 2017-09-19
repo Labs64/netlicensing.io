@@ -4,7 +4,7 @@ title: "Grace Period License"
 description: "The number of licenses that IT professionals have to manage has increased and the risk of licenses expiring is now greater than ever."
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-eIkbSc3SDtI.png
 tags:

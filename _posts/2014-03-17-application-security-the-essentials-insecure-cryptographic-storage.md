@@ -4,7 +4,7 @@ title: "Application Security&#58; The Essentials &#8211; Insecure Cryptographic 
 description: "In the past few years there has been an exponential increase in the volume of sensitive and confidential data which is being stored by applications and other software"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-GANqCr1BRTU.png
 tags:

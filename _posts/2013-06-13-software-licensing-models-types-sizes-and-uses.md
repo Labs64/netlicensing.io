@@ -4,7 +4,7 @@ title: "Software Licensing Models – Types, Sizes and Uses"
 description: "This article will look at End User License Agreements (or Single User Licensing), Pay-Per-Use, Sharing Licenses and Site License"
 author:
   name: NetLicensing
-  url: http://netlicensing.io/licensing-models/
+  url: https://netlicensing.io/licensing-models/
 image:
   url: /img/blog/netlicensing-licensing-models.png
 tags:

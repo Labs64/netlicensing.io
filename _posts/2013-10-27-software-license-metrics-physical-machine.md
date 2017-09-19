@@ -4,7 +4,7 @@ title: "Software Licensing Metrics – Physical Machine"
 description: "Physical Machine and Machine Compute Capacity as metrics"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-wE9nUW7tMmk.png
 tags:

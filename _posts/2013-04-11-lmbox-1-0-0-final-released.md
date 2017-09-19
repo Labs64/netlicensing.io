@@ -4,7 +4,7 @@ title: "LmBox 1.0.0-Final released"
 description: "The LmBox team is pleased to announce the availability of LmBox version 1.0.0-Final"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/LmBox-Motivation-View.png
   hide: true
@@ -22,7 +22,7 @@ tags:
   - Time-Volume
 ---
 
-The <a title="LmBox - Innovative License Management Solution" href="http://netlicensing.io">LmBox</a> team is pleased to announce the availability of LmBox version <a title="Release Notes - LmBox 1.0.0-Final" href="https://www.labs64.de/confluence/x/xQCo" target="_blank">1.0.0-Final</a>.
+The <a title="LmBox - Innovative License Management Solution" href="https://netlicensing.io">LmBox</a> team is pleased to announce the availability of LmBox version <a title="Release Notes - LmBox 1.0.0-Final" href="https://www.labs64.de/confluence/x/xQCo" target="_blank">1.0.0-Final</a>.
 
 ![LmBox](/img/blog/logo_lmbox.png "LmBox - Innovative License Management Solution"){:class="blog-center"}
 
@@ -39,7 +39,7 @@ Please see the <a title="Release Notes - LmBox 1.0.0-Final" href="https://www.l
 
 ##### What&#8217;s Next
 
-  * Discover <a title="LmBox - Innovative License Management Solution" href="http://netlicensing.io">LmBox Website</a> and <a title="LmBox documentation" href="https://www.labs64.de/confluence/x/pgCo" target="_blank">documentation</a>
+  * Discover <a title="LmBox - Innovative License Management Solution" href="https://netlicensing.io">LmBox Website</a> and <a title="LmBox documentation" href="https://www.labs64.de/confluence/x/pgCo" target="_blank">documentation</a>
   * <a title="LmBox - Innovative License Management Solution" href="https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001" target="_blank">Try LmBox right away</a> using free demo account
   * Get Involved &#8211; your opinion and ideas are highly welcome!
 

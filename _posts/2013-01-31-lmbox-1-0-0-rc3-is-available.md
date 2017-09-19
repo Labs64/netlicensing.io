@@ -4,7 +4,7 @@ title: "LmBox 1.0.0-RC3 is available"
 description: "The LmBox team is pleased to announce the release of LmBox version 1.0.0-RC3"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/LmBox-Motivation-View.png
   hide: true
@@ -22,7 +22,7 @@ tags:
   - XSD
 ---
 
-The <a title="LmBox - Innovative License Management Solution" href="http://netlicensing.io">LmBox</a> team is pleased to announce the release of LmBox version <a title="Release Notes - LmBox 1.0.0-RC3" href="https://www.labs64.de/confluence/x/wwCo" target="_blank">1.0.0-RC3</a>.
+The <a title="LmBox - Innovative License Management Solution" href="https://netlicensing.io">LmBox</a> team is pleased to announce the release of LmBox version <a title="Release Notes - LmBox 1.0.0-RC3" href="https://www.labs64.de/confluence/x/wwCo" target="_blank">1.0.0-RC3</a>.
 
 The highlights of this release:
 

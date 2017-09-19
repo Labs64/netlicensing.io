@@ -4,7 +4,7 @@ title: "Bring Your Own License"
 description: "The cloud revolution has until now been driven by two key features; storage and collaboration"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-Dl6jeyfihLk.png
 tags:

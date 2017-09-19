@@ -4,7 +4,7 @@ title: "Software Licensing Metrics – The Value of Simplicity"
 description: "There are two things which a business will be looking for in a Cloud Service solution: maximum flexibility and best value"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-a2NRu2Wxa2o.png
 tags:

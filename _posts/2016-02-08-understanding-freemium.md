@@ -4,7 +4,7 @@ title: "Understanding Freemium"
 description: "There are a number of ways in which the content or service can be restricted..."
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-l5Tzv1alcps.png
 tags:

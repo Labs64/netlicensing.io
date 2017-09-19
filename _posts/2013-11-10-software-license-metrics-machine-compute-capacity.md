@@ -4,7 +4,7 @@ title: "Software Licensing Metrics – Machine Compute Capacity"
 description: "The Machine Compute Capacity metric literally measures the processing capacity of the machine"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-9dI3g8owHiI.png
 tags:

@@ -4,7 +4,7 @@ title: "Application Security&#58; The Essentials &#8211; Proper Security Configu
 description: "A regular and well-streamlined routine to perfect checks on your security and eliminate faults"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-PjH_BkzjxTA.png
 tags:

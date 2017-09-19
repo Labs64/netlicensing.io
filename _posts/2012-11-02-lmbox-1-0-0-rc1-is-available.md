@@ -4,7 +4,7 @@ title: "LmBox 1.0.0-RC1 is available"
 description: "We pleased to announce the availability of the first release candidate of our Innovative License Management Solution LmBox"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/LmBox-Motivation-View.png
   hide: true
@@ -32,4 +32,4 @@ Here are some LmBox highlights:
   * Product usage statistics
   * Secure RESTful-based LmBoxAPI allows integration to any environment
 
-Check out the <a title="LmBox - Innovative License Management Solution" href="http://netlicensing.io">LmBox home page</a> for more detailed information.
+Check out the <a title="LmBox - Innovative License Management Solution" href="https://netlicensing.io">LmBox home page</a> for more detailed information.

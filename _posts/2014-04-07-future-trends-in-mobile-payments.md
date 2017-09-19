@@ -4,7 +4,7 @@ title: "Future trends in mobile payments"
 description: "The current trend of using mobile devices to read credit cards is expected to further evolve, however, removing the need for physical cards and eventually your billfold"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/Fotolia_56349432_XS.jpg
 tags:

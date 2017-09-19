@@ -4,7 +4,7 @@ title: "Application Security&#58; The Essentials &#8211; Failure to Restrict URL
 description: "Access should be denied by default, if authentication fails for any user then they should not have any access"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-4aQY2CrXsa8.png
 tags:

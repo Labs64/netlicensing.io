@@ -34,7 +34,7 @@ tags:
   - NetLicensing
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 sitemap:
   images:
 canonical:

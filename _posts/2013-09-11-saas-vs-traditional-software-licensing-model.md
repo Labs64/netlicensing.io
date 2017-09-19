@@ -4,7 +4,7 @@ title: "SaaS vs. Traditional Software Licensing Model"
 description: "Software as a Service model is user friendly and incurs comparatively lower cost"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/Fotolia_56105002_XS.jpg
 tags:
@@ -41,4 +41,4 @@ Software as a Service has been instrumental in harnessing benefits of productivi
 
 ### Conclusion
 
-Organizations should move forward in using the SaaS application, as by using it they get the freedom of investing in their projects better, rather than maintaining the infrastructure for on-premise software which is both complex and expensive. <a href="http://netlicensing.io" target="_blank">Outsourcing the licensing</a> part to SaaS providers makes the process much easier, as the security, performance and hardware management, all are dealt by the provider. SaaS provides the freedom of access as it is a web based software application delivery system. It can be used both as a business application and a development tool, and equipped with fresh innovative ideas; SaaS will soon outperform the Traditional Software Licensing model.
+Organizations should move forward in using the SaaS application, as by using it they get the freedom of investing in their projects better, rather than maintaining the infrastructure for on-premise software which is both complex and expensive. <a href="https://netlicensing.io" target="_blank">Outsourcing the licensing</a> part to SaaS providers makes the process much easier, as the security, performance and hardware management, all are dealt by the provider. SaaS provides the freedom of access as it is a web based software application delivery system. It can be used both as a business application and a development tool, and equipped with fresh innovative ideas; SaaS will soon outperform the Traditional Software Licensing model.

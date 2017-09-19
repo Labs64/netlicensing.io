@@ -4,7 +4,7 @@ title: "Technology in 2014&#58; Top Emerging Trends"
 description: "2014 could see a shift towards single, multi-functional devices whose users are all inter-connected through private and public, company and personal clouds"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-lZlfHGqx44Q.png
 tags:

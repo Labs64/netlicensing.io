@@ -4,7 +4,7 @@ title: "Overflow Licenses"
 description: "For IT Managers and Administrators licensing is one of the most frustrating aspects of their work."
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-guH91yuPaMk.png
 tags:

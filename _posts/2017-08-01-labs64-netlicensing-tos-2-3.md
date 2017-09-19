@@ -4,7 +4,7 @@ title: "Updates to Labs64 NetLicensing Terms of Service"
 description: "We've updated Labs64 NetLicensing Terms of Service policy that clearly outlines rights, responsibilities, our privacy policy and more details about our products and services"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
 tags:

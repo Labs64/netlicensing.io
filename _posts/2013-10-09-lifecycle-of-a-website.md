@@ -4,7 +4,7 @@ title: "Lifecycle of a Website"
 description: "All new websites starts with innovative thoughts and plans, and precise planning is instrumental in making it a grand success"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/Fotolia_35854655_XS.jpg
 tags:

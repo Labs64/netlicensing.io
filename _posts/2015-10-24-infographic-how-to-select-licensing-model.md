@@ -4,7 +4,7 @@ title: "Infographic&#58; How To Select Licensing Model"
 description: "There are several options to choose when it refers to licensing, it’s very important to know what licensing models fit better your needs"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/how-to-select-licensing-model-infographic-netlicensing-icon.png
   hide: true

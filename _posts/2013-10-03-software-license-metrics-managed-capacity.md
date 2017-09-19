@@ -4,7 +4,7 @@ title: "Software Licensing Metrics &#8211; Managed Capacity"
 description: "Managed Capacity measures the size of the overall task which the software is used to perform"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-KR2mdHJ5qMg.png
 tags:

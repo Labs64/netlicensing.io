@@ -4,7 +4,7 @@ title: "Thinking big about small business data backups"
 description: "One hazard of operating a small business is thinking that your data backup plans have to be small too"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/Fotolia_43041942_XS_s.jpg
 tags:

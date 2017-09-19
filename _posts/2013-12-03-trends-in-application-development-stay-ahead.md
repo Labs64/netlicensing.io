@@ -4,7 +4,7 @@ title: "Trends in Application Development &#8211; Stay Ahead"
 description: "Stay ahead, stay innovative, stay on top!"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-Lj1S1_KD61k.png
 tags:

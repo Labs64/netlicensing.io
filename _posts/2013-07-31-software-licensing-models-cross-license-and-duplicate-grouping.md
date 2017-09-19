@@ -4,7 +4,7 @@ title: "Software Licensing Models – Cross License and Duplicate grouping"
 description: "Cross Licenses and Duplicate Grouping licenses are worthwhile having knowledge of as they can provide you with the ideal solution to some major customers"
 author:
   name: NetLicensing
-  url: http://netlicensing.io/licensing-models/
+  url: https://netlicensing.io/licensing-models/
 image:
   url: /img/blog/netlicensing-licensing-models.png
 tags:

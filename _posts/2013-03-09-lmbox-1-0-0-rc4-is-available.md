@@ -4,7 +4,7 @@ title: "LmBox 1.0.0-RC4 is available"
 description: "The LmBox team is pleased to announce the release of LmBox version 1.0.0-RC4"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/LmBox-Motivation-View.png
   hide: true
@@ -24,7 +24,7 @@ tags:
   - 'Try &amp; Buy'
 ---
 
-The <a title="LmBox - Innovative License Management Solution" href="http://netlicensing.io">LmBox</a> team is pleased to announce the release of LmBox version <a title="Release Notes - LmBox 1.0.0-RC4" href="https://www.labs64.de/confluence/x/xACo" target="_blank">1.0.0-RC4</a>.
+The <a title="LmBox - Innovative License Management Solution" href="https://netlicensing.io">LmBox</a> team is pleased to announce the release of LmBox version <a title="Release Notes - LmBox 1.0.0-RC4" href="https://www.labs64.de/confluence/x/xACo" target="_blank">1.0.0-RC4</a>.
 
 The highlights of this release:
 

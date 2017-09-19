@@ -15,7 +15,7 @@ author:
   url: http://tech-x.press
 ---
 
-Labs64 NetLicensing - [Online License Management Service](http://netlicensing.io) is taking a huge step forward in making it easy for vendors to sign up with their licensing management service.
+Labs64 NetLicensing - [Online License Management Service](https://netlicensing.io) is taking a huge step forward in making it easy for vendors to sign up with their licensing management service.
 
 Today, we are announcing a new availability model – NetLicensing is going FREE!
 

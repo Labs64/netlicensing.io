@@ -96,7 +96,7 @@ Our development methodology provides a structured framework aimed at delivering 
 
 ### NETLICENSING
 
-Labs64 is one of the first companies worldwide with a cloud-based solution that can be individually configured, delivering _“Licensing-as-a-Service”_. [NetLicensing](http://netlicensing.io) makes product and software licensing easy and flexible. NetLicensing can be used for cloud-based SaaS, embedded software or for licensing and protection of on-premise software.
+Labs64 is one of the first companies worldwide with a cloud-based solution that can be individually configured, delivering _“Licensing-as-a-Service”_. [NetLicensing](https://netlicensing.io) makes product and software licensing easy and flexible. NetLicensing can be used for cloud-based SaaS, embedded software or for licensing and protection of on-premise software.
 
 > NetLicensing moves product and software licensing to the cloud, making it available at any time.
 

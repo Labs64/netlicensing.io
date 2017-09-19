@@ -4,7 +4,7 @@ title: "Competitive Upgrade License"
 description: "It encourages manufacturers to keep the cost of their products lower and improve their service so as to encourage customers to stay"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-SJWPKMb9u-k.png
 tags:

@@ -4,7 +4,7 @@ title: "License Mobility"
 description: "License mobility is made possible through the definition of a ‘single physical machine’ which is typically defined by the number of ‘cores’"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
 tags:

@@ -4,7 +4,7 @@ title: "Set environment variables in windows shortcut"
 description: "I faced this problem when installed Inkscape (GNU GPL licensed SVG editor) with multiple language packs"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
 tags:

@@ -4,7 +4,7 @@ title: "Application Security&#58; The Essentials &#8211; Insecure Direct Object 
 description: "Try and limit the amount of information which is stored in any one place within the application"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-7_cSSarxoAA.png
 tags:

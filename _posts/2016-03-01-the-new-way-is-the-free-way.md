@@ -4,7 +4,7 @@ title: "The New Way is the Free Way"
 description: "Making something free, even if it only a very basic version of the product, means that significantly more people will be inclined to ‘try’ it"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-URmkfvtK3Qw.png
 tags:

@@ -4,7 +4,7 @@ title: "Application Security&#58; The Essentials &#8211; Cross Site Request Forg
 description: "With Cross Site Request Forgery you are dealing specifically with an application which sends HTTP requests to the user’s browser"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-ICW6QYOcdlg.png
 tags:

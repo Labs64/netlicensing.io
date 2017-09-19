@@ -4,7 +4,7 @@ title: "The benefits of LaaS for software development, deployment and customer s
 description: "The benefits are all a piece of the same goal: improving the flexibility of your software at minimal infrastructure investment"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-nJdwUHmaY8A.png
 tags:
@@ -20,7 +20,7 @@ The movement of infrastructure, processing and networks to the cloud often invol
 
 Third-party systems help free up a developer to focus on what made their business viable – namely their software – but keep the vendor consistent with today’s emerging models that are moving more processing power and general computing to the cloud.
 
-Vendors need a [platform](http://netlicensing.io "Labs64 NetLicensing") that can provide an online administration panel so they can monitor the licensing aspects of their products. Automating this process can deliver a dashboard that simply shows the vendor any instance where a customer is trying to run what they are not properly licensing.
+Vendors need a [platform](https://netlicensing.io "Labs64 NetLicensing") that can provide an online administration panel so they can monitor the licensing aspects of their products. Automating this process can deliver a dashboard that simply shows the vendor any instance where a customer is trying to run what they are not properly licensing.
 
 This option will give the vendor the flexibility to adjust their own licensing scheme. Instead of paying per installation and trying to manage a pre-paid offering, vendors can allow their software to be used with the same scale that a customer is increasing its operations. As the customer doubles the number of virtual machines required to handle a specific project, the vendor could allow licensing to have the same flexibility and scale to this doubled size for such a temporary deployment.
 

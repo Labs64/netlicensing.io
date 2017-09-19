@@ -4,7 +4,7 @@ title: "Labs64 NetLicensing 2.2 is Out!"
 description: "Labs64 team is pleased to announce the availability of NetLicensing v2.2"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
 tags:
@@ -33,7 +33,7 @@ Release highlights:
 Please see the <a title="Release Notes - NetLicensing 2.2.0-FINAL" href="https://www.labs64.de/confluence/x/F4LW" target="_blank">Release Notes</a> for complete list of changes and new features.
 What’s Next:
 
-  * Discover <a title="NetLicensing - Innovative License Management Solution" href="http://netlicensing.io">NetLicensing Website</a> and explore our <a title="NetLicensing Wiki" href="https://www.labs64.de/confluence/x/pgCo" target="_blank">documentation</a>
+  * Discover <a title="NetLicensing - Innovative License Management Solution" href="https://netlicensing.io">NetLicensing Website</a> and explore our <a title="NetLicensing Wiki" href="https://www.labs64.de/confluence/x/pgCo" target="_blank">documentation</a>
   * <a title="Try Labs64 NetLicensing Now!" href="https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001" target="_blank">Try NetLicensing right away</a> using public demo account &#8211; no registration required!
   * Get Involved – your opinion and ideas are highly welcome!
 

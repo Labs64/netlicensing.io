@@ -4,7 +4,7 @@ title: "Is there a decline in personal device usage?"
 description: "Have you made a conscious change in the way you use your devices? Are you buying fewer apps than you were a year ago?"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/Fotolia_68537090_S.jpg
 tags:

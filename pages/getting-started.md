@@ -150,7 +150,7 @@ sitemap:
                         <li>Identify newly created licensee and note <i>Licensee Number</i></li>
                         <li>Send first validation request (replace %LICENSEE_NUMBER%)</li>
                         <li>In case you are using your vendor account please provide <i>username:password</i> in the <i>--user</i> attribute</li>
-                        <li>Alternatively you can use NetLicensing API <i><a href="http://io.labs64.com/NetLicensing-API/">test application</a></i>, which provides easy access to all NetLicensing functions</li>
+                        <li>Alternatively you can use NetLicensing API <i><a href="https://netlicensing.io/NetLicensing-API/">test application</a></i>, which provides easy access to all NetLicensing functions</li>
                     </ul>
                     <div>
                     <em>Sample request:</em>

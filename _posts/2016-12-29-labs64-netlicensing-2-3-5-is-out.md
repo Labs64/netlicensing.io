@@ -4,7 +4,7 @@ title: "Happy Holidays & NetLicensing 2.3.5 announcement"
 description: "Happy Holidays from NetLicensing & NetLicensing 2.3.5 release announcement"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/netlicensing-happy-holidays.png
 tags:

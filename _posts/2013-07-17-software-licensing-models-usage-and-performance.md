@@ -4,7 +4,7 @@ title: "Software Licensing Models – Usage and Performance Licenses"
 description: "Capacity and High-water mark license types calculate the cost to the user based on their actual use of the software – with some key differences"
 author:
   name: NetLicensing
-  url: http://netlicensing.io/licensing-models/
+  url: https://netlicensing.io/licensing-models/
 image:
   url: /img/blog/netlicensing-licensing-models.png
 tags:

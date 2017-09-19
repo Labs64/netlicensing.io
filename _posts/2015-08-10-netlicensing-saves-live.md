@@ -24,7 +24,7 @@ We have always known that NetLicensing is a great product. With the ability to s
 
 > *It wasn’t long before I realised that he hadn’t meant to fly into our office, and was struggling to get back out again. It was at this point that my colleague Constantin – thinking quickly – grabbed an empty glass and a NetLicensing Flyer, he trapped the bee in the glass and kept him there with the help of the flyer. Doing this, he was able to safely release the bee back out through the window – life saved!*
 
-There we are, not only is NetLicensing a first-class solution to all your licensing needs. A safe, secure and easy-to-use [Cloud Based Licensing Management Solution](http://netlicensing.io).
+There we are, not only is NetLicensing a first-class solution to all your licensing needs. A safe, secure and easy-to-use [Cloud Based Licensing Management Solution](https://netlicensing.io).
 
 We’ve just made NetLicensing even easier to access – with it now being completely free! Stop wasting time and money, and save yourself today with NetLicensing.
 

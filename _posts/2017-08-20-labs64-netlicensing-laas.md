@@ -4,7 +4,7 @@ title: "Labs64 NetLicensing - Licensing-as-a-Service"
 description: "If you can think of a licensing model – NetLicensing can help you deliver it"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/netlicensing-stage-twitter.jpg
 tags:
@@ -52,7 +52,7 @@ Looking for more information about Labs64 NetLicensing?
 You’ve come to the right place. We are looking forward to hearing from you!
 
 website:
-[netlicensing.io](http://netlicensing.io)
+[netlicensing.io](https://netlicensing.io)
 
 e-mail:
 [netlicensing@labs64.com](mailto:netlicensing@labs64.com)

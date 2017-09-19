@@ -4,7 +4,7 @@ title: "Software Licensing Metrics &#8211; Concurrent User"
 description: "Concurrent users relies on the number of simultaneous uses"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-jN_VbffJHlI.png
 tags:

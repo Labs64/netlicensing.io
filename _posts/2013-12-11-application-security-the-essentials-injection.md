@@ -4,7 +4,7 @@ title: "Application Security&#58; The Essentials &#8211; Injection"
 description: "When and where you can, use a safe and secure API"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-8z2Q6XWLYa4.png
 tags:

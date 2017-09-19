@@ -4,7 +4,7 @@ title: "Software Licensing Metrics – Know Your Rights"
 description: "Conversation leads to mutual understanding, and this helps to prevent friction arising between customer and vendor"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/blog-placeholder.jpg
 tags:

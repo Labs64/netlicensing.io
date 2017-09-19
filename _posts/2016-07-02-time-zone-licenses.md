@@ -4,7 +4,7 @@ title: "Time Zone Licenses"
 description: "Every computer, server or mobile device has at the center of it the local time zone information"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-eIkbSc3SDtI.png
 tags:

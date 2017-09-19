@@ -4,7 +4,7 @@ title: "Cyber Monday - Labs64 NetLicensing 2.3.4"
 description: "With this release we are introducing very notable security feature - Licensee Secret, which significantly improves your protection as a vendor against licenses abuse."
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/netlicensing-stage-banner-cyber-monday.jpg
 tags:
@@ -37,6 +37,6 @@ This offer is valid for all new NetLicensing registrations made between November
 
 Be sure not to miss out on this chance – it’s a limited-time offer!
 
-As always, your feedback is important to us - please visit [NetLicensing Website](http://netlicensing.io) - [Leave Feedback](https://netlicensing.uservoice.com/){:target="_blank"}.
+As always, your feedback is important to us - please visit [NetLicensing Website](https://netlicensing.io) - [Leave Feedback](https://netlicensing.uservoice.com/){:target="_blank"}.
 
 Thank you for your contributions & *Happy Licensing*!

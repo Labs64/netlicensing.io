@@ -4,7 +4,7 @@ title: "Application Security&#58; The Essentials &#8211; Broken Authentication a
 description: "Modern applications frequently handle sensitive data and as such it is common practice for developers to implement varying layers of authentication to access the application"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-xII7efH1G6o.png
 tags:

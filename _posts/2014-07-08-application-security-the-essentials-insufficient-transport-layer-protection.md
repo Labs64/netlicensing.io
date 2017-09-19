@@ -4,7 +4,7 @@ title: "Application Security&#58; The Essentials &#8211; Insufficient Transport 
 description: "Finally, require SSL/TLS for frontend as well as backend connections, this means that your own developmental connections are encrypted"
 author:
   name: NetLicensing
-  url: http://netlicensing.io
+  url: https://netlicensing.io
 image:
   url: /img/blog/unsplash-YoadQb46v6k.png
 tags:
