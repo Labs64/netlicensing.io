@@ -15,7 +15,7 @@ tags:
   - Resolution
 ---
 
-**Status update:** we are being affected by the intermittent global DNS issues with resolving records on .io domains.
+**Status update:** We are being affected by the intermittent global DNS issues with resolving records on *.io* domains.
 All .io domains globally are currently having intermittent issues, causing some issues with our services.
 
 Affected NetLicensing services:
@@ -26,7 +26,7 @@ Affected NetLicensing services:
 - NetLicensing Gateway
 - NetLicensing Website
 
-We will continue to update and thanks for your patience!
+We will keep you posted and thanks for your patience!
 
 If you have any questions, please contact us <a href='mailto:netlicensing@labs64.com'>here</a>.
 
