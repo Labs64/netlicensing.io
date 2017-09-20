@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ".io domains issues"
+title: "DNS Issues affecting resolution of .io TLDs"
 description: "All .io domains globally are currently having intermittent issues, causing some issues with our services."
 author:
   name: NetLicensing
@@ -9,16 +9,24 @@ image:
   url: /img/blog/blog-placeholder.jpg
 tags:
   - Announcements
-  - Terms of Service
-  - ToS
+  - DNS
+  - Issue
+  - Domain
 ---
 
-#### Monitoring
-
+**Status update:** we are being affected by the intermittent global DNS issues with resolving records on .io domains.
 All .io domains globally are currently having intermittent issues, causing some issues with our services.
 
-If you have any questions, please contact us <a href='mailto:netlicensing@labs64.com'>here</a>.
+Affected NetLicensing services:
 
-Thank you for being a part of the NetLicensing community!
+- NetLicensing API
+- NetLicensing Management Console
+- NetLicensing Shop
+- NetLicensing Gateway
+- NetLicensing Website
+
+Updates to follow.
+
+If you have any questions, please contact us <a href='mailto:netlicensing@labs64.com'>here</a>.
 
 —Your NetLicensing Team
