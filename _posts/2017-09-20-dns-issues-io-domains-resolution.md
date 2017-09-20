@@ -12,6 +12,7 @@ tags:
   - DNS
   - Issue
   - Domain
+  - Resolution
 ---
 
 **Status update:** we are being affected by the intermittent global DNS issues with resolving records on .io domains.
