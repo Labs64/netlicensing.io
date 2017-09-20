@@ -26,7 +26,7 @@ Affected NetLicensing services:
 - NetLicensing Gateway
 - NetLicensing Website
 
-Updates to follow.
+We will continue to update and thanks for your patience!
 
 If you have any questions, please contact us <a href='mailto:netlicensing@labs64.com'>here</a>.
 
