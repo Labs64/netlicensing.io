@@ -24,17 +24,16 @@ Just in time for Halloween, we are releasing the new version of *NetLicensing 2.
 
 Major changes in this release:
 
-* **NetLicensing Agent** is delivered now with extended security and resistant against data manipulation by using a digital signature. *NetLicensing Agent 2.3.8-ALPHA2* can be shared with our beta testers on request.
+* **NetLicensing Agent** is delivered now with extended security, which makes offline licensing resistant against data manipulation by using a digital signature.
+*NetLicensing Agent 2.3.8-ALPHA2* can be shared with our beta testers on request.
 
-* We revisited all **NetLicensing Client Libraries** according to the latest available [RESTful API](https://www.labs64.de/confluence/x/pwCo).
+* We revisited all NetLicensing **Client Libraries** to be inline with the latest available [RESTful API](https://www.labs64.de/confluence/x/pwCo).
 
 * **[Pay-per-Use](https://www.labs64.de/confluence/x/uQCo)** Licensing Model got small improvements for better support of post-account scenario.
 
-* New NetLicensing's **Permanent Shop Token** allows...
-
 * MyCommerce **automatic renewal** feature is fully supported by NetLicensing now.
 
-* We've implemented many improvements and bug fixes across all NetLicensing components: *Core*, *Management Console*, *Shop*, *Gateway*, *Client Libraries*, and *Documentation*.
+* Also, we've implemented many improvements and bug fixes across all NetLicensing components: *Core*, *Management Console*, *Shop*, *Gateway*, *Client Libraries*, and *Documentation*.
 
 For a detailed list of changes in this release, see [NetLicensing 2.3.8 Release Notes](https://www.labs64.de/confluence/x/HYAFAQ).
 
