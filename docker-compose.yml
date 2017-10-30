@@ -1,6 +1,6 @@
 version: '2'
 services:
-  mysql:
+  netlicensing:
     image: jekyll/jekyll:pages
     container_name: netlicensing.io
     volumes:
