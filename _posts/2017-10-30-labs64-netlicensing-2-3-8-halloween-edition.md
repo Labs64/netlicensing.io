@@ -6,7 +6,8 @@ author:
   name: NetLicensing
   url: https://netlicensing.io
 image:
-  url: /img/blog/sebastien-gabriel-232358.jpg
+  url: /img/blog/labs64-netlicensing-2_3_8.png
+  hide: true
 tags:
   - News
   - Announcements
@@ -19,6 +20,8 @@ tags:
   - Client Libraries
   - MyCommerce
 ---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ThV2dkjnHQM" frameborder="0" gesture="media" allowfullscreen></iframe>
 
 Just in time for Halloween, we are releasing the new version of *NetLicensing 2.3.8 - Halloween Edition* and we are bringing a bag full of goodies.
 
