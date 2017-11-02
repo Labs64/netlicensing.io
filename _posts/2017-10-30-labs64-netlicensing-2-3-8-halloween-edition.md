@@ -21,11 +21,11 @@ tags:
   - MyCommerce
 ---
 
-<div style="text-align:center;margin-bottom:10px;">
+Just in time for Halloween, we are releasing the new version of *NetLicensing 2.3.8 - Halloween Edition* and we are bringing a bag full of goodies.
+
+<div style="text-align:center;margin:10px;">
   <iframe width="853" height="480" align="center" src="https://www.youtube.com/embed/ThV2dkjnHQM" frameborder="0" gesture="media" allowfullscreen></iframe>
 </div>
-
-Just in time for Halloween, we are releasing the new version of *NetLicensing 2.3.8 - Halloween Edition* and we are bringing a bag full of goodies.
 
 Major changes in this release:
 
