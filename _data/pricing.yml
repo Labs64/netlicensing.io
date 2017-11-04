@@ -22,10 +22,10 @@
   premium: "unlimited"
   enterprise: "unlimited"
 
-- name: "Validations"
-  free: "60 / min / licensee"
-  basic: "60 / min / licensee"
-  premium: "60 / min / licensee"
+- name: "API Requests"
+  free: "10 / sec"
+  basic: "100 / sec"
+  premium: "500 / sec"
   enterprise: "unlimited"
 
 - name: "RESTful API and Integration"
