@@ -24,9 +24,9 @@ stage_banner_image: "../img/netlicensing-stage-banner-01.png"
 # Blog
 blog_placeholder_image: "/img/blog/blog-placeholder.jpg"
 blog_recommended_posts:
- - /blog/2016/01/22/labs64-netlicensing-2-3-is-out/
+ - /blog/2017/10/30/labs64-netlicensing-2-3-8-halloween-edition/
+ - /blog/2017/08/20/labs64-netlicensing-laas/
  - /blog/2015/10/24/infographic-how-to-select-licensing-model/
- - /blog/2015/04/02/services-can-add-automatic-image-attribution-for-your-website/
 
 # Ads
 ads_hiring_text: We Are Hiring!
