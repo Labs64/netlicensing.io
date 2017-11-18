@@ -24,7 +24,7 @@ We are happy to offer **80% OFF** of Basic Plan for 6 months for both new and ex
 
 This is a great time to add an enterprise-grade *License Management and Monetization* capabilities to your digital products and services.
 
-## How to Enter{:style="text-align: left;"}
+## How to Enter
 
 ### New Vendors
 
@@ -44,7 +44,7 @@ New NetLicening referral registrations will qualify you for **80% OFF** of Basic
 
 ### ... and there is even more
 
-Additionally, 3 vendor profiles participated in this campaign will be randomly selected and will get **1 Year** Basic Plan for **FREE**.
+Additionally, 3 vendor profiles participated in this campaign will be randomly selected and will get **1-year** Basic Plan for **FREE**.
 
 
 *Don't miss these great specials!*
