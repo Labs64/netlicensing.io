@@ -32,15 +32,13 @@ Register for a new NetLicensing account between November 20 and December 4, and 
 
 ### Existing Vendors
 
-Use the following affiliate link:
+Use the following affiliate link and publish it on your website or social profile.
 
 {% highlight html %}
 http://nlic.io/cm2017?v=YOUR_VENDOR_NUMBER
 {% endhighlight %}
 
-and publish it on your website or social profile.
-
-New NetLicening referral registrations will qualify you for **80% OFF** of Basic Package for 6 months.
+New NetLicensing referral registrations will qualify you for **80% OFF** of Basic Package for 6 months.
 
 ### ... and there is even more
 
