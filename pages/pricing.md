@@ -66,7 +66,8 @@ tags:
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_regular">
             <h3><strong style="font-size:larger;">Basic</strong><br/>For growing businesses with more customers</h3>
-            <div class="NL_price_tag">48 € / month</div>
+            <!-- div class="NL_price_tag">48 € / month</div -->
+            <div class="NL_price_tag"><span class="NL_price_tag" style="text-decoration: line-through;">48 €</span> 9 € / month</div>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
