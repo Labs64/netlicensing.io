@@ -67,7 +67,7 @@ tags:
         <div class="NL_price_features NL_price_regular">
             <h3><strong style="font-size:larger;">Basic</strong><br/>For growing businesses with more customers</h3>
             <!-- div class="NL_price_tag">48 € / month</div -->
-            <div class="NL_price_tag"><span class="NL_price_tag" style="text-decoration: line-through;">48 €</span> 9 € / month</div>
+            <div class="NL_price_tag"><span class="NL_price_tag" style="text-decoration: line-through;">48 €</span> 9 € / month*</div>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
@@ -140,6 +140,10 @@ tags:
             </div>
         </div>
     </div>
+</div>
+
+<div class="row NL_block">
+    <p class="col-md-8 col-md-offset-2" style="text-align:center;">This <a href="https://netlicensing.io/blog/2017/11/18/labs64-netlicensing-cyber-monday-2017/">offer</a> is valid until 4th of December 2017.</p>
 </div>
 
 <div class="row NL_block">
