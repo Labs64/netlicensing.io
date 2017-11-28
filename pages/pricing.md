@@ -143,7 +143,7 @@ tags:
 </div>
 
 <div class="row NL_block">
-    <p class="col-md-8 col-md-offset-2" style="text-align:center;">This <a href="https://netlicensing.io/blog/2017/11/18/labs64-netlicensing-cyber-monday-2017/">offer</a> is valid until 4th of December 2017.</p>
+    <p class="col-md-8 col-md-offset-2" style="text-align:center;">* This <a href="https://netlicensing.io/blog/2017/11/18/labs64-netlicensing-cyber-monday-2017/">offer</a> is valid until 4th of December 2017.</p>
 </div>
 
 <div class="row NL_block">
