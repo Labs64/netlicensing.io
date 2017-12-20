@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: https://netlicensing.io
 image:
-  url: /img/blog/labs64-netlicensing-2_3_3.png
+  url: /img/blog/unsplash-neonbrand-315896.jpg
 tags:
   - News
   - Announcements
@@ -58,3 +58,5 @@ A subscription model does mean a constant expense, but like when you lease a car
 - Lower risk
 
 If however, you are purchasing software that would cost more as a subscription over the lifetime that you plan to use it, you do not plan to upgrade in that time and you have the necessary budget - then an outright license may be the better choice.
+
+Photo by NeONBRAND on Unsplash
