@@ -11,10 +11,12 @@ tags:
   - Licensing
   - Licensing Model
   - Subscription
-  - NetLicensing Gateway
+  - pricing model
+  - lease
+  - own
 ---
 
-Licensing is perhaps the biggest issue that many system administrators face and is one which can cause endless issues if it is improperly managed. When it comes to understanding the different pricing models that exist for licensing; a difficult decision becomes almost impossible. In recent years there has been a clear divide between the two main models and we will try to explore those in more detail here. In order to not overcomplicate the discussion; we will refer to them as 'owned' (with on-going support) and 'leased'.
+*Licensing* is perhaps the biggest issue that many system administrators face and is one which can cause endless issues if it is improperly managed. When it comes to understanding the different pricing models that exist for licensing; a difficult decision becomes almost impossible. In recent years there has been a clear divide between the two main models and we will try to explore those in more detail here. In order to not overcomplicate the discussion; we will refer to them as *'owned'* (with on-going support) and *'leased'*.
 
 The first and often most significant factor in making a decision about licensing is cost. Can you, or your business afford the license? The traditional model for licensing has been a large one-off payment where you 'own' the software but can continue to pay an annual fee - known as software assurance - which will grant you the right to continue to upgrade to the latest versions of the software and have access to premium support. This is often very expensive and you should carefully consider what it is that you stand to gain by buying the software outright.
 
