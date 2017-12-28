@@ -19,7 +19,7 @@ dns_prefetch:
  - //l64.cc
 
 # Styling
-stage_banner_image: "../img/netlicensing-stage-banner-advent-4.png"
+stage_banner_image: "../img/netlicensing-stage-banner-new-year.gif"
 
 # Blog
 blog_placeholder_image: "/img/blog/blog-placeholder.jpg"
