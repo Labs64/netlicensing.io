@@ -12,8 +12,8 @@
 
 - name: "Licensees<br/>&nbsp;"
   free: "100<br/>&nbsp;"
-  basic: "5000<br/>+ 10 €/mo per 1k extra"
-  premium: "25000<br/>+ 10 €/mo per 1k extra"
+  basic: "1000<br/>+ 20 €/mo per 1k extra"
+  premium: "5000<br/>+ 20 €/mo per 1k extra"
   enterprise: "unlimited<br/>&nbsp;"
 
 - name: "Licenses"
@@ -52,8 +52,8 @@
 - name: "Licensing Models"
   description: "Accelerate your licensing! With NetLicensing, you can create licensing models that fit your business needs."
   free: "<a href='https://www.labs64.de/confluence/x/twCo'>Try &amp; Buy</a> &#8226; <a href='https://www.labs64.de/confluence/x/ugCo'>Subscription</a>"
-  basic: "<a href='/licensing-models/'>All supported</a>"
-  premium: "<a href='/licensing-models/'>All supported</a>"
+  basic: "<a href='https://www.labs64.de/confluence/x/twCo'>Try &amp; Buy</a> &#8226; <a href='https://www.labs64.de/confluence/x/ugCo'>Subscription</a> &#8226; <a href='https://www.labs64.de/confluence/x/IYDt'>Multi-Feature</a>"
+  premium: "<a href='https://www.labs64.de/confluence/x/twCo'>Try &amp; Buy</a> &#8226; <a href='https://www.labs64.de/confluence/x/ugCo'>Subscription</a> &#8226; <a href='https://www.labs64.de/confluence/x/IYDt'>Multi-Feature</a> &#8226; <a href='https://www.labs64.de/confluence/x/bADx'>Node-Locked</a>"
   enterprise: "<a href='/licensing-models/'>All supported</a>"
 
 - name: "Licensee Secret (<a href='https://www.labs64.de/confluence/x/bADx'>Node Locked</a>)"
@@ -107,19 +107,19 @@
   free: "Cloud"
   basic: "Cloud"
   premium: "Cloud"
-  enterprise: "Cloud &#8226; On-Premises"
+  enterprise: "Cloud"
 
 - name: "<a href='https://www.labs64.com/legal/terms-of-service/netlicensing/service-level-agreement-1-0/'>Service Level Agreement</a>"
   description: "Get extra guarantee with the Service Level Agreement (SLA): we take care your licensing is up and running 99.0% of the time."
   free: "N"
   basic: "N"
-  premium: "95%"
+  premium: "N"
   enterprise: "99%"
 
 - name: "Technical Support"
   free: "Standard Support<br/><a href='https://www.labs64.de/confluence/x/pgCo'>Online</a> &#8226; <a href='mailto:netlicensing@labs64.com'>eMail</a> (3 days)"
   basic: "Standard Support<br/><a href='https://www.labs64.de/confluence/x/pgCo'>Online</a> &#8226; <a href='mailto:netlicensing@labs64.com'>eMail</a> (3 days)"
-  premium: "Premium Support<br/><a href='https://www.labs64.de/confluence/x/pgCo'>Online</a> &#8226; <a href='mailto:netlicensing@labs64.com'>eMail</a> (1 day) - 8/5"
+  premium: "Standard Support<br/><a href='https://www.labs64.de/confluence/x/pgCo'>Online</a> &#8226; <a href='mailto:netlicensing@labs64.com'>eMail</a> (3 days)"
   enterprise: "Priority Support<br/><a href='https://www.labs64.de/confluence/x/pgCo'>Online</a> &#8226; <a href='mailto:netlicensing@labs64.com'>eMail</a> &#8226; Phone (4 hours) - 8/5"
 
 - name: "Online Licensing Training"
