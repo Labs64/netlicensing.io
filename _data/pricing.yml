@@ -103,13 +103,6 @@
   premium: "N"
   enterprise: "Y"
 
-- name: "Hosting Options"
-  description: "Use NetLicensing from our servers and save on maintenance costs or on-premises (self-hosted) in order to get full control over NetLicensing installation within your company's infrastructure."
-  free: "Cloud (SaaS)"
-  basic: "Cloud (SaaS)"
-  premium: "Cloud (SaaS)"
-  enterprise: "Cloud (SaaS) &#8226; On-Premises (Self-Hosted)"
-
 - name: "Maintenance/Updates"
   free: "Cloud"
   basic: "Cloud"
