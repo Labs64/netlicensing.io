@@ -92,7 +92,7 @@ tags:
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_promo">
             <h3><strong style="font-size:larger;">Premium</strong><br/>Full featured for comprehensive products</h3>
-            <div class="NL_price_tag">298 € / month</div>
+            <div class="NL_price_tag">198 € / month</div>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
