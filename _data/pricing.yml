@@ -2,19 +2,19 @@
   free: "1"
   basic: "3"
   premium: "10"
-  enterprise: "unlimited"
+  enterprise: "customizable"
 
 - name: "Product Modules (per product)"
   free: "2"
   basic: "5"
   premium: "10"
-  enterprise: "unlimited"
+  enterprise: "customizable"
 
 - name: "Licensees<br/>&nbsp;"
   free: "100<br/>&nbsp;"
   basic: "1000<br/>+ 20 €/mo per 1k extra"
   premium: "5000<br/>+ 20 €/mo per 1k extra"
-  enterprise: "unlimited<br/>&nbsp;"
+  enterprise: "customizable<br/>&nbsp;"
 
 - name: "Licenses"
   free: "unlimited"
@@ -26,7 +26,7 @@
   free: "10 / sec"
   basic: "100 / sec"
   premium: "500 / sec"
-  enterprise: "unlimited"
+  enterprise: "customizable"
 
 - name: "RESTful API and Integration"
   description: "Integrate NetLicensing into your product or process! With the NetLicensing API, you can manage your licensing entities and easily integrate them into your business processes, ERP, CRM or Web shop."
@@ -53,14 +53,14 @@
   description: "Accelerate your licensing! With NetLicensing, you can create licensing models that fit your business needs."
   free: "<a href='https://www.labs64.de/confluence/x/twCo'>Try &amp; Buy</a> &#8226; <a href='https://www.labs64.de/confluence/x/ugCo'>Subscription</a>"
   basic: "<a href='https://www.labs64.de/confluence/x/twCo'>Try &amp; Buy</a> &#8226; <a href='https://www.labs64.de/confluence/x/ugCo'>Subscription</a> &#8226; <a href='https://www.labs64.de/confluence/x/IYDt'>Multi-Feature</a>"
-  premium: "<a href='https://www.labs64.de/confluence/x/twCo'>Try &amp; Buy</a> &#8226; <a href='https://www.labs64.de/confluence/x/ugCo'>Subscription</a> &#8226; <a href='https://www.labs64.de/confluence/x/IYDt'>Multi-Feature</a> &#8226; <a href='https://www.labs64.de/confluence/x/bADx'>Node-Locked</a>"
+  premium: "<a href='https://www.labs64.de/confluence/x/twCo'>Try &amp; Buy</a> &#8226; <a href='https://www.labs64.de/confluence/x/ugCo'>Subscription</a> &#8226; <a href='https://www.labs64.de/confluence/x/IYDt'>Multi-Feature</a> &#8226; <a href='https://www.labs64.de/confluence/x/uACo'>Rental</a>"
   enterprise: "<a href='/licensing-models/'>All supported</a>"
 
 - name: "Licensee Secret (<a href='https://www.labs64.de/confluence/x/bADx'>Node Locked</a>)"
   description: "NetLicensing offers a comprehensive licensing support for virtual environments and sandboxing."
   free: "N"
-  basic: "Y"
-  premium: "Y"
+  basic: "N"
+  premium: "N"
   enterprise: "Y"
 
 - name: "NetLicensing Shop"
@@ -93,7 +93,7 @@
   description: "See how your software is performing out in the wild. NetLicensing gives you insight into your licensees' product usage."
   free: "N"
   basic: "N"
-  premium: "Y"
+  premium: "Basic"
   enterprise: "Y"
 
 - name: "NetLicensing Agent"
