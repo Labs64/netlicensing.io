@@ -1591,6 +1591,10 @@ ul#filterOptions>li.active>a {
     margin: 0 0;
 }
 
+.NL_price_captions {
+    white-space: nowrap;
+}
+
 .NL_price_captions h3 {
     padding: 40px 0 0 0;
 }
