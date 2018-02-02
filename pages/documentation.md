@@ -113,7 +113,7 @@ tags:
 
 <div class="row NL_block" style="text-align:center;">
     <h3 class="col-md-12">Online validation using NetLicensing Agent on vendors’ premises</h3>
-    <p class="col-md-8 col-md-offset-2">NetLicensing core services are hosted on very reliable and scalable architecture with the high availability. Nevertheless, based on the vendors demand, fault-tolerant infrastructure can be established by deploying NetLicensing Agent on vendor’s premises, so this additional installation will guarantee the highest availability to the customers. </p>
+    <p class="col-md-8 col-md-offset-2">NetLicensing core services are hosted on very reliable and scalable architecture with the high availability. Nevertheless, based on the vendors demand, fault-tolerant infrastructure can be established by deploying NetLicensing Agent on vendor’s premises, so this additional installation will allow the vendor to ensure availability using his own infrastructure.</p>
     <figure> 
         <div class="image">
             <img src="{{ '/img/use-cases/netlicensing-agent-vendor.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Use Case: Online validation using NetLicensing Agent on vendors’ premises" width="70%">
