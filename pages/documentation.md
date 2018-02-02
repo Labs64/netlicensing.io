@@ -79,3 +79,14 @@ tags:
         </div>
     </div>
 </div>
+
+<div class="row NL_block">
+    <h2 class="col-md-12">NetLicensing Use Cases</h2>
+    <p class="col-md-8 col-md-offset-2" style="text-align:center;">Here you can find typical NetLicensing integration and usage scenarios, which might give you some impressions on how you can elaborate on the best-fit licensing approach for your products.</p>
+</div>
+
+<div class="row NL_block">
+    <h3 class="col-md-12">Online validation & activation</h3>
+    <p class="col-md-8 col-md-offset-2" style="text-align:center;">Use NetLicensing services in an innovative Licensing-as-a-Service (LaaS) mode, so your products can be validated & activated online, as well as provide the best customer experience by allowing immediate online licenses acquisition.</p>
+    <img class="image col-md-4" src="{{ '/img/use-cases/netlicensing-online.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Use Case: Online validation & activation">
+</div>
