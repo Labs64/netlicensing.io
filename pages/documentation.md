@@ -80,6 +80,22 @@ tags:
     </div>
 </div>
 
+<div class="row">
+    <div class="col-md-12 NL_container">
+        <div class="col-md-6 col-md-offset-3 NL_container_text">
+            <h2>Get Started with NetLicensing</h2>
+            <span>It’s easy to get started with NetLicensing to enable license management for your products - just follow these five simple steps.</span>
+            <form action="/getting-started/" method="GET"
+                  name="Getting Started" id="Getting-started"
+                  novalidate>
+                <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
+                    <i class="fa fa-rocket"></i>Getting Started
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
 <div class="row NL_block" style="text-align:center;">
     <h2 class="col-md-12">NetLicensing Usage Scenarios</h2>
     <p class="col-md-8 col-md-offset-2">Here you can find typical NetLicensing integration and usage scenarios, which might give you some impressions on how you can elaborate on the best-fit licensing approach for your products.</p>
