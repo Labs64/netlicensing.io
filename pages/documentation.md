@@ -102,3 +102,18 @@ tags:
     <p class="col-md-8 col-md-offset-2">In some environments access to the NetLicensing cloud services is not possible for technical or organizational reasons, such as no internet connectivity or security restrictions. To enable NetLicensing functionality even in such restricted environments, we offer NetLicensing Agent - a standalone module, which is able to operate without connectivity to the NetLicensing cloud services and responding in a local network or on a local host to the validation requests same as the NetLicensing cloud service does.</p>
     <img class="image col-md-8" src="{{ '/img/use-cases/netlicensing-agent-customer.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Use Case: Offline validation using NetLicensing Agent on customers’ premises">
 </div>
+
+<div class="row NL_block" style="text-align:center;">
+    <h3 class="col-md-12"">Offline validation using TTL & Cache</h3>
+    <p class="col-md-8 col-md-offset-2">This is a typical scenario, which can be used for mobile applications and IoT devices in order to reduce outgoing traffic on validation requests. Initial successful response from NetLicensing validation can be  cached in the application for the defined Time-To-Live interval and used to enable product functionalities.</p>
+</div>
+
+<div class="row NL_block" style="text-align:center;">
+    <h3 class="col-md-12"">3pp e-commerce integration using NetLicensing Gateway</h3>
+    <p class="col-md-8 col-md-offset-2">Integration with NetLicensing doesn’t mean, that existing sales channels need to be changed. You can use established e-commerce (FastSpring, MyCommerce, PrestaShop, SendOwl, etc.) platforms for licenses checkout process and configure fulfillment / web-hocks process to be used in the combination with NetLicensing Gateway. So all acquired licenses will be available and assigned to the customer for later validation in NetLicensing.</p>
+</div>
+
+<div class="row NL_block" style="text-align:center;">
+    <h3 class="col-md-12"">ERP & CRM integration using NetLicensing RESTful API</h3>
+    <p class="col-md-8 col-md-offset-2">The best synergies can be achieved via integration of your CRM, CMS, ERP & BI and NetLicensing services. Transform your  existing systems in “one-stop-shop” for all customer and process relevant metrics and  access retrieve NetLicensing assets assigned to your customers in the above systems.</p>
+</div>
