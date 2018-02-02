@@ -145,3 +145,19 @@ tags:
     <h3 class="col-md-12">ERP & CRM integration using NetLicensing RESTful API</h3>
     <p class="col-md-8 col-md-offset-2">The best synergies can be achieved via integration of your CRM, CMS, ERP & BI and NetLicensing services. Transform your  existing systems in “one-stop-shop” for all customer and process relevant metrics and  access retrieve NetLicensing assets assigned to your customers in the above systems.</p>
 </div>
+
+<div class="row">
+    <div class="col-md-12 NL_form_light NL_block">
+        <div class="col-md-8 col-md-offset-2 NL_form_light_text">
+            <h2>NetLicensing Case Studies</h2>
+            <span>Check out our Case Studies to see how we have helped create license management solutions across a diverse range of vendors and industry sectors.</span>
+            <form action="/case-studies/" method="GET"
+                  name="Case Studies" id="case-studies"
+                  novalidate>
+                <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
+                    <i class="fa fa-shield-alt"></i>View Case Studies
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
