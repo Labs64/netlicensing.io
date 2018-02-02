@@ -104,36 +104,41 @@ tags:
 <div class="row NL_block" style="text-align:center;">
     <h3 class="col-md-12">Online validation & activation</h3>
     <p class="col-md-8 col-md-offset-2">Use NetLicensing services in an innovative Licensing-as-a-Service (LaaS) mode, so your products can be validated & activated online, as well as provide the best customer experience by allowing immediate online licenses acquisition.</p>
-    <figure> 
+    <figure>
         <div class="image">
-            <img src="{{ '/img/use-cases/netlicensing-online.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Use Case: Online validation & activation" width="70%">
-        </div> 
+            <img src="{{ '/img/usage-scenarios/netlicensing-online.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Use Case: Online validation & activation" width="70%">
+        </div>
     </figure>
 </div>
 
 <div class="row NL_block" style="text-align:center;">
     <h3 class="col-md-12">Online validation using NetLicensing Agent on vendors’ premises</h3>
     <p class="col-md-8 col-md-offset-2">NetLicensing core services are hosted on very reliable and scalable architecture with the high availability. Nevertheless, based on the vendors demand, fault-tolerant infrastructure can be established by deploying NetLicensing Agent on vendor’s premises, so this additional installation will allow the vendor to ensure availability using his own infrastructure.</p>
-    <figure> 
+    <figure>
         <div class="image">
-            <img src="{{ '/img/use-cases/netlicensing-agent-vendor.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Use Case: Online validation using NetLicensing Agent on vendors’ premises" width="70%">
-        </div> 
+            <img src="{{ '/img/usage-scenarios/netlicensing-agent-vendor.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Use Case: Online validation using NetLicensing Agent on vendors’ premises" width="70%">
+        </div>
     </figure>
 </div>
 
 <div class="row NL_block" style="text-align:center;">
     <h3 class="col-md-12">Offline validation using NetLicensing Agent on customers’ premises</h3>
     <p class="col-md-8 col-md-offset-2">In some environments access to the NetLicensing cloud services is not possible for technical or organizational reasons, such as no internet connectivity or security restrictions. To enable NetLicensing functionality even in such restricted environments, we offer NetLicensing Agent - a standalone module, which is able to operate without connectivity to the NetLicensing cloud services and responding in a local network or on a local host to the validation requests same as the NetLicensing cloud service does.</p>
-    <figure> 
+    <figure>
         <div class="image">
-            <img src="{{ '/img/use-cases/netlicensing-agent-customer.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Use Case: Offline validation using NetLicensing Agent on customers’ premises" width="70%">
-        </div> 
+            <img src="{{ '/img/usage-scenarios/netlicensing-agent-customer.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Use Case: Offline validation using NetLicensing Agent on customers’ premises" width="70%">
+        </div>
     </figure>
 </div>
 
 <div class="row NL_block" style="text-align:center;">
     <h3 class="col-md-12">Offline validation using TTL & Cache</h3>
     <p class="col-md-8 col-md-offset-2">This is a typical scenario, which can be used for mobile applications and IoT devices in order to reduce outgoing traffic on validation requests. Initial successful response from NetLicensing validation can be  cached in the application for the defined Time-To-Live interval and used to enable product functionalities.</p>
+    <figure>
+        <div class="image">
+            <img src="{{ '/img/usage-scenarios/netlicensing-offline-ttl-cache.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Use Case: Offline validation using TTL & Cache" width="70%">
+        </div>
+    </figure>
 </div>
 
 <div class="row NL_block" style="text-align:center;">
