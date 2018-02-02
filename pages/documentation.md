@@ -84,7 +84,7 @@ tags:
     <div class="col-md-12 NL_container">
         <div class="col-md-6 col-md-offset-3 NL_container_text">
             <h2>Get Started with NetLicensing</h2>
-            <span>It’s easy to get started with NetLicensing to enable license management for your products - just follow these five simple steps.</span>
+            <span>It’s easy to get started with NetLicensing to enable license management for your products.<br>Just follow these five simple steps.</span>
             <form action="/getting-started/" method="GET"
                   name="Getting Started" id="Getting-started"
                   novalidate>
