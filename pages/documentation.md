@@ -155,7 +155,7 @@ tags:
                   name="Case Studies" id="case-studies"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
-                    <i class="fa fa-shield-alt"></i>View Case Studies
+                    <i class="fa fa-paper-plane"></i>View Case Studies
                 </button>
             </form>
         </div>
