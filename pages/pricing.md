@@ -83,7 +83,7 @@ tags:
             </ul>
 
             <div class="NL_btn" style="padding: 5px 0 10px 0;">
-                <a href="/contact-sales/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=basic"
+                <a href="https://go.netlicensing.io/console/v2/content/register.xhtml?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=basic"
                    class="NL_button button_main NL_dark_btn">Start Free Trial</a>
             </div>
         </div>
@@ -109,7 +109,7 @@ tags:
             </ul>
 
             <div class="NL_btn" style="padding: 5px 0 10px 0;">
-                <a href="/contact-sales/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=premium"
+                <a href="https://go.netlicensing.io/console/v2/content/register.xhtml?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=premium"
                    class="NL_button button_main NL_dark_btn">Start Free Trial</a>
             </div>
         </div>
