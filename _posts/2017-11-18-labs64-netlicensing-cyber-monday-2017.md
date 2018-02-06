@@ -4,7 +4,7 @@ title: "NetLicensing - Cyber Weeks Special - 80% OFF"
 description: "Get 80% off Basic Plan for 6 months for both new and existing NetLicensing vendors!"
 author:
   name: NetLicensing
-  url: http://nlic.io/cm2017?v=VDEMO
+  url: https://netlicensing.io/?cmp=cm2017&v=VDEMO
 image:
   url: /img/blog/labs64-netlicensing-cyber-monday-2017.png
 tags:
@@ -35,7 +35,7 @@ Register for a new NetLicensing account between November 20 and December 4, and 
 Use the following affiliate link and publish it on your website or social profile.
 
 {% highlight html %}
-http://nlic.io/cm2017?v=YOUR_VENDOR_NUMBER
+https://netlicensing.io/?cmp=cm2017&v=YOUR_VENDOR_NUMBER
 {% endhighlight %}
 
 New NetLicensing referral registrations will qualify you for **80% OFF** Basic Plan for 6 months.
