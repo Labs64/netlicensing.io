@@ -28,7 +28,7 @@ So, here is my final recipe, how to do it for a single program via the Windows s
 
 - Create a new shortcut, enter the following command line:
 
-{% highlight shell %}
+{% highlight bash %}
 C:\Windows\System32\cmd.exe /c "SET LANG=en && START /D ^"C:\Program Files (x86)\Inkscape^" inkscape.exe"
 {% endhighlight %}
 
