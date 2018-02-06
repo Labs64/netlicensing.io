@@ -154,7 +154,7 @@ sitemap:
                     </ul>
                     <div>
                     <em>Sample request:</em>
-                    {% highlight shell %}
+                    {% highlight bash %}
 $ curl --header "Accept: application/xml" --insecure --user demo:demo --request GET https://go.netlicensing.io/core/v2/rest/licensee/%LICENSEE_NUMBER%/validate
                     {% endhighlight %}
                     <em>Sample response:</em>
@@ -259,7 +259,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
                     <ul style="margin-left: 20px;">
                         <li>Create shop token for the given licensee (replace %LICENSEE_NUMBER%)<br/>
                         <em>Create token request:</em>
-                        {% highlight shell %}
+                        {% highlight bash %}
 $ curl --header "Accept: application/xml" --header "Content-Type: application/x-www-form-urlencoded" --insecure --user demo:demo --request POST https://go.netlicensing.io/core/v2/rest/token --data "tokenType=SHOP&licenseeNumber=%LICENSEE_NUMBER%"
                         {% endhighlight %}
                         <em>Create token response:</em>
