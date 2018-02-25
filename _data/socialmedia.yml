@@ -25,3 +25,7 @@
 - title: Xing
   url: https://www.xing.com/companies/labs64gmbh
   class: fa-xing
+
+- title: Telegram
+  url: https://t.me/netlicensing
+  class: fa-location-arrow
