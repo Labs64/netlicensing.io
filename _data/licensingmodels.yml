@@ -123,3 +123,18 @@
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-named-user.png'
   url: "https://www.labs64.de/confluence/x/tgCo"
+
+
+- name: "Quota"
+  aliases:
+   - Limit
+   - Capacity
+   - Quantity
+   - Volume
+  description: "This licensing model defines the capacity limits (e.g. units, requests, volume, etc.) for a certain product feature."
+  tags:
+   - volume
+   - feature
+  status: "AVAILABLE"
+  img: '/img/licensing-model/licensing-model-quota.png'
+  url: "https://www.labs64.de/confluence/x/tgCo"
