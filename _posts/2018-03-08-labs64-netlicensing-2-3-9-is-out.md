@@ -52,7 +52,7 @@ Existing licensing model [“Pay-per-Use”](https://www.labs64.de/confluence/x/
 
 With the PayPal [“recurring payments”](https://www.labs64.de/confluence/x/vwCo) option, you can achieve seamless subscription management and license renewal.
 
-![PayPal recurring payments](/img/blog/netlicensing-239-licenseedata.png "PayPal recurring payments"){:class="blog-center"}
+![PayPal recurring payments](/img/blog/netlicensing-239-recurring.png "PayPal recurring payments"){:class="blog-center"}
 
 ## NetLicensing Guided Tour
 
@@ -68,7 +68,7 @@ Know Your Customer by collecting customers’ contact information, so you can sh
 
 ## NetLicensing Demo Web Application
 
-Open source & free NetLicensing [Demo Application](https://github.com/Labs64/NetLicensing-Demo) provides you with the easiest way to become familiar with the main NetLicensing functionalities and can even be a good foundation for your NetLicensing integration.
+Open source & free NetLicensing [Demo Application](https://github.com/Labs64/NetLicensing-Demo){:target="_blank"} provides you with the easiest way to become familiar with the main NetLicensing functionalities and can even be a good foundation for your NetLicensing integration.
 
 As well as a set of useful improvements and defect fixes such as:
 * Allow vendor login by email address and vendor number
