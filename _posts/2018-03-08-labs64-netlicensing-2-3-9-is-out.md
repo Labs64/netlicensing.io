@@ -10,14 +10,25 @@ image:
 tags:
   - News
   - Announcements
+  - license management
   - NetLicensing Agent
-  - Offline licensing
-  - Quota
   - Licensing Model
-  - recurring payments
+  - Quota
+  - offline licensing
+  - capacity limits
+  - Pay-per-Use
+  - PayPal Recurring Payments
+  - license renewal
   - Guided Tour
   - billing information
-  - Demo Web Application
+  - CRM ERP integration
+  - Demo Application
+  - TTL
+  - Time to live
+  - Dashboard
+  - performance
+  - client libraries
+  - NetLicensing RESTful API
 ---
 
 Today we launched a whole new reason for software vendors to love NetLicensing: We are excited to announce the release of *NetLicensing 2.3.9*.
@@ -33,7 +44,7 @@ NetLicensing Agent enables a secure, traceable, and flexible way of enabling off
 
 This new licensing model defines the capacity limits (e.g. units, requests, volume, etc.) for a certain product feature.
 
-### Enabled pre-accounting for the “Pay-per-Use” Licensing Model
+## Enabled pre-accounting for the “Pay-per-Use” Licensing Model
 
 Existing licensing model “Pay-per-Use” was extended by pre-accounting capabilities and now allows reservation of the usage limits by customer.
 
