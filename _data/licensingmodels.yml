@@ -114,17 +114,6 @@
   url: "https://www.labs64.de/confluence/x/bADx"
 
 
-- name: "Named User"
-  aliases:
-   - Personal License
-  description: "License rights are granted to specific user IDs. The software may be used on any computer by a user ID that is on a list of licensed users."
-  tags:
-   - user
-  status: "AVAILABLE"
-  img: '/img/licensing-model/licensing-model-named-user.png'
-  url: "https://www.labs64.de/confluence/x/tgCo"
-
-
 - name: "Quota"
   aliases:
    - Limit
@@ -137,4 +126,15 @@
    - feature
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-quota.png'
+  url: "https://www.labs64.de/confluence/x/tgCo"
+
+
+- name: "Named User"
+  aliases:
+   - Personal License
+  description: "License rights are granted to specific user IDs. The software may be used on any computer by a user ID that is on a list of licensed users."
+  tags:
+   - user
+  status: "AVAILABLE"
+  img: '/img/licensing-model/licensing-model-named-user.png'
   url: "https://www.labs64.de/confluence/x/tgCo"
