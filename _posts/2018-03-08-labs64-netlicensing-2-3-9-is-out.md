@@ -44,7 +44,7 @@ Notable changes in this release:
 
 This new [licensing model](https://www.labs64.de/confluence/x/5wAKAQ) defines the capacity limits (e.g. units, requests, volume, etc.) for a certain product feature.
 
-![Quota](//img/licensing-model/licensing-model-quota.png "Quota"){:class="blog-center"}
+![Quota](/img/licensing-model/licensing-model-quota.png "Quota"){:class="blog-center"}
 
 ## Enabled pre-accounting for the “Pay-per-Use” Licensing Model
 
@@ -71,6 +71,8 @@ Know Your Customer by collecting customers’ contact information, so you can sh
 ## NetLicensing Demo Web Application
 
 Open source & free NetLicensing [Demo Application](https://github.com/Labs64/NetLicensing-Demo){:target="_blank"} provides you with the easiest way to become familiar with the main NetLicensing functionalities and can even be a good foundation for your NetLicensing integration.
+
+![NetLicensing Demo Web Application](/img/blog/netlicensing-239-demo.png "NetLicensing Demo Web Application"){:class="blog-center"}
 
 As well as a set of useful improvements and defect fixes such as:
 * Allow vendor login by email address and vendor number
