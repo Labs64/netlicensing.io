@@ -42,7 +42,9 @@ Notable changes in this release:
 
 ## New Licensing Model "Quota"
 
-This new [licensing model](https://www.labs64.de/confluence/x/tgCo) defines the capacity limits (e.g. units, requests, volume, etc.) for a certain product feature.
+This new [licensing model](https://www.labs64.de/confluence/x/5wAKAQ) defines the capacity limits (e.g. units, requests, volume, etc.) for a certain product feature.
+
+![Quota](//img/licensing-model/licensing-model-quota.png "Quota"){:class="blog-center"}
 
 ## Enabled pre-accounting for the “Pay-per-Use” Licensing Model
 
