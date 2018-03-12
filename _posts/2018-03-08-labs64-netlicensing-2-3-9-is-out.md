@@ -40,6 +40,8 @@ Notable changes in this release:
 
 [NetLicensing Agent](https://www.labs64.de/confluence/x/8QAKAQ) enables a secure, traceable, and flexible way of enabling offline licensing in the environments without access to the NetLicensing services.
 
+![NetLicensing Agent](/img/blog/netlicensing-239-offline-agent.png "NetLicensing Agent"){:class="blog-center"}
+
 ## New Licensing Model "Quota"
 
 This new [licensing model](https://www.labs64.de/confluence/x/5wAKAQ) defines the capacity limits (e.g. units, requests, volume, etc.) for a certain product feature.
