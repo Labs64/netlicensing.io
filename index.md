@@ -103,9 +103,13 @@ no-cache: true
 </div>
 -->
 
+<div class="row NL_block">
+    <h2 class="col-md-12">NetLicensing Use Cases</h2>
+    <p class="col-md-8 col-md-offset-2" style="text-align:center;">Get insight into how various organizations are using NetLicensing services to tackle a growing number of use cases.</p>
+</div>
+
 <!-- Use Cases -->
 <div class="row">
-  <h2 class="col-md-12">NetLicensing Use Cases</h2>
   <div class="col-md-12 NL_container">
     <div class="col-md-6 col-md-offset-3 NL_container_text nlic-usecases">
       {% for usecase in site.data.usecases %}
