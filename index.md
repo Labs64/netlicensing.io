@@ -101,7 +101,21 @@ no-cache: true
     </div>
 </div>
 
-{% include usecases.html %}
+<!-- Use Cases -->
+<div class="row">
+  <div class="col-md-12 NL_container">
+    {% for usecase in site.data.usecases %}
+    {% if usecase.name %}
+    <div class="col-md-6 col-md-offset-3 NL_container_text" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+      <div>
+        <h3>{{ usecase.name }}</h3>
+        <span>{{ usecase.description }}</span>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
 
 <div class="row NL_block">
         <h2 class="col-md-12">Companies trust NetLicensing to provide a secure License Management Solution</h2>
