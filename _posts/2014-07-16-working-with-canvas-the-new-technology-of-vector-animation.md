@@ -42,6 +42,6 @@ Now about animation. Everybody is aware about how old cartoons were created, whe
 
 As a result the balls move according to programmed laws of motion.
 
-<span style="line-height: 1.5em;">You can get aquainted with the same technology of Google company: <a href="https://www.html5canvastutorials.com/labs/html5-canvas-google-bouncing-balls/" target="_blank" rel="nofollow">HTML5 Canvas Google Bouncing Balls</a>. This technology is used to create modern browser games, moving elements interaction with users and also just to make a webpage more appealing to a client.</span>
+<span style="line-height: 1.5em;">HTML5 Canvas technology is used to create modern browser games, moving elements interaction with users and also just to make a webpage more appealing to a client.</span>
 
 > Dynamic Web Cookbook - HTML, CSS, JavaScript and other WEBby stuff - [View on GitHub](https://github.com/Labs64/dynamic-web-cookbook/tree/gh-pages/html5-canvas "Dynamic Web Cookbook"){:target="_blank"}
