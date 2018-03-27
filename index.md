@@ -101,6 +101,8 @@ no-cache: true
     </div>
 </div>
 
+{% include usecases.html %}
+
 <div class="row NL_block">
         <h2 class="col-md-12">Companies trust NetLicensing to provide a secure License Management Solution</h2>
 
