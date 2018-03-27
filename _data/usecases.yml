@@ -42,3 +42,6 @@
 
 - name: "API Licensing"
   description: "Control your services’ API usage by defining flexible licensing models – Pay-per-Use or Subscription based"
+
+- name: "NetLicensing Case Studies"
+  description: "Check out our <a href='/case-studies/'>Case Studies</a> to see how we have helped create license management solutions across a diverse range of vendors and industry sectors."
