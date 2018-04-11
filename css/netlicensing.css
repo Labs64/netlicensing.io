@@ -1557,6 +1557,7 @@ ul#filterOptions>li.active>a {
 
 .NL_pricing ul {
     margin: 0 0;
+    padding: 0 0;
 }
 
 .NL_pricing ul li {
