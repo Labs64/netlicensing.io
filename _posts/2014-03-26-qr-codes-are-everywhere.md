@@ -3,8 +3,8 @@ layout: post
 title: "QR Codes are everywhere"
 description: "Quick Response (QR) Codes are everywhere we go"
 author:
-  name: Labs64
-  url: http://www.labs64.com
+  name: AdFluencer
+  url: http://adfluencer.io
 image:
   url: /img/blog/1_think_all.png
 tags:
