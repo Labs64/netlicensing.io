@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: https://netlicensing.io
 image:
-  url: url: /img/blog/blog-placeholder.jpg
+  url: /img/blog/blog-placeholder.jpg
 tags:
   - News
   - Announcements
@@ -27,7 +27,7 @@ tags:
 Thanks for using NetLicensing and our License Management Services. We constantly strive to ensure our product is exceeding your expectations and adhering to our responsibilities.
 To that end, we've recently updated our Terms of Service and Privacy Policy so it's clearer and also addresses the new data regulations (including GDPR).
 
-To read the changes in full you can find the [Privacy Policy here](https://www.labs64.com/legal/privacy-policy/2-5/) and the [Terms of Service here](ttps://www.labs64.com/legal/terms-of-service/netlicensing/2-5/).
+To read the changes in full you can find the [Privacy Policy here](https://www.labs64.com/legal/privacy-policy/2-5/) and the [Terms of Service here](https://www.labs64.com/legal/terms-of-service/netlicensing/2-5/).
 
 These changes go into effect on *May 25, 2018*.
 
