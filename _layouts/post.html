@@ -49,7 +49,9 @@ layout: default
             </article>
 
             <div class="NL_share_icons">{% include addthis.html %}</div>
+            {% if site.disqus_shortname %}
             <div class="NL_disqus">{% include disqus.html %}</div>
+            {% endif %}
         </div>
 
         <div class="col-md-3 col-md-offset-1 NL_other_posts">

@@ -30,15 +30,15 @@ blog_recommended_posts:
 
 # Ads
 ads_hiring_text: We Are Hiring!
-ads_hiring_url: "http://www.labs64.com/career/software-developer-javaee-mf-116-l64-17/"
+ads_hiring_url: "https://www.labs64.com/career/software-developer-javaee-mf-116-l64-17/"
 
 # SEO
 google_author: "https://plus.google.com/+NetlicensingIoLabs64"
 google_analytics_tracking_id: "UA-32654174-2"
 google_optimize_code: "GTM-NRQBTGQ"
 quantcast_code: "p-RQ36fR9PJnAcZ"
-yandex_metrika_tracking_id: "33072638"
-disqus_shortname: "netlicensing"
+yandex_metrika_tracking_id:
+disqus_shortname:
 
 # Build settings
 markdown: kramdown
