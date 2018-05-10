@@ -70,7 +70,7 @@ sitemap:
 
             <form action="//formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contactForm"
                   novalidate>
-                <input type="hidden" name="_next" value="/licensing-models/#emailsent"/>
+                <input type="hidden" name="_next" value="/licensing-models/?utm_source=netlicensing.io_licensing-models&utm_medium=website&utm_campaign=netlicensing.io_licensing-models&utm_content=licensing-models-page"/>
                 <input type="hidden" name="_subject" value="NetLicensing Licensing Model Request">
                 <input type="text" name="_gotcha" style="display:none"/>
 

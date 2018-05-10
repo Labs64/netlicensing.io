@@ -91,7 +91,7 @@ sitemap:
 
             <form action="//formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contactForm"
                   novalidate>
-                <input type="hidden" name="_next" value="/features-all/#emailsent"/>
+                <input type="hidden" name="_next" value="/features-all/?utm_source=netlicensing.io_features-all&utm_medium=website&utm_campaign=netlicensing.io_features-all&utm_content=features-all-page"/>
                 <input type="hidden" name="_subject" value="NetLicensing Feature Request">
                 <input type="text" name="_gotcha" style="display:none"/>
 
