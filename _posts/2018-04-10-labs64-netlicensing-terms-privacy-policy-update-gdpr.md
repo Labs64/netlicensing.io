@@ -31,7 +31,7 @@ To read the changes in full you can find the [Privacy Policy here](https://www.l
 
 These changes go into effect on *May 25, 2018*.
 
-To find out more about what's changing, visit our Privacy Center.
+To find out more about what's changing, visit our [Privacy Center](https://www.labs64.de/confluence/x/vQEKAQ).
 
 If you have any questions about these changes please contact our team directly at <a href='mailto:netlicensing@labs64.com'>netlicensing@labs64.com</a>
 
