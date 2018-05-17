@@ -20,6 +20,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', '{{ site.google_analytics_tracking_id }}', 'auto');
+    ga('set', 'anonymizeIp', true);
     ga('require', '{{ site.google_optimize_code }}');
     ga('send', 'pageview');
 </script>
