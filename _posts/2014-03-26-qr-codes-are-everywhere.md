@@ -4,7 +4,7 @@ title: "QR Codes are everywhere"
 description: "Quick Response (QR) Codes are everywhere we go"
 author:
   name: AdFluencer
-  url: http://adfluencer.io
+  url: https://adfluencer.io
 image:
   url: /img/blog/1_think_all.png
 tags:
