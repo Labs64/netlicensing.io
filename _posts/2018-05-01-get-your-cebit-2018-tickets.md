@@ -23,18 +23,22 @@ tags:
   - Messe
 ---
 
-## Activate your complimentary *NetLicensing Vendor Pass* for *CeBIT 2018*:
+## Activate your complimentary *NetLicensing Vendor Pass* for *CeBIT 2018*
 
-This pass entitles the user to gain entry to the exhibition area at CeBIT in Hannover, Germany from the 12th to 15th June 2018.
+_Special offer: Attention - limited quantities, only while supplies last!_
 
-Entry is only permitted after 9 am and this pass does not entitle the user to free public transport during the event.
+The pass entitles you to enter the exhibition area at CeBIT in Hannover, Germany, from the 12th to 15th of June 2018 (entry after 9 am, no free use of public transport included).
 
-The Process:
+Follow these steps to get your pass:
 
 - Send your Vendor Number to our email <a href='mailto:netlicensing@labs64.com?subject=NetLicensing%20CeBIT%202018%20Pass'>netlicensing@labs64.com</a> with the subject *'NetLicensing CeBIT 2018 Pass'*
-- We will verify your submission and send you 1 registration link
-- This link will allow you to activate a 4-day visitor pass
-- There is further registration required on the CeBIT platform, so please continue through that process
-- Print off your pass and bring with you to gain entry to the event
 
-Do not forget to visit us in **Hall 27, Stand A52,(21)**, and learn more about new NetLicensing offerings.
+- We will verify your submission and send you a registration link
+
+- Follow the link to activate your 4-day visitor pass
+
+- Further registration on CeBIT website will be required, please continue through this process
+
+- Print out your pass and bring it with you to gain entry to the event
+
+Do not forget to visit us in **Hall 27, Stand A52,(21)**. Take your chance for bonus offering from NetLicensing!
