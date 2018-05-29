@@ -9,18 +9,22 @@ image:
   url: /img/blog/unsplash-kcJsQ3PJrYU.png
   hide: false
 tags:
-  - NetLicensing
+  - Labs64 NetLicensing
   - CeBIT
   - CeBIT2018
   - CeBIT18
+  - exhibition
+  - Messe
   - Ticket
   - activation
   - registration
+  - code
   - vendor
   - free
+  - gratis
   - pass
-  - exhibition
-  - Messe
+  - promo
+  - loyalty program
 ---
 
 ## Activate your FREE complimentary *NetLicensing Vendor Pass* for *CeBIT 2018*
