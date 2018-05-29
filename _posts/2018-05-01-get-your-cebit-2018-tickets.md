@@ -27,7 +27,7 @@ tags:
   - loyalty program
 ---
 
-## Activate your FREE complimentary *NetLicensing Vendor Pass* for *CeBIT 2018*
+## Activate your FREE *NetLicensing Vendor Pass* for *CeBIT 2018*
 
 _Special offer: Attention - limited quantities, only while supplies last!_
 
