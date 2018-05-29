@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: https://netlicensing.io
 image:
-  url: /img/blog/blog-placeholder.jpg
+  url: /img/blog/unsplash-kcJsQ3PJrYU.png
   hide: false
 tags:
   - NetLicensing
@@ -41,4 +41,4 @@ Follow these steps to get your pass:
 
 - Print out your pass and bring it with you to gain entry to the event
 
-Do not forget to visit us in **Hall 27, Stand A52,(21)**. Take your chance for bonus offering from NetLicensing!
+Do not forget to visit us in **Hall 27, Stand A52/21**. Take your chance for bonus offering from NetLicensing!
