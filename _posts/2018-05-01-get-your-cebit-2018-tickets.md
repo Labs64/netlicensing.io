@@ -35,7 +35,7 @@ Follow these steps to get your pass:
 
 - We will verify your submission and send you a registration link
 
-- Follow the link to activate your 4-day visitor pass
+- Follow the link to activate your 4-day visitor pass for FREE
 
 - Further registration on CeBIT website will be required, please continue through this process
 
