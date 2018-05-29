@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Get your CeBIT 2018 tickets"
-description: "Claim your NetLicensing Vendor Pass for CeBIT 2018"
+title: "Get your free CeBIT 2018 tickets"
+description: "Claim your free NetLicensing Vendor Pass for CeBIT 2018"
 author:
   name: NetLicensing
   url: https://netlicensing.io
@@ -23,7 +23,7 @@ tags:
   - Messe
 ---
 
-## Activate your complimentary *NetLicensing Vendor Pass* for *CeBIT 2018*
+## Activate your FREE complimentary *NetLicensing Vendor Pass* for *CeBIT 2018*
 
 _Special offer: Attention - limited quantities, only while supplies last!_
 
@@ -31,7 +31,7 @@ The pass entitles you to enter the exhibition area at CeBIT in Hannover, Germany
 
 Follow these steps to get your pass:
 
-- Send your NetLicensing *Vendor Number* to our email <a href="mailto:netlicensing@labs64.com?subject=NetLicensing%20CeBIT%202018%20Pass&amp;body=Vendor%20Number%3A%20%3CYOUR-VENDOR-NUMBER%3E">netlicensing@labs64.com</a> with the subject *'NetLicensing CeBIT 2018 Pass'*
+- Send your NetLicensing *[Vendor Number](https://go.netlicensing.io/console/v2/content/vendor/vendor.xhtml)* to our email <a href="mailto:netlicensing@labs64.com?subject=NetLicensing%20CeBIT%202018%20Pass&amp;body=Vendor%20Number%3A%20%3CYOUR-VENDOR-NUMBER%3E">netlicensing@labs64.com</a> with the subject *'NetLicensing CeBIT 2018 Pass'*
 
 - We will verify your submission and send you a registration link
 
