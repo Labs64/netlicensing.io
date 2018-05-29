@@ -87,7 +87,7 @@
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
   author: Labs64
   publisher: Labs64
-  creditlink: http://wordpress.org/plugins/credit-tracker/
+  creditlink: https://wordpress.org/plugins/credit-tracker/
 
 - id: netlicensing-case-study-digipass
   source: /img/case-studies/netlicensing-case-study-digipass.png
@@ -102,7 +102,7 @@
   source: /img/case-studies/netlicensing-case-study-internet-access-control.png
   title: "Internet Access Control"
   caption: "NetLicensing Case Study - Internet Access Control"
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Daria Shevtsova"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/k_RYBedEvDw
@@ -111,7 +111,7 @@
   source: /img/case-studies/netlicensing-case-study-iot-tablet-computers.png
   title: "Internet of Things: Tablet Computers"
   caption: "NetLicensing Case Study - Internet of Things: Tablet Computers"
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "William Iven"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/OP2EQ5g-Zkw
@@ -120,7 +120,7 @@
   source: /img/case-studies/netlicensing-case-study-mobile-device-management.png
   title: "Mobile Device Management"
   caption: "NetLicensing Case Study - Mobile Device Management"
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Alejandro Escamilla"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/Dl6jeyfihLk
@@ -411,7 +411,7 @@
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
   author: Labs64
   publisher: Labs64
-  creditlink: http://www.labs64.com
+  creditlink: https://www.labs64.com
 
 - id: labs64-netlicensing-lifecycle
   source: /img/labs64-netlicensing-lifecycle.png
@@ -978,7 +978,7 @@
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
   author: Labs64
   publisher: Labs64
-  creditlink: http://www.labs64.com
+  creditlink: https://www.labs64.com
 
 - id: LmBox-Motivation-View
   source: /img/blog/LmBox-Motivation-View.png
@@ -1038,7 +1038,7 @@
   source: /img/blog/unsplash-ICW6QYOcdlg.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Galymzhan Abdugalimov"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/ICW6QYOcdlg
@@ -1047,7 +1047,7 @@
   source: /img/blog/unsplash-4aQY2CrXsa8.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Sérgio Rola"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/4aQY2CrXsa8
@@ -1056,7 +1056,7 @@
   source: /img/blog/unsplash-YoadQb46v6k.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Craig Garner"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/YoadQb46v6k
@@ -1065,7 +1065,7 @@
   source: /img/blog/unsplash-Hi9GSwWkCJk.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Vadim Sherbakov"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/Hi9GSwWkCJk
@@ -1074,7 +1074,7 @@
   source: /img/blog/unsplash-1uxV8fAfhVM.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Luke Chesser"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/1uxV8fAfhVM
@@ -1083,7 +1083,7 @@
   source: /img/blog/unsplash-Dl6jeyfihLk.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Alejandro Escamilla"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/Dl6jeyfihLk
@@ -1092,7 +1092,7 @@
   source: /img/blog/unsplash-7P_2hzKryQE.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Negative Space"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/7P_2hzKryQE
@@ -1101,7 +1101,7 @@
   source: /img/blog/unsplash-1eWaod96d3k.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Jordan McQueen"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/1eWaod96d3k
@@ -1110,7 +1110,7 @@
   source: /img/blog/unsplash-nJdwUHmaY8A.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Aleks Dorohovich"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/nJdwUHmaY8A
@@ -1119,7 +1119,7 @@
   source: /img/blog/unsplash-7_cSSarxoAA.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Sylwia Bartyzel"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/7_cSSarxoAA
@@ -1128,7 +1128,7 @@
   source: /img/blog/unsplash-t5BvA-Q_m_Y.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Negative Space"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/t5BvA-Q_m_Y
@@ -1137,7 +1137,7 @@
   source: /img/blog/unsplash-gm18kqu9TxQ.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "James Tarbotton"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/gm18kqu9TxQ
@@ -1146,7 +1146,7 @@
   source: /img/blog/unsplash-l5Tzv1alcps.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Alex wong"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/l5Tzv1alcps
@@ -1155,7 +1155,7 @@
   source: /img/blog/unsplash-URmkfvtK3Qw.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Caleb George"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/URmkfvtK3Qw
@@ -1164,7 +1164,7 @@
   source: /img/blog/unsplash-xII7efH1G6o.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Alejandro Escamilla"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/xII7efH1G6o
@@ -1173,7 +1173,7 @@
   source: /img/blog/unsplash-GANqCr1BRTU.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "William Iven"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/GANqCr1BRTU
@@ -1182,7 +1182,7 @@
   source: /img/blog/unsplash-D2K1UZr4vxk.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Sylwia Bartyzel"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/D2K1UZr4vxk
@@ -1191,7 +1191,7 @@
   source: /img/blog/unsplash-PjH_BkzjxTA.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Aleksi Tappura"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/PjH_BkzjxTA
@@ -1200,7 +1200,7 @@
   source: /img/blog/unsplash-mCg0ZgD7BgU.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Aleksi Tappura"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/mCg0ZgD7BgU
@@ -1209,7 +1209,7 @@
   source: /img/blog/unsplash-8z2Q6XWLYa4.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Jeff Sheldon"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/8z2Q6XWLYa4
@@ -1218,7 +1218,7 @@
   source: /img/blog/unsplash-lZlfHGqx44Q.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Bino Storyteller"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/lZlfHGqx44Q
@@ -1227,7 +1227,7 @@
   source: /img/blog/unsplash-Lj1S1_KD61k.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Jeff Sheldon"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/Lj1S1_KD61k
@@ -1236,7 +1236,7 @@
   source: /img/blog/unsplash-9dI3g8owHiI.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Jeff Sheldon"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/9dI3g8owHiI
@@ -1245,7 +1245,7 @@
   source: /img/blog/unsplash-wE9nUW7tMmk.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Nadir Balcikli"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/wE9nUW7tMmk
@@ -1254,7 +1254,7 @@
   source: /img/blog/unsplash-jN_VbffJHlI.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Siyan Ren"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/jN_VbffJHlI
@@ -1263,7 +1263,7 @@
   source: /img/blog/unsplash-4vr9a_sdJ78.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Jeff Sheldon"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/4vr9a_sdJ78
@@ -1272,7 +1272,7 @@
   source: /img/blog/unsplash-JWiMShWiF14.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Jeff Sheldon"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/JWiMShWiF14
@@ -1281,7 +1281,7 @@
   source: /img/blog/unsplash-KR2mdHJ5qMg.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Luke Chesser"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/KR2mdHJ5qMg
@@ -1290,7 +1290,7 @@
   source: /img/blog/unsplash-wnShDP37vB4.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Luke Chesser"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/wnShDP37vB4
@@ -1299,7 +1299,7 @@
   source: /img/blog/unsplash-a2NRu2Wxa2o.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Luke Chesser"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/a2NRu2Wxa2o
@@ -1308,7 +1308,7 @@
   source: /img/blog/unsplash-SJWPKMb9u-k.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Maico Amorim"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/SJWPKMb9u-k
@@ -1317,7 +1317,7 @@
   source: /img/blog/unsplash-eIkbSc3SDtI.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Sonja Langford"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/eIkbSc3SDtI
@@ -1326,7 +1326,7 @@
   source: /img/blog/unsplash-guH91yuPaMk.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Jeff Sheldon"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/guH91yuPaMk
@@ -1344,7 +1344,7 @@
   source: /img/blog/unsplash-pElSkGRA2NU.jpg
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Fabian Blank"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/pElSkGRA2NU
@@ -1353,7 +1353,7 @@
   source: /img/blog/labs64-netlicensing-cyber-monday-2017.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Daniel Falcão"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/Pt27b3dRdVA
@@ -1362,7 +1362,7 @@
   source: /img/blog/unsplash-neonbrand-315896.jpg
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "NeONBRAND"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/8fDhgAN5zG0
@@ -1371,7 +1371,7 @@
   source: /img/blog/matese-fields-195229-unsplash.jpg
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Matese Fields"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/mpBea02wKGM
@@ -1380,7 +1380,7 @@
   source: /img/blog/unsplash-kcJsQ3PJrYU.png
   title: ""
   caption: ""
-  license: http://creativecommons.org/publicdomain/zero/1.0/
+  license: https://creativecommons.org/publicdomain/zero/1.0/
   author: "Andrei Stratu"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/kcJsQ3PJrYU
