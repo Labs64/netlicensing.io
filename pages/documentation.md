@@ -27,6 +27,7 @@ tags:
             </div>
             <div class="action col-md-12">
                 <a href="https://www.labs64.de/confluence/x/vQCo">Read More</a>
+                <a href="#usage-scenarios">Usage Scenarios</a>
             </div>
         </div>
     </div>
@@ -97,7 +98,7 @@ tags:
 </div>
 
 <div class="row NL_block" style="text-align:center;">
-    <h2 class="col-md-12">NetLicensing Usage Scenarios</h2>
+    <h2 id="usage-scenarios" class="col-md-12">NetLicensing Usage Scenarios</h2>
     <p class="col-md-8 col-md-offset-2">Here you can find typical NetLicensing integration and usage scenarios, which might give you some impressions on how you can elaborate on the best-fit licensing approach for your products.</p>
 </div>
 
