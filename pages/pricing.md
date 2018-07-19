@@ -141,7 +141,7 @@ tags:
     </div>
 </div>
 
-<div class="row NL_block">
+<div id="faq" class="row NL_block">
     <h2 class="col-md-12">You may still have some questions, so here's our FAQs</h2>
 </div>
 
