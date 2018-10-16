@@ -31,7 +31,7 @@ When Java class implements _Serializable_ interface you have the following optio
 
 ![IntelliJ IDEA - serialVersionUID](/img/blog/labs64-blog-howto-idea001.png "IntelliJ IDEA - serialVersionUID"){:class="blog-center"}
 
-<a title="Interface Serializable" href="http://docs.oracle.com/javase/7/docs/api/java/io/Serializable.html" target="_blank" rel="nofollow">Java API Specification</a> says:
+<a title="Interface Serializable" href="https://docs.oracle.com/javase/7/docs/api/java/io/Serializable.html" target="_blank" rel="nofollow">Java API Specification</a> says:
 
 > It is _strongly recommended_ that all serializable classes explicitly declare serialVersionUID values, since the default serialVersionUID computation is highly sensitive to class details that may vary depending on compiler implementations, and can thus result in unexpected InvalidClassException&#8217;s during deserialization.
 

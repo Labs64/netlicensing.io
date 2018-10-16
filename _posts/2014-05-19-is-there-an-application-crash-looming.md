@@ -4,7 +4,7 @@ title: "Is there an application &#8216;crash&#8217; looming?"
 description: "The most successful creators are those who deliver something innovative"
 author:
   name: Labs64
-  url: http://www.labs64.com
+  url: https://www.labs64.com
 image:
   url: /img/blog/Fotolia_51372889_XS.jpg
 tags:

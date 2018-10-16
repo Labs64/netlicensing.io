@@ -5,8 +5,8 @@ sitemap:
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- generated-on="{{ site.time | date_to_rfc822 }}" -->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
     <url>
         <loc>{{ site.url }}</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>

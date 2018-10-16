@@ -4,7 +4,7 @@ title: "Think outside the Box (and your wallet)"
 description: "As developers and innovators then, it is important to think outside the box"
 author:
   name: Labs64
-  url: http://www.labs64.com
+  url: https://www.labs64.com
 image:
   url: /img/blog/Fotolia_62179842_Se.jpg
 tags:
@@ -28,4 +28,4 @@ In some of our recent [articles](/blog/2014/05/19/is-there-an-application-crash-
 
 Traditional methods of technological develop; from conception of an idea, through to the patenting, sourcing funding, development, testing and finally the launch is no longer viable in a world which is dominated largely by instant reactions to new technology and an instantaneous decision is made by users on-mass about its usability and relevance to them.
 
-As developers and innovators then, it is important to think outside the box. If you are reading this on a computer then you have in front of you the technology required to create the ‘next big app’ all you need to provide, is the [idea](http://io.labs64.com/maps-munich-sportive/){:target="_blank"}!
+As developers and innovators then, it is important to think outside the box. If you are reading this on a computer then you have in front of you the technology required to create the ‘next big app’ all you need to provide, is the [idea](https://adfluencer.io){:target="_blank"}!

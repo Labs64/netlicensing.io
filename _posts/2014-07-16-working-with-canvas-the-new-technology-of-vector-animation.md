@@ -4,7 +4,7 @@ title: "Working with Canvas – The new technology of vector animation"
 description: "Use of HTML5 gives developers new horizons in animation implement for their websites"
 author:
   name: Labs64
-  url: http://www.labs64.com
+  url: https://www.labs64.com
 image:
   url: /img/blog/HTML5-working-with-canvas.png
   hide: true
@@ -21,7 +21,7 @@ tags:
 Use of HTML5 gives developers new horizons in animation implement for their websites. There is no need to use outdated Flash technology or to overload traffic with large images, you can simply familiarize with a few norms of creation of motion interpretation by canvas redraw.
 
 <div style="text-align: left;">
-    <iframe src="http://io.labs64.com/dynamic-web-cookbook/html5-canvas/index.min.html" width="560" height="550" scrolling="yes" class="iframe-class" frameborder="0"></iframe>
+    <iframe src="https://io.labs64.com/dynamic-web-cookbook/html5-canvas/index.min.html" width="560" height="550" scrolling="yes" class="iframe-class" frameborder="0"></iframe>
 </div>
 
 <span style="line-height: 1.5em;"><strong>Canvas</strong> is a page area reserved for drawing vector elements; there are local coordinates in this area. The following line should be written by using JS to draw, for example, a circle:</span>

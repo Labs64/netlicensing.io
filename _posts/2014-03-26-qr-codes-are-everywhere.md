@@ -25,7 +25,7 @@ tags:
   - Trends
 ---
 
-*Quick Response (QR) Codes* are [everywhere](http://www.labs64.com/codeman/ "codeMan") we go. They are on adverts, in newspapers, on the backs of books and appearing on television screens. They make use of a technology which has been in existence for some time, but that until now has been more common in supermarkets than out on the street.
+*Quick Response (QR) Codes* are [everywhere](https://www.labs64.com/codeman/ "codeMan") we go. They are on adverts, in newspapers, on the backs of books and appearing on television screens. They make use of a technology which has been in existence for some time, but that until now has been more common in supermarkets than out on the street.
 
 The barcode is a versatile and compact means of storing a great deal of information in a relatively small space. Information which can then be called up from a database and used when it is needed. Although barcodes are still in wide use for this, the advent of mobile devices which are able to use their inbuilt cameras as barcode scanners has led to an increase in the use of QR codes as a means of delivering content to end users through their internet connection.
 
@@ -39,12 +39,12 @@ The popularity of QR codes with consumers comes from their convenience and ease 
 
 An emerging use of QR codes is in conducting mobile to mobile payments. Where the first user has a secure application linked to their payment information; the merchant system generates a QR Code and presents it to the customer. The customer then scans the QR Code and the payment is made using their mobile device and PayPal wallet. No cash has changed hands and the payer has not needed to disclose any information to the payee other than a simple code!
 
-Have you used [QR codes](http://www.labs64.com/codeman/ "codeMan") at all? How have you used them? We’d love to hear!
+Have you used [QR codes](https://www.labs64.com/codeman/ "codeMan") at all? How have you used them? We’d love to hear!
 
 &nbsp;
 
 * * *
 
 <p style="text-align: center;">
-  <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license" target="_blank" rel="nofollow"><img style="border-width: 0;" alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /> <span>codeMan</span> by <a href="http://www.labs64.com/codeman/" rel="cc:attributionURL">Labs64/grinia</a> is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license" target="_blank" rel="nofollow">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license" target="_blank" rel="nofollow"><img style="border-width: 0;" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /> <span>codeMan</span> by <a href="https://www.labs64.com/codeman/" rel="cc:attributionURL">Labs64/grinia</a> is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license" target="_blank" rel="nofollow">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
 </p>

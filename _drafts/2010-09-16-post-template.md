@@ -15,9 +15,9 @@ sitemap:
 canonical:
 ---
 
-[Markdown](http://daringfireball.net/projects/markdown/) allows you to write using an easy-to-read, easy-to-write plain text format, which then converts to valid HTML post.
+[Markdown](https://daringfireball.net/projects/markdown/) allows you to write using an easy-to-read, easy-to-write plain text format, which then converts to valid HTML post.
 
-This [post template](https://raw.githubusercontent.com/Labs64/tech-x.press/gh-pages/_drafts/2010-09-16-post-template.md) includes sample content to guide you on how to create content on [NetLicensing](http://tech-x.press).
+This [post template](https://raw.githubusercontent.com/Labs64/netlicensing.io/gh-pages/_drafts/2010-09-16-post-template.md) includes sample content to guide you on how to create content on [NetLicensing](https://netlicensing.io).
 
 ## HEADERS
 ---
@@ -64,13 +64,13 @@ Unordered (bulleted) list (var 1)
 
 * labs64.com
 * netlicensing.io
-* tech-x.press
+* adfluencer.io
 
 Unordered (bulleted) list (var 2)
 
 - labs64.com
 - [netlicensing.io](https://netlicensing.io "Innovative License Management Solution")
-- tech-x.press
+- adfluencer.io
 
 Unordered (bulleted) list (var 3)
 
@@ -79,13 +79,13 @@ Unordered (bulleted) list (var 3)
 
   list item - second line
 
-+ tech-x.press
++ adfluencer.io
 
 Ordered (bulleted) list (var 1)
 
 1. labs64.com
 2. netlicensing.io
-3. tech-x.press
+3. adfluencer.io
 
 Nested lists
 
@@ -94,7 +94,7 @@ Nested lists
   1. Flexible Licensing Models
   2. Easy Setup and Integration
   3. Cross-Platform Licensing
-3. tech-x.press
+3. adfluencer.io
 
 ## LINKS
 ---
@@ -106,8 +106,8 @@ This a [link with title](https://netlicensing.io "Innovative License Management 
 Reference-style links: [NetLicensing][NLIC] and [NetLicensing][2] were developed by [Labs64][3]
 
 [NLIC]: https://netlicensing.io   "Labs64 NetLicensing - Innovative License Management Solution"
-[2]: http://tech-x.press         "TechExpress - Latest Tech News Around the World"
-[3]: http://www.labs64.com       "Labs64 - Innovations Delivered"
+[2]: https://adfluencer.io         "AdFluencer - Micro-Influencer Marketplace"
+[3]: https://www.labs64.com       "Labs64 - Innovations Delivered"
 
 ## IMAGES
 ---

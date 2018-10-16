@@ -4,7 +4,7 @@ title: "Apps for Business"
 description: "When working with a business, there is potential for long-term regulated income through Technical Support agreements"
 author:
   name: Labs64
-  url: http://www.labs64.com
+  url: https://www.labs64.com
 image:
   url: /img/blog/unsplash-Hi9GSwWkCJk.png
 tags:

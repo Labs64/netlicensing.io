@@ -4,7 +4,7 @@ title: "The Agile Principles"
 description: "Our highest priority is to satisfy the customer"
 author:
   name: Labs64
-  url: http://www.labs64.com
+  url: https://www.labs64.com
 image:
   url: /img/blog/blog-placeholder.jpg
   hide: true

@@ -4,7 +4,7 @@
 #
 # Start development with › $ jekyll serve --config _config.yml,_config_dev.yml
 
-url: "http://draft.netlicensing.io"
+url: "https://draft.netlicensing.io"
 google_analytics_tracking_id:
 google_optimize_code:
 quantcast_code:

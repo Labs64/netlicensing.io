@@ -45,4 +45,4 @@ Following files, directories and their contents are copyright Labs64. You may no
 * pages/
 * resources/
 
-All other files and directories are licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php) unless explicitly stated.
+All other files and directories are licensed under the [MIT License](https://www.opensource.org/licenses/mit-license.php) unless explicitly stated.

@@ -4,7 +4,7 @@ title: "Apps in Education"
 description: "The potential for educational apps is vast, but the range of different levels of learning as well as learning and teaching styles, is even greater"
 author:
   name: Labs64
-  url: http://www.labs64.com
+  url: https://www.labs64.com
 image:
   url: /img/blog/Fotolia_63176711_XS.jpg
 tags:

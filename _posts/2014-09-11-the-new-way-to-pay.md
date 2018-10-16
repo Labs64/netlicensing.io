@@ -4,7 +4,7 @@ title: "The New Way to Pay"
 description: "Do you use your mobile devices to carry out day to day financial tasks? What impact do you think that it is having on your business?"
 author:
   name: Labs64
-  url: http://www.labs64.com
+  url: https://www.labs64.com
 image:
   url: /img/blog/Fotolia_60998181_XS.jpg
 tags:

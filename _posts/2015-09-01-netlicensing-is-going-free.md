@@ -11,8 +11,8 @@ tags:
   - Plan
   - Free
 author:
-  name: TechExpress
-  url: http://tech-x.press
+  name: NetLicensing
+  url: https://netlicensing.io
 ---
 
 Labs64 NetLicensing - [Online License Management Service](https://netlicensing.io) is taking a huge step forward in making it easy for vendors to sign up with their licensing management service.

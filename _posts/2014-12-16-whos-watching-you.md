@@ -4,7 +4,7 @@ title: "Who&#8217;s Watching You?"
 description: "Have you actively tought out more secure ways of transmitting and storing data?"
 author:
   name: Labs64
-  url: http://www.labs64.com
+  url: https://www.labs64.com
 image:
   url: /img/blog/Fotolia_67672288_XS.jpg
 tags:

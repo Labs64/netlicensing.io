@@ -4,7 +4,7 @@ title: "Labs64 – Innovations Delivered &#8211; Company profile"
 description: "We design, develop and implement a broad range of IT solutions based on our customer&#8217;s individual requirements."
 author:
   name: Labs64
-  url: http://www.labs64.com
+  url: https://www.labs64.com
 image:
   url: /img/blog/Labs64_LogoS.png
   hide: true
@@ -140,7 +140,7 @@ If you are interested in our services and products and/or want to know more abou
             </p>
 
             <p>
-                <a href="http://www.labs64.com/" target="_blank">http://www.labs64.com</a>
+                <a href="https://www.labs64.com/" target="_blank">https://www.labs64.com</a>
             </p>
 
             <p>

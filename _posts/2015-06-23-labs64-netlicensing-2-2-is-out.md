@@ -25,7 +25,7 @@ You’re very welcome to give it a try, and share your feedback with us!
 Release highlights:
 
   * New <a title="Labs64 NetLicensing - Floating" href="https://www.labs64.de/confluence/x/3YHW" target="_blank">&#8220;Floating&#8221;</a> Licensing Model offers vendors another dimension of licensing flexibility for their products
-  * With Labs64 NetLicensing demo virtual appliance, our partners and resellers get hands-on access to the service for local / offline deployment demonstration &#8211; <a title="Labs64 NetLicensing - Resell Partners" href="http://www.labs64.com/netlicensing/partners/" target="_blank">get in contact</a> with us for more info
+  * With Labs64 NetLicensing demo virtual appliance, our partners and resellers get hands-on access to the service for local / offline deployment demonstration &#8211; <a title="Labs64 NetLicensing - Resell Partners" href="https://www.labs64.com/netlicensing/partners/" target="_blank">get in contact</a> with us for more info
   * Java <a title="Java wrapper for NetLicensing RESTful API" href="https://github.com/Labs64/NetLicensingClient-java" target="_blank">client library</a> reworked and covers entire NetLicensing API
   * <a title="NetLicensing Management Console Demo" href="https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001" target="_blank">NetLicensing Manage</a> UI improved for even better usability and user experience (UX)
   * &#8230; and many other useful improvements!

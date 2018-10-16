@@ -29,7 +29,7 @@ Notable changes in this release:
 
 * **Labs64 NetLicensing integration with FastSpring** - NetLicensing [integration](https://github.com/Labs64/NetLicensing-FastSpring){:target="_blank"} lets FastSpring to create licenses in NetLicensing, allowing flexible licenses validation via NetLicensing API. Both one-time and subscription models are supported.
 
-* Java Client was updated according to the latest NetLicensing API; **NetLicensing Java Client** is available immediately from its [GitHub repository](https://github.com/Labs64/NetLicensingClient-java){:target="_blank"} and [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.labs64.netlicensing%22){:target="_blank"} repository
+* Java Client was updated according to the latest NetLicensing API; **NetLicensing Java Client** is available immediately from its [GitHub repository](https://github.com/Labs64/NetLicensingClient-java){:target="_blank"} and [Maven Central](https://search.maven.org/search?q=g:com.labs64.netlicensing){:target="_blank"} repository
 
 For a detailed list of changes in this release, see [NetLicensing 2.3.3 Release Notes](https://www.labs64.de/confluence/x/IQDx).
 
