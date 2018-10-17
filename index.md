@@ -28,12 +28,12 @@ no-cache: true
     <div id="cbp-so-scroller" class="cbp-so-scroller NL_intro">
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-landing-laas.png' | prepend: site.baseurl | prepend: site.url }}" alt="LaaS - Licensing-as-a-Service">
+                <img src="{{ '/img/netlicensing-landing-laas.png' | prepend: site.baseurl | prepend: site.url }}" alt="LaaS - Licensing-as-a-Service" title="LaaS - Licensing-as-a-Service">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Simplify license activation</h2>
 
-                <span>NetLicensing allows you to deliver and activate product licenses to your customers 24x7x365, without customer support involvement. With NetLicensing, your licensing back-office can be completely automated.<br/> In addition, you can manage licenses in the field with NetLicensing Management Console.</span>
+                <span>NetLicensing allows you to deliver and activate product licenses to your customers 24x7x365, without customer support involvement. With NetLicensing, your licensing back-office can be completely automated.<br/>?In addition, you can manage licenses in the field with NetLicensing Management Console.</span>
             </article>
         </section>
 
@@ -44,13 +44,13 @@ no-cache: true
                 <span>With NetLicensing you have a choice of ready-to-use licensing models or customized licensing models may be created to suit your unique business needs and goals. NetLicensing has an open architecture that allows easy extension with new licensing models.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-landing-licensing-models.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Licensing Models">
+                <img src="{{ '/img/netlicensing-landing-licensing-models.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Licensing Models" title="NetLicensing Licensing Models">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-landing-shop.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Shop">
+                <img src="{{ '/img/netlicensing-landing-shop.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Shop" title="NetLicensing Shop">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Reduce your e-Commerce complexity</h2>
@@ -70,7 +70,7 @@ no-cache: true
                 </span>
 
                 <div class="col-md-8 col-md-offset-4 NL_dialog">
-                    <div class="col-md-3"><img class="NL_dialog_img" alt="{{ site.title }}"
+                    <div class="col-md-3"><img class="NL_dialog_img" alt="{{ site.title }}" title="{{ site.title }}"
                                                src="{{ '/img/labs64-avatar-30x30.png' | prepend: site.baseurl | prepend: site.url }}"/>
                     </div>
                     <div class="col-md-9"><i>As easy as one, two, three!</i></div>
@@ -78,7 +78,7 @@ no-cache: true
 
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-landing-api.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Integration">
+                <img src="{{ '/img/netlicensing-landing-api.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Integration" title="NetLicensing Integration">
             </figure>
         </section>
     </div>
