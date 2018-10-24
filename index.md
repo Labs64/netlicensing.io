@@ -34,7 +34,7 @@ no-cache: true
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Simplify license activation</h2>
 
-                <span>NetLicensing allows you to deliver and activate product licenses to your customers 24x7x365, without customer support involvement. With NetLicensing, your licensing back-office can be completely automated.<br/>?In addition, you can manage licenses in the field with NetLicensing Management Console.</span>
+                <span>NetLicensing allows you to deliver and activate product licenses to your customers 24x7x365, without customer support involvement. With NetLicensing, your licensing back-office can be completely automated.<br/>In addition, you can manage licenses in the field with NetLicensing Management Console.</span>
             </article>
         </section>
 
