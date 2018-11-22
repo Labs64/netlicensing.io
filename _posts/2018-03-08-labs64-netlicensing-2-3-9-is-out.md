@@ -38,7 +38,7 @@ Notable changes in this release:
 
 ## Offline licensing using NetLicensing Agent
 
-[NetLicensing Agent](https://www.labs64.de/confluence/x/8QAKAQ) enables a secure, traceable, and flexible way of enabling offline licensing in the environments without access to the NetLicensing services.
+[NetLicensing Agent](https://www.labs64.de/confluence/x/AwAKAQ) enables a secure, traceable, and flexible way of enabling offline licensing in the environments without access to the NetLicensing services.
 
 ![NetLicensing Agent](/img/blog/netlicensing-239-offline-agent.png "NetLicensing Agent"){:class="blog-center"}
 
