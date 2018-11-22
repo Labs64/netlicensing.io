@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Labs64 NetLicensing 2.4.0 is Out!"
-description: "NetLicensing 2.4.0 - Cyber Edition"
+description: "Just in time for the NetLicensing Cyber Weeks, we are releasing the new version of NetLicensing Cyber Edition"
 author:
   name: NetLicensing
   url: https://netlicensing.io
 image:
-  url: /img/blog/blog-placeholder.jpg
+  url: /img/blog/unsplash-franck-v-795974.jpg
 tags:
   - News
   - Announcements
@@ -43,6 +43,8 @@ With the introducing of the new Licensing Model *"Pricing Table (beta)"* NetLice
 ## NetLicensing Shop: Update Stripe integration API
 
 Labs64 NetLicensing is an official Stripe Verified Partner and offers you a seamless integration of [Stripe payments](https://www.labs64.de/confluence/x/EIDt) in the NetLicensing Shop.
+
+![Stripe](/img/blog/stripe-L_White_Outline@2x.png "Stripe Verified Partner"){:class="blog-center"}
 
 ## GDPR: Collect customer consent in NetLicensing Shop
 
