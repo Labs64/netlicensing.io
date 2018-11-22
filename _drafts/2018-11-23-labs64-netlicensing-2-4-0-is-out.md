@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: https://netlicensing.io
 image:
-  url: /img/blog/matese-fields-195229-unsplash.jpg
+  url: /img/blog/blog-placeholder.jpg
 tags:
   - News
   - Announcements
@@ -28,7 +28,7 @@ Notable changes in this release:
 
 ## Support multiple API Keys with different roles
 
-NetLicensing API keys have been reworked in order to allow vendors easy management of the multiple API keys as well as to associate key role, that grants access to a specific NetLicensing API subset.
+NetLicensing [API keys](https://www.labs64.de/confluence/x/-gHk) have been reworked in order to allow vendors easy management of the multiple API keys as well as to associate key role, that grants access to a specific NetLicensing API subset.
 
 ## Hardware dongle protection for NetLicensing Agent
 
@@ -38,20 +38,18 @@ NetLicensing API keys have been reworked in order to allow vendors easy manageme
 
 ## Enable new licensing model "Pricing Table (beta)"
 
-With the introducing of the new Licensing Model "Pricing Table (beta)" NetLicensing offers seamless management, integration and validation of the pricing plans for the vendors' products (from Desktop software to SaaS and IoT).
+With the introducing of the new Licensing Model *"Pricing Table (beta)"* NetLicensing offers seamless management, integration and validation of the pricing and membership plans for the vendors' products (from Desktop software to SaaS and IoT).
 
 ## NetLicensing Shop: Update Stripe integration API
 
-Labs64 NetLicensing is an official Stripe Verified Partner and offers you a seamless integration of Stripe payments in the NetLicensing Shop.
+Labs64 NetLicensing is an official Stripe Verified Partner and offers you a seamless integration of [Stripe payments](https://www.labs64.de/confluence/x/EIDt) in the NetLicensing Shop.
 
 ## GDPR: Collect customer consent in NetLicensing Shop
 
-In order to provide vendors with better support for GDPR regulations, customer consent can be collected in NetLicensing Shop and easily accessed by the Vendor (Controller) via NetLicensing Management Console.
+In order to provide vendors with better support for [GDPR](https://www.labs64.de/confluence/x/vQEKAQ) regulations, customer consent can be collected in NetLicensing Shop and easily accessed by the Vendor (Controller) via NetLicensing Management Console.
 
+Also, we’ve implemented many improvements and bug fixes across all NetLicensing components: Core, Management Console, Shop, Gateway, Client Libraries, and Documentation.
 
-As well as a set of useful improvements and defect fixes such as:
-* NetLicensing Management Console: improved Dashboard performance
-* Updated NetLicensing [client libraries](https://www.labs64.de/confluence/x/xgCo) to be compatible with the latest NetLicensing API
 
 For a detailed list of changes in this release, see [NetLicensing 2.4.0 Release Notes](https://www.labs64.de/confluence/x/hgAWAQ).
 As always, your feedback is important to us - please visit [NetLicensing Website](https://netlicensing.io) - [Leave Feedback](/contact/).
