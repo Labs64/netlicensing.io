@@ -32,7 +32,7 @@ NetLicensing [API keys](https://www.labs64.de/confluence/x/-gHk) have been rewor
 
 ## Hardware dongle protection for NetLicensing Agent
 
-[NetLicensing Agent](https://www.labs64.de/confluence/x/8QAKAQ) enables a secure, traceable, and flexible way of enabling offline licensing in the environments without access to the NetLicensing services. Protection NetLicensing Agent instance by hardware dongle introduced an additional level of security and prevents cloning of the agent components in the virtual environments, as well as from attempts to revert the use counters/time accounting by restoring the environment from an older snapshot.
+[NetLicensing Agent](https://www.labs64.de/confluence/x/AwAKAQ) enables a secure, traceable, and flexible way of enabling offline licensing in the environments without access to the NetLicensing services. Protection NetLicensing Agent instance by hardware dongle introduced an additional level of security and prevents cloning of the agent components in the virtual environments, as well as from attempts to revert the use counters/time accounting by restoring the environment from an older snapshot.
 
 ![NetLicensing Agent](/img/blog/netlicensing-239-offline-agent.png "NetLicensing Agent"){:class="blog-center"}
 
