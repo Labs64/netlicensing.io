@@ -36,10 +36,6 @@ NetLicensing [API keys](https://www.labs64.de/confluence/x/-gHk) have been rewor
 
 ![NetLicensing Agent](/img/blog/netlicensing-239-offline-agent.png "NetLicensing Agent"){:class="blog-center"}
 
-## Enable new licensing model "Pricing Table (beta)"
-
-With the introducing of the new Licensing Model *"Pricing Table (beta)"* NetLicensing offers seamless management, integration and validation of the pricing and membership plans for the vendors' products (from Desktop software to SaaS and IoT).
-
 ## NetLicensing Shop: Update Stripe integration API
 
 Labs64 NetLicensing is an official Stripe Verified Partner and offers you a seamless integration of [Stripe payments](https://www.labs64.de/confluence/x/EIDt) in the NetLicensing Shop.
@@ -49,6 +45,8 @@ Labs64 NetLicensing is an official Stripe Verified Partner and offers you a seam
 ## GDPR: Collect customer consent in NetLicensing Shop
 
 In order to provide vendors with better support for [GDPR](https://www.labs64.de/confluence/x/vQEKAQ) regulations, customer consent can be collected in NetLicensing Shop and easily accessed by the Vendor (Controller) via NetLicensing Management Console.
+
+---
 
 Also, we’ve implemented many improvements and bug fixes across all NetLicensing components: Core, Management Console, Shop, Gateway, Client Libraries, and Documentation.
 
