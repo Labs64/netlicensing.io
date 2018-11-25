@@ -1393,3 +1393,12 @@
   author: "Franck V."
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/g29arbbvPjo
+
+- id: labs64-netlicensing-cyber-week-2018
+  source: /img/blog/labs64-netlicensing-cyber-week-2018.png
+  title: "Beyond the Cosmos"
+  caption: "Beyond the Cosmos"
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  author: "Joshua Sortino"
+  publisher: "Unsplash"
+  creditlink: https://unsplash.com/photos/LqKhnDzSF-8
