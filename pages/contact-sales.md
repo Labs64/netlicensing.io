@@ -126,6 +126,9 @@ tags:
 
                     <div id="success"></div>
                     <div class="row">
+                        <div style="font-size:small;">
+                            By clicking Send, you agree to our <a href="https://www.labs64.com/legal/privacy-policy/" target="_blank">Privacy Policy </a> and that we contact you via email to respond to your request.
+                        </div>
                         <div class="form-group col-xs-12">
                             <button type="submit" class="NL_button button_main NL_dark_btn">
                                 <i class="fa fa-paper-plane"></i>Send
