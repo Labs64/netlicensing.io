@@ -64,13 +64,13 @@ Unordered (bulleted) list (var 1)
 
 * labs64.com
 * netlicensing.io
-* adfluencer.io
+* labs64.de
 
 Unordered (bulleted) list (var 2)
 
 - labs64.com
 - [netlicensing.io](https://netlicensing.io "Innovative License Management Solution")
-- adfluencer.io
+- labs64.de
 
 Unordered (bulleted) list (var 3)
 
@@ -79,13 +79,13 @@ Unordered (bulleted) list (var 3)
 
   list item - second line
 
-+ adfluencer.io
++ labs64.de
 
 Ordered (bulleted) list (var 1)
 
 1. labs64.com
 2. netlicensing.io
-3. adfluencer.io
+3. labs64.de
 
 Nested lists
 
@@ -94,7 +94,7 @@ Nested lists
   1. Flexible Licensing Models
   2. Easy Setup and Integration
   3. Cross-Platform Licensing
-3. adfluencer.io
+3. labs64.de
 
 ## LINKS
 ---
@@ -106,7 +106,7 @@ This a [link with title](https://netlicensing.io "Innovative License Management 
 Reference-style links: [NetLicensing][NLIC] and [NetLicensing][2] were developed by [Labs64][3]
 
 [NLIC]: https://netlicensing.io   "Labs64 NetLicensing - Innovative License Management Solution"
-[2]: https://adfluencer.io         "AdFluencer - Micro-Influencer Marketplace"
+[2]: https://www.labs64.de        "Labs64 - Innovations Delivered"
 [3]: https://www.labs64.com       "Labs64 - Innovations Delivered"
 
 ## IMAGES

@@ -3,8 +3,8 @@ layout: post
 title: "Paywall &#8211; making users pay for what they see online"
 description: "The most successful examples of uses of a paywall have actually come from organisations who had built their brand in more traditional methods"
 author:
-  name: AdFluencer
-  url: https://adfluencer.io
+  name: NetLicensing
+  url: https://netlicensing.io
 image:
   url: /img/blog/Fotolia_53221200_XS.jpg
 tags:

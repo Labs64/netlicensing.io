@@ -3,8 +3,8 @@ layout: post
 title: "QR Codes are everywhere"
 description: "Quick Response (QR) Codes are everywhere we go"
 author:
-  name: AdFluencer
-  url: https://adfluencer.io
+  name: NetLicensing
+  url: https://netlicensing.io
 image:
   url: /img/blog/1_think_all.png
 tags:

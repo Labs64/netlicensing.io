@@ -128,7 +128,7 @@ tags:
                     <div class="row">
                         <div class="form-group col-xs-12">
                             <button type="submit" class="NL_button button_main NL_dark_btn">
-                                <i class="fa fa-paper-plane"></i>Submit
+                                <i class="fa fa-paper-plane"></i>Send
                             </button>
                         </div>
                     </div>

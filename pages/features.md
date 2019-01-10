@@ -91,26 +91,12 @@ sitemap:
             <h2>Miss a Feature?</h2>
             <span>Do you have an idea for a cool new feature of NetLicensing that you think could be the Next Big Thing™?</span>
 
-            <form action="//formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contactForm"
+            <form action="/contact/" method="GET"
+                  name="Reaquest Feature" id="request-feature"
                   novalidate>
-                <input type="hidden" name="_next" value="/features/?utm_source=netlicensing.io_features&utm_medium=website&utm_campaign=netlicensing.io_features&utm_content=features-all"/>
-                <input type="hidden" name="_subject" value="NetLicensing Feature Request">
-                <input type="text" name="_gotcha" style="display:none"/>
-
-                <div class="form-group">
-                    <input type="email" name="email" class="form-control" placeholder="Email" id="email"
-                           required data-validation-required-message="Please enter your email address.">
-                    <input type="text" name="feature" class="form-control" placeholder="A one-line feature description"
-                           id="feature"
-                           data-validation-required-message="Please enter a feature description.">
-                    <textarea rows="3" name="summary" class="form-control" placeholder="A summary of the feature"
-                              id="summary"
-                              data-validation-required-message="Please enter a summary of the feature."></textarea>
-
-                    <button type="submit" class="NL_button button_main NL_dark_btn">
-                        <i class="fa fa-paper-plane"></i>Send
-                    </button>
-                </div>
+                <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
+                    <i class="fa fa-paper-plane"></i>Send Request
+                </button>
             </form>
         </div>
     </div>

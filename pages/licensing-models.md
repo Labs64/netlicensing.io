@@ -68,27 +68,12 @@ sitemap:
             <h2>Need a special Licensing Model?</h2>
             <span>With NetLicensing, complex software licensing models can be created that fit your business needs.</span>
 
-            <form action="//formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contactForm"
+            <form action="/contact/" method="GET"
+                  name="Reaquest Licensing Model" id="request-licensing-model"
                   novalidate>
-                <input type="hidden" name="_next" value="/licensing-models/?utm_source=netlicensing.io_licensing-models&utm_medium=website&utm_campaign=netlicensing.io_licensing-models&utm_content=licensing-models-page"/>
-                <input type="hidden" name="_subject" value="NetLicensing Licensing Model Request">
-                <input type="text" name="_gotcha" style="display:none"/>
-
-                <div class="form-group">
-                    <input type="email" name="email" class="form-control" placeholder="Email" id="email"
-                           required data-validation-required-message="Please enter your email address.">
-                    <input type="text" name="feature" class="form-control" placeholder="A one-line licensing model description"
-                           id="licensing-model"
-                           data-validation-required-message="Please enter a licensing model description.">
-
-                    <textarea rows="3" name="summary" class="form-control" placeholder="A summary of the licensing model"
-                              id="summary"
-                              data-validation-required-message="Please enter a summary of the licensing model."></textarea>
-
-                    <button type="submit" class="NL_button button_main NL_dark_btn">
-                        <i class="fa fa-paper-plane"></i>Send
-                    </button>
-                </div>
+                <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
+                    <i class="fa fa-paper-plane"></i>Send Request
+                </button>
             </form>
         </div>
     </div>
