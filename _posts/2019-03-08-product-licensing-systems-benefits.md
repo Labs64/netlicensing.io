@@ -26,11 +26,11 @@ Of course, large companies have all this, because they can afford it and it is b
 
 So, first you need to consult about what system you need, have contracts with banks so the credit card transfers are occurring as they should, build the hardware system, have programmers fix everything... Should I continue?
 
-## NetLicensing to the Rescue
+## Labs64 NetLicensing to the Rescue
 
 Now, it is not a new idea that one can have a company that specializes for online product licensing. This company sets up everything that I just described, and makes a very reliable service which is easy to implement, supports various models of licensing, payments, subscriptions - all with simple to use and powerful customizable platform standards so when you hire a programmer to set this up for you he or she can do it quite quickly.
 
-The NetLicensing from Labs64 is one such system. What you, as our customer should do is simply either hire someone to make a website with the goods you offer, check out the NetLicensing pricing plans available, and set it up so it serves your purposes! Very simple!
+Labs64 NetLicensing is one such system. What you, as our customer should do is simply either hire someone to make a website with the goods you offer, check out the NetLicensing pricing plans available, and set it up so it serves your purposes! Very simple!
 
 One of the advantages of NetLicensing is that it is reliable, flexible, customizable, and comes with three different pricing plans. There is even a free version! No fees - nothing! Free to use - in case your monthly turnover is less than a certain sum. But who cares? If it goes over the limit, you will obviously be happy that sales are going well, and fall into the second or third category. Remember, it is not cheap to set all the necessary hardware and software and manpower, plus contracts and secure server lines for online money transaction - it cost a lot of money. So, you are getting a hell of a bargain with the basic/free package.
 
@@ -38,4 +38,4 @@ You decide to test it, or take a glimpse of it, the wiki-articles are ready and 
 
 If you are new to the world of digital licensing and sales, be sure you check it out, and if already have some service, and looking for a new one, because you are curious or unsatisfied with the existing one - you are at the right spot!
 
-Make sure you check out the pricing plan and other points of interest on this website.
+Make sure you check out the pricing plan and other points of interest on [NetLicensing website](https://netlicensing.io/?utm_source=blog&utm_medium=website&utm_campaign=article&utm_content=article).
