@@ -2,10 +2,6 @@
 #  url: /feed.xml
 #  class: fa-rss
 
-- title: Google Plus
-  url: https://plus.google.com/+NetlicensingIoLabs64
-  class: fa-google-plus
-
 - title: Facebook
   url: https://www.facebook.com/netlicensing
   class: fa-facebook
