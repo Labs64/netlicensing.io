@@ -114,7 +114,7 @@ tags:
 
 <div class="row NL_block" style="text-align:center;">
     <h3 class="col-md-12">Online validation using NetLicensing Agent on vendors’ premises</h3>
-    <p class="col-md-8 col-md-offset-2">NetLicensing core services are hosted on very reliable and scalable architecture with the high availability. Nevertheless, based on the vendors demand, fault-tolerant infrastructure can be established by deploying NetLicensing Agent on vendor’s premises, so this additional installation will allow the vendor to ensure availability using his own infrastructure.</p>
+    <p class="col-md-8 col-md-offset-2">NetLicensing core services are hosted on very reliable and scalable architecture with the high availability. Nevertheless, based on the vendors demand, fault-tolerant infrastructure can be established by deploying <a href="https://www.labs64.de/confluence/x/AwAKAQ">NetLicensing Agent</a> on vendor’s premises, so this additional installation will allow the vendor to ensure availability using his own infrastructure.</p>
     <figure>
         <div class="image">
             <img src="{{ '/img/usage-scenarios/netlicensing-agent-vendor.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Use Case: Online validation using NetLicensing Agent on vendors’ premises" width="70%">
@@ -124,7 +124,7 @@ tags:
 
 <div class="row NL_block" style="text-align:center;">
     <h3 class="col-md-12">Offline validation using NetLicensing Agent on customers’ premises</h3>
-    <p class="col-md-8 col-md-offset-2">In some environments access to the NetLicensing cloud services is not possible for technical or organizational reasons, such as no internet connectivity or security restrictions. To enable NetLicensing functionality even in such restricted environments, we offer NetLicensing Agent - a standalone module, which is able to operate without connectivity to the NetLicensing cloud services and responding in a local network or on a local host to the validation requests same as the NetLicensing cloud service does.</p>
+    <p class="col-md-8 col-md-offset-2">In some environments access to the NetLicensing cloud services is not possible for technical or organizational reasons, such as no internet connectivity or security restrictions. To enable NetLicensing functionality even in such restricted environments, we offer <a href="https://www.labs64.de/confluence/x/AwAKAQ">NetLicensing Agent</a> - a standalone module, which is able to operate without connectivity to the NetLicensing cloud services and responding in a local network or on a local host to the validation requests same as the NetLicensing cloud service does.</p>
     <figure>
         <div class="image">
             <img src="{{ '/img/usage-scenarios/netlicensing-agent-customer.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Use Case: Offline validation using NetLicensing Agent on customers’ premises" width="70%">
