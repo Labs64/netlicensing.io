@@ -28,13 +28,13 @@ Notable changes in this release:
 ## Early Access to NetLicensing / Zapier integration
 
 We continue extending NetLicensing integrations portfolio to ease seamless integration of NetLicensing services in vendors' environments.
-Get early access to NetLicensing Zapier app at [Zapier](https://zapier.com/apps/netlicensing/integrations).
+Get early access to NetLicensing Zapier app at [Zapier](https://zapier.com/apps/netlicensing/integrations){:target="_blank"}.
 
 ## NetLicensing Kotlin client
 
 As Kotlin’s usage continues to grow and improve, one thing becomes clear: *Programmers love Kotlin*.
 At Labs64 NetLicensing we picked up Kotlin as a language for our new NetLicensing Client Library. This new library includes several convenient classes and features for you to use when integrating your products with the NetLicensing RESTful API.
-You can check out and evaluate beta-Version of the NetLicensing Kotlin Client [here](https://github.com/Labs64/NetLicensingClient-kotlin).
+You can check out and evaluate beta-Version of the NetLicensing Kotlin Client [here](https://github.com/Labs64/NetLicensingClient-kotlin){:target="_blank"}.
 
 ## Sneak preview for the new Management Console
 
