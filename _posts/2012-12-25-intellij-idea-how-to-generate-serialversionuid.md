@@ -23,7 +23,9 @@ sitemap:
     - /img/blog/labs64-blog-howto-idea003.png
 ---
 
+<a title="Labs64 NetLicensing" href="https://netlicensing.io">
 ![Labs64 NetLicensing](/img/NLIC-728x90-banner1.png "NetLicensing - Innovative License Management Solution"){:class="blog-center"}
+</a>
 
 When Java class implements _Serializable_ interface you have the following options:
 
