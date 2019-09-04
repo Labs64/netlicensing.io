@@ -28,7 +28,7 @@ Notable changes in this release:
 ## Early Access to NetLicensing / Zapier integration
 
 We continue extending NetLicensing integrations portfolio to ease seamless integration of NetLicensing services in vendors' environments.
-Get early access to NetLicensing Zapier app at [Zapier](https://zapier.com/apps/netlicensing/integrations){:target="_blank"}.
+Get early access to this [NetLicensing Integration](https://zapier.com/apps/netlicensing/integrations){:target="_blank"}.
 
 ## NetLicensing Kotlin client
 
@@ -50,7 +50,7 @@ We enabled a new [Node-Locked licensing model](http://l64.cc//nlNLK), which repl
 
 ## Grace period for time-based licensing models
 
-Time-base licensing models such as Subscription, Rental got an extension by enabling Grace Period, which can be used to allow customers to use your products beyond the validity of the acquired subscription and improves customer satisfaction.
+Time-based licensing models such as Subscription, Rental got an extension by enabling Grace Period, which can be used to allow customers to use your products beyond the validity of the acquired subscription and improves customer satisfaction.
 
 
 Also, we’ve implemented many improvements and bug fixes across all NetLicensing components: Core, Management Console, Shop, Gateway, Client Libraries, and Documentation.
