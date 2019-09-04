@@ -56,7 +56,7 @@
   premium: "<a href='https://www.labs64.de/confluence/x/twCo'>Try &amp; Buy</a> &#8226; <a href='https://www.labs64.de/confluence/x/ugCo'>Subscription</a> &#8226; <a href='https://www.labs64.de/confluence/x/IYDt'>Multi-Feature</a> &#8226; <a href='https://www.labs64.de/confluence/x/uACo'>Rental</a>"
   enterprise: "<a href='/licensing-models/'>All supported</a><br/>&nbsp;"
 
-- name: "Licensee Secret (<a href='https://www.labs64.de/confluence/x/bADx'>Node-Locked</a>)"
+- name: "Licensee Secret (<a href='http://l64.cc/nlNLK'>Node-Locked</a>)"
   description: "NetLicensing offers a comprehensive licensing support for virtual environments and sandboxing."
   free: "N"
   basic: "N"
