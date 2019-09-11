@@ -11,7 +11,7 @@
    - feature
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-try-and-buy.png'
-  url: "https://www.labs64.de/confluence/x/twCo"
+  url: "http://l64.cc/nlTNB"
 
 
 - name: "Subscription"
@@ -25,7 +25,7 @@
    - time
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-subscription.png'
-  url: "https://www.labs64.de/confluence/x/ugCo"
+  url: "http://l64.cc/nlSUB"
 
 
 - name: "Floating"
@@ -38,7 +38,7 @@
    - concurrent
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-floating.png'
-  url: "https://www.labs64.de/confluence/x/3YHW"
+  url: "http://l64.cc/nlFLT"
 
 
 - name: "Rental"
@@ -50,7 +50,7 @@
    - time
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-rental.png'
-  url: "https://www.labs64.de/confluence/x/uACo"
+  url: "http://l64.cc/nlRNT"
 
 
 - name: "Pay-per-Use"
@@ -68,7 +68,7 @@
    - volume
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-pay-per-use.png'
-  url: "https://www.labs64.de/confluence/x/uQCo"
+  url: "http://l64.cc/nlPPU"
 
 
 - name: "Standard"
@@ -81,7 +81,7 @@
    - user
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-standard.png'
-  url: "https://www.labs64.de/confluence/x/tgCo"
+  url: "http://l64.cc/nlLM"
 
 
 - name: "Multi-Feature"
@@ -96,7 +96,7 @@
    - feature
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-multi-feature.png'
-  url: "https://www.labs64.de/confluence/x/IYDt"
+  url: "http://l64.cc/nlMFT"
 
 
 - name: "Node-Locked"
@@ -126,7 +126,7 @@
    - feature
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-quota.png'
-  url: "https://www.labs64.de/confluence/x/5wAKAQ"
+  url: "http://l64.cc/nlQTA"
 
 
 - name: "Named User"
@@ -137,4 +137,4 @@
    - user
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-named-user.png'
-  url: "https://www.labs64.de/confluence/x/tgCo"
+  url: "http://l64.cc/nlLM"
