@@ -23,6 +23,8 @@ sitemap:
     - /img/blog/labs64-blog-howto-idea003.png
 ---
 
+{% include advert.html image=/img/NLIC-728x90-banner1.png %}
+
 <a title="Labs64 NetLicensing" href="https://netlicensing.io">
 ![Labs64 NetLicensing](/img/NLIC-728x90-banner1.png "NetLicensing - Innovative License Management Solution"){:class="blog-center"}
 </a>

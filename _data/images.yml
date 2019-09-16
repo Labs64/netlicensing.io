@@ -1411,3 +1411,13 @@
   author: "Dyaa Eldin"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/2fl-ocJ5MOA
+
+- id: NLIC-728x90-banner1
+  source: /img/NLIC-728x90-banner1.png
+  type: banner
+  title: "NetLicensing - Innovative License Management Solution"
+  caption: "NetLicensing - Innovative License Management Solution"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64 NetLicensing
+  publisher: Labs64 NetLicensing
+  creditlink: https://netlicensing.io
