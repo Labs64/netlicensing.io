@@ -9,6 +9,6 @@
 
 {% if image %}
 <a title="{{ image.title }}" href="{{ image.creditlink }}?utm_source=website&utm_medium=banner&utm_campaign=netlicensing_internal&utm_content=image">
-  <img border="0" class="blog-center" src="{{ image.source | prepend: site.baseurl | prepend: site.url }}">
+  <img border="0" class="blog-center" alt="{{ image.caption }}" src="{{ image.source | prepend: site.baseurl | prepend: site.url }}">
 </a>
 {% endif %}
