@@ -19,12 +19,12 @@ tags:
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Meet NetLicensing at Bits & Pretzels 2019</h1>
         <span>Come by and start learning about software monetization and software license management!</span>
+        <img src="{{ '/img/partners/Bits_Pretzels_white_shadow_RGB_Web.png' | prepend: site.baseurl | prepend: site.url }}" alt="Bits & Pretzels">
     </div>
 </div>
 
 <div class="row NL_block" style="text-align:center;">
-    <h3 class="col-md-12">Bits & Pretzels Special Offer</h3>
-    <p class="col-md-8 col-md-offset-2">1 Year of Premium Plan for FREE!</p>
+    <h2 class="col-md-12">Bits & Pretzels Special Offer</h2>
     <figure>
         <div class="image">
             <img src="{{ '/img/netlicensing-bits19.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing's Bits & Pretzels Special Offer" width="70%">
@@ -32,14 +32,14 @@ tags:
     </figure>
 </div>
 
-<div class="row">
+<div class="row NL_block">
     <div class="col-md-12 NL_container">
         <div class="col-md-6 col-md-offset-3 NL_container_text">
-            <h2>Meet NetLicensing at Bits & Pretzels</h2>
-            <span>Want an appointment to talk to us on our ideas around software licensing?
-Find us in the official Bits & Pretzels app or simply drop us a note.</span>
+            <h2>Meet us at Bits & Pretzels</h2>
+            <span>Want an appointment to talk to us on your ideas around software licensing?!</span>
+            <span>Find us in the official Bits & Pretzels app or simply drop us a note.</span>
             <form action="/contact/" method="GET"
-                  name="Getting Started" id="Getting-started"
+                  name="Contact" id="Contact"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
                     <i class="fa fa-rocket"></i>Drop us a note
