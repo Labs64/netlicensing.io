@@ -13,7 +13,7 @@ tags:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Choose optimal pricing for your scale</h1>
-        <span>Whether you’re just getting started or are ready to bring licensing to your enterprise,<br/>there is a NetLicensing level that’s right for you.</span>
+        <span>Whether you’re just getting started or are ready to bring licensing to your enterprise,<br/>there is a NetLicensing level that’s right for you.<br/>All new registrations include a <strong>90 days Free Premium Trial</strong>, no credit card required.</span>
     </div>
 </div>
 
@@ -153,9 +153,10 @@ tags:
             The selected payment service provider may charge an internet gateway fee and/or a processing fee.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
-        <h3>What is included in Free Trial?</h3>
+        <h3>What is included in Free Premium Trial?</h3>
 
-        <p>Free Trial includes all functionality of Premium Plan for 90 days, except product / product module and licensee limits.</p>
+        <p>Free Premium Trial includes all functionality of Premium Plan for 90 days, except product / product module and licensee limits.
+        After 90 days your vendor account will be automatically switched to FREE forever plan unless upgraded.</p>
     </div>
 </div>
 
