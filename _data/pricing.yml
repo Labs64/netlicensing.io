@@ -23,9 +23,9 @@
   enterprise: "unlimited"
 
 - name: "API Requests"
-  free: "10 / sec"
-  basic: "100 / sec"
-  premium: "500 / sec"
+  free: "1 / sec"
+  basic: "10 / sec"
+  premium: "50 / sec"
   enterprise: "customizable"
 
 - name: "RESTful API and Integration"
