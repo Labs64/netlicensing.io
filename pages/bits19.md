@@ -27,9 +27,12 @@ tags:
 
 <div class="row NL_block" style="text-align:center;">
     <h2 class="col-md-12">Bits & Pretzels Special Offer</h2>
-- Register (no credit card required) for a new NetLicensing Vendor account - https://ui.netlicensing.io/#/register
-- Enter Bits & Pretzels special Promo Code
-- Receive 1 year of Premium Plan for FREE
+        <h3>All you need to do</h3>
+        <ul style="margin-left: 20px;">
+            <li><a href="https://ui.netlicensing.io/#/register">Register<> (no credit card required) for a new NetLicensing Vendor account</li>
+            <li>Enter Bits & Pretzels special Promo Code</li>
+            <li>Receive 1 year of **Premium Plan** for FREE/li>
+        </ul>
 </div>
 
 <div class="row NL_block">
