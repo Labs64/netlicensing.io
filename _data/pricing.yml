@@ -1,3 +1,9 @@
+- name: "Accounting Model"
+  free: "N"
+  basic: "Subscription"
+  premium: "Subscription"
+  enterprise: "Subscription &#8226; Revenue Sharing"
+
 - name: "Active products"
   free: "1"
   basic: "3"
