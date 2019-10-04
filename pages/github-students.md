@@ -2,7 +2,7 @@
 layout: page
 title: "Labs64 NetLicensing for GitHub Students"
 description: "A special offer for students enrolled in the GitHub Student Developer Pack"
-permalink: "/student-pack/"
+permalink: "/github-students/"
 tags:
 - GitHub
 - Student
