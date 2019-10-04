@@ -31,7 +31,7 @@ sitemap:
         <p>As part of the program, you get a NetLicensing <strong>Basic Plan for FREE</strong> while you are a student.</p>
         <h3 class="col-md-12">How to get this offer?</h3>
         <p>Open your <a href="https://ui.netlicensing.io/#/profile">NetLicensing Profile page</a>, connect your NetLicensing vendor account to your GitHub account, and get Basic Plan upgrade for free.</p>
-        <p>Read NetLicensing <a href="/getting-started/">Getting Started</a> tutorial and feel free to contact us for support via our <a href="/contact/">Contact Form</a> or via <a href="mailto:netlicensing@labs64.com">email</a>.</p>
+        <p>Read NetLicensing <a href="/getting-started/">Getting Started</a> tutorial and feel free to contact us for support via our <a href="/contact/">contact form</a> or via <a href="mailto:netlicensing@labs64.com">email</a>.</p>
 </div>
 
 <div id="faq" class="row NL_block">
@@ -60,7 +60,7 @@ sitemap:
     <div class="col-md-4 col-md-offset-1">
         <h3>I am an educator and would like to use NetLicensing in my curriculum.</h3>
 
-        <p>Please use our <a href="/contact/">Contact Form</a>. We are happy to provide 50% discount for compliant educational staff and some non-profit organizations.</p>
+        <p>Please <a href="/contact-sales/">contact our sales</a>. We are happy to provide 50% discount for compliant educational staff and some non-profit organizations.</p>
     </div>
 </div>
 
