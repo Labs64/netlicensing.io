@@ -23,7 +23,7 @@ tags:
     <img src="{{ '/img/partners/netlicensing-github.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing for GitHub Education" width="30%">
         <h2 class="col-md-12">Labs64 NetLicensing is part of the Github Student Developer Pack</h2>
         <p>The <a href="https://education.github.com/pack" target="_blank" rel="noopener nofollow">Github Student Developer Pack</a> gives students free access to the best developer tools in one place so they can learn by doing.</p>
-        <p>As part of the program, you get a NetLicensing **Basic Plan FOR FREE** while you are a student.</p>
+        <p>As part of the program, you get a NetLicensing <strong>Basic Plan FOR FREE</strong> while you are a student.</p>
         <h3 class="col-md-12">How to get it?</h3>
         <p>Open your <a href="https://ui.netlicensing.io/#/profile">NetLicensing Profile page</a>, connect your Vendor Account to your GitHub Student Developer Pack account, and get Basic Plan upgrade for free:</p>
         <p>Read our <a href="/getting-started/">Getting Started</a> tutorial and feel free to contact us for support via our <a href="/contact/">Contact Form</a> or via <a href="mailto:netlicensing@labs64.com">email</a>.</p>
