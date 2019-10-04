@@ -10,6 +10,11 @@ tags:
 - GitHub Education
 - offer
 - Basic Plan
+image:
+  url: /img/partners/netlicensing-github.png
+sitemap:
+  images:
+    - /img/partners/netlicensing-github.png
 ---
 
 <div class="row NL_banner">
@@ -27,6 +32,36 @@ tags:
         <h3 class="col-md-12">How to get it?</h3>
         <p>Open your <a href="https://ui.netlicensing.io/#/profile">NetLicensing Profile page</a>, connect your Vendor Account to your GitHub Student Developer Pack account, and get Basic Plan upgrade for free:</p>
         <p>Read our <a href="/getting-started/">Getting Started</a> tutorial and feel free to contact us for support via our <a href="/contact/">Contact Form</a> or via <a href="mailto:netlicensing@labs64.com">email</a>.</p>
+</div>
+
+<div id="faq" class="row NL_block">
+    <h2 class="col-md-12">You may still have some questions, so here's our FAQs</h2>
+</div>
+
+<div class="row NL_FAQ">
+    <div class="col-md-5 col-md-offset-1">
+        <h3>How do I qualify for the NetLicensing offer in the GitHub Student Developer Pack?</h3>
+
+        <p>If you qualify for the GitHub Student Developer Pack, then you are eligible to apply for the NetLicensing offer.</p>
+    </div>
+    <div class="col-md-4 col-md-offset-1">
+        <h3>Can I upgrade if I already have free NetLicensing account?</h3>
+
+        <p>Sure, you can. Upgrade for free to the Basic Plan by clicking the "Claim your GitHub Student Developer Pack" button in your NetLicensing Profile page.</p>
+    </div>
+</div>
+
+<div class="row NL_FAQ">
+    <div class="col-md-5 col-md-offset-1">
+        <h3>My student developer account has expired, but I am still a student. Can I renew?</h3>
+
+        <p>We are happy to extend your discount as long as you continue to be an active member of the GitHub Student Developer Pack.</p>
+    </div>
+    <div class="col-md-4 col-md-offset-1">
+        <h3>I am an educator and would like to use NetLicensing in my curriculum.</h3>
+
+        <p>Please use our <a href="/contact/">Contact Form</a>. We are happy to provide 50% discount for compliant educational staff and some non-profit organizations.</p>
+    </div>
 </div>
 
 <div class="row NL_block">
