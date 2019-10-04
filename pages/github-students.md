@@ -20,7 +20,7 @@ sitemap:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Labs64 NetLicensing for GitHub Students</h1>
-        <span>A special offer for students enrolled in the GitHub Student Developer Pack.</span><br/><br/>
+        <span>A special offer for students enrolled in the <i>GitHub Student Developer Pack</i>.</span><br/><br/>
     </div>
 </div>
 
@@ -28,21 +28,21 @@ sitemap:
     <img src="{{ '/img/partners/netlicensing-github.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing for GitHub Education" width="30%">
         <h2 class="col-md-12">Labs64 NetLicensing is part of the Github Student Developer Pack</h2>
         <p>The <a href="https://education.github.com/pack" target="_blank" rel="noopener nofollow">Github Student Developer Pack</a> gives students free access to the best developer tools in one place so they can learn by doing.</p>
-        <p>As part of the program, you get a NetLicensing <strong>Basic Plan FOR FREE</strong> while you are a student.</p>
+        <p>As part of the program, you get a NetLicensing <strong>Basic Plan for FREE</strong> while you are a student.</p>
         <h3 class="col-md-12">How to get this offer?</h3>
         <p>Open your <a href="https://ui.netlicensing.io/#/profile">NetLicensing Profile page</a>, connect your NetLicensing vendor account to your GitHub account, and get Basic Plan upgrade for free.</p>
-        <p>Read our <a href="/getting-started/">Getting Started</a> tutorial and feel free to contact us for support via our <a href="/contact/">Contact Form</a> or via <a href="mailto:netlicensing@labs64.com">email</a>.</p>
+        <p>Read NetLicensing <a href="/getting-started/">Getting Started</a> tutorial and feel free to contact us for support via our <a href="/contact/">Contact Form</a> or via <a href="mailto:netlicensing@labs64.com">email</a>.</p>
 </div>
 
 <div id="faq" class="row NL_block">
-    <h2 class="col-md-12">You may still have some questions, so here's our FAQs</h2>
+    <h2 class="col-md-12">You may still have some questions, so here's our FAQ</h2>
 </div>
 
 <div class="row NL_FAQ">
     <div class="col-md-5 col-md-offset-1">
         <h3>How do I qualify for the NetLicensing offer in the GitHub Student Developer Pack?</h3>
 
-        <p>If you qualify for the GitHub Student Developer Pack, then you are eligible to apply for the NetLicensing offer.</p>
+        <p>If you qualify for the <a href="https://education.github.com/pack" target="_blank" rel="noopener nofollow">Github Student Developer Pack</a>, then you are eligible to apply for the NetLicensing offer.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
         <h3>Can I upgrade if I already have free NetLicensing account?</h3>
@@ -64,11 +64,24 @@ sitemap:
     </div>
 </div>
 
+<div class="row NL_FAQ">
+    <div class="col-md-5 col-md-offset-1">
+        <h3>I've applied for the NetLicensing offer in the GitHub Student Developer Pack. When will I hear back?</h3>
+
+        <p>Wait time can vary depending on the volume of requests we are receiving. However, we will do our best to ensure you receive your free Basic Plan within one week.</p>
+    </div>
+    <div class="col-md-4 col-md-offset-1">
+        <h3>How do I contact NetLicensing with questions about the Github Student Developer Pack?</h3>
+
+        <p>For questions specific to this program, feel free to contact us at: <a href="mailto:netlicensing@labs64.com">netlicensing@labs64.com</a></p>
+    </div>
+</div>
+
 <div class="row NL_block">
     <div class="col-md-12 NL_container">
         <div class="col-md-6 col-md-offset-3 NL_container_text">
             <h2>GitHub Students Special Offer</h2>
-            <span>We invite you to explore the Labs64 NetLicensing developer experience throughout your studies and beyond.</span>
+            <span>We invite you to explore the Labs64 NetLicensing online license management experience throughout your studies and beyond.</span>
             <form action="https://ui.netlicensing.io/#/profile" method="GET"
                   name="NetLicensing Profile" id="profile"
                   novalidate>
