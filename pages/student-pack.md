@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "NetLicensing for GitHub Students"
+title: "Labs64 NetLicensing for GitHub Students"
 description: "A special offer for students enrolled in the GitHub Student Developer Pack"
 permalink: "/student-pack/"
 tags:
@@ -11,23 +11,25 @@ tags:
 - offer
 - Basic Plan
 ---
+
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
-        <h1>NetLicensing for GitHub Students</h1>
+        <h1>Labs64 NetLicensing for GitHub Students</h1>
         <span>A special offer for students enrolled in the GitHub Student Developer Pack.</span><br/><br/>
     </div>
 </div>
 
 <div class="row NL_block" style="text-align:center;">
     <img src="{{ '/img/partners/netlicensing-github.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing for GitHub Education" width="30%">
-        <h2 class="col-md-12">Bootstrap Studio is part of the Github Student Developer Pack</h2>
-        <p>
-            The <a href="https://education.github.com/pack" target="_blank" rel="noopener nofollow">Github Student Developer Pack</a> gives students free access to the best developer tools in one place so they can learn by doing. As part of the program, you get a NetLicensing Basic Plan for free while you are a student.
-        </p>
+        <h2 class="col-md-12">Labs64 NetLicensing is part of the Github Student Developer Pack</h2>
+        <p>The <a href="https://education.github.com/pack" target="_blank" rel="noopener nofollow">Github Student Developer Pack</a> gives students free access to the best developer tools in one place so they can learn by doing.</p>
+        <p>As part of the program, you get a NetLicensing Basic Plan for free while you are a student.</p>
         <h3 class="col-md-12">How to get it</h3>
-        <p>
-            TODO
-        </p>
+        <ul>
+        <li>Login</li>
+        <li>Claim</li>
+        <li>etc.</li>
+        </ul>
 </div>
 
 <div class="row NL_block">
