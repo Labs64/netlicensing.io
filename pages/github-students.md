@@ -30,7 +30,7 @@ sitemap:
         <p>The <a href="https://education.github.com/pack" target="_blank" rel="noopener nofollow">GitHub Student Developer Pack</a> gives students free access to the best developer tools in one place so they can learn by doing.</p>
         <p>As part of the program, you get a NetLicensing <strong>Basic Plan for FREE</strong> while you are a student.</p>
         <h3 class="col-md-12">How to get this offer?</h3>
-        <p>Open your <a href="https://ui.netlicensing.io/#/profile">NetLicensing Profile page</a>, connect your NetLicensing vendor account to your GitHub account, and get Basic Plan upgrade for free.</p>
+        <p>Open your <a href="https://ui.netlicensing.io/#/profile">NetLicensing Profile page</a>, connect your NetLicensing vendor account to your GitHub account with the same email ID, and get Basic Plan upgrade for free.</p>
         <p>Read NetLicensing <a href="/getting-started/">Getting Started</a> tutorial and feel free to contact us for support via our <a href="/contact/">contact form</a> or via <a href="mailto:netlicensing@labs64.com">email</a>.</p>
 </div>
 
