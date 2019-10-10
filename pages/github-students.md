@@ -42,12 +42,12 @@ sitemap:
     <div class="col-md-5 col-md-offset-1">
         <h3>How do I qualify for the NetLicensing offer in the GitHub Student Developer Pack?</h3>
 
-        <p>If you qualify for the <a href="https://education.github.com/pack" target="_blank" rel="noopener nofollow">GitHub Student Developer Pack</a>, then you are eligible to apply for the NetLicensing offer.</p>
+        <p>If you qualify for the <a href="https://education.github.com/pack" target="_blank" rel="noopener nofollow">GitHub Student Developer Pack</a> and use the same email ID for your NetLicensing and GitHub accounts, then you are eligible to apply for the NetLicensing offer.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
         <h3>Can I upgrade if I already have free NetLicensing account?</h3>
 
-        <p>Sure, you can. Upgrade for free to the Basic Plan by clicking the "Claim NetLicensing for Students offer" button in your NetLicensing Profile page.</p>
+        <p>Sure, you can. Upgrade for free to the Basic Plan by clicking the "Claim NetLicensing for Students offer" button in your NetLicensing Profile page. Make sure, you are using the same email ID for your NetLicensing and GitHub accounts.</p>
     </div>
 </div>
 
