@@ -71,7 +71,7 @@ sitemap:
         <p>Wait time can vary depending on the volume of requests we are receiving. However, we will do our best to ensure you receive your free Basic Plan within one week.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
-        <h3>How do I contact NetLicensing with questions about the Github Student Developer Pack?</h3>
+        <h3>How do I contact NetLicensing with questions about the GitHub Student Developer Pack?</h3>
 
         <p>For questions specific to this program, feel free to contact us at: <a href="mailto:netlicensing@labs64.com">netlicensing@labs64.com</a></p>
     </div>
