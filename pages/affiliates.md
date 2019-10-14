@@ -74,7 +74,7 @@ sitemap:
                   name="Become an affiliate" id="affiliate-contact"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
-                    <i class="fa fa-bullhorn"></i>Become an affiliate
+                    <i class="fa fa-bullhorn"></i>Join the NetLicensing Affiliate Program Today
                 </button>
             </form>
         </div>
@@ -82,7 +82,7 @@ sitemap:
 </div>
 
 <div id="faq" class="row NL_block">
-    <h2 class="col-md-12">You may still have some questions, so here's our FAQ</h2>
+    <h2 class="col-md-12">Read through popular questions and answers about the affiliate program.</h2>
 </div>
 
 <div class="row NL_FAQ">
@@ -95,5 +95,18 @@ sitemap:
         <h3>Where do I find my shareable affiliate link?</h3>
 
         <p>As soon as you sign-in as a NetLicensing affiliate, we’ll provide you with your unique affiliate link. You can use it anywhere you’d like.</p>
+    </div>
+</div>
+
+<div class="row NL_FAQ">
+    <div class="col-md-5 col-md-offset-1">
+        <h3>Can I refer myself on purchase?</h3>
+
+        <p>Self-referrals strictly prohibited from the NetLicensing affiliate program. We want you to be able to provide a great system to earn commission by recommending others to the NetLicensing system and not get yourself a 20% discount.</p>
+    </div>
+    <div class="col-md-4 col-md-offset-1">
+        <h3>How do you track conversions?</h3>
+
+        <p>Conversions are tracked through your affiliate link provided by our affiliate tracking software.</p>
     </div>
 </div>
