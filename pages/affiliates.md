@@ -18,9 +18,9 @@ sitemap:
         <h1>Labs64 NetLicensing Affiliate Program</h1>
         <span>Earn up to 20% recurring commissions on paying referrals.</span>
         <div class="row">
-            <div class="col-md-4 col-md-offset-2">
+            <div class="col-md-12">
                 <a href="/contact/"
-                   class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-eye"></i>Become an affiliate</a>
+                   class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-bullhorn"></i>Become an affiliate</a>
             </div>
         </div>
     </div>
@@ -64,23 +64,6 @@ sitemap:
     </div>
 </div>
 
-<div id="faq" class="row NL_block">
-    <h2 class="col-md-12">You may still have some questions, so here's our FAQ</h2>
-</div>
-
-<div class="row NL_FAQ">
-    <div class="col-md-5 col-md-offset-1">
-        <h3>How do I qualify for the NetLicensing offer in the GitHub Student Developer Pack?</h3>
-
-        <p>If you qualify for the <a href="https://education.github.com/pack" target="_blank" rel="noopener nofollow">GitHub Student Developer Pack</a> and use the same email ID for your NetLicensing and GitHub accounts, then you are eligible to apply for the NetLicensing offer.</p>
-    </div>
-    <div class="col-md-4 col-md-offset-1">
-        <h3>Can I upgrade if I already have free NetLicensing account?</h3>
-
-        <p>Sure, you can. Upgrade for free to the Basic Plan by clicking the "Claim NetLicensing for Students offer" button in your NetLicensing Profile page. Make sure, you are using the same email ID for your NetLicensing and GitHub accounts.</p>
-    </div>
-</div>
-
 <div class="row">
     <div class="col-md-12 NL_form_light NL_block">
         <div class="col-md-8 col-md-offset-2 NL_form_light_text">
@@ -91,9 +74,26 @@ sitemap:
                   name="Reaquest Licensing Model" id="request-licensing-model"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
-                    <i class="fa fa-paper-plane"></i>Become an affiliate
+                    <i class="fa fa-bullhorn"></i>Become an affiliate
                 </button>
             </form>
         </div>
+    </div>
+</div>
+
+<div id="faq" class="row NL_block">
+    <h2 class="col-md-12">You may still have some questions, so here's our FAQ</h2>
+</div>
+
+<div class="row NL_FAQ">
+    <div class="col-md-5 col-md-offset-1">
+        <h3>How much does NetLicensing's affiliate program pay in commissions?</h3>
+
+        <p>As a NetLicensing affiliate, you'll earn up to 20% recurring commissions on all paying customers you refer to us.</p>
+    </div>
+    <div class="col-md-4 col-md-offset-1">
+        <h3>Where do I find my shareable affiliate link?</h3>
+
+        <p>As soon as you sign-in as a NetLicensing affiliate, we’ll provide you with your unique affiliate link. You can use it anywhere you’d like.</p>
     </div>
 </div>
