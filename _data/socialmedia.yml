@@ -2,18 +2,6 @@
 #  url: /feed.xml
 #  class: fa-rss
 
-- title: Facebook
-  url: https://www.facebook.com/netlicensing
-  class: fa-facebook
-
-- title: Twitter
-  url: https://twitter.com/netlicensing
-  class: fa-twitter
-
-- title: GitHub
-  url: https://github.com/Labs64/
-  class: fa-github
-
 - title: LinkedIn
   url: https://www.linkedin.com/showcase/netlicensing/
   class: fa-linkedin
@@ -21,6 +9,18 @@
 - title: Xing
   url: https://www.xing.com/companies/labs64gmbh
   class: fa-xing
+
+- title: GitHub
+  url: https://github.com/Labs64/
+  class: fa-github
+
+- title: Facebook
+  url: https://www.facebook.com/netlicensing
+  class: fa-facebook
+
+- title: Twitter
+  url: https://twitter.com/netlicensing
+  class: fa-twitter
 
 - title: Telegram
   url: https://t.me/netlicensing
