@@ -13,7 +13,7 @@ sitemap:
     - /img/partners/netlicensing-github.png
 ---
 
-<div class="row NL_main_banner">
+<div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
         <h1>Labs64 NetLicensing Affiliate Program</h1>
         <span>Earn up to 20% recurring commissions on paying referrals.</span>
@@ -30,7 +30,7 @@ sitemap:
     <div id="cbp-so-scroller" class="cbp-so-scroller NL_intro">
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-landing-laas.png' | prepend: site.baseurl | prepend: site.url }}" alt="LaaS - Licensing-as-a-Service" title="LaaS - Licensing-as-a-Service">
+                <img src="{{ '/img/netlicensing-landing-laas.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Affiliates - Join" title="NetLicensing Affiliates - Join">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Join</h2>
@@ -46,13 +46,13 @@ sitemap:
                 <span>Share NetLicensing with your audience using your custom affiliate link in order to start earning. NetLicensing helps thousands of software vendors enabling license management for their products.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-landing-licensing-models.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Licensing Models" title="NetLicensing Licensing Models">
+                <img src="{{ '/img/netlicensing-landing-licensing-models.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Affiliates - Share" title="NetLicensing Affiliates - Share">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-landing-shop.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Shop" title="NetLicensing Shop">
+                <img src="{{ '/img/netlicensing-landing-shop.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Affiliates - Earn" title="NetLicensing Affiliates - Earn">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Earn</h2>
@@ -71,7 +71,7 @@ sitemap:
             <span>Earn up to 20% recurring commissions on paying referrals with the NetLicensing Affiliate Program.</span>
 
             <form action="/contact/" method="GET"
-                  name="Reaquest Licensing Model" id="request-licensing-model"
+                  name="Become an affiliate" id="affiliate-contact"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
                     <i class="fa fa-bullhorn"></i>Become an affiliate
