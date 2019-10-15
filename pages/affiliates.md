@@ -5,12 +5,13 @@ description: "Earn up to 20% recurring commissions on paying referrals with the 
 permalink: "/affiliates/"
 tags:
 - affiliate
+- affil
+- marketing
+- partner
+- associate
+- income
 - Labs64 NetLicensing
-image:
-  url: /img/partners/netlicensing-github.png
-sitemap:
-  images:
-    - /img/partners/netlicensing-github.png
+- Affiliate Program
 ---
 
 <div class="row NL_banner">
@@ -74,7 +75,7 @@ sitemap:
                   name="Become an affiliate" id="affiliate-contact"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
-                    <i class="fa fa-bullhorn"></i>Join the NetLicensing Affiliate Program Today
+                    <i class="fa fa-bullhorn"></i>Join the NetLicensing Affiliate Program
                 </button>
             </form>
         </div>
