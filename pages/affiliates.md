@@ -37,6 +37,13 @@ tags:
                 <h2>Join</h2>
 
                 <span>Fill out your information and create an affiliate account. Once you log in you’ll have access to your dashboard where you can get your custom affiliate link, and track your referrals and commissions.</span>
+                <h3>Why NetLicensing Affiliate Program?</h3>
+                <ul>
+                  <li>20% monthly recurring commission for a lifetime</li>
+                  <li>Longest CLV - 4 years in average</li>
+                  <li>30 Days cookie length</li>
+                  <li>Suits requirements of both SMB & Enterprise</li>
+                </ul>
             </article>
         </section>
 
@@ -109,5 +116,35 @@ tags:
         <h3>How do you track conversions?</h3>
 
         <p>Conversions are tracked through your affiliate link provided by our affiliate tracking software.</p>
+    </div>
+</div>
+
+<div class="row NL_FAQ">
+    <div class="col-md-5 col-md-offset-1">
+        <h3>How much can I earn from your Affiliate Program?</h3>
+
+        <p>There is no capping on how much you can earn from NetLicensing Affiliate Program. As long as we are getting paid customers from your link, you’ll keep earning from us.</p>
+    </div>
+    <div class="col-md-4 col-md-offset-1">
+        <h3>I am interested in your Affiliate Program but have more questions whom should I reach out?</h3>
+
+        <p>You can either send us a message using our chat support or write us at netlicensing@labs64.com. We’ll get back to you in no time.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 NL_container">
+        <div class="col-md-6 col-md-offset-3 NL_container_text">
+            <h2>Download our affiliates media kit</h2>
+            <span>In this kit, we have NetLicensing visuals and logos to use on your site, social media or even run an ad to get your visitors signing up.</span>
+
+            <form action="/netlicensing-media-kit.zip" method="GET"
+                  name="Become an affiliate" id="affiliate-contact"
+                  novalidate>
+                <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
+                    <i class="fa fa-cloud-download"></i>Download kit
+                </button>
+            </form>
+        </div>
     </div>
 </div>
