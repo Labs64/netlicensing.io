@@ -17,7 +17,7 @@ tags:
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
         <h1>Labs64 NetLicensing Affiliate Program</h1>
-        <span>Earn up to 20% recurring commissions on paying referrals.</span>
+        <span>Join NetLicensing Affiliate Program and earn up to 20% recurring commissions on paying referrals.</span>
         <div class="row">
             <div class="col-md-12">
                 <a href="/contact/"
@@ -34,24 +34,35 @@ tags:
                 <img src="{{ '/img/netlicensing-landing-laas.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Affiliates - Join" title="NetLicensing Affiliates - Join">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
-                <h2>Join</h2>
+                <h2>Join Program</h2>
 
                 <span>Fill out your information and create an affiliate account. Once you log in you’ll have access to your dashboard where you can get your custom affiliate link, and track your referrals and commissions.</span>
                 <h3>Why NetLicensing Affiliate Program?</h3>
                 <ul>
+                  <li>Rockstar license management platform</li>
+                  <li>B2B level deals</li>
                   <li>20% monthly recurring commission for a lifetime</li>
                   <li>Longest CLV - 4 years in average</li>
-                  <li>30 Days cookie length</li>
+                  <li>Extended Cookie Life - 90 days</li>
                   <li>Suits requirements of both SMB & Enterprise</li>
+                  <li>Marketing Materials</li>
+                  <li><strong>Special Bonus:</strong> You get 12 months of the Basic Plan (worth €576) for free for every 30 customers that you refer to our platform.</li>
                 </ul>
             </article>
         </section>
 
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
-                <h2>Share</h2>
+                <h2>Share Link</h2>
 
                 <span>Share NetLicensing with your audience using your custom affiliate link in order to start earning. NetLicensing helps thousands of software vendors enabling license management for their products.</span>
+                <h3>Everyone can make money online as NetLicensing affiliates</h3>
+                <ul>
+                  <li>Website Owners</li>
+                  <li>Marketers</li>
+                  <li>Bloggers and Content Writers</li>
+                  <li>LinkedIners, YouTubers and Social Media Superstars</li>
+                </ul>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
                 <img src="{{ '/img/netlicensing-landing-licensing-models.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Affiliates - Share" title="NetLicensing Affiliates - Share">
@@ -63,7 +74,7 @@ tags:
                 <img src="{{ '/img/netlicensing-landing-shop.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Affiliates - Earn" title="NetLicensing Affiliates - Earn">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
-                <h2>Earn</h2>
+                <h2>Get Rewarded</h2>
 
                 <span>We give you up to 20% commission for every paying customer who signs up through your affiliate link.
                 </span>
@@ -129,6 +140,19 @@ tags:
         <h3>I am interested in your Affiliate Program but have more questions whom should I reach out?</h3>
 
         <p>You can either send us a message using our chat support or write us at netlicensing@labs64.com. We’ll get back to you in no time.</p>
+    </div>
+</div>
+
+<div class="row NL_FAQ">
+    <div class="col-md-5 col-md-offset-1">
+        <h3>How long do cookies last for?</h3>
+
+        <p>We use Cookies to track your referrals. The cookies last for 90 days after someone clicks on your link. If they click again, the 90 days starts again.</p>
+    </div>
+    <div class="col-md-4 col-md-offset-1">
+        <h3>When and How do I get paid?</h3>
+
+        <p>Payments are verified and paid-out via PayPal the month after your commission is earned.</p>
     </div>
 </div>
 
