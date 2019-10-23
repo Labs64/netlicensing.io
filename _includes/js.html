@@ -81,3 +81,22 @@
     });
   });
 </script>
+<!--set affiliate cookies-->
+<script>
+    var searchParams = new URLSearchParams(window.location.search);
+
+    if (searchParams.get('utm_campaign') === '{{site.affiliate.campaign}}') {
+        if (searchParams.has('utm_source')) {
+            var expires = new Date();
+            expires.setDate(expires.getDate() + parseInt('{{site.affiliate.cookie-lifetime}}', 10));
+
+            var affiliateCookie = '{{site.affiliate.cookie-name}}' + '=' + escape(searchParams.get('utm_source')) + ';';
+            var affiliateCookieExpires = 'expires=' + expires.toUTCString() + ';';
+            var affiliateCookiePath = 'path=/;';
+            var affiliateCookieDomain = 'domain=' + (document.domain.match(/[^\.]*\.[^.]*$/)[0]) + ';';
+
+            document.cookie = affiliateCookie + affiliateCookieExpires + affiliateCookiePath + affiliateCookieDomain;
+        }
+    }
+</script>
+

@@ -96,3 +96,9 @@ defaults:
       layout: "post"
       show_meta: true
       author: "Labs64"
+
+# Affiliate
+affiliate:
+  campaign: "netlicensing_affiliates"
+  cookie-name: "nlaff"
+  cookie-lifetime: "90" # days
