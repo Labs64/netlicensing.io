@@ -102,6 +102,13 @@
   premium: "Basic"
   enterprise: "Y"
 
+- name: "Customized Reporting Automation"
+  description: "Deliver weekly or monthly individual reports based on the vendor's requirements."
+  free: "N"
+  basic: "N"
+  premium: "N"
+  enterprise: "Y"
+
 - name: "NetLicensing Agent"
   description: "Offline Licensing"
   free: "N"
