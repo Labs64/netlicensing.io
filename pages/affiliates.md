@@ -17,7 +17,7 @@ tags:
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
         <h1>Labs64 NetLicensing Affiliate Program</h1>
-        <span>Join NetLicensing Affiliate Program and earn up to 20% recurring commissions on paying referrals.</span>
+        <span>Join NetLicensing Affiliate Program and earn up to <strong>20% lifetime recurring commissions</strong> on paying referrals.</span>
         <div class="row">
             <div class="col-md-12">
                 <a href="/contact/"
@@ -87,7 +87,7 @@ tags:
     <div class="col-md-12 NL_form_light NL_block">
         <div class="col-md-8 col-md-offset-2 NL_form_light_text">
             <h2>Sign up and start earning today</h2>
-            <span>Earn up to 20% recurring commissions on paying referrals with the NetLicensing Affiliate Program.</span>
+            <span>Get on board now, set yourself up and enjoy the commissions.</span>
 
             <form action="/contact/" method="GET"
                   name="Become an affiliate" id="affiliate-contact"
@@ -157,7 +157,7 @@ tags:
 </div>
 
 <div class="row">
-    <div class="col-md-12 NL_container">
+    <div class="col-md-12 NL_container" style="padding:40px;">
         <div class="col-md-6 col-md-offset-3 NL_container_text">
             <h2>Download our affiliates media kit</h2>
             <span>In this kit, we have NetLicensing visuals and logos to use on your site, social media or even run an ad to get your visitors signing up.</span>
