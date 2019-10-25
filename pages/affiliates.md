@@ -162,7 +162,7 @@ tags:
             <h2>Download our affiliates media kit</h2>
             <span>In this kit, we have NetLicensing visuals and logos to use on your site, social media or even run an ad to get your visitors signing up.</span>
 
-            <form action="https://www.labs64.com/content/uploads/2013/05/Labs64-Company-Profile-EN.pdf" method="GET"
+            <form action="https://drive.google.com/drive/folders/1P1KIc1cuAtB5d3bBzZ8wI8RZQMuO4Wbh?usp=sharing" method="GET"
                   name="Download kit" id="download-affiliate-kit"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
