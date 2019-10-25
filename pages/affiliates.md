@@ -156,8 +156,8 @@ tags:
     </div>
 </div>
 
-<div class="row">
-    <div class="col-md-12 NL_container" style="padding:40px;">
+<div class="row" style="margin-top:40px;">
+    <div class="col-md-12 NL_container">
         <div class="col-md-6 col-md-offset-3 NL_container_text">
             <h2>Download our affiliates media kit</h2>
             <span>In this kit, we have NetLicensing visuals and logos to use on your site, social media or even run an ad to get your visitors signing up.</span>
