@@ -31,7 +31,7 @@ tags:
     <div id="cbp-so-scroller" class="cbp-so-scroller NL_intro">
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-landing-laas.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Affiliates - Join" title="NetLicensing Affiliates - Join">
+                <img src="{{ '/img/affiliates/netlicensing-affiliates-01-join.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Affiliates - Join" title="NetLicensing Affiliates - Join">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Join Program</h2>
@@ -65,13 +65,13 @@ tags:
                 </ul>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-landing-licensing-models.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Affiliates - Share" title="NetLicensing Affiliates - Share">
+                <img src="{{ '/img/affiliates/netlicensing-affiliates-02-share.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Affiliates - Share" title="NetLicensing Affiliates - Share">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-landing-shop.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Affiliates - Earn" title="NetLicensing Affiliates - Earn">
+                <img src="{{ '/img/affiliates/netlicensing-affiliates-03-earn.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Affiliates - Earn" title="NetLicensing Affiliates - Earn">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Get Rewarded</h2>
