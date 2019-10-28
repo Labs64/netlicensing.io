@@ -150,9 +150,9 @@ tags:
         <p>We use Cookies to track your referrals. The cookies last for 90 days after someone clicks on your link. If they click again, the 90 days starts again.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
-        <h3>When and How do I get paid?</h3>
+        <h3>When and how do I get paid?</h3>
 
-        <p>Payments are verified and paid-out via PayPal the month after your commission is earned.</p>
+        <p>We send payment via PayPal each month after verification and your balance exceeds 100 EUR. Before the first transfer, we’ll give you a heads up by email and ask for your PayPal email.</p>
     </div>
 </div>
 
