@@ -28,9 +28,10 @@ blog_recommended_posts:
  - /blog/2017/08/20/labs64-netlicensing-laas/
  - /blog/2015/10/24/infographic-how-to-select-licensing-model/
 
-# Ads
-ads_hiring_text: We Are Hiring!
-ads_hiring_url: "https://www.labs64.com/career/"
+# TopNav sticker
+topnav_sticker_text: We Are Hiring!
+topnav_sticker_url: "https://www.labs64.com/career/"
+topnav_sticker_image: "/img/labs64-hiring.png"
 
 # SEO
 google_author: "https://plus.google.com/+NetlicensingIoLabs64"
