@@ -510,6 +510,7 @@ input.gsc-search-button:hover {
     transition-property: opacity;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
+    height: 45px;
 }
 
 .NL_topnav_sticker a:hover img {
