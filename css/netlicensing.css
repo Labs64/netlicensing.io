@@ -505,7 +505,6 @@ input.gsc-search-button:hover {
 }
 
 .NL_topnav_sticker a img {
-    width: 120px;
     opacity: 0.8;
     -webkit-transition-property: opacity;
     transition-property: opacity;
