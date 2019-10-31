@@ -494,17 +494,17 @@ input.gsc-search-button:hover {
     border: none;
 }
 
-.NL_hiring {
+.NL_topnav_sticker {
     float: right;
     margin-left: 170px;
     margin-top: -45px;
 }
 
-.NL_hiring a {
+.NL_topnav_sticker a {
     border-bottom: none;
 }
 
-.NL_hiring a img {
+.NL_topnav_sticker a img {
     width: 120px;
     opacity: 0.8;
     -webkit-transition-property: opacity;
@@ -513,7 +513,7 @@ input.gsc-search-button:hover {
     transition-duration: 0.5s;
 }
 
-.NL_hiring a:hover img {
+.NL_topnav_sticker a:hover img {
     opacity: 1;
 }
 
@@ -1860,7 +1860,7 @@ a.NL_pricing_tooltip {
         float: left;
     }
 
-    .NL_hiring {
+    .NL_topnav_sticker {
         display: none;
     }
 
