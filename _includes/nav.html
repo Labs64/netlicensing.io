@@ -10,11 +10,10 @@
             </button>
             <div itemscope itemtype="https://schema.org/WebSite">
                 <a itemprop="url" class="navbar-brand NL_logo" href="{{ site.url }}">
-                    <img itemprop="logo" alt="{{ site.title }}"
+                    <img alt="{{ site.title }}"
                          src="{{ '/img/labs64-avatar-30x30.png' | prepend: site.baseurl | prepend: site.url }}"/>
                     <span itemprop="name">{{ site.title }}</span>
                     <meta itemprop="description" content="{{ site.description }}"/>
-                    <meta itemprop="brand" content="{{ site.company }}"/>
                 </a>
                 <a href="{{ site.company_url }}" class="NL_by" target="_blank">by {{ site.company }}</a>
             </div>
