@@ -1980,7 +1980,7 @@ a.NL_pricing_tooltip {
 
 .NL_pricing h3 {
     font-size: larger;
-    padding: 40px 0 0 0 !important;
+    padding: 20px 0 0 0 !important;
 }
 
 .NL_pricing h3 span {
@@ -2001,10 +2001,6 @@ a.NL_pricing_tooltip {
     padding-bottom: 12px;
 }
 
-.NL_plan_description {
-    padding-bottom: 10px;
-}
-
 .NL_price_regular .NL_price {
     background-color: #F9F9F9 !important;
 }
@@ -2022,4 +2018,8 @@ a.NL_pricing_tooltip {
     left: 0;
     height: 25px;
     width: 25px;
+}
+
+.NL_plan_name {
+    min-height: 40px !important;
 }
