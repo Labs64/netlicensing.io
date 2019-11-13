@@ -31,7 +31,7 @@ Release highlights:
   * Get an instant overview of your activities on a vendor dashboard at NetLicensing Management
   * <a title="Labs64 NetLicensing Licensing Models" href="https://www.labs64.de/confluence/x/tgCo" target="_blank">Licensing Models</a> got new friendly and intuitive names: _&#8220;Try & Buy&#8221;, &#8220;Subscription&#8221;, &#8220;Rental&#8221;_
   * Service reliability taken to the next level with NetLicensing Agent
-  * New Java <a title="Java wrapper for NetLicensing RESTful API" href="https://www.labs64.de/confluence/x/xgCo" target="_blank">client library</a> introduced
+  * New Java <a title="Java wrapper for NetLicensing RESTful API" href="https://netlicensing.io/wiki/client-libraries" target="_blank">client library</a> introduced
   * Java, C# and PHP client libraries adapted to employ the new API features
   * Service documentation revisited for better clarity and readability
   * &#8230; and many other useful improvements

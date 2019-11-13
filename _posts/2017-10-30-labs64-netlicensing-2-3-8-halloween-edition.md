@@ -32,7 +32,7 @@ Major changes in this release:
 * **NetLicensing Agent** is delivered now with extended security, which makes offline licensing resistant against data manipulation by using a digital signature.
 *NetLicensing Agent 2.3.8-ALPHA2* can be shared with our beta testers on request.
 
-* We revisited all NetLicensing **Client Libraries** to be inline with the latest available [RESTful API](https://www.labs64.de/confluence/x/pwCo).
+* We revisited all NetLicensing **Client Libraries** to be inline with the latest available [RESTful API](https://netlicensing.io/wiki/restful-api).
 
 * **[Pay-per-Use](https://www.labs64.de/confluence/x/uQCo)** Licensing Model got small improvements for better support of post-account scenario.
 

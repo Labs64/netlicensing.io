@@ -30,11 +30,11 @@ Release highlights:
 
   * LmBox renamed to Labs64 NetLicensing
   * Introduced authentication via APIKey (token) for validation and shop access
-  * <a title="NetLicensing API" href="https://www.labs64.de/confluence/x/pwCo" target="_blank">API</a> extended with new functionality and attributes for better security and flexibility
+  * <a title="NetLicensing API" href="https://netlicensing.io/wiki/restful-api" target="_blank">API</a> extended with new functionality and attributes for better security and flexibility
   * Improved shop checkout process stability
-  * Introduced new licensing model &#8220;<a title="Licensing Model - Subscription" href="https://www.labs64.de/confluence/x/ugCo" target="_blank">Subscription</a>&#8221; (&#8220;Time Volume&#8221;)
+  * Introduced new licensing model &#8220;<a title="Licensing Model - Subscription" href="https://netlicensing.io/wiki/subscription" target="_blank">Subscription</a>&#8221; (&#8220;Time Volume&#8221;)
   * NetLicensing Management console redesigned for better usability
-  * C# and PHP <a title="Client Libraries and Sample Code" href="https://www.labs64.de/confluence/x/xgCo" target="_blank">client libraries</a> adapted to employ the new API features
+  * C# and PHP <a title="Client Libraries and Sample Code" href="https://netlicensing.io/wiki/client-libraries" target="_blank">client libraries</a> adapted to employ the new API features
   * Service documentation revisited
   * &#8230; and many other useful improvements
 

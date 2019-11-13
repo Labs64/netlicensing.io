@@ -59,11 +59,11 @@
   icon: "/img/features/security_encryption.png"
 
 - name: "Predefined Client Libraries"
-  description: "NetLicensing <a href='https://www.labs64.de/confluence/x/xgCo'>client libraries and examples</a> can be used as a foundation for integrating NetLicensing into your code."
+  description: "NetLicensing <a href='https://netlicensing.io/wiki/client-libraries'>client libraries and examples</a> can be used as a foundation for integrating NetLicensing into your code."
   icon: "/img/features/predefined_client_libraries.png"
 
 - name: "RESTful API and Integration"
-  description: "Integrate NetLicensing into your product or process! With the <a href='https://www.labs64.de/confluence/x/pwCo'>NetLicensing API</a>, you can manage your licensing entities and easily integrate them into your business processes, ERP, CRM or Web shop."
+  description: "Integrate NetLicensing into your product or process! With the <a href='https://netlicensing.io/wiki/restful-api'>NetLicensing API</a>, you can manage your licensing entities and easily integrate them into your business processes, ERP, CRM or Web shop."
   icon: "/img/features/restful_api_and_integration.png"
 
 - name: "Licensing eCommerce Platform"

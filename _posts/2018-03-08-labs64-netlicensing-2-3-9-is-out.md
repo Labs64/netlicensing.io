@@ -80,7 +80,7 @@ As well as a set of useful improvements and defect fixes such as:
 * Allow vendor login by email address and vendor number
 * Make default TTL for NetLicensing validation response configurable by the vendor
 * NetLicensing Management Console: improved Dashboard performance
-* Updated NetLicensing [client libraries](https://www.labs64.de/confluence/x/xgCo) to be compatible with the latest NetLicensing API
+* Updated NetLicensing [client libraries](https://netlicensing.io/wiki/client-libraries) to be compatible with the latest NetLicensing API
 
 For a detailed list of changes in this release, see [NetLicensing 2.3.9 Release Notes](https://www.labs64.de/confluence/x/cQAKAQ).
 As always, your feedback is important to us - please visit [NetLicensing Website](https://netlicensing.io) - [Leave Feedback](/contact/).

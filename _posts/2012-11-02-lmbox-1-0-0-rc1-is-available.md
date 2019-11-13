@@ -20,7 +20,7 @@ tags:
   - shop
 ---
 
-We pleased to announce the availability of the first <a title="Release Notes - LmBox 1.0.0-RC1" href="https://www.labs64.de/confluence/x/wQCo" target="_blank">release candidate</a> of our Innovative License Management Solution LmBox.
+We pleased to announce the availability of the first <a title="Release Notes - LmBox 1.0.0-RC1" href="https://netlicensing.io/wiki/netlicensing-1-0-0-final" target="_blank">release candidate</a> of our Innovative License Management Solution LmBox.
 
 In a nutshell, LmBox is a fully customizable license management framework designed for use by vendors with enterprise needs.
 

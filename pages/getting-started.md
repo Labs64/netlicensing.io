@@ -215,7 +215,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
                 <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
                         <li>NetLicensing API allows you automate managing of all licensing entities (from <i>product</i> to <i>transaction</i>)</li>
-                        <li>Please refer to the <i><a href="https://www.labs64.de/confluence/x/sQCo">NetLicensing Object Model</a></i> in order to better understand licensing entities relationship</li>
+                        <li>Please refer to the <i><a href="https://netlicensing.io/wiki/object-model">NetLicensing Object Model</a></i> in order to better understand licensing entities relationship</li>
                         <li>Page <i><a href="/documentation/">For Integrators</a></i> will give you overview over all existing NetLicensing resources (Test App, RESTful API, JavaDoc, Client Libraries etc.)</li>
                     </ul>
                 </div>
@@ -283,7 +283,7 @@ $ curl --header "Accept: application/xml" --header "Content-Type: application/x-
 </netlicensing>
                         {% endhighlight %}
                         </li>
-                        <li><i><a href="https://www.labs64.de/confluence/x/rwCo">Create token</a></i> service returns also the complete <i>shopURL</i> for convenience</li>
+                        <li><i><a href="https://netlicensing.io/wiki/token-services">Create token</a></i> service returns also the complete <i>shopURL</i> for convenience</li>
                         <li>Provide a link to NetLicensing Shop (<i>shopURL</i>) in the UI of your product or forward the user to NetLicensing Shop URL by other means</li>
                         <li>The URL of NetLicensing Shop has the following format:
                         {% highlight ruby %}

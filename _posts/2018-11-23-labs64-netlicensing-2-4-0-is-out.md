@@ -44,7 +44,7 @@ Labs64 NetLicensing is an official Stripe Verified Partner and offers you a seam
 
 ## GDPR: Collect customer consent in NetLicensing Shop
 
-In order to provide vendors with better support for [GDPR](https://www.labs64.de/confluence/x/vQEKAQ) regulations, customer consent can be collected in NetLicensing Shop and easily accessed by the Vendor (Controller) via NetLicensing Management Console.
+In order to provide vendors with better support for [GDPR](https://netlicensing.io/wiki/privacy-center) regulations, customer consent can be collected in NetLicensing Shop and easily accessed by the Vendor (Controller) via NetLicensing Management Console.
 
 ---
 

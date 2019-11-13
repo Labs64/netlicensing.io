@@ -37,7 +37,7 @@ It is designed to be as flexible as possible for both vendor and customer; enabl
 
 If you can think of a licensing model – NetLicensing can help you deliver it. With integrated payment and tailoring for the specific [licensing models](/licensing-models/ "NetLicensing Licensing Models"), the NetLicensing Shop makes ordering process intuitive and seamless for your customers.
 
-Based on Open Standards and with Cross-Platform support the NetLicensing [API](https://www.labs64.de/confluence/x/pwCo) gives vendors full control and unlimited integration possibilities.
+Based on Open Standards and with Cross-Platform support the NetLicensing [API](https://netlicensing.io/wiki/restful-api) gives vendors full control and unlimited integration possibilities.
 
 > NetLicensing is the only licensing solution you will ever need!
 
