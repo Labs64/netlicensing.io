@@ -24,7 +24,7 @@ tags:
   - 'Try &amp; Buy'
 ---
 
-The <a title="LmBox - Innovative License Management Solution" href="https://netlicensing.io">LmBox</a> team is pleased to announce the release of LmBox version <a title="Release Notes - LmBox 1.0.0-RC4" href="https://www.labs64.de/confluence/x/xACo" target="_blank">1.0.0-RC4</a>.
+The <a title="LmBox - Innovative License Management Solution" href="https://netlicensing.io">LmBox</a> team is pleased to announce the release of LmBox version <a title="Release Notes - LmBox 1.0.0-RC4" href="https://netlicensing.io/wiki/netlicensing-1-0-0-final" target="_blank">1.0.0-RC4</a>.
 
 The highlights of this release:
 
@@ -38,6 +38,6 @@ The highlights of this release:
   * License templates edit dialogues are now licensing model specific
   * Licensing Model TimeEvaluation renamed to <a title="Licensing Models: Time Limited Evaluation" href="https://www.labs64.de/confluence/x/twCo" target="_blank">Time Limited Evaluation</a>
 
-Please see the <a title="Release Notes - LmBox 1.0.0-RC4" href="https://www.labs64.de/confluence/x/xACo" target="_blank">Release Notes</a> for the complete list of changes and improvements.
+Please see the <a title="Release Notes - LmBox 1.0.0-RC4" href="https://netlicensing.io/wiki/netlicensing-1-0-0-final" target="_blank">Release Notes</a> for the complete list of changes and improvements.
 
 We hope you will enjoy this new release!
