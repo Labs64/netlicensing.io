@@ -12,7 +12,8 @@ url: "https://netlicensing.io"
 baseurl: ""
 
 dns_prefetch:
- - https://go.netlicensing.io
+ - //go.netlicensing.io
+ - //ui.netlicensing.io
  - //www.labs64.de
  - //www.labs64.com
  - //io.labs64.com
@@ -34,7 +35,6 @@ topnav_sticker_url: "https://netlicensing.io/github-students/"
 topnav_sticker_image: "/img/github-students-backpack-logo-small.png"
 
 # SEO
-google_author: "https://plus.google.com/+NetlicensingIoLabs64"
 google_analytics_tracking_id: "UA-32654174-2"
 google_optimize_code: "GTM-NRQBTGQ"
 quantcast_code: "p-RQ36fR9PJnAcZ"
