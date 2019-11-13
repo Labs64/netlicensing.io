@@ -26,7 +26,7 @@ tags:
                 <p>As a vendor, you need just few steps to integrate NetLicensing into your product.</p>
             </div>
             <div class="action col-md-12">
-                <a href="https://www.labs64.de/confluence/x/vQCo">Read More</a>
+                <a href="https://netlicensing.io/wiki/overview">Read More</a>
                 <a href="#usage-scenarios">Usage Scenarios</a>
             </div>
         </div>
@@ -40,7 +40,7 @@ tags:
                     NetLicensing service.</p>
             </div>
             <div class="action col-md-12">
-                <a href="https://www.labs64.de/confluence/x/sgCo">Read More</a>
+                <a href="https://netlicensing.io/wiki/getting-started">Read More</a>
             </div>
         </div>
     </div>
@@ -57,7 +57,7 @@ tags:
             </div>
             <div class="action col-md-12">
                 <a href="https://netlicensing.io/NetLicensing-API/">API Test Center</a>
-                <a href="https://www.labs64.de/confluence/x/pwCo">RESTful</a>
+                <a href="https://netlicensing.io/wiki/restful-api">RESTful</a>
                 <a href="https://go.netlicensing.io/javadoc/v2/index.html">JavaDoc</a>
             </div>
         </div>
@@ -75,7 +75,7 @@ tags:
                     API.</p>
             </div>
             <div class="action col-md-12">
-                <a href="https://www.labs64.de/confluence/x/xgCo">Read More</a>
+                <a href="https://netlicensing.io/wiki/client-libraries">Read More</a>
             </div>
         </div>
     </div>
@@ -114,7 +114,7 @@ tags:
 
 <div class="row NL_block" style="text-align:center;">
     <h3 class="col-md-12">Online validation using NetLicensing Agent on vendors’ premises</h3>
-    <p class="col-md-8 col-md-offset-2">NetLicensing core services are hosted on very reliable and scalable architecture with the high availability. Nevertheless, based on the vendors demand, fault-tolerant infrastructure can be established by deploying <a href="https://www.labs64.de/confluence/x/AwAKAQ">NetLicensing Agent</a> on vendor’s premises, so this additional installation will allow the vendor to ensure availability using his own infrastructure.</p>
+    <p class="col-md-8 col-md-offset-2">NetLicensing core services are hosted on very reliable and scalable architecture with the high availability. Nevertheless, based on the vendors demand, fault-tolerant infrastructure can be established by deploying <a href="https://netlicensing.io/wiki/netlicensing-agent">NetLicensing Agent</a> on vendor’s premises, so this additional installation will allow the vendor to ensure availability using his own infrastructure.</p>
     <figure>
         <div class="image">
             <img src="{{ '/img/usage-scenarios/netlicensing-agent-vendor.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Use Case: Online validation using NetLicensing Agent on vendors’ premises" width="70%">
@@ -124,7 +124,7 @@ tags:
 
 <div class="row NL_block" style="text-align:center;">
     <h3 class="col-md-12">Offline validation using NetLicensing Agent on customers’ premises</h3>
-    <p class="col-md-8 col-md-offset-2">In some environments access to the NetLicensing cloud services is not possible for technical or organizational reasons, such as no internet connectivity or security restrictions. To enable NetLicensing functionality even in such restricted environments, we offer <a href="https://www.labs64.de/confluence/x/AwAKAQ">NetLicensing Agent</a> - a standalone module, which is able to operate without connectivity to the NetLicensing cloud services and responding in a local network or on a local host to the validation requests same as the NetLicensing cloud service does.</p>
+    <p class="col-md-8 col-md-offset-2">In some environments access to the NetLicensing cloud services is not possible for technical or organizational reasons, such as no internet connectivity or security restrictions. To enable NetLicensing functionality even in such restricted environments, we offer <a href="https://netlicensing.io/wiki/netlicensing-agent">NetLicensing Agent</a> - a standalone module, which is able to operate without connectivity to the NetLicensing cloud services and responding in a local network or on a local host to the validation requests same as the NetLicensing cloud service does.</p>
     <figure>
         <div class="image">
             <img src="{{ '/img/usage-scenarios/netlicensing-agent-customer.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Use Case: Offline validation using NetLicensing Agent on customers’ premises" width="70%">
