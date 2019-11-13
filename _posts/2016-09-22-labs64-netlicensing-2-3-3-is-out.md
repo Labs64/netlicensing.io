@@ -31,7 +31,7 @@ Notable changes in this release:
 
 * Java Client was updated according to the latest NetLicensing API; **NetLicensing Java Client** is available immediately from its [GitHub repository](https://github.com/Labs64/NetLicensingClient-java){:target="_blank"} and [Maven Central](https://search.maven.org/search?q=g:com.labs64.netlicensing){:target="_blank"} repository
 
-For a detailed list of changes in this release, see [NetLicensing 2.3.3 Release Notes](https://www.labs64.de/confluence/x/IQDx).
+For a detailed list of changes in this release, see [NetLicensing 2.3.3 Release Notes](https://netlicensing.io/wiki/netlicensing-2-3-3-final).
 
 As always, your feedback is important to us - please visit [NetLicensing Website](https://netlicensing.io) - [Leave Feedback](https://netlicensing.uservoice.com/){:target="_blank"}.
 

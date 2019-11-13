@@ -19,9 +19,9 @@ tags:
 
 On this *Cyber Monday*, we are happy to announce NetLicensing 2.3.4 availability!
 
-With this release we are introducing very notable security feature - **Licensee Secret**, which significantly improves your protection as a vendor against licenses abuse. It adds the **node-locking** capability and may be used in combination with any supported licensing model. Read more [here](https://www.labs64.de/confluence/x/bADx).
+With this release we are introducing very notable security feature - **Licensee Secret**, which significantly improves your protection as a vendor against licenses abuse. It adds the **node-locking** capability and may be used in combination with any supported licensing model. Read more [here](https://netlicensing.io/wiki/node-locked).
 
-For a detailed list of changes in this release, see [NetLicensing 2.3.4 Release Notes](https://www.labs64.de/confluence/x/XQDx).
+For a detailed list of changes in this release, see [NetLicensing 2.3.4 Release Notes](https://netlicensing.io/wiki/netlicensing-2-3-4-final).
 
 Cyber Monday has arrived, and you don’t want to miss the biggest offer of the year! All accounts created until the end of this year (2016) will receive a complimentary **1-year access** to all new premium NetLicensing features that will be enabled throughout the coming year 2017.
 

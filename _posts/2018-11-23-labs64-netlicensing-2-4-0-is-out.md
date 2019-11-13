@@ -51,7 +51,7 @@ In order to provide vendors with better support for [GDPR](https://netlicensing.
 Also, we’ve implemented many improvements and bug fixes across all NetLicensing components: Core, Management Console, Shop, Gateway, Client Libraries, and Documentation.
 
 
-For a detailed list of changes in this release, see [NetLicensing 2.4.0 Release Notes](https://www.labs64.de/confluence/x/hgAWAQ).
+For a detailed list of changes in this release, see [NetLicensing 2.4.0 Release Notes](https://netlicensing.io/wiki/netlicensing-2-4-0-final).
 As always, your feedback is important to us - please visit [NetLicensing Website](https://netlicensing.io) - [Leave Feedback](/contact/).
 
 Thank you for your contributions & *Happy Licensing*!

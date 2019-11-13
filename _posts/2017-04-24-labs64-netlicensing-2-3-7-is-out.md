@@ -35,7 +35,7 @@ Major changes in this release:
 * **Licenses transfer** between licensees allows flexible assets reassignment and is a perfect instrument for delivering new licenses to existing customers when stateless integration of external e-Commerce systems via [NetLicensing Gateway](https://github.com/Labs64/NetLicensing-Gateway){:target="_blank"} is used.
 * As usual, we've implemented many improvements and bug fixes across all NetLicensing components: *Core*, *Management Console*, *Shop*, *Gateway*, *Client Libraries*, and *Documentation*.
 
-For a detailed list of changes in this release, see [NetLicensing 2.3.7 Release Notes](https://www.labs64.de/confluence/x/jgHx).
+For a detailed list of changes in this release, see [NetLicensing 2.3.7 Release Notes](https://netlicensing.io/wiki/netlicensing-2-3-7-final).
 
 As always, your feedback is important to us - please visit [NetLicensing Website](https://netlicensing.io) - [Leave Feedback](https://netlicensing.uservoice.com/){:target="_blank"}.
 
