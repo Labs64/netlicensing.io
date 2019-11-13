@@ -45,7 +45,7 @@ Another area is especially of concern to software vendors. Being a virtualized e
 
 However, the concerns are slowly fading away as technology is evolving and we are getting innovative solutions to soothe the lacking of VDI. For example, the problem faced by the software vendors in control and monetizing can be solved by adopting [NetLicensing](https://netlicensing.io/?utm_source=blog&utm_medium=website&utm_campaign=article&utm_content=article) which offers *Licensing-as-a-Service (LaaS)*.
 
-The online platform enables software providers to securely license their product using flexible license models while prioritizing security. It comes with a unique security feature called [Licensee Secret](https://www.labs64.de/confluence/display/NLICPUB/Licensee+Secret) which provides globally a node-locking function. You can use it with any license model and secure your product or service.
+The online platform enables software providers to securely license their product using flexible license models while prioritizing security. It comes with a unique security feature called [Licensee Secret](https://netlicensing.io/wiki/licensee-secret) which provides globally a node-locking function. You can use it with any license model and secure your product or service.
 
 ## What can we Expect of VDI in the Future
 

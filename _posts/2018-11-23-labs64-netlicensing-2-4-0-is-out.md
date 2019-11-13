@@ -28,17 +28,17 @@ Notable changes in this release:
 
 ## Support multiple API Keys with different roles
 
-NetLicensing [API keys](https://www.labs64.de/confluence/x/-gHk) have been reworked in order to allow vendors easy management of the multiple API keys as well as to associate key role, that grants access to a specific NetLicensing API subset.
+NetLicensing [API keys](https://netlicensing.io/wiki/security) have been reworked in order to allow vendors easy management of the multiple API keys as well as to associate key role, that grants access to a specific NetLicensing API subset.
 
 ## Hardware dongle protection for NetLicensing Agent
 
-[NetLicensing Agent](https://www.labs64.de/confluence/x/AwAKAQ) enables a secure, traceable, and flexible way of enabling offline licensing in the environments without access to the NetLicensing services. Protection NetLicensing Agent instance by hardware dongle introduced an additional level of security and prevents cloning of the agent components in the virtual environments, as well as from attempts to revert the use counters/time accounting by restoring the environment from an older snapshot.
+[NetLicensing Agent](https://netlicensing.io/wiki/netlicensing-agent) enables a secure, traceable, and flexible way of enabling offline licensing in the environments without access to the NetLicensing services. Protection NetLicensing Agent instance by hardware dongle introduced an additional level of security and prevents cloning of the agent components in the virtual environments, as well as from attempts to revert the use counters/time accounting by restoring the environment from an older snapshot.
 
 ![NetLicensing Agent](/img/blog/netlicensing-239-offline-agent.png "NetLicensing Agent"){:class="blog-center"}
 
 ## NetLicensing Shop: Update Stripe integration API
 
-Labs64 NetLicensing is an official Stripe Verified Partner and offers you a seamless integration of [Stripe payments](https://www.labs64.de/confluence/x/EIDt) in the NetLicensing Shop.
+Labs64 NetLicensing is an official Stripe Verified Partner and offers you a seamless integration of [Stripe payments](https://netlicensing.io/wiki/stripe) in the NetLicensing Shop.
 
 ![Stripe](/img/blog/stripe-L_White_Outline@2x.png "Stripe Verified Partner"){:class="blog-center"}
 
