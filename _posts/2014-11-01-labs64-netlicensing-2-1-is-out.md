@@ -22,7 +22,7 @@ tags:
   - Subscription
 ---
 
-Today we’re excited to finally announce the availability of the Labs64 NetLicensing <a title="Release Notes - NetLicensing 2.1.0-FINAL" href="https://www.labs64.de/confluence/x/24DW" target="_blank">version 2.1</a>.
+Today we’re excited to finally announce the availability of the Labs64 NetLicensing <a title="Release Notes - NetLicensing 2.1.0-FINAL" href="https://netlicensing.io/wiki/netlicensing-2-1-0-final" target="_blank">version 2.1</a>.
 
 You’re very welcome to give it a try, and share your feedback with us.
 
@@ -36,10 +36,10 @@ Release highlights:
   * Service documentation revisited for better clarity and readability
   * &#8230; and many other useful improvements
 
-Please see the <a title="Release Notes - NetLicensing 2.1.0-FINAL" href="https://www.labs64.de/confluence/x/24DW" target="_blank">Release Notes</a> for the complete list of changes and new features.
+Please see the <a title="Release Notes - NetLicensing 2.1.0-FINAL" href="https://netlicensing.io/wiki/netlicensing-2-1-0-final" target="_blank">Release Notes</a> for the complete list of changes and new features.
 What’s Next:
 
-  * Discover [NetLicensing Website](https://netlicensing.io "NetLicensing - Innovative License Management Solution") and <a title="NetLicensing Wiki" href="https://www.labs64.de/confluence/x/pgCo" target="_blank">documentation</a>
+  * Discover [NetLicensing Website](https://netlicensing.io "NetLicensing - Innovative License Management Solution") and <a title="NetLicensing Wiki" href="https://netlicensing.io/wiki/" target="_blank">documentation</a>
   * <a title="Try Labs64 NetLicensing Now!" href="https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001" target="_blank">Try NetLicensing right away</a> using free demo account
   * Get Involved – your opinion and ideas are highly welcome!
 

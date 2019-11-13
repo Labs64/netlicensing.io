@@ -22,7 +22,7 @@ tags:
   - vendor
 ---
 
-The <a title="LmBox - Innovative License Management Solution" href="https://netlicensing.io">LmBox</a> team is pleased to announce the release of LmBox version <a title="Release Notes - LmBox 1.0.0-RC2" href="https://www.labs64.de/confluence/x/wgCo" target="_blank">1.0.0-RC2</a>.
+The <a title="LmBox - Innovative License Management Solution" href="https://netlicensing.io">LmBox</a> team is pleased to announce the release of LmBox version <a title="Release Notes - LmBox 1.0.0-RC2" href="https://netlicensing.io/wiki/netlicensing-1-0-0-final" target="_blank">1.0.0-RC2</a>.
 
 The highlights of this release:
 
@@ -36,6 +36,6 @@ The highlights of this release:
   * Better user guidance
   * Feature expiration warning level in &#8220;Feature with TimeVolume&#8221; licensing model
 
-Please see the <a title="Release Notes - LmBox 1.0.0-RC2" href="https://www.labs64.de/confluence/x/wgCo" target="_blank">Release Notes</a> for the complete list of changes and improvements.
+Please see the <a title="Release Notes - LmBox 1.0.0-RC2" href="https://netlicensing.io/wiki/netlicensing-1-0-0-final" target="_blank">Release Notes</a> for the complete list of changes and improvements.
 
 We hope you will enjoy this new release!

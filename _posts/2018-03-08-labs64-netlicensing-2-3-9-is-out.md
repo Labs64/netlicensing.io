@@ -50,7 +50,7 @@ This new [licensing model](https://www.labs64.de/confluence/x/5wAKAQ) defines th
 
 ## Enabled pre-accounting for the “Pay-per-Use” Licensing Model
 
-Existing licensing model [“Pay-per-Use”](https://www.labs64.de/confluence/x/uQCo) was extended by pre-accounting capabilities and now allows reservation of the usage limits by customer.
+Existing licensing model [“Pay-per-Use”](https://netlicensing.io/wiki/pay-per-use) was extended by pre-accounting capabilities and now allows reservation of the usage limits by customer.
 
 ## PayPal Recurring Payments
 

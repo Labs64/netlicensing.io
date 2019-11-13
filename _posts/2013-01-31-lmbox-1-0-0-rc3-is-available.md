@@ -22,7 +22,7 @@ tags:
   - XSD
 ---
 
-The <a title="LmBox - Innovative License Management Solution" href="https://netlicensing.io">LmBox</a> team is pleased to announce the release of LmBox version <a title="Release Notes - LmBox 1.0.0-RC3" href="https://www.labs64.de/confluence/x/wwCo" target="_blank">1.0.0-RC3</a>.
+The <a title="LmBox - Innovative License Management Solution" href="https://netlicensing.io">LmBox</a> team is pleased to announce the release of LmBox version <a title="Release Notes - LmBox 1.0.0-RC3" href="https://netlicensing.io/wiki/netlicensing-1-0-0-final" target="_blank">1.0.0-RC3</a>.
 
 The highlights of this release:
 
@@ -32,6 +32,6 @@ The highlights of this release:
   * List and view modes for transactions extended
   * LmBox XML Schema Definition (version 1.0) is now available at <a title="LmBox XML Schema" href="https://go.netlicensing.io/schema/context/netlicensing-context-2.0.xsd" target="_blank">https://go.netlicensing.io/schema/context/netlicensing-context-2.0.xsd</a>
 
-Please see the <a title="Release Notes - LmBox 1.0.0-RC3" href="https://www.labs64.de/confluence/x/wwCo" target="_blank">Release Notes</a> for the complete list of changes and improvements.
+Please see the <a title="Release Notes - LmBox 1.0.0-RC3" href="https://netlicensing.io/wiki/netlicensing-1-0-0-final" target="_blank">Release Notes</a> for the complete list of changes and improvements.
 
 We hope you will enjoy this new release!

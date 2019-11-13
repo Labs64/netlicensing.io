@@ -18,7 +18,7 @@ tags:
   - Reseller
 ---
 
-Today we’re excited to finally announce the availability of the Labs64 NetLicensing <a title="Release Notes - NetLicensing 2.2.0-FINAL" href="https://www.labs64.de/confluence/x/F4LW" target="_blank">version 2.2</a>.
+Today we’re excited to finally announce the availability of the Labs64 NetLicensing <a title="Release Notes - NetLicensing 2.2.0-FINAL" href="https://netlicensing.io/wiki/netlicensing-2-2-0-final" target="_blank">version 2.2</a>.
 
 You’re very welcome to give it a try, and share your feedback with us!
 
@@ -30,10 +30,10 @@ Release highlights:
   * <a title="NetLicensing Management Console Demo" href="https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001" target="_blank">NetLicensing Manage</a> UI improved for even better usability and user experience (UX)
   * &#8230; and many other useful improvements!
 
-Please see the <a title="Release Notes - NetLicensing 2.2.0-FINAL" href="https://www.labs64.de/confluence/x/F4LW" target="_blank">Release Notes</a> for complete list of changes and new features.
+Please see the <a title="Release Notes - NetLicensing 2.2.0-FINAL" href="https://netlicensing.io/wiki/netlicensing-2-2-0-final" target="_blank">Release Notes</a> for complete list of changes and new features.
 What’s Next:
 
-  * Discover <a title="NetLicensing - Innovative License Management Solution" href="https://netlicensing.io">NetLicensing Website</a> and explore our <a title="NetLicensing Wiki" href="https://www.labs64.de/confluence/x/pgCo" target="_blank">documentation</a>
+  * Discover <a title="NetLicensing - Innovative License Management Solution" href="https://netlicensing.io">NetLicensing Website</a> and explore our <a title="NetLicensing Wiki" href="https://netlicensing.io/wiki/" target="_blank">documentation</a>
   * <a title="Try Labs64 NetLicensing Now!" href="https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001" target="_blank">Try NetLicensing right away</a> using public demo account &#8211; no registration required!
   * Get Involved – your opinion and ideas are highly welcome!
 

@@ -25,7 +25,7 @@ Finally, as we look back upon the past year, we would like to acknowledge those 
 
 More importantly, a new version of [NetLicensing 2.3.5](https://www.labs64.de/confluence/x/vwDx) is here.
 
-In the spotlight of this release is highly wanted licensing model [Pay-per-Use](https://www.labs64.de/confluence/x/uQCo), which brings your software licensing to the next level. It fosters to build better relationships with your customers by always helping them to get the best value for their money.
+In the spotlight of this release is highly wanted licensing model [Pay-per-Use](https://netlicensing.io/wiki/pay-per-use), which brings your software licensing to the next level. It fosters to build better relationships with your customers by always helping them to get the best value for their money.
 
 As always, keep your [comments and questions](https://netlicensing.uservoice.com/){:target="_blank"} coming.
 

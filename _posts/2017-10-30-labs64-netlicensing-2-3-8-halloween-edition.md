@@ -34,13 +34,13 @@ Major changes in this release:
 
 * We revisited all NetLicensing **Client Libraries** to be inline with the latest available [RESTful API](https://netlicensing.io/wiki/restful-api).
 
-* **[Pay-per-Use](https://www.labs64.de/confluence/x/uQCo)** Licensing Model got small improvements for better support of post-account scenario.
+* **[Pay-per-Use](https://netlicensing.io/wiki/pay-per-use)** Licensing Model got small improvements for better support of post-account scenario.
 
 * MyCommerce **automatic renewal** feature is fully supported by NetLicensing now.
 
 * Also, we've implemented many improvements and bug fixes across all NetLicensing components: *Core*, *Management Console*, *Shop*, *Gateway*, *Client Libraries*, and *Documentation*.
 
-For a detailed list of changes in this release, see [NetLicensing 2.3.8 Release Notes](https://www.labs64.de/confluence/x/HYAFAQ).
+For a detailed list of changes in this release, see [NetLicensing 2.3.8 Release Notes](https://netlicensing.io/wiki/netlicensing-2-3-8-final).
 
 As always, your feedback is important to us - please visit [NetLicensing Website](https://netlicensing.io) - [Leave Feedback](https://netlicensing.uservoice.com/){:target="_blank"}.
 
