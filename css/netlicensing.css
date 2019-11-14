@@ -956,14 +956,6 @@ footer {
     padding-right: 40px;
 }
 
-.NL_feature {
-    min-height: 320px;
-}
-
-.NL_feature p {
-    color: #777;
-}
-
 .NL_icon {
     float: left;
     padding: 5px;
@@ -1515,6 +1507,10 @@ ul#filterOptions>li.active>a {
     color: #E14817;
 }
 
+.orange {
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
 /* Main button action */
 .button_main {
     -webkit-transition: border-color 0.7s, color 0.2s;
@@ -1669,19 +1665,6 @@ ul#filterOptions>li.active>a {
         margin-right: 4%;
     }
 
-    .NL_price_captions {
-        display: none;
-    }
-
-    .NL_price_feature {
-        display: inline;
-    }
-
-    .NL_price_feature {
-        float: left;
-        padding-left: 30px;
-    }
-
     .NL_pricing ul li,
     .NL_pricing ul li:nth-child(16) {
         text-align: right;
@@ -1793,14 +1776,8 @@ ul#filterOptions>li.active>a {
         margin-top: 50px;
     }
 
-    .NL_price_regular {
+    .NL_plan_column {
         margin-top: 50px;
-    }
-
-    .NL_price_feature {
-        padding-left: 20px;
-        max-width: 280px;
-        text-align: left;
     }
 }
 
@@ -1833,193 +1810,4 @@ ul#filterOptions>li.active>a {
     .cbp-so-side img {
         max-width: 100%;
     }
-}
-
-/* Pricing table styles*/
-.NL_price_feature {
-    display: none;
-}
-
-.NL_pricing ul {
-    margin: 0 0;
-    padding: 0 0;
-}
-
-.NL_pricing ul li {
-    display: block;
-    padding: 15px 0;
-    max-height: 60px;
-    list-style-type: none;
-    text-align: center;
-    transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-}
-
-.NL_pricing ul li:nth-child(2n+1) {
-    background: rgba(0, 0, 0, 0.02);
-}
-
-.NL_pricing ul li:nth-child(2n) {
-    background: rgba(0, 0, 0, 0.05);
-}
-
-.NL_pricing ul li:nth-child(16) {
-    padding: 10px 0 0 0;
-    height: 60px;
-}
-
-.NL_pricing h3 {
-    text-align: center;
-    display: block;
-    padding: 20px 0;
-    margin: 0 0;
-}
-
-.NL_price_captions {
-    white-space: nowrap;
-}
-
-.NL_price_captions h3 {
-    padding: 40px 0 0 0;
-}
-
-.NL_price_captions ul li,
-.NL_price_captions ul li:nth-child(16) {
-    text-align: left;
-    padding-left: 20px;
-}
-
-.NL_price_regular ul li:nth-child(16),
-.NL_price_captions ul li:nth-child(16) {
-    padding-top: 20px;
-}
-
-.NL_price_regular a {
-    color: #E14817;
-}
-
-.NL_price_regular ul li {
-    color: #E14817;
-}
-
-.NL_price_regular h3 {
-    color: #FFFFFF;
-    background-color: #E14817;
-}
-
-.NL_price_regular {
-    border: 1px solid #E14817;
-}
-
-.NL_price_regular a {
-    border-bottom-color: #E14817;
-}
-
-.NL_price_promo a {
-    color: #853E29;
-}
-
-.NL_price_promo ul li {
-    color: #853E29;
-}
-
-.NL_price_promo {
-    border: 1px solid #853E29;
-}
-
-.NL_price_promo h3 {
-    color: #FFFFFF;
-    background-color: #853E29;
-}
-
-.orange {
-    background: rgba(0, 0, 0, 0.1) !important;
-}
-
-.NL_price_features .fa {
-    font-size: larger;
-}
-
-a.NL_pricing_tooltip {
-    font-size: 16px;
-    color: #999999;
-    border: none;
-    padding-left: 5px;
-}
-
-.NL_price_tag {
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-    color: #853E29;
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
-
-.NL_price_features {
-    border: none !important;
-}
-
-.NL_price_regular {
-    border: 1px solid #E14817 !important;
-}
-
-.NL_pricing {
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.NL_column {
-    position: relative;
-    min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-.NL_pricing h3 {
-    font-size: larger;
-    padding: 20px 0 0 0 !important;
-}
-
-.NL_pricing h3 span {
-    color: #FFFFFF;
-}
-
-.NL_plan_name {
-    font-size:larger;
-    font-weight: 700;
-}
-
-.NL_price {
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-    color: #853E29 !important;
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
-
-.NL_price_regular .NL_price {
-    background-color: #F9F9F9 !important;
-}
-
-.nl_plan_checkbox {
-    display: none;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #E14817;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-}
-
-.NL_plan_name {
-    min-height: 40px !important;
 }

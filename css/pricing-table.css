@@ -1,0 +1,119 @@
+/* Pricing table styles*/
+.netlicensing_plan_column ul li:nth-child(16) {
+    padding-top: 20px;
+}
+
+.netlicensing_plan_column ul li {
+    color: #E14817;
+}
+
+.netlicensing_plan_column {
+    border: 1px solid #E14817;
+}
+
+.netlicensing_column {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: left;
+}
+
+.netlicensing_plan_name {
+    font-size: larger;
+    min-height: 40px;
+    display: block;
+    font-weight: 700;
+}
+
+.netlicensing_pricing {
+    margin-left: 0;
+    margin-right: 0;
+}
+.netlicensing_pricing ul {
+    margin: 0 0;
+    padding: 0 0;
+    width: auto;
+    clear: both;
+}
+
+.netlicensing_pricing ul li {
+    display: block;
+    padding: 15px 0;
+    max-height: 60px;
+    list-style-type: none;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+
+.netlicensing_pricing ul li:nth-child(2n+1) {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.netlicensing_pricing ul li:nth-child(2n) {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.netlicensing_pricing ul li:nth-child(16) {
+    padding: 10px 0 0 0;
+    height: 60px;
+}
+
+.netlicensing_pricing .netlicensing_column_head {
+    text-align: center;
+    display: block;
+    margin: 0 0;
+    font-size: larger;
+    padding: 20px 0 0 0;
+}
+.netlicensing_pricing .netlicensing_column_head span {
+    color: #FFFFFF;
+}
+
+.netlicensing_plan_column .netlicensing_column_head {
+    color: #FFFFFF;
+    background-color: #E14817;
+}
+
+.netlicensing_plan_description {
+    min-height: 50px;
+    display: block;
+}
+
+.netlicensing_price {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    min-height: 50px;
+    display: block;
+    font-size: 28px;
+    color: #853E29 !important;
+    background-color: #F9F9F9;
+}
+
+.netlicensing_feature {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: large;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.netlicensing_feature_exist:before {
+    content:"\f14a" !important;
+}
+
+.netlicensing_feature_not_exist:before {
+    content:"\f096" !important;
+}
+
+.netlicensing_price_empty:before {
+    content: "Customizable";
+}

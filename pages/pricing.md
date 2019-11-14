@@ -10,6 +10,8 @@ tags:
 - Enterprise
 - FAQ
 ---
+<link rel="stylesheet" href="/css/pricing-table.css">
+
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Choose optimal pricing for your scale</h1>
