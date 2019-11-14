@@ -2,7 +2,6 @@
 layout: post
 title: "IntelliJ IDEA&#58; How to generate &#8216;serialVersionUID&#8217;"
 description: "It is strongly recommended that all serializable classes explicitly declare serialVersionUID values"
-canonical: "/blog/2012/12/25/intellij-idea-how-to-generate-serialversionuid/"
 author:
   name: NetLicensing
   url: https://netlicensing.io
