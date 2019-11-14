@@ -56,6 +56,9 @@
         {% assign canonical = page.canonical | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
       {% endif %}
       <link rel="canonical" href="{{ canonical }}">
+    {% else %}
+      {% assign canonical = page.url | prepend: site.baseurl | prepend: site.url %}
+      <link rel="canonical" href="{{ canonical }}">
     {% endif %}
     <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | prepend: site.baseurl | prepend: site.url }}">

@@ -2,7 +2,6 @@
 layout: page
 title: "Contact Sales"
 description: "Our sales team can answer your questions, provide product demos, and create custom plans that fit your needs"
-canonical: "/contact-sales/"
 permalink: "/contact-sales/"
 tags:
 - contact
