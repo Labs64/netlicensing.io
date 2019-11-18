@@ -31,6 +31,7 @@
     margin-left: 0;
     margin-right: 0;
 }
+
 .nlic-pricing-table ul {
     margin: 0 0;
     padding: 0 0;
@@ -72,6 +73,7 @@
     font-size: larger;
     padding: 20px 0 0 0;
 }
+
 .nlic-pricing-table .nlic-column-head span {
     color: #FFFFFF;
 }
@@ -96,7 +98,7 @@
     font-size: 28px;
 }
 
-.nlic-plan-column  .nlic-price {
+.nlic-plan-column .nlic-price {
     color: #853E29 !important;
     background-color: #F9F9F9;
 }
@@ -111,11 +113,11 @@
 }
 
 .nlic-feature-item-exist:before {
-    content:"\f14a" !important;
+    content: "\f14a" !important;
 }
 
 .nlic-feature-item-not-exist:before {
-    content:"\f096" !important;
+    content: "\f096" !important;
 }
 
 .nlic-price-empty:before {
@@ -128,4 +130,69 @@
 
 .nlic-column-LT-PRICE-PREMIUM .nlic-plan-column {
     border: 1px solid #853E29;
+}
+
+.nlic-action {
+    padding: 5px 0 10px 0;
+}
+
+.nlic-action a {
+    min-width: 50px;
+    max-width: 250px;
+    display: block;
+    background: none;
+    font-size: 1.5rem;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: none;
+    line-height: 2px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    border: 1px solid #853E29;
+    color: #853E29 !important;
+    -webkit-backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.nlic-action a::before {
+    background: #853E29;
+}
+
+.nlic-action a:hover {
+    color: #fff !important;
+    text-decoration: none;
+    border-color: #853E29;
+}
+
+.nlic-action a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0;
+    -webkit-transform: scale3d(0.7, 1, 1);
+    transform: scale3d(0.7, 1, 1);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+    transition: transform 0.4s, opacity 0.4s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.nlic-action a::before {
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.nlic-action a:hover::before {
+    opacity: 0.9;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
