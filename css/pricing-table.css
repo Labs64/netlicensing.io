@@ -94,6 +94,9 @@
     min-height: 50px;
     display: block;
     font-size: 28px;
+}
+
+.nlic-plan-column  .nlic-price {
     color: #853E29 !important;
     background-color: #F9F9F9;
 }
@@ -117,4 +120,12 @@
 
 .nlic-price-empty:before {
     content: "Customizable";
+}
+
+.nlic-column-LT-PRICE-PREMIUM .nlic-column-head {
+    background-color: #853E29;
+}
+
+.nlic-column-LT-PRICE-PREMIUM .nlic-plan-column {
+    border: 1px solid #853E29;
 }
