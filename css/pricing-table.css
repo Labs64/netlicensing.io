@@ -1,4 +1,8 @@
 /* Pricing table styles*/
+.nlic-pricing-table a, a:focus {
+    text-decoration: none;
+}
+
 .nlic-plan-column ul li:nth-child(16) {
     padding-top: 20px;
 }
@@ -141,7 +145,6 @@
     max-width: 250px;
     display: block;
     background: none;
-    font-size: 1.5rem;
     vertical-align: middle;
     position: relative;
     z-index: 1;
@@ -156,6 +159,8 @@
     color: #853E29 !important;
     -webkit-backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 
