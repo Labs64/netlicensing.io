@@ -88,7 +88,7 @@
     display: block;
 }
 
-.nlic-price {
+.nlic-plan-price {
     text-align: center;
     font-weight: bold;
     padding-top: 12px;
@@ -98,7 +98,7 @@
     font-size: 28px;
 }
 
-.nlic-plan-column .nlic-price {
+.nlic-plan-column .nlic-plan-price {
     color: #853E29 !important;
     background-color: #F9F9F9;
 }
@@ -195,4 +195,8 @@
     opacity: 0.9;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+}
+
+.nlic-sku-description {
+    display: none;
 }
