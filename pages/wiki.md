@@ -1,6 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-permalink: "/wiki"
+permalink: "/wikii"
 redirect_to:  /wiki/
 ---
