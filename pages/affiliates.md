@@ -159,7 +159,7 @@ tags:
 <div class="row" style="margin-top:40px;">
     <div class="col-md-12 NL_container">
         <div class="col-md-6 col-md-offset-3 NL_container_text">
-            <h2>Download our affiliates media kit</h2>
+            <h2>Download our Affiliates Media Kit</h2>
             <span>In this kit, we have NetLicensing visuals and logos to use on your site, social media or even run an ad to get your visitors signing up.</span>
 
             <form action="https://drive.google.com/drive/folders/1P1KIc1cuAtB5d3bBzZ8wI8RZQMuO4Wbh?usp=sharing" method="GET"
