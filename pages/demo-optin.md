@@ -59,7 +59,7 @@ sitemap:
           <div class="clear"><input type="submit" value="Subscribe and open demo" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
           </div>
           <p>Your privacy is important to us - we will not share your private data with anyone.</p>
-          <a style="font-size: small;" href="https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001&utm_source=netlicensing.io_demo_optin&utm_medium=website&utm_campaign=netlicensing.io_demo_optin&utm_content=opt-in">No thanks, just proceed with the demo.</a>
+          <a style="font-size: small;" href="https://ui.netlicensing.io/#/login?cr=ZGVtbzpkZW1v&utm_source=netlicensing.io_demo_optin&utm_medium=website&utm_campaign=netlicensing.io_demo_optin&utm_content=opt-in">No thanks, just proceed with the demo.</a>
       </form>
       </div>
       <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
