@@ -21,7 +21,7 @@ It’s a New Year which means new opportunities and, more importantly, a new ver
 
 We also have a brand new home for NetLicensing, with **Amazon Web Services (AWS)**. We have made this change to a reliable and scalable cloud platform which guarantees our customers a 99.9% UPTIME. Now that we have moved our licensing service to AWS we are able to focus more than ever before on delivering a first class product to our customers.
 
-With this change we also have a new base URL for the NetLicensing API: [https://go.netlicensing.io](https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001) make sure you update!
+With this change we also have a new base URL for the NetLicensing API: [https://ui.netlicensing.io](https://ui.netlicensing.io/#/login?cr=ZGVtbzpkZW1v&utm_source=netlicensing.io_demo_optin&utm_medium=website&utm_campaign=netlicensing.io_announcement&utm_content=announcement) make sure you update!
 
 We also have a new Licensing Model - **Multi-Feature**. Designed to make NetLicensing easier to use and deploy in your environment. This model comes with the option for your customers to enable and disable features as and when they need them.
 

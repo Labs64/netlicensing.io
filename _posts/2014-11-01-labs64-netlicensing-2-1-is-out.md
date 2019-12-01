@@ -40,7 +40,7 @@ Please see the <a title="Release Notes - NetLicensing 2.1.0-FINAL" href="https:/
 What’s Next:
 
   * Discover [NetLicensing Website](https://netlicensing.io "NetLicensing - Innovative License Management Solution") and <a title="NetLicensing Wiki" href="https://netlicensing.io/wiki/" target="_blank">documentation</a>
-  * <a title="Try Labs64 NetLicensing Now!" href="https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001" target="_blank">Try NetLicensing right away</a> using free demo account
+  * <a title="Try Labs64 NetLicensing Now!" href="https://ui.netlicensing.io/#/login?cr=ZGVtbzpkZW1v&utm_source=netlicensing.io_demo_optin&utm_medium=website&utm_campaign=netlicensing.io_announcement&utm_content=announcement" target="_blank">Try NetLicensing right away</a> using free demo account
   * Get Involved – your opinion and ideas are highly welcome!
 
 Our <a title="NetLicensing Feedback" href="https://netlicensing.uservoice.com" target="_blank" rel="nofollow">Feedback Tool</a>, <a title="Labs64 Journal" href="/blog/">Blog</a> or <a title="Labs64 Social - Facebook" href="https://www.facebook.com/NetLicensing" target="_blank" rel="nofollow">Facebook</a> are at your disposal.

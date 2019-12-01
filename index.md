@@ -91,7 +91,7 @@ no-cache: true
             <h2>Signup for a NetLicensing account</h2>
             <span>Join the hundreds of happy NetLicensing customers.</span>
 
-            <form action="https://go.netlicensing.io/console/v2/content/register.xhtml" method="GET"
+            <form action="https://ui.netlicensing.io/#/register" method="GET"
                   name="register" id="register"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">

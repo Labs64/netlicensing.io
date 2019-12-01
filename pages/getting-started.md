@@ -57,7 +57,7 @@ sitemap:
                 </div>
                 <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
-                        <li>Sign-up for a <a href="https://go.netlicensing.io/console/v2/content/register.xhtml" title="It’s not just free to get started, it’s FREE forever!">free NetLicensing account</a> and or use our <a href="https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001">demo account</a></li>
+                        <li>Sign-up for a <a href="https://ui.netlicensing.io/#/register" title="It’s not just free to get started, it’s FREE forever!">free NetLicensing account</a> and or use our <a href="https://ui.netlicensing.io/#/login?cr=ZGVtbzpkZW1v&utm_source=netlicensing.io_demo_optin&utm_medium=website&utm_campaign=netlicensing.io_getting_started&utm_content=getting_started">demo account</a></li>
                         <li>Add your username, password, email and company name</li>
                         <li>Agree to the NetLicensing <i>Terms of Service</i> and <i>Privacy Policy</i></li>
                         <li>Enable <i>'Newsletter'</i> checkbox if want to be notified about NetLicensing announcements, news and promo actions</li>
@@ -101,7 +101,7 @@ sitemap:
                 </div>
                 <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
-                        <li>Navigate to <i><a href="https://go.netlicensing.io/console/v2/content/vendor/demodata.xhtml">'Settings -> Demo Data'</a></i></li>
+                        <li>Navigate to <i><a href="https://ui.netlicensing.io/#/dashboard">'Settings -> Demo Data'</a></i></li>
                         <li>Select <i>'Licensing Model'</i></li>
                         <li>(Optional) provide custom identifier</li>
                         <li>Click on <i>'Create'</i></li>
@@ -146,7 +146,7 @@ sitemap:
                 </div>
                 <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
-                        <li>Navigate to <i><a href="https://go.netlicensing.io/console/v2/content/vendor/licensee.xhtml">'Operate -> Licensee'</a></i></li>
+                        <li>Navigate to <i><a href="https://ui.netlicensing.io/#/customers">'Operate -> Licensee'</a></i></li>
                         <li>Identify newly created licensee and note <i>Licensee Number</i></li>
                         <li>Send first validation request (replace %LICENSEE_NUMBER%)</li>
                         <li>In case you are using your vendor account please provide <i>username:password</i> in the <i>--user</i> attribute</li>
@@ -303,7 +303,7 @@ https://go.netlicensing.io/shop/v2/?shoptoken=%TOKEN_NUMBER%
             <h2>Signup for a NetLicensing account</h2>
             <span>Join the hundreds of happy NetLicensing customers.</span>
 
-            <form action="https://go.netlicensing.io/console/v2/content/register.xhtml" method="GET"
+            <form action="https://ui.netlicensing.io/#/register" method="GET"
                   name="register" id="register"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">

@@ -28,7 +28,7 @@ Notable changes in this release:
 * **NetLicensing Shop**: checkout process fine-tuning including: sending of order confirmation mail, customization of success and cancel URLs, improved payment method selection logic, and other minor improvements
 * Java Client was updated according to the latest NetLicensing API; **NetLicensing Java Client** v2.3.1 is available immediately from its [GitHub repository](https://github.com/Labs64/NetLicensingClient-java){:target="_blank"} and [Maven Central](https://search.maven.org/search?q=g:com.labs64.netlicensing){:target="_blank"} repository
 
-With this change we also have a new home for the *NetLicensing Management Console* [https://go.netlicensing.io/console/v2/](https://go.netlicensing.io/console/v2/?lc=4b566c7e20&source=lmbox001) - make sure you updated your bookmarks!
+With this change we also have a new home for the *NetLicensing Management Console* [https://ui.netlicensing.io](https://ui.netlicensing.io/#/login?cr=ZGVtbzpkZW1v&utm_source=netlicensing.io_demo_optin&utm_medium=website&utm_campaign=netlicensing.io_announcement&utm_content=announcement) - make sure you updated your bookmarks!
 
 For a detailed list of changes in this release, see [NetLicensing 2.3.1 Release Notes](https://netlicensing.io/wiki/netlicensing-2-3-1-final).
 

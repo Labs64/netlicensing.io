@@ -11,9 +11,9 @@
   url: "/pricing/"
 
 - title: "Log In"
-  url: "https://go.netlicensing.io/console/v2/"
+  url: "https://ui.netlicensing.io"
   icon: "fa-sign-in"
 
 - title: "Sign Up for Free"
-  url: "https://go.netlicensing.io/console/v2/content/register.xhtml"
+  url: "https://ui.netlicensing.io/#/register"
   class: "NL_button button_main NL_dark_btn"
