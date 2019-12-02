@@ -17,13 +17,15 @@ tags:
   - screencast
 ---
 
-### It was never easier to try NetLicensing in action!
+## It was never easier to try NetLicensing in action!
 
-Dig into the NetLiensing specifics and see how enterprise-grade license management works using a free "demo" account.
+Dig into the NetLiensing specifics and see how enterprise-grade license management works using a [free "demo" account](https://netlicensing.io/demo-optin/).
+
 
 <div style="text-align:center;margin:10px;">
   <iframe width="853" height="480" src="https://www.youtube.com/embed/pGhl8BdPxWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
 
 Use free NetLicensing "demo" account to:
 
@@ -34,6 +36,7 @@ Use free NetLicensing "demo" account to:
 * Reproduce issues by replicating the configuration of your products and interact effectively with NetLicensing support team.
 
 * Ease the on-boarding process at the third-party projects utilizing NetLicensing license management services.
+
 
 Please note, some limitation apply while using demo account:
 

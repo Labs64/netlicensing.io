@@ -19,6 +19,7 @@ tags:
   - Pay-per-Use
   - Client Libraries
   - MyCommerce
+  - video
 ---
 
 Just in time for Halloween, we are releasing the new version of *NetLicensing 2.3.8 - Halloween Edition* and we are bringing a bag full of goodies.
