@@ -38,9 +38,9 @@ sitemap:
 <div class="row">
     <div class="col-md-12 NL_form_light NL_block">
         <div class="col-md-8 col-md-offset-2 NL_form_light_text">
-            <h2>Labs64 NetLicensing meets students!</h2>
-            <span>Be the best! As a student, you have an opportunity to feature your project at the GitHub Student Gallery. Labs64 NetLicensing, as a GitHub Student Developer Pack partner, is glad to support you here.</span>
-            <span>Make your project the best integration of NetLicensing, and, together with best projects of other partners, your project will get the chance to be listed at the GitHub Student Gallery! On top of this, the project winning the NetLicensing contest will be showcased on our social media and rewarded with $50 Amazon gift card!</span>
+            <h2>🎓 Labs64 NetLicensing meets students! 🎓</h2>
+            <span>Be the best! As a student, you have an opportunity to feature your project at the GitHub Student Gallery.</span><br/>
+            <span>Labs64 NetLicensing, as a GitHub Student Developer Pack partner, is glad to support you here and reward you with $50 Amazon gift card!</span>
             <form action="https://bit.ly/35Zzo8R" method="GET"
                   name="December Challenge" id="december-challenge"
                   novalidate>
