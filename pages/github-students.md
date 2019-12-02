@@ -10,6 +10,7 @@ tags:
 - GitHub Education
 - offer
 - Basic Plan
+- Student Plan
 image:
   url: /img/partners/netlicensing-github.png
 sitemap:
@@ -28,9 +29,9 @@ sitemap:
     <img src="{{ '/img/partners/netlicensing-github.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing for GitHub Education" width="30%">
         <h2 class="col-md-12">Labs64 NetLicensing is part of the GitHub Student Developer Pack</h2>
         <p>The <a href="https://education.github.com/pack" target="_blank" rel="noopener nofollow">GitHub Student Developer Pack</a> gives students free access to the best developer tools in one place so they can learn by doing.</p>
-        <p>As part of the program, you get a NetLicensing <strong>Basic Plan for FREE</strong> while you are a student.</p>
+        <p>As part of the program, you get a NetLicensing <strong>Student (Basic) Plan for FREE</strong> while you are a student.</p>
         <h3 class="col-md-12">How to get this offer?</h3>
-        <p>Open your <a href="https://ui.netlicensing.io/#/profile">NetLicensing Profile page</a>, connect your NetLicensing vendor account to your GitHub account with the same email ID, and get Basic Plan upgrade for free.</p>
+        <p>Open your <a href="https://ui.netlicensing.io/#/profile">NetLicensing Profile page</a>, connect your NetLicensing vendor account to your GitHub account with the same email ID, and get Student Plan upgrade for free.</p>
         <p>Read NetLicensing <a href="/getting-started/">Getting Started</a> tutorial and feel free to contact us for support via our <a href="/contact/">contact form</a> or via <a href="mailto:netlicensing@labs64.com">email</a>.</p>
 </div>
 
@@ -47,7 +48,7 @@ sitemap:
     <div class="col-md-4 col-md-offset-1">
         <h3>Can I upgrade if I already have free NetLicensing account?</h3>
 
-        <p>Sure, you can. Upgrade for free to the Basic Plan by clicking the "Claim NetLicensing for Students offer" button in your NetLicensing Profile page. Make sure, you are using the same email ID for your NetLicensing and GitHub accounts.</p>
+        <p>Sure, you can. Upgrade for free to the Student Plan by clicking the "Claim NetLicensing for Students offer" button in your NetLicensing Profile page. Make sure, you are using the same email ID for your NetLicensing and GitHub accounts.</p>
     </div>
 </div>
 
@@ -68,7 +69,7 @@ sitemap:
     <div class="col-md-5 col-md-offset-1">
         <h3>I've applied for the NetLicensing offer in the GitHub Student Developer Pack. When will I hear back?</h3>
 
-        <p>Wait time can vary depending on the volume of requests we are receiving. However, we will do our best to ensure you receive your free Basic Plan within one week.</p>
+        <p>Wait time can vary depending on the volume of requests we are receiving. However, we will do our best to ensure you receive your free Student Plan within one week.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
         <h3>How do I contact NetLicensing with questions about the GitHub Student Developer Pack?</h3>
