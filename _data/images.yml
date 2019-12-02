@@ -1430,3 +1430,13 @@
   author: "Quentin Rey"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/Os1gNJtK_Rw
+
+- id: netlicensing-demo-account-thumbnail
+  source: /img/blog/netlicensing-demo-account-thumbnail.png
+  type: thumbnail
+  title: "NetLicensing Demo Account"
+  caption: "NetLicensing Demo Account"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64 NetLicensing
+  publisher: Labs64 NetLicensing
+  creditlink: https://netlicensing.io
