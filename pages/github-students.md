@@ -40,7 +40,7 @@ sitemap:
         <div class="col-md-8 col-md-offset-2 NL_form_light_text">
             <h2>Want your project to be featured in<br/>GitHub Student Gallery?!</h2>
             <span>We are glad to support you here and, on top of that, reward the best project using NetLicensing services with $50 Amazon gift card 🎁</span>
-            <form action="https://forms.office.com/Pages/ResponsePage.aspx?id=cQ57ZgD2q0upBOa-MyNdNnJ9ddXUHGBLoPh13x4YHKhUMzRGRVFSRUxVMVE5V0dBUklWRFRSRElPTi4u" method="GET"
+            <form action="https://bit.ly/35Zzo8R" method="GET"
                   name="December Challenge" id="december-challenge"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
