@@ -27,7 +27,7 @@ Dig into the NetLiensing specifics and see how enterprise-grade license manageme
 </div>
 
 
-Use free NetLicensing "demo" account to:
+### Use free NetLicensing "demo" account to:
 
 * Evaluate new NetLicensing functionality.
 
@@ -38,7 +38,7 @@ Use free NetLicensing "demo" account to:
 * Ease the on-boarding process at the third-party projects utilizing NetLicensing license management services.
 
 
-Please note, some limitation apply while using demo account:
+### Please note, some limitation apply while using demo account:
 
 * "demo" is a shared account, so the data you are using will be accessible to everybody - beware of privacy.
 
