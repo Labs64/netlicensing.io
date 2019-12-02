@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To: NetLiensing demo account"
+title: "How To: NetLicensing demo account"
 description: "See how NetLicensing enterprise-grade license management works"
 author:
   name: NetLicensing
