@@ -142,7 +142,7 @@ tags:
 </div>
 
 <div id="github-students" class="row NL_block" style="text-align:center;">
-    <p class="col-md-8 col-md-offset-2">Free access to <a href="/github-students/" class="NL_button button_main NL_dark_btn">Student Plan</a> via <strong>Github Student Developer Pack</strong>.</p>
+    <p class="col-md-8 col-md-offset-2">Free access to <a href="/github-students/">Student Plan</a> via <strong>Github Student Developer Pack</strong>.</p>
 </div>
 
 <div id="faq" class="row NL_block">
