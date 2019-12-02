@@ -35,6 +35,26 @@ sitemap:
         <p>Read NetLicensing <a href="/getting-started/">Getting Started</a> tutorial and feel free to contact us for support via our <a href="/contact/">contact form</a> or via <a href="mailto:netlicensing@labs64.com">email</a>.</p>
 </div>
 
+
+
+<div class="row NL_block">
+    <div class="col-md-12 NL_container">
+        <div class="col-md-6 col-md-offset-3 NL_container_text">
+            <h2>Students 🎁 Wanna your project to be featured in GitHub Student Gallery?!</h2>
+            <span>We are glad to support you here and, on top of that, reward the best project using NetLicensing services with $50 Amazon gift card.</span>
+            <form action="https://forms.office.com/Pages/ResponsePage.aspx?id=cQ57ZgD2q0upBOa-MyNdNnJ9ddXUHGBLoPh13x4YHKhUMzRGRVFSRUxVMVE5V0dBUklWRFRSRElPTi4u" method="GET"
+                  name="December Challenge" id="december-challenge"
+                  novalidate>
+                <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
+                    <i class="fa fa-gift"></i>Apply Here
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
 <div id="faq" class="row NL_block">
     <h2 class="col-md-12">You may still have some questions, so here's our FAQ</h2>
 </div>
