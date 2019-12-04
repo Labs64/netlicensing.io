@@ -41,7 +41,7 @@ sitemap:
             <h2>🎓 Labs64 NetLicensing meets students! 🎓</h2>
             <span>Be the best! As a student, you have an opportunity to feature your project at the GitHub Student Gallery.</span><br/>
             <span>Labs64 NetLicensing, as a GitHub Student Developer Pack partner, is glad to support you here and reward you with $50 Amazon gift card!</span>
-            <form action="http://l64.cc/surveyGH01" method="GET"
+            <form action="https://bit.ly/35Zzo8R" method="GET"
                   name="December Challenge" id="december-challenge"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
