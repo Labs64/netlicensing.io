@@ -12,6 +12,11 @@ tags:
 - income
 - Labs64 NetLicensing
 - Affiliate Program
+image:
+  url: /img/affiliates/netlicensing-affiliates-01-join.png
+sitemap:
+  images:
+    - /img/affiliates/netlicensing-affiliates-01-join.png
 ---
 
 <div class="row NL_banner">
