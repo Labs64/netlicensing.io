@@ -28,6 +28,21 @@
   url: "http://l64.cc/nlSUB"
 
 
+- name: "Pricing Table (beta)"
+  aliases:
+   - Pricing Plan
+   - Membership Plan
+   - SaaS Subscription
+  description: "Price and package in minutes without having to re-code or re-engineer back-office systems."
+  tags:
+   - time
+   - feature
+   - volume
+  status: "AVAILABLE"
+  img: '/img/licensing-model/licensing-model-pricing-table.png'
+  url: "https://netlicensing.io/wiki/release-notes#2019-12-25---ui-pricing-table-licensing-model"
+
+
 - name: "Floating"
   aliases:
    - Concurrent
