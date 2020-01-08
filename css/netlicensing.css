@@ -1092,6 +1092,10 @@ ul.NL_licensing_models li.item {
     height: 450px;
 }
 
+ul.NL_licensing_models a {
+    border: 0px;
+}
+
 /*----------   FAQ  -----------*/
 .NL_FAQ {
     margin-top: 25px;
