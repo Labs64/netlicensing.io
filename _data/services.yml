@@ -24,6 +24,10 @@
   url: "/documentation/"
   section: "Documentation"
 
+- title: Changelog
+  url: "https://netlicensing.io/wiki/changelog"
+  section: "Documentation"
+
 - title: Pricing
   url: "/pricing/"
   section: "Documentation"
