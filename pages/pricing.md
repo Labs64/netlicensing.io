@@ -117,7 +117,7 @@ tags:
 
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_regular">
-            <h3><strong style="font-size:larger;">Enterprise</strong><br/>Advanced functionality for specific requirements</h3>
+            <h3><strong style="font-size:larger;">Individual Setup</strong><br/>Advanced functionality for specific requirements</h3>
             <div class="NL_price_tag">Customizable</div>
             <ul>
                 {% for feature in site.data.pricing %}
