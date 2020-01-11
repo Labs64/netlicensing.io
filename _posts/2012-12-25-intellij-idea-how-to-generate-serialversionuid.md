@@ -23,7 +23,7 @@ sitemap:
     - /img/blog/labs64-blog-howto-idea003.png
 ---
 
-{% include advert.html image='/img/NLIC-728x90-banner1.png' %}
+{% include advert.html image='/img/netlicensing-affiliates-banner-970x250.png' %}
 
 When Java class implements _Serializable_ interface you have the following options:
 

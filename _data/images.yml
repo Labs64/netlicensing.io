@@ -1440,3 +1440,13 @@
   author: Labs64 NetLicensing
   publisher: Labs64 NetLicensing
   creditlink: https://netlicensing.io
+
+- id: netlicensing-affiliates-banner-970x250
+  source: /img/netlicensing-affiliates-banner-970x250.png
+  type: banner
+  title: "NetLicensing Affiliates Banner"
+  caption: "NetLicensing Affiliates Banner"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64 NetLicensing
+  publisher: Labs64 NetLicensing
+  creditlink: https://netlicensing.io
