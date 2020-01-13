@@ -7,6 +7,8 @@ tags:
 - Licensing Models
 - Try-and-Buy
 - Subscription
+- Pricing Table
+- Node-Locked
 - Rental
 - Floating
 - Pay-per-use
@@ -24,6 +26,7 @@ sitemap:
    - /img/licensing-model/licensing-model-standard.png
    - /img/licensing-model/licensing-model-subscription.png
    - /img/licensing-model/licensing-model-try-and-buy.png
+   - /img/licensing-model/licensing-model-pricing-table.png
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
