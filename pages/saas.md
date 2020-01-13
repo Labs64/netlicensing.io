@@ -18,7 +18,10 @@ sitemap:
     </div>
 </div>
 
-...
+<div class="row NL_block" style="text-align:center;">
+    <h2 class="col-md-12">No more re-coding on the backend - no more interrupting your existing customers’ subscriptions.</h2>
+    <p>Manage pricing plans and packages in minutes without having to re-code or re-engineer back-office systems.</p>
+</div>
 
 <div class="row">
     <div class="col-md-12 NL_form_light NL_block">
