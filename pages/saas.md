@@ -13,7 +13,7 @@ sitemap:
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
-        <h1>Membership Management & Pricing Plans Built for B2B SaaS</h1>
+        <h1>Membership & Pricing Plans Management Built for B2B SaaS</h1>
         <span>NetLicensing offers you a more holistic membership plans management approach to respond quicker to market needs.</span>
     </div>
 </div>
@@ -24,7 +24,6 @@ sitemap:
     <div class="col-md-12 NL_form_light NL_block">
         <div class="col-md-8 col-md-offset-2 NL_form_light_text">
             <h2>Ready for a SaaS Membership Plans Management Platform?</h2>
-            <span>NetLicensing offers you a more holistic membership plans management approach to respond quicker to market needs.</span>
 
             <form action="/contact/" method="GET"
                   name="B2B SaaS" id="b2b-saas"
