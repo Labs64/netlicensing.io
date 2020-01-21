@@ -148,5 +148,4 @@ If you are interested in our services and products and/or want to know more abou
             </p>
         </td>
     </tr>
-    </tbody>
 </table>
