@@ -21,17 +21,22 @@ tags:
 {% include advert.html image='/img/netlicensing-affiliates-banner-970x250.png' %}
 
 Which programming languages will continue to be in demand in 2020 and beyond and how many languages should you know to improve your career chances?
+
 We will attempt to answer these tricky questions in this post.
 
 ### A Look At Our Sources
 
-One of the strongest NetLicensing features is the ability to be integrated with the different CRM, ERP, Billing, Reporting and other in-house systems via provided RESTful API.
+One of the strongest [NetLicensing features](https://netlicensing.io/features-all) is the ability to be integrated with the different CRM, ERP, Billing, Reporting and other in-house systems via provided [RESTful API](https://netlicensing.io/wiki/restful-api).
+
 Being involved in hundreds of integration discussions we saw very different and sometimes very complex infrastructures: from SaaS / Web Applications to server-side and VM environments (such as AWS and Azure) and IoT devices.
-Out of these different technology stacks we pulled out the Labs64 NetLicensing List of Top Programming Languages to Learn in 2020.
+
+Out of these different technology stacks we pulled out the *Labs64 NetLicensing List of Top Programming Languages to Learn in 2020*.
 
 ## #5 - PHP
 
-Thanks to WordPress and very popular frameworks such as Laravel - PHP is still having very strong followership, even though this language should compete with JavaScript and Python.
+![PHP](/img/blog/nlic-programming-languages-php.png "PHP"){:class="blog-center"}
+
+Thanks to WordPress and other very popular PHP frameworks such as Laravel or Symfony - PHP is still having very strong followership, even though this language should compete with rising of JavaScript and Python.
 
 **Where to use:**
 
@@ -40,9 +45,11 @@ This programming language is used to build dynamic and interactive websites.
 - Web development
 - Server-side
 
-So, you want to go to server-side web development then still PHP is a good choice with a large number of popular framework like Laravel, Symfony, etc.
+So, you want to go to server-side web development then still PHP is a good choice for a large number of popular frameworks like Laravel, Symfony, etc.
 
 ## #4 - Java
+
+![Java](/img/blog/nlic-programming-languages-java.png "Java"){:class="blog-center"}
 
 Since years Java is one of the most popular and successful programming languages.
 Many of the world’s biggest companies use Java to build desktop apps, backend web systems and developing Android apps.
@@ -51,45 +58,53 @@ Massive Stack Overflow and GitHub communities ensuring its future popularity.
 
 **Where to use:**
 
-- Android Development
 - Enterprise Applications
 - Server-side scripting
+- Android Development
 
 If you want to deep dive into object-oriented programming and polish your skills, Java is the best choice for you.
 
 ## #3 - JavaScript
 
+![JavaScript](/img/blog/nlic-programming-languages-javascript.png "JavaScript"){:class="blog-center"}
+
 Thanks to the ubiquity of web browsers, JavaScript has become one of the most popular programming languages among developers who need to work on server-side and client-side programming.
 JavaScript is one of the top programming skill demanded by companies today.
 Because of its simplicity and speed, more startups and tech businesses using JavaScript on the backend via the Node.js framework.
-There are many libraries available in JavaScript which makes development very easy.
+There are numerous libraries available in JavaScript which makes development very easy.
 
 **Where to use:**
 
 - Web development
 - Dynamic contents
 - Client and Server-side scripting
-- Fron-end development
+- Front-end development
 - Back-end development
 - Game Development
 
+{% include advert.html image='/img/netlicensing-affiliates-banner-970x250.png' %}
+
 ## #2 - Kotlin
+
+![Kotlin](/img/blog/nlic-programming-languages-kotlin.png "Kotlin"){:class="blog-center"}
 
 Kotlin is a general-purpose programming language, easy-to-learn, open-source, and swift language for Android app development, which effortlessly combines object-oriented and functional programming features within it.
 The interoperation between Java and Kotlin makes Android development faster and enjoyable.
 
 There are a lot of businesses move to Kotlin; hence, Kotlin has a strong future in the Android app development ecosystem.
 
-Therefore, it’s a must-learn language for Android app developers in 2020.
+Therefore, it’s must-learn language for Android app developers in 2020.
 
 **Where to use:**
 
 - Android development
+- Server-side development
 - Web development
 - Desktop development
-- Server-side development
 
 ## #1 - Python
+
+![Python](/img/blog/nlic-programming-languages-python.png "Python"){:class="blog-center"}
 
 Python offers a clean and well-structured code, offers a huge set of open-source libraries, frameworks, and modules that ease application development.
 Python has an easy to read syntax and incredibly easy-to-learn.
@@ -99,10 +114,10 @@ All that making it one of the best programming languages every developer should 
 **Where to use:**
 
 - General-purpose
+- Cross-platform solutions
 - Web development using popular frameworks such as Django and Flask
 - Science and data analysis applications powered by popular libraries like TensorFlow, Keras, and SciPy
-- Machine learning, artificial intelligence (AI), Big Data, and Robotics all rely heavily on Python
-- Cross-platform solutions
+- Machine learning, artificial intelligence (AI), Big Data, and Robotics
 
 ## Summing Up
 
