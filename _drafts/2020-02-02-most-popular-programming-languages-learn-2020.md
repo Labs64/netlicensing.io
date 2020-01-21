@@ -78,13 +78,17 @@ Therefore, it’s a must-learn language for Android app developers in 2020.
 
 ## &numero;1 - Python
 
-*TODO*
+Python offers a clean and well-structured code, offers a huge set of open-source libraries, frameworks, and modules that ease application development.
+Python has an easy to read syntax and incredibly easy-to-learn.
+Python can be used for web and desktop applications, GUI-based desktop applications, machine learning, data science, and network servers.
+All that making it one of the best programming languages every developer should learn. 
 
 **Where to use:**
 
-- xx
-- xx
-- xx
+- Web development using popular frameworks such as Django and Flask
+- Science and data analysis applications powered by popular libraries like TensorFlow, Keras, and SciPy
+- Machine learning, artificial intelligence (AI), Big Data, and Robotics all rely heavily on Python
+- Cross-platform solutions
 
 ## Summing Up
 
