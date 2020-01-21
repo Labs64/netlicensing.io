@@ -18,7 +18,7 @@ tags:
   - Kotlin
 ---
 
-{% include advert.html image='/img/netlicensing-affiliates-banner-970x250.png' %}
+{% include advert.html image='/img/NLIC-728x90-banner1.png' %}
 
 Which programming languages will continue to be in demand in 2020 and beyond and how many languages should you know to improve your career chances?
 
