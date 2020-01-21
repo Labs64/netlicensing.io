@@ -30,23 +30,39 @@ Out of these different technology stacks we pulled out the Labs64 NetLicensing L
 
 ## &numero;5 - PHP
 Thanks to WordPress and very popular frameworks such as Laravel - PHP is still having very strong followership, even though this language should compete with JavaScript and Python.
+
 **Where to use:**
+
 Web development, Server-side: this programming language is used to build dynamic and interactive websites.
 So, you want to go to server-side web development then still PHP is a good choice with a large number of popular framework like Laravel, Symfony, etc.
 
 ## &numero;4 - Java
+
 *TODO*
 
 ## &numero;3 - JavaScript
-*TODO*
+
+Thanks to the ubiquity of web browsers, JavaScript has become one of the most popular programming languages among developers who need to work on server-side and client-side programming.
+JavaScript is one of the top programming skill demanded by companies today.
+Because of its simplicity and speed, more startups and tech businesses using JavaScript on the backend via the Node.js framework.
+There are many libraries available in JavaScript which makes development very easy.
+
+**Where to use:**
+
+- Fron-end development
+- Back-end development
+- Game Development
 
 ## &numero;2 - Kotlin
+
 *TODO*
 
 ## &numero;1 - Python
+
 *TODO*
 
 ## Summing Up
+
 Nearly all coders have an insatiable thirst for learning new languages. However, knowing which languages are gaining popularity and can ensure a better career growth will help you prioritize learning them first.
 Use the information shared in this post to make an informed decision in this matter.
 
