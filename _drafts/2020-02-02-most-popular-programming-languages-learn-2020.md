@@ -33,12 +33,19 @@ Thanks to WordPress and very popular frameworks such as Laravel - PHP is still h
 
 **Where to use:**
 
-Web development, Server-side: this programming language is used to build dynamic and interactive websites.
+- Web development
+- Server-side: this programming language is used to build dynamic and interactive websites.
+
 So, you want to go to server-side web development then still PHP is a good choice with a large number of popular framework like Laravel, Symfony, etc.
 
 ## &numero;4 - Java
 
 *TODO*
+
+**Where to use:**
+
+- xxx
+- xxx
 
 ## &numero;3 - JavaScript
 
@@ -55,11 +62,29 @@ There are many libraries available in JavaScript which makes development very ea
 
 ## &numero;2 - Kotlin
 
-*TODO*
+Kotlin is a general-purpose programming language, easy-to-learn, open-source, and swift language for Android app development, which effortlessly combines object-oriented and functional programming features within it.
+The interoperation between Java and Kotlin makes Android development faster and enjoyable.
+
+There are a lot of businesses move to Kotlin; hence, Kotlin has a strong future in the Android app development ecosystem.
+
+Therefore, it’s a must-learn language for Android app developers in 2020.
+
+**Where to use:**
+
+- Android development
+- Web development
+- Desktop development
+- Server-side development
 
 ## &numero;1 - Python
 
 *TODO*
+
+**Where to use:**
+
+- xx
+- xx
+- xx
 
 ## Summing Up
 
