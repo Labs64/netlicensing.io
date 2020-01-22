@@ -17,8 +17,6 @@ tags:
   - Kotlin
 ---
 
-{% include advert.html image='/img/NLIC-728x90-banner1.png' %}
-
 Which programming languages will continue to be in demand in 2020 and beyond and how many languages should you know to improve your career chances?
 
 We will attempt to answer these tricky questions in this post.
@@ -26,6 +24,8 @@ We will attempt to answer these tricky questions in this post.
 ### A Look At Our Sources
 
 One of the strongest [NetLicensing features](https://netlicensing.io/features-all) is the ability to be integrated with the different CRM, ERP, Billing, Reporting and other in-house systems via provided [RESTful API](https://netlicensing.io/wiki/restful-api).
+
+{% include advert.html image='/img/NLIC-728x90-banner1.png' %}
 
 Being involved in hundreds of integration discussions we saw very different and sometimes very complex infrastructures: from SaaS / Web Applications to server-side and VM environments (such as AWS and Azure) and IoT devices.
 
