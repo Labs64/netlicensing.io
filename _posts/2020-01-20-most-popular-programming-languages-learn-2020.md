@@ -29,7 +29,7 @@ One of the strongest [NetLicensing features](https://netlicensing.io/features-al
 
 Being involved in hundreds of discussions concerning NetLicensing integration, we faced vast variety of different infrastructures, sometimes pretty complex: from server-side, Web Applications and SaaS to desktop, VM and cloud environments (such as AWS and Azure) and IoT devices.
 
-Based this experience in different technology stacks, we compiled the *Top-5 Programming Languages to Learn in 2020 by Labs64 NetLicensing*.
+Based on this experience in different technology stacks, we compiled the *Top-5 Programming Languages to Learn in 2020 by Labs64 NetLicensing*.
 
 ## &#8470; 5 - PHP
 
