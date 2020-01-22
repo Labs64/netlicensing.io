@@ -7,7 +7,6 @@ author:
   url: https://netlicensing.io
 image:
   url: /img/blog/most-popular-programming-languages-learn-2020.png
-  hide: true
 tags:
   - Programming Language
   - learn
