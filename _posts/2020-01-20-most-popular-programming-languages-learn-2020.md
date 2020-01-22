@@ -31,6 +31,8 @@ Being involved in hundreds of discussions concerning NetLicensing integration, w
 
 Based on this experience in different technology stacks, we compiled the *Top-5 Programming Languages to Learn in 2020 by Labs64 NetLicensing*.
 
+----
+
 ## &#8470; 5 - PHP
 
 ![PHP](/img/blog/nlic-programming-languages-php.png "PHP"){:class="blog-center"}
@@ -45,6 +47,8 @@ This programming language is used to build dynamic and interactive websites.
 - Server-side
 
 So, you want to go to server-side web development then still PHP is a good choice for a large number of popular frameworks like Laravel, Symfony, etc.
+
+----
 
 ## &#8470; 4 - Java
 
@@ -62,6 +66,8 @@ Massive Stack Overflow and GitHub communities ensuring its future popularity.
 - Android Development
 
 If you want to deep dive into object-oriented programming and polish your skills, Java is the best choice for you.
+
+----
 
 ## &#8470; 3 - JavaScript
 
@@ -83,6 +89,8 @@ There are numerous libraries available in JavaScript which makes development ver
 
 {% include advert.html image='/img/netlicensing-affiliates-banner-970x250.png' %}
 
+----
+
 ## &#8470; 2 - Kotlin
 
 ![Kotlin](/img/blog/nlic-programming-languages-kotlin.png "Kotlin"){:class="blog-center"}
@@ -101,6 +109,8 @@ Therefore, it’s must-learn language for Android app developers in 2020.
 - Web development
 - Desktop development
 
+----
+
 ## &#8470; 1 - Python
 
 ![Python](/img/blog/nlic-programming-languages-python.png "Python"){:class="blog-center"}
@@ -117,6 +127,8 @@ All that making it one of the best programming languages every developer should 
 - Web development using popular frameworks such as Django and Flask
 - Science and data analysis applications powered by popular libraries like TensorFlow, Keras, and SciPy
 - Machine learning, artificial intelligence (AI), Big Data, and Robotics
+
+----
 
 ## Summing Up
 
