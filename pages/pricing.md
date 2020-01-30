@@ -168,8 +168,8 @@ tags:
     <div class="col-md-5 col-md-offset-1">
         <h3>Do you have an API? CLI? Libraries?</h3>
 
-        <p>Yes. NetLicensing RESTful API documentation is available <a title="API" href="http://l64.cc/nl10">here</a>.
-            You may also use the following <a title="NetLicensing client libraries" href="http://l64.cc/nl07">client
+        <p>Yes. NetLicensing RESTful API documentation is available <a title="API" href="http://nlic.io/nl10">here</a>.
+            You may also use the following <a title="NetLicensing client libraries" href="http://nlic.io/nl07">client
                 libraries and examples</a> as a foundation for integrating NetLicensing in your code.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">

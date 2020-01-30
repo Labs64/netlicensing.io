@@ -11,7 +11,7 @@
    - feature
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-try-and-buy.png'
-  url: "http://l64.cc/nlTNB"
+  url: "http://nlic.io/nlTNB"
 
 
 - name: "Subscription"
@@ -25,7 +25,7 @@
    - time
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-subscription.png'
-  url: "http://l64.cc/nlSUB"
+  url: "http://nlic.io/nlSUB"
 
 
 - name: "Pricing Table (beta)"
@@ -40,7 +40,7 @@
    - volume
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-pricing-table.png'
-  url: "http://l64.cc/nlPTB"
+  url: "http://nlic.io/nlPTB"
 
 
 - name: "Floating"
@@ -53,7 +53,7 @@
    - concurrent
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-floating.png'
-  url: "http://l64.cc/nlFLT"
+  url: "http://nlic.io/nlFLT"
 
 
 - name: "Rental"
@@ -65,7 +65,7 @@
    - time
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-rental.png'
-  url: "http://l64.cc/nlRNT"
+  url: "http://nlic.io/nlRNT"
 
 
 - name: "Pay-per-Use"
@@ -83,7 +83,7 @@
    - volume
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-pay-per-use.png'
-  url: "http://l64.cc/nlPPU"
+  url: "http://nlic.io/nlPPU"
 
 
 - name: "Standard"
@@ -96,7 +96,7 @@
    - user
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-standard.png'
-  url: "http://l64.cc/nlLM"
+  url: "http://nlic.io/nlLM"
 
 
 - name: "Multi-Feature"
@@ -111,7 +111,7 @@
    - feature
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-multi-feature.png'
-  url: "http://l64.cc/nlMFT"
+  url: "http://nlic.io/nlMFT"
 
 
 - name: "Node-Locked"
@@ -126,7 +126,7 @@
    - user
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-node-locked.png'
-  url: "http://l64.cc/nlNLK"
+  url: "http://nlic.io/nlNLK"
 
 
 - name: "Quota"
@@ -141,7 +141,7 @@
    - feature
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-quota.png'
-  url: "http://l64.cc/nlQTA"
+  url: "http://nlic.io/nlQTA"
 
 
 - name: "Named User"
@@ -152,4 +152,4 @@
    - user
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-named-user.png'
-  url: "http://l64.cc/nlLM"
+  url: "http://nlic.io/nlLM"

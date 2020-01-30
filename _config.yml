@@ -17,7 +17,7 @@ dns_prefetch:
  - //www.labs64.de
  - //www.labs64.com
  - //io.labs64.com
- - //l64.cc
+ - //nlic.io
 
 # Styling
 stage_banner_image: "../img/netlicensing-stage-banner-01.png"
