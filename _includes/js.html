@@ -10,6 +10,8 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56a148f52ef01cbe" async="async"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/packery/1.4.3/packery.pkgd.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/guidechimp/dist/guidechimp.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/guidechimp/dist/guidechimp.min.css"/>
 <!-- Begin Cookie Consent plugin by Silktide - https://silktide.com/cookieconsent -->
 <script type="text/javascript">
     window.cookieconsent_options = {
@@ -98,5 +100,46 @@
             document.cookie = affiliateCookie + affiliateCookieExpires + affiliateCookiePath + affiliateCookieDomain;
         }
     }
+</script>
+
+<script>
+    var searchParams = new URLSearchParams(window.location.search);
+
+    var tour = [
+        {
+            element: '[data-id="id-1"]',
+            title: 'Try & Buy',
+            description: 'This licensing model is useful in case you want to distribute secure trial or demo version of your product. Trial licenses are granted for a short time and allow customers to try the product before buying it. Usually, production-level work is not allowed and some features may be limited or disabled in demo mode. The product is completely disabled after trial license has expired, unless full-featured license is granted.',
+            buttons: [
+                {
+                    title: 'See more',
+                    class: 'NL_button button_main NL_dark_btn NL_wide_btn',
+                    onClick: function () {
+                        window.location.href = 'http://nlic.io/nlTNB';
+                    }
+                }
+            ]
+        },
+        {
+            element: '[data-id="id-3"]',
+            title: 'Pricing Table',
+            description: '<strong>Price</strong> and package in minutes without having to re-code or re-engineer back-office systems.',
+            buttons: [
+                {
+                    title: 'See more',
+                    class: 'NL_button button_main NL_dark_btn NL_wide_btn',
+                    onClick: function () {
+                        window.location.href = 'http://nlic.io/nlPTB';
+                    }
+                }
+            ]
+        }
+    ];
+
+    if (searchParams.get('guidechimp') === 'on') {
+        var guideChimp = new GuideChimp(tour);
+        guideChimp.start();
+    }
+
 </script>
 
