@@ -44,7 +44,7 @@ sitemap:
     <div style="padding:40px;">
         {% for feature in site.data.features %}
         {% if feature.show-default %}
-        <div class="col-md-3 NL_feature">
+        <div class="col-md-3 NL_feature" id="feature-{{ feature.name | slugify }}">
             <figure class="hover_effect">
                 <figcaption>
                 <img src="{{ feature.icon | prepend: site.baseurl | prepend: site.url }}" alt="{{ feature.name }}"/>
@@ -63,7 +63,7 @@ sitemap:
     <div id="showContent" class="col-md-12 content showContent">
         {% for feature in site.data.features %}
         {% unless feature.show-default %}
-        <div class="col-md-3 NL_feature">
+        <div class="col-md-3 NL_feature" id="feature-{{ feature.name | slugify }}">
             <figure class="hover_effect">
                 <figcaption>
                 <img src="{{ feature.icon | prepend: site.baseurl | prepend: site.url }}" alt="{{ feature.name }}"/>
