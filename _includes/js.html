@@ -11,7 +11,6 @@
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56a148f52ef01cbe" async="async"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/packery/1.4.3/packery.pkgd.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/guidechimp/dist/guidechimp.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/guidechimp/dist/guidechimp.min.css"/>
 <!-- Begin Cookie Consent plugin by Silktide - https://silktide.com/cookieconsent -->
 <script type="text/javascript">
     window.cookieconsent_options = {
@@ -101,7 +100,7 @@
         }
     }
 </script>
-
+<!--initialize GuideChimp-->
 <script>
     var searchParams = new URLSearchParams(window.location.search);
 
@@ -109,13 +108,12 @@
         {
             element: '[data-id="id-1"]',
             title: 'Try & Buy',
-            description: 'This licensing model is useful in case you want to distribute secure trial or demo version of your product. Trial licenses are granted for a short time and allow customers to try the product before buying it. Usually, production-level work is not allowed and some features may be limited or disabled in demo mode. The product is completely disabled after trial license has expired, unless full-featured license is granted.',
+            description: 'This licensing model is useful in case you want to distribute secure trial or demo version of your product. Trial licenses are granted for a short time and allow customers to try the product before buying it.',
             buttons: [
                 {
-                    title: 'See more',
+                    title: 'Learn More',
                     class: 'NL_button button_main NL_dark_btn NL_wide_btn',
                     onClick: function () {
-                        console.log('button click');
                         window.location.href = 'http://nlic.io/nlTNB';
                     }
                 }
@@ -127,10 +125,24 @@
             description: '<strong>Price</strong> and package in minutes without having to re-code or re-engineer back-office systems.',
             buttons: [
                 {
-                    title: 'See more',
+                    title: 'Learn More',
                     class: 'NL_button button_main NL_dark_btn NL_wide_btn',
                     onClick: function () {
                         window.location.href = 'http://nlic.io/nlPTB';
+                    }
+                }
+            ]
+        },
+        {
+            element: '[data-id="id-9"]',
+            title: 'Node-Locked',
+            description: 'Software is licensed for use only on one or more named computer systems. Usually, CPU serial number verification is used to enforce this type of license.',
+            buttons: [
+                {
+                    title: 'Learn More',
+                    class: 'NL_button button_main NL_dark_btn NL_wide_btn',
+                    onClick: function () {
+                        window.location.href = 'http://nlic.io/nlNLK';
                     }
                 }
             ]
@@ -142,14 +154,14 @@
 
         setTimeout(function () {
             guideChimp.start();
-        }, 500);
+        }, 1000);
     }
 
 </script>
 
 <style>
     .gc-tooltip {
-        min-width: 600px;
+        min-width: 400px;
         max-width: 750px;
     }
 </style>
