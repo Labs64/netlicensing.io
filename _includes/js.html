@@ -138,8 +138,17 @@
 
     if (searchParams.get('guidechimp') === 'on') {
         var guideChimp = new GuideChimp(tour);
-        guideChimp.start();
+
+        setTimeout(function () {
+            guideChimp.start();
+        }, 200);
     }
 
 </script>
 
+<style>
+    .gc-tooltip {
+        min-width: 600px;
+        max-width: 750px;
+    }
+</style>
