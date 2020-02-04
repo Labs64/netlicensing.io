@@ -62,7 +62,7 @@
   premium: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a> &#8226; <a href='https://netlicensing.io/wiki/rental'>Rental</a>"
   enterprise: "<a href='/licensing-models/'>All supported</a><br/>&nbsp;"
 
-- name: "Licensee Secret (<a href='http://nlic.io/nlNLK'>Node-Locked</a>)"
+- name: "Licensee Secret (<a href='http://l64.cc/nlNLK'>Node-Locked</a>)"
   description: "NetLicensing offers a comprehensive licensing support for virtual environments and sandboxing."
   free: "N"
   basic: "N"
