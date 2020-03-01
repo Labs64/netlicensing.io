@@ -1,0 +1,66 @@
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/guidechimp@1/dist/guidechimp.min.css"/>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/guidechimp@1/dist/guidechimp.min.js"></script>
+
+<script>
+    var searchParams = new URLSearchParams(window.location.search);
+
+    var tourLicensingModels = [
+        {
+            element: '[data-id="id-1"]',
+            title: 'Try & Buy',
+            description: 'This licensing model is useful in case you want to distribute secure <i>trial or demo version</i> of your product. Trial licenses are granted for a short time and allow customers to try the product before buying it.',
+            buttons: [
+                {
+                    title: 'Learn More',
+                    class: 'NL_button button_main NL_dark_btn NL_wide_btn',
+                    onClick: function () {
+                        window.location.href = 'http://nlic.io/nlTNB';
+                    }
+                }
+            ]
+        },
+        {
+            element: '[data-id="id-3"]',
+            title: 'Pricing Table',
+            description: '<i>Price and package</i> in minutes without having to re-code or re-engineer back-office systems.',
+            buttons: [
+                {
+                    title: 'Learn More',
+                    class: 'NL_button button_main NL_dark_btn NL_wide_btn',
+                    onClick: function () {
+                        window.location.href = 'http://nlic.io/nlPTB';
+                    }
+                }
+            ]
+        },
+        {
+            element: '[data-id="id-9"]',
+            title: 'Node-Locked',
+            description: 'Software is licensed for use only on one or more <i>named computer systems</i>. Usually, CPU serial number verification is used to enforce this type of license.',
+            buttons: [
+                {
+                    title: 'Learn More',
+                    class: 'NL_button button_main NL_dark_btn NL_wide_btn',
+                    onClick: function () {
+                        window.location.href = 'http://nlic.io/nlNLK';
+                    }
+                }
+            ]
+        }
+    ];
+
+    if (searchParams.get('guidechimp') === 'on') {
+        var guideChimp = new GuideChimp(tourLicensingModels);
+
+        setTimeout(function () {
+            guideChimp.start();
+        }, 1000);
+    }
+
+</script>
+
+<style>
+    .gc-tooltip {
+        max-width: 450px;
+    }
+</style>
