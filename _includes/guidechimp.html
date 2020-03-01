@@ -49,9 +49,36 @@
         }
     ];
 
-    if (searchParams.get('guidechimp') === 'on') {
-        var guideChimp = new GuideChimp(tourLicensingModels);
+    var tourFeatures = [
+        {
+            element: '#feature-licensing-as-a-service',
+            title: 'Licensing-as-a-Service',
+            description: 'Increase flexibility! NetLicensing is cloud-based, you can start using it by just creating a free account. Start licensing your first product right away without installing any software!',
+        },
+        {
+            element: '#feature-flexible-licensing-models',
+            title: 'Flexible Licensing Models',
+            description: 'Accelerate your licensing! With NetLicensing, you can create licensing models that fit your business needs.',
+        },
+        {
+            element: '#feature-easy-setup-and-integration',
+            title: 'Easy Setup and Integration',
+            description: 'NetLicensing makes setup and integration fast, safe and very simple.',
+        },
+        {
+            element: '#feature-online-license-acquisition',
+            title: 'Online License Acquisition',
+            description: 'NetLicensing provides a seamless online purchase experience, aligned with deployed licensing models, resulting in higher conversion rates and customer retention.',
+        }
+    ];
 
+    if (searchParams.get('guidechimp') === 'on' && searchParams.get('tour') === 'licensing-models') {
+        var guideChimp = new GuideChimp(tourLicensingModels);
+        setTimeout(function () {
+            guideChimp.start();
+        }, 1000);
+    } else if (searchParams.get('guidechimp') === 'on' && searchParams.get('tour') === 'features') {
+        var guideChimp = new GuideChimp(tourLicensingModels);
         setTimeout(function () {
             guideChimp.start();
         }, 1000);
