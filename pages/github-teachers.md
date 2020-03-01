@@ -26,7 +26,7 @@ sitemap:
 </div>
 
 <div class="row NL_block" style="text-align:center;">
-    <img src="{{ '/img/partners/nnetlicensing-github-teacher-toolbox.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing for GitHub Teacher Toolbox" width="30%">
+    <img src="{{ '/img/partners/netlicensing-github-teacher-toolbox.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing for GitHub Teacher Toolbox" width="30%">
         <h2 class="col-md-12">Labs64 NetLicensing is part of the GitHub Education Program</h2>
         <p>The <a href="https://education.github.com/pack" target="_blank" rel="noopener nofollow">GitHub Teacher Toolbox</a> gives teachers free access to the best developer tools.</p>
         <p>As part of the program, you get a NetLicensing <strong>Teacher (Basic) Plan for FREE</strong>.</p>
