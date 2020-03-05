@@ -101,7 +101,7 @@ sitemap:
                 </div>
                 <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
-                        <li>Navigate to <i><a href="https://ui.netlicensing.io/#/dashboard">'Settings -> Demo Data'</a></i></li>
+                        <li>Navigate to <i><a href="https://ui.netlicensing.io/#/demo-data">'Demo Data'</a></i> page</li>
                         <li>Select <i>'Licensing Model'</i></li>
                         <li>(Optional) provide custom identifier</li>
                         <li>Click on <i>'Create'</i></li>
@@ -146,7 +146,7 @@ sitemap:
                 </div>
                 <div class="col-md-7 col-md-offset-1">
                     <ul style="margin-left: 20px;">
-                        <li>Navigate to <i><a href="https://ui.netlicensing.io/#/customers">'Operate -> Licensee'</a></i></li>
+                        <li>Navigate to <i><a href="https://ui.netlicensing.io/#/customers">'Customers'</a></i> view</li>
                         <li>Identify newly created licensee and note <i>Licensee Number</i></li>
                         <li>Send first validation request (replace %LICENSEE_NUMBER%)</li>
                         <li>In case you are using your vendor account please provide <i>username:password</i> in the <i>--user</i> attribute</li>
