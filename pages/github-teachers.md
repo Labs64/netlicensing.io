@@ -28,7 +28,7 @@ sitemap:
 <div class="row NL_block" style="text-align:center;">
     <img src="{{ '/img/partners/netlicensing-github-teacher-toolbox.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing for GitHub Teacher Toolbox" width="35%">
         <h2 class="col-md-12">Labs64 NetLicensing is part of the GitHub Education Program</h2>
-        <p>The <a href="https://education.github.com/pack" target="_blank" rel="noopener nofollow">GitHub Teacher Toolbox</a> gives teachers free access to the best developer tools.</p>
+        <p>The <a href="https://education.github.com/benefits" target="_blank" rel="noopener nofollow">GitHub Teacher Toolbox</a> gives teachers free access to the best developer tools.</p>
         <p>As part of the program, you get a NetLicensing <strong>Teacher (Basic) Plan for FREE</strong>.</p>
         <h3 class="col-md-12">How to get this offer?</h3>
         <p>Open your <a href="https://ui.netlicensing.io/#/profile">NetLicensing Profile page</a>, connect your NetLicensing vendor account to your GitHub account with the same email ID, and get Teacher Plan upgrade for free.</p>
@@ -43,7 +43,7 @@ sitemap:
     <div class="col-md-5 col-md-offset-1">
         <h3>How do I qualify for the NetLicensing offer in the GitHub Teacher Toolbox?</h3>
 
-        <p>If you qualify for the <a href="https://education.github.com/pack" target="_blank" rel="noopener nofollow">GitHub Teacher Toolbox</a> and use the same email ID for your NetLicensing and GitHub accounts, then you are eligible to apply for the NetLicensing offer.</p>
+        <p>If you qualify for the <a href="https://education.github.com/benefits" target="_blank" rel="noopener nofollow">GitHub Teacher Toolbox</a> and use the same email ID for your NetLicensing and GitHub accounts, then you are eligible to apply for the NetLicensing offer.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
         <h3>Can I upgrade if I already have free NetLicensing account?</h3>
