@@ -1459,3 +1459,12 @@
   author: "Labs64"
   publisher: "Labs64"
   creditlink: https://netlicensing.io
+
+- id: guidechimp-stage-04
+  source: /img/blog/guidechimp-stage-04.png
+  title: "Create interactive guided product tours with GuideChimp"
+  caption: "Create interactive guided product tours with GuideChimp"
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  author: "GuideChimp"
+  publisher: "GuideChimp"
+  creditlink: https://github.com/Labs64/GuideChimp
