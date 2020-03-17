@@ -6,7 +6,7 @@ author:
   name: GuideChimp
   url: https://github.com/Labs64/GuideChimp
 image:
-  url: https://raw.githubusercontent.com/Labs64/GuideChimp/master/docs/img/guidechimp-stage-04.png
+  url: /img/blog/guidechimp-stage-04.png
 tags:
   - News
   - Announcements
@@ -30,26 +30,33 @@ tags:
   - flow
 ---
 
-Customer retention and churn are the biggest concerns for almost all SaaS vendors. To engage the customers you need to help them reach "Aha!" moment faster.
-One of the proven tactics here is - Guided Product Tours.
+Customer retention and churn are the biggest concerns for almost all SaaS vendors. To engage the customers you need to help them reach *"Aha!"* moment faster.
+One of the proven tactics here is - *Guided Product Tours*.
+
 There are numerous libraries available, which allows you to create your own guided product tour and onboard customers quickly.
 Today we want to present you GuideChimp - a lightweight, extendable and most non-technical friendly library for creation of interactive guided product tours.
 
-Why is GuideChimp different
+## Why is GuideChimp different
+
 Although it does the same job as the rest of the Guided Tour libraries, the main differences are:
-extendability - use build-in plugins or contribute by developing your own plugin, which is extending GuideChimp functionality
-support modern asynchronous & single page web applications written in React, Angular, Vue.js and many others
-deferred DOM element assignment (lazy-loading)
-multi-page tour capabilities
-tour event listeners and callbacks
+* extendability - use build-in plugins or contribute by developing your own plugin, which is extending GuideChimp functionality
+* support modern asynchronous & single page web applications written in React, Angular, Vue.js and many others
+* deferred DOM element assignment (lazy-loading)
+* multi-page tour capabilities
+* tour event listeners and callbacks
+* ...any many other useful [features](https://github.com/Labs64/GuideChimp#features)
+
 GuideChimp is the most up-2-date and well-maintained library as of today, and available under Apache 2.0 License.
 
-How To Start
-Install
+## How To Start
+
+### Install
+
 There are multiple options available on how you can include GuideChimp in your application. You can choose one, which fits best in your technology stack:
-HTML Element declaration
-Node.js/npm Module
-ES6 Module
+* HTML Element declaration
+* Node.js/npm Module
+* ES6 Module
+
 Below example can be used to enable GuideChimp by adding as a HTML head elements:
 
 {% highlight html %}
@@ -60,7 +67,8 @@ Below example can be used to enable GuideChimp by adding as a HTML head elements
 <script src="https://cdn.jsdelivr.net/npm/guidechimp@1/dist/plugins/googleAnalytics.js"></script>     
 {% endhighlight %}
 
-Configure
+### Configure
+
 Below is the minimal configuration needed to create tour definition for your web app.
 
 {% highlight javascript %}
@@ -91,7 +99,7 @@ document.getElementById('startTour').onclick = function() {
 
 With this minimal configuration, you are good to go and by clicking on the element with id '#startTour' you will see GuideChimp in action.
 
-Conclusion
+## Conclusion
 
 In this article, we showcased the basic GuideChimp functionality only.
 GuideChimp is flexible enough and allows you to adopt the visual and functional part as per your requirements and website design.
@@ -99,5 +107,6 @@ GuideChimp is flexible enough and allows you to adopt the visual and functional 
 Please use GuideChimp wiki as a reference here: https://github.com/Labs64/GuideChimp/wiki
 
 We hope this GuideChimp intro will be a great use for your new user onboarding process.
-Be part of the community ( Slack ) - share your ideas and best practices, help other adopters, contribute to the GuideChimp ecosystem... be in the good company.
+Be part of the [community](https://guidechimp.slack.com) ( *Slack* ) - share your ideas and best practices, help other adopters, contribute to the GuideChimp ecosystem... be in the good company.
+
 Stay up-to-date on GuideChimp social media channels; LinkedIn, Reddit, Twitter, Instagram, Facebook.
