@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Build Guided Product Tours Using GuideChimp"
-description: "Help your customers to reach "Aha!" moment faster with GuideChimp"
+description: "Help your customers to reach Aha!-Moment faster with GuideChimp"
 author:
   name: GuideChimp
   url: https://github.com/Labs64/GuideChimp
@@ -31,10 +31,11 @@ tags:
 ---
 
 Customer retention and churn are the biggest concerns for almost all SaaS vendors. To engage the customers you need to help them reach *"Aha!"* moment faster.
+
 One of the proven tactics here is - *Guided Product Tours*.
 
-There are numerous libraries available, which allows you to create your own guided product tour and onboard customers quickly.
-Today we want to present you GuideChimp - a lightweight, extendable and most non-technical friendly library for creation of interactive guided product tours.
+There are numerous libraries available, which allow you to create your own guided product tour and onboard customers quickly.
+Today we want to present you [GuideChimp](https://github.com/Labs64/GuideChimp#features) - a lightweight, extendable and most non-technical friendly library for creation of interactive guided product tours.
 
 ## Why is GuideChimp different
 
@@ -46,7 +47,7 @@ Although it does the same job as the rest of the Guided Tour libraries, the main
 * tour event listeners and callbacks
 * ...any many other useful [features](https://github.com/Labs64/GuideChimp#features)
 
-GuideChimp is the most up-2-date and well-maintained library as of today, and available under Apache 2.0 License.
+GuideChimp is the most up-to-date and well-maintained library as of today, and available under *Apache 2.0 License*.
 
 ## How To Start
 
@@ -62,7 +63,7 @@ Below example can be used to enable GuideChimp by adding as a HTML head elements
 {% highlight html %}
 <!-- GuideChimp -->
 <script src="https://cdn.jsdelivr.net/npm/guidechimp@1/dist/guidechimp.min.js"></script>	 
-<linkrel="stylesheet" href="https://cdn.jsdelivr.net/npm/guidechimp@1/dist/guidechimp.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/guidechimp@1/dist/guidechimp.min.css">
 <!-- GuideChimp - GA plugin -->
 <script src="https://cdn.jsdelivr.net/npm/guidechimp@1/dist/plugins/googleAnalytics.js"></script>     
 {% endhighlight %}
@@ -86,7 +87,7 @@ var tour = [
 ];
 {% endhighlight %}
 
-Single tour steps can be associated with particular element on the page by defining 'element' attribute.
+Single tour steps can be associated with particular element on the page by defining `element` attribute.
 
 As a next step you need to initialize GuideChimp object and define action to start tour:
 
@@ -104,9 +105,10 @@ With this minimal configuration, you are good to go and by clicking on the eleme
 In this article, we showcased the basic GuideChimp functionality only.
 GuideChimp is flexible enough and allows you to adopt the visual and functional part as per your requirements and website design.
 
-Please use GuideChimp wiki as a reference here: https://github.com/Labs64/GuideChimp/wiki
+Please use GuideChimp wiki as a reference here: [https://github.com/Labs64/GuideChimp/wiki](https://github.com/Labs64/GuideChimp/wiki)
 
 We hope this GuideChimp intro will be a great use for your new user onboarding process.
+
 Be part of the [community](https://guidechimp.slack.com) ( *Slack* ) - share your ideas and best practices, help other adopters, contribute to the GuideChimp ecosystem... be in the good company.
 
-Stay up-to-date on GuideChimp social media channels; LinkedIn, Reddit, Twitter, Instagram, Facebook.
+Stay up-to-date on GuideChimp social media channels: [LinkedIn](https://www.linkedin.com/showcase/guidechimp), [Reddit](https://www.reddit.com/user/GuideChimp), [Twitter](https://twitter.com/GuideChimpIO), [Facebook](https://www.facebook.com/GuideChimp.IO), [Instagram](https://www.instagram.com/guidechimp/)
