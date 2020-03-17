@@ -30,35 +30,35 @@ tags:
   - flow
 ---
 
-Customer retention and churn are the biggest concerns for almost all SaaS vendors. To engage the customers you need to help them reach *"Aha!"* moment faster.
+New customers retention is a big concern for almost every SaaS provider. To engage new customers you need to help them reach *"Aha!"* moment faster.
 
-One of the proven tactics here is - *Guided Product Tours*.
+One of the proven tactics here is to offer a *Guided Product Tour*.
 
-There are numerous libraries available, which allow you to create your own guided product tour and onboard customers quickly.
-Today we want to present you [GuideChimp](https://github.com/Labs64/GuideChimp#features) - a lightweight, extendable and most non-technical friendly library for creation of interactive guided product tours.
+Numerous libraries allow you to create own guided product tours and onboard customers quickly. But today we want to present you another one - [GuideChimp](https://github.com/Labs64/GuideChimp#features) - a lightweight and extensible library that allows creating guided tours easily by every user, even inexperienced in web development.
 
-## Why is GuideChimp different
+## Why is GuideChimp different?
 
-Although it does the same job as the rest of the Guided Tour libraries, the main differences are:
-* extendability - use build-in plugins or contribute by developing your own plugin, which is extending GuideChimp functionality
-* support modern asynchronous & single page web applications written in React, Angular, Vue.js and many others
-* deferred DOM element assignment (lazy-loading)
-* multi-page tour capabilities
-* tour event listeners and callbacks
+Although it does the same job as other Guided Tour libraries, GuideChimp has a number of advantages:
+* It's easy to learn, requires minimum upfront knowledge.
+* Compatible with the modern asynchronous & single page web applications written in React, Angular, Vue.js and other web frameworks.
+* Extensible by plugins - a number of built-in plugins available or you can contribute by developing your own.
+* Minimum overhead and fast response by deferred DOM elements assignment (lazy-loading).
+* Multi-page tour capabilities.
+* Interactive tours possible by adding event listeners and callbacks.
 * ...any many other useful [features](https://github.com/Labs64/GuideChimp#features)
 
-GuideChimp is the most up-to-date and well-maintained library as of today, and available under *Apache 2.0 License*.
+GuideChimp is the most up-to-date and well-maintained library as of today. It is available under *Apache 2.0 License*.
 
 ## How To Start
 
 ### Install
 
-There are multiple options available on how you can include GuideChimp in your application. You can choose one, which fits best in your technology stack:
+There are multiple options available how you can include GuideChimp in your application. Choose the one that fits best to your technology stack:
 * HTML Element declaration
 * Node.js/npm Module
 * ES6 Module
 
-Below example can be used to enable GuideChimp by adding as a HTML head elements:
+Use below example to add GuideChimp using HTML &lt;head&gt; elements:
 
 {% highlight html %}
 <!-- GuideChimp -->
@@ -87,9 +87,9 @@ var tour = [
 ];
 {% endhighlight %}
 
-Single tour steps can be associated with particular element on the page by defining `element` attribute.
+Every tour step can be associated with particular element on the page by specifying its CSS selector in `element` attribute.
 
-As a next step you need to initialize GuideChimp object and define action to start tour:
+As a next, you need to initialize GuideChimp object and define what action or event will start the tour. In this example we hook to the click on elemnt with id `startTour` (assuming such element is present on your page):
 
 {% highlight javascript %}
 var guideChimp = new GuideChimp(tour);
@@ -98,16 +98,16 @@ document.getElementById('startTour').onclick = function() {
 };
 {% endhighlight %}
 
-With this minimal configuration, you are good to go and by clicking on the element with id '#startTour' you will see GuideChimp in action.
+That's all you need to get your first tour ready: by clicking on the element with id `startTour` you will see GuideChimp in action.
 
 ## Conclusion
 
-In this article, we showcased the basic GuideChimp functionality only.
-GuideChimp is flexible enough and allows you to adopt the visual and functional part as per your requirements and website design.
+In this article we only showed the basic GuideChimp functionality.
+GuideChimp is flexible enough and allows you to adapt it visually and functionally as per your requirements and website design.
 
 Please use GuideChimp wiki as a reference here: [https://github.com/Labs64/GuideChimp/wiki](https://github.com/Labs64/GuideChimp/wiki)
 
-We hope this GuideChimp intro will be a great use for your new user onboarding process.
+We hope this intro helped you to get started with GuideChimp, and inspired you to create first onboarding tour for your new users.
 
 ![GuideChimp](https://raw.githubusercontent.com/Labs64/guidechimp/master/docs/img/guidechimp-logo-transparent.png "GuideChimp"){:class="blog-center"}
 
