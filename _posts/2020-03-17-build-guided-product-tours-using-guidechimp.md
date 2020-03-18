@@ -89,7 +89,7 @@ var tour = [
   },
   {
     element: '#id2',
-    title: 'Step 1',
+    title: 'Step 2',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
 ];
