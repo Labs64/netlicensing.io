@@ -8,25 +8,33 @@ author:
 image:
   url: /img/blog/guidechimp-stage-04.png
 tags:
-  - News
-  - Announcements
+  - GuideChimp
+  - news
+  - announcements
+  - user adoption
+  - user onboarding
+  - user experience
+  - guided tour
+  - product tour
+  - product-led
+  - walkthrough
+  - digital adoption platform
+  - DAP
+  - user training
+  - product led growth
+  - engagement
+  - usermanual
+  - UX
   - guide
-  - guided-tour
-  - user-flow
-  - product-tour
-  - tour-guide
-  - tour-guide-app
+  - user flow
   - tour
-  - tours
-  - user-experience
   - onboarding
-  - feature-adoption
-  - employee-training
+  - feature adoption
+  - employee training
   - tooltips
   - beacon
   - hint
   - hotspot
-  - walkthrough
   - flow
 ---
 
