@@ -119,6 +119,6 @@ We hope this intro helped you to get started with GuideChimp, and inspired you t
 
 ![GuideChimp](https://raw.githubusercontent.com/Labs64/guidechimp/master/docs/img/guidechimp-logo-transparent.png "GuideChimp"){:class="blog-center"}
 
-Be part of the [community](https://guidechimp.slack.com){:target="_blank"} ( *Slack* ) - share your ideas and best practices, help other adopters, contribute to the GuideChimp ecosystem... be in the good company.
+Be part of the [community](https://discord.gg/cgs9JeK){:target="_blank"} ( *Discord* ) - share your ideas and best practices, help other adopters, contribute to the GuideChimp ecosystem... be in the good company.
 
 Stay up-to-date on GuideChimp social media channels: [LinkedIn](https://www.linkedin.com/showcase/guidechimp){:target="_blank"}, [Reddit](https://www.reddit.com/user/GuideChimp){:target="_blank"}, [Twitter](https://twitter.com/GuideChimpIO){:target="_blank"}, [Facebook](https://www.facebook.com/GuideChimp.IO){:target="_blank"}, [Instagram](https://www.instagram.com/guidechimp/){:target="_blank"}
