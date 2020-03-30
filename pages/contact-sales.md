@@ -23,7 +23,7 @@ tags:
         <div class="row NL_block">
             <div class="col-lg-12 text-center">
                 <h2>Get a Quote Today</h2>
-                <p>Email us <a href="mailto:{{ site.email }}?subject=NetLicensing%20Quote">netlicensing@labs64.com</a> or submit the form, and we’ll be in touch right away.</p>
+                <p>Email us <a href="mailto:{{ site.email }}?subject=NetLicensing%20Quote">info@netlicensing.io</a> or submit the form, and we’ll be in touch right away.</p>
             </div>
         </div>
         <div class="row">

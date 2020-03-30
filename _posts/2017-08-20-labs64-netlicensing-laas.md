@@ -55,7 +55,7 @@ website:
 [netlicensing.io](https://netlicensing.io)
 
 e-mail:
-[netlicensing@labs64.com](mailto:netlicensing@labs64.com)
+[info@netlicensing.io](mailto:info@netlicensing.io)
 
 address:
 Radlkoferstr. 2 Munich 81373 Germany

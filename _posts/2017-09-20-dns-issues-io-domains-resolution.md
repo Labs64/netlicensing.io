@@ -30,6 +30,6 @@ We will keep you posted and thanks for your patience!
 
 **Status update (17:25PM UTC):** *[Resolved]* The DNS issue is resolved and all NetLicensing services are [available](https://status.netlicensing.io) now!
 
-If you have any questions, please contact us <a href='mailto:netlicensing@labs64.com'>here</a>.
+If you have any questions, please contact us <a href='mailto:info@netlicensing.io'>here</a>.
 
 —Your NetLicensing Team

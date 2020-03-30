@@ -19,7 +19,7 @@ As the NetLicensing community continues to grow, we are making some changes to p
 Therefore, we've updated our [Terms of Service](https://www.labs64.com/legal/terms-of-service/netlicensing/2-3/) policy that clearly outlines rights, responsibilities, our privacy policy and more details about our products and services.
 The Terms of Service will be effective as of September 1, 2017.
 
-If you have any questions, please contact us <a href='mailto:netlicensing@labs64.com'>here</a>.
+If you have any questions, please contact us <a href='mailto:info@netlicensing.io'>here</a>.
 
 Thank you for being a part of the NetLicensing community!
 

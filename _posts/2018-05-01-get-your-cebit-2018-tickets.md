@@ -35,7 +35,7 @@ The pass entitles you to enter the exhibition area at CeBIT in Hannover, Germany
 
 Follow these steps to get your pass:
 
-- Send your NetLicensing *[Vendor Number](https://ui.netlicensing.io/#/profile)* to our email <a href="mailto:netlicensing@labs64.com?subject=NetLicensing%20CeBIT%202018%20Pass&amp;body=Vendor%20Number%3A%20%3CYOUR-VENDOR-NUMBER%3E">netlicensing@labs64.com</a> with the subject *'NetLicensing CeBIT 2018 Pass'*
+- Send your NetLicensing *[Vendor Number](https://ui.netlicensing.io/#/profile)* to our email <a href="mailto:info@netlicensing.io?subject=NetLicensing%20CeBIT%202018%20Pass&amp;body=Vendor%20Number%3A%20%3CYOUR-VENDOR-NUMBER%3E">info@netlicensing.io</a> with the subject *'NetLicensing CeBIT 2018 Pass'*
 
 - We will verify your submission and send you a registration link
 

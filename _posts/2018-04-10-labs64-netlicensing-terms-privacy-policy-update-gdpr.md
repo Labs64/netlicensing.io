@@ -33,7 +33,7 @@ These changes go into effect on *May 25, 2018*.
 
 To find out more about what's changing, visit our [Privacy Center](https://netlicensing.io/wiki/privacy-center).
 
-If you have any questions about these changes please contact our team directly at <a href='mailto:netlicensing@labs64.com'>netlicensing@labs64.com</a>
+If you have any questions about these changes please contact our team directly at <a href='mailto:info@netlicensing.io'>info@netlicensing.io</a>
 
 If you keep using NetLicensing after May 25, 2018, that means you're OK with the new updates.
 

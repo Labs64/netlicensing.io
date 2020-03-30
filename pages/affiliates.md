@@ -144,7 +144,7 @@ sitemap:
     <div class="col-md-4 col-md-offset-1">
         <h3>I am interested in your Affiliate Program but have more questions whom should I reach out?</h3>
 
-        <p>You can either send us a message using our chat support or write us at netlicensing@labs64.com. We’ll get back to you in no time.</p>
+        <p>You can either send us a message using our chat support or write us at info@netlicensing.io. We’ll get back to you in no time.</p>
     </div>
 </div>
 

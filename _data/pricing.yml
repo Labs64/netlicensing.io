@@ -130,10 +130,10 @@
   enterprise: "99%"
 
 - name: "Technical Support"
-  free: "Standard Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:netlicensing@labs64.com'>eMail</a> (3 days)"
-  basic: "Standard Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:netlicensing@labs64.com'>eMail</a> (3 days)"
-  premium: "Standard Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:netlicensing@labs64.com'>eMail</a> (3 days)"
-  enterprise: "Priority Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:netlicensing@labs64.com'>eMail</a> &#8226; Phone (4 hours) - 8/5"
+  free: "Standard Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (3 days)"
+  basic: "Standard Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (3 days)"
+  premium: "Standard Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (3 days)"
+  enterprise: "Priority Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> &#8226; Phone (4 hours) - 8/5"
 
 - name: "Online Licensing Training"
   free: "N"

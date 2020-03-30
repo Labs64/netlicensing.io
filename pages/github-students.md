@@ -32,7 +32,7 @@ sitemap:
         <p>As part of the program, you get a NetLicensing <strong>Student (Basic) Plan for FREE</strong> while you are a student.</p>
         <h3 class="col-md-12">How to get this offer?</h3>
         <p>Open your <a href="https://ui.netlicensing.io/#/profile">NetLicensing Profile page</a>, connect your NetLicensing vendor account to your GitHub account with the same email ID, and get Student Plan upgrade for free.</p>
-        <p>Read NetLicensing <a href="/getting-started/">Getting Started</a> tutorial and feel free to contact us for support via our <a href="/contact/">contact form</a> or via <a href="mailto:netlicensing@labs64.com">email</a>.</p>
+        <p>Read NetLicensing <a href="/getting-started/">Getting Started</a> tutorial and feel free to contact us for support via our <a href="/contact/">contact form</a> or via <a href="mailto:info@netlicensing.io">email</a>.</p>
 </div>
 
 <div class="row">
@@ -91,7 +91,7 @@ sitemap:
     <div class="col-md-4 col-md-offset-1">
         <h3>How do I contact NetLicensing with questions about the GitHub Student Developer Pack?</h3>
 
-        <p>For questions specific to this program, feel free to contact us at: <a href="mailto:netlicensing@labs64.com">netlicensing@labs64.com</a></p>
+        <p>For questions specific to this program, feel free to contact us at: <a href="mailto:info@netlicensing.io">info@netlicensing.io</a></p>
     </div>
 </div>
 
