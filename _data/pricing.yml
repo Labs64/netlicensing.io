@@ -98,8 +98,8 @@
 - name: "Product Usage Tracking"
   description: "See how your software is performing out in the wild. NetLicensing gives you insight into your licensees' product usage."
   free: "N"
-  basic: "N"
-  premium: "Basic"
+  basic: "Y"
+  premium: "Y"
   enterprise: "Y"
 
 - name: "Customized Reporting Automation"
