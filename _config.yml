@@ -30,9 +30,10 @@ blog_recommended_posts:
  - /blog/2015/10/24/infographic-how-to-select-licensing-model/
 
 # TopNav sticker
-topnav_sticker_text: "We Are Hiring!"
-topnav_sticker_url: "https://www.labs64.com/career/"
-topnav_sticker_image: "/img/labs64-hiring.png"
+topnav_sticker_text: "Request a Demo"
+topnav_sticker_url: ""
+topnav_sticker_onclick: "Calendly.initPopupWidget({url: 'https://calendly.com/netlicensing/netlicensing-demo?primary_color=853E29'});return false;"
+topnav_sticker_image: "/img/netlicensing-demo.png"
 
 # SEO
 google_analytics_tracking_id: "UA-32654174-2"
