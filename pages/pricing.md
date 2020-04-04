@@ -205,7 +205,7 @@ tags:
     <div class="col-md-4 col-md-offset-1">
         <h3>I have more questions. Who do I ask?</h3>
 
-        <p>Please <a title="Contact" href="/contact/">contact us</a> and we can put together something that fits your
+        <p>Please <a title="Contact" href="/contact/">contact us</a> or <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/netlicensing/netlicensing-demo?primary_color=853E29'});return false;">book a 1-1 call</a> and we can put together something that fits your
             specific needs.</p>
     </div>
 </div>
