@@ -1584,11 +1584,6 @@ ul#filterOptions>li.active>a {
     background: rgba(0, 0, 0, 0.05);
 }
 
-.NL_pricing ul li:nth-child(16) {
-    padding: 10px 0 0 0;
-    height: 60px;
-}
-
 .NL_pricing h3 {
     text-align: center;
     display: block;
@@ -1604,15 +1599,9 @@ ul#filterOptions>li.active>a {
     padding: 40px 0 0 0;
 }
 
-.NL_price_captions ul li,
-.NL_price_captions ul li:nth-child(16) {
+.NL_price_captions ul li {
     text-align: left;
     padding-left: 20px;
-}
-
-.NL_price_regular ul li:nth-child(16),
-.NL_price_captions ul li:nth-child(16) {
-    padding-top: 20px;
 }
 
 .NL_price_regular a {
