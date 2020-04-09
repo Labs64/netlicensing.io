@@ -40,7 +40,7 @@
    - volume
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-pricing-table.png'
-  url: "http://l64.cc/nlPTB"
+  url: "https://netlicensing.io/wiki/changelog#pricing-table-licensing-model"
 
 
 - name: "Floating"
