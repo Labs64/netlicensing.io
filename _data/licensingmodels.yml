@@ -20,7 +20,7 @@
    - Time-limited
    - Time-Based
    - TimeVolume
-  description: "Subscription licensing model allows user to enable product for a specific period of time, with the possibility of the subscription renewal. Different subscription periods can be offered each with its own price. Support for auto-renewal with recurring payment is planned."
+  description: "Subscription licensing model allows user to enable product for a specific period of time, with the possibility of the subscription renewal (incl. auto-renewal with recurring payment support). Different subscription periods can be offered each with its own price."
   tags:
    - time
   status: "AVAILABLE"
