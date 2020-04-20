@@ -25,7 +25,7 @@ sitemap:
     <!-- Step 1: Configure product -->
     <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
         <div class="NL_accordion_heading" role="tab" id="headingTwo">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true"
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
                aria-controls="collapseOne">
                 <span>1</span>Configure product
             </a>
@@ -70,7 +70,7 @@ sitemap:
     <!-- Step 2: Validate licensee -->
     <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
         <div class="NL_accordion_heading" role="tab" id="headingThree">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true"
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true"
                aria-controls="collapseOne">
                 <span>2</span>Validate licensee
             </a>
@@ -138,7 +138,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
     <!-- Step 3: Acquire licenses via NetLicensing Shop -->
     <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
         <div class="NL_accordion_heading" role="tab" id="headingFive">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true"
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true"
                aria-controls="collapseOne">
                 <span>3</span>Acquire licenses via NetLicensing Shop
             </a>
