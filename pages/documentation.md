@@ -58,7 +58,6 @@ tags:
             <div class="action col-md-12">
                 <a href="https://netlicensing.io/NetLicensing-API/">API Test Center</a>
                 <a href="https://netlicensing.io/wiki/restful-api">RESTful</a>
-                <a href="https://go.netlicensing.io/javadoc/v2/index.html">JavaDoc</a>
             </div>
         </div>
     </div>
