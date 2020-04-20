@@ -24,13 +24,13 @@ sitemap:
 <div class="row panel-group NL_accordion" id="accordion" role="tablist" aria-multiselectable="true">
     <!-- Step 1: Configure product -->
     <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
-        <div class="NL_accordion_heading" role="tab" id="headingTwo">
+        <div class="NL_accordion_heading" role="tab" id="headingOne">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
                aria-controls="collapseOne">
                 <span>1</span>Configure product
             </a>
         </div>
-        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
             <div class="panel-body row NL_accordion_content">
                 <div class="col-md-4">
 
@@ -69,13 +69,13 @@ sitemap:
 
     <!-- Step 2: Validate licensee -->
     <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
-        <div class="NL_accordion_heading" role="tab" id="headingThree">
+        <div class="NL_accordion_heading" role="tab" id="headingTwo">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true"
-               aria-controls="collapseOne">
+               aria-controls="collapseTwo">
                 <span>2</span>Validate licensee
             </a>
         </div>
-        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
             <div class="panel-body row NL_accordion_content">
                 <div class="col-md-4">
 
@@ -110,12 +110,12 @@ sitemap:
                     <div>
                     <em>Sample request:</em>
                     {% highlight bash %}
-$ curl --header "Accept: application/xml" --insecure --user demo:demo --request POST https://go.netlicensing.io/core/v2/rest/licensee/%LICENSEE_NUMBER%/validate
+$ curl -X POST --header 'Content-Type: application/x-www-form-urlencoded' --header 'Accept: application/xml' --insecure --user demo:demo 'https://go.netlicensing.io/core/v2/rest/licensee/%LICENSEE_NUMBER%/validate'
                     {% endhighlight %}
                     <em>Sample response:</em>
                     {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<netlicensing xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://netlicensing.labs64.com/schema/context" ttl="2015-08-09T06:41:15.854Z">
+<netlicensing xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://netlicensing.labs64.com/schema/context" ttl="2020-08-09T06:41:15.854Z">
     <infos/>
     <items>
         <item type="ProductModuleValidation">
@@ -123,7 +123,7 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
             <property name="valid">true</property>
             <property name="licensingModel">TryAndBuy</property>
             <property name="productModuleName">Module licensed under Try &amp; Buy LM</property>
-            <property name="evaluationExpires">2015-09-07T06:38:16.809Z</property>
+            <property name="evaluationExpires">2020-09-07T06:38:16.809Z</property>
             <property name="evaluation">true</property>
         </item>
     </items>
@@ -137,13 +137,13 @@ $ curl --header "Accept: application/xml" --insecure --user demo:demo --request 
 
     <!-- Step 3: Acquire licenses via NetLicensing Shop -->
     <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
-        <div class="NL_accordion_heading" role="tab" id="headingFive">
+        <div class="NL_accordion_heading" role="tab" id="headingThree">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true"
-               aria-controls="collapseOne">
+               aria-controls="collapseThree">
                 <span>3</span>Acquire licenses via NetLicensing Shop
             </a>
         </div>
-        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
             <div class="panel-body row NL_accordion_content">
                 <div class="col-md-4">
 
