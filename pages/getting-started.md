@@ -30,7 +30,7 @@ sitemap:
                 <span>1</span>Configure product
             </a>
         </div>
-        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
             <div class="panel-body row NL_accordion_content">
                 <div class="col-md-4">
 
