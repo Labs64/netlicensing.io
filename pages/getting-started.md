@@ -27,7 +27,7 @@ sitemap:
         <div class="NL_accordion_heading" role="tab" id="headingOne">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
                aria-controls="collapseOne">
-                <span>1</span>Configure product
+                <span>1</span>Configure Product
             </a>
         </div>
         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
@@ -72,7 +72,7 @@ sitemap:
         <div class="NL_accordion_heading" role="tab" id="headingTwo">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true"
                aria-controls="collapseTwo">
-                <span>2</span>Validate licensee
+                <span>2</span>Validate Customer
             </a>
         </div>
         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -110,7 +110,7 @@ sitemap:
                     <div>
                     <em>Sample request:</em>
                     {% highlight bash %}
-$ curl -X POST --header 'Content-Type: application/x-www-form-urlencoded' --header 'Accept: application/xml' --insecure --user demo:demo 'https://go.netlicensing.io/core/v2/rest/licensee/%LICENSEE_NUMBER%/validate'
+$ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: application/x-www-form-urlencoded' --insecure --user demo:demo 'https://go.netlicensing.io/core/v2/rest/licensee/%LICENSEE_NUMBER%/validate'
                     {% endhighlight %}
                     <em>Sample response:</em>
                     {% highlight xml %}
@@ -140,7 +140,7 @@ $ curl -X POST --header 'Content-Type: application/x-www-form-urlencoded' --head
         <div class="NL_accordion_heading" role="tab" id="headingThree">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true"
                aria-controls="collapseThree">
-                <span>3</span>Acquire licenses via NetLicensing Shop
+                <span>3</span>Acquire Licenses via NetLicensing Shop
             </a>
         </div>
         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
@@ -172,27 +172,29 @@ $ curl -X POST --header 'Content-Type: application/x-www-form-urlencoded' --head
                         <li>Create shop token for the given licensee (replace %LICENSEE_NUMBER%)<br/>
                         <em>Create token request:</em>
                         {% highlight bash %}
-$ curl --header "Accept: application/xml" --header "Content-Type: application/x-www-form-urlencoded" --insecure --user demo:demo --request POST https://go.netlicensing.io/core/v2/rest/token --data "tokenType=SHOP&licenseeNumber=%LICENSEE_NUMBER%"
+$ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: application/x-www-form-urlencoded' --insecure --user demo:demo --data 'tokenType=SHOP&licenseeNumber=%LICENSEE_NUMBER%' https://go.netlicensing.io/core/v2/rest/token
                         {% endhighlight %}
                         <em>Create token response:</em>
                         {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<netlicensing xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://netlicensing.labs64.com/schema/context">
-    <infos/>
-    <items>
-        <item type="Token">
-            <property name="number">00d08804-2d09-44c2-a853-7feffbfd2a17</property>
-            <property name="active">true</property>
-            <property name="expirationTime">2015-08-16T09:12:05.065Z</property>
-            <property name="tokenType">SHOP</property>
-            <property name="shopURL">
-                https://go.netlicensing.io/shop/v2/?shoptoken=00d08804-2d09-44c2-a853-7feffbfd2a17
-            </property>
-            <property name="licenseeNumber">INLIC-DEMO</property>
-            <property name="vendorNumber">VDEMO</property>
-        </item>
-    </items>
-</netlicensing>
+<ns2:netlicensing xmlns="http://www.w3.org/2000/09/xmldsig#" xmlns:ns2="http://netlicensing.labs64.com/schema/context">
+    <ns2:infos/>
+    <ns2:items>
+        <ns2:item type="Token">
+            <ns2:property name="number">976bde51-0014-4e2a-b97e-08ede6604054</ns2:property>
+            <ns2:property name="active">true</ns2:property>
+            <ns2:property name="expirationTime">2020-04-20T21:51:05.293Z</ns2:property>
+            <ns2:property name="tokenType">SHOP</ns2:property>
+            <ns2:property name="shopURL">https://go.netlicensing.io/shop/v2/?shoptoken=976bde51-0014-4e2a-b97e-08ede6604054</ns2:property>
+            <ns2:property name="cancelURL">https://netlicensing.io/#cancel</ns2:property>
+            <ns2:property name="successURL">https://netlicensing.io/#success</ns2:property>
+            <ns2:property name="successURLTitle">Return to netlicensing.io</ns2:property>
+            <ns2:property name="cancelURLTitle">Cancel and return to netlicensing.io</ns2:property>
+            <ns2:property name="licenseeNumber">CUST-API-KEY-SIGN-01</ns2:property>
+            <ns2:property name="vendorNumber">VDEMO</ns2:property>
+        </ns2:item>
+    </ns2:items>
+</ns2:netlicensing>
                         {% endhighlight %}
                         </li>
                         <li><i><a href="https://netlicensing.io/wiki/token-services">Create token</a></i> service returns also the complete <i>shopURL</i> for convenience</li>
