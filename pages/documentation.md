@@ -40,7 +40,7 @@ tags:
                     NetLicensing service.</p>
             </div>
             <div class="action col-md-12">
-                <a href="https://netlicensing.io/wiki/getting-started">Read More</a>
+                <a href="https://netlicensing.io/getting-started/">Read More</a>
             </div>
         </div>
     </div>
