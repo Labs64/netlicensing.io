@@ -17,7 +17,7 @@ sitemap:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>As easy as one, two, three!</h1>
-        <span>NetLicensing makes setup and integration fast, safe and very simple.<br/>So you can get up and running in a few hours.</span>
+        <span>NetLicensing makes setup and integration fast, safe and very simple.<br/>So you can get up and running in a few minutes.</span>
     </div>
 </div>
 
