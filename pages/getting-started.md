@@ -44,7 +44,7 @@ sitemap:
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title">Configure product</h4>
+                                    <h4 class="modal-title">Configure Product</h4>
                                 </div>
                                 <div class="modal-body">
                                     <img src="{{ '/img/getting-started/getting-started-02-big.png' | prepend: site.baseurl | prepend: site.url }}" alt="Configure product">
@@ -55,13 +55,8 @@ sitemap:
 
                 </div>
                 <div class="col-md-7 col-md-offset-1">
-                    <ul style="margin-left: 20px;">
-                        <li>Navigate to <i><a href="https://ui.netlicensing.io/#/demo-data">'Demo Data'</a></i> page</li>
-                        <li>Select <i>'Licensing Model'</i></li>
-                        <li>(Optional) provide custom identifier</li>
-                        <li>Click on <i>'Create'</i></li>
-                    </ul>
-                    Demo NetLicensing entities (Product, Product Module, License Templates, Licensee) will be created
+                    Create your individual <i><a href="https://ui.netlicensing.io/#/products">product</a></i> configuration and with one or more product modules; each product module is licensed according to its licensing model.<br/>
+Not sure how to configure your product? - Start over by using one of the predefined <i><a href="https://ui.netlicensing.io/#/demo-data">'Demo Data'</a></i> configurations.
                 </div>
             </div>
         </div>
@@ -89,7 +84,7 @@ sitemap:
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title">Validate licensee</h4>
+                                    <h4 class="modal-title">Validate Customer</h4>
                                 </div>
                                 <div class="modal-body">
                                     <img src="{{ '/img/getting-started/getting-started-03-big.png' | prepend: site.baseurl | prepend: site.url }}" alt="Validate licensee">
@@ -149,7 +144,7 @@ $ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: applic
 
                     <div data-toggle="modal" data-target=".bs-example-modal-lg" data-target="#step5">
                         <i class="fa fa-search-plus NL-see-popup"></i>
-                        <img src="{{ '/img/getting-started/getting-started-05.png' | prepend: site.baseurl | prepend: site.url }}" alt="Acquire licenses via NetLicensing Shop"/>
+                        <img src="{{ '/img/getting-started/getting-started-05.png' | prepend: site.baseurl | prepend: site.url }}" alt="Acquire Licenses via NetLicensing Shop"/>
                     </div>
 
                     <div id="step5" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
