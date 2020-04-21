@@ -152,7 +152,7 @@ $ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: applic
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title">Acquire licenses via NetLicensing Shop</h4>
+                                    <h4 class="modal-title">Acquire Licenses</h4>
                                 </div>
                                 <div class="modal-body">
                                     <img src="{{ '/img/getting-started/getting-started-05-big.png' | prepend: site.baseurl | prepend: site.url }}" alt="Acquire Licenses">
@@ -163,8 +163,8 @@ $ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: applic
 
                 </div>
                 <div class="col-md-7 col-md-offset-1">
-                    Automate license acquisition by using your established e-commerce solutions or NetLicensing integrated shop, which provides a seamless online purchase experience, aligned with the deployed licensing models.<br/>
-While using optional NetLicensing Shop you need to create <i><a href="https://netlicensing.io/wiki/token-services">Shop Token</a></i> and provide <i>"shopURL"</i> in the UI of your product or forward the user to NetLicensing Shop URL by other means.
+                    Automate license acquisition by using your established e-commerce solutions or an optional NetLicensing integrated shop, which provides a seamless online purchase experience, aligned with the deployed licensing models.<br/>
+While using NetLicensing Shop you need to create <i><a href="https://netlicensing.io/wiki/token-services#create-token">Shop Token</a></i> and provide <i>"shopURL"</i> in the UI of your product or forward the user to NetLicensing Shop URL by other means.<br/><br/>
                         <em>Create token request:</em>
                         {% highlight bash %}
 $ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: application/x-www-form-urlencoded' --insecure --user demo:demo --data 'tokenType=SHOP&licenseeNumber=%LICENSEE_NUMBER%' https://go.netlicensing.io/core/v2/rest/token
