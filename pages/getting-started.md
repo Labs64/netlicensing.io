@@ -95,10 +95,11 @@ Not sure how to configure your product? - Start over by using one of the predefi
 
                 </div>
                 <div class="col-md-7 col-md-offset-1">
+                    NetLicensing uses a <i>Customer-centric</i> license management approach. In comparison to the <i>License-centric</i> (legacy) systems, all customer’s licenses are kept in one place, so you don’t need to deliver license files separately. Instead, using the same unique <i>'Licensee Number'</i> you can retrieve / validate all product features the customer is entitled for.<br/>
                     At minimum you need a call to the <i><a href="https://netlicensing.io/wiki/licensee-services#validate-licensee">validate</a></i> method of the licensee services.
                     <ul style="margin-left: 20px;">
                         <li>Send first validation request (replace %LICENSEE_NUMBER%)</li>
-                        <li>Alternatively you can use API Test Center <i><a href="https://netlicensing.io/NetLicensing-API/">test application</a></i>, which provides easy access to all NetLicensing RESTful services</li>
+                        <li>Alternatively you can use an online <i><a href="https://netlicensing.io/NetLicensing-API/">API Test Center</a></i>, which provides easy access to all NetLicensing RESTful services</li>
                     </ul>
                     <div>
                     <em>Validate Request:</em>
