@@ -95,19 +95,17 @@ Not sure how to configure your product? - Start over by using one of the predefi
 
                 </div>
                 <div class="col-md-7 col-md-offset-1">
+                    At minimum you need a call to the <i><a href="https://netlicensing.io/wiki/licensee-services#validate-licensee">validate</a></i> method of the licensee services.
                     <ul style="margin-left: 20px;">
-                        <li>Navigate to <i><a href="https://ui.netlicensing.io/#/customers">'Customers'</a></i> view</li>
-                        <li>Identify newly created licensee and note <i>Licensee Number</i></li>
                         <li>Send first validation request (replace %LICENSEE_NUMBER%)</li>
-                        <li>In case you are using your vendor account please provide <i>username:password</i> in the <i>--user</i> attribute</li>
-                        <li>Alternatively you can use NetLicensing API <i><a href="https://netlicensing.io/NetLicensing-API/">test application</a></i>, which provides easy access to all NetLicensing functions</li>
+                        <li>Alternatively you can use API Test Center <i><a href="https://netlicensing.io/NetLicensing-API/">test application</a></i>, which provides easy access to all NetLicensing RESTful services</li>
                     </ul>
                     <div>
-                    <em>Sample request:</em>
+                    <em>Validate Request:</em>
                     {% highlight bash %}
 $ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: application/x-www-form-urlencoded' --insecure --user demo:demo 'https://go.netlicensing.io/core/v2/rest/licensee/%LICENSEE_NUMBER%/validate'
                     {% endhighlight %}
-                    <em>Sample response:</em>
+                    <em>Validate Response:</em>
                     {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <netlicensing xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://netlicensing.labs64.com/schema/context" ttl="2020-08-09T06:41:15.854Z">
@@ -163,13 +161,13 @@ $ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: applic
 
                 </div>
                 <div class="col-md-7 col-md-offset-1">
-                    Automate license acquisition by using your established e-commerce solutions or an optional NetLicensing integrated shop, which provides a seamless online purchase experience, aligned with the deployed licensing models.<br/>
-While using NetLicensing Shop you need to create <i><a href="https://netlicensing.io/wiki/token-services#create-token">Shop Token</a></i> and provide <i>"shopURL"</i> in the UI of your product or forward the user to NetLicensing Shop URL by other means.<br/><br/>
-                        <em>Create token request:</em>
+                    Automate licenses acquisition by using your established e-commerce solutions or an optional NetLicensing integrated shop, which provides a seamless online purchase experience, aligned with the deployed licensing models.<br/>
+While using NetLicensing Shop you need to create <i><a href="https://netlicensing.io/wiki/token-services#create-token">Shop Token</a></i> and provide <i>'shopURL'</i> in the UI of your product or forward the user to NetLicensing Shop URL by other means.<br/><br/>
+                        <em>Create Token Request:</em>
                         {% highlight bash %}
 $ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: application/x-www-form-urlencoded' --insecure --user demo:demo --data 'tokenType=SHOP&licenseeNumber=%LICENSEE_NUMBER%' https://go.netlicensing.io/core/v2/rest/token
                         {% endhighlight %}
-                        <em>Create token response:</em>
+                        <em>Create Token Response:</em>
                         {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ns2:netlicensing xmlns="http://www.w3.org/2000/09/xmldsig#" xmlns:ns2="http://netlicensing.labs64.com/schema/context">
