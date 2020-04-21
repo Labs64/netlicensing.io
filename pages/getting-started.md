@@ -22,7 +22,7 @@ sitemap:
 </div>
 
 <div class="row panel-group NL_accordion" id="accordion" role="tablist" aria-multiselectable="true">
-    <!-- Step 1: Configure product -->
+    <!-- Step 1: Configure Product -->
     <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
         <div class="NL_accordion_heading" role="tab" id="headingOne">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
@@ -55,14 +55,14 @@ sitemap:
 
                 </div>
                 <div class="col-md-7 col-md-offset-1">
-                    Create your individual <i><a href="https://ui.netlicensing.io/#/products">product</a></i> configuration and with one or more product modules; each product module is licensed according to its licensing model.<br/>
+                    Create your individual <i><a href="https://ui.netlicensing.io/#/products">product</a></i> configuration with one or more product modules. Each module is licensed according to its <i><a href="/licensing-models/">licensing model</a></i>.<br/>
 Not sure how to configure your product? - Start over by using one of the predefined <i><a href="https://ui.netlicensing.io/#/demo-data">'Demo Data'</a></i> configurations.
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Step 2: Validate licensee -->
+    <!-- Step 2: Validate Customer -->
     <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
         <div class="NL_accordion_heading" role="tab" id="headingTwo">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true"
@@ -130,12 +130,12 @@ $ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: applic
         </div>
     </div>
 
-    <!-- Step 3: Acquire licenses via NetLicensing Shop -->
+    <!-- Step 3: Acquire Licenses -->
     <div class="panel NL_accordion_panel col-md-10 col-md-offset-1">
         <div class="NL_accordion_heading" role="tab" id="headingThree">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true"
                aria-controls="collapseThree">
-                <span>3</span>Acquire Licenses via NetLicensing Shop
+                <span>3</span>Acquire Licenses
             </a>
         </div>
         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
@@ -144,7 +144,7 @@ $ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: applic
 
                     <div data-toggle="modal" data-target=".bs-example-modal-lg" data-target="#step5">
                         <i class="fa fa-search-plus NL-see-popup"></i>
-                        <img src="{{ '/img/getting-started/getting-started-05.png' | prepend: site.baseurl | prepend: site.url }}" alt="Acquire Licenses via NetLicensing Shop"/>
+                        <img src="{{ '/img/getting-started/getting-started-05.png' | prepend: site.baseurl | prepend: site.url }}" alt="Acquire Licenses"/>
                     </div>
 
                     <div id="step5" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
@@ -155,7 +155,7 @@ $ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: applic
                                     <h4 class="modal-title">Acquire licenses via NetLicensing Shop</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <img src="{{ '/img/getting-started/getting-started-05-big.png' | prepend: site.baseurl | prepend: site.url }}" alt="Acquire licenses via NetLicensing Shop">
+                                    <img src="{{ '/img/getting-started/getting-started-05-big.png' | prepend: site.baseurl | prepend: site.url }}" alt="Acquire Licenses">
                                 </div>
                             </div>
                         </div>
@@ -163,8 +163,8 @@ $ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: applic
 
                 </div>
                 <div class="col-md-7 col-md-offset-1">
-                    <ul style="margin-left: 20px;">
-                        <li>Create shop token for the given licensee (replace %LICENSEE_NUMBER%)<br/>
+                    Automate license acquisition by using your established e-commerce solutions or NetLicensing integrated shop, which provides a seamless online purchase experience, aligned with the deployed licensing models.<br/>
+While using optional NetLicensing Shop you need to create <i><a href="https://netlicensing.io/wiki/token-services">Shop Token</a></i> and provide <i>"shopURL"</i> in the UI of your product or forward the user to NetLicensing Shop URL by other means.
                         <em>Create token request:</em>
                         {% highlight bash %}
 $ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: application/x-www-form-urlencoded' --insecure --user demo:demo --data 'tokenType=SHOP&licenseeNumber=%LICENSEE_NUMBER%' https://go.netlicensing.io/core/v2/rest/token
@@ -191,15 +191,6 @@ $ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: applic
     </ns2:items>
 </ns2:netlicensing>
                         {% endhighlight %}
-                        </li>
-                        <li><i><a href="https://netlicensing.io/wiki/token-services">Create token</a></i> service returns also the complete <i>shopURL</i> for convenience</li>
-                        <li>Provide a link to NetLicensing Shop (<i>shopURL</i>) in the UI of your product or forward the user to NetLicensing Shop URL by other means</li>
-                        <li>The URL of NetLicensing Shop has the following format:
-                        {% highlight ruby %}
-https://go.netlicensing.io/shop/v2/?shoptoken=%TOKEN_NUMBER%
-                        {% endhighlight %}
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
