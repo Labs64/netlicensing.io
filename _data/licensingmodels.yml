@@ -31,6 +31,7 @@
 - name: "Pricing Table (beta)"
   aliases:
    - Pricing Plan
+   - Pricing Model
    - Membership Plan
    - SaaS Subscription
   description: "Price and package in minutes without having to re-code or re-engineer back-office systems."
@@ -40,7 +41,7 @@
    - volume
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-pricing-table.png'
-  url: "https://netlicensing.io/wiki/changelog#pricing-table-licensing-model"
+  url: "http://l64.cc/nlPTB"
 
 
 - name: "Floating"
