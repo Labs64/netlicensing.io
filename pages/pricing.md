@@ -18,7 +18,7 @@ tags:
 </div>
 
 <div id="pricing-header" class="row NL_block" style="text-align:center;">
-    <p class="col-md-8 col-md-offset-2">Choose a standard plan or see <a href="#custom-plans">more options below</a>. All plans include 90-day Free Premium Trial (risk-free, no credit card required).</p>
+    <p class="col-md-8 col-md-offset-2">Choose a standard plan or see <a href="#custom-plans">more options below</a>.<br/>All plans include 90-day Free Premium Trial (risk-free, no credit card required).</p>
 </div>
 
 <div class="row NL_block NL_pricing">
