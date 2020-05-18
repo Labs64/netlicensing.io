@@ -1,0 +1,14 @@
+- name: "Individual Setup"
+  description: "Advanced functionality for specific requirements."
+  icon: "/img/features/flexible_licensing_models.png"
+  url: https://netlicensing.io/contact-sales/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=custom
+
+- name: "Github Student Developer Pack"
+  description: "As part of the program, you get a NetLicensing Student (Basic) Plan for FREE while you are a student."
+  icon: "/img/features/flexible_licensing_models.png"
+  url: https://netlicensing.io/github-students/
+
+- name: "GitHub Teacher Toolbox"
+  description: "As part of the program, you get a NetLicensing Teacher (Basic) Plan for FREE."
+  icon: "/img/features/flexible_licensing_models.png"
+  url: https://netlicensing.io/github-teachers/
