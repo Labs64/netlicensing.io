@@ -17,6 +17,10 @@ tags:
     </div>
 </div>
 
+<div id="pricing-header" class="row NL_block" style="text-align:center;">
+    <p class="col-md-8 col-md-offset-2">Choose a standard plan or see <a href="#custom-plans">more options below</a>. All plans include 90-day Free Premium Trial (risk-free, no credit card required).</p>
+</div>
+
 <div class="row NL_block NL_pricing">
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_captions">
@@ -117,8 +121,8 @@ tags:
 
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_regular">
-            <h3><strong style="font-size:larger;">Individual Setup</strong><br/>Advanced functionality for specific requirements</h3>
-            <div class="NL_price_tag">Enterprise</div>
+            <h3><strong style="font-size:larger;">Enterprise</strong><br/>Advanced functionality for specific requirements</h3>
+            <div class="NL_price_tag">Individual</div>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
@@ -141,7 +145,7 @@ tags:
     </div>
 </div>
 
-<div id="github-students" class="row NL_block" style="text-align:center;">
+<div id="custom-plans" class="row NL_block" style="text-align:center;">
     <p class="col-md-8 col-md-offset-2">Free access to <a href="/github-students/">Student Plan</a> via <strong>Github Student Developer Pack</strong>.</p>
 </div>
 
