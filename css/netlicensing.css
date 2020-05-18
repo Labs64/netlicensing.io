@@ -1596,7 +1596,7 @@ ul#filterOptions>li.active>a {
 }
 
 .NL_price_captions h3 {
-    padding: 40px 0 0 0;
+    padding: 60px 0 0 0;
 }
 
 .NL_price_captions ul li {
@@ -1662,8 +1662,8 @@ a.NL_pricing_tooltip {
     font-size: 28px;
     font-weight: bold;
     color: #853E29;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
 
 /* 5 columns pricing */
