@@ -151,17 +151,16 @@ tags:
     <h2 class="col-md-12">Our custom plans and special offers</h2>
 </div>
 
-<div class="row">
+<div class="row NL_block">
     <div style="padding:40px;">
         {% for customplan in site.data.customplans %}
-        <div class="col-md-3 NL_feature" id="customplan-{{ customplan.name | slugify }}">
+        <div class="col-md-4 NL_feature" id="customplan-{{ customplan.name | slugify }}">
             <figure class="hover_effect">
                 <figcaption>
                 <img src="{{ customplan.icon | prepend: site.baseurl | prepend: site.url }}" alt="{{ customplan.name }}"/>
                 <h3>
-                {{ customplan.name }}
+                <a href="{{ customplan.url }}">{{ customplan.name }}</a>
                 </h3>
-
                 <p>{{ customplan.description }}</p>
                 </figcaption>
             </figure>
