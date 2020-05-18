@@ -120,7 +120,7 @@
   free: "Cloud"
   basic: "Cloud"
   premium: "Cloud"
-  enterprise: "Cloud"
+  enterprise: "Cloud &#8226; Managed Service"
 
 - name: "<a href='https://www.labs64.com/legal/terms-of-service/netlicensing/service-level-agreement-1-0/'>Service Level Agreement</a>"
   description: "Get extra guarantee with the Service Level Agreement (SLA): we take care your licensing is up and running 99.0% of the time."
