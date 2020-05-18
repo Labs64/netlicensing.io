@@ -64,6 +64,7 @@
   description: "This is a complex licensing model, useful in the case you want to license multiple instances of some entity, each instance for a certain period of time. In other words it can be described as a bunch of independent subscriptions, where customer decides in addition for how many instances he wants to subscribe."
   tags:
    - time
+   - feature
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-rental.png'
   url: "http://l64.cc/nlRNT"
@@ -121,7 +122,6 @@
    - Local
   description: "Software is licensed for use only on one or more named computer systems. Usually, CPU serial number verification is used to enforce this type of license."
   tags:
-   - time
    - volume
    - feature
    - user
