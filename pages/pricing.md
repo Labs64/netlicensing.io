@@ -12,8 +12,8 @@ tags:
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
-        <h1>Choose optimal pricing for your scale</h1>
-        <span>Whether you’re just getting started or are ready to bring licensing to your enterprise,<br/>there is a NetLicensing level that’s right for you.<br/><br/>All new registrations receive a <strong>90-days Free Premium Trial</strong>, no credit card required.</span>
+        <h1>Grow better with the right plan</h1>
+        <span>All plans are built on top of the "FREE forever", upgrade is possible at any time.</span>
     </div>
 </div>
 
@@ -118,7 +118,7 @@ tags:
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_regular">
             <h3><strong style="font-size:larger;">Individual Setup</strong><br/>Advanced functionality for specific requirements</h3>
-            <div class="NL_price_tag">Customizable</div>
+            <div class="NL_price_tag">Enterprise</div>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
