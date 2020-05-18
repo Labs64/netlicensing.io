@@ -13,7 +13,7 @@ tags:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Grow better with the right plan</h1>
-        <span>All plans are built on top of the "FREE forever", upgrade is possible at any time.</span>
+        <span>All plans are built on top of the "FREE forever",<br/>upgrade is possible at any time.</span>
     </div>
 </div>
 
