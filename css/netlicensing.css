@@ -1559,6 +1559,10 @@ ul#filterOptions>li.active>a {
     display: none;
 }
 
+.NL_pricing {
+    margin-top: 20px;
+}
+
 .NL_pricing ul {
     margin: 0 0;
     padding: 0 0;
