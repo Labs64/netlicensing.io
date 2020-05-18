@@ -116,7 +116,7 @@
   premium: "N"
   enterprise: "Y"
 
-- name: "Maintenance/Updates"
+- name: "Hosting/Maintenance"
   free: "Cloud"
   basic: "Cloud"
   premium: "Cloud"
