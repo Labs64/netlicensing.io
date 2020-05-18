@@ -18,7 +18,7 @@ tags:
 </div>
 
 <div class="row NL_block" style="text-align:center;">
-    <h3 class="col-md-12">Choose a standard plan or see <a href="#custom-plans">more options below</a>.<br/>All plans include 90-day Free Premium Trial (risk-free, no credit card required).</h3>
+    <h3 class="col-md-12">Choose a standard plan or see <a href="#custom-plans">more options below</a>.<br/>All plans include <strong>90-day Free Premium Trial</strong> (risk-free, no credit card required).</h3>
 </div>
 
 <div class="row NL_block NL_pricing">
@@ -149,7 +149,25 @@ tags:
 
 <div id="custom-plans" class="row NL_block">
     <h2 class="col-md-12">Our custom plans and special offers</h2>
-    <p class="col-md-8 col-md-offset-2">Free access to <a href="/github-students/">Student Plan</a> via <strong>Github Student Developer Pack</strong>.</p>
+</div>
+
+<div class="row">
+    <div style="padding:40px;">
+        {% for customplan in site.data.customplans %}
+        <div class="col-md-3 NL_feature" id="customplan-{{ customplan.name | slugify }}">
+            <figure class="hover_effect">
+                <figcaption>
+                <img src="{{ customplan.icon | prepend: site.baseurl | prepend: site.url }}" alt="{{ customplan.name }}"/>
+                <h3>
+                {{ customplan.name }}
+                </h3>
+
+                <p>{{ customplan.description }}</p>
+                </figcaption>
+            </figure>
+        </div>
+        {% endfor %}
+    </div>
 </div>
 
 <div id="faq" class="row NL_block">
