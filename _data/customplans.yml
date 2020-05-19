@@ -1,14 +1,17 @@
 - name: "Individual Setup"
   description: "Have a specific optimization need? Request a quote and build your customized licensing platform."
   icon: "/img/features/flexible_licensing_models.png"
-  url: https://netlicensing.io/contact-sales/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=custom
+  url: http://l64.cc/questionnaire
+  call-to-action: Get a Quote
 
 - name: "Github Student Developer Pack"
   description: "As part of the program, you get a NetLicensing Student (Basic) Plan for FREE while you are a student."
   icon: "/img/features/flexible_licensing_models.png"
   url: https://netlicensing.io/github-students/
+  call-to-action: Claim Offer
 
 - name: "GitHub Teacher Toolbox"
   description: "As part of the program, you get a NetLicensing Teacher (Basic) Plan for FREE."
   icon: "/img/features/flexible_licensing_models.png"
   url: https://netlicensing.io/github-teachers/
+  call-to-action: Claim Offer
