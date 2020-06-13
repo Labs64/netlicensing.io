@@ -124,6 +124,7 @@ $ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: applic
 </netlicensing>
                     {% endhighlight %}
                     </div>
+                    Use NetLicensing <a href="https://netlicensing.io/wiki/client-libraries">client libraries</a> as a foundation for integrating NetLicensing in your code.
                 </div>
             </div>
         </div>
