@@ -55,7 +55,7 @@ sitemap:
 
                 </div>
                 <div class="col-md-7 col-md-offset-1">
-                    Create your individual <i><a href="https://ui.netlicensing.io/#/products">product</a></i> configuration with one or more product modules. Each module is licensed according to its <i><a href="/licensing-models/">licensing model</a></i>.<br/>
+                    <a href="https://netlicensing.io/wiki/planning">Elaborate</a> the licensing scheme for your product and create your individual <i><a href="https://ui.netlicensing.io/#/products">product</a></i> configuration with one or more product modules. Each module is licensed according to its <i><a href="/licensing-models/">licensing model</a></i>.<br/>
 Not sure how to configure your product? - Start over by using one of the predefined <i><a href="https://ui.netlicensing.io/#/demo-data">'Demo Data'</a></i> configurations.
                 </div>
             </div>
