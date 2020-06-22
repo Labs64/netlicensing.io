@@ -22,7 +22,7 @@ tags:
 
 Most people today don’t know that only three percent of GDP is online. That’s why we’re excited to join the Stripe Partner Program to increase internet commerce and help companies start, run, and scale their businesses.
 
-By <a title="Stripe Partner Program" href="https://stripe.com/works-with/labs64" target="_blank" rel="nofollow">joining the program</a>, our mutual customers will now benefit from the combination of Labs64 NetLicensing services with Stripe’s seamless payments platform.
+By <a title="Stripe Partner Program" href="#" target="_blank" rel="nofollow">joining the program</a>, our mutual customers will now benefit from the combination of Labs64 NetLicensing services with Stripe’s seamless payments platform.
 
 Labs64 NetLicensing is a first-class solution in the Licensing-as-a-Service sector. Based on open standards, it provides a cost-effective, integrated and scalable licensing platform for your software. NetLicensing allows to deliver product licenses to the customers and activate them 24x7x365, without customer support involvement.
 
