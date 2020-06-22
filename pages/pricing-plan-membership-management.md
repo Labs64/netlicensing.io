@@ -28,7 +28,7 @@ sitemap:
                 <img src="{{ '/img/pricing-table/netlicensing-pricing-table-01-create.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Create" title="NetLicensing Pricing Table - Create">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
-                <h2>Create</h2>
+                <h2>Create and manage Pricing Plans</h2>
                 <span>Setup and manage your pricing plans for any product instantly with NetLicensing’s configurable and easy-to-use UI.</span>
                 <span>Define multiple tiers, trials, quantity, and pricing models like flat fee, quantity-based charges.</span>
             </article>
@@ -69,14 +69,14 @@ sitemap:
 <div class="row">
     <div class="col-md-12 NL_form_light NL_block">
         <div class="col-md-8 col-md-offset-2 NL_form_light_text">
-            <h2>Still unsure?</h2>
-            <span> Step Inside and See What the Future Looks Like.</span>
+            <h2>Stay ahead of your competitors!</h2>
+            <span>Step inside and start designing your Pricing Plans now.</span>
 
             <form action="/contact/" method="GET"
-                  name="Design Pricing Table" id="pricing-table"
+                  name="Design your Pricing Plans now" id="pricing-table"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
-                    <i class="fa fa-cogs "></i>Design your first Pricing Table
+                    <i class="fa fa-cogs "></i>Design your Pricing Plans now
                 </button>
             </form>
         </div>
