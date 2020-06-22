@@ -7,17 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - uses: chabad360/htmlproofer@master
+      with:
+        directory: "./_site"
+        arguments: --allow-hash-href
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
-  verify:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-    - uses: chabad360/htmlproofer@master
-    - name: Check HTML
-      with:
-        directory: "./_site"
-        arguments: --allow-hash-href
