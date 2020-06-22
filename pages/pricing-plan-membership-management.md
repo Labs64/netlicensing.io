@@ -36,8 +36,8 @@ sitemap:
 
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
-                <h2>Publish</h2>
-                <span>Embed – with a single line of code</span>
+                <h2>Publish your Pricing Plan</h2>
+                <span>Easily embed designed pricing plan on your website or SaaS product with a few clicks only.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
                 <img src="{{ '/img/pricing-table/netlicensing-pricing-table-01-create.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Publish" title="NetLicensing Pricing Table - Publish">
@@ -56,8 +56,8 @@ sitemap:
         
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
-                <h2>Manage Customers</h2>
-                <span>Manage your website, audience, and business.</span>
+                <h2>Manage your Customers</h2>
+                <span>See how your plans are performing, as well as manage your customers' entitlements using easy-to-use UI.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
                 <img src="{{ '/img/pricing-table/netlicensing-pricing-table-01-create.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Manage Customers" title="NetLicensing Pricing Table - Manage Customers">
