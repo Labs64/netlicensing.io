@@ -2,7 +2,7 @@
 
 # [Labs64 NetLicensing](https://netlicensing.io) - Innovative License Management Solution
 
-[![Build Status](https://travis-ci.org/Labs64/netlicensing.io.svg?branch=gh-pages)](https://travis-ci.org/Labs64/netlicensing.io)
+[![Build netlicensing.io](https://github.com/Labs64/netlicensing.io/workflows/Build%20netlicensing.io/badge.svg)](https://github.com/Labs64/netlicensing.io/actions?query=workflow%3A%22Build+netlicensing.io%22)
 
 Visit Labs64 NetLicensing at https://netlicensing.io
 
