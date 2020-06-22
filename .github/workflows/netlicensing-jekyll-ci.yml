@@ -14,3 +14,9 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+
+    - uses: chabad360/htmlproofer@master
+    - name: Check HTML
+      with:
+        directory: "./public"
+        arguments: --allow-hash-href
