@@ -49,8 +49,8 @@ sitemap:
                 <img src="{{ '/img/pricing-table/netlicensing-pricing-table-01-create.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Integrate" title="NetLicensing Pricing Table - Integrate">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
-                <h2>Integrate</h2>
-                <span>Integrate easily in 10 minutes only.</span>
+                <h2>Validate Membership Status</h2>
+                <span>Enable instant membership validation in your products and services with the simple RESTful API call.</span>
             </article>
         </section>
         
