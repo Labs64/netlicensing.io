@@ -36,21 +36,21 @@ sitemap:
 
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
-                <h2>Publish your Pricing Plan</h2>
-                <span>Easily embed designed pricing plan on your website or SaaS product with a few clicks only.</span>
+                <h2>Validate Membership Status</h2>
+                <span>Enable instant membership validation in your products and services with the simple RESTful API call.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/pricing-table/netlicensing-pricing-table-01-create.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Publish" title="NetLicensing Pricing Table - Publish">
+                <img src="{{ '/img/pricing-table/netlicensing-pricing-table-01-create.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Integrate" title="NetLicensing Pricing Table - Integrate">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/pricing-table/netlicensing-pricing-table-01-create.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Integrate" title="NetLicensing Pricing Table - Integrate">
+                <img src="{{ '/img/pricing-table/netlicensing-pricing-table-01-create.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Publish" title="NetLicensing Pricing Table - Publish">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
-                <h2>Validate Membership Status</h2>
-                <span>Enable instant membership validation in your products and services with the simple RESTful API call.</span>
+                <h2>Publish your Pricing Plan</h2>
+                <span>Easily embed designed pricing plan on your website or SaaS product with a few clicks only.</span>
             </article>
         </section>
         
