@@ -72,7 +72,7 @@ sitemap:
             <h2>Stay ahead of your competitors!</h2>
             <span>Step inside and start designing your Pricing Plans now.</span>
 
-            <form action="/contact/" method="GET"
+            <form action="https://ui.netlicensing.io" method="GET"
                   name="Design your Pricing Plans now" id="pricing-table"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
