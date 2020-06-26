@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Pricing Plan & Membership Management System"
+title: "Membership Management System"
 description: "Pricing Plan & Membership Management System built for growth-minded SaaS people"
-permalink: "/pricing-plan-membership-management/"
+permalink: "/membership-management/"
 tags:
 - pricing plan
 - membership management
@@ -16,7 +16,7 @@ sitemap:
 
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
-        <h1>Pricing Plan & Membership Management System</h1>
+        <h1>Membership Management System</h1>
         <span>Built for growth-minded SaaS people.</span>
     </div>
 </div>
@@ -71,11 +71,11 @@ sitemap:
             <h2>Stay ahead of your competitors!</h2>
             <span>Step inside and start designing your Pricing Plans now.</span>
 
-            <form action="https://ui.netlicensing.io" method="GET"
-                  name="Design your Pricing Plans now" id="pricing-table"
+            <form action="https://netlicensing.io/wiki/pricing-table" method="GET"
+                  name="See how to design your Pricing Plans" id="pricing-table"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
-                    <i class="fa fa-cogs "></i>Design your Pricing Plans now
+                    <i class="fa fa-cogs "></i>See how to design your Pricing Plans
                 </button>
             </form>
         </div>
