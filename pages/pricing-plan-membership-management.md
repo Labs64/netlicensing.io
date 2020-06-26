@@ -28,16 +28,15 @@ sitemap:
                 <img src="{{ '/img/pricing-table/netlicensing-pricing-table-01-create.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Create" title="NetLicensing Pricing Table - Create">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
-                <h2>Create and manage Pricing Plans</h2>
-                <span>Setup and manage your pricing plans for any product instantly with NetLicensing’s configurable and easy-to-use UI.</span>
-                <span>Define multiple tiers, trials, quantity, and pricing models like flat fee, quantity-based charges.</span>
+                <h2>Stand out from the crowd by creating tailored pricing plans</h2>
+                <span>Setting up your pricing table with NetLicensing is quick, easy, and flexible. Promptly setup and manage pricing plans for your products with NetLicensing’s easy-to-use and configurable UI. Create multiple pricing plans with the maximum flexibility in order to evaluate which strategy better fits your customer’s needs.</span>
             </article>
         </section>
 
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
-                <h2>Validate Membership Status</h2>
-                <span>Enable instant membership validation in your products and services with the simple RESTful API call.</span>
+                <h2>Validate Customers’ Membership Status</h2>
+                <span>With NetLicensing simple RESTful API call, you can easily validate your customer’s membership into your product and service at any time. The process is quick, flexible, and it is fully made on our platform.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
                 <img src="{{ '/img/pricing-table/netlicensing-pricing-table-01-create.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Integrate" title="NetLicensing Pricing Table - Integrate">
@@ -49,15 +48,15 @@ sitemap:
                 <img src="{{ '/img/pricing-table/netlicensing-pricing-table-01-create.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Publish" title="NetLicensing Pricing Table - Publish">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
-                <h2>Publish your Pricing Plan</h2>
-                <span>Easily embed designed pricing plan on your website or SaaS product with a few clicks only.</span>
+                <h2>Integrate Pricing Plan on your Website</h2>
+                <span>NetLicensing Pricing Plan can be easily embedded on your website or SaaS product with just few easy and straightforward steps to follow. Our UI, being highly intuitive and visually clear to use, permits to complete the overall process in just few minutes.</span>
             </article>
         </section>
         
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
-                <h2>Manage your Customers</h2>
-                <span>See how your plans are performing, as well as manage your customers' entitlements using easy-to-use UI.</span>
+                <h2>Manage all your customers on just one platform</h2>
+                <span>Customer Membership Management was never this easy before. With NetLicensing, you can instantly see how your plans are performing over time as well as make actions that will influence your customer’s memberships such as enabling/disabling or also extending their plan.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
                 <img src="{{ '/img/pricing-table/netlicensing-pricing-table-01-create.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Manage Customers" title="NetLicensing Pricing Table - Manage Customers">
