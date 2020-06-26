@@ -16,8 +16,8 @@ sitemap:
 
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
-        <h1>Membership Management System</h1>
-        <span>Built for growth-minded SaaS people.</span>
+        <h1>Grow your business by automating your operations with a new intuitive Membership Management Software</h1>
+        <span>Create and Experiment different pricing strategies to stay ahead of your competitors.</span>
     </div>
 </div>
 
@@ -68,8 +68,8 @@ sitemap:
 <div class="row">
     <div class="col-md-12 NL_form_light NL_block">
         <div class="col-md-8 col-md-offset-2 NL_form_light_text">
-            <h2>Stay ahead of your competitors!</h2>
-            <span>Step inside and start designing your Pricing Plans now.</span>
+            <h2>Ready to find your perfect Membership Management strategy?</h2>
+            <span>Reduce the stress of daily manual work with a solution that fits your business needs.</span>
 
             <form action="https://netlicensing.io/wiki/pricing-table" method="GET"
                   name="See how to design your Pricing Plans" id="pricing-table"
