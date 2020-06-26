@@ -16,7 +16,7 @@ sitemap:
 
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
-        <h1>Grow your business by automating your operations with a new intuitive Membership Management Software</h1>
+        <h1>Grow your business with an intuitive<br>Membership Management Software</h1>
         <span>Create and Experiment different pricing strategies to stay ahead of your competitors.</span>
     </div>
 </div>
