@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: https://netlicensing.io
 image:
-  url: /img/blog/blog-placeholder.jpg
+  url: /img/blog/netlicensing-covid19-01.png
 tags:
   - Labs64
   - NetLicensing
