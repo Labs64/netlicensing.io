@@ -139,11 +139,12 @@ p.blog_img_credit {
 }
 
 .post-content p {
+    font-size: 16px;
     text-align: justify;
 }
 
 .post-content p em {
-    font-size: 14px;
+    font-size: 16px;
     color: #3f4549;
 }
 
