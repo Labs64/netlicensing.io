@@ -1477,3 +1477,12 @@
   author: "GuideChimp"
   publisher: "GuideChimp"
   creditlink: https://github.com/Labs64/GuideChimp
+
+- id: netlicensing-try-buy
+  source: /img/blog/netlicensing-try-buy.png
+  title: "NetLicensing - Try & Buy licensing model"
+  caption: "NetLicensing - Try & Buy licensing model"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io/wiki/try-n-buy
