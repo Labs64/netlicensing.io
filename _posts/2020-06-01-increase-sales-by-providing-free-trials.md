@@ -29,4 +29,4 @@ To successfully [manage trials](https://netlicensing.io/wiki/try-n-buy) there ar
 - Assure that the user, at the end of the trail, will be able to gain an **understanding** of your product benefits
 - Constantly **manage** trial evaluation to understand customers' needs and improve their experience
 
-If used in the right way, trials are a great way to increase your revenue by boosting sales. Companies should first focus on the customer experience to ensure that they, through the trial period, will be able to have a clear understanding of why your product is essential for them.
+If properly used, trials are a great way to increase your revenue by boosting sales. Companies should first focus on the customer experience to ensure that they, through the trial period, will be able to have a clear understanding of why your product is essential for them.
