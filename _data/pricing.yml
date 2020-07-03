@@ -57,7 +57,7 @@
 
 - name: "Licensing Models"
   description: "Accelerate your licensing! With NetLicensing, you can create licensing models that fit your business needs."
-  free: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a><br/>&nbsp;"
+  free: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/pricing-table'>Pricing Table</a><br/>&nbsp;"
   basic: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a><br/>&nbsp;"
   premium: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a> &#8226; <a href='https://netlicensing.io/wiki/rental'>Rental</a>"
   enterprise: "<a href='/licensing-models/'>All supported</a><br/>&nbsp;"
