@@ -110,10 +110,17 @@
   enterprise: "Y"
 
 - name: "NetLicensing Agent"
-  description: "Offline Licensing"
+  description: "Offline validation using NetLicensing Agent on customers’ premises."
   free: "N"
   basic: "N"
   premium: "N"
+  enterprise: "Y"
+
+- name: "Customer Portal"
+  description: "Allow your customers to see and manage their licenses."
+  free: "N"
+  basic: "N"
+  premium: "Y"
   enterprise: "Y"
 
 - name: "Hosting/Maintenance"
