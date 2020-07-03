@@ -1,5 +1,5 @@
 - name: "Individual Setup"
-  description: "Have a specific optimization need?<br>Request a quote by filling this <a href="http://l64.cc/questionnaire" title="Individual Setup Questionnaire">questionnaire</a> and build your customized licensing platform."
+  description: "Have a specific optimization need?<br>Request a quote by filling this <a href='http://l64.cc/questionnaire' title='Individual Setup Questionnaire'>questionnaire</a> and build your customized licensing platform."
   icon: "/img/features/flexible_licensing_models.png"
   url: http://l64.cc/questionnaire
   call-to-action: Get a Quote
