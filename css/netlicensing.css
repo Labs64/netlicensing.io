@@ -1673,7 +1673,7 @@ a.NL_pricing_tooltip {
 
 /* AddThis */
 #at-cv-toaster.at-cv-with-image .at-cv-image-filter {
-    opacity: .1;
+    opacity: .1 !important;
 }
 
 /* 5 columns pricing */
