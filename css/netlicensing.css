@@ -1676,6 +1676,14 @@ a.NL_pricing_tooltip {
     opacity: .1 !important;
 }
 
+#at-cv-toaster .at-cv-body {
+    padding: 10px 0 10px !important;
+}
+
+#at-cv-toaster .at-cv-message {
+    padding-left: 5px !important;
+}
+
 /* 5 columns pricing */
 
 .col-xs-15,
