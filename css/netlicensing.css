@@ -1684,6 +1684,10 @@ a.NL_pricing_tooltip {
     padding-left: 5px !important;
 }
 
+.at-cv-message span {
+    line-height: 1.2 !important;
+}
+
 /* 5 columns pricing */
 
 .col-xs-15,
