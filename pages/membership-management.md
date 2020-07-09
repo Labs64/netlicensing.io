@@ -8,18 +8,18 @@ tags:
 - membership management
 - pricing table
 image:
-  url: /img/pricing-table/netlicensing-pricing-table-01-create.jpg
+  url: /img/pricing-table/netlicensing-pricing-table-01-create.png
 sitemap:
   images:
-  - /img/pricing-table/netlicensing-pricing-table-01-create.jpg
-  - /img/pricing-table/netlicensing-pricing-table-02-integrate.jpg
-  - /img/pricing-table/netlicensing-pricing-table-03-publish.jpg
-  - /img/pricing-table/netlicensing-pricing-table-04-manage.jpg
+  - /img/pricing-table/netlicensing-pricing-table-01-create.png
+  - /img/pricing-table/netlicensing-pricing-table-02-integrate.png
+  - /img/pricing-table/netlicensing-pricing-table-03-publish.png
+  - /img/pricing-table/netlicensing-pricing-table-04-manage.png
 ---
 
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
-        <h1>Grow your business with an intuitive<br>Membership Management Software</h1>
+        <h1>Grow your business with an intuitive<br>Membership Management Solution</h1>
         <span>Create and Experiment different pricing strategies to stay ahead of your competitors.</span>
     </div>
 </div>
@@ -28,7 +28,7 @@ sitemap:
     <div id="cbp-so-scroller" class="cbp-so-scroller NL_intro">
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/pricing-table/netlicensing-pricing-table-01-create.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Create" title="NetLicensing Pricing Table - Create">
+                <img src="{{ '/img/pricing-table/netlicensing-pricing-table-01-create.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Create" title="NetLicensing Pricing Table - Create">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Stand out from the crowd by creating tailored pricing plans</h2>
@@ -42,13 +42,13 @@ sitemap:
                 <span>With NetLicensing simple RESTful API call, you can easily validate your customer’s membership into your product and service at any time. The process is quick, flexible, and it is fully made on our platform.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/pricing-table/netlicensing-pricing-table-02-integrate.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Integrate" title="NetLicensing Pricing Table - Integrate">
+                <img src="{{ '/img/pricing-table/netlicensing-pricing-table-02-integrate.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Integrate" title="NetLicensing Pricing Table - Integrate">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/pricing-table/netlicensing-pricing-table-03-publish.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Publish" title="NetLicensing Pricing Table - Publish">
+                <img src="{{ '/img/pricing-table/netlicensing-pricing-table-03-publish.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Publish" title="NetLicensing Pricing Table - Publish">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Integrate Pricing Plan on your Website</h2>
@@ -62,7 +62,7 @@ sitemap:
                 <span>Customer Membership Management was never this easy before. With NetLicensing, you can instantly see how your plans are performing over time as well as make actions that will influence your customer’s memberships such as enabling/disabling or also extending their plan.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/pricing-table/netlicensing-pricing-table-04-manage.jpg' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Manage Customers" title="NetLicensing Pricing Table - Manage Customers">
+                <img src="{{ '/img/pricing-table/netlicensing-pricing-table-04-manage.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Pricing Table - Manage Customers" title="NetLicensing Pricing Table - Manage Customers">
             </figure>
         </section>
     </div>
