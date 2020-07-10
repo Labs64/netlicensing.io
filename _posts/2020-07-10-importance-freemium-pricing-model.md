@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: https://netlicensing.io
 image:
-  url: /img/blog/mae-mu-U1iYwZ8Dx7k-unsplash
+  url: /img/blog/mae-mu-U1iYwZ8Dx7k-unsplash.jpg
 tags:
   - NetLicensing
   - Free
