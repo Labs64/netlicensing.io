@@ -14,7 +14,7 @@
   show-default: true
 
 - name: "Membership Management"
-  description: "Effectively model and manage pricing plans and features for your products and services using Pricing Table licensing model; as well as manage your customers and keep track of their memberships with the possibility to enable/disable individual features per customer."
+  description: "Effectively model and manage pricing plans and features for your products and services using Pricing Table licensing model; as well as manage your customers and keep track of their <a href='/membership-management/' title='Membership Management Solution'>memberships</a> with the possibility to enable/disable individual features per customer."
   icon: "/img/licensing-model/licensing-model-pricing-table.png"
   show-default: true
 
