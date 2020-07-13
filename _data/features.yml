@@ -13,6 +13,11 @@
   icon: "/img/features/easy_setup_and_integration.png"
   show-default: true
 
+- name: "Membership Management"
+  description: "Effectively model and manage pricing plans and features for your products and services using Pricing Table licensing model; as well as manage your customers and keep track of their memberships with the possibility to enable/disable individual features per customer."
+  icon: "/img/licensing-model/licensing-model-pricing-table.png"
+  show-default: true
+
 - name: "Online License Acquisition"
   description: "NetLicensing provides a seamless online purchase experience, aligned with deployed licensing models, resulting in higher conversion rates and customer retention."
   icon: "/img/features/online_license_acquisition.png"
@@ -36,7 +41,6 @@
 - name: "Internet of Things (IoT) Licensing"
   description: "Allow your customers 'borrow' or 'lease' rather than 'buy' your <i>'Internet of Things'</i> product."
   icon: "/img/features/internet_of_things.png"
-  show-default: true
 
 - name: "Virtualization Support"
   description: "NetLicensing offers a comprehensive licensing support for virtual environments and sandboxing."
