@@ -16,7 +16,7 @@
   premium: "10"
   enterprise: "customizable"
 
-- name: "Licensees<br/>&nbsp;"
+- name: "Licensees/Customers<br/>&nbsp;"
   free: "100<br/>&nbsp;"
   basic: "1000<br/>+ 20 €/mo per 1k extra"
   premium: "5000<br/>+ 20 €/mo per 1k extra"
