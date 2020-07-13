@@ -1,6 +1,9 @@
 - title: Product
   url: "/features/"
 
+- title: Membership Management
+  url: "/membership-management/"
+
 - title: Licensing Models
   url: "/licensing-models/"
 
