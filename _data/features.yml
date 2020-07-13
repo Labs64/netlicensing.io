@@ -15,7 +15,7 @@
 
 - name: "Membership Management"
   description: "Effectively model and manage pricing plans using Pricing Table licensing model, as well as keep track of customers' <a href='/membership-management/' title='Membership Management Solution'>memberships</a>."
-  icon: "/img/licensing-model/licensing-model-pricing-table.png"
+  icon: "/img/features/licensing-model-pricing-table.png"
   show-default: true
 
 - name: "Online License Acquisition"
