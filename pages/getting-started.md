@@ -171,7 +171,7 @@ While using NetLicensing Shop you need to create <i><a href="https://netlicensin
 POST https://go.netlicensing.io/core/v2/rest/token
 Accept: application/xml
 
-tokenType=SHOP&licenseeNumber=%LICENSEE_NUMBER%'
+tokenType=SHOP&licenseeNumber=%LICENSEE_NUMBER%
                         {% endhighlight %}
                         <em>Create Token Response:</em>
                         {% highlight xml %}
