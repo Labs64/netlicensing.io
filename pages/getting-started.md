@@ -104,7 +104,8 @@ Not sure how to configure your product? - Start over by using one of the predefi
                     <div>
                     <em>Validate Request:</em>
                     {% highlight bash %}
-$ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: application/x-www-form-urlencoded' --insecure --user demo:demo 'https://go.netlicensing.io/core/v2/rest/licensee/%LICENSEE_NUMBER%/validate'
+POST https://go.netlicensing.io/core/v2/rest/licensee/%LICENSEE_NUMBER%/validate
+Accept: application/xml
                     {% endhighlight %}
                     <em>Validate Response:</em>
                     {% highlight xml %}
@@ -167,7 +168,10 @@ $ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: applic
 While using NetLicensing Shop you need to create <i><a href="https://netlicensing.io/wiki/token-services#create-token">Shop Token</a></i> and provide <i>'shopURL'</i> in the UI of your product or forward the user to NetLicensing Shop URL by other means.<br/><br/>
                         <em>Create Token Request:</em>
                         {% highlight bash %}
-$ curl -X POST --header 'Accept: application/xml' --header 'Content-Type: application/x-www-form-urlencoded' --insecure --user demo:demo --data 'tokenType=SHOP&licenseeNumber=%LICENSEE_NUMBER%' https://go.netlicensing.io/core/v2/rest/token
+POST https://go.netlicensing.io/core/v2/rest/token
+Accept: application/xml
+
+tokenType=SHOP&licenseeNumber=%LICENSEE_NUMBER%'
                         {% endhighlight %}
                         <em>Create Token Response:</em>
                         {% highlight xml %}
