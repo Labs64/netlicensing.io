@@ -17,7 +17,7 @@
   enterprise: "customizable"
 
 - name: "Licensees/Customers<br/>&nbsp;"
-  free: "100<br/>&nbsp;"
+  free: "50<br/>&nbsp;"
   basic: "1000<br/>+ 20 €/mo per 1k extra"
   premium: "5000<br/>+ 20 €/mo per 1k extra"
   enterprise: "customizable<br/>&nbsp;"
@@ -59,7 +59,7 @@
   description: "Accelerate your licensing! With NetLicensing, you can create licensing models that fit your business needs."
   free: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/pricing-table'>Pricing Table</a><br/>&nbsp;"
   basic: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a><br/>&nbsp;"
-  premium: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a> &#8226; <a href='https://netlicensing.io/wiki/rental'>Rental</a>"
+  premium: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a> &#8226; <a href='https://netlicensing.io/wiki/rental'>Rental</a> &#8226; <a href='https://netlicensing.io/wiki/node-locked'>Node-Locked</a>"
   enterprise: "<a href='/licensing-models/'>All supported</a><br/>&nbsp;"
 
 - name: "Licensee Secret (<a href='http://l64.cc/nlNLK'>Node-Locked</a>)"
