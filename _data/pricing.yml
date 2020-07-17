@@ -139,7 +139,7 @@
 - name: "Technical Support"
   free: "Standard Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (3 days)"
   basic: "Standard Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (3 days)"
-  premium: "Standard Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (3 days)"
+  premium: "Premium Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (1 day)"
   enterprise: "Priority Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> &#8226; Phone (4 hours) - 8/5"
 
 - name: "Online Licensing Training"
