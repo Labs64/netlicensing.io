@@ -1,11 +1,11 @@
-version: '2'
+version: '3'
 services:
   netlicensing:
-    image: jekyll/jekyll:pages
+    image: jekyll/jekyll:latest
     container_name: netlicensing.io
     volumes:
-      - ".:/srv/jekyll"
-    working_dir: /srv/jekyll
-    command: jekyll serve --watch --incremental --verbose --drafts --future --config _config.yml,_config_dev.yml
+      - '.:/srv/jekyll'
     ports:
-      - "4000:4000"
+      - 4000:4000
+    working_dir: /srv/jekyll
+    command: 'jekyll serve --watch --incremental --verbose --drafts --future --config _config.yml,_config_dev.yml'
