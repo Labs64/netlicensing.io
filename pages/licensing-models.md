@@ -2,7 +2,7 @@
 layout: page
 title: "Licensing Models"
 description: "NetLicensing is sophisticated enough to cover even the most outlandish software licensing models"
-permalink: "/licensing-models/"
+permalink: /licensing-models/
 tags:
 - Licensing Models
 - Try-and-Buy
