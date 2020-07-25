@@ -5,7 +5,6 @@
 # layout: redirect
 # permalink: /old-location
 # redirect_to: /new-location/
-# canonical: /new-location/
 # sitemap:
 #   exclude: true
 ---
@@ -13,7 +12,7 @@
 <html lang="en">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <meta http-equiv="refresh" content="1000;url={{ page.redirect_to }}"/>
+    <!-- meta http-equiv="refresh" content="1000;url={{ page.redirect_to }}"/ -->
     <link rel="canonical" href="{{ page.redirect_to }}"/>
 </head>
 <body>
