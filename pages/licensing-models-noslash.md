@@ -1,6 +1,6 @@
 ---
 layout: redirect
-permalink: "/licensing-models"
+permalink: /licensing-models
 redirect_to:
   - /licensing-models/
 sitemap:
