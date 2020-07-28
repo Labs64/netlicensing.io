@@ -30,7 +30,7 @@ tags:
 
 _Flexible, responsible and committed to our customers_
 
-Labs64 is an independent IT service provider. We design, develop and implement a broad range of IT solutions based on our customer&#8217;s individual requirements. Labs64 focusses on finance, telecommunications, automotive, and automation technology industries as well as on hardware, software and online solutions.  We provide our customers with expert advice and support, all the way from the initial concept to the implementation. With more than fifty years of combined IT experience, we understand business processes and design solutions to ensure our customer&#8217;s ongoing success.
+Labs64 is an independent IT service provider. We design, develop and implement a broad range of IT solutions based on our customer&#8217;s individual requirements. Labs64 focusses on finance, telecommunications, automotive, and automation technology industries as well as on hardware, software and online solutions. We provide our customers with expert advice and support, all the way from the initial concept to the implementation. With more than fifty years of combined IT experience, we understand business processes and design solutions to ensure our customer&#8217;s ongoing success.
 
 Our client base includes small and medium-sized companies as well as global enterprises, such as BMW, Siemens Enterprise Communications, MSI Solutions, WIP Immobilien and Zurich Instruments.
 
@@ -82,7 +82,7 @@ At Labs64, everything is based on innovation. Or consultants and resources posse
 
 ### OUR TOOLS & METHODS
 
-Our development methodology provides a structured framework aimed at delivering high quality software solutions. Over the years, we have refined our business process by blending best industry practices using agile methodology and absorbed the best approach to ensure maximum performance and best quality for projects while reducing complexity that may effect budget or timing of projects.
+Our development methodology provides a structured framework aimed at delivering high quality software solutions.Over the years, we have refined our business process by blending best industry practices using agile methodology and absorbed the best approach to ensure maximum performance and best quality for projects while reducing complexity that may effect budget or timing of projects.
 
   * Agile Methods (SCRUM, Kanban)
   * eXtreme Programming
