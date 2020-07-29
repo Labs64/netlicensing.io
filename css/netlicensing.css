@@ -920,6 +920,7 @@ footer {
 
 .NL_footer_menu ul {
     padding-bottom: 10px;
+    padding-left: 0px;
 }
 
 .NL_footer_menu li {
