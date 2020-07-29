@@ -1,7 +1,7 @@
 ---
 layout: redirect
-permalink: /2020/06/01/increase-sales-by-providing-free-trials
-redirect_to: /2020/06/01/increase-sales-by-providing-free-trials/
+permalink: /blog/2020/06/01/increase-sales-by-providing-free-trials
+redirect_to: /blog/2020/06/01/increase-sales-by-providing-free-trials/
 sitemap:
   exclude: true
 ---
