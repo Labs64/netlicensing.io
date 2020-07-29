@@ -22,6 +22,7 @@ no-cache: true
 
 <section id="articles" class="js-packery" data-packery-options='{ "itemSelector": ".card", "gutter": 10 }'>
     {% for post in site.posts %}
+    {% if post.layout == 'post' %}
     <div class="card radius shadowDepth1">
         <div class="card__image border-tlr-radius">
             <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
@@ -56,11 +57,12 @@ no-cache: true
             </div>
             <article class="card__article">
                 <header>
-                    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} {{ post.layout }}</a></h2>
+                    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
                 </header>
                 {{ post.excerpt }}
             </article>
         </div>
     </div>
+    {% endif %}
     {% endfor %}
 </section>
