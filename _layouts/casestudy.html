@@ -64,7 +64,7 @@ layout: default
         {% for casestudy in site.case-studies %}
         {% capture casestudyDiff %}{{ casestudyTotal | minus:casestudyCnt }}{% endcapture %}
         {% unless casestudyDiff == '0' %}
-        {% if casestudy.title and casestudy.title != page.title %}
+        {% if casestudy.layout == 'casestudy' and casestudy.title and casestudy.title != page.title %}
         {% capture casestudyCnt %}{{ casestudyCnt | plus:1 }}{% endcapture %}
         <a href="{{ casestudy.url }}" class="NL_cases_card col-md-6" title="Case Study: {{ casestudy.title }}">
             <div>

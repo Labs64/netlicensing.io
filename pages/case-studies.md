@@ -25,7 +25,7 @@ sitemap:
 
 <div class="NL_block row">
 {% for casestudy in site.case-studies %}
-    {% if casestudy.title %}
+    {% if casestudy.layout == 'casestudy' && casestudy.title %}
         <a href="{{ casestudy.url }}" class="NL_cases_card col-md-6" title="Case Study: {{ casestudy.title }}">
             <div>
                 <div class="view view-info col-md-5">
