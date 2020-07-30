@@ -14,6 +14,7 @@ sitemap:
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit:100 %}
+    {% if post.layout == 'post' %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.excerpt | xml_escape }}</description>
@@ -27,6 +28,7 @@ sitemap:
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
       </item>
+    {% endif %}
     {% endfor %}
   </channel>
 </rss>
