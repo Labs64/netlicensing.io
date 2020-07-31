@@ -13,7 +13,7 @@ tags:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Grow better with the right plan</h1>
-        <span>All plans are built on top of the "FREE forever",<br/>upgrade is possible at any time.</span>
+        <span>All plans are built on top of the "Starter",<br/>upgrade is possible at any time.</span>
     </div>
 </div>
 
@@ -184,7 +184,7 @@ tags:
         <h3>What is included in Free Premium Trial?</h3>
 
         <p>Free Premium Trial plan includes all functionality of Premium Plan for 90 days, except product, product module and licensee limits.
-        After 90 days your vendor account will remain active and will be automatically switched to FREE forever plan unless upgraded.</p>
+        After 90 days your vendor account will remain active and will be automatically switched to "Starter" plan unless upgraded.</p>
     </div>
 </div>
 
