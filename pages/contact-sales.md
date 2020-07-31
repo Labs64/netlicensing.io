@@ -40,10 +40,10 @@ tags:
                             <select name="pricingplan" class="form-control form_dark" id="pricingplan" required
                                    data-validation-required-message="Please select a plan.">
                                 <option value="" disabled="disabled" selected="selected">Please select a plan</option>
-                                <option value="free">FREE forever</option>
+                                <option value="free">Starter</option>
                                 <option value="basic">Basic</option>
                                 <option value="premium">Premium</option>
-                                <option value="enterprise">Enterprise</option>
+                                <option value="enterprise">Select</option>
                             </select>
 
                             <p class="help-block text-danger"></p>
