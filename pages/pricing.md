@@ -18,7 +18,7 @@ tags:
 </div>
 
 <div class="row NL_block" style="text-align:center;">
-    <h3 class="col-md-12">Choose a standard plan or see <a href="#custom-plans">more options below</a>.<br/>All plans include <strong>90-day Free Premium Trial</strong> (risk-free, no credit card required).</h3>
+    <h3 class="col-md-12">Choose a standard plan or see <a href="#custom-plans">more options below</a>.<br/>New accounts get access to <strong>all features for 90 days</strong> free of charge (risk-free, no credit card required).</h3>
 </div>
 
 <div class="row NL_block NL_pricing">
@@ -70,7 +70,7 @@ tags:
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_regular">
             <h3><strong style="font-size:larger;">Basic</strong><br/>For growing businesses with more customers</h3>
-            <div class="NL_price_tag">48 € / month</div>
+            <div class="NL_price_tag">60 € / month</div>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
@@ -96,7 +96,7 @@ tags:
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_promo">
             <h3><strong style="font-size:larger;">Premium</strong><br/>Full featured for comprehensive products</h3>
-            <div class="NL_price_tag">198 € / month</div>
+            <div class="NL_price_tag">200 € / month</div>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
