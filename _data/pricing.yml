@@ -35,7 +35,7 @@
   enterprise: "customizable"
 
 - name: "Attribution required"
-  description: "We request that you place NetLicensing attribution on your main page or/and in your product when you use a FREE forever plan."
+  description: "We request that you place NetLicensing attribution on your main page or/and in your product when you use a Free plans."
   free: "Y"
   basic: "N"
   premium: "N"
