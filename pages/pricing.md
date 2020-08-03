@@ -220,8 +220,7 @@ tags:
     <div class="col-md-5 col-md-offset-1">
         <h3>Is my data safe?</h3>
 
-        <p>NetLicensing uses industry standard SSL security. Your data is hosted in a secure hosting facility and
-            regularly backed up.</p>
+        <p>We take data security very seriously. All your data is securely stored and regularly backed up in Amazon data centers, and the network design ensures no unauthorized access. All web interactions are encrypted through industry-standard SSL security. You can request deletion of your data permanently at any time.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
         <h3>I have more questions. Who do I ask?</h3>
