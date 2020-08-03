@@ -18,7 +18,9 @@ tags:
 </div>
 
 <div class="row NL_block" style="text-align:center;">
-    <h3 class="col-md-12">Choose a standard plan or see <a href="#custom-plans">more options below</a>.<br/>New accounts get access to <strong>all features for 90 days</strong> free of charge (risk-free, no credit card required).</h3>
+    <h3 class="col-md-12">Simply choose your preferred plan to get started or see <a href="#custom-plans">more options below</a>.</h3>
+    <h3>New accounts get access to<br><strong>all NetLicensing features for 90 days</strong>
+    <span style="font-size: smaller;"><br>(free of charge, risk-free, no credit card required)</span></h3>
 </div>
 
 <div class="row NL_block NL_pricing">
@@ -152,7 +154,7 @@ tags:
 </div>
 
 <div class="row NL_block">
-    <div style="padding:40px;">
+    <div>
         {% for customplan in site.data.customplans %}
         <div class="col-md-4 NL_feature" id="customplan-{{ customplan.name | slugify }}">
             <figure class="hover_effect">
@@ -175,10 +177,9 @@ tags:
 
 <div class="row NL_FAQ">
     <div class="col-md-5 col-md-offset-1">
-        <h3>Are there any hidden cost or extra charges?</h3>
+        <h3>Can I use NetLicensing for free?</h3>
 
-        <p>No. NetLicensing won’t charge you any setup fees or monthly fees if you are using a free plan.
-            The selected payment service provider may charge an internet gateway fee and/or a processing fee.</p>
+        <p>Absolutely! NetLicensing can be completely free to use. The Starter plan does have some limits and feature locks. You can always upgrade to higher plans if you’d like to access those advanced features.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
         <h3>What is included in Free Premium Trial?</h3>
@@ -190,11 +191,9 @@ tags:
 
 <div class="row NL_FAQ">
     <div class="col-md-5 col-md-offset-1">
-        <h3>Do you have an API? CLI? Libraries?</h3>
+        <h3>Do I need a credit card to sign up for the free plan?</h3>
 
-        <p>Yes. NetLicensing RESTful API documentation is available <a title="API" href="http://l64.cc/nl10">here</a>.
-            You may also use the following <a title="NetLicensing client libraries" href="http://l64.cc/nl07">client
-                libraries and examples</a> as a foundation for integrating NetLicensing in your code.</p>
+        <p>No. We do not collect credit card information when you sign up for a free account.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
         <h3>Can I cancel anytime?</h3>
@@ -205,23 +204,21 @@ tags:
 
 <div class="row NL_FAQ">
     <div class="col-md-5 col-md-offset-1">
-        <h3>What is NetLicensing Shop? Shall I use it?</h3>
+        <h3>Are there any hidden cost or extra charges?</h3>
 
-        <p>NetLicensing Shop is an innovative eCommerce solution which provides your customers licenses acquisition
-            possibility for every available <a title="NetLicensing Licensing Models" href="/licensing-models/">licensing
-                models</a>.
-            You may omit using of NetLicensing Shop and create all licensing entities via NetLicensing API instead.</p>
+        <p>No. NetLicensing won’t charge you any setup fees or monthly fees if you are using a free plan.
+            The selected payment service provider may charge an internet gateway fee and/or a processing fee.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
-        <h3> Do I need a credit card to sign up for the free plan?</h3>
+        <h3>Do you support early-stage startups, education & nonprofits?</h3>
 
-        <p>No. We do not collect credit card information when you sign up for a free account.</p>
+        <p>NetLicensing is proud to support people doing great things in the world. That’s why we offer significant discounts for eligible students and educators and nonprofits.</p>
     </div>
 </div>
 
 <div class="row NL_FAQ">
     <div class="col-md-5 col-md-offset-1">
-        <h3>How secure is this?</h3>
+        <h3>Is my data safe?</h3>
 
         <p>NetLicensing uses industry standard SSL security. Your data is hosted in a secure hosting facility and
             regularly backed up.</p>
