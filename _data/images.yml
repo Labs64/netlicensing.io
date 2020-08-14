@@ -1505,3 +1505,12 @@
   author: "Steve Halama"
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/iVGevPcaJzk
+
+- id: netlicensing-pricing-table-digital
+  source: /img/blog/netlicensing-pricing-table-digital.png
+  title: "NetLicensing - Pricing Table licensing model"
+  caption: "NetLicensing - Pricing Table licensing model"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io/wiki/pricing-table
