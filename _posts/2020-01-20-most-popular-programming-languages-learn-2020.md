@@ -25,7 +25,7 @@ We will attempt to answer these tricky questions in this post.
 
 One of the strongest [NetLicensing features](https://netlicensing.io/features-all/) is the ability to be integrated with the different CRM, ERP, Billing, Reporting and other in-house systems via provided [RESTful API](https://netlicensing.io/wiki/restful-api).
 
-{% include advert.html image='/img/NLIC-728x90-banner1.png' %}
+{% include advert.html image='/img/ads/netlicensing-license-management-728x90.png' %}
 
 Being involved in hundreds of discussions concerning NetLicensing integration, we faced vast variety of different infrastructures, sometimes pretty complex: from server-side, Web Applications and SaaS to desktop, VM and cloud environments (such as AWS and Azure) and IoT devices.
 
@@ -87,7 +87,7 @@ There are numerous libraries available in JavaScript which makes development ver
 - Back-end development
 - Game Development
 
-{% include advert.html image='/img/netlicensing-affiliates-banner-970x250.png' %}
+{% include advert.html image='/img/ads/netlicensing-affiliates-970x250.png' %}
 
 ----
 

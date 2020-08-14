@@ -1431,8 +1431,8 @@
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/2fl-ocJ5MOA
 
-- id: NLIC-728x90-banner1
-  source: /img/NLIC-728x90-banner1.png
+- id: netlicensing-license-management-728x90
+  source: /img/ads/netlicensing-license-management-728x90.png
   type: banner
   title: "NetLicensing - Innovative License Management Solution"
   caption: "NetLicensing - Innovative License Management Solution"
@@ -1440,6 +1440,26 @@
   author: Labs64 NetLicensing
   publisher: Labs64 NetLicensing
   creditlink: https://netlicensing.io
+
+- id: netlicensing-affiliates-970x250
+  source: /img/ads/netlicensing-affiliates-970x250.png
+  type: banner
+  title: "NetLicensing Affiliates Banner"
+  caption: "NetLicensing Affiliates Banner"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64 NetLicensing
+  publisher: Labs64 NetLicensing
+  creditlink: https://netlicensing.io/affiliates/
+
+- id: netlicensing-pricing-table-970x250
+  source: /img/ads/netlicensing-pricing-table-970x250.png
+  type: banner
+  title: "NetLicensing Pricing Table"
+  caption: "NetLicensing Pricing Table"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64 NetLicensing
+  publisher: Labs64 NetLicensing
+  creditlink: https://netlicensing.io/wiki/pricing-table
 
 - id: labs64-joker-raffle
   source: /img/blog/labs64-joker-raffle.png
@@ -1459,16 +1479,6 @@
   author: Labs64 NetLicensing
   publisher: Labs64 NetLicensing
   creditlink: https://netlicensing.io
-
-- id: netlicensing-affiliates-banner-970x250
-  source: /img/netlicensing-affiliates-banner-970x250.png
-  type: banner
-  title: "NetLicensing Affiliates Banner"
-  caption: "NetLicensing Affiliates Banner"
-  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
-  author: Labs64 NetLicensing
-  publisher: Labs64 NetLicensing
-  creditlink: https://netlicensing.io/affiliates/
 
 - id: most-popular-programming-languages-learn-2020
   source: /img/blog/most-popular-programming-languages-learn-2020.png
