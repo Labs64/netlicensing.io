@@ -122,7 +122,7 @@ layout: default
             <!-- Recommended Posts -->
             {% if site.blog_recommended_posts %}
               {% for recommended_post in site.blog_recommended_posts %}
-                {% if recommended_post != page.url and recommended_post != previous_page.url and if recommended_post != next_page.url %}
+                {% if recommended_post != page.url and recommended_post != previous_page.url and recommended_post != next_page.url %}
                   {% for post in site.posts %}
                     {% if recommended_post == post.url %}
             <div class="NL_related_post">
