@@ -59,7 +59,7 @@ layout: default
 
             <!-- Related Posts (prev/next) -->
             {% assign previous_page = page.previous %}
-            {% if previous_page && previous_page.layout != 'post' %}
+            {% if previous_page and previous_page.layout != 'post' %}
               {% assign previous_page = previous_page.previous %}
             {% endif %}
             {% if previous_page %}
@@ -78,7 +78,7 @@ layout: default
             {% endif %}
 
             {% assign next_page = page.next %}
-            {% if next_page && next_page.layout != 'post' %}
+            {% if next_page and next_page.layout != 'post' %}
               {% assign next_page = next_page.next %}
             {% endif %}
             {% if next_page %}
