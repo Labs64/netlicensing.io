@@ -99,8 +99,8 @@ layout: default
             <!-- Related Posts (tag) -->
             {% for post in site.related_posts %}
               {% if post.url != page.url %}
-                {% if post.url != page.previous.url %}
-                  {% if post.url != page.next.url %}
+                {% if post.url != previous_page %}
+                  {% if post.url != next_page %}
                     {% for tag in page.tags %}
                       {% if post.tags contains tag %}
             <div class="NL_related_post">
