@@ -8,12 +8,12 @@ author:
 image:
   url: /img/blog/mae-mu-U1iYwZ8Dx7k-unsplash.jpg
 tags:
-  - NetLicensing
+  - Pricing Table
   - Free
   - Premium
   - Freemium
   - Pricing Model
-  - Pricing Table
+  - NetLicensing
 ---
 
 Over the past years, a specific pricing model has been trending in the market: **Freemium** Pricing Model. The Freemium model is a conglomeration of the **“Free”** and **“Premium”** model giving the users the possibility to use a product or service free of charge but with a limited number of features. In case they want to get access to a broader number of features, a subscription fee will be required. Each of us, throughout our lives, has been exposed to a “Freemium” model with Apps, TV shows, Cloud services etc. as this model is acquiring more popularity year after year.

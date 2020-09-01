@@ -8,11 +8,11 @@ author:
 image:
   url: /img/blog/netlicensing-covid19-01.png
 tags:
+  - COVID-19
   - Labs64
   - NetLicensing
   - LaaS
   - Licensing-as-a-Service
-  - COVID-19
   - SARS-CoV-2
 ---
 

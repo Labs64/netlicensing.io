@@ -8,13 +8,13 @@ author:
 image:
   url: /img/blog/netlicensing-pricing-table-digital.png
 tags:
-  - NetLicensing
   - Licensing Model
   - Pricing Table
   - Pricing Plan
   - SaaS
   - offering
   - membership
+  - NetLicensing
 ---
 
 *Pricing Tables* can be considered as one of the most valuable parts of a website as they are an essential tool for communicating the value and benefits that your company offers to the market. Having a clear pricing table, where customers can instantly understand all the features and the value in your SaaS product will deliver, increases the likelihood to attract paying customers for one of your plans. However, if customers see inconsistencies in your pricing tables and are not able to have a clear understanding of your offering, they will probably consider spending their money somewhere else.

@@ -8,10 +8,9 @@ author:
 image:
   url: /img/blog/blog-placeholder.jpg
 tags:
-  - Labs64
-  - NetLicensing
   - LaaS
   - Licensing-as-a-Service
+  - NetLicensing
 ---
 
 In the past few decades various new businesses and technologies were, and are on the rise. Genetics, new digital products that are basically supercomputers compared to standards just a 10 or so years ago, intelligent cars, new materials - and one that was expected, but is simply coming and taking over way too fast - the Internet.

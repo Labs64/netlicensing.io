@@ -8,8 +8,8 @@ author:
 image:
   url: /img/blog/unsplash-a2NRu2Wxa2o.png
 tags:
-  - VDI
   - Virtualization
+  - VDI
   - Desktop
   - Market trend
   - Node-Locking

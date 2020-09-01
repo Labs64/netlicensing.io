@@ -9,7 +9,6 @@ image:
   url: /img/blog/unsplash-kcJsQ3PJrYU.png
   hide: false
 tags:
-  - Labs64 NetLicensing
   - CeBIT
   - CeBIT2018
   - CeBIT18
@@ -25,6 +24,7 @@ tags:
   - pass
   - promo
   - loyalty program
+  - Labs64 NetLicensing
 ---
 
 ## Activate your FREE *NetLicensing Vendor Pass* for *CeBIT 2018*

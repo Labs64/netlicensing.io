@@ -8,9 +8,8 @@ author:
 image:
   url: /img/blog/labs64-netlicensing-cyber-week-2018.png
 tags:
-  - Cyber Monday
   - Cyber Week
-  - Cyber Weeks
+  - Cyber Monday
   - Offer
   - Affiliate
   - Banner

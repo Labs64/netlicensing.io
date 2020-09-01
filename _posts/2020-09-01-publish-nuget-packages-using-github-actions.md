@@ -8,14 +8,14 @@ author:
 image:
   url: /img/blog/netlicensing-csharp-cover.png
 tags:
-  - NetLicensing
-  - Client Library
-  - dotNET
   - NuGet
   - GitHub Actions
+  - dotNET
   - CI
   - Continuous Integration
   - Continuous Delivery
+  - NetLicensing
+  - Client Library
 sitemap:
   images:
   - /img/blog/netlicensing-csharp-cover.png

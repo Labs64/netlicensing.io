@@ -8,8 +8,6 @@ author:
 image:
   url: /img/blog/labs64-joker-raffle.png
 tags:
-  - Labs64
-  - NetLicensing
   - Joker
   - Card
   - Raffle
@@ -17,6 +15,7 @@ tags:
   - GitHub
   - Issue
   - Pull Request
+  - NetLicensing
 ---
 
 Find the Labs64 Joker and get one year [Labs64 NetLicensing](https://netlicensing.io) **Basic or Premium Plan for FREE**!

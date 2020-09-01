@@ -8,12 +8,12 @@ author:
 image:
   url: /img/blog/michael-dziedzic-aQYgUYwnCsM-unsplash.jpg
 tags:
-  - Labs64
-  - NetLicensing
   - LaaS
   - Licensing-as-a-Service
   - RESTful
   - API
+  - Labs64
+  - NetLicensing
 ---
 
 Nowadays, many independent Software Vendors need to invest a considerable amount of time for managing and keeping track of their customers and their entitlements. Businesses that for the past years have been executing these operations through manual processes can now forget about it and discover a brand-new way to automate the processes with a simple, flexible, and easily integrable platform: [Labs64 NetLicensing](https://netlicensing.io).

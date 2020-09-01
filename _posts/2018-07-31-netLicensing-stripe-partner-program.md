@@ -9,13 +9,13 @@ image:
   url: /img/blog/netlicensing-stripe.jpg
   hide: false
 tags:
-  - Labs64 NetLicensing
   - Stripe
   - partner
   - partnership
   - PSP
   - payment
   - WorksWithStripe
+  - Labs64 NetLicensing
 ---
 
 ## Labs64 NetLicensing is one of the first to join new Stripe partner program

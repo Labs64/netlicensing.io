@@ -8,11 +8,11 @@ author:
 image:
   url: /img/blog/netlicensing-try-buy.png
 tags:
-  - NetLicensing
+  - Try-and-Buy
   - LaaS
   - Licensing-as-a-Service
-  - Try-and-Buy
   - Trial
+  - NetLicensing
 ---
 
 The market is currently going through a significant downturn caused by the pandemic. As we have already experienced in the past, the market will surely recover, but new changes will be involved. Working from home will not be an option anymore - thus we will have to deal with a new working model.

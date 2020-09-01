@@ -8,6 +8,7 @@ author:
 image:
   url: /img/blog/unsplash-franck-v-795974.jpg
 tags:
+  - GDPR
   - News
   - Announcements
   - license management
@@ -16,7 +17,6 @@ tags:
   - Pricing Table
   - API Key
   - Stripe
-  - GDPR
   - Client Libraries
   - NetLicensing RESTful API
   - Hardware Dongle

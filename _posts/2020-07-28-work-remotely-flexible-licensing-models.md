@@ -8,13 +8,13 @@ author:
 image:
   url: /img/blog/steve-halama-iVGevPcaJzk-unsplash.jpg
 tags:
-  - NetLicensing
   - Licensing Model
   - Remote work
   - COVID-19
   - SARS-CoV-2
   - SaaS
   - on-premise
+  - NetLicensing
 ---
 
 Since Covid-19 pandemic has started, many employees that had to shift to remote working style. However, some studies were able to prove that productivity was decreased by 50% compared to working in the office. The main reason why this issue occurred is that many employees did not have the tools to work with. Thus, SaaS solutions have a strong advantage compare to their on-premise competitors.

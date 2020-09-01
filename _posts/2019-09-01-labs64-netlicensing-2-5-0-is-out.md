@@ -8,10 +8,10 @@ author:
 image:
   url: /img/blog/labs64-netlicensing-2_5_0.png
 tags:
+  - Zapier
   - News
   - Announcements
   - license management
-  - Zapier
   - Licensing Model
   - Kotlin
   - Management Console

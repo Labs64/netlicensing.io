@@ -8,10 +8,10 @@ author:
 image:
   url: /img/blog/blog-placeholder.jpg
 tags:
+  - DSGVO
+  - GDPR
   - News
   - Announcements
-  - GDPR
-  - DSGVO
   - General Data Protection Regulation
   - Datenschutz-Grundverordnung
   - Compliance
