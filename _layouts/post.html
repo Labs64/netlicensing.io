@@ -98,11 +98,9 @@ layout: default
 
             <!-- Related Posts (tag) -->
             {% for post in site.related_posts %}
-              {% if post.url != page.url %}
-                {% if post.url != previous_page %}
-                  {% if post.url != next_page %}
-                    {% for tag in page.tags %}
-                      {% if post.tags contains tag %}
+              {% if post.url != page.url and post.url != previous_page.url and post.url != next_page.url %}
+                {% for tag in page.tags %}
+                  {% if post.tags contains tag %}
             <div class="NL_related_post">
                 <span class="watermark">{{ tag }}</span>
                 <a href="{{post.url}}">
@@ -115,22 +113,18 @@ layout: default
                     </div>
                 </a>
             </div>
-                        {% break %}
-                      {% endif %}
-                    {% endfor %}
+                    {% break %}
                   {% endif %}
-                {% endif %}
+                {% endfor %}
               {% endif %}
             {% endfor %}
 
             <!-- Recommended Posts -->
             {% if site.blog_recommended_posts %}
               {% for recommended_post in site.blog_recommended_posts %}
-                {% if recommended_post != page.url %}
-                  {% if recommended_post != page.previous.url %}
-                    {% if recommended_post != page.next.url %}
-                      {% for post in site.posts %}
-                        {% if recommended_post == post.url %}
+                {% if recommended_post != page.url and recommended_post != previous_page.url and if recommended_post != next_page.url %}
+                  {% for post in site.posts %}
+                    {% if recommended_post == post.url %}
             <div class="NL_related_post">
                 <span class="watermark">Recommended</span>
                 <a href="{{post.url}}">
@@ -143,11 +137,9 @@ layout: default
                     </div>
                 </a>
             </div>
-                          {% break %}
-                        {% endif %}
-                      {% endfor %}
+                      {% break %}
                     {% endif %}
-                  {% endif %}
+                  {% endfor %}
                 {% endif %}
               {% endfor %}
             {% endif %}
