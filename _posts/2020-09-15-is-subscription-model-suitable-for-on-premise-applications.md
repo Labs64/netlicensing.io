@@ -19,6 +19,6 @@ When using a *subscription model* on on-premise applications, for example, if th
 
 Using this model might bring some disadvantages too. In the initial stage of implementation, this strategy will certainly bring some damages to the company’s cashflow that in return will bring a long-term pay-back. Moreover, it would be highly advisable for companies that decided to implement this strategy to have solid financial resources as the upfront cash will be drastically reduced.
 
-{% include advert.html image='/img/ads/netlicensing-pricing-table-970x250.png' %}
+{% include advert.html image='/img/ads/netlicensing-license-management-728x90.png' %}
 
 In a nutshell, the companies that have decided to take advantage of some licensing models such as Subscription, not only have a different charging model than the perpetual licensing solution companies but, they also have the possibility to better engage with their consumers and create stronger relationships.
