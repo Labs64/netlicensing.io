@@ -18,7 +18,7 @@
                 <a href="{{ site.company_url }}" class="NL_by" target="_blank">by {{ site.company }}</a>
             </div>
             <div class="NL_topnav_sticker">
-                <a href="{{ site.topnav_sticker_url }}" onclick="{{ site.topnav_sticker_onclick }}" target="_blank">
+                <a href="{{ site.topnav_sticker_url }}" onclick="{{ site.topnav_sticker_onclick }}" target="{{ site.topnav_sticker_target }}">
                     <img alt="{{ site.topnav_sticker_text }}"
                          src="{{ site.topnav_sticker_image | prepend: site.baseurl | prepend: site.url }}"/>
                 </a>
