@@ -29,7 +29,7 @@ sitemap:
 
 ---
 
-Unbelievable! One of the oldest *NetLicensing Client libraries for C#* (with the first GitHub push made on [Oct 2, 2013](https://github.com/Labs64/NetLicensingClient-csharp/commit/9ea3942b0d986907cbf197c8673826aee5123d8a){:target="_blank"}{:rel="noopener nofollow"}) was not available in one of the notable .NET package managers.
+Unbelievable! One of the oldest *NetLicensing [Client libraries](https://netlicensing.io/wiki/client-libraries) for C#* (with the first GitHub push made on [Oct 2, 2013](https://github.com/Labs64/NetLicensingClient-csharp/commit/9ea3942b0d986907cbf197c8673826aee5123d8a){:target="_blank"}{:rel="noopener nofollow"}) was not available in one of the notable .NET package managers.
 
 *Better late than never* - so we decided to change this status quo, and today want to share with you our this walkthrough on how we published [NetLicensing C# Client](https://github.com/Labs64/NetLicensingClient-csharp){:target="_blank"}{:rel="noopener nofollow"} library to *NuGet* repository using *GitHub Actions*.
 
