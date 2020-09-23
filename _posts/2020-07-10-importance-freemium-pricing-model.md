@@ -16,7 +16,7 @@ tags:
   - NetLicensing
 ---
 
-Over the past years, a specific pricing model has been trending in the market: **Freemium** Pricing Model. The Freemium model is a conglomeration of the **“Free”** and **“Premium”** model giving the users the possibility to use a product or service free of charge but with a limited number of features. In case they want to get access to a broader number of features, a subscription fee will be required. Each of us, throughout our lives, has been exposed to a “Freemium” model with Apps, TV shows, Cloud services etc. as this model is acquiring more popularity year after year.
+Over the past years, a specific [pricing model](/membership-management/) has been trending in the market: **Freemium** Pricing Model. The Freemium model is a conglomeration of the **“Free”** and **“Premium”** model giving the users the possibility to use a product or service free of charge but with a limited number of features. In case they want to get access to a broader number of features, a subscription fee will be required. Each of us, throughout our lives, has been exposed to a “Freemium” model with Apps, TV shows, Cloud services etc. as this model is acquiring more popularity year after year.
 
 Many positive factors that make companies consider adopting this model but, more than anything, the freemium plan is one of the cleverest marketing tools. This strategy, compared to costly advertising campaigns, it's much cheaper and efficient. Customers, by getting the possibility to have a first experience with the product, feel more comfortable with using it and also don’t have that pressure which is usually raised by trials with deadlines.
 
