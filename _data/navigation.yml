@@ -13,6 +13,9 @@
 - title: Pricing
   url: "/pricing/"
 
+- title: Blog
+  url: "/blog/"
+
 - title: "Log In"
   url: "https://ui.netlicensing.io"
   icon: "fa-sign-in"
