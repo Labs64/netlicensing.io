@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What is Authentication-Authorization-Validation Framework Framework?"
+title: "What is Authentication-Authorization-Validation Framework?"
 description: "AAV Framework allows developers to easily managing changing product use cases and scenarios"
 image:
   url: /img/blog/authenticate-authorize-validate-framework.gif
