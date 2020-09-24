@@ -1532,3 +1532,21 @@
   author: "NetLicensing"
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io/wiki/pricing-table
+
+- id: authenticate-authorize-validate-framework
+  source: /img/blog/authenticate-authorize-validate-framework.gif
+  title: "Authentication-Authorization-Validation Framework (AAV) Framework"
+  caption: "Authentication-Authorization-Validation Framework (AAV) Framework"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.ios
+
+- id: aav-framework-flow
+  source: /img/blog/aav-framework-flow.png
+  title: "Flow: Authentication-Authorization-Validation Framework (AAV) Framework"
+  caption: "Flow: Authentication-Authorization-Validation Framework (AAV) Framework"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
