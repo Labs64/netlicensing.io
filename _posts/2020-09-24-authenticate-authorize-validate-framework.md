@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What is Authentication-Authorization-Validation Framework (AAV) Framework?"
+title: "What is Authentication-Authorization-Validation Framework Framework?"
 description: "AAV Framework allows developers to easily managing changing product use cases and scenarios"
 image:
   url: /img/blog/authenticate-authorize-validate-framework.gif
@@ -15,11 +15,11 @@ author:
   url: https://netlicensing.io
 ---
 
-Authentication and authorization are one of the important and integral concepts in software development.
+Authentication and Authorization are one of the important and integral concepts in software development.
 
 Almost every developer is familiar with the basic technology stack and buzz-words: Single-Factor- / Two-Factor- / Multi-factor authentication, Basic Auth, OAuth, OpenID, LDAP, Active Directory and many, many others.
 
-Let's look at these two concepts:
+Let's take a look at these two concepts:
 
 ### Authentication
 
@@ -41,10 +41,8 @@ An extended *"Authentication-Authorization-Validation Framework (AAV) Framework"
 
 *Validation* is a process of user entitlements verification, based on the applied licensing scheme; e.g. subscription, metered model, node locking, concurrent system access, etc.
 
-In most of the cases, a hybrid model adopted to cover different monetization and licensing strategies. So, the user might be able to use application functions, he is entitled to ([Multi-Feature](https://netlicensing.io/wiki/multi-feature)), use an application on two devices only ([Node-Locked](https://netlicensing.io/wiki/node-locked)) and have time restriction to access an application for 1 year ([Subscription](https://netlicensing.io/wiki/subscription)).
+In most of the cases, a hybrid model adopted to cover different monetization and licensing strategies. So, the user might be able to use application functions, he or she is entitled to ([Multi-Feature](https://netlicensing.io/wiki/multi-feature)), use an application on two devices only ([Node-Locked](https://netlicensing.io/wiki/node-locked)) and have time restriction to access an application for 1 year ([Subscription](https://netlicensing.io/wiki/subscription)).
 
-Thus, the enhanced *AAV Framework* allows developers to use standard and proven toolset to authenticate and authorize users, and easily manage dynamically changing product use cases and scenarios defined by the company's monetization and licensing strategy.
+Thus, the enhanced *AAV Framework* allows developers to use standard and proven toolset to authenticate and authorize users, and easily manage dynamically changing product use cases and scenarios defined by the company's *Monetization and Licensing Strategy*.
 
-While the Authentication and Authorization process is often the responsibility of the operations team, Validation and management of the user entitlements are usually controlled by customer support and account management team.
-
-[release version](https://github.com/Labs64/NetLicensingClient-csharp/releases){:target="_blank"}{:rel="noopener nofollow"}
+While the Authentication and Authorization processes are often the responsibility of the operations team, Validation and management of the user entitlements are usually controlled by customer support and account management team.
