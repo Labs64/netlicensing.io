@@ -21,8 +21,6 @@ tags:
 
 Software as a Service has been instrumental in harnessing benefits of productivity of man and organization in working environment by delivering a diverse range of remotely maintained applications over the Internet. Unlike Traditional Software Licensing Model, SaaS strives to resolve the inflexibility of software that arises during maintenance and evolution. [Software as a Service model](https://netlicensing.io/membership-management/) is user friendly and incurs comparatively lower cost.
 
-{% include advert.html image='/img/ads/netlicensing-pricing-table-970x250.png' %}
-
 ### SaaS vs. Traditional Software Licensing Model: Technical features and Support
 
 **Multiple Users:** The SaaS model can be used by multiple users at a time, and operates on a subscription per user per month basis. It is quick to deploy as your only requirement is an internet connection, and you are ready to use your new software. On the other hand, the conventional model cannot be deployed immediately as software needs to be installed and user training is required.
@@ -32,6 +30,8 @@ Software as a Service has been instrumental in harnessing benefits of productivi
 **Latest Updates:** One major advantage of using Software as a Service is that at all times you will be using the most updated version of the software. There is no need of installing and managing software updates. And unlike on premise, you don’t have to wait for getting hold of the latest features and upgrades.
 
 **Reliability & Security:** With SaaS, you can obtain guaranteed levels of service and performance. This model also offers automatic data backups and recovery, which is a meticulous process with regards to Traditional Software Licensing Model users. Automatic recovery and backup of information delivers a sense of security while using SaaS data centres and it becomes more reliable than the data management offered by in-house systems in the organizations.
+
+{% include advert.html image='/img/ads/netlicensing-pricing-table-970x250.png' %}
 
 ### SaaS vs. Traditional Software Licensing Model: Financial implications
 

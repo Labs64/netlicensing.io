@@ -12,7 +12,7 @@ tags:
   - Validate
 author:
   name: Alexey AVerikhin
-  url: https://netlicensing.io
+  url: https://www.labs64.com/our-team/
 ---
 
 Authentication and Authorization are one of the important and integral concepts in software development.
@@ -44,5 +44,7 @@ An extended *"Authentication-Authorization-Validation Framework (AAV) Framework"
 In most of the cases, a hybrid model adopted to cover different monetization and licensing strategies. So, the user might be able to use application functions, he or she is entitled to ([Multi-Feature](https://netlicensing.io/wiki/multi-feature)), use an application on two devices only ([Node-Locked](https://netlicensing.io/wiki/node-locked)) and have time restriction to access an application for 1 year ([Subscription](https://netlicensing.io/wiki/subscription)).
 
 Thus, the enhanced *AAV Framework* allows developers to use standard and proven toolset to authenticate and authorize users, and easily manage dynamically changing product use cases and scenarios defined by the company's *Monetization and Licensing Strategy*.
+
+{% include advert.html image='/img/ads/netlicensing-license-management-728x90.png' %}
 
 While the Authentication and Authorization processes are often the responsibility of the operations team, Validation and management of the user entitlements are usually controlled by customer support and account management team.

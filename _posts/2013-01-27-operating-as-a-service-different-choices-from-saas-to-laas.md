@@ -12,6 +12,7 @@ tags:
   - CaaS
   - Cloud
   - LaaS
+  - Licensing-as-a-Service
   - Licensing
   - MaaS
   - NaaS
@@ -26,7 +27,9 @@ tags:
 
 The cloud has become an integral part of our daily lives. For business cases, we typically refer to the connection and all of our data interactions as taking place in the cloud. This has led to a rise of many new terms starting with the ever-present Software as a Service (SaaS).
 
-SaaS has been followed by many other acronyms, most of which aren’t easy to intuit. Allow us to explain some of the more recent additions to the “aaS” lineup and also make a case for why we think the newcomer LaaS is going to make waves in the tech and business space.
+**SaaS** has been followed by many other acronyms, most of which aren’t easy to intuit. Allow us to explain some of the more recent additions to the “aaS” lineup and also make a case for why we think the newcomer LaaS is going to make waves in the tech and business space.
+
+{% include advert.html image='/img/ads/netlicensing-license-management-728x90.png' %}
 
 Some of the recent launches and names to be aware of are:
 
