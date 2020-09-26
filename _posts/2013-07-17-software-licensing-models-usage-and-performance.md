@@ -30,6 +30,8 @@ This license type is most useful for those pieces of software which are very hea
 
 It is worth bearing in mind that the calculation of the cost of can be affected by the network structure and the value to your customers business may not be entirely determined by the actual CPU usage by the software.
 
+{% include advert.html image='/img/ads/netlicensing-pricing-table-970x250.png' %}
+
 ### High-water mark of past use
 
 This license type is arguably the best alternative to the previous types of multiple-user software licenses (discussed in [previous articles](/blog/2013/07/11/software-licensing-models-personal-node-locked/ "Software Licensing Models – Personal, Node-locked")) where the end user wants to be able to have access to high-quality software, but will have extended periods of time where it is not in use. No business wants to be paying for something that they are not using, and your customers will be no different. As such, you should always make sure that you find out as much as possible about how your customer plans to use the software, and how frequently it will be used.

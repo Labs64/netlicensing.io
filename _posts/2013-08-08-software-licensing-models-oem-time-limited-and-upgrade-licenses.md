@@ -24,9 +24,11 @@ However, as we have said on numerous occasions throughout this series, there is 
 
 ### Time-Limited
 
-In many ways, this license model is the most self-explanatory of all license types. They are defined by the fact that they are set with an expiry date after which the license is not automatically renewed. A common example of software which makes use of a Time-Limited License is Anti-Virus and Anti-Spyware software which almost always operates on a time-limited license basis. The end-user is forced to manually renew the license after 12 or 24 months depending upon which option they have chosen in the past.
+In many ways, this license model is the most self-explanatory of all license types. They are defined by the fact that they are set with an expiry date after which the license is not automatically renewed. A common example of software which makes use of a [Time-Limited License](https://netlicensing.io/wiki/subscription) is Anti-Virus and Anti-Spyware software which almost always operates on a time-limited license basis. The end-user is forced to manually renew the license after 12 or 24 months depending upon which option they have chosen in the past.
 
 As a vendor, this can be a very profitable means of marketing a license as it forces customers to renew their license after a set period, it is also beneficial to the developers as it means that they can continue to develop the software but only release updates to those users with a valid subscription.
+
+{% include advert.html image='/img/ads/netlicensing-pricing-table-970x250.png' %}
 
 ### OEM
 

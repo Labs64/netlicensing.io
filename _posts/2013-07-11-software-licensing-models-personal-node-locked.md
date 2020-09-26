@@ -19,13 +19,15 @@ tags:
 
 Hello and welcome to this next article in our ongoing [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"} on software licensing types. It would be worthwhile reading the first post in this series before any others – but after that it doesn&#8217;t really matter in which order you read them! This article does follow on from the types of licenses discussed in the previous one, namely licenses which are likely to be used by your business customers.
 
-In this article we will be looking at Named-user (personal licenses), Node-locked (named-host) and Node-locked counted licenses. As ever we will be looking at the specific uses of each type of license, exploring how it might be used by your customers and then comparing it to the other licenses under discussion.
+In this article we will be looking at Named-user (personal licenses), [Node-locked](https://netlicensing.io/wiki/node-locked) (named-host) and Node-locked counted licenses. As ever we will be looking at the specific uses of each type of license, exploring how it might be used by your customers and then comparing it to the other licenses under discussion.
 
 ### Named-user (personal licenses)
 
 This type of license is used for when a business wishes to grant the rights to specific users via their login ID. If your customers run a server set-up where each individual employee has their own user ID and password, this license type is certainly applicable. This is a little similar to the Floating over Network license discussed in the previous article in that it enables software to be available from multiple computers. The main difference here being that rather than a pre-set number of users being given access at any one time. It is limited to specific list of actual user logins.
 
 This feature means that all of the users who are entitled to use the software can do so at any one time, it also means that they can access it from any computer connected to the network. This means that if your customers like to have flexible working spaces – they can.
+
+{% include advert.html image='/img/ads/netlicensing-affiliates-970x250.png' %}
 
 ### Node-locked (named-host)
 
