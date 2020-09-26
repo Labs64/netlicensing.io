@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Set environment variables in windows shortcut"
-description: "I faced this problem when installed Inkscape (GNU GPL licensed SVG editor) with multiple language packs"
+title: "How to set environment variables in windows shortcut?"
+description: "Here is my recipe, how to define application language via the Windows shortcut without a separate batch script"
 author:
   name: NetLicensing
   url: https://netlicensing.io
@@ -23,6 +23,8 @@ I faced this problem when installed Inkscape (GNU GPL licensed SVG editor) with 
 Of course, the immediate solution is to create a batch script and start it via the shortcut. Separate batch script for that simple thing? Hmm&#8230;
 
 Another possibility would be to set the environment variable for my entire user account using standard windows dialog. But this is not flexible since other programs may also react on LANG variable.
+
+{% include advert.html image='/img/ads/netlicensing-license-management-728x90.png' %}
 
 So, here is my final recipe, how to do it for a single program via the Windows shortcut without a separate batch script (on the example of Inkscape):
 
@@ -144,4 +146,4 @@ Drill-down:
 
 Since command processor is started first, without this option you will see a console window popping up shortly. Not critical, but a bit annoying. When started minimized, most likely you&#8217;ll not notice it at all.
 
-Voila! My Inkscape is starting now with UI in English.
+*Voila!* My Inkscape is starting now with UI in English.

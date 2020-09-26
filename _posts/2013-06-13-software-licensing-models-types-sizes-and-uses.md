@@ -27,6 +27,8 @@ If you’ve ever purchased a piece of software you’ll have been given a softwa
 
 There are numerous types of software license model, and this article is not going to go into too much detail about each and every variable. Software licensing can easily become confusing and for the majority of the time there will only be a handful of which you will need to be aware. This article will look at _End User License Agreements_ (or Single User Licensing), _Pay-Per-Use_, _Sharing Licenses_ and _Site License_. These are the four most common forms of license which a small to medium size business will use.
 
+{% include advert.html image='/img/ads/netlicensing-license-management-728x90.png' %}
+
 This article will be a discussion of the different benefits and drawbacks of each model. There will also be some discussion of the different contexts in which these models can be used.
 
 ### End User License Agreement
@@ -41,7 +43,7 @@ A registered copy of a EULA license can only be installed on one machine at a ti
 
 ### Pay-Per-Use
 
-A Pay-Per-Use license is just that, how much your customers pay is dependent on their usage of the software. This can make some of the more expensive software affordable to smaller businesses. The cost measurement varies between manufacturers and can be dependent on a number of factors such as hours of use, program specific metrics and CPU usage. This can often suit businesses whose need for software fluctuates over time. This means that when the software is not being used, they are not paying as much for the license. This helps to save your customers money and means that they are not paying for software which they are not using.
+A [Pay-Per-Use](https://netlicensing.io/wiki/pay-per-use) license is just that, how much your customers pay is dependent on their usage of the software. This can make some of the more expensive software affordable to smaller businesses. The cost measurement varies between manufacturers and can be dependent on a number of factors such as hours of use, program specific metrics and CPU usage. This can often suit businesses whose need for software fluctuates over time. This means that when the software is not being used, they are not paying as much for the license. This helps to save your customers money and means that they are not paying for software which they are not using.
 
 The only drawback of a Pay-Per-Use is that it can become very expensive if the software is being heavily used, and it may be that your customers would benefit more from purchasing a full software license.
 
