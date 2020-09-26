@@ -15,7 +15,9 @@ tags:
 
 As a company who distributes software to both domestic and business customers, it is important to ensure that you are charging the right amount for the products which you are distributing. In order to give your customers the best value possible, you need to make sure that your price is competitive and that it reflects the usage of the software.
 
-If you haven’t already read our [series of articles](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"} on Software Licensing Models, it would be worthwhile giving them a look as it help you to better understand some of the principles which we will be discussing in this series on Licensing Metrics. In essence, the license metric which is assigned to a piece of software is designed to carefully measure the level of usage of the software.
+If you haven’t already read our [series of articles](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"} on [Software Licensing Models](https://netlicensing.io/licensing-models/), it would be worthwhile giving them a look as it help you to better understand some of the principles which we will be discussing in this series on Licensing Metrics. In essence, the license metric which is assigned to a piece of software is designed to carefully measure the level of usage of the software.
+
+{% include advert.html image='/img/ads/netlicensing-affiliates-970x250.png' %}
 
 The metric is the unit of measurement which the vendor (yourself) uses to report back to developer about how their product is selling, and can also be used to determine the share of the profits which needs to be paid to each party which has a share in the ownership rights.
 

@@ -27,6 +27,8 @@ If you have a customer who wants to enable multiple users to access a piece of s
 
 As the license grants use to a pre-determined number of users, rather than physical machines, it enables your customers to have greater flexibility in their use of the software. If they have a network with floating user profiles – where people can log onto their user profile from any machine on the network – this is particularly helpful. The number of licensees which can come as a part of a Floating Network package is dependent largely upon you the vendor – working within the manufacturers guidelines for license distribution.
 
+{% include advert.html image='/img/ads/netlicensing-license-management-728x90.png' %}
+
 ### Floating (concurrent) Licenses over a host list
 
 At first appearance this license type may seem almost identical to the previous type – with one crucial difference. The number of licenses granted is a pre-set number of installations on physical machines, rather than that which is accessible to a set list of users anywhere on a network. At face value, these may seem pretty much identical in deployment. However, this is not the case and it is worth considering why this is so.
@@ -35,7 +37,7 @@ The license over host list provides less flexibility than the network license bu
 
 ### Group License
 
-A group license is similar in deployment to the Floating Network license. It grants the usage rights to the software to a set number of users. However, rather than having to assign the rights to specific number of users, a group license enables people with certain group policy rights to access it. In practice this means that your customers can make the software available to a group of users who meet the requirements – with the flexibility to allow additional users to access the software as they are granted more rights within the group policy.
+A group license is similar in deployment to the [Floating Network license](https://netlicensing.io/wiki/floating). It grants the usage rights to the software to a set number of users. However, rather than having to assign the rights to specific number of users, a group license enables people with certain group policy rights to access it. In practice this means that your customers can make the software available to a group of users who meet the requirements – with the flexibility to allow additional users to access the software as they are granted more rights within the group policy.
 
 The actual use of a group license can require the licensee to grant specific usage rights to the members of the approved group.
 

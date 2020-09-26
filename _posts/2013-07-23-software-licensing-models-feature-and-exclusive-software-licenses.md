@@ -19,7 +19,7 @@ tags:
 
 Hello and welcome to this next article in our ongoing [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"} on Software Licensing Types. If you are new to this series it would be worthwhile reading the previous articles which you can find on our blog. The [first post](/blog/2013/06/13/software-licensing-models-types-sizes-and-uses/ "Software Licensing Models – Types, Sizes and Uses") has more detail about what it is that these articles are doing and you will also find our discussion in this article more useful if you have read those which come before it.
 
-In this article we will look at two more software license types: Enable/Disable Product Features and Exclusive Licenses. As ever we will be looking at how these license types work in deployment, how they can be useful to your customers and what you need to know to help your customers make the right decision and finally we will be looking at some examples of use for these license types. All with the aim of leaving you better equipped to make the right decisions about which Software License is for which customer.
+In this article we will look at two more software license types: [Enable/Disable Product Features](https://netlicensing.io/wiki/multi-feature) and Exclusive Licenses. As ever we will be looking at how these license types work in deployment, how they can be useful to your customers and what you need to know to help your customers make the right decision and finally we will be looking at some examples of use for these license types. All with the aim of leaving you better equipped to make the right decisions about which Software License is for which customer.
 
 ### Enable/Disable Product Features
 
@@ -28,6 +28,8 @@ The enable/disable product feature license grants you, the vendor and the develo
 This software license type is very popular with some of the biggest software development companies such as Microsoft. When you purchase a new copy of Microsoft Windows you can choose from a range of options such as Basic, Home Premium or Professional all of which come at a price to suit different requirements and budgets.
 
 If you are a vendor who sells primarily to businesses then it may be useful to consider whether you can adapt different pieces of the software which you distribute to suit different sizes of business and industries. It can also give you the potential to expand into the home-user market which can be very lucrative.
+
+{% include advert.html image='/img/ads/netlicensing-affiliates-970x250.png' %}
 
 ### Exclusive Licences
 
