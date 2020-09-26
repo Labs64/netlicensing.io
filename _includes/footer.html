@@ -87,7 +87,7 @@
                     {% else %}
                         {% assign link = media.url | prepend: site.baseurl | prepend: site.url %}
                     {% endif %}
-                    <a data-toggle="tooltip" data-placement="top" title="{{ media.title }}" target="_blank" href="{{ link }}"><i class="fa {{ media.class }}"></i></a>
+                    <a data-toggle="tooltip" data-placement="top" title="{{ media.title }}" target="_blank" rel="noopener nofollow" href="{{ link }}"><i class="fa {{ media.class }}"></i></a>
                 {% endif %}
             {% endfor %}
             </p>
