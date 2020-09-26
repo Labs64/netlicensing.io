@@ -12,11 +12,12 @@ tags:
   - Licensing Model
   - Subscription
   - pricing model
+  - pricing table
   - lease
   - own
 ---
 
-*Licensing* is perhaps the biggest issue that many system administrators face and is one which can cause endless issues if it is improperly managed. When it comes to understanding the different pricing models that exist for licensing; a difficult decision becomes almost impossible. In recent years there has been a clear divide between the two main models and we will try to explore those in more detail here. In order to not overcomplicate the discussion; we will refer to them as *'owned'* (with on-going support) and *'leased'*.
+*Licensing* is perhaps the biggest issue that many system administrators face and is one which can cause endless issues if it is improperly managed. When it comes to understanding the different [pricing models](https://netlicensing.io/wiki/pricing-table) that exist for licensing; a difficult decision becomes almost impossible. In recent years there has been a clear divide between the two main models and we will try to explore those in more detail here. In order to not overcomplicate the discussion; we will refer to them as *'owned'* (with on-going support) and *'leased'*.
 
 The first and often most significant factor in making a decision about licensing is cost. Can you, or your business afford the license? The traditional model for licensing has been a large one-off payment where you 'own' the software but can continue to pay an annual fee - known as software assurance - which will grant you the right to continue to upgrade to the latest versions of the software and have access to premium support. This is often very expensive and you should carefully consider what it is that you stand to gain by buying the software outright.
 
@@ -36,6 +37,8 @@ If you are able to purchase software that you intend to use for the foreseeable 
 If you purchase the license outright, then it becomes an asset but as time passes it will depreciate in value. Software which you are ëleasedí is unlikely to be considered an asset and therefore can not be included in the net worth of the company. However, as it will remain a business expense it will be possible in certain countries to use the cost to reduce your overall tax bill as it will count as being a tax-deductible business expense.
 
 This is something that you should investigate yourself and you should consider the pros and cons of having a business that has a high asset value, thereby potentially increasing itís appeal to investors versus one that can reduce itís tax bill through carefully managed expenses.
+
+{% include advert.html image='/img/ads/netlicensing-pricing-table-970x250.png' %}
 
 Finally, you should think about the flexibility (or otherwise) of the two different models. One of the reasons that subscription based licensing has become so popular in recent years is because it has removed the expensive cost of upgrading that has caused many system admins to keep their users on older software for longer than recommended because they have simply been unable to afford the cost of the upgrade.
 
