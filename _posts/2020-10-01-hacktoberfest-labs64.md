@@ -23,6 +23,6 @@ Support open-source & start contributing: create quality pull requests and build
 {% include advert.html image='/img/ads/labs64-hacktoberfest-2020-ticket.png' %}
 
 >**UPDATE:**
->This is amazing! We received already a lot of valuable contributions for the Labs64 OpenSource repositories at GitHub as >#Hacktoberfest Pull Requests.
+>Amazing! In the very first hours of October, we received already some valuable contributions for the Labs64 OpenSource repositories at GitHub as #Hacktoberfest Pull Requests.
 
 *Thanks to all our Contributors!*

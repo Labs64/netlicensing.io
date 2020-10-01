@@ -1477,7 +1477,7 @@
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
   author: Labs64
   publisher: Labs64
-  creditlink: https://github.com/search?utf8=%E2%9C%93&q=user%3Alabs64+label%3AHacktoberfest+state%3Aopen&type=Issues
+  creditlink: https://github.com/search?q=user%3Alabs64+label%3AHacktoberfest+state%3Aopen&type=issues
 
 - id: labs64-joker-raffle
   source: /img/blog/labs64-joker-raffle.png
