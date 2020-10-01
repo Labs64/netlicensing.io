@@ -3,6 +3,7 @@ layout: post
 title: "Hacktoberfest @ Labs64"
 description: "Support open-source & start contributing: create quality pull requests and build on your open source knowledge with the Labs64 open-source projects"
 image:
+  url: /img/ads/labs64-hacktoberfest-2020-ticket.png
   hide: false
 tags:
   - Hacktoberfest
