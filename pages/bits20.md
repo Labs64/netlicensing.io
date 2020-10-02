@@ -38,7 +38,7 @@ tags:
 <div class="row NL_block">
     <div class="col-md-12 NL_container">
         <div class="col-md-6 col-md-offset-3 NL_container_text">
-            <h2>Meet us at Bits & Pretzels</h2>
+            <h2>Meet Us</h2>
             <span>Want to talk to us about your ideas around software licensing?!<br/>
             Find us on the official Bits & Pretzels platform, on LinkedIn or simply drop us a note to arrange an appointment.</span>
             <form action="/contact/" method="GET"
