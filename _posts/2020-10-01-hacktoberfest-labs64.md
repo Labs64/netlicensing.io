@@ -24,18 +24,20 @@ Support open-source & start contributing: create quality pull requests and build
 {% include advert.html image='/img/ads/labs64-hacktoberfest-2020-ticket.png' %}
 
 >**UPDATE:**
->Amazing! In the very first hours of October, we received already some valuable contributions for the Labs64 OpenSource repositories at GitHub as #Hacktoberfest Pull Requests.
+>Amazing & Thanks to all contributors! In the very first hours of October, we received already some valuable contributions for the Labs64 OpenSource repositories at GitHub as #Hacktoberfest Pull Requests.
+
+---
 
 ### More SWAGs ✨
 
-On top of official SWAGs we will give to all Labs64 & NetLicensing supporters - **1 Year NetLicensing Basic Plan for FREE**
+On top of the official SWAGs we will give to all *Labs64* & *NetLicensing* supporters - **1 Year NetLicensing Basic Plan for FREE**
 
 **How to enter:**
 
-- contribute to Labs64 open source repositories during the Hacktobersfest
-- create a Pull Request and get it accepted
-- register (until Nov 1, 2020) for a free NetLicensing vendor account and provide your GitHub slug as *"Promo Code"*
-- we will verify your pull request and assign a FREE Basic Plan within several days
+- Contribute to *Labs64 open source repositories* at GitHub during the Hacktobersfest
+- Create a Pull Request and get it accepted
+- Register (until Nov 1, 2020) for a [free NetLicensing vendor account](https://ui.netlicensing.io/#/register) and provide your GitHub handle as *"Promo Code"*
+- We will verify your pull request (quality, acceptance) and assign a *FREE Basic Plan* within several days
 
 ### Labs64 Open Source Repositories
 
@@ -53,5 +55,6 @@ On top of official SWAGs we will give to all Labs64 & NetLicensing supporters - 
 
 🔸 [Labs64/DigiPass](https://github.com/Labs64/DigiPass){:target="_blank"}{:rel="noopener nofollow"} *(tech stack: PHP, WordPress)* - DigiPass (Paywall) WordPress plugin.
 
+---
 
 *Thanks to all our Contributors!*
