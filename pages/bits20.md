@@ -40,7 +40,7 @@ tags:
         <div class="col-md-6 col-md-offset-3 NL_container_text">
             <h2>Meet us at Bits & Pretzels</h2>
             <span>Want to talk to us about your ideas around software licensing?!<br/>
-            Find us in the official <i>Bits & Pretzels app</i>, on our <i>booth ST15</i> or simply <i>drop us a note</i> to arrange an appointment.</span>
+            Find us on the official Bits & Pretzels platform, on LinkedIn or simply drop us a note to arrange an appointment.</span>
             <form action="/contact/" method="GET"
                   name="Contact" id="Contact"
                   novalidate>
