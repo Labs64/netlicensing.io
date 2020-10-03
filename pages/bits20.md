@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "NetLicensing oodie bag for Bits & Pretzels 2020"
+title: "NetLicensing goodie bag for Bits & Pretzels 2020"
 description: "Meet NetLicensing at Bits & Pretzels 2020"
 permalink: "/bits20/"
 tags:
@@ -11,11 +11,10 @@ tags:
 - startup
 - festival
 - exhibition
-- Barack Obama
-- Jessica Alba
 - bits20
-- booth
-- ST15
+sitemap:
+  images:
+    - /img/netlicensing-bits20.png
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">

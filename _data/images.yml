@@ -1560,3 +1560,21 @@
   author: "NetLicensing"
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io
+
+- id: netlicensing-bits19
+  source: /img/netlicensing-bits19.png
+  title: "NetLicensing @ Bits & Pretzels 2020"
+  caption: "NetLicensing @ Bits & Pretzels 2020"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-bits20
+  source: /img/netlicensing-bits20.png
+  title: "NetLicensing @ Bits & Pretzels 2020"
+  caption: "NetLicensing @ Bits & Pretzels 2020"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io

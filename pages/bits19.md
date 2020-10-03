@@ -16,6 +16,9 @@ tags:
 - bits19
 - booth
 - ST15
+sitemap:
+  images:
+    - /img/netlicensing-bits19.png
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
