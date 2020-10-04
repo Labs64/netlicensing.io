@@ -12,7 +12,7 @@ tags:
   - Contributors
 author:
   name: Labs64
-  url: https://github.com/search?utf8=%E2%9C%93&q=user%3Alabs64+label%3AHacktoberfest+state%3Aopen&type=Issues
+  url: https://github.com/search?utf8=%E2%9C%93&q=user%3Alabs64+label%3Ahacktoberfest+state%3Aopen&type=Issues
 ---
 
 Also this "COVID" year 20x2 won't be exclusion - *#Hacktoberfest* has officially started (today) on the October 1st!
