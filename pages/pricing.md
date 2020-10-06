@@ -19,7 +19,7 @@ tags:
 
 <div class="row NL_block" style="text-align:center;">
     <h3 class="col-md-12">Simply choose your preferred plan to get started or see <a href="#custom-plans">more options below</a>.</h3>
-    <h3>New accounts get access to<br><strong>all NetLicensing features for 90 days</strong>
+    <h3>New accounts get access to<br><strong>all NetLicensing features for 30 days</strong>
     <span style="font-size: smaller;"><br>(free of charge, risk-free, no credit card required)</span></h3>
 </div>
 
@@ -184,8 +184,8 @@ tags:
     <div class="col-md-4 col-md-offset-1">
         <h3>What is included in Free Premium Trial?</h3>
 
-        <p>Free Premium Trial plan includes all functionality of Premium Plan for 90 days, except product, product module and licensee limits.
-        After 90 days your vendor account will remain active and will be automatically switched to "Starter" plan unless upgraded.</p>
+        <p>Free Premium Trial plan includes all functionality of Premium Plan for 30 days, except product, product module and licensee limits.
+        After 30 days your vendor account will remain active and will be automatically switched to "Starter" plan unless upgraded.</p>
     </div>
 </div>
 
