@@ -28,10 +28,10 @@ Most of the browsers provide a built-in developer tools, which includes a handy 
 
 ### Step-by-step instructions:
 
-- Open page containing HTML/DOM you would need to verify selector on; in our example, we'll be using [netlicensing.io/licensing-models](https://netlicensing.io/licensing-models/) page
+- Open page containing HTML/DOM you would need to verify selector on; in our example, we'll be using [netlicensing.io/licensing-models](https://netlicensing.io/licensing-models/){:target="_blank"} page
 - Open Browser's DevTools panel
   - Chrome, Firefox: press `F12`
-- Safari: use the shortcut `Option + ⌘ + J` (on macOS), or `Shift + CTRL + J` (on Windows/Linux)
+  - Safari: use the shortcut `Option + ⌘ + J` (on macOS), or `Shift + CTRL + J` (on Windows/Linux)
 - Switch to `Console` tab
 - Type in XPath or CSS selectors to evaluate like:
 
@@ -45,4 +45,4 @@ Most of the browser will even highlight HTML element on mouse hover over the con
 
 ---
 
-Having all CSS selectors properly defined, GuideChimp will show an [interactive guided tour](https://netlicensing.io/licensing-models/?guidechimp=on&tour=licensing-models) for your website or application.
+Having all CSS selectors properly defined, GuideChimp will show an [interactive guided tour](https://netlicensing.io/licensing-models/?guidechimp=on&tour=licensing-models){:target="_blank"} for your website or application.
