@@ -3,8 +3,7 @@ layout: post
 title: "How to evaluate and validate XPath and CSS selectors?"
 description: "The easiest way to validate CSS selectors without any third-party tools or extensions"
 image:
-  url: /img/blog/blog-placeholder.jpg
-  hide: true
+  url: /img/blog/netlicensing-guidechimp-tour.png
 tags:
   - GuideChimp
   - guded tour
