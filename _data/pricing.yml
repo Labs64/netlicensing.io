@@ -17,16 +17,10 @@
   enterprise: "customizable"
 
 - name: "Licensees/Customers<br/>&nbsp;"
-  free: "50<br/>&nbsp;"
-  basic: "1000<br/>+ 20 €/mo per 1k extra"
-  premium: "5000<br/>+ 20 €/mo per 1k extra"
-  enterprise: "customizable<br/>&nbsp;"
-
-- name: "Licenses"
-  free: "unlimited"
-  basic: "unlimited"
-  premium: "unlimited"
-  enterprise: "unlimited"
+  free: "50"
+  basic: "100"
+  premium: "500"
+  enterprise: "customizable"
 
 - name: "API Requests"
   free: "1 / sec"
@@ -102,7 +96,7 @@
   enterprise: "99%"
 
 - name: "Technical Support"
-  free: "Standard Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (3 days)"
+  free: "Community Support<br/><a href='https://github.com/Labs64/NetLicensing-Community'>GitHub</a>"
   basic: "Standard Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (3 days)"
   premium: "Premium Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (1 day)"
   enterprise: "Priority Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> &#8226; Phone (4 hours) - 8/5"
