@@ -16,7 +16,7 @@
   premium: "10"
   enterprise: "customizable"
 
-- name: "Licensees/Customers<br/>&nbsp;"
+- name: "Licensees/Customers"
   free: "50"
   basic: "100"
   premium: "500"
@@ -96,7 +96,7 @@
   enterprise: "99%"
 
 - name: "Technical Support"
-  free: "Community Support<br/><a href='https://github.com/Labs64/NetLicensing-Community'>GitHub</a>"
+  free: "Community Support<br/><a href='https://github.com/Labs64/NetLicensing-Community' target='_blank' rel='noopener nofollow'>GitHub</a>"
   basic: "Standard Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (3 days)"
   premium: "Premium Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (1 day)"
   enterprise: "Priority Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> &#8226; Phone (4 hours) - 8/5"
