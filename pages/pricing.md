@@ -13,13 +13,13 @@ tags:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Grow better with the right plan</h1>
-        <span>All plans are built on top of the "Starter",<br/>upgrade is possible at any time.</span>
+        <span>All plans are built on top of the "Community",<br/>upgrade is possible at any time.</span>
     </div>
 </div>
 
 <div class="row NL_block" style="text-align:center;">
     <h3 class="col-md-12">Simply choose your preferred plan to get started or see <a href="#custom-plans">more options below</a>.</h3>
-    <h3>New accounts get access to<br><strong>all NetLicensing features for 30 days</strong>
+    <h3>New accounts get access to<br><strong>All NetLicensing features for 30 days</strong>
     <span style="font-size: smaller;"><br>(free of charge, risk-free, no credit card required)</span></h3>
 </div>
 
@@ -45,7 +45,7 @@ tags:
 
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_regular">
-            <h3><strong style="font-size:larger;">Starter</strong><br/>Quick and simple for individuals and startups</h3>
+            <h3><strong style="font-size:larger;">Community</strong><br/>Quick and simple for individuals and community projects</h3>
             <div class="NL_price_tag">0 € / month</div>
             <ul>
                 {% for feature in site.data.pricing %}
@@ -71,7 +71,7 @@ tags:
 
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_regular">
-            <h3><strong style="font-size:larger;">Basic</strong><br/>For growing businesses with more customers</h3>
+            <h3><strong style="font-size:larger;">Basic</strong><br/>For startups and growing businesses</h3>
             <div class="NL_price_tag">60 € / month</div>
             <ul>
                 {% for feature in site.data.pricing %}
@@ -179,13 +179,13 @@ tags:
     <div class="col-md-5 col-md-offset-1">
         <h3>Can I use NetLicensing for free?</h3>
 
-        <p>Absolutely! NetLicensing can be completely free to use. The Starter plan does have some limits and feature locks. You can always upgrade to higher plans if you’d like to access those advanced features.</p>
+        <p>Absolutely! NetLicensing can be completely free to use. The Community plan does have some limits and feature locks. You can always upgrade to higher plans if you’d like to access those advanced features.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
         <h3>What is included in Free Premium Trial?</h3>
 
         <p>Free Premium Trial plan includes all functionality of Premium Plan for 30 days, except product, product module and licensee limits.
-        After 30 days your vendor account will remain active and will be automatically switched to "Starter" plan unless upgraded.</p>
+        After 30 days your vendor account will remain active and will be automatically switched to "Community" plan unless upgraded.</p>
     </div>
 </div>
 
