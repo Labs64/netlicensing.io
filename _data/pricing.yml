@@ -36,7 +36,6 @@
   enterprise: "N"
 
 - name: "Licensing Models<br/>&nbsp;"
-  description: "Accelerate your licensing! With NetLicensing, you can create licensing models that fit your business needs."
   free: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/pricing-table'>Pricing Table</a><br/>&nbsp;"
   basic: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a><br/>&nbsp;"
   premium: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a> &#8226; <a href='https://netlicensing.io/wiki/floating'>Floating</a> &#8226; <a href='https://netlicensing.io/wiki/node-locked'>Node-Locked</a>"
@@ -95,7 +94,7 @@
   premium: "N"
   enterprise: "99%"
 
-- name: "Technical Support"
+- name: "Technical Support<br/>&nbsp;"
   free: "Community Support<br/><a href='https://github.com/Labs64/NetLicensing-Community' target='_blank' rel='noopener nofollow'>GitHub</a>"
   basic: "Standard Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (3 days)"
   premium: "Premium Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (1 day)"
