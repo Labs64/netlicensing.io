@@ -23,9 +23,9 @@
   enterprise: "customizable"
 
 - name: "API Requests"
-  free: "1 / sec"
-  basic: "10 / sec"
-  premium: "50 / sec"
+  free: "1 / min"
+  basic: "1 / min"
+  premium: "1 / sec"
   enterprise: "customizable"
 
 - name: "Attribution required"
