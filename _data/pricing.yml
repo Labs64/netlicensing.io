@@ -22,6 +22,12 @@
   premium: "500"
   enterprise: "customizable"
 
+- name: "Licenses"
+  free: "100"
+  basic: "unlimited"
+  premium: "unlimited"
+  enterprise: "unlimited"
+
 - name: "API Requests"
   free: "1 / min"
   basic: "1 / min"
