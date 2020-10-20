@@ -16,7 +16,7 @@
   premium: "10"
   enterprise: "customizable"
 
-- name: "Licensees/Customers"
+- name: "Customers"
   free: "50"
   basic: "100"
   premium: "500"
