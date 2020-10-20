@@ -1602,7 +1602,7 @@ ul#filterOptions>li.active>a {
 }
 
 .NL_price_captions h3 {
-    padding: 60px 0 0 0;
+    padding: 72px 0 0 0;
 }
 
 .NL_price_captions ul li {
@@ -1669,7 +1669,16 @@ a.NL_pricing_tooltip {
     font-weight: bold;
     color: #853E29;
     padding-top: 22px;
-    padding-bottom: 22px;
+    padding-bottom: 6px;
+}
+
+.NL_price_tag_sub {
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    color: #853E29;
+    padding-top: 0px;
+    padding-bottom: 6px;
 }
 
 /* AddThis */

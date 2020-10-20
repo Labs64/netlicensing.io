@@ -45,8 +45,9 @@ tags:
 
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_regular">
-            <h3><strong style="font-size:larger;">Community</strong><br/>Quick and simple for individuals and community projects</h3>
+            <h3><strong style="font-size:larger;">Community</strong><br/>Quick and simple for community projects</h3>
             <div class="NL_price_tag">0 € / month</div>
+            <div class="NL_price_tag_sub">&nbsp;</div>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
@@ -73,6 +74,7 @@ tags:
         <div class="NL_price_features NL_price_regular">
             <h3><strong style="font-size:larger;">Basic</strong><br/>For startups and growing businesses</h3>
             <div class="NL_price_tag">60 € / month</div>
+            <div class="NL_price_tag_sub">billed annually</div>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
@@ -99,6 +101,7 @@ tags:
         <div class="NL_price_features NL_price_promo">
             <h3><strong style="font-size:larger;">Premium</strong><br/>Full featured for comprehensive products</h3>
             <div class="NL_price_tag">200 € / month</div>
+            <div class="NL_price_tag_sub">billed annually</div>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
@@ -127,6 +130,7 @@ tags:
             <div class="NL_price_tag" style="padding: 0 0 0 0;"><div class="NL_btn" style="padding: 5px 0 10px 0;">
                 <a href="/contact-sales/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=enterprise" class="NL_button button_main NL_dark_btn">Contact Sales</a>
             </div></div>
+            <div class="NL_price_tag_sub" style="margin-bottom: -17px;">&nbsp;</div>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
@@ -198,7 +202,7 @@ tags:
     <div class="col-md-4 col-md-offset-1">
         <h3>Can I cancel anytime?</h3>
 
-        <p>Yes! You can cancel your plan anytime you wish and you will not be charged.</p>
+        <p>Yes! You can cancel your plan anytime you wish and you will not be charged. Your annual payment will be refunded pro-rata.</p>
     </div>
 </div>
 

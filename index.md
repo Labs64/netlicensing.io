@@ -9,7 +9,7 @@ no-cache: true
 ---
 <div class="row NL_main_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
-        <h1>Monetize your digital products and services</h1>
+        <h1>All-in-one licensing automation<br>for your digital products and services</h1>
         <span>Labs64 NetLicensing is a first-class solution in the <i>Licensing-as-a-Service (LaaS)</i> sector. Based on open standards, it provides a cost-effective, integrated and scalable platform for software vendors and developers who want to concentrate on their product’s core functionality instead of spending resources on developing an own license management software.</span>
         <div class="row">
             <div id="live-demo" class="col-md-4 col-md-offset-2">
