@@ -34,13 +34,6 @@
   premium: "1 / sec"
   enterprise: "customizable"
 
-- name: "Attribution required"
-  description: "We request that you place NetLicensing attribution on your main page or/and in your product when you use a Free plans."
-  free: "Y"
-  basic: "N"
-  premium: "N"
-  enterprise: "N"
-
 - name: "Licensing Models<br/>&nbsp;"
   free: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/pricing-table'>Pricing Table</a><br/>&nbsp;"
   basic: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a><br/>&nbsp;"
@@ -99,6 +92,13 @@
   basic: "N"
   premium: "N"
   enterprise: "99%"
+
+- name: "Attribution required"
+  description: "We request that you place NetLicensing attribution on your main page or/and in your product when you use free plans."
+  free: "Y"
+  basic: "N"
+  premium: "N"
+  enterprise: "N"
 
 - name: "Technical Support<br/>&nbsp;"
   free: "Community Support<br/><a href='https://github.com/Labs64/NetLicensing-Community' target='_blank' rel='noopener nofollow'>GitHub</a>"
