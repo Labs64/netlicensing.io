@@ -12,7 +12,9 @@ layout: compress
 {% include footer.html %}
 {% include js.html %}
 {% include guidechimp.html %}
-{% include tawk.html %}
+{% if page.layout == 'page' %}
+  {% include zoho-salesiq.html %}
+{% endif %}
 {% include calendly.html %}
 </body>
 </html>
