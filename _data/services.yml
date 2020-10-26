@@ -7,6 +7,10 @@
   url: "https://www.labs64.com/netlicensing/partners/"
   section: "Company"
 
+- title: "Affiliates"
+  url: "/affiliates/"
+  section: "Company"
+
 - title: "Contact"
   url: "/contact/"
   section: "Company"
