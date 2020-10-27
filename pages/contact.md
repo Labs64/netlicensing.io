@@ -6,9 +6,9 @@ permalink: "/contact/"
 tags:
 - contact
 - sales
-- plans
-- prospects
 - quote
+- request
+- enquiry
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
@@ -22,6 +22,9 @@ tags:
     <div class="container">
         <div class="row NL_block">
             <div class="col-lg-12 text-center">
+                <div id="contact-form-submitted" class="alert alert-success" style="display: none;" role="alert">
+                    Thank you! Your message has been successfully sent. We will be getting back to you shortly!
+                </div>
                 <h2>Get In Touch With Us!</h2>
                 <p>Submit the form or send us an email at <a href="mailto:{{ site.email }}?subject=NetLicensing%20Contact">info@netlicensing.io</a>, or simply <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/netlicensing/netlicensing-demo?primary_color=853E29'});return false;">book a 1-1 call</a>, and we’ll be in touch right away.</p>
             </div>
@@ -31,3 +34,10 @@ tags:
         </div>
     </div>
 </section>
+
+<script>
+    var searchParams = new URLSearchParams(window.location.search);
+    if (searchParams.get('status') === 'submitted') {
+        document.getElementById('contact-form-submitted').style.display = "block";
+    }
+</script>
