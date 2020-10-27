@@ -128,7 +128,7 @@ tags:
         <div class="NL_price_features NL_price_regular">
             <h3><strong style="font-size:larger;">Select</strong><br/>Advanced functionality for specific requirements</h3>
             <div class="NL_price_tag" style="padding: 0 0 0 0;"><div class="NL_btn" style="padding: 5px 0 10px 0;">
-                <a href="/contact-sales/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=enterprise" class="NL_button button_main NL_dark_btn">Contact Sales</a>
+                <a href="/contact/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=enterprise" class="NL_button button_main NL_dark_btn">Contact Sales</a>
             </div></div>
             <div class="NL_price_tag_sub" style="margin-bottom: -17px;">&nbsp;</div>
             <ul>
@@ -147,7 +147,7 @@ tags:
             </ul>
 
             <div class="NL_btn" style="padding: 5px 0 10px 0;">
-                <a href="/contact-sales/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=enterprise" class="NL_button button_main NL_dark_btn">Contact Sales</a>
+                <a href="/contact/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=enterprise" class="NL_button button_main NL_dark_btn">Contact Sales</a>
             </div>
         </div>
     </div>

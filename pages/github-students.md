@@ -78,7 +78,7 @@ sitemap:
     <div class="col-md-4 col-md-offset-1">
         <h3>I am an educator and would like to use NetLicensing in my curriculum.</h3>
 
-        <p>Please <a href="/contact-sales/">contact our sales</a>. We are happy to provide 50% discount for compliant educational staff and some non-profit organizations.</p>
+        <p>Please <a href="/contact/">contact our sales</a>. We are happy to provide 50% discount for compliant educational staff and some non-profit organizations.</p>
     </div>
 </div>
 
