@@ -354,6 +354,7 @@
 
                 if (!privacyAlert()) { return false; }
                 document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
+                gtag_report_conversion();
             }
 
             function tooltipShow(el) {
