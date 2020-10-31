@@ -1534,6 +1534,15 @@
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/iVGevPcaJzk
 
+- id: entitlement-management
+  source: /img/blog/entitlement-management.png
+  title: "Entitlement Management - A Scary Story"
+  caption: "Entitlement Management - A Scary Story"
+  license: https://creativecommons.org/publicdomain/zero/1.0/
+  author: "James Lee"
+  publisher: "Unsplash"
+  creditlink: https://unsplash.com/photos/q8R856yNPt0
+
 - id: netlicensing-pricing-table-digital
   source: /img/blog/netlicensing-pricing-table-digital.png
   title: "NetLicensing - Pricing Table licensing model"
