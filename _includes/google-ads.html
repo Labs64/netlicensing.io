@@ -1,10 +1,5 @@
 {% if site.google_ads_tracking_id %}
 
-<!-- Event snippet for NetLicensing - Multiple Pages conversion page -->
-<script>
-  gtag('event', 'conversion', {'send_to': '{{ site.google_ads_tracking_id }}/IOowCNbSi38QtZrE3QM'});
-</script>
-
 <!-- Event snippet for Lead-Formular senden conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
@@ -21,5 +16,19 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
     return false;
   }
 </script>
-  
+
+{% if page.name == 'contact.md' %}
+<!-- Event snippet for NetLicensing - Visit Contact Page conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': '{{ site.google_ads_tracking_id }}/ESfkCPHUleYBELWaxN0D'});
+</script>
+{% endif %}
+
+{% if page.name == 'pricing.md' %}
+<!-- Event snippet for NetLicensing - Visit Pricing Page conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': '{{ site.google_ads_tracking_id }}/IOowCNbSi38QtZrE3QM'});
+</script>
+{% endif %}
+
 {% endif %}
