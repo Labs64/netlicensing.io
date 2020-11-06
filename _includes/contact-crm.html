@@ -7,6 +7,7 @@
     style='background-color: white;color: black;max-width: 800px;'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
+    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
     <form action='https://crm.zoho.eu/crm/WebToLeadForm' name='WebToLeads313099000000275029' method='POST'
         onSubmit='javascript:document.charset="UTF-8"; return checkMandatory313099000000275029()'
         accept-charset='UTF-8'>
@@ -188,6 +189,22 @@
                 color: #333;
             }
 
+            .zcwf_lblLeft .zcwf_ckbox {
+                float: left;
+            }
+
+            .zcwf_lblLeft .zcwf_file {
+                width: 55%;
+                box-sizing: border-box;
+                float: left;
+            }
+
+            .clearB:after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+
             @media all and (max-width: 800px) {
 
                 .zcwf_lblLeft .zcwf_col_lab,
@@ -202,45 +219,48 @@
             }
         </style>
         <div class='zcwf_row wfrm_fld_dpNn'>
-            <div class='zcwf_col_lab' style='font-size:16px; font-family: Roboto, Helvetica, Arial, sans-serif;'><label for='Lead Source'>Lead
+            <div class='zcwf_col_lab' style='font-size:16px; font-family: Roboto, Helvetica, Arial, sans-serif;'><label
+                    for='Lead_Source'>Lead
                     Source</label></div>
-            <div class='zcwf_col_fld'><select class='zcwf_col_fld_slt' id='Lead Source' name='Lead Source'>
+            <div class='zcwf_col_fld'><select class='zcwf_col_fld_slt' id='Lead_Source' name='Lead Source'>
                     <option selected value='Web&#x20;Form'>Web Form</option>
                 </select>
                 <div class='zcwf_col_help'></div>
             </div>
         </div>
         <div class='zcwf_row'>
-            <div class='zcwf_col_lab' style='font-size:16px; font-family: Roboto, Helvetica, Arial, sans-serif;'><label for='First Name'>First
+            <div class='zcwf_col_lab' style='font-size:16px; font-family: Roboto, Helvetica, Arial, sans-serif;'><label
+                    for='First_Name'>First
                     Name</label></div>
-            <div class='zcwf_col_fld'><input type='text' id='First Name' name='First Name' maxlength='40'>
+            <div class='zcwf_col_fld'><input type='text' id='First_Name' name='First Name' maxlength='40'>
                 <div class='zcwf_col_help'></div>
             </div>
         </div>
         <div class='zcwf_row'>
-            <div class='zcwf_col_lab' style='font-size:16px; font-family: Roboto, Helvetica, Arial, sans-serif;'><label for='Last Name'>Last Name<span
-                        style='color:red;'>*</span></label></div>
-            <div class='zcwf_col_fld'><input type='text' id='Last Name' name='Last Name' maxlength='80'>
+            <div class='zcwf_col_lab' style='font-size:16px; font-family: Roboto, Helvetica, Arial, sans-serif;'><label
+                    for='Last_Name'>Last Name<span style='color:red;'>*</span></label></div>
+            <div class='zcwf_col_fld'><input type='text' id='Last_Name' name='Last Name' maxlength='80'>
                 <div class='zcwf_col_help'></div>
             </div>
         </div>
         <div class='zcwf_row'>
-            <div class='zcwf_col_lab' style='font-size:16px; font-family: Roboto, Helvetica, Arial, sans-serif;'><label for='Email'>Email<span
-                        style='color:red;'>*</span></label></div>
+            <div class='zcwf_col_lab' style='font-size:16px; font-family: Roboto, Helvetica, Arial, sans-serif;'><label
+                    for='Email'>Email<span style='color:red;'>*</span></label></div>
             <div class='zcwf_col_fld'><input type='text' ftype='email' id='Email' name='Email' maxlength='100'>
                 <div class='zcwf_col_help'></div>
             </div>
         </div>
         <div class='zcwf_row'>
-            <div class='zcwf_col_lab' style='font-size:16px; font-family: Roboto, Helvetica, Arial, sans-serif;'><label for='Company'>Company</label>
+            <div class='zcwf_col_lab' style='font-size:16px; font-family: Roboto, Helvetica, Arial, sans-serif;'><label
+                    for='Company'>Company</label>
             </div>
             <div class='zcwf_col_fld'><input type='text' id='Company' name='Company' maxlength='100'>
                 <div class='zcwf_col_help'></div>
             </div>
         </div>
         <div class='zcwf_row'>
-            <div class='zcwf_col_lab' style='font-size:16px; font-family: Roboto, Helvetica, Arial, sans-serif;'><label for='Description'>Message<span
-                        style='color:red;'>*</span></label></div>
+            <div class='zcwf_col_lab' style='font-size:16px; font-family: Roboto, Helvetica, Arial, sans-serif;'><label
+                    for='Description'>Message<span style='color:red;'>*</span></label></div>
             <div class='zcwf_col_fld'><textarea id='Description' rows='4' name='Description'></textarea>
                 <div class='zcwf_col_help'></div>
             </div>
@@ -252,7 +272,8 @@
                                 autocomplete='off' id='privacyTool' type='checkbox' name='privacyTool'
                                 onclick='disableErr()'></label></div>
                 </div>
-                <div class='dIB zcwf_privacy_txt' style='font-size: 16px; font-family: Roboto, Helvetica, Arial, sans-serif; color: black;'>
+                <div class='dIB zcwf_privacy_txt'
+                    style='font-size: 16px; font-family: Roboto, Helvetica, Arial, sans-serif; color: black;'>
                     <div><span
                             style='color: rgb(51, 51, 51); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: small; background-color: rgb(255, 255, 255);'>By
                             clicking <i>Submit</i>, you agree to our&nbsp;</span><a
@@ -263,6 +284,15 @@
                             that we contact you via email to respond to your request.</span></div>
                 </div>
                 <div id='privacyErr' style='font-size:12px;color:red;padding-left: 5px;visibility:hidden;'>Please accept our Privacy Policy</div>
+            </div>
+        </div>
+        <div class='zcwf_row'>
+            <div class='zcwf_col_lab'></div>
+            <div class='zcwf_col_fld'>
+                <div class='g-recaptcha' data-sitekey='6LcIo98ZAAAAALeb3e_vhqojLNdT0SJRTyo5aZUh' data-theme='light'
+                    data-callback='rccallback' captcha-verified='false' id='recap'></div>
+                <div id='recapErr' style='font-size:12px;color:red;visibility:hidden;'>Captcha validation failed. If you
+                    are not a robot then please try again.</div>
             </div>
         </div>
         <div class='zcwf_row'>
@@ -288,6 +318,24 @@
                 if (document.getElementById('privacyTool') != undefined && document.getElementById('privacyTool').checked && document.getElementById('privacyErr') != undefined) {
                     document.getElementById('privacyErr').style.visibility = 'hidden';
                 }
+            }
+
+            /* Do not remove this code. */
+            function rccallback() {
+                if (document.getElementById('recap') != undefined) {
+                    document.getElementById('recap').setAttribute('captcha-verified', true);
+                }
+                if (document.getElementById('recapErr') != undefined && document.getElementById('recapErr').style.visibility == 'visible') {
+                    document.getElementById('recapErr').style.visibility = 'hidden';
+                }
+            }
+            function reCaptchaAlert() {
+                var recap = document.getElementById('recap');
+                if (recap != undefined && recap.getAttribute('captcha-verified') == 'false') {
+                    document.getElementById('recapErr').style.visibility = 'visible';
+                    return false;
+                }
+                return true;
             }
             function validateEmail() {
                 var emailFld = document.querySelectorAll('[ftype=email]');
@@ -344,6 +392,8 @@
                 if (!validateEmail()) { return false; }
 
                 if (!privacyAlert()) { return false; }
+
+                if (!reCaptchaAlert()) { return false; }
                 document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
                 gtag_report_conversion(window.location.href);
             }
