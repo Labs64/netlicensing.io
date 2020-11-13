@@ -15,4 +15,4 @@ jobs:
     - uses: chabad360/htmlproofer@master
       with:
         directory: "./_site"
-        arguments: --check-html --allow-hash-href --url-ignore "localhost" --alt-ignore '/.*61860391.*/' --log-level debug
+        arguments: --check-html --allow-hash-href --url-ignore 'localhost' --alt-ignore '/.*61860391.*/' --log-level debug
