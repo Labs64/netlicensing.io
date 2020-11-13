@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Worst Nightmares for Account Managers"
-description: "..."
+description: "NetLicensing will ensure that all the stressful processes of rolling out the new features for you and your customer are going to be removed."
 image:
   url: /img/blog/entitlement-management.png
 tags:
