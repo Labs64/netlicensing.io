@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Onboard users using interactive Product Tours with GuideChimp"
-description: "..."
+description: "Step-by-step interactive guides and feature introduction tours is one of the techniques every marketer should know and adopt nowadays"
 image:
   url: /img/blog/guidechimp-webapp-product-tours.png
 tags:
