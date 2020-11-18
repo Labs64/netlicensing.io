@@ -29,7 +29,7 @@ There are several free JavaScript-based product tour libraries available, such a
 
 Among these libraries, [GuideChimp](https://www.labs64.com/guidechimp/){:target="_blank"} provides all the essential features to enable product tour on any website or webapp.
 
-### Why GuideChimp is different?
+## Why GuideChimp is different?
 
 - GuideChimp is a well-maintained library with great support and documentation.
 - A fresh and modern look&feel can be easily customized according to your needs and brand identity.
@@ -41,7 +41,7 @@ Among these libraries, [GuideChimp](https://www.labs64.com/guidechimp/){:target=
 - With [GuideChimp Chrome Extension](https://chrome.google.com/webstore/detail/guidechimp-chrome-extensi/afecedbgkfoijeligfjflidfddndnjng){:target="_blank"}{:rel="noopener nofollow"} you can start guided tours on any website with ZERO! coding effort.
 - ... see the full list of GuideChimp features [here](https://www.labs64.com/guidechimp/#features){:target="_blank"}
 
-### What can you do with GuideChimp?
+## What can you do with GuideChimp?
 
 These are only few examples of what you can achieve with GuideChimp in your web application:
 
@@ -51,11 +51,11 @@ These are only few examples of what you can achieve with GuideChimp in your web 
 - **In-product Messaging:** Engage the right segment of your users at the right time and increase conversion.
 - **Employee Training:** Improve your employees' productivity by providing an efficient and interactive training system.
 
-### How to enable GuideChimp tours
+## How to enable GuideChimp tours
 
 So, let's see, how you can start using GuideChimp in a few simple steps.
 
-#### **Install library**
+### Install library
 
 There are numerous [ways](https://github.com/Labs64/GuideChimp/wiki/Install){:target="_blank"}{:rel="noopener nofollow"} how to install GuideChimp library:
 
@@ -78,7 +78,7 @@ or simply add the dependency to your `package.json` file:
 }
 ```
 
-#### **Prepare HTML page**
+### Prepare HTML page
 
 GuideChimp is using DOM elements on your website to highlight these and show tooltips. You need to identify website visuals that need to be highlighted.
 
@@ -91,7 +91,7 @@ HTML snippet example with the link element and `"id"` property set:
 </a>
 ```
 
-#### **Define tour steps**
+### Define tour steps
 
 Now you need to define guided tour steps using the elements data we prepared and collected in the previous section.
 GuideChimp supports [two ways](https://github.com/Labs64/GuideChimp/wiki/Configure#step-definition){:target="_blank"}{:rel="noopener nofollow"} of how the tour steps can be defined: *HTML Attributes* and *JavaScript Object*.
@@ -109,7 +109,7 @@ var tourGuideChimp = [
 ];
 ```
 
-#### **Start guided tour**
+### Start guided tour
 
 Now we need to trigger GuideChimp tour start, e.g. on element click, page open or any other event on the website.
 
@@ -122,7 +122,7 @@ document.querySelector('#guidechimp-demo').onclick = function () {
 };
 ```
 
-### Showtime
+## Showtime
 
 That's all and very easy! The tour is ready to go and show your customers all the best sides of your webapp!
 
@@ -130,7 +130,7 @@ That's all and very easy! The tour is ready to go and show your customers all th
 
 You can see this demo tour and *GuideChimp in action* at [www.labs64.com/guidechimp](https://www.labs64.com/guidechimp/)
 
-### Final Thoughts
+## Final Thoughts
 
 A guided tour or a walkthrough can provide so much benefit to your visitors and drive product adoption by showing essential product features and convert the visitors into happy customers.
 

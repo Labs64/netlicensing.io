@@ -33,9 +33,9 @@ These steps needed to integrate NetLicensing customer entitlements validation in
 - Configure NetLicensing Product
 - Integrate NetLicensing RESTful API
 
-### Setup Spring Security Project
+## Setup Spring Security Project
 
-#### **Prerequisites:**
+### Prerequisites
 
 - Installed Java (>= 8.x)
 - Installed Maven (>= 3.5)
@@ -69,14 +69,14 @@ To work with the java source code, you can use any available IDE; e.g. Eclipse, 
 
 So, now your development environment is set up, and we can move on to the next step.
 
-### Configure NetLicensing Product
+## Configure NetLicensing Product
 
 As next, we will create NetLicensing product configuration, which will be used to specify customers entitlements.
 You can create the *product*, *module* and *packages* configurations manually (you might find these [video tutorials](https://www.youtube.com/watch?v=LrfVsOVy73s&list=PLXfRIwjR9ZR5ZTNuLt7esvObY2BcIgpp1){:target="_blank"}{:rel="noopener nofollow"} helpful) or simply open [Demo Data](https://ui.netlicensing.io/#/demo-data){:target="_blank"} view and create one of the demo configurations for the chosen *Licensing Model*.
 
 After this step is finished, you should have the following entities created:
 
-#### **Product**
+### Product
 
 *NetLicensing Product* corresponds to your specific product being offered to the end-customers.
 
@@ -84,7 +84,7 @@ After this step is finished, you should have the following entities created:
 
 For this demo, we recommend enabling *"Auto-create customer"* option, so every not-existing customer will be created automatically upon the first validation request.
 
-#### **Module**
+### Module
 
 *NetLicensing Module* represents a specific product licensing schema and configured using one of the supported [Licensing Models](/licensing-models/){:target="_blank"}.
 
@@ -94,7 +94,7 @@ For this demo, we recommend enabling *"Auto-create customer"* option, so every n
 
 One product in the NetLicensing can be configured using more than one licensing models, which is allowing you the highest level of customization accordingly to your business needs.
 
-#### **Packages**
+### Packages
 
 *NetLicensing Package* is an individual product module configuration which is defining licensing packages offered to the end-customers.
 
@@ -109,11 +109,11 @@ You need to note the following configuration data for the NetLicensing API integ
 - Product Number
 - Module Number
 
-### Integrate NetLicensing RESTful API
+## Integrate NetLicensing RESTful API
 
 NetLicensing offers a very flexible [RESTful API](https://netlicensing.io/wiki/restful-api){:target="_blank"}, which can be implemented with almost every programming language and technology stack. To speed up integration, a set of predefined [client libraries](https://netlicensing.io/wiki/client-libraries){:target="_blank"} is provided. In this demo, we will be using NetLicensing [Java Client](https://github.com/Labs64/NetLicensingClient-java){:target="_blank"}{:rel="noopener nofollow"} library.
 
-#### **Maven dependency**
+### Maven dependency
 
 NetLicensing Java Client library needs to be added as a project dependency in the `pom.xml` file
 
@@ -231,7 +231,7 @@ Now you can start the project again and verify NetLicensing integration.
 > ./mvnw spring-boot:run
 ```
 
-### Conclusion
+## Conclusion
 
 With the above simple adjustments, we added the possibility to *validate customers licenses* maintained in the NetLicensing system.
 

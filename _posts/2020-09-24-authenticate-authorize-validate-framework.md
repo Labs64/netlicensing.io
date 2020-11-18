@@ -21,11 +21,11 @@ Almost every developer is familiar with the basic technology stack and buzz-word
 
 Let's take a look at these two concepts:
 
-### Authentication
+## Authentication
 
 *Authentication* is the first step of authentication & authorization flow and validating user credentials (usually requires username and password) and confirms user identity to grant access to the system.
 
-### Authorization
+## Authorization
 
 *Authorization* is done after successful authentication and determines whether the user is authorized to access the requested resources.
 
@@ -37,7 +37,7 @@ An extended *"Authentication-Authorization-Validation Framework (AAV) Framework"
 
 ![Authentication-Authorization-Validation Framework](/img/blog/aav-framework-flow.png "Authentication-Authorization-Validation Framework"){:class="blog-center"}
 
-### Validation
+## Validation
 
 *Validation* is a process of user entitlements verification, based on the applied licensing scheme; e.g. subscription, metered model, node locking, concurrent system access, etc.
 
