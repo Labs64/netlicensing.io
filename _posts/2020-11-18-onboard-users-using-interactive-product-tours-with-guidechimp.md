@@ -33,17 +33,17 @@ Among these libraries, [GuideChimp](https://www.labs64.com/guidechimp/){:target=
 
 - GuideChimp is a well-maintained library with great support and documentation.
 - A fresh and modern look&feel can be easily customized according to your needs and brand identity.
-- Great support of Single Page Applications build with Angular, Vue.js, React, and other dynamic JS-Frameworks.
-- Modular design allows functionality extension and customisations.
+- Great support for Single Page Applications built with Angular, Vue.js, React, and other dynamic JS-Frameworks.
+- Modular design allows functionality extension and customizations.
 - GuideChimp can be extended using out-of-the-box and third-party [plugins](https://github.com/Labs64/GuideChimp/wiki/Plugins){:target="_blank"}{:rel="noopener nofollow"}.
-- You can enable tour on the lazy-loaded or delayed elements in single-page applications.
+- You can compose tours on lazy-loaded or delayed elements in a single-page application.
 - GuideChimp is designed as a JS class, so you can easily inherit from it and change / add custom methods.
-- With [GuideChimp Chrome Extension](https://chrome.google.com/webstore/detail/guidechimp-chrome-extensi/afecedbgkfoijeligfjflidfddndnjng){:target="_blank"}{:rel="noopener nofollow"} you can start guided tours on any website with ZERO! code effort.
+- With [GuideChimp Chrome Extension](https://chrome.google.com/webstore/detail/guidechimp-chrome-extensi/afecedbgkfoijeligfjflidfddndnjng){:target="_blank"}{:rel="noopener nofollow"} you can start guided tours on any website with ZERO! coding effort.
 - ... see the full list of GuideChimp features [here](https://www.labs64.com/guidechimp/#features){:target="_blank"}
 
 ### What can you do with GuideChimp?
 
-These are only some few examples of how you can use GuideChimp in your web applications.
+These are only few examples of what you can achieve with GuideChimp in your web application:
 
 - **User Experience:** Implement engaging and personalised guides to walk users through your system.
 - **User Onboarding:** Successfully onboard your users from day one with an intuitive step by step walkthroughs.
@@ -57,7 +57,7 @@ So, let's see, how you can start using GuideChimp in a few simple steps.
 
 #### **Install library**
 
-There are numerous [ways](https://github.com/Labs64/GuideChimp/wiki/Install){:target="_blank"}{:rel="noopener nofollow"} how you can install GuideChimp library:
+There are numerous [ways](https://github.com/Labs64/GuideChimp/wiki/Install){:target="_blank"}{:rel="noopener nofollow"} how to install GuideChimp library:
 
 - CDN
 - Node.js / npm module
@@ -66,7 +66,7 @@ There are numerous [ways](https://github.com/Labs64/GuideChimp/wiki/Install){:ta
 
 We will be using Node.js / npm method in this guide:
 
-Execute following command in your Node.js environment:
+Execute the following command in your Node.js environment:
 ```shell
 > npm install guidechimp
 ```
@@ -96,9 +96,9 @@ HTML snippet example with the link element and `"id"` property set:
 Now you need to define guided tour steps using the elements data we prepared and collected in the previous section.
 GuideChimp supports [two ways](https://github.com/Labs64/GuideChimp/wiki/Configure#step-definition){:target="_blank"}{:rel="noopener nofollow"} of how the tour steps can be defined: *HTML Attributes* and *JavaScript Object*.
 
-In this tutorial we will be using JS method.ö
+In this tutorial we will be using JS method.
 
-Create `tourGuideChimp` JS variable and assign an array of the steps:
+Create `tourGuideChimp` JS variable and assign an array, where each element defines one step:
 ```javascript
 var tourGuideChimp = [
     {
@@ -132,7 +132,7 @@ You can see this demo tour and *GuideChimp in action* at [www.labs64.com/guidech
 
 ### Final Thoughts
 
-A guided tour or walkthrough can provide so much benefit to your visitors and drive product adoption by showing essential product features and convert users into happy customers.
+A guided tour or a walkthrough can provide so much benefit to your visitors and drive product adoption by showing essential product features and convert the visitors into happy customers.
 
 This tutorial showing best practices on how you can use GuideChimp and build guided product tours for your webapps.
 
