@@ -32,7 +32,7 @@ Among these libraries, [GuideChimp](https://www.labs64.com/guidechimp/){:target=
 ### Why GuideChimp is different?
 
 - GuideChimp is a well-maintained library with great support and documentation.
-- A fresh and modern look&fill can be easily customized accordingly to your needs and brand identity.
+- A fresh and modern look&feel can be easily customized according to your needs and brand identity.
 - Great support of Single Page Applications build with Angular, Vue.js, React, and other dynamic JS-Frameworks.
 - Modular design allows functionality extension and customisations.
 - GuideChimp can be extended using out-of-the-box and third-party [plugins](https://github.com/Labs64/GuideChimp/wiki/Plugins){:target="_blank"}{:rel="noopener nofollow"}.
