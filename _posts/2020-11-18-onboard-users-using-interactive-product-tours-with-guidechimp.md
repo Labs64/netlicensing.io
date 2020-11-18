@@ -23,7 +23,7 @@ author:
 
 Step-by-step interactive guides and feature introduction tours is one of the techniques every marketer should know and adopt nowadays.
 
-Using these techniques you can easily convert new users into the happy and... paid customers.
+Using these techniques you can easily convert new users into the happy and... paying customers.
 
 There are several free JavaScript-based product tour libraries available, such as Shepherd, Intro.js, React Joyride, *GuideChimp* and also commercial products, such as Whatfix, Walkme, etc.
 
