@@ -1430,6 +1430,15 @@
   publisher: "Unsplash"
   creditlink: https://unsplash.com/photos/LqKhnDzSF-8
 
+- id: netlicensing-cyber-weeks-2020
+  source: /img/blog/netlicensing-cyber-weeks-2020.png
+  title: "NetLicensing Cyber Weeks 2020"
+  caption: "NetLicensing Cyber Weeks 2020"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
 - id: labs64-netlicensing-2_5_0
   source: /img/blog/labs64-netlicensing-2_5_0.png
   title: "Labs64 NetLicensing 2.5.0 - Indian Summer edition"
