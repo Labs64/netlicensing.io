@@ -98,7 +98,7 @@
         },
         {
             title: 'Advent 2020: Day 2',
-            description: '...',
+            description: 'Day 2',
             multiPage: {
                 page: '/licensing-models/',
             }
@@ -147,8 +147,7 @@
         }, 1000);
     } else if (searchParams.get('guidechimp') === 'on' && searchParams.get('tour') === 'advent-calendar-2020') {
         setTimeout(function () {
-            var date = new Date();
-            guideChimpAdventCalendar.start(date.getDate() - 1);
+            guideChimpAdventCalendar.start(new Date().getDate() - 1);
         }, 1000);
     }
 
