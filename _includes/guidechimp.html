@@ -76,6 +76,13 @@
         }
     ];
 
+    var tourAdventCalendar2020 = [
+        {
+            title: 'Day 1',
+            description: 'Labs64 NetLicensing introduces the completely new Customer-centric license management approach, where you can manage all your customers entitlements for all your products and services in one central place. NetLicensing is your Licensing-CRM, which can easily interface with your existing in-house CRM or ERP systems.'
+        }
+    ];
+
     if (searchParams.get('guidechimp') === 'on' && searchParams.get('tour') === 'licensing-models') {
         var guideChimp = new GuideChimp(tourLicensingModels);
         setTimeout(function () {
@@ -85,6 +92,11 @@
         var guideChimp = new GuideChimp(tourFeatures);
         setTimeout(function () {
             guideChimp.start();
+        }, 1000);
+    } else if (searchParams.get('guidechimp') === 'on' && searchParams.get('tour') === 'advent-calendar-2020') {
+        var guideChimp = new GuideChimp(tourAdventCalendar2020);
+        setTimeout(function () {
+            guideChimp.start(0);
         }, 1000);
     }
 
