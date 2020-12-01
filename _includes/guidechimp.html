@@ -95,6 +95,30 @@
                     }
                 }
             ]
+        },
+        {
+            title: 'Advent 2020: Day 2',
+            description: '...',
+            multiPage: {
+                page: '/licensing-models/',
+            }
+        },
+        {
+            element: '[data-id="id-3"]',
+            title: 'Advent 2020: Day 3',
+            description: '<i>Price and package</i> in minutes without having to re-code or re-engineer back-office systems.',
+            multiPage: {
+                page: '/licensing-models/',
+            },
+            buttons: [
+                {
+                    title: 'Learn More',
+                    class: 'NL_button button_main NL_dark_btn NL_wide_btn',
+                    onClick: function () {
+                        window.location.href = 'http://nlic.io/nlPTB';
+                    }
+                }
+            ]
         }
     ];
 
@@ -102,6 +126,9 @@
     GuideChimp.extend(guideChimpPluginGoogleAnalytics);
     var guideChimpLicensingModels = new GuideChimp(tourLicensingModels);
     var guideChimpFeatures = new GuideChimp(tourFeatures);
+
+    // Adventscalendar2020
+    var date = new Date();
     var guideChimpAdventCalendar = new GuideChimp(tourAdventCalendar);
     guideChimpAdventCalendar.gaOn('onBeforeChange', 'Advent Calendar 2020', (to, from) => {
         return {
