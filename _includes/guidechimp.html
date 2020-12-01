@@ -147,7 +147,8 @@
         }, 1000);
     } else if (searchParams.get('guidechimp') === 'on' && searchParams.get('tour') === 'advent-calendar-2020') {
         setTimeout(function () {
-            guideChimpAdventCalendar.start(0);
+            var date = new Date();
+            guideChimpAdventCalendar.start(date.getDate() - 1);
         }, 1000);
     }
 
