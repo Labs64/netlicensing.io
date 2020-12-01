@@ -111,10 +111,19 @@
     } else if (searchParams.get('guidechimp') === 'on' && searchParams.get('tour') === 'advent-calendar-2020') {
         GuideChimp.extend(guideChimpPluginMultiPage);
         GuideChimp.extend(guideChimpPluginGoogleAnalytics);
+
         var guideChimp = new GuideChimp(tourAdventCalendar2020);
-        guide.continue();
+
+        guideChimp.gaOn('onBeforeChange', 'Advent Calendar 2020', (to, from) => {
+            return {
+                event_category: 'Advent Calendar 2020',
+                event_label: to.title
+            };
+        });
+
         setTimeout(function () {
             guideChimp.start(0);
+            guide.continue();
         }, 1000);
     }
 
