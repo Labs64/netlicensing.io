@@ -79,7 +79,7 @@
         }
     ];
 
-    var tourAdventCalendar2020 = [
+    var tourAdventCalendar = [
         {
             title: 'Advent 2020: Day 1',
             description: 'This is NetLicensing advent calendar this year! Use code <i>ADVENT2020_1</i> and get 3 months Premium Plan for free.',
@@ -98,32 +98,30 @@
         }
     ];
 
+    GuideChimp.extend(guideChimpPluginMultiPage);
+    GuideChimp.extend(guideChimpPluginGoogleAnalytics);
+    var guideChimpLicensingModels = new GuideChimp(tourLicensingModels);
+    var guideChimpFeatures = new GuideChimp(tourFeatures);
+    var guideChimpAdventCalendar = new GuideChimp(tourAdventCalendar);
+    guideChimpAdventCalendar.gaOn('onBeforeChange', 'Advent Calendar 2020', (to, from) => {
+        return {
+            event_category: 'Advent Calendar 2020',
+            event_label: to.title
+        };
+    });
+    guideChimpAdventCalendar.continue();    
+
     if (searchParams.get('guidechimp') === 'on' && searchParams.get('tour') === 'licensing-models') {
-        var guideChimp = new GuideChimp(tourLicensingModels);
         setTimeout(function () {
-            guideChimp.start();
+            guideChimpLicensingModels.start();
         }, 1000);
     } else if (searchParams.get('guidechimp') === 'on' && searchParams.get('tour') === 'features') {
-        var guideChimp = new GuideChimp(tourFeatures);
         setTimeout(function () {
-            guideChimp.start();
+            guideChimpFeatures.start();
         }, 1000);
     } else if (searchParams.get('guidechimp') === 'on' && searchParams.get('tour') === 'advent-calendar-2020') {
-        GuideChimp.extend(guideChimpPluginMultiPage);
-        GuideChimp.extend(guideChimpPluginGoogleAnalytics);
-
-        var guideChimp = new GuideChimp(tourAdventCalendar2020);
-
-        guideChimp.gaOn('onBeforeChange', 'Advent Calendar 2020', (to, from) => {
-            return {
-                event_category: 'Advent Calendar 2020',
-                event_label: to.title
-            };
-        });
-
         setTimeout(function () {
-            guideChimp.start(0);
-            guideChimp.continue();
+            guideChimpAdventCalendar.start(0);
         }, 1000);
     }
 
