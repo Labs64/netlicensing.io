@@ -114,7 +114,7 @@
                     title: 'Register your interest',
                     class: 'NL_button button_main NL_dark_btn NL_wide_btn',
                     onClick: function () {
-                        window.location.href = 'mailto:info@netlicensing.io';
+                        window.location.href = 'https://netlicensing.io/contact/';
                     }
                 }
             ]
@@ -125,8 +125,7 @@
     GuideChimp.extend(guideChimpPluginGoogleAnalytics);
     var guideChimpLicensingModels = new GuideChimp(tourLicensingModels);
     var guideChimpFeatures = new GuideChimp(tourFeatures);
-
-    /* Adventscalendar2020 */
+    /* Advent2020 */
     var guideChimpAdventCalendar = new GuideChimp(tourAdventCalendar);
     guideChimpAdventCalendar.gaOn('onBeforeChange', 'Advent Calendar 2020', (to, from) => {
         return {
