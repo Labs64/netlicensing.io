@@ -128,19 +128,27 @@
         }
     ];
 
-    GuideChimp.extend(guideChimpPluginMultiPage);
-    GuideChimp.extend(guideChimpPluginGoogleAnalytics);
-    var guideChimpLicensingModels = new GuideChimp(tourLicensingModels);
-    var guideChimpFeatures = new GuideChimp(tourFeatures);
+    if (typeof guideChimpPluginMultiPage !== undefined) {
+        GuideChimp.extend(guideChimpPluginMultiPage);
+    }
+    if (typeof guideChimpPluginGoogleAnalytics !== undefined) {
+        GuideChimp.extend(guideChimpPluginGoogleAnalytics);
+    }
+
     /* Advent2020 */
-    var guideChimpAdventCalendar = new GuideChimp(tourAdventCalendar);
-    guideChimpAdventCalendar.gaOn('onBeforeChange', 'Advent Calendar 2020', (to, from) => {
-        return {
-            event_category: 'guidechimp_tour',
-            event_label: to.title
-        };
-    });
-    guideChimpAdventCalendar.continue();    
+    var guideChimpAdventCalendar = GuideChimp(tourAdventCalendar);
+    if (typeof guideChimpPluginGoogleAnalytics !== undefined) {
+        guideChimpAdventCalendar.gaOn('onBeforeChange', 'Advent Calendar 2020', (to, from) => {
+            return {
+                event_category: 'guidechimp_tour',
+                event_label: to.title
+            };
+        });
+    }
+    guideChimpAdventCalendar.continue();
+
+    var guideChimpLicensingModels = GuideChimp(tourLicensingModels);
+    var guideChimpFeatures = GuideChimp(tourFeatures);
 
     if (searchParams.get('guidechimp') === 'on' && searchParams.get('tour') === 'licensing-models') {
         setTimeout(function () {
