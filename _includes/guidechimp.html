@@ -249,7 +249,23 @@
             multiPage: {
                 page: '/affiliates/',
             }
-        }
+        },
+        {
+            title: 'NetLicensing Advent 2020 - Day 15',
+            description: 'Sign up today with the below code and receive <strong>6 months Basic Plan</strong> for free.<br><br><img src="/img/advent/2020/netlicensing-advent-day15-small.png" alt="NetLicensing Advent 2020 - Day 15">',
+            multiPage: {
+                page: '/',
+            },
+            buttons: [
+                {
+                    title: 'Use Code: ADVENT2020_15',
+                    class: 'NL_button button_main NL_dark_btn NL_wide_btn',
+                    onClick: function () {
+                        window.location.href = 'https://ui.netlicensing.io/#/register';
+                    }
+                }
+            ]
+        }        
     ];
 
     if (typeof guideChimpPluginMultiPage !== "undefined") {
