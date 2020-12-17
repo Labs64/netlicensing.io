@@ -272,7 +272,23 @@
             multiPage: {
                 page: '/membership-management/',
             }
-        } 
+        },
+        {
+            title: 'NetLicensing Advent 2020 - Day 17',
+            description: 'Use <strong>NetLicensing Community Support</strong> to report bugs and to request and vote for new NetLicensing features, as well as collaborate, asking questions around license management and support new NetLicensing adopters.<br><br><img src="/img/advent/2020/netlicensing-advent-day17-small.png" alt="NetLicensing Community Support">',
+            multiPage: {
+                page: '/documentation/',
+            },
+            buttons: [
+                {
+                    title: 'View on <i class="fa fa-github"></i>',
+                    class: 'NL_button button_main NL_dark_btn NL_wide_btn',
+                    onClick: function () {
+                        window.location.href = 'https://github.com/Labs64/NetLicensing-Community';
+                    }
+                }
+            ]
+        }
     ];
 
     if (typeof guideChimpPluginMultiPage !== "undefined") {
