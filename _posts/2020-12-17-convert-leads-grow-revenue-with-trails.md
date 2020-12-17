@@ -3,7 +3,7 @@ layout: post
 title: "Convert Leads and Grow Your Revenue with Trails"
 description: "When providing free trials, you will obtain one of the most precious factors for the implementation of marketing campaigns..."
 image:
-  url: /img/blog/blog-placeholder.jpg
+  url: /img/blog/slidebean-J3AV8F-B42M-unsplash.jpg
 tags:
   - Trial
   - Try-and-Buy
