@@ -4,7 +4,7 @@ title: "Build Guided Product Tours Using GuideChimp"
 description: "Help your customers to reach Aha!-Moment faster with GuideChimp"
 author:
   name: GuideChimp
-  url: https://github.com/Labs64/GuideChimp
+  url: https://www.labs64.com/guidechimp/
 image:
   url: /img/blog/guidechimp-stage-04.png
 tags:
@@ -42,7 +42,7 @@ New customers retention is a big concern for almost every SaaS provider. To enga
 
 One of the proven tactics here is to offer a *Guided Product Tour*.
 
-Numerous libraries allow you to create own guided product tours and onboard customers quickly. But today we want to present you another one - [GuideChimp](https://github.com/Labs64/GuideChimp#features) - a lightweight and extensible library that allows creating guided tours easily by every user, even inexperienced in web development.
+Numerous libraries allow you to create own guided product tours and onboard customers quickly. But today we want to present you another one - [GuideChimp](https://www.labs64.com/guidechimp/){:target="_blank"} - a lightweight and extensible library that allows creating guided tours easily by every user, even inexperienced in web development.
 
 ## Why is GuideChimp different?
 
@@ -53,7 +53,7 @@ Although it does the same job as other Guided Tour libraries, GuideChimp has a n
 * Minimum overhead and fast response by deferred DOM elements assignment (lazy-loading).
 * Multi-page tour capabilities.
 * Interactive tours possible by adding event listeners and callbacks.
-* ...any many other useful [features](https://github.com/Labs64/GuideChimp#features)
+* ...any many other useful [features](https://www.labs64.com/guidechimp/#features){:target="_blank"}
 
 GuideChimp is the most up-to-date and well-maintained library as of today. It is available under *Apache 2.0 License*.
 
@@ -70,10 +70,10 @@ Use below example to add GuideChimp using HTML &lt;head&gt; elements:
 
 {% highlight html %}
 <!-- GuideChimp -->
-<script src="https://cdn.jsdelivr.net/npm/guidechimp@1/dist/guidechimp.min.js"></script>	 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/guidechimp@1/dist/guidechimp.min.css">
+<script src="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/guidechimp.min.js"></script>	 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/guidechimp.min.css">
 <!-- GuideChimp - GA plugin -->
-<script src="https://cdn.jsdelivr.net/npm/guidechimp@1/dist/plugins/googleAnalytics.js"></script>     
+<script src="https://cdn.jsdelivr.net/npm/guidechimp@2/dist/plugins/googleAnalytics.js"></script>     
 {% endhighlight %}
 
 ### Configure
@@ -113,12 +113,12 @@ That's all you need to get your first tour ready: by clicking on the element wit
 In this article we only showed the basic GuideChimp functionality.
 GuideChimp is flexible enough and allows you to adapt it visually and functionally as per your requirements and website design.
 
-Please use GuideChimp wiki as a reference here: [https://github.com/Labs64/GuideChimp/wiki](https://github.com/Labs64/GuideChimp/wiki)
+Please use GuideChimp wiki as a reference here: [https://github.com/Labs64/GuideChimp/wiki](https://github.com/Labs64/GuideChimp/wiki){:target="_blank"}{:rel="noopener nofollow"}
 
 We hope this intro helped you to get started with GuideChimp, and inspired you to create first onboarding tour for your new users.
 
 ![GuideChimp](https://raw.githubusercontent.com/Labs64/guidechimp/master/docs/img/guidechimp-logo-transparent.png "GuideChimp"){:class="blog-center"}
 
-Be part of the [community](https://discord.gg/cgs9JeK){:target="_blank"} ( *Discord* ) - share your ideas and best practices, help other adopters, contribute to the GuideChimp ecosystem... be in the good company.
+Be part of the [community](https://discord.gg/cgs9JeK){:target="_blank"}{:rel="noopener nofollow"} ( *Discord* ) - share your ideas and best practices, help other adopters, contribute to the GuideChimp ecosystem... be in the good company.
 
-Stay up-to-date on GuideChimp social media channels: [LinkedIn](https://www.linkedin.com/showcase/guidechimp){:target="_blank"}, [Reddit](https://www.reddit.com/user/GuideChimp){:target="_blank"}, [Twitter](https://twitter.com/GuideChimpIO){:target="_blank"}, [Facebook](https://www.facebook.com/GuideChimp.IO){:target="_blank"}, [Instagram](https://www.instagram.com/guidechimp/){:target="_blank"}
+Stay up-to-date on GuideChimp social media channels: [LinkedIn](https://www.linkedin.com/showcase/guidechimp){:target="_blank"}{:rel="noopener nofollow"}, [Reddit](https://www.reddit.com/user/GuideChimp){:target="_blank"}{:rel="noopener nofollow"}, [Twitter](https://twitter.com/GuideChimp){:target="_blank"}{:rel="noopener nofollow"}, [Facebook](https://www.facebook.com/GuideChimp.IO){:target="_blank"}{:rel="noopener nofollow"}, [Instagram](https://www.instagram.com/guidechimp/){:target="_blank"}{:rel="noopener nofollow"}
