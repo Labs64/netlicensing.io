@@ -143,7 +143,7 @@ tags:
 
 <div class="row NL_block" style="text-align:center;">
     <h3 class="col-md-12">3pp e-commerce integration using NetLicensing Gateway</h3>
-    <p class="col-md-8 col-md-offset-2">Integration with NetLicensing doesn’t mean, that existing sales channels need to be changed. You can use established e-commerce (FastSpring, MyCommerce, PrestaShop, SendOwl, etc.) platforms for licenses checkout process and configure fulfillment / web-hocks process to be used in the combination with NetLicensing Gateway. So all acquired licenses will be available and assigned to the customer for later validation in NetLicensing.</p>
+    <p class="col-md-8 col-md-offset-2">Integration with NetLicensing doesn’t mean, that existing sales channels need to be changed. You can use established e-commerce (FastSpring, MyCommerce, PrestaShop, SendOwl, etc.) platforms for licenses checkout process and configure fulfillment / web-hocks process to be used in the combination with <a href="https://netlicensing.io/wiki/gateway">NetLicensing Gateway</a>. So all acquired licenses will be available and assigned to the customer for later validation in NetLicensing.</p>
     <figure>
         <div class="image">
             <img src="{{ '/img/usage-scenarios/netlicensing-integration-ecommerce.png' | prepend: site.baseurl | prepend: site.url }}" alt="NetLicensing Use Case: 3pp e-commerce integration using NetLicensing Gateway" width="70%">
