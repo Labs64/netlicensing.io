@@ -359,6 +359,13 @@
                     }
                 }
             ]
+        },
+        {
+            title: 'NetLicensing Advent 2020 - Day 23',
+            description: '<strong>Maximize revenue with flexible licensing models</strong><br>With NetLicensing you have a choice of ready-to-use licensing models or customized licensing models may be created to suit your unique business needs and goals.<br><br><img src="/img/netlicensing-landing-licensing-models.png" width="450px" alt="NetLicensing - Licensing Models">',
+            multiPage: {
+                page: '/licensing-models/',
+            }
         }
     ];
 
@@ -372,7 +379,7 @@
     /* Advent2020 */
     var guideChimpAdventCalendar = GuideChimp(tourAdventCalendar);
     if (typeof guideChimpPluginGoogleAnalytics !== "undefined") {
-        guideChimpAdventCalendar.gaOn('onBeforeChange', 'Advent Calendar 2020', (to, from) => {
+        guideChimpAdventCalendar.gaOn('onAfterChange', 'Advent Calendar 2020', (to, from) => {
             return {
                 event_category: 'guidechimp_tour',
                 event_label: to.title
