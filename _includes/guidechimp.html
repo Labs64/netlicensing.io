@@ -393,7 +393,7 @@
     }
 
     /* Advent2020 */
-    var guideChimpAdventCalendar = GuideChimp(tourAdventCalendar);
+    var guideChimpAdventCalendar = GuideChimp(tourAdventCalendar, { showPagination: false });
     if (typeof guideChimpPluginGoogleAnalytics !== "undefined") {
         guideChimpAdventCalendar.gaOn('onAfterChange', 'Advent Calendar 2020', (to, from) => {
             return {
