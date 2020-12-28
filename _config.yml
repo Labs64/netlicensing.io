@@ -30,11 +30,11 @@ blog_recommended_posts:
  - /blog/2015/10/24/infographic-how-to-select-licensing-model/
 
 # TopNav sticker
-topnav_sticker_text: "Advent Calendar"
-topnav_sticker_url: "./?guidechimp=on&tour=advent-calendar-2020"
-#topnav_sticker_onclick: "Calendly.initPopupWidget({url: 'https://calendly.com/netlicensing/netlicensing-demo?primary_color=853E29'});return false;"
-topnav_sticker_image: "/img/netlicensing-advent.png"
-#topnav_sticker_target: "_blank"
+topnav_sticker_text: "Request a Demo"
+topnav_sticker_url: ""
+topnav_sticker_onclick: "Calendly.initPopupWidget({url: 'https://calendly.com/netlicensing/netlicensing-demo?primary_color=853E29'});return false;"
+topnav_sticker_image: "/img/netlicensing-demo.pngs"
+topnav_sticker_target: "_blank"
 
 # SEO
 google_analytics_tracking_id: "UA-32654174-2"
