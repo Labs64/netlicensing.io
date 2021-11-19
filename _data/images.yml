@@ -1439,6 +1439,15 @@
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io
 
+- id: netnicensing-orangeweeks-2021.png
+  source: /img/blog/netnicensing-orangeweeks-2021.png
+  title: "NetLicensing Orange Weeks 2021"
+  caption: "NetLicensing Orange Weeks 2021"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
 - id: labs64-netlicensing-2_5_0
   source: /img/blog/labs64-netlicensing-2_5_0.png
   title: "Labs64 NetLicensing 2.5.0 - Indian Summer edition"
