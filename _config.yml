@@ -25,9 +25,9 @@ stage_banner_image: "../img/netlicensing-stage-banner-01.png"
 # Blog
 blog_placeholder_image: "/img/blog/blog-placeholder.jpg"
 blog_recommended_posts:
- - /blog/2020/06/01/increase-sales-by-providing-free-trials/
- - /blog/2017/08/20/labs64-netlicensing-laas/
+ - /blog/2020/09/24/authenticate-authorize-validate-framework/
  - /blog/2015/10/24/infographic-how-to-select-licensing-model/
+ - /blog/2020/11/18/onboard-users-using-interactive-product-tours-with-guidechimp/
 
 # TopNav sticker
 topnav_sticker_text: "Request a Demo"
