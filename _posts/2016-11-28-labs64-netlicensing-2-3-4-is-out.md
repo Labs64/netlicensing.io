@@ -37,6 +37,6 @@ This offer is valid for all new NetLicensing registrations made between November
 
 Be sure not to miss out on this chance – it’s a limited-time offer!
 
-As always, your feedback is important to us - please visit [NetLicensing Website](https://netlicensing.io) - [Leave Feedback](https://netlicensing.uservoice.com/){:target="_blank"}.
+As always, your feedback is important to us - please visit [NetLicensing Website](https://netlicensing.io) - [Leave Feedback](https://github.com/Labs64/NetLicensing-Community/){:target="_blank"}.
 
 Thank you for your contributions & *Happy Licensing*!

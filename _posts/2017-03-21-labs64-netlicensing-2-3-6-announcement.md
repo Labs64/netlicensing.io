@@ -20,8 +20,8 @@ tags:
 
 This maintenance release targets important compatibility issue:
 
-* **PayPal**: NetLicensing Shop checkout process revisited in order to accommodate changes at *PayPal Express Checkout Digital Goods*. This option is [no longer available](https://developer.paypal.com/docs/classic/express-checkout/digital-goods/IntegratingExpressCheckoutDG/){:target="_blank"} for new PayPal integrations.
+* **PayPal**: NetLicensing Shop checkout process revisited in order to accommodate changes at *PayPal Express Checkout Digital Goods*. This option is no longer available for new PayPal integrations.
 
-As always, your feedback is important to us - please visit [NetLicensing Website](https://netlicensing.io) - [Leave Feedback](https://netlicensing.uservoice.com/){:target="_blank"}.
+As always, your feedback is important to us - please visit [NetLicensing Website](https://netlicensing.io) - [Leave Feedback](https://github.com/Labs64/NetLicensing-Community/){:target="_blank"}.
 
 Thank you for your contributions & *Happy Licensing*!

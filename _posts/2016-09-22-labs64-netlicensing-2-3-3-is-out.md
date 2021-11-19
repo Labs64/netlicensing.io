@@ -33,6 +33,6 @@ Notable changes in this release:
 
 For a detailed list of changes in this release, see [NetLicensing 2.3.3 Release Notes](https://netlicensing.io/wiki/netlicensing-2-3-3-final).
 
-As always, your feedback is important to us - please visit [NetLicensing Website](https://netlicensing.io) - [Leave Feedback](https://netlicensing.uservoice.com/){:target="_blank"}.
+As always, your feedback is important to us - please visit [NetLicensing Website](https://netlicensing.io) - [Leave Feedback](https://github.com/Labs64/NetLicensing-Community/){:target="_blank"}.
 
 Thank you for your contributions & *Happy Licensing*!

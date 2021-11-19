@@ -32,6 +32,6 @@ With this change we also have a new home for the *NetLicensing Management Consol
 
 For a detailed list of changes in this release, see [NetLicensing 2.3.1 Release Notes](https://netlicensing.io/wiki/netlicensing-2-3-1-final).
 
-As always, your feedback is important to us - please visit [NetLicensing Website](https://netlicensing.io) - [Leave Feedback](https://netlicensing.uservoice.com/){:target="_blank"}.
+As always, your feedback is important to us - please visit [NetLicensing Website](https://netlicensing.io) - [Leave Feedback](https://github.com/Labs64/NetLicensing-Community/){:target="_blank"}.
 
 Thank you for your contributions & *Happy Licensing*!
