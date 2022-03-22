@@ -3,6 +3,7 @@
 # [Labs64 NetLicensing](https://netlicensing.io) - Innovative License Management Solution
 
 [![Build netlicensing.io](https://github.com/Labs64/netlicensing.io/workflows/Build%20netlicensing.io/badge.svg)](https://github.com/Labs64/netlicensing.io/actions?query=workflow%3A%22Build+netlicensing.io%22)
+[![pages-build-deployment](https://github.com/Labs64/netlicensing.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Labs64/netlicensing.io/actions/workflows/pages/pages-build-deployment)
 
 Visit Labs64 NetLicensing at https://netlicensing.io
 
