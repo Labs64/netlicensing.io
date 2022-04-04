@@ -469,6 +469,24 @@ input.gsc-search-button:hover {
     line-height: 24px;
 }
 
+/*----------   NL Top Banner  -----------*/
+.NL_topbanner {
+    margin-top: 50px;
+    background: url(../img/netlicensing-topbanner-01.png);
+    background-color: #fefba9;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.NL_topbanner > p {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align:center;
+    font-size: larger;
+    font-weight: bold;
+    color: #515151;
+}
+
 .NL_banner, .NL_main_banner {
     margin-top: 0px;
     background: url(../img/netlicensing-stage-banner-01.png) 100% 100%;
