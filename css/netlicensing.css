@@ -475,7 +475,7 @@ input.gsc-search-button:hover {
     background: url(../img/netlicensing-topbanner-01.png);
     background-color: #fefba9;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 .NL_topbanner > p {
