@@ -478,7 +478,7 @@ input.gsc-search-button:hover {
     background-size: 100% 100%;
 }
 
-.NL_topbanner > p {
+.NL_topbanner p {
     padding-top: 15px;
     padding-bottom: 5px;
     text-align:center;
