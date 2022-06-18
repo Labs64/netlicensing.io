@@ -4,14 +4,8 @@
   url: https://l64.cc/questionnaire
   call-to-action: Get a Quote
 
-- name: "Github Student Developer Pack"
+- name: "NetLicensing Academic"
   description: "As part of the program, you get a NetLicensing Student (Basic) Plan for FREE while you are a student."
   icon: "/img/features/flexible_licensing_models.png"
-  url: https://netlicensing.io/github-students/
-  call-to-action: Claim Offer
-
-- name: "GitHub Teacher Toolbox"
-  description: "As part of the program, you get a NetLicensing Teacher (Basic) Plan for FREE."
-  icon: "/img/features/flexible_licensing_models.png"
-  url: https://netlicensing.io/github-teachers/
+  url: https://l64.cc/academic
   call-to-action: Claim Offer

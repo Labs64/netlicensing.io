@@ -160,7 +160,7 @@ tags:
 <div class="row NL_block">
     <div>
         {% for customplan in site.data.customplans %}
-        <div class="col-md-4 NL_feature" id="customplan-{{ customplan.name | slugify }}">
+        <div class="col-md-6 NL_feature" id="customplan-{{ customplan.name | slugify }}">
             <figure class="hover_effect">
                 <figcaption>
                 <img src="{{ customplan.icon | prepend: site.baseurl | prepend: site.url }}" alt="{{ customplan.name }}"/>
