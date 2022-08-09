@@ -391,12 +391,15 @@
     if (typeof guideChimpPluginMultiPage !== "undefined") {
         GuideChimp.extend(guideChimpPluginMultiPage);
     }
+    /*
     if (typeof guideChimpPluginGoogleAnalytics !== "undefined") {
         GuideChimp.extend(guideChimpPluginGoogleAnalytics);
     }
+    */
 
     /* Advent2020 */
     var guideChimpAdventCalendar = GuideChimp(tourAdventCalendar, { showPagination: false });
+    /*
     if (typeof guideChimpPluginGoogleAnalytics !== "undefined") {
         guideChimpAdventCalendar.gaOn('onAfterChange', 'Advent Calendar 2020', (to, from) => {
             return {
@@ -405,6 +408,7 @@
             };
         });
     }
+    */
     guideChimpAdventCalendar.continue();
 
     var guideChimpLicensingModels = GuideChimp(tourLicensingModels, {

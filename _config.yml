@@ -38,11 +38,15 @@ topnav_sticker_target: "_blank"
 
 # SEO
 #google_analytics_tracking_id: "UA-32654174-2"
-#google_optimize_code: "GTM-NRQBTGQ"
+google_analytics_tracking_id: ""
+google_optimize_code: ""
 #google_ads_tracking_id: "AW-1001458997"
-#quantcast_code: "p-RQ36fR9PJnAcZ"
-#yandex_metrika_tracking_id: "61860391"
-#microsoft_clarity_tracking_id: "4zn6pj7gd7"
+google_ads_tracking_id: ""
+quantcast_code: ""
+yandex_metrika_tracking_id: ""
+microsoft_clarity_tracking_id: ""
+#addthis_pub_id: "ra-56a148f52ef01cbe"
+addthis_pub_id: ""
 disqus_shortname:
 
 # Build settings

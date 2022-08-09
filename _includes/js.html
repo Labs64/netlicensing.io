@@ -6,10 +6,12 @@
 <script src="{{ '/js/modernizr-custom.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
 <script src="{{ '/js/classie.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
 <script src="{{ '/js/cbpScroller.min.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
+<script src="{{ '/js/slick.1.8.1.min.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
+<script src="{{ '/js/packery.pkgd.1.4.3.min.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
 <script src="{{ '/js/netlicensing.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56a148f52ef01cbe" async="async"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/packery/1.4.3/packery.pkgd.min.js"></script>
+{% if site.addthis_pub_id %}
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ site.addthis_pub_id }}" async="async"></script>
+{% endif %}
 
 <!-- Begin Cookie Consent plugin by Silktide - https://silktide.com/cookieconsent -->
 <script type="text/javascript">

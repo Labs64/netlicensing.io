@@ -48,7 +48,9 @@ layout: default
                 <p class="blog_img_credit">{% include credit-tracker.html image=page.image.url %}</p>
             </article>
 
+            {% if site.addthis_pub_id %}
             <div class="NL_share_icons">{% include addthis.html %}</div>
+            {% endif %}
             {% if site.disqus_shortname %}
             <div class="NL_disqus">{% include disqus.html %}</div>
             {% endif %}
