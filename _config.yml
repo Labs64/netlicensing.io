@@ -37,12 +37,12 @@ topnav_sticker_image: "/img/netlicensing-demo.png"
 topnav_sticker_target: "_blank"
 
 # SEO
-google_analytics_tracking_id: "UA-32654174-2"
-google_optimize_code: "GTM-NRQBTGQ"
-google_ads_tracking_id: "AW-1001458997"
-quantcast_code: "p-RQ36fR9PJnAcZ"
+#google_analytics_tracking_id: "UA-32654174-2"
+#google_optimize_code: "GTM-NRQBTGQ"
+#google_ads_tracking_id: "AW-1001458997"
+#quantcast_code: "p-RQ36fR9PJnAcZ"
 #yandex_metrika_tracking_id: "61860391"
-microsoft_clarity_tracking_id: "4zn6pj7gd7"
+#microsoft_clarity_tracking_id: "4zn6pj7gd7"
 disqus_shortname:
 
 # Build settings
