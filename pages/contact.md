@@ -26,7 +26,7 @@ tags:
                     Thank you! Your message has been successfully sent. We will be getting back to you shortly!
                 </div>
                 <h2>Get In Touch With Us!</h2>
-                <p>Submit the form or send us an email at <a href="mailto:{{ site.email }}?subject=NetLicensing%20Contact">info@netlicensing.io</a>, or simply <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/netlicensing/netlicensing-demo?primary_color=853E29'});return false;">book a 1-1 call</a>, and we’ll be in touch right away.</p>
+                <p>Submit the form or send us an email at <a href="mailto:{{ site.email }}?subject=NetLicensing%20Contact">info@netlicensing.io</a>{% if site.calendly_enabled %}, or simply <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/netlicensing/netlicensing-demo?primary_color=853E29'});return false;">book a 1-1 call</a>,{% endif %} and we’ll be in touch right away.</p>
             </div>
         </div>
         <div class="row">
