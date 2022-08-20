@@ -38,11 +38,11 @@ topnav_sticker_target: "_blank"
 calendly_enabled: true
 
 # SEO
-#google_analytics_tracking_id: "UA-32654174-2"
-google_analytics_tracking_id:
+google_analytics_tracking_id: "UA-32654174-2"
+#google_analytics_tracking_id:
 google_optimize_code:
-#google_ads_tracking_id: "AW-1001458997"
-google_ads_tracking_id:
+google_ads_tracking_id: "AW-1001458997"
+#google_ads_tracking_id:
 quantcast_code:
 yandex_metrika_tracking_id:
 #yandex-verification: "ea7ee85b13a6f76b"
