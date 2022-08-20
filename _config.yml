@@ -40,10 +40,8 @@ calendly_enabled: true
 # SEO
 google_analytics_tracking_id: "UA-32654174-2"
 #google_analytics_tracking_id:
-google_optimize_code:
 google_ads_tracking_id: "AW-1001458997"
 #google_ads_tracking_id:
-quantcast_code:
 yandex_metrika_tracking_id:
 #yandex-verification: "ea7ee85b13a6f76b"
 yandex-verification:
@@ -52,8 +50,8 @@ norton-safeweb-site-verification:
 microsoft_clarity_tracking_id:
 #addthis_pub_id: "ra-56a148f52ef01cbe"
 addthis_pub_id:
-#zoho_salesiq_code: "57912641e38953d1e82182c4935dd7cc6768a402d6735d94c891a15169899c4bc025d1c7bcb6f0795fd8083772e86cd8"
-zoho_salesiq_code:
+zoho_salesiq_code: "57912641e38953d1e82182c4935dd7cc6768a402d6735d94c891a15169899c4bc025d1c7bcb6f0795fd8083772e86cd8"
+#zoho_salesiq_code:
 disqus_shortname:
 
 # Build settings
