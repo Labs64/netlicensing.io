@@ -1,33 +1,3 @@
 {% if site.google_ads_tracking_id %}
 
-{% if page.name == 'contact.md' %}
-<!-- Event snippet for NetLicensing - Visit Contact Page conversion page -->
-<script type="text/plain" data-cookiecategory="analytics">
-  gtag('event', 'conversion', {'send_to': '{{ site.google_ads_tracking_id }}/ESfkCPHUleYBELWaxN0D'});
-</script>
-
-<!-- Event snippet for Lead-Formular send conversion page -->
-<script type="text/plain" data-cookiecategory="analytics">
-  function gtag_report_conversion(url) {
-    var callback = function () {
-      if (typeof(url) != 'undefined') {
-        window.location = url;
-      }
-    };
-    gtag('event', 'conversion', {
-        'send_to': '{{ site.google_ads_tracking_id }}/CZJdCN31xuUBELWaxN0D',
-        'event_callback': callback
-    });
-    return false;
-  }
-</script>
-{% endif %}
-
-{% if page.name == 'pricing.md' %}
-<!-- Event snippet for NetLicensing - Visit Pricing Page conversion page -->
-<script type="text/plain" data-cookiecategory="analytics">
-  gtag('event', 'conversion', {'send_to': '{{ site.google_ads_tracking_id }}/hS-zCJmHj-YBELWaxN0D'});
-</script>
-{% endif %}
-
 {% endif %}
