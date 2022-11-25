@@ -30,6 +30,12 @@ This is a great time to add an enterprise-grade *License Management and Automati
 
 Don't miss these great specials!
 
+**New Vendors**
+
 [Register](https://ui.netlicensing.io/#/register) for a new NetLicensing account with the code **CYBER2022** between November 28th and December 12th, and qualify for the NetLicensing Cyber Weeks Offer!
+
+**Existing Vendors on a Free or Community plans**
+
+[Contact](https://netlicensing.io/contact/) NetLicensing team.
 
 *Happy Licensing*
