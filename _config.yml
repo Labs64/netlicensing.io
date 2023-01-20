@@ -20,7 +20,7 @@ dns_prefetch:
  - //l64.cc
 
 # Styling
-stage_banner_image: "../img/netlicensing-stage-banner-new-year.gif"
+stage_banner_image: "../img/netlicensing-stage-banner-01.png"
 
 # Blog
 blog_placeholder_image: "/img/blog/blog-placeholder.jpg"
@@ -51,6 +51,7 @@ microsoft_clarity_tracking_id:
 #addthis_pub_id: "ra-56a148f52ef01cbe"
 addthis_pub_id:
 #zoho_salesiq_code: "57912641e38953d1e82182c4935dd7cc6768a402d6735d94c891a15169899c4bc025d1c7bcb6f0795fd8083772e86cd8"
+zoho_salesiq_code:
 disqus_shortname:
 
 # Build settings
