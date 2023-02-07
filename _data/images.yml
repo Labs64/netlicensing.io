@@ -1597,6 +1597,15 @@
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io
 
+- id: netlicensing-master-software-licensing
+  source: /img/blog/netlicensing-master-software-licensing.png
+  title: "Master Software Licensing with NetLicensing"
+  caption: "Master Software Licensing with NetLicensing"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
 - id: netlicensing-bits19
   source: /img/netlicensing-bits19.png
   title: "NetLicensing @ Bits & Pretzels 2020"
