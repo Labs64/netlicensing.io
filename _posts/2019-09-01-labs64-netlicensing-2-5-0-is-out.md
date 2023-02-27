@@ -46,7 +46,7 @@ Try it out using your existing vendor account at [ui.netlicensing.io](https://ui
 
 ## Extend Node-Locked licensing model
 
-We enabled a new [Node-Locked licensing model](https://l64.cc//nlNLK), which replaces the existing *Licensee Secret* product feature by adding the possibility to define a number of the product instances to be used at the same Customer. So you can offer your customers the possibility to use your products on multiple devices; e.g. Desktop and Mobile.
+We enabled a new [Node-Locked licensing model](https://netlicensing.io/wiki/node-locked), which replaces the existing *Licensee Secret* product feature by adding the possibility to define a number of the product instances to be used at the same Customer. So you can offer your customers the possibility to use your products on multiple devices; e.g. Desktop and Mobile.
 
 ## Grace period for time-based licensing models
 

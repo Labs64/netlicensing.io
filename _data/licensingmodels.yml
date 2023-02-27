@@ -11,7 +11,7 @@
    - feature
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-try-and-buy.png'
-  url: "https://l64.cc/nlTNB"
+  url: "https://netlicensing.io/wiki/try-n-buy"
 
 
 - name: "Subscription"
@@ -25,7 +25,7 @@
    - time
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-subscription.png'
-  url: "https://l64.cc/nlSUB"
+  url: "https://netlicensing.io/wiki/subscription"
 
 
 - name: "Pricing Table"
@@ -42,7 +42,7 @@
    - volume
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-pricing-table.png'
-  url: "https://l64.cc/nlPTB"
+  url: "https://netlicensing.io/wiki/pricing-table"
 
 
 - name: "Floating"
@@ -55,7 +55,7 @@
    - concurrent
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-floating.png'
-  url: "https://l64.cc/nlFLT"
+  url: "https://netlicensing.io/wiki/floating"
 
 
 - name: "Rental"
@@ -68,7 +68,7 @@
    - feature
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-rental.png'
-  url: "https://l64.cc/nlRNT"
+  url: "https://netlicensing.io/wiki/rental"
 
 
 - name: "Pay-per-Use"
@@ -86,7 +86,7 @@
    - volume
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-pay-per-use.png'
-  url: "https://l64.cc/nlPPU"
+  url: "https://netlicensing.io/wiki/pay-per-use"
 
 
 - name: "Standard"
@@ -99,7 +99,7 @@
    - user
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-standard.png'
-  url: "https://l64.cc/nlLM"
+  url: "https://netlicensing.io/wiki/licensing-models"
 
 
 - name: "Multi-Feature"
@@ -114,7 +114,7 @@
    - feature
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-multi-feature.png'
-  url: "https://l64.cc/nlMFT"
+  url: "https://netlicensing.io/wiki/multi-feature"
 
 
 - name: "Node-Locked"
@@ -128,7 +128,7 @@
    - user
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-node-locked.png'
-  url: "https://l64.cc/nlNLK"
+  url: "https://netlicensing.io/wiki/node-locked"
 
 
 - name: "Quota"
@@ -143,7 +143,7 @@
    - feature
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-quota.png'
-  url: "https://l64.cc/nlQTA"
+  url: "https://netlicensing.io/wiki/quota"
 
 
 - name: "Named User"
@@ -154,4 +154,4 @@
    - user
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-named-user.png'
-  url: "https://l64.cc/nlLM"
+  url: "https://netlicensing.io/wiki/licensing-models"
