@@ -19,16 +19,16 @@ Do you know *NetLicensing Handbook*?! - The *NetLicensing Wiki* is a comprehensi
 
 Visit NetLicensing Wiki at [netlicensing.io/wiki](https://netlicensing.io/wiki/) to see:
 
-🔸 An overview of the NetLicensing platform and useful tips hot to **Getting Started** with platform.
+📙 An overview of the NetLicensing platform and useful tips hot to **Getting Started** with platform.
 
-🔸 **Licensing Models** configuration details.
+📙 **Licensing Models** configuration details.
 
-🔸 Technical documentation for the NetLicensing **RESTful API**, which developers can use to integrate NetLicensing into their applications.
+📙 Technical documentation for the NetLicensing **RESTful API**, which developers can use to integrate NetLicensing into their applications.
 
-🔸 Various **Integration** scenario with surrounding CRM, ERP and eComm systems, as well as Client Libraries for the most used programming languages.
+📙 Various **Integration** scenario with surrounding CRM, ERP and eComm systems, as well as Client Libraries for the most used programming languages.
 
-🔸 **FAQ** & Troubleshooting section, which provides step-by-step tutorials on how to perform specific tasks using NetLicensing, such as creating a product, defining a license model, and generating license keys.
+📙 **FAQ** & Troubleshooting section, which provides step-by-step tutorials on how to perform specific tasks using NetLicensing, such as creating a product, defining a license model, and generating license keys.
 
-🔸 ... Last but not least - NetLicensing **Changelog** provides detailed and most up-to-date information about new releases, features and improvements, as well as defects fixed.
+📙 ... Last but not least - NetLicensing **Changelog** provides detailed and most up-to-date information about new releases, features and improvements, as well as defects fixed.
 
 Overall, the NetLicensing Wiki is a comprehensive resource for anyone using or considering using the NetLicensing platform, providing all the information needed to set up, use, and troubleshoot the system.
