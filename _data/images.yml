@@ -1623,3 +1623,12 @@
   author: "NetLicensing"
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io
+
+- id: netlicensing-handbook
+  source: /img/blog/netlicensing-handbook.png
+  title: "NetLicensing Handbook"
+  caption: "NetLicensing Handbook"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
