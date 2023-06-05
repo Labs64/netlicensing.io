@@ -32,3 +32,5 @@ Visit NetLicensing Wiki at [netlicensing.io/wiki](https://netlicensing.io/wiki/)
 📙 ... Last but not least - NetLicensing **Changelog** provides detailed and most up-to-date information about new releases, features and improvements, as well as defects fixed.
 
 Overall, the NetLicensing Wiki is a comprehensive resource for anyone using or considering using the NetLicensing platform, providing all the information needed to set up, use, and troubleshoot the system.
+
+*Happy Licensing*

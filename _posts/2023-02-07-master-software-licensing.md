@@ -39,3 +39,5 @@ NetLicensing is a cloud-based software licensing platform that simplifies the li
 - **Technical Support:** NetLicensing provides technical support to ensure that software vendors are able to use the platform effectively.
 
 NetLicensing provides a comprehensive solution to software licensing problems, making it easy to manage licenses and customer data, track software usage, and generate revenue streams. Whether you're a small business or a large corporation, NetLicensing is the solution you need to master software licensing.
+
+*Happy Licensing*
