@@ -1632,3 +1632,12 @@
   author: "NetLicensing"
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io
+
+- id: netlicensing-configuration-lifecycle
+  source: /img/blog/netlicensing-configuration-lifecycle.png
+  title: "NetLicensing Configuration Lifecycle"
+  caption: "NetLicensing Configuration Lifecycle"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io

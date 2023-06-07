@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Software Licensing - Comprehensive Guide to Types and Models"
-description: "Software Licensing establish clear guidelines for developers and users, outlining their rights, responsibilities, and limitations."
+description: "Software Licensing establish clear guidelines for developers and users, outlining their rights, responsibilities, and limitations"
 author:
   name: NetLicensing
   url: https://netlicensing.io/licensing-models/
@@ -41,10 +41,10 @@ At its core, a software license serves as a mechanism to define the rights and r
 ## The Most Common Models of Software Licensing
 
 - **Perpetual Licensing:** In this model, the software is sold on a one-time basis, allowing the user to utilize it indefinitely without any time limitations or recurring fees.
-- **Node-Locked Licensing:** The Node-Locking Licensing Model is a software licensing approach that restricts the usage of the licensed software to a specific hardware node or device. In this model, the software is tied to the unique identification or characteristics of a particular computer or server, commonly known as the "node".
-- **Concurrent Licensing:** This model offers the option to purchase software licenses in bulk, allowing multiple users to share the software simultaneously within a specific group under a single licensing agreement. It simplifies software license management and ensures efficient usage across an organization.
+- **Node-Locked Licensing:** The [Node-Locking Licensing Model](https://netlicensing.io/wiki/node-locked) is a software licensing approach that restricts the usage of the licensed software to a specific hardware node or device. In this model, the software is tied to the unique identification or characteristics of a particular computer or server, commonly known as the "node".
+- **Concurrent Licensing:** This model offers the option to purchase software licenses in bulk, allowing multiple users to [share the software simultaneously](https://netlicensing.io/wiki/floating) within a specific group under a single licensing agreement. It simplifies software license management and ensures efficient usage across an organization.
 - **Metered Licensing:** With this model, the user's access to the software is restricted based on specified features or total usage. It is commonly employed during free trial periods to provide limited functionality until a full license is obtained.
-- **Subscription-Based:** This model provides users with time-limited access to the software. Subscriptions typically expire after a defined period, requiring the user to renew the service regularly or as needed to maintain continued access to the software.
+- **Subscription-Based:** This [model](https://netlicensing.io/wiki/subscription) provides users with time-limited access to the software. Subscriptions typically expire after a defined period, requiring the user to renew the service regularly or as needed to maintain continued access to the software.
 
 ## The Importance of Software Licenses
 
