@@ -20,6 +20,7 @@ tags:
   - Protection
   - Developer
   - Entitlement
+  - infographic
 ---
 
 ## Defining Software Licensing
@@ -46,9 +47,12 @@ At its core, a software license serves as a mechanism to define the rights and r
 - **Metered Licensing:** With this model, the user's access to the software is restricted based on specified features or total usage. It is commonly employed during free trial periods to provide limited functionality until a full license is obtained.
 - **Subscription-Based:** This [model](https://netlicensing.io/wiki/subscription) provides users with time-limited access to the software. Subscriptions typically expire after a defined period, requiring the user to renew the service regularly or as needed to maintain continued access to the software.
 
-![Software Licensing - Comprehensive Guide to Types and Models](/img/blog/Software-Licensing-Comprehensive-Guide-Types-Models-Infographic.png "Software Licensing - Comprehensive Guide to Types and Models"){:class="blog-center"}
-
-Download this infographic as [PDF](/resources/Software-Licensing-Comprehensive-Guide-Types-Models.pdf) (229KB)
+<div style="text-align: center;">
+  <a href="https://netlicensing.io/resources/Software-Licensing-Comprehensive-Guide-Types-Models.pdf" target="_blank">
+  <img src="/img/blog/Software-Licensing-Comprehensive-Guide-Types-Models-Infographic.png" alt="Software Licensing - Comprehensive Guide to Types and Models" title="Software Licensing - Comprehensive Guide to Types and Models" class="blog-center">
+  </a>
+  <p>Download this infographic as [PDF](/resources/Software-Licensing-Comprehensive-Guide-Types-Models.pdf) (229KB)</p>
+</div>
 
 ## The Importance of Software Licenses
 
