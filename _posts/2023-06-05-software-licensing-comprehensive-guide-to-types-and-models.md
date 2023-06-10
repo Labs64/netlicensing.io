@@ -48,10 +48,10 @@ At its core, a software license serves as a mechanism to define the rights and r
 - **Subscription-Based:** This [model](https://netlicensing.io/wiki/subscription) provides users with time-limited access to the software. Subscriptions typically expire after a defined period, requiring the user to renew the service regularly or as needed to maintain continued access to the software.
 
 <div style="text-align: center;">
-  <a href="https://netlicensing.io/resources/Software-Licensing-Comprehensive-Guide-Types-Models.pdf" target="_blank">
-  <img src="/img/blog/Software-Licensing-Comprehensive-Guide-Types-Models-Infographic.png" alt="Software Licensing - Comprehensive Guide to Types and Models" title="Software Licensing - Comprehensive Guide to Types and Models" class="blog-center">
+  <a href="/resources/Software-Licensing-Comprehensive-Guide-Types-Models.pdf">
+    <img src="/img/blog/Software-Licensing-Comprehensive-Guide-Types-Models-Infographic.png" alt="Software Licensing - Comprehensive Guide to Types and Models" title="Software Licensing - Comprehensive Guide to Types and Models" class="blog-center">
   </a>
-  <p>Download this infographic as [PDF](/resources/Software-Licensing-Comprehensive-Guide-Types-Models.pdf) (229KB)</p>
+  <p>Download this infographic as <a href="/resources/Software-Licensing-Comprehensive-Guide-Types-Models.pdf">PDF</a> (229KB)</p>
 </div>
 
 ## The Importance of Software Licenses
