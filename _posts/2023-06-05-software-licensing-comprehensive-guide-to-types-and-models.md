@@ -19,6 +19,7 @@ tags:
   - Subscription
   - Protection
   - Developer
+  - software vendor
   - Entitlement
   - infographic
 ---
@@ -29,7 +30,7 @@ Software licensing encompasses a contractual agreement that outlines the permiss
 
 ## How Software Licenses Operate
 
-At its core, a software license serves as a mechanism to define the rights and responsibilities of both the software developer and the user. These rights and responsibilities are presented in the form of an end-user license agreement, which outlines the terms and conditions of usage. It may also specify the level of access granted to the software's source code. It is essential for users to agree to these terms before legally obtaining the software.
+At its core, a software license serves as a mechanism to define the rights and responsibilities of both the software vendor and the user. These rights and responsibilities are presented in the form of an end-user license agreement, which outlines the terms and conditions of usage. It may also specify the level of access granted to the software's source code. It is essential for users to agree to these terms before legally obtaining the software.
 
 ## The Types of Software License Agreements
 
