@@ -122,7 +122,7 @@ NetLicensing Java Client library needs to be added as a project dependency in th
 <dependency>
   <groupId>com.labs64.netlicensing</groupId>
   <artifactId>netlicensing-client</artifactId>
-  <version>2.5.8</version>
+  <version>2.9.6</version>
   <exclusions>
     <exclusion>
       <groupId>org.slf4j</groupId>
