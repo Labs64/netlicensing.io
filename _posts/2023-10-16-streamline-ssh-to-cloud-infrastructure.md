@@ -5,14 +5,14 @@ description: "This article outlines an elegant solution for efficient, user-frie
 author:
   name: NetLicensing
   url: https://netlicensing.io
-# image:
-#   url: /img/blog/<...>.png
-# tags:
-#   - Secure Shell
-#   - SSH
-#   - Cloud
-#   - Infrastructure
-#   - Development
+image:
+   url: /img/blog/labs64-shell-code.gif
+tags:
+  - Secure Shell
+  - SSH
+  - Cloud
+  - Infrastructure
+  - Development
 ---
 
 Building IT infrastructure using cloud services represents a cutting-edge approach for small companies and startups. It eliminates the need to invest in, maintain, and set up physical hardware while providing industry-standard resiliency and security. Typically, this infrastructure involves placing virtual hosts that provide services in a private network and exposing these services over secure protocols like HTTPS through a reverse proxy acting as a gateway accessible from the internet. This setup ensures that the servers hosting the services remain protected from internet-based attacks. However, it can pose challenges for legitimate users who require access to these servers for maintenance. This typically involves a two-step process: first, logging into a gateway server with access to the private network, and then logging into the target server, with SSH being the assumed login method.

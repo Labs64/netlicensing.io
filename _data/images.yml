@@ -1650,3 +1650,12 @@
   author: "NetLicensing"
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io
+
+- id: labs64-shell-code
+  source: /img/blog/labs64-shell-code.gif
+  title: "Simplifying SSH with ProxyCommand and Wildcards"
+  caption: "Simplifying SSH with ProxyCommand and Wildcards"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
