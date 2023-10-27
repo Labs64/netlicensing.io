@@ -1659,3 +1659,12 @@
   author: "NetLicensing"
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io
+
+- id: license-management-lifecycle
+  source: /img/blog/license-management-lifecycle.png
+  title: "License Management Lifecycle"
+  caption: "License Management Lifecycle"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
