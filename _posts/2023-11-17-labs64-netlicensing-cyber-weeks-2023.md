@@ -41,8 +41,8 @@ NetLicensing is more than just a solution; it's an empowerment tool. Take contro
 
 **New Vendors**
 
-1. [Register](https://ui.netlicensing.io/#/register) for a NetLicensing vendor account using the exclusive code **CYBER2023**.
-2. Ensure registration is completed between November 17th and December 1st to unlock the full potential of the exclusive Cyber Weeks Offer.
+1. [Register](https://ui.netlicensing.io/#/register) for a NetLicensing vendor account using the exclusive code **CYBER2023**
+2. Ensure registration is completed between November 17th and December 1st to unlock the full potential of the exclusive Cyber Weeks Offer
 
 **Existing Vendors on a Free or Community plans**
 
