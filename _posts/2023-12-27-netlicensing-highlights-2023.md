@@ -6,7 +6,7 @@ author:
   name: NetLicensing
   url: https://netlicensing.io
 image:
-  url: /img/blog/netlicensing-kighlights-2023
+  url: /img/blog/netlicensing-highlights-2023.png
 tags:
   - NetLicensing
   - 2023
@@ -29,7 +29,7 @@ In this article, we want to take you on a journey through some of the standout a
 
 Join us as we highlight what we consider to be the most significant milestones of 2023.
 
-**A Decade of Collaboration**
+## A Decade of Collaboration
 
 Since our inception more than ten years ago, we have regarded our customers as more than just users; you are our greatest collaborators. Your insights into what matters to you have been the guiding force behind the development of NetLicensing solutions that have made a tangible impact on tousands of organizations worldwide.
 
@@ -39,19 +39,19 @@ In this comprehensive review, we aim to share with you the key milestones and ac
 
 True to our commitment, the NetLicensing team dedicated itself to the expansion and refinement of our license management solution in 2023. From enhancing user experience to fortifying stability and performance, let's explore the notable additions to NetLicensing's core services.
 
-### OpenID and OAuth Support
+## OpenID and OAuth Support
 
 In response to the growing need for heightened security, we introduced additional enterprise-ready user OpenID / OAuth authentication options specifically designed for on-premises installations, which includes Microsoft Azure OpenID support.
 
-### Maintenance and Performance Improvements
+## Maintenance and Performance Improvements
 
 Your data security remains our top priority. A vital maintenance update was released, addressing vulnerabilities in the libraries we utilize. This ensures the safety and integrity of your data. Furthermore, key library upgrades were implemented to leverage new features, enhance performance, and apply crucial security patches. Minor yet impactful defects were addressed to enhance the overall stability and security of our licensing services.
 
-### NetLicensing Notifications
+## NetLicensing Notifications
 
 Empowering you with more control and visibility, [NetLicensing notifications](https://netlicensing.io/wiki/changelog#netlicensing-notifications) underwent a significant transformation. The new module allows vendors to send instant notifications to subscribers' webhook endpoints, keeping you informed about specific events such as customer or license creation and changes in customer Warning Levels.
 
-### Updated Payment Services
+## Updated Payment Services
 
 In our continuous pursuit of excellence, we revisited and improved payment services, including Stripe Connect, within the NetLicensing Shop. These enhancements were aimed at making the license acquisition process more stable and reliable.
 
