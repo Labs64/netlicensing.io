@@ -19,8 +19,6 @@ tags:
   - Client Libraries
 ---
 
-# NetLicensing - Reflecting on the Achievements of 2023
-
 As we approach the end of another year, it's almost unbelievable how quickly time has flown. Reflecting on the bustling year that was 2023, we're overflowing with gratitude for every team member who contributed to NetLicensing's success.
 
 This gratitude isn't just for our team; it extends to you, our cherished customers. Since our journey began more than a decade ago, we've always seen you as our essential partners. Your thoughts and needs have been like a guiding light, helping us shape license management solutions that truly matter to countless organizations worldwide.
@@ -71,7 +69,7 @@ Managing pricing plans became more convenient with the introduction of a new [pr
 
 ## New NetLicensing Community Home
 
-Recognizing the importance of community engagement, we moved NetLicensing community support to [GitHub discussions](https://github.com/Labs64/NetLicensing-Community) and established a new [Reddit space](https://www.reddit.com/r/netlicensing/) for community questions. This shift aims to create a vibrant space for discussions and collaboration among NetLicensing users.
+Recognizing the importance of community engagement, we moved NetLicensing community support to [GitHub discussions](https://github.com/Labs64/NetLicensing-Community){:target="_blank"}{:rel="noopener nofollow"} and established a new [Reddit space](https://www.reddit.com/r/netlicensing/){:target="_blank"}{:rel="noopener nofollow"} for community questions. This shift aims to create a vibrant space for discussions and collaboration among NetLicensing users.
 
 ## We want to thank YOU!
 
@@ -80,4 +78,5 @@ As we reflect on the collective effort and dedication that defined 2023 for NetL
 Our NetLicensing team extends warm thanks to you and yours, wishing you a joyous, safe holiday season, and a Happy New Year 2024! May the coming year bring continued success and prosperity to all.
 
 *Sincerely,*
+
 *The NetLicensing Team*
