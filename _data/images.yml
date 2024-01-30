@@ -1695,3 +1695,12 @@
   author: "NetLicensing"
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io
+
+- id: netlicensing-api-licensing
+  source: /img/blog/netlicensing-api-licensing.png
+  title: "NetLicensing - API Licensing"
+  caption: "NetLicensing - API Licensing"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
