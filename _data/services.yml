@@ -20,31 +20,23 @@
   url: "/getting-started/"
   section: "Documentation"
 
-- title: Case Studies
-  url: "/case-studies/"
-  section: "Documentation"
-
 - title: For Integrators
   url: "/documentation/"
-  section: "Documentation"
-
-- title: Wiki
-  url: "/wiki/"
   section: "Documentation"
 
 - title: Changelog
   url: "/wiki/changelog"
   section: "Documentation"
 
-- title: Pricing
-  url: "/pricing/"
+- title: Wiki
+  url: "/wiki/"
   section: "Documentation"
 
 - title: Blog
   url: "/blog/"
   section: "Documentation"
 
-- title: Status
+- title: Service Status
   url: "https://status.netlicensing.io"
   section: "Documentation"
 
