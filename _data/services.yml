@@ -44,6 +44,10 @@
   url: "/blog/"
   section: "Documentation"
 
+- title: Status
+  url: "https://status.netlicensing.io"
+  section: "Documentation"
+
 # Legal
 - title: "Terms of Service"
   url: "https://www.labs64.com/legal/terms-of-service/netlicensing/"
