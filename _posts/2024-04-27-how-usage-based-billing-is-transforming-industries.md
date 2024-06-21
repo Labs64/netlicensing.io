@@ -34,7 +34,7 @@ The Internet of Things (IoT) is another area where usage-based model is taking h
 
 ## AI: A Move Away from Per-Seat Pricing
 
-As Artificial Intelligence (AI) becomes more integrated into businesses, traditional pricing models are being challenged. Per-seat pricing, where everyone pays the same regardless of usage, doesn't reflect the true value proposition of AI. An AI system might have a limited number of direct users, but its impact can be felt across the entire organization.
+As *Artificial Intelligence (AI)* becomes more integrated into businesses, traditional pricing models are being challenged. Per-seat pricing, where everyone pays the same regardless of usage, doesn't reflect the true value proposition of AI. An AI system might have a limited number of direct users, but its impact can be felt across the entire organization.
 
 Seat-based pricing fails to capture factors like:
 
@@ -67,7 +67,7 @@ Usage-based billing model is revolutionizing how businesses pay for services. Fo
 
 ## How NetLicensing Facilitates the Adoption of Usage-Based Billing Models
 
-NetLicensing can facilitate the adoption of usage-based billing through several key features and capabilities:
+Labs64 NetLicensing can facilitate the adoption of usage-based billing through several key features and capabilities:
 
 1. **Flexible Licensing Models**
 NetLicensing supports various [licensing models](https://netlicensing.io/licensing-models/), including usage-based model. This flexibility allows businesses to define and implement billing models that charge customers based on the actual usage of their services or products. 
@@ -99,4 +99,4 @@ NetLicensing offers a self-service portal where customers can view their usage d
 10. **Support for Multiple Pricing Metrics**
 NetLicensing allows businesses to define different pricing metrics, such as per transaction, per unit, per time period, etc. This flexibility helps in creating tailored billing models that reflect the unique value proposition of the business.
 
-By leveraging these features, NetLicensing can effectively support businesses in adopting and managing usage-based billing models, leading to more accurate revenue capture, improved customer satisfaction, and streamlined billing operations.
+By leveraging these features, *NetLicensing can effectively support businesses in adopting and managing usage-based billing models*, leading to more accurate revenue capture, improved customer satisfaction, and streamlined billing operations.
