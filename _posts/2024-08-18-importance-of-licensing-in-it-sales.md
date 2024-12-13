@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Importance of Licensing in IT Sales"
-description: "..."
+description: "Understanding the main licensing models — perpetual, pay-as-you-go, subscription, and usage-based—is essential for making informed decisions that align with organization goals"
 author:
   name: NetLicensing
   url: https://netlicensing.io
