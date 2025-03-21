@@ -1785,3 +1785,12 @@
   author: "NetLicensing"
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io
+
+- id: netlicensing-stripe-integration
+  source: /img/blog/netlicensing-stripe-integration.png
+  title: "License Management and Sales with NetLicensing and Stripe"
+  caption: "License Management and Sales with NetLicensing and Stripe"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
