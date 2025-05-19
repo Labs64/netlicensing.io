@@ -1803,3 +1803,21 @@
   author: "NetLicensing"
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io
+
+- id: netlicensing-bundles
+  source: /img/blog/netlicensing-bundles.png
+  title: "NetLicensing Bundle Feature"
+  caption: "NetLicensing Bundle Feature"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-aws-bundle
+  source: /img/blog/netlicensing-aws-bundle.png
+  title: "NetLicensing AWS Bundle"
+  caption: "NetLicensing AWS Bundle"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
