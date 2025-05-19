@@ -8,23 +8,19 @@ author:
 image:
   url: /img/blog/netlicensing-bundles.png
 tags:
-  - Bundles
-  - Licensing
+  - Bundle
   - Software Licensing
   - Software Distribution
   - Software Monetization
-  - Software as a Service
+  - Software-as-a-Service
   - LaaS
   - API
   - E-commerce
   - Integration
   - NetLicensing
-  - Labs64
-  - Software Vendors
-  - Software Products
-  - Software Features
-  - Software Packages
-  - Software Entitlements
+  - Product Feature
+  - Software Package
+  - Software Entitlement
 ---
 
 In the competitive world of software distribution, offering flexible and attractive licensing options is key to maximizing sales and customer satisfaction. Recognizing this need, Labs64 NetLicensing is excited to announce its powerful *"Bundles"* feature. This addition empowers software vendors to package multiple product features together, simplifying the purchasing process for customers and opening up new possibilities for tailored offers and pricing strategies.
@@ -127,4 +123,4 @@ The Bundles feature in Labs64 NetLicensing provides a powerful and flexible way 
 Explore the *"Bundles"* section in NetLicensing Management Console and consult the comprehensive NetLicensing API documentation for the most up-to-date information and detailed technical specifications.
 Start creating attractive bundles and unlock new possibilities for your software business!
 
-For any questions or assistance, feel free to reach out to our support team or consult the NetLicensing community forums.
+For any questions or assistance, feel free to reach out to our [support team](https://netlicensing.io/contact/) or consult the [NetLicensing community forum](https://github.com/Labs64/NetLicensing-Community).
