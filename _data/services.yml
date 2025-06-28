@@ -15,6 +15,10 @@
   url: "/contact/"
   section: "Company"
 
+- title: "Labs64.IO Ecosystem"
+  url: "https://labs64.io"
+  section: "Company"
+
 # Learn
 - title: Getting Started
   url: "/getting-started/"
