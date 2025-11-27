@@ -10,7 +10,7 @@ image:
 tags:
   - Pricing
   - SaaS
-  - Meetering
+  - Metering
   - Subscription
   - Billing
   - Pay-As-You-Go
@@ -23,7 +23,6 @@ tags:
   - Subscription Management
   - Revenue Management
   - Software as a Service
-  - SaaS
   - Customer Acquisition Cost
   - Customer Lifetime Value
   - Average Revenue Per User
