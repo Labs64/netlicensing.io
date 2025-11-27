@@ -56,8 +56,8 @@ Join us for our biggest and most exclusive event ever - **Cyber Weeks 2025**, ru
 Empower your software licensing, maximize your revenue, and join the vanguard of digital product leaders.
 Questions? Our team is standing by to help you launch in record time.
 
-**Ready to grow?**
-[Register Now]( https://ui.netlicensing.io/#/register?promoCode=CYBER2025) | [Contact Us](https://netlicensing.io/contact/)
+**Ready to grow?!**
+👉 [Register Now]( https://ui.netlicensing.io/#/register?promoCode=CYBER2025) | [Contact Us](https://netlicensing.io/contact/)
 
 
 *Happy Licensing*
