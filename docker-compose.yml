@@ -1,11 +1,20 @@
-version: '3'
 services:
   netlicensing:
-    image: jekyll/jekyll:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: netlicensing.io
+    environment:
+      - JEKYLL_ENV=development
+      - BUNDLE_PATH=/usr/local/bundle
     volumes:
-      - '.:/srv/jekyll'
+      - .:/srv/jekyll:cached
+      - bundle_cache:/usr/local/bundle
     ports:
-      - 4000:4000
-    working_dir: /srv/jekyll
-    command: 'jekyll serve --watch --incremental --verbose --drafts --future --config _config.yml,_config_dev.yml'
+      - "4000:4000"
+      - "35729:35729"
+    command: >
+      bash -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --livereload --watch --incremental --verbose --drafts --future --config _config.yml,_config_dev.yml"
+
+volumes:
+  bundle_cache:

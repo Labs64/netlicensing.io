@@ -14,25 +14,9 @@ To be able to run netlicensing.io website locally you have to meet the following
 * [docker](https://www.docker.com)
 * [docker-compose](https://docs.docker.com/compose/)
 
-### Docker
+### Docker Development Setup
 
-1. Clone repository
-```
-$ git clone https://github.com/Labs64/netlicensing.io.git
-```
-
-2. Start environment
-```
-$ docker-compose up -d
-```
-
-Now you can browse the site at [http://localhost:4000](http://localhost:4000)
-
----
-
-3. Stop environment
-```
-$ docker-compose down
+Please refer to [DOCKER_SETUP.md](DOCKER_SETUP.md) for detailed instructions on setting up the development environment using Docker.
 ```
 
 ## License and Copyright
