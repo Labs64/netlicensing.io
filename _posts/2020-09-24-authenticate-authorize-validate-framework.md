@@ -6,10 +6,28 @@ image:
   url: /img/blog/authenticate-authorize-validate-framework.gif
 tags:
   - AAV
-  - Framework
-  - Authenticate
-  - Authorize
-  - Validate
+  - EBAC
+  - FeBAC
+  - Authentication
+  - Authorization
+  - Validation
+  - AAV Framework
+  - Software Licensing
+  - Access Control
+  - User Entitlements
+  - Monetization Strategy
+  - Subscription Model
+  - Pay-Per-Use
+  - Node Locking
+  - Multi-Feature Licensing
+  - EBAC
+  - FeBAC
+  - OAuth
+  - OpenID
+  - LDAP
+  - Active Directory
+  - Two-Factor Authentication
+  - SaaS Security
 author:
   name: Alexey AVerikhin
   url: https://www.labs64.com/our-team/
