@@ -15,6 +15,8 @@ tags:
 - Standard
 - Multi-Feature
 - Named User
+guidechimp: true
+use_quicksand: true
 sitemap:
   priority: 0.6
   images:
@@ -54,7 +56,7 @@ sitemap:
                           <img alt="{{ licensingmodel.name }}" title="Licensing Model: {{ licensingmodel.name }}" src="{{ licensingmodel.img | prepend: site.baseurl | prepend: site.url }}"/>
                         </a>
                         <a href="{{ licensingmodel.url }}" title="Licensing Model: {{ licensingmodel.name }}"><h3>{{ licensingmodel.name }}</h3></a>
-                        <p style="font-style: italic; font-size: small; color:#853E29;">
+                        <p class="NL_licensing_model_aliases">
                             {{ licensingmodel.aliases | join: ', ' }}
                         </p>
                         <p>{{ licensingmodel.description }}</p>

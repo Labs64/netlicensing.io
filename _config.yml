@@ -39,8 +39,9 @@ topnav_sticker_target: "_blank"
 calendly_enabled: true
 
 # SEO & Other Modules
-google_analytics_tracking_id: "UA-32654174-2"
-#google_analytics_tracking_id:
+# NOTE: UA tracking was sunset by Google in July 2024. Replace with GA4 measurement ID (G-XXXXXXXXXX).
+#google_analytics_tracking_id: "UA-32654174-2"
+google_analytics_tracking_id:
 #google_ads_tracking_id: "AW-1001458997"
 google_ads_tracking_id:
 yandex_metrika_tracking_id:
@@ -66,12 +67,16 @@ sass:
   style: :compressed
 
 compress_html:
-  clippings: []
+  clippings: all
   comments: []
   endings: []
   profile: false
   ignore:
-    envs: []
+    envs: [development]
+
+# Blog pagination
+paginate: 12
+paginate_path: "/blog/page:num/"
 
 # Exclude these files from production _site
 exclude:

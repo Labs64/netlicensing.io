@@ -1,0 +1,32 @@
+{% if page.layout == 'post' %}
+<!-- JSON-LD Article structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | default: site.description | jsonify }},
+  "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.date | date_to_xmlschema }}",
+  {% if page.image.url %}"image": "{{ page.image.url | prepend: site.baseurl | prepend: site.url }}",{% endif %}
+  "author": {
+    "@type": "{% if page.author.url %}Organization{% else %}Person{% endif %}",
+    "name": "{% if page.author.name %}{{ page.author.name }}{% else %}{{ site.title }}{% endif %}"{% if page.author.url %},
+    "url": "{{ page.author.url }}"{% endif %}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ '/img/labs64-avatar-30x30.png' | prepend: site.baseurl | prepend: site.url }}"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | prepend: site.baseurl | prepend: site.url }}"
+  }
+}
+</script>
+{% endif %}

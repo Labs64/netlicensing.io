@@ -704,15 +704,6 @@ form {
     border-bottom: 1px solid #EEE;
 }
 
-.NL_accordion_heading {
-    margin-top: -6px;
-    background: #FFF;
-    border-top: 1px solid #EEE;
-}
-
-#headingFive {
-    border-bottom: 1px solid #EEE;
-}
 
 div.in > .NL_accordion_content {
     margin-top: -1px;
@@ -1086,8 +1077,9 @@ figure.hover_effect:hover img {
 }
 
 /*----------   Licensing Model Page  -----------*/
-ul {
-    -webkit-padding-start: 0px !important;
+ul.NL_licensing_models,
+ul#filterOptions {
+    padding-left: 0;
 }
 
 ul#filterOptions {
@@ -2000,3 +1992,39 @@ a.NL_pricing_tooltip {
         max-width: 100%;
     }
 }
+
+/*----------   Extracted inline style classes  -----------*/
+.NL_block_center {
+    text-align: center;
+}
+
+.NL_subtext {
+    font-size: smaller;
+}
+
+.NL_plan_name {
+    font-size: larger;
+}
+
+.NL_price_captions_spacer {
+    font-size: larger;
+}
+
+.NL_btn_pricing {
+    padding: 5px 0 10px 0;
+}
+
+.NL_price_tag_contact {
+    padding: 0;
+}
+
+.NL_price_tag_sub_contact {
+    margin-bottom: -17px;
+}
+
+.NL_licensing_model_aliases {
+    font-style: italic;
+    font-size: small;
+    color: #853E29;
+}
+

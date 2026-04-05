@@ -5,17 +5,12 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     {% endif %}
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | {{ site.title }}</title>
+    <title>{% if page.title and page.title != site.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ',' }},{{ site.keywords }}{% else %}{{ site.keywords }}{% endif %}">
     <meta name="author" content="{{ site.copyright }}">
     <meta name="copyright" content="{{ site.copyright }}">
     <meta name="robots" content="INDEX, FOLLOW">
-    {% if page.fragmented %}
-    <meta name="fragment" content="!">
-    {% endif %}
 
     <!-- Prefetch resources -->
     {% if site.dns_prefetch %}
@@ -37,6 +32,7 @@
     {% include opengraph.html %}
     {% include twittercard.html %}
     {% include dublincore.html %}
+    {% include jsonld.html %}
 
     {% if site.yandex-verification %}
     <meta name="yandex-verification" content="{{ site.yandex-verification }}"/>

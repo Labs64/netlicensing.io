@@ -1,0 +1,15 @@
+// NetLicensing brand color variables
+// Import this file in SCSS partials to use consistent colors.
+// Gradually replace hardcoded hex values in netlicensing.css with these variables.
+
+$brand-primary: #853E29;      // headings, links, accents
+$brand-hover: #E14817;        // link/button hover state
+$brand-light: #f9e1c4;        // light background accent
+$brand-orange: #F37B21;       // orange buttons/highlights
+
+$text-dark: #333;             // body text, paragraphs
+$text-muted: #bbb;            // meta text, dates, credits
+$bg-default: #F9F9F9;         // page background
+$bg-white: #FFF;              // card/section backgrounds
+$border-light: #EEE;          // subtle borders
+$border-medium: #E7E7E7;      // footer/accordion borders

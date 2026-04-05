@@ -29,7 +29,6 @@ $("a#load-features").on("click", function () {
     var $content = $this.parent().prev("div.content");
     var linkText = $this.text().toUpperCase();
     var url = $this.attr('href');
-    console.log(url);
 
     if (linkText === "SHOW MORE FEATURES") {
         linkText = "Hide";

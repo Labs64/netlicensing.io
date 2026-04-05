@@ -1,24 +1,27 @@
 <script src="{{ '/js/jquery-1.12.4.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
 <script src="{{ '/js/bootstrap.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
-<script src="{{ '/js/jquery-ui.min.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
-<script src="{{ '/js/jquery.easing.1.3.min.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
-<script src="{{ '/js/jquery.quicksand.min.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
-<script src="{{ '/js/modernizr-custom.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
+<script src="{{ '/js/jquery-ui.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ '/js/jquery.easing.1.3.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+{% if page.use_quicksand %}
+<script src="{{ '/js/jquery.quicksand.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+{% endif %}
+{% if page.use_cbpscroller %}
+<script src="{{ '/js/modernizr-custom.js' | prepend: site.baseurl | prepend: site.url }}"></script>
 <script src="{{ '/js/classie.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
-<script src="{{ '/js/cbpScroller.min.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
-<script src="{{ '/js/slick.1.8.1.min.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
-<script src="{{ '/js/packery.pkgd.1.4.3.min.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
-<script src="{{ '/js/netlicensing.js' | prepend: site.baseurl | prepend: site.url }}" ></script>
+<script src="{{ '/js/cbpScroller.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+{% endif %}
+{% if page.use_slick %}
+<script src="{{ '/js/slick.1.8.1.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+{% endif %}
+{% if page.use_packery %}
+<script src="{{ '/js/packery.pkgd.1.4.3.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+{% endif %}
+<script src="{{ '/js/netlicensing.js' | prepend: site.baseurl | prepend: site.url }}"></script>
 {% if site.addthis_pub_id %}
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ site.addthis_pub_id }}" async="async"></script>
 {% endif %}
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+{% if page.use_cbpscroller %}
 <script>
     $(function () {
         if ($("div").is("#cbp-so-scroller")) {
@@ -26,6 +29,7 @@
         }
     });
 </script>
+{% endif %}
 <script>
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
@@ -36,12 +40,12 @@
         var $this = $(this);
         var $icon = $this.children(".fa");
         var $content = $this.next("ul");
-        if ($(window).width() <= '993') {
+        if ($(window).width() <= 993) {
             if ($icon.hasClass("fa-chevron-down")) {
                 $this.css({border: "none"});
                 $content.css({'border-bottom': '1px solid #E7E7E7'});
                 $icon.switchClass("fa-chevron-down", "fa-chevron-up", 500);
-                $content.animate({height: "150px"}, 700);
+                $content.animate({height: $content.prop('scrollHeight') + "px"}, 700);
             } else {
                 $content.css({border: "none"});
                 $icon.switchClass("fa-chevron-up", "fa-chevron-down", 500);
@@ -58,6 +62,7 @@
         })
     });
 </script>
+{% if page.use_slick %}
 <script type="text/javascript">
   $(document).ready(function(){
     $('.nlic-usecases').slick({
@@ -70,6 +75,7 @@
     });
   });
 </script>
+{% endif %}
 
 <!--set affiliate cookies-->
 <script>
@@ -80,10 +86,10 @@
             var expires = new Date();
             expires.setDate(expires.getDate() + parseInt('{{site.affiliate.cookie-lifetime}}', 10));
 
-            var affiliateCookie = '{{site.affiliate.cookie-name}}' + '=' + escape(searchParams.get('utm_source')) + ';';
+            var affiliateCookie = '{{site.affiliate.cookie-name}}' + '=' + encodeURIComponent(searchParams.get('utm_source')) + ';';
             var affiliateCookieExpires = 'expires=' + expires.toUTCString() + ';';
             var affiliateCookiePath = 'path=/;';
-            var affiliateCookieDomain = 'domain=' + (document.domain.match(/[^\.]*\.[^.]*$/)[0]) + ';';
+            var affiliateCookieDomain = 'domain=' + (document.location.hostname.match(/[^\.]*\.[^.]*$/)[0]) + ';';
 
             document.cookie = affiliateCookie + affiliateCookieExpires + affiliateCookiePath + affiliateCookieDomain;
         }

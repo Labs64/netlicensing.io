@@ -6,6 +6,8 @@ permalink: /
 sitemap:
   priority: 0.8
 no-cache: true
+use_cbpscroller: true
+use_slick: true
 ---
 <div class="row NL_main_banner">
     <div class="col-md-8 col-md-offset-2 NL_about">
@@ -84,7 +86,6 @@ no-cache: true
     </div>
 </div>
 
-<!--
 <div class="row">
     <div class="col-md-12 NL_container">
         <div class="col-md-6 col-md-offset-3 NL_container_text">
@@ -101,7 +102,6 @@ no-cache: true
         </div>
     </div>
 </div>
--->
 
 <div class="row NL_block">
     <h2 class="col-md-12">NetLicensing Use Cases</h2>

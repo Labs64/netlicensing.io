@@ -17,16 +17,16 @@ tags:
     </div>
 </div>
 
-<div class="row NL_block" style="text-align:center;">
+<div class="row NL_block NL_block_center">
     <h3 class="col-md-12">Simply choose your preferred plan to get started or see <a href="#custom-plans">more options below</a>.</h3>
     <h3>New accounts get access to<br><strong>All NetLicensing features for 30 days</strong>
-    <span style="font-size: smaller;"><br>(free of charge, risk-free, no credit card required)</span></h3>
+    <span class="NL_subtext"><br>(free of charge, risk-free, no credit card required)</span></h3>
 </div>
 
 <div class="row NL_block NL_pricing">
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_captions">
-            <h3 style="font-size:larger;"> &#160; <br/> &#160; <br/> &#160; <br/> &#160; <br/> &#160;</h3>
+            <h3 class="NL_price_captions_spacer"> &#160; <br/> &#160; <br/> &#160; <br/> &#160; <br/> &#160;</h3>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
@@ -45,7 +45,7 @@ tags:
 
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_regular">
-            <h3><strong style="font-size:larger;">Community</strong><br/>Quick and simple for community projects</h3>
+            <h3><strong class="NL_plan_name">Community</strong><br/>Quick and simple for community projects</h3>
             <div class="NL_price_tag">0 € / month</div>
             <div class="NL_price_tag_sub">&nbsp;</div>
             <ul>
@@ -53,9 +53,9 @@ tags:
                 <li>
                     <span class="NL_price_feature"> {{ feature.name }} </span>
                     {% if feature.free == "Y" %}
-                    <i class="fa fa-check-square"></i>
+                    <i class="fa fa-check-square" aria-hidden="true"></i><span class="sr-only">Yes</span>
                     {% elsif feature.free == "N" %}
-                    <i class="fa fa-square-o"></i>
+                    <i class="fa fa-square-o" aria-hidden="true"></i><span class="sr-only">No</span>
                     {% else %}
                     {{ feature.free }}
                     {% endif %}
@@ -63,7 +63,7 @@ tags:
                 {% endfor %}
             </ul>
 
-            <div class="NL_btn" style="padding: 5px 0 10px 0;">
+            <div class="NL_btn NL_btn_pricing">
                 <a href="https://ui.netlicensing.io/#/register?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=free"
                    class="NL_button button_main NL_dark_btn">Register Now for FREE</a>
             </div>
@@ -72,7 +72,7 @@ tags:
 
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_regular">
-            <h3><strong style="font-size:larger;">Basic</strong><br/>For startups and growing businesses</h3>
+            <h3><strong class="NL_plan_name">Basic</strong><br/>For startups and growing businesses</h3>
             <div class="NL_price_tag">80 € / month</div>
             <div class="NL_price_tag_sub">billed annually</div>
             <ul>
@@ -80,9 +80,9 @@ tags:
                 <li>
                     <span class="NL_price_feature"> {{ feature.name }} </span>
                     {% if feature.basic == "Y" %}
-                    <i class="fa fa-check-square"></i>
+                    <i class="fa fa-check-square" aria-hidden="true"></i><span class="sr-only">Yes</span>
                     {% elsif feature.basic == "N" %}
-                    <i class="fa fa-square-o"></i>
+                    <i class="fa fa-square-o" aria-hidden="true"></i><span class="sr-only">No</span>
                     {% else %}
                     {{ feature.basic }}
                     {% endif %}
@@ -90,7 +90,7 @@ tags:
                 {% endfor %}
             </ul>
 
-            <div class="NL_btn" style="padding: 5px 0 10px 0;">
+            <div class="NL_btn NL_btn_pricing">
                 <a href="https://ui.netlicensing.io/#/register?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=basic"
                    class="NL_button button_main NL_dark_btn">Start Free Trial</a>
             </div>
@@ -99,7 +99,7 @@ tags:
 
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_promo">
-            <h3><strong style="font-size:larger;">Premium</strong><br/>Full featured for comprehensive products</h3>
+            <h3><strong class="NL_plan_name">Premium</strong><br/>Full featured for comprehensive products</h3>
             <div class="NL_price_tag">280 € / month</div>
             <div class="NL_price_tag_sub">billed annually</div>
             <ul>
@@ -107,9 +107,9 @@ tags:
                 <li>
                     <span class="NL_price_feature"> {{ feature.name }} </span>
                     {% if feature.premium == "Y" %}
-                    <i class="fa fa-check-square"></i>
+                    <i class="fa fa-check-square" aria-hidden="true"></i><span class="sr-only">Yes</span>
                     {% elsif feature.premium == "N" %}
-                    <i class="fa fa-square-o"></i>
+                    <i class="fa fa-square-o" aria-hidden="true"></i><span class="sr-only">No</span>
                     {% else %}
                     {{ feature.premium }}
                     {% endif %}
@@ -117,7 +117,7 @@ tags:
                 {% endfor %}
             </ul>
 
-            <div class="NL_btn" style="padding: 5px 0 10px 0;">
+            <div class="NL_btn NL_btn_pricing">
                 <a href="https://ui.netlicensing.io/#/register?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=premium"
                    class="NL_button button_main NL_dark_btn">Start Free Trial</a>
             </div>
@@ -126,19 +126,19 @@ tags:
 
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_regular">
-            <h3><strong style="font-size:larger;">Select</strong><br/>Advanced functionality for specific requirements</h3>
-            <div class="NL_price_tag" style="padding: 0 0 0 0;"><div class="NL_btn" style="padding: 5px 0 10px 0;">
+            <h3><strong class="NL_plan_name">Select</strong><br/>Advanced functionality for specific requirements</h3>
+            <div class="NL_price_tag NL_price_tag_contact"><div class="NL_btn NL_btn_pricing">
                 <a href="/contact/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=enterprise" class="NL_button button_main NL_dark_btn">Contact Sales</a>
             </div></div>
-            <div class="NL_price_tag_sub" style="margin-bottom: -17px;">&nbsp;</div>
+            <div class="NL_price_tag_sub NL_price_tag_sub_contact">&nbsp;</div>
             <ul>
                 {% for feature in site.data.pricing %}
                 <li>
                     <span class="NL_price_feature"> {{ feature.name }} </span>
                     {% if feature.enterprise == "Y" %}
-                    <i class="fa fa-check-square"></i>
+                    <i class="fa fa-check-square" aria-hidden="true"></i><span class="sr-only">Yes</span>
                     {% elsif feature.enterprise == "N" %}
-                    <i class="fa fa-square-o"></i>
+                    <i class="fa fa-square-o" aria-hidden="true"></i><span class="sr-only">No</span>
                     {% else %}
                     {{ feature.enterprise }}
                     {% endif %}
@@ -146,7 +146,7 @@ tags:
                 {% endfor %}
             </ul>
 
-            <div class="NL_btn" style="padding: 5px 0 10px 0;">
+            <div class="NL_btn NL_btn_pricing">
                 <a href="/contact/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=enterprise" class="NL_button button_main NL_dark_btn">Contact Sales</a>
             </div>
         </div>

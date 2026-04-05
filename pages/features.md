@@ -4,15 +4,14 @@ title: "Features"
 description: "World class features you need to effectively manage your product licenses"
 permalink: "/features/"
 canonical: "/features-all/"
-fragmented: true
 prefetch:
 - /features-all/
-sitemap:
-  priority: 0.5
 tags:
 - features
 - FAQ
+guidechimp: true
 sitemap:
+  priority: 0.5
   images:
     - /img/features/availability.png
     - /img/features/consulting_services.png
