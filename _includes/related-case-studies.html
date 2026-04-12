@@ -1,0 +1,104 @@
+{% comment %}
+  Related Case Studies
+  Displays 2 related case studies based on:
+  1. Same industry (highest priority)
+  2. Same tags (secondary priority)
+  3. Fallback to any other case studies
+  
+  Excludes the current case study being viewed
+{% endcomment %}
+
+{% assign current_page = include.current_page %}
+{% assign max_related = 2 %}
+{% assign related_case_studies = "" | split: "" %}
+
+{% comment %}Step 1: Find case studies with matching industry{% endcomment %}
+{% if current_page.industry %}
+  {% for casestudy in site.case-studies %}
+    {% if casestudy.title != current_page.title and casestudy.layout == 'casestudy' %}
+      {% for current_industry in current_page.industry %}
+        {% if casestudy.industry contains current_industry %}
+          {% assign related_case_studies = related_case_studies | push: casestudy %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% comment %}Step 2: If we need more, find case studies with matching tags{% endcomment %}
+{% assign related_count = related_case_studies | size %}
+{% if related_count < max_related and current_page.tags %}
+  {% for casestudy in site.case-studies %}
+    {% if casestudy.title != current_page.title and casestudy.layout == 'casestudy' %}
+      {% assign already_added = false %}
+      {% for existing in related_case_studies %}
+        {% if existing.title == casestudy.title %}
+          {% assign already_added = true %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      
+      {% unless already_added %}
+        {% for current_tag in current_page.tags %}
+          {% if casestudy.tags contains current_tag and current_tag != "Case Studies" and current_tag != "Use Cases" %}
+            {% assign related_case_studies = related_case_studies | push: casestudy %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% comment %}Step 3: If still need more, add any other case studies{% endcomment %}
+{% assign related_count = related_case_studies | size %}
+{% if related_count < max_related %}
+  {% for casestudy in site.case-studies %}
+    {% if casestudy.title != current_page.title and casestudy.layout == 'casestudy' %}
+      {% assign already_added = false %}
+      {% for existing in related_case_studies %}
+        {% if existing.title == casestudy.title %}
+          {% assign already_added = true %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      
+      {% unless already_added %}
+        {% assign related_case_studies = related_case_studies | push: casestudy %}
+      {% endunless %}
+    {% endif %}
+    
+    {% assign related_count = related_case_studies | size %}
+    {% if related_count >= max_related %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% comment %}Display the related case studies{% endcomment %}
+<div class="NL_block row">
+    <h2>Related Case Studies</h2>
+
+    {% for casestudy in related_case_studies limit:2 %}
+    <a href="{{ casestudy.url }}" class="NL_cases_card col-md-6" title="Case Study: {{ casestudy.title }}">
+        <div>
+            <div class="view view-info col-md-5">
+                <img class="view-img" src="{{ casestudy.img | prepend: site.baseurl | prepend: site.url }}" alt="{{ casestudy.title }}"/>
+
+                <div class="mask">
+                    <img alt="{{ site.title }}"
+                         src="{{ '/img/labs64-avatar-30x30.png' | prepend: site.baseurl | prepend: site.url }}"/>
+
+                    <p>{{ casestudy.title }}</p>
+                </div>
+            </div>
+            <div class="col-md-5 col-md-offset-1">
+                <h3>{{ casestudy.title }}</h3>
+
+                <p>{{ casestudy.description }}</p>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</div>

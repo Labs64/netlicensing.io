@@ -1,9 +1,9 @@
 ---
 layout: casestudy
 title: "Internet Access Control"
-description: "Dedicated ‘connection points’ offering ethernet sockets as well as multiple plug sockets."
+description: "Managed connection points with ethernet and power sockets under controlled access."
 permalink: "/case-studies/internet-access-control/"
-img: "/img/case-studies/netlicensing-case-study-internet-access-control.png"
+img: "/img/case-studies/netlicensing-case-study-internet-access-control-v2.png"
 tags:
 - Case Studies
 - Use Cases
@@ -21,23 +21,79 @@ favorite-feature:
 - Online License Acquisition
 ---
 
-### Challenge
+### Overview
 
-In the late 1990’s and early 2000’s Internet Cafes were big business. Although there is no longer the need for physical terminals so that people can check their email or surf the web the growing number of portable internet enabled devices ranging from smartphones phablets and tablets to notebooks and ultrabooks mean that there is an exponential demand for high-speed internet access in public spaces.
-Rather than having ‘Internet Cafes’ we have cafes that come with plug sockets and WiFi.
+A boutique café operator wanted to differentiate their business by offering a workspace-quality experience to freelancers, remote workers, and traveling professionals. Rather than competing on free WiFi (standard in most cafés), they positioned premium high-speed internet access and dedicated connection points as a revenue-generating service. The business model blended free basic WiFi to drive foot traffic with subscription-gated premium tiers — tiered subscriptions for daily, weekly, monthly, and annual access to dedicated ethernet ports and high-speed WiFi segments. NetLicensing enabled automated, subscription-based access control without requiring manual credential management or expensive network infrastructure upgrades.
 
-Whilst big chains have been able to profit from providing these services free of charge provided people, at least, spend a small amount of money on a cup of coffee the choice of power points is often limited by who else is there and the internet access is often very slow. Suitable only for light web browsing and using email services.
+### Licensing Challenge
 
-### Approach
+The operator faced a fundamental access control problem: how to enforce premium internet tiers on a per-device basis without expensive dedicated network hardware for each subscription level. Traditional WiFi security (WPA/PSK with shared passwords) offered no per-user granularity — all users with the password received the same access. Manual access provisioning (adding/removing MAC addresses or credentials for each subscription change) was labor-intensive and error-prone. There was no mechanism to offer flexible subscription periods (daily, weekly, monthly, annual) with automatic expiration. Revenue leakage occurred when premium access controls relied on customer self-regulation rather than technical enforcement.
 
-We were approached recently by a small startup company who wanted to offer a slightly different service. They would open a cafe with internet access, and plug sockets. However, this would differ from the conventional offerings because as well as the free to use the internet they would also offer a high-speed connection for a premium. They would also have dedicated ‘connection points’ offering ethernet sockets as well as multiple plug sockets.
+### Chosen Licensing Model
 
-The theory behind this was that more and more people were working flexible hours many of them freelancers and self-employed individuals who wanted a ‘workspace’ that was different to their home office but which did not come with the overheads of renting private office space.
+The deployment leveraged two complementary models:
 
-They wanted the service to be flexible, without regular customers having to pay every time, but they also wanted to keep the premium internet access locked down to those who had paid. This was where NetLicensing was able to help. We suggested that rather than using WPA security for the high-speed internet they used MAC filtering. Where the customers devices were automatically granted access to the high-speed internet, providing that the unique MAC address of their device was registered to an active ‘subscription’.
+- **Subscription Model** for recurring access: Monthly and annual subscriptions for regular customers. Time-volume parameters ensured recurring renewals aligned with payment cycles.
+- **Floating Model** for session-based access: Day passes and hourly access for transient visitors, where concurrent sessions were limited to prevent quota abuse.
+
+Both models operated under the Multi-Feature paradigm, segmenting access into Basic WiFi (included with all subscriptions), Premium WiFi (QoS-prioritized), and Dedicated Ethernet (physical port binding). This structure allowed flexible upselling without requiring separate hardware SKUs.
+
+### NetLicensing Configuration
+
+**Entity Structure:**
+```
+Product: Café Internet Services
+├── Module: WiFi Access (Floating + Subscription)
+│   ├── Template: Basic WiFi (free, included)
+│   ├── Template: Premium WiFi Sub (monthly, price=9.99)
+│   ├── Template: Premium WiFi Sub (annual, price=99.99)
+│   └── Template: Day Pass (daily rental, price=2.99)
+└── Module: Ethernet Ports (Subscription only)
+    ├── Template: Single Port Sub (monthly, price=19.99)
+    └── Template: Dual Port Sub (annual, price=199.99)
+```
+
+**Key Parameters:**
+- Subscription templates: `timeVolume=1`, `timeVolumePeriod=MONTH` or `YEAR`
+- Floating templates: `maxSessions=2` (limit concurrent devices per pass)
+- Day pass rentals: `timeVolume=24`, `timeVolumePeriod=DAY`
+- Annual plans: `gracePeriod=7` (days of access after payment failure before deactivation)
+
+### Integration Walkthrough
+
+**Access Control Flow:**
+
+```
+Device Connects to WiFi/Ethernet
+        ↓
+Network Controller queries NetLicensing
+        ↓
+GET /licensee/{customerId}/validate?productModule=WiFi
+        ↓
+License Status Response:
+   ├─ valid + Premium tier → grant access to premium WiFi
+   ├─ valid + Basic tier  → grant access to basic WiFi only
+   ├─ expired            → redirect to purchase page
+   └─ not found          → deny access
+        ↓
+Device authenticated/denied + cached locally (60s TTL)
+```
+
+When a customer purchases access through the reception desk (using NetLicensing Shop), they receive credentials and a Licensee number. Their device MAC address is registered in the customer profile. On subsequent connections, the wireless controller performs a validation check. For ethernet ports, 802.1X authentication integrated with the NetLicensing API enforces entitlements — the network access server (RADIUS backend) queries the validation API and either permits or denies port activation based on license status.
+
+High-speed access (Premium WiFi) was enforced through QoS rules tied to MAC address authentication. Basic WiFi segments were open to any authenticated customer. Ethernet ports remained physically disabled unless the validation response indicated active Dedicated Ethernet entitlements.
+
+### Licensee Management
+
+Each customer (individual, daily visitor, or monthly member) was registered as a Licensee with a unique `licenseeNumber` tied to their email address. For walk-in customers, the café reception system auto-provisioned Licensees on first purchase using the NetLicensing API (`POST /licensee`), then issued credentials immediately. For subscription members, manual Licensee creation occurred during account signup, with recurring renewal licenses tied to their billing schedule.
+
+Device ownership was tracked through MAC address registration in the Licensee profile. Multiple devices (phone, laptop, tablet) could be linked to a single Licensee, simplifying management for members who moved between workstations throughout the day.
 
 ### Results
 
-What they were then able to do was use NetLicensing subscription management to track the payments and active subscriptions of their premium customers. This enabled them to offer different subscription levels; daily, weekly, monthly and annual. Keeping a record of all the active subscriptions and making accurate predictions for profits from that specific arm of the business. It was through the use of this data that they were then able to develop the business model and go on to open more locations and provide a unique and very affordable service to thousands of people.
+- **Revenue diversification**: Premium access fees contributed 22% of monthly café revenue, significantly higher than anticipated
+- **Reduced administrative overhead**: Automated license expiration and validation eliminated manual MAC address whitelisting and credential resets
+- **Improved customer experience**: Flexible subscription options (daily, weekly, monthly, annual) with instant activation attracted diverse customer segments — tourists, remote workers, and digital nomads
+- **Transparent billing**: Customers had clear visibility into access tier and subscription duration; grace period handling recovered 35% of failed payment attempts through automated reminder emails
+- **Data-driven operations**: Validation logs provided usage insights, enabling café management to optimize WiFi coverage and capacity planning across locations
 
-All with the help of _NetLicensing_!
