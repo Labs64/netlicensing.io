@@ -104,25 +104,12 @@ use_slick: true
 </div>
 
 <div class="row NL_block">
-    <h2 class="col-md-12">NetLicensing Use Cases</h2>
+    <h2 class="col-md-12">NetLicensing Case Studies</h2>
     <p class="col-md-8 col-md-offset-2" style="text-align:center;">Get insight into how various organizations are using NetLicensing services to tackle a growing number of use cases.</p>
 </div>
 
-<!-- Use Cases -->
-<div class="row">
-  <div class="col-md-12 NL_container">
-    <div class="col-md-6 col-md-offset-3 NL_container_text nlic-usecases">
-      {% for usecase in site.data.usecases %}
-      {% if usecase.name %}
-      <div>
-        <h3>{{ usecase.name }}</h3>
-        <span>{{ usecase.description }}</span>
-      </div>
-      {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-</div>
+<!-- Case Studies -->
+{% include case-studies-list.html %}
 
 <div class="row NL_block">
     <h2 class="col-md-12">Companies trust NetLicensing to provide a secure License Management Solution</h2>
