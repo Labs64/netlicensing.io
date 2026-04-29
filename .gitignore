@@ -4,3 +4,6 @@ _site/
 *.iml
 Gemfile.lock
 .DS_Store
+.kiro
+.vscode
+_drafts

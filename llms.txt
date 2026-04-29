@@ -1,0 +1,233 @@
+# NetLicensing
+
+> Labs64 NetLicensing is a first-class Licensing-as-a-Service (LaaS) solution that provides an integrated, scalable, and cost-effective platform for software vendors and developers to manage product licenses online. It enables license delivery, activation, validation, and e-commerce without requiring vendors to build or maintain their own licensing infrastructure.
+
+NetLicensing is developed and operated by **Labs64 GmbH** (https://www.labs64.com), headquartered in Germany. The service is available at https://netlicensing.io and the management console at https://ui.netlicensing.io. It supports cloud (SaaS), managed (SaaS) and on-premise (self-hosted / enterprise) deployment options.
+
+To explore NetLicensing in action, a **Request a Demo** form is available at https://netlicensing.io/demo-optin/ and a Calendly-based **1-on-1 demo call** can be booked directly from any page via the "Request a Demo" button in the top navigation.
+
+## Product Overview
+
+NetLicensing is an all-in-one licensing automation platform for digital products and services. Key capabilities include:
+
+- **License Activation & Delivery**: Deliver and activate product licenses 24×7×365, fully automated and without customer support involvement.
+- **Flexible Licensing Models**: A library of ready-to-use licensing models that can be combined and extended to fit unique business needs.
+- **RESTful API**: Full programmatic access to all licensing entities for integration into products, ERP, CRM, e-commerce platforms, and IoT devices.
+- **NetLicensing Shop**: Built-in eCommerce for seamless online license acquisition, with PayPal and Stripe payment integrations.
+- **Management Console**: A web-based portal (https://ui.netlicensing.io) for managing products, modules, license templates, customers, and licenses.
+- **Customer Portal**: Allows end-customers to view and manage their own licenses (Premium and Select plans).
+- **NetLicensing Agent**: Offline validation module for air-gapped and restricted environments that mirrors cloud validation responses on a local network.
+- **NetLicensing Gateway**: Integration adapter for third-party e-commerce platforms (FastSpring, MyCommerce, PrestaShop, SendOwl) to fulfil licenses automatically.
+- **License Bundles**: Group multiple license templates into a single bundle for streamlined acquisition.
+- **Backup & Restore**: Export and re-import full product configuration for business continuity.
+- **Notifications**: Real-time webhook notifications for license state changes, warning-level transitions, and subscription expirations (with ElasticSearch and Splunk compatibility).
+- **EU VAT Support**: Compliant EU VAT handling for customers in European markets (Basic plan and above).
+- **Client Libraries**: Pre-built libraries and SDK examples for Java, .NET, Python, PHP, JavaScript, and more.
+- **NetLicensing MCP Server**: A Model Context Protocol (MCP) server that exposes the full NetLicensing REST API as tools consumable by AI assistants and LLM agents (Claude, GitHub Copilot, etc.). Enables AI-driven license management workflows directly from chat interfaces.
+- **AI Usage-Based Licensing**: Native support for AI/LLM workload monetization — token consumption, API call metering, prompt/completion quotas — using Pay-per-Use and Quota licensing models. Enables vendors to charge for AI agent interactions, LLM inference calls, and other consumption-based AI services.
+
+## Supported Licensing Models
+
+All models can be combined to build complex, multi-module licensing schemes:
+
+- **Try & Buy** (TryAndBuy): Time-limited evaluation/trial version; product is disabled after trial expiry unless a full license is purchased. Aliases: Evaluation, Demo, Trialware.
+- **Subscription** (Subscription): Time-based license with optional auto-renewal and recurring payment support. Multiple period options (daily, weekly, monthly, yearly). Aliases: ABO, Time-limited, TimeVolume.
+- **Pricing Table** (PricingTable): Model pricing plans, feature tiers, and membership management. Supports enabling/disabling individual features per customer. Aliases: Pricing Plan, Membership Plan, SaaS Subscription.
+- **Floating** (Floating): Concurrent/network licensing — limits the number of simultaneous active sessions across users or hosts. Aliases: Concurrent, Network, Shared.
+- **Rental** (Rental): Multiple independent subscriptions per product instance; combines feature licensing with time-volume. Aliases: Leasing, Feature with TimeVolume.
+- **Pay-per-Use** (PayPerUse): Usage-metered billing based on time, count, or volume (CPU, bandwidth, API requests, etc.). Aliases: Pre-paid, Post-paid, Pay-per-click.
+- **Multi-Feature** (MultiFeature): Enables or disables individual product features per customer, supporting upgrade paths (lite → standard → pro → enterprise) without code changes. Aliases: Pay-per-feature, Feature-based, Modular.
+- **Node-Locked** (NodeLocked): License tied to a specific machine/device via CPU serial or a unique node secret. Aliases: Named host, Local.
+- **Quota** (Quota): Capacity/quantity limits for a feature (units, API requests, storage, etc.). Aliases: Limit, Capacity, Volume.
+- **Standard** (Standard): Perpetual single-user license; one-time purchase with no expiry. Aliases: Permanent, Single-user, Perpetual.
+- **Named User**: License rights tied to specific user IDs; usable on any machine by licensed users. Aliases: Personal License.
+
+Full licensing model documentation: https://netlicensing.io/wiki/licensing-models
+
+## Pricing Plans
+
+New accounts receive a **30-day free Premium trial** (all features, no credit card required). After trial, accounts default to the Community plan.
+
+| Plan      | Price          | Active Products | Customers  | API Requests | Notes |
+|-----------|----------------|-----------------|------------|--------------|-------|
+| Community | Free           | 1               | 50         | 1/min        | Attribution required; Try&Buy, Subscription, Pricing Table models; PayPal only |
+| Basic     | €80/month (annual) | 3           | 100        | 1/min        | All online PSP; Try&Buy, Subscription, Multi-Feature models; EU VAT |
+| Premium   | €280/month (annual) | 10         | 500        | 1/sec        | All models; Shop customization; Customer Portal; Premium support |
+| Select    | Contact sales  | Customizable    | Customizable | Customizable | All models; SLA 99%; NetLicensing Agent; Dedicated managed environment; Revenue Sharing; individually tailored pricing and feature set — contact sales for a custom quote |
+
+Special programs:
+- **NetLicensing Academic**: Free Basic plan for students.
+- **Individual Setup**: Custom licensing platform configuration via questionnaire.
+
+Register: https://ui.netlicensing.io/#/register
+
+## Enterprise Deployment
+
+For enterprise and on-premise deployments, NetLicensing supports installation within a customer's own infrastructure:
+
+- **Docker Compose**: A ready-to-use `docker-compose.yml` configuration enables single-host self-hosted deployment with all required services pre-wired.
+- **Kubernetes (K8s)**: NetLicensing can be deployed on Kubernetes clusters for high-availability, auto-scaling, and cloud-native enterprise environments.
+- **Dedicated Managed Environment**: Available in the Select plan — Labs64 operates a dedicated NetLicensing instance on behalf of the customer, isolating data and resources from the shared cloud.
+- **NetLicensing Agent**: For air-gapped or network-restricted environments, the Agent component runs on the customer's premises and provides offline license validation without internet connectivity.
+
+Enterprise setup is supported by the Labs64 team. Contact sales at https://netlicensing.io/contact/ or book a call to discuss infrastructure requirements.
+
+## AI & Usage-Based Licensing
+
+NetLicensing is purpose-built for modern AI and consumption-driven monetization scenarios:
+
+- **Token / API call metering**: Use the **Pay-per-Use** or **Quota** licensing model to track and bill on AI token consumption, LLM API calls, inference requests, or prompt/completion pairs.
+- **Agentic AI entitlements**: Grant AI agents just-in-time, scoped, time-bound entitlements — preventing runaway resource consumption while supporting autonomous workflows.
+- **Seat-to-token migration**: Supports hybrid models that combine subscription base fees with consumption-based overages, helping software vendors transition from per-seat to per-token pricing.
+- **Subscription tiers for AI products**: Use the **Pricing Table** model to define Free / Pro / Enterprise tiers for AI-powered services, with per-tier feature and quota limits.
+- **Real-time quota enforcement**: The validate endpoint returns live quota state (used vs. available), enabling in-product guardrails and usage dashboards.
+
+Blog: [AI Chatbot Monetization with NetLicensing](https://netlicensing.io/blog/2024/11/20/ai-chatbot-monetization/)
+Blog: [From Seats to Tokens — AI-Driven Transformation of Enterprise Licensing](https://netlicensing.io/blog/2026/02/17/ai-transformation-from-seats-to-tokens/)
+
+## NetLicensing MCP Server
+
+NetLicensing provides a **Model Context Protocol (MCP) server** that exposes the full NetLicensing REST API as structured tools for AI assistants and LLM agent frameworks (e.g. Claude Desktop, GitHub Copilot, Cursor, and other MCP-compatible clients).
+
+Capabilities available via MCP:
+- Create and manage products, product modules, and license templates
+- Create and manage licensees (customers) and licenses
+- Validate customer entitlements
+- Create Shop tokens for checkout flows
+- Manage license bundles
+- Query transactions and payment methods
+
+This allows product managers, developers, and support teams to manage licensing operations through natural-language chat interfaces without leaving their AI assistant environment.
+
+## Core Concepts & Data Model
+
+- **Vendor**: The software company/developer using NetLicensing to protect their products.
+- **Product**: The top-level entity representing a software product or service.
+- **Product Module**: A feature group within a product, each governed by exactly one licensing model.
+- **License Template**: A blueprint for licenses — defines type, price, validity period, and features.
+- **Licensee**: A customer of the vendor; holds one or more licenses.
+- **License**: An actual license instance assigned to a Licensee, derived from a License Template.
+- **License Bundle**: A group of license templates offered together as a single package.
+- **Token**: A short-lived credential used for shop sessions (SHOP tokens) or API key scoping.
+- **Transaction**: A record of a license acquisition or payment event.
+- **NetLicensing Agent**: A standalone module providing offline validation on customers' premises.
+
+## RESTful API
+
+Base URL: `https://go.netlicensing.io/core/v2/rest/`
+
+The API uses HTTP Basic Authentication or API Keys. It returns XML or JSON responses. Key endpoints include:
+
+- `GET/POST /product` — list and create products
+- `GET/PUT/DELETE /product/{productNumber}` — manage a product
+- `GET/POST /productmodule` — list and create product modules
+- `GET/POST /licensetemplate` — list and create license templates
+- `GET/POST /licensee` — list and create licensees (customers)
+- `POST /licensee/{licenseeNumber}/validate` — validate a customer's entitlements (core integration call)
+- `GET/POST /license` — list and create licenses
+- `POST /token` — create a Shop token or API key
+- `GET /transaction` — list transactions
+
+API Test Center (interactive): https://netlicensing.io/NetLicensing-API/
+Full API reference: https://netlicensing.io/wiki/restful-api
+
+### Validate Licensee (Example)
+
+```
+POST https://go.netlicensing.io/core/v2/rest/licensee/{LICENSEE_NUMBER}/validate
+Accept: application/xml
+```
+
+Response includes per-module validity, licensing model name, expiry dates, evaluation state, quota usage, and session counts.
+
+### Create Shop Token (Example)
+
+```
+POST https://go.netlicensing.io/core/v2/rest/token
+Body: tokenType=SHOP&licenseeNumber={LICENSEE_NUMBER}
+```
+
+Response includes a `shopURL` for redirecting the customer to the NetLicensing Shop checkout.
+
+## Integration & Usage Scenarios
+
+- **Online Validation & Activation**: Products call the validate endpoint at runtime; licenses are acquired via NetLicensing Shop or third-party checkout.
+- **Offline Validation (NetLicensing Agent)**: Deploy the Agent on a customer's local network; it mirrors cloud validation without internet access.
+- **Offline Validation (License File / TTL Cache)**: Cache the last successful validation response with a configurable TTL for mobile and IoT devices.
+- **Third-Party e-Commerce (NetLicensing Gateway)**: Integrate with FastSpring, MyCommerce, PrestaShop, SendOwl via fulfillment webhooks; all acquired licenses are provisioned in NetLicensing for later validation.
+- **ERP & CRM Integration**: Use the RESTful API to expose licensing entitlements inside CRM, ERP, BI, or other internal systems.
+
+## Client Libraries
+
+Available at: https://netlicensing.io/wiki/client-libraries
+
+Official Labs64 client libraries on GitHub (https://github.com/Labs64):
+- **Java** — `NetLicensing-Client-Java`
+- **.NET / C#** — `NetLicensing-Client-Csharp`
+- **Python** — `NetLicensing-Client-Python`
+- **PHP** — `NetLicensing-Client-PHP`
+- **JavaScript / Node.js** — `NetLicensing-Client-JavaScript`
+- **C++** — `NetLicensing-Client-CPP`
+
+## Use Cases
+
+NetLicensing is used across many industries and scenarios:
+- Software licensing & monetization (ISVs, SaaS)
+- Pricing tables and SaaS membership/subscription management
+- Access control & feature gating (EBAC / FeBAC)
+- Ticketing — per-event, floating, or subscription-based access
+- API licensing — Pay-per-Use or Subscription metering
+- IoT feature activation and eSIM feature enablement
+- Gaming — in-game purchases, asset unlocking
+- eBook and digital media rental
+- Smart TV, Connected Cars, Connected Home features
+- Proprietary software plugins (WordPress, AutoCAD, Microsoft Office)
+- Smart metering and industrial device licensing
+- Cross-platform license sharing
+
+## Authorization Concepts (AAV Framework)
+
+NetLicensing aligns with the **Authenticate → Authorize → Validate (AAV)** framework:
+- **Authenticate**: Verify identity (handled by the vendor's IdP / SSO).
+- **Authorize**: Check security permissions — RBAC / ABAC (roles, attributes).
+- **Validate**: Check business entitlements — EBAC / FeBAC (licensing, subscriptions, quotas).
+
+NetLicensing operates at the *Validate* layer, acting as the **Entitlement Decision Point (EDP)** that answers: *"What is this customer entitled to use right now?"*
+
+Blog reference: https://netlicensing.io/blog/2020/09/24/authenticate-authorize-validate-framework/
+EBAC/FeBAC article: https://netlicensing.io/blog/2026/01/21/introducing-entitlement-based-access-control-ebac/
+
+## Key Pages
+
+- [Home](https://netlicensing.io/): Product overview, key benefits, use cases, testimonials.
+- [Features](https://netlicensing.io/features/): Full feature list — LaaS, licensing models, REST API, IoT, cross-platform, security, payment services, analytics, SLA, escrow.
+- [Licensing Models](https://netlicensing.io/licensing-models/): Interactive overview of all supported licensing models.
+- [Membership Management](https://netlicensing.io/membership-management/): Pricing plan creation, integration, publishing, and customer membership management.
+- [Getting Started](https://netlicensing.io/getting-started/): Step-by-step guide — configure product → validate customer → acquire licenses.
+- [For Integrators / Documentation](https://netlicensing.io/documentation/): Links to wiki, API reference, client libraries, usage scenarios.
+- [Pricing](https://netlicensing.io/pricing/): Plan comparison (Community, Basic, Premium, Select), FAQ.
+- [Case Studies](https://netlicensing.io/case-studies/): Real-world implementations across industries.
+- [Blog](https://netlicensing.io/blog/): Articles on licensing models, software monetization, SaaS pricing, API licensing, IoT, security, and platform updates.
+- [Request a Demo](https://netlicensing.io/demo-optin/): Live demo access and newsletter signup; also accessible via the "Request a Demo" Calendly button sitewide.
+- [Contact](https://netlicensing.io/contact/): Email info@netlicensing.io; 1-on-1 demo and sales call scheduling via Calendly.
+
+## External Resources
+
+- **Wiki / Documentation**: https://netlicensing.io/wiki/
+- **API Test Center**: https://netlicensing.io/NetLicensing-API/
+- **Management Console**: https://ui.netlicensing.io
+- **Community / GitHub**: https://github.com/Labs64/NetLicensing-Community
+- **Affiliates Program**: https://netlicensing.io/affiliates/
+- **Labs64 (parent company)**: https://www.labs64.com
+- **Terms of Service & SLA**: https://www.labs64.com/legal/terms-of-service/netlicensing/
+
+## Company & Contact
+
+- **Company**: Labs64 GmbH
+- **Website**: https://netlicensing.io
+- **Email**: info@netlicensing.io
+- **Management Console**: https://ui.netlicensing.io
+- **Sign Up (Free)**: https://ui.netlicensing.io/#/register
+- **Request a Demo**: https://netlicensing.io/demo-optin/ (or via the Calendly widget sitewide)
+- **Contact Sales (Select / Enterprise)**: https://netlicensing.io/contact/
+- **GitHub**: https://github.com/Labs64
