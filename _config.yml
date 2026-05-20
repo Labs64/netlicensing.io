@@ -84,7 +84,15 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose.yaml
+  - docker-compose.override.yml
+  - DOCKER_SETUP.md
+  - _serve_docker.sh
+  - _config_dev.yml
   - .gitignore
+  - .dockerignore
 
 # Custom collections
 collections:
