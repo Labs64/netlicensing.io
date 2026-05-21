@@ -64,7 +64,7 @@
 <div class="NL_block row">
     {% for case_study_ref in case_study_slugs limit:2 %}
         {% assign case_study_slug = case_study_ref.slug %}
-        {% assign case_study = site.case-studies | where: "permalink", "/case-studies/" | append: case_study_slug | append: "/" | first %}
+        {% assign case_study = nil %}
         
         {% comment %}Find the case study by matching the slug in the permalink{% endcomment %}
         {% for cs in site.case-studies %}
@@ -76,7 +76,7 @@
         {% endfor %}
         
         {% if case_study %}
-        <a href="{{ case_study.permalink }}" class="NL_cases_card col-md-6"
+        <a href="{{ case_study.url | relative_url }}" class="NL_cases_card col-md-6"
            title="Case Study: {{ case_study.title }}">
             <div>
                 <div class="view view-info col-md-5">

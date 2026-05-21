@@ -36,25 +36,28 @@ jobs:
 
       - name: Run HTMLProofer
         run: |
+          set -o pipefail
           docker run --rm \
             -v "${{ github.workspace }}/_site:/site" \
-            ghcr.io/chabad360/htmlproofer:latest \
+            ghcr.io/chabad360/htmlproofer:5.0.8 \
             /site \
             --checks "Links,Images,Scripts,OpenGraph" \
             --allow-hash-href \
             --log-level info \
-            --ignore-urls "/^(?!https?:\/\/)/" \
+            --ignore-urls "/^(?:mailto:|tel:)/" \
             --ignore-status-codes "0,429" \
             --no-enforce-https \
             --typhoeus '{"connecttimeout": 10, "timeout": 30}' \
             --cache '{"timeframe": {"external": "1d"}}' \
-            2>&1 | tee /tmp/htmlproofer.log || true
+            2>&1 | tee /tmp/htmlproofer.log
+
+          htmlproofer_exit_code=$?
 
           # Write summary
           {
             echo "## HTMLProofer Results"
             echo ""
-            if grep -qE "htmlproofer .* ran with .* failure" /tmp/htmlproofer.log; then
+            if [ "$htmlproofer_exit_code" -ne 0 ]; then
               echo "⚠️ Issues found — review before merging."
             else
               echo "✅ No issues found."
@@ -68,3 +71,5 @@ jobs:
             echo ""
             echo "</details>"
           } >> "$GITHUB_STEP_SUMMARY"
+
+          exit "$htmlproofer_exit_code"

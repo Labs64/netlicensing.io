@@ -17,16 +17,30 @@ fi
 
 echo "Fetching pricing table for product module: $PRODUCT_MODULE"
 
-curl -sS \
+HTTP_STATUS=$(curl -sS --fail-with-body \
   -u "$USER" \
   -H "Accept: text/html" \
   "${URL}?productModuleNumber=${PRODUCT_MODULE}" \
-  -o "$OUTPUT_FILE"
+  -o "$OUTPUT_FILE" \
+  -w "%{http_code}")
 
-# Check result
-if [ $? -eq 0 ]; then
-  echo "Saved to $OUTPUT_FILE"
-else
-  echo "Error: Failed to retrieve pricing table" >&2
+# Check HTTP status and response validity
+if [ $? -ne 0 ]; then
+  echo "Error: curl failed (HTTP ${HTTP_STATUS}) retrieving pricing table" >&2
+  rm -f "$OUTPUT_FILE"
   exit 1
 fi
+
+if [ ! -s "$OUTPUT_FILE" ]; then
+  echo "Error: Response is empty for product module '${PRODUCT_MODULE}'" >&2
+  rm -f "$OUTPUT_FILE"
+  exit 1
+fi
+
+if ! grep -qi "<" "$OUTPUT_FILE"; then
+  echo "Error: Response does not appear to be HTML (HTTP ${HTTP_STATUS})" >&2
+  rm -f "$OUTPUT_FILE"
+  exit 1
+fi
+
+echo "Saved to $OUTPUT_FILE (HTTP ${HTTP_STATUS})"
