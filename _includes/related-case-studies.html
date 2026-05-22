@@ -30,6 +30,10 @@
 {% assign related_count = related_case_studies | size %}
 {% if related_count < max_related and current_page.tags %}
   {% for casestudy in site.case-studies %}
+    {% assign related_count = related_case_studies | size %}
+    {% if related_count >= max_related %}
+      {% break %}
+    {% endif %}
     {% if casestudy.title != current_page.title and casestudy.layout == 'casestudy' %}
       {% assign already_added = false %}
       {% for existing in related_case_studies %}
