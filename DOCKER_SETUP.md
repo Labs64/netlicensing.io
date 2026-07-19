@@ -14,8 +14,7 @@
 
 1. **Start the development server:**
    ```bash
-   chmod +x _serve_docker.sh
-   ./_serve_docker.sh
+   just serve
    ```
    
    Or manually:

@@ -1,28 +1,43 @@
-#!/bin/sh
+#!/usr/bin/env bash
+#
+# Create a new Jekyll draft post
+# Usage: ./_new_post.sh "Your Post Title"
+
+set -e
+
 if [ -z "$1" ]; then
-  echo "Usage: provide a title argument"
-  exit -1
-else
-  title="$@"
+  echo "Usage: $0 \"Post Title\""
+  exit 1
 fi
 
-slug=$(echo "$title" | tr "[:upper:]" "[:lower:]")
-slug=$(echo "$slug" | sed "y/āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ/aaaaeeeeiiiioooouuuuüüüüAAAAEEEEIIIIOOOOUUUUÜÜÜÜ/")
-slug=$(echo "$slug" | tr "[:punct:]" " ")
-slug=$(echo "$slug" | tr _ " ")
-slug=$(echo "$slug" | tr - " ")
-slug=$(echo "$slug" | tr -s " ")
-slug=$(echo "$slug" | tr "[:space:]" "-")
-slug="${slug:0:${#slug}-1}"
+title="$*"
 
-y=$(date +"%Y")
-m=$(date +"%m")
-d=$(date +"%d")
+# Convert to lowercase
+slug=$(echo "$title" | tr '[:upper:]' '[:lower:]')
+# Replace accented characters
+slug=$(echo "$slug" | sed 'y/āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ/aaaaeeeeiiiioooouuuuüüüüAAAAEEEEIIIIOOOOUUUUÜÜÜÜ/')
+# Replace punctuation with spaces
+slug=$(echo "$slug" | tr '[:punct:]' ' ')
+# Replace spaces and underscores with hyphens
+slug=$(echo "$slug" | tr ' _' '--')
+# Squeeze multiple hyphens into a single hyphen
+slug=$(echo "$slug" | tr -s '-')
+# Remove leading and trailing hyphens
+slug=$(echo "$slug" | sed -e 's/^-//' -e 's/-$//')
 
-post="./_drafts/$y-$m-$d-$slug.md"
+date_prefix=$(date +"%Y-%m-%d")
+post_dir="./_drafts"
+post_path="${post_dir}/${date_prefix}-${slug}.md"
 
-body=""
-read -d '' body <<EOF
+# Ensure drafts directory exists
+mkdir -p "$post_dir"
+
+if [ -f "$post_path" ]; then
+  echo "Error: Post $post_path already exists!"
+  exit 1
+fi
+
+cat <<EOF > "$post_path"
 ---
 layout: post
 title: "$title"
@@ -44,6 +59,4 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 
 EOF
 
-echo "$body" > "$post"
-
-echo Created new draft post: "$post"
+echo "✅ Created new draft post: $post_path"

@@ -14,7 +14,7 @@ services:
       - "4000:4000"
       - "35729:35729"
     command: >
-      bash -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --livereload --watch --incremental --verbose --drafts --future --config _config.yml,_config_dev.yml"
+      bash -c "bundle check || bundle install && bundle exec jekyll serve --host 0.0.0.0 --livereload --watch --verbose --drafts --future --config _config.yml,_config_dev.yml"
 
 volumes:
   bundle_cache:

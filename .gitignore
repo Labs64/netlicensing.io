@@ -2,7 +2,6 @@ _site/
 .sass-cache/
 .idea
 *.iml
-Gemfile.lock
 .DS_Store
 .kiro
 .vscode
