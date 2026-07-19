@@ -1,0 +1,75 @@
+name: Lint NetLicensing.IO
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Cache Jekyll build
+        uses: actions/cache@v4
+        with:
+          path: |
+            ${{ github.workspace }}/_site
+            ${{ github.workspace }}/.jekyll-cache
+          key: jekyll-${{ runner.os }}-${{ hashFiles('**/_config.yml', '**/Gemfile.lock') }}
+          restore-keys: |
+            jekyll-${{ runner.os }}-
+
+      - name: Build Jekyll site
+        run: |
+          docker run --rm \
+            -v "${{ github.workspace }}:/srv/jekyll" \
+            -v "${{ github.workspace }}/_site:/srv/jekyll/_site" \
+            jekyll/builder:4.2.2 \
+            /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future --strict_front_matter"
+
+      - name: Run HTMLProofer
+        run: |
+          set -o pipefail
+          docker run --rm \
+            -v "${{ github.workspace }}/_site:/site" \
+            ghcr.io/chabad360/htmlproofer:5.0.8 \
+            /site \
+            --checks "Links,Images,Scripts,OpenGraph" \
+            --allow-hash-href \
+            --log-level info \
+            --ignore-urls "/^(?:mailto:|tel:)/" \
+            --ignore-status-codes "0,429" \
+            --no-enforce-https \
+            --typhoeus '{"connecttimeout": 10, "timeout": 30}' \
+            --cache '{"timeframe": {"external": "1d"}}' \
+            2>&1 | tee /tmp/htmlproofer.log
+
+          htmlproofer_exit_code=$?
+
+          # Write summary
+          {
+            echo "## HTMLProofer Results"
+            echo ""
+            if [ "$htmlproofer_exit_code" -ne 0 ]; then
+              echo "⚠️ Issues found — review before merging."
+            else
+              echo "✅ No issues found."
+            fi
+            echo ""
+            echo "<details><summary>Full output</summary>"
+            echo ""
+            echo '```'
+            cat /tmp/htmlproofer.log
+            echo '```'
+            echo ""
+            echo "</details>"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          exit "$htmlproofer_exit_code"

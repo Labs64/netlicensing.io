@@ -1,0 +1,101 @@
+{% comment %}
+  Industry Case Studies Block
+  Usage: {% include industry-case-studies.html industry="ai-agentic-products" %}
+  
+  This include pulls case study data directly from the _case-studies collection
+  based on the slugs defined in _data/industry_case_studies.yml
+{% endcomment %}
+
+{% assign industry_key = include.industry %}
+{% assign case_study_slugs = site.data.industry_case_studies[industry_key] %}
+{% assign industry_case_heading = "NetLicensing Use Cases" %}
+{% if industry_key == "ai-agentic-products" %}
+  {% assign industry_case_heading = "AI Licensing Use Cases" %}
+{% elsif industry_key == "software-saas-platforms" %}
+  {% assign industry_case_heading = "SaaS Licensing Use Cases" %}
+{% elsif industry_key == "manufacturing-industry-4" %}
+  {% assign industry_case_heading = "Manufacturing Software Licensing Use Cases" %}
+{% elsif industry_key == "iot-embedded-systems" %}
+  {% assign industry_case_heading = "IoT Device Licensing Use Cases" %}
+{% elsif industry_key == "data-analytics" %}
+  {% assign industry_case_heading = "Data Platform Licensing Use Cases" %}
+{% elsif industry_key == "developer-tools-platforms" %}
+  {% assign industry_case_heading = "Developer Tool Licensing Use Cases" %}
+{% elsif industry_key == "financial-services-fintech" %}
+  {% assign industry_case_heading = "Financial Software Licensing Use Cases" %}
+{% elsif industry_key == "healthcare-life-sciences" %}
+  {% assign industry_case_heading = "Healthcare Software Licensing Use Cases" %}
+{% elsif industry_key == "education-elearning" %}
+  {% assign industry_case_heading = "Education Software Licensing Use Cases" %}
+{% elsif industry_key == "gaming-entertainment" %}
+  {% assign industry_case_heading = "Game and Entertainment Licensing Use Cases" %}
+{% endif %}
+
+{% if case_study_slugs %}
+<div class="row NL_block">
+    <h2 class="col-md-12">{{ industry_case_heading }}</h2>
+    <p class="col-md-8 col-md-offset-2" style="text-align:center;">
+        {% if industry_key == "ai-agentic-products" %}
+        Explore examples for metered AI usage, agent entitlements, and usage-based monetisation.
+        {% elsif industry_key == "software-saas-platforms" %}
+        See how software and SaaS teams externalise subscriptions, feature gates, and tenant entitlements.
+        {% elsif industry_key == "manufacturing-industry-4" %}
+        See how manufacturers and OEMs license industrial software, machine features, and offline deployments.
+        {% elsif industry_key == "iot-embedded-systems" %}
+        Discover how IoT companies manage device-bound entitlements and post-sale feature activation.
+        {% elsif industry_key == "data-analytics" %}
+        See how data platform vendors meter queries, enforce quotas, and package capacity upgrades.
+        {% elsif industry_key == "developer-tools-platforms" %}
+        Learn how developer tool vendors license APIs, SDKs, plugins, and free-to-paid product journeys.
+        {% elsif industry_key == "financial-services-fintech" %}
+        See how financial software vendors manage controlled access, entitlement records, and entity-level billing.
+        {% elsif industry_key == "healthcare-life-sciences" %}
+        Discover how healthcare software vendors support privacy-aware access, offline validation, and audit records.
+        {% elsif industry_key == "education-elearning" %}
+        See how education platforms manage site licences, learner seats, cohorts, and institutional renewals.
+        {% elsif industry_key == "gaming-entertainment" %}
+        Learn how game and entertainment teams monetise DLC, sessions, premium content, and cross-platform access.
+        {% else %}
+        Discover how companies in this industry leverage NetLicensing.
+        {% endif %}
+    </p>
+</div>
+
+<div class="NL_block row">
+    {% for case_study_ref in case_study_slugs limit:2 %}
+        {% assign case_study_slug = case_study_ref.slug %}
+        {% assign case_study = nil %}
+        
+        {% comment %}Find the case study by matching the slug in the permalink{% endcomment %}
+        {% for cs in site.case-studies %}
+            {% assign cs_slug = cs.permalink | remove: "/case-studies/" | remove: "/" %}
+            {% if cs_slug == case_study_slug %}
+                {% assign case_study = cs %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+        
+        {% if case_study %}
+        <a href="{{ case_study.url | relative_url }}" class="NL_cases_card col-md-6"
+           title="Case Study: {{ case_study.title }}">
+            <div>
+                <div class="view view-info col-md-5">
+                    <img class="view-img"
+                         src="{{ case_study.img | prepend: site.baseurl | prepend: site.url }}"
+                         alt="{{ case_study.title }}"/>
+                    <div class="mask">
+                        <img alt="{{ site.title }}"
+                             src="{{ '/img/labs64-avatar-30x30.png' | prepend: site.baseurl | prepend: site.url }}"/>
+                        <p>{{ case_study.title }}</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-md-offset-1">
+                    <h3>{{ case_study.title }}</h3>
+                    <p>{{ case_study.description }}</p>
+                </div>
+            </div>
+        </a>
+        {% endif %}
+    {% endfor %}
+</div>
+{% endif %}

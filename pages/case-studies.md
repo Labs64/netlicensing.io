@@ -8,12 +8,47 @@ tags:
 - Use Cases
 sitemap:
   images:
-   - /img/case-studies/netlicensing-case-study-credit-tracker.png
-   - /img/case-studies/netlicensing-case-study-digipass.png
-   - /img/case-studies/netlicensing-case-study-internet-access-control.png
-   - /img/case-studies/netlicensing-case-study-iot-tablet-computers.png
-   - /img/case-studies/netlicensing-case-study-mobile-device-management.png
-   - /img/case-studies/netlicensing-case-study-online-service.png
+   - /img/case-studies/netlicensing-case-study-access-control.png
+   - /img/case-studies/netlicensing-case-study-ai-api-monetization.png
+   - /img/case-studies/netlicensing-case-study-ai-chatbot-multi-tenant.png
+   - /img/case-studies/netlicensing-case-study-b2b-saas-stripe-licensing.png
+   - /img/case-studies/netlicensing-case-study-cad-cae-hybrid-licensing.png
+   - /img/case-studies/netlicensing-case-study-compliance-licence-audit.png
+   - /img/case-studies/netlicensing-case-study-connected-cars-services.png
+   - /img/case-studies/netlicensing-case-study-connected-products-smart-home.png
+   - /img/case-studies/netlicensing-case-study-course-learning-content-access.png
+   - /img/case-studies/netlicensing-case-study-credit-tracker-v2.png
+   - /img/case-studies/netlicensing-case-study-cross-platform-license-sharing.png
+   - /img/case-studies/netlicensing-case-study-digipass-wordpress-plugin.png
+   - /img/case-studies/netlicensing-case-study-digital-media-content-access.png
+   - /img/case-studies/netlicensing-case-study-document-saas-subscription-tiers.png
+   - /img/case-studies/netlicensing-case-study-ebooks-rent.png
+   - /img/case-studies/netlicensing-case-study-embedded-feature-on-demand.png
+   - /img/case-studies/netlicensing-case-study-esim-features-enablement.png
+   - /img/case-studies/netlicensing-case-study-gaming-middleware-per-title.png
+   - /img/case-studies/netlicensing-case-study-gaming.png
+   - /img/case-studies/netlicensing-case-study-industrial-oem-machine-features.png
+   - /img/case-studies/netlicensing-case-study-internet-access-control-v2.png
+   - /img/case-studies/netlicensing-case-study-internet-network-access-control.png
+   - /img/case-studies/netlicensing-case-study-iot-device-feature-activation.png
+   - /img/case-studies/netlicensing-case-study-iot-tablet-computers-v2.png
+   - /img/case-studies/netlicensing-case-study-isv-sdk-plugin-licensing.png
+   - /img/case-studies/netlicensing-case-study-medtech-pay-per-study.png
+   - /img/case-studies/netlicensing-case-study-membership-subscription-plans.png
+   - /img/case-studies/netlicensing-case-study-mobile-device-management-v2.png
+   - /img/case-studies/netlicensing-case-study-multi-product-bundle.png
+   - /img/case-studies/netlicensing-case-study-oem-embedded-licensing.png
+   - /img/case-studies/netlicensing-case-study-offline-air-gapped-deployment.png
+   - /img/case-studies/netlicensing-case-study-online-service-v2.png
+   - /img/case-studies/netlicensing-case-study-plugin-extension-marketplace.png
+   - /img/case-studies/netlicensing-case-study-saas-seat-team-management.png
+   - /img/case-studies/netlicensing-case-study-smart-metering.png
+   - /img/case-studies/netlicensing-case-study-software-licensing.png
+   - /img/case-studies/netlicensing-case-study-telecom-usage-licensing.png
+   - /img/case-studies/netlicensing-case-study-ticketing-event-access.png
+   - /img/case-studies/netlicensing-case-study-trial-to-paid-conversion.png
+   - /img/case-studies/netlicensing-case-study-usage-based-billing-data.png
+   - /img/case-studies/netlicensing-case-study-white-label-reseller.png
    - /resources/how-to-select-licensing-model-infographic-netlicensing.png
 ---
 <div class="row NL_banner">

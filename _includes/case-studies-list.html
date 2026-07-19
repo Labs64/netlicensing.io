@@ -1,0 +1,21 @@
+{% comment %}
+  Case Studies List
+  Displays all case studies from the _case-studies collection
+  Replaces the legacy usecases.yml data file
+{% endcomment %}
+
+<div class="row">
+  <div class="col-md-12 NL_container">
+    <div class="col-md-6 col-md-offset-3 NL_container_text nlic-usecases">
+      {% assign sorted_case_studies = site.case-studies | sort: 'title' %}
+      {% for case_study in sorted_case_studies %}
+      {% if case_study.title and case_study.description %}
+      <div>
+        <h3><a href="{{ case_study.url | relative_url }}">{{ case_study.title }}</a></h3>
+        <span>{{ case_study.description }}</span>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
