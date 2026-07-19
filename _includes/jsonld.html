@@ -29,4 +29,94 @@
   }
 }
 </script>
+{% elsif page.url == '/' or page.url == '/index.html' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ site.title }}",
+  "url": "{{ '/' | prepend: site.baseurl | prepend: site.url }}",
+  "logo": "{{ '/img/labs64-logo.png' | prepend: site.baseurl | prepend: site.url }}",
+  "description": "{{ site.description }}"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "{{ site.title }}",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "All",
+  "description": "{{ site.description }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.company }}"
+  }
+}
+</script>
+{% elsif page.url == '/pricing/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I use NetLicensing for free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! NetLicensing can be completely free to use. The Community plan does have some limits and feature locks. You can always upgrade to higher plans if you’d like to access those advanced features."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is included in Free Premium Trial?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Free Premium Trial plan includes all functionality of Premium Plan for 30 days, except product, product module and licensee limits. After 30 days your vendor account will remain active and will be automatically switched to \"Community\" plan unless upgraded."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a credit card to sign up for the free plan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. We do not collect credit card information when you sign up for a free account."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I cancel anytime?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! You can cancel your plan anytime you wish and you will not be charged. Your annual payment will be refunded pro-rata."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there any hidden cost or extra charges?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. NetLicensing won’t charge you any setup fees or monthly fees if you are using a free plan. The selected payment service provider may charge an internet gateway fee and/or a processing fee."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you support early-stage startups, education & nonprofits?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NetLicensing is proud to support people doing great things in the world. That’s why we offer significant discounts for eligible students and educators and nonprofits."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my data safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We take data security very seriously. All your data is securely stored and regularly backed up in Amazon data centers, and the network design ensures no unauthorized access. All web interactions are encrypted through industry-standard SSL security. You can request deletion of your data permanently at any time."
+      }
+    }
+  ]
+}
+</script>
 {% endif %}
