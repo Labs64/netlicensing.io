@@ -27,7 +27,7 @@ $(function () {
     var $dropdowns = $('.NL_dropdown');
 
     if ($(window).width() > 767) {
-        // Desktop: open on hover
+        /* Desktop: open on hover */
         $dropdowns.on('mouseenter', function () {
             $(this).addClass('open');
         }).on('mouseleave', function () {
@@ -35,7 +35,7 @@ $(function () {
         });
     }
 
-    // Click toggle (for mobile and as fallback)
+    /* Click toggle (for mobile and as fallback) */
     $dropdowns.find('.NL_dropdown-toggle').on('click', function (e) {
         e.preventDefault();
         e.stopPropagation();
@@ -44,7 +44,7 @@ $(function () {
         $parent.toggleClass('open');
     });
 
-    // Close dropdown when clicking outside
+    /* Close dropdown when clicking outside */
     $(document).on('click', function (e) {
         if (!$(e.target).closest('.NL_dropdown').length) {
             $dropdowns.removeClass('open');
