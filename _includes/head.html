@@ -42,15 +42,15 @@
     {% endif %}
 
     <!-- Custom Fonts, CSS -->
-    <link rel="stylesheet" href="{{ '/css/roboto.css' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="stylesheet" href="{{ '/css/font-awesome.4.5.0.min.css' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="stylesheet" href="{{ '/css/slick.1.8.1.css' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="stylesheet" href="{{ '/css/slick-theme.1.8.1.css' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="stylesheet" href="{{ '/css/bootstrap.min.css' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="stylesheet" href="{{ '/css/netlicensing.css' | prepend: site.baseurl | prepend: site.url }}#{{ site.time | date:'%Y%m%d%H%M' }}">
-    <link rel="stylesheet" href="{{ '/css/netlicensing-style.css' | prepend: site.baseurl | prepend: site.url }}#{{ site.time | date:'%Y%m%d%H%M' }}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ '/img/labs64-avatar-18x18.png' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="apple-touch-icon" type="image/x-icon" href="{{ '/img/labs64-avatar-18x18.png' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ '/css/roboto.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/css/font-awesome.4.5.0.min.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/css/slick.1.8.1.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/css/slick-theme.1.8.1.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/css/bootstrap.min.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/css/netlicensing.css' | prepend: site.baseurl }}#{{ site.time | date:'%Y%m%d%H%M' }}">
+    <link rel="stylesheet" href="{{ '/css/netlicensing-style.css' | prepend: site.baseurl }}#{{ site.time | date:'%Y%m%d%H%M' }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '/img/labs64-avatar-18x18.png' | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" type="image/x-icon" href="{{ '/img/labs64-avatar-18x18.png' | prepend: site.baseurl }}">
 
     {% if page.canonical %}
       {% if page.canonical contains 'http' %}

@@ -56,37 +56,5 @@ layout: default
         </div>
     </div>
 
-    <div class="NL_block row">
-        <h2>More Case Studies</h2>
-
-        {% assign casestudyTotal = 2 %}
-        {% assign casestudyCnt = 0 %}
-        {% for casestudy in site.case-studies %}
-        {% capture casestudyDiff %}{{ casestudyTotal | minus:casestudyCnt }}{% endcapture %}
-        {% unless casestudyDiff == '0' %}
-        {% if casestudy.layout == 'casestudy' and casestudy.title and casestudy.title != page.title %}
-        {% capture casestudyCnt %}{{ casestudyCnt | plus:1 }}{% endcapture %}
-        <a href="{{ casestudy.url }}" class="NL_cases_card col-md-6" title="Case Study: {{ casestudy.title }}">
-            <div>
-                <div class="view view-info col-md-5">
-                    <img class="view-img" src="{{ casestudy.img | prepend: site.baseurl | prepend: site.url }}" alt="{{ casestudy.title }}"/>
-
-                    <div class="mask">
-                        <img alt="{{ site.title }}"
-                             src="{{ '/img/labs64-avatar-30x30.png' | prepend: site.baseurl | prepend: site.url }}"/>
-
-                        <p>{{ casestudy.title }}</p>
-                    </div>
-                </div>
-                <div class="col-md-5 col-md-offset-1">
-                    <h3>{{ casestudy.title }}</h3>
-
-                    <p>{{ casestudy.description }}</p>
-                </div>
-            </div>
-        </a>
-        {% endif %}
-        {% endunless %}
-        {% endfor %}
-    </div>
+    {% include related-case-studies.html current_page=page %}
 </div>

@@ -28,6 +28,10 @@
   url: "/documentation/"
   section: "Documentation"
 
+- title: Case Studies
+  url: "/case-studies/"
+  section: "Documentation"
+
 - title: Changelog
   url: "/wiki/changelog"
   section: "Documentation"

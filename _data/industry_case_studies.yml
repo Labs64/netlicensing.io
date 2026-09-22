@@ -1,0 +1,44 @@
+# Industry to Case Study Mapping
+# Each industry page displays 2 featured case studies in the "Real-World Applications" section
+# Case study data (title, description, image) is pulled directly from the _case-studies collection
+# Only specify the slug (filename without .md extension) here
+
+ai-agentic-products:
+  - slug: ai-api-monetization
+  - slug: ai-chatbot-multi-tenant
+
+software-saas-platforms:
+  - slug: b2b-saas-stripe-licensing
+  - slug: saas-seat-team-management
+
+manufacturing-industry-4:
+  - slug: industrial-oem-machine-features
+  - slug: oem-embedded-licensing
+
+iot-embedded-systems:
+  - slug: iot-device-feature-activation
+  - slug: connected-products-smart-home
+
+data-analytics:
+  - slug: usage-based-billing-data
+  - slug: medtech-pay-per-study
+
+developer-tools-platforms:
+  - slug: plugin-extension-marketplace
+  - slug: isv-sdk-plugin-licensing
+
+financial-services-fintech:
+  - slug: compliance-licence-audit
+  - slug: offline-air-gapped-deployment
+
+healthcare-life-sciences:
+  - slug: medtech-pay-per-study
+  - slug: offline-air-gapped-deployment
+
+education-elearning:
+  - slug: course-learning-content-access
+  - slug: membership-subscription-plans
+
+gaming-entertainment:
+  - slug: gaming
+  - slug: gaming-middleware-per-title

@@ -80,55 +80,370 @@
   publisher: Labs64
   creditlink: https://netlicensing.io
 
-- id: netlicensing-case-study-credit-tracker
-  source: /img/case-studies/netlicensing-case-study-credit-tracker.png
-  title: "Wordpress Plugin: Credit Tracker"
-  caption: "NetLicensing Case Study - Wordpress Plugin: Credit Tracker"
+- id: netlicensing-case-study-access-control
+  source: /img/case-studies/netlicensing-case-study-access-control.png
+  title: "Physical Security: Feature-Based Access Control with Time-Limited Permissions"
+  caption: "NetLicensing Case Study - Physical Security: Feature-Based Access Control with Time-Limited Permissions"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
   author: Labs64
   publisher: Labs64
-  creditlink: https://wordpress.org/plugins/credit-tracker/
+  creditlink: https://netlicensing.io
 
-- id: netlicensing-case-study-digipass
-  source: /img/case-studies/netlicensing-case-study-digipass.png
-  title: "Wordpress Plugin: DigiPass"
-  caption: "NetLicensing Case Study - Wordpress Plugin: DigiPass"
+- id: netlicensing-case-study-ai-api-monetization
+  source: /img/case-studies/netlicensing-case-study-ai-api-monetization.png
+  title: "AI/ML Platform: Token-Based Monetization with Inference Metering"
+  caption: "NetLicensing Case Study - AI/ML Platform: Token-Based Monetization with Inference Metering"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
   author: Labs64
   publisher: Labs64
-  creditlink: https://wordpress.org/plugins/digipass/
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-ai-chatbot-multi-tenant
+  source: /img/case-studies/netlicensing-case-study-ai-chatbot-multi-tenant.png
+  title: "AI Chatbot Platform: Multi-Tenant Licensing"
+  caption: "NetLicensing Case Study - AI Chatbot Platform: Multi-Tenant Licensing"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-b2b-saas-stripe-licensing
+  source: /img/case-studies/netlicensing-case-study-b2b-saas-stripe-licensing.png
+  title: "B2B SaaS: From Stripe-Only to Licensing-as-a-Service"
+  caption: "NetLicensing Case Study - B2B SaaS: From Stripe-Only to Licensing-as-a-Service"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-cad-cae-hybrid-licensing
+  source: /img/case-studies/netlicensing-case-study-cad-cae-hybrid-licensing.png
+  title: "CAD/CAE Vendor: Dongle to Hybrid Licensing"
+  caption: "NetLicensing Case Study - CAD/CAE Vendor: Dongle to Hybrid Licensing"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-compliance-licence-audit
+  source: /img/case-studies/netlicensing-case-study-compliance-licence-audit.png
+  title: "Compliance & License Audit: Automated Overuse Detection and Audit-Ready Reporting"
+  caption: "NetLicensing Case Study - Compliance & License Audit: Automated Overuse Detection and Audit-Ready Reporting"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-connected-cars-services
+  source: /img/case-studies/netlicensing-case-study-connected-cars-services.png
+  title: "Connected Cars: Subscription-Based In-Vehicle Services"
+  caption: "NetLicensing Case Study - Connected Cars: Subscription-Based In-Vehicle Services"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-connected-products-smart-home
+  source: /img/case-studies/netlicensing-case-study-connected-products-smart-home.png
+  title: "Connected Products & Smart Home: Remote Feature Enablement and Service Subscription Management"
+  caption: "NetLicensing Case Study - Connected Products & Smart Home: Remote Feature Enablement and Service Subscription Management"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-course-learning-content-access
+  source: /img/case-studies/netlicensing-case-study-course-learning-content-access.png
+  title: "E-Learning Platform: Gating Courses and Certifications by Enrollment and Institutional License"
+  caption: "NetLicensing Case Study - E-Learning Platform: Gating Courses and Certifications by Enrollment and Institutional License"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-credit-tracker
+  source: /img/case-studies/netlicensing-case-study-credit-tracker-v2.png
+  title: "WordPress Plugin: Credit Tracker"
+  caption: "NetLicensing Case Study - WordPress Plugin: Credit Tracker"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-cross-platform-license-sharing
+  source: /img/case-studies/netlicensing-case-study-cross-platform-license-sharing.png
+  title: "Multi-Platform Software: Seamless License Sharing Across Devices"
+  caption: "NetLicensing Case Study - Multi-Platform Software: Seamless License Sharing Across Devices"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-digipass-wordpress-plugin
+  source: /img/case-studies/netlicensing-case-study-digipass-wordpress-plugin.png
+  title: "WordPress Plugin: DigiPass"
+  caption: "NetLicensing Case Study - WordPress Plugin: DigiPass"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-digital-media-content-access
+  source: /img/case-studies/netlicensing-case-study-digital-media-content-access.png
+  title: "Streaming Platform: Monetizing Digital Media with Flexible Access Models"
+  caption: "NetLicensing Case Study - Streaming Platform: Monetizing Digital Media with Flexible Access Models"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-document-saas-subscription-tiers
+  source: /img/case-studies/netlicensing-case-study-document-saas-subscription-tiers.png
+  title: "Document SaaS: Credit Packs to Subscription Tiers"
+  caption: "NetLicensing Case Study - Document SaaS: Credit Packs to Subscription Tiers"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-ebooks-rent
+  source: /img/case-studies/netlicensing-case-study-ebooks-rent.png
+  title: "Digital Publishing Platform: Time-Limited eBook Rentals"
+  caption: "NetLicensing Case Study - Digital Publishing Platform: Time-Limited eBook Rentals"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-embedded-feature-on-demand
+  source: /img/case-studies/netlicensing-case-study-embedded-feature-on-demand.png
+  title: "Embedded Devices: Feature-on-Demand Licensing"
+  caption: "NetLicensing Case Study - Embedded Devices: Feature-on-Demand Licensing"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-esim-features-enablement
+  source: /img/case-studies/netlicensing-case-study-esim-features-enablement.png
+  title: "eSIM Telecommunications: Remote Carrier Feature Activation"
+  caption: "NetLicensing Case Study - eSIM Telecommunications: Remote Carrier Feature Activation"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-gaming-middleware-per-title
+  source: /img/case-studies/netlicensing-case-study-gaming-middleware-per-title.png
+  title: "Gaming Middleware: Per-Title and Per-Seat Licensing"
+  caption: "NetLicensing Case Study - Gaming Middleware: Per-Title and Per-Seat Licensing"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-gaming
+  source: /img/case-studies/netlicensing-case-study-gaming.png
+  title: "Mobile Game Studio: In-Game Purchases and DLC Monetization"
+  caption: "NetLicensing Case Study - Mobile Game Studio: In-Game Purchases and DLC Monetization"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-industrial-oem-machine-features
+  source: /img/case-studies/netlicensing-case-study-industrial-oem-machine-features.png
+  title: "Industrial OEM: Monetizing Machine Features"
+  caption: "NetLicensing Case Study - Industrial OEM: Monetizing Machine Features"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
 
 - id: netlicensing-case-study-internet-access-control
-  source: /img/case-studies/netlicensing-case-study-internet-access-control.png
+  source: /img/case-studies/netlicensing-case-study-internet-access-control-v2.png
   title: "Internet Access Control"
   caption: "NetLicensing Case Study - Internet Access Control"
-  license: https://creativecommons.org/publicdomain/zero/1.0/
-  author: "Daria Shevtsova"
-  publisher: "Unsplash"
-  creditlink: https://unsplash.com/photos/k_RYBedEvDw
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-internet-network-access-control
+  source: /img/case-studies/netlicensing-case-study-internet-network-access-control.png
+  title: "Internet & Network Access Control: Time-Limited Access to Physical Connection Points"
+  caption: "NetLicensing Case Study - Internet & Network Access Control: Time-Limited Access to Physical Connection Points"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-iot-device-feature-activation
+  source: /img/case-studies/netlicensing-case-study-iot-device-feature-activation.png
+  title: "IoT & Device Feature Activation: Fleet-Wide Remote Feature Management"
+  caption: "NetLicensing Case Study - IoT & Device Feature Activation: Fleet-Wide Remote Feature Management"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
 
 - id: netlicensing-case-study-iot-tablet-computers
-  source: /img/case-studies/netlicensing-case-study-iot-tablet-computers.png
+  source: /img/case-studies/netlicensing-case-study-iot-tablet-computers-v2.png
   title: "Internet of Things: Tablet Computers"
   caption: "NetLicensing Case Study - Internet of Things: Tablet Computers"
-  license: https://creativecommons.org/publicdomain/zero/1.0/
-  author: "William Iven"
-  publisher: "Unsplash"
-  creditlink: https://unsplash.com/photos/OP2EQ5g-Zkw
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-isv-sdk-plugin-licensing
+  source: /img/case-studies/netlicensing-case-study-isv-sdk-plugin-licensing.png
+  title: "ISV Ecosystem: Monetizing SDKs and Plugins"
+  caption: "NetLicensing Case Study - ISV Ecosystem: Monetizing SDKs and Plugins"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-medtech-pay-per-study
+  source: /img/case-studies/netlicensing-case-study-medtech-pay-per-study.png
+  title: "MedTech Imaging: Pay-Per-Study Analytics"
+  caption: "NetLicensing Case Study - MedTech Imaging: Pay-Per-Study Analytics"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-membership-subscription-plans
+  source: /img/case-studies/netlicensing-case-study-membership-subscription-plans.png
+  title: "Membership Platform: Automated Access, Renewals, and Tier Management"
+  caption: "NetLicensing Case Study - Membership Platform: Automated Access, Renewals, and Tier Management"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
 
 - id: netlicensing-case-study-mobile-device-management
-  source: /img/case-studies/netlicensing-case-study-mobile-device-management.png
-  title: "Mobile Device Management"
-  caption: "NetLicensing Case Study - Mobile Device Management"
-  license: https://creativecommons.org/publicdomain/zero/1.0/
-  author: "Alejandro Escamilla"
-  publisher: "Unsplash"
-  creditlink: https://unsplash.com/photos/Dl6jeyfihLk
+  source: /img/case-studies/netlicensing-case-study-mobile-device-management-v2.png
+  title: "Mobile Device Management: Fleet Tracking and Software Provisioning"
+  caption: "NetLicensing Case Study - Mobile Device Management: Fleet Tracking and Software Provisioning"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-multi-product-bundle
+  source: /img/case-studies/netlicensing-case-study-multi-product-bundle.png
+  title: "Multi-Product Bundle Licensing: Suite Management with Component Tracking"
+  caption: "NetLicensing Case Study - Multi-Product Bundle Licensing: Suite Management with Component Tracking"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-oem-embedded-licensing
+  source: /img/case-studies/netlicensing-case-study-oem-embedded-licensing.png
+  title: "OEM & Embedded Software Licensing"
+  caption: "NetLicensing Case Study - OEM & Embedded Software Licensing"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-offline-air-gapped-deployment
+  source: /img/case-studies/netlicensing-case-study-offline-air-gapped-deployment.png
+  title: "Offline & Air-Gapped Deployment: Secure Licensing for Disconnected Environments"
+  caption: "NetLicensing Case Study - Offline & Air-Gapped Deployment: Secure Licensing for Disconnected Environments"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
 
 - id: netlicensing-case-study-online-service
-  source: /img/case-studies/netlicensing-case-study-online-service.png
+  source: /img/case-studies/netlicensing-case-study-online-service-v2.png
   title: "Online Service Subscription"
   caption: "NetLicensing Case Study - Online Service Subscription"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-plugin-extension-marketplace
+  source: /img/case-studies/netlicensing-case-study-plugin-extension-marketplace.png
+  title: "Plugin & Extension Marketplace: Multi-Vendor Monetization Platform"
+  caption: "NetLicensing Case Study - Plugin & Extension Marketplace: Multi-Vendor Monetization Platform"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-saas-seat-team-management
+  source: /img/case-studies/netlicensing-case-study-saas-seat-team-management.png
+  title: "SaaS Seat & Team Management: Unified Entitlement Across Organizations"
+  caption: "NetLicensing Case Study - SaaS Seat & Team Management: Unified Entitlement Across Organizations"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-smart-metering
+  source: /img/case-studies/netlicensing-case-study-smart-metering.png
+  title: "Smart Metering: Feature Enablement and Consumption Tracking"
+  caption: "NetLicensing Case Study - Smart Metering: Feature Enablement and Consumption Tracking"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-software-licensing
+  source: /img/case-studies/netlicensing-case-study-software-licensing.png
+  title: "Desktop Software ISV: Trial-to-Paid with Node-Locked Protection"
+  caption: "NetLicensing Case Study - Desktop Software ISV: Trial-to-Paid with Node-Locked Protection"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-telecom-usage-licensing
+  source: /img/case-studies/netlicensing-case-study-telecom-usage-licensing.png
+  title: "Telecom Analytics: Multi-Tier Usage Licensing"
+  caption: "NetLicensing Case Study - Telecom Analytics: Multi-Tier Usage Licensing"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-ticketing-event-access
+  source: /img/case-studies/netlicensing-case-study-ticketing-event-access.png
+  title: "Event Management: Subscription, Per-Event, and Floating Access Passes"
+  caption: "NetLicensing Case Study - Event Management: Subscription, Per-Event, and Floating Access Passes"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-trial-to-paid-conversion
+  source: /img/case-studies/netlicensing-case-study-trial-to-paid-conversion.png
+  title: "Trial-to-Paid Conversion: Structured Trials and Freemium Tiers"
+  caption: "NetLicensing Case Study - Trial-to-Paid Conversion: Structured Trials and Freemium Tiers"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-usage-based-billing-data
+  source: /img/case-studies/netlicensing-case-study-usage-based-billing-data.png
+  title: "Data Analytics Platform: Usage-Based Billing for Data Products"
+  caption: "NetLicensing Case Study - Data Analytics Platform: Usage-Based Billing for Data Products"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-case-study-white-label-reseller
+  source: /img/case-studies/netlicensing-case-study-white-label-reseller.png
+  title: "White-Label & Reseller Distribution: Partner-Driven License Provisioning"
+  caption: "NetLicensing Case Study - White-Label & Reseller Distribution: Partner-Driven License Provisioning"
   license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
   author: Labs64
   publisher: Labs64

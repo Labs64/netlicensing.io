@@ -807,6 +807,157 @@ div.in > .NL_accordion_content {
     opacity: 0.95;
 }
 
+/* --- Multi-layer Dropdown Navigation --- */
+.NL_dropdown {
+    position: relative;
+}
+
+.NL_dropdown-toggle {
+    cursor: pointer;
+}
+
+.NL_dropdown-arrow {
+    font-size: 10px;
+    margin-left: 4px;
+    transition: transform 0.3s ease;
+}
+
+.NL_dropdown.open .NL_dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+.NL_dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    min-width: 540px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    border-top: 3px solid #853E29;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+
+.NL_dropdown.open .NL_dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.NL_dropdown-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+}
+
+.NL_dropdown-item {
+    display: block;
+    padding: 12px 16px;
+    border-bottom: none !important;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+    text-decoration: none;
+}
+
+.NL_dropdown-item:hover {
+    background-color: #fff8ef;
+    text-decoration: none;
+    border-bottom: none !important;
+}
+
+.NL_dropdown-item-title {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    line-height: 20px;
+    margin-bottom: 2px;
+}
+
+.NL_dropdown-item:hover .NL_dropdown-item-title {
+    color: #853E29;
+}
+
+.NL_dropdown-item-desc {
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    color: #888;
+    line-height: 16px;
+}
+
+/* Mobile dropdown styles */
+@media screen and (max-width: 767px) {
+    .NL_dropdown-menu {
+        position: static;
+        transform: none;
+        min-width: 100%;
+        border: none;
+        border-top: none;
+        box-shadow: none;
+        padding: 0 15px;
+        background-color: #fafafa;
+    }
+
+    .NL_dropdown-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .NL_dropdown-item {
+        padding: 10px 12px;
+        border-bottom: 1px solid #f0f0f0 !important;
+    }
+
+    .NL_dropdown-item:last-child {
+        border-bottom: none !important;
+    }
+}
+/* Wide dropdown variant (mega-menu for large item sets) */
+.NL_dropdown--wide .NL_dropdown-menu {
+    min-width: 900px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.NL_dropdown--wide .NL_dropdown-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.NL_dropdown--wide .NL_dropdown-item {
+    padding: 10px 12px;
+}
+
+@media screen and (max-width: 1199px) {
+    .NL_dropdown--wide .NL_dropdown-menu {
+        min-width: 700px;
+    }
+    .NL_dropdown--wide .NL_dropdown-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .NL_dropdown--wide .NL_dropdown-menu {
+        min-width: 100%;
+    }
+    .NL_dropdown--wide .NL_dropdown-grid {
+        grid-template-columns: 1fr;
+    }
+    .NL_dropdown--wide .NL_dropdown-item-desc {
+        display: block;
+    }
+}
+/* --- End Multi-layer Dropdown Navigation --- */
+
 .NL_logo {
     border-bottom: none;
     padding-right: 10px;
@@ -1134,6 +1285,18 @@ a.NL_cases_card {
     border: 1px solid #f9e1c4;
 }
 
+/* Give text more room inside 2-column case study cards */
+@media (min-width: 992px) {
+    a.NL_cases_card.col-md-6 > div > .view.view-info.col-md-5 {
+        width: 200px;
+    }
+
+    a.NL_cases_card.col-md-6 > div > div.col-md-5.col-md-offset-1 {
+        width: calc(100% - 215px);
+        margin-left: 15px;
+    }
+}
+
 .view {
     width: 200px;
     height: 168px;
@@ -1147,7 +1310,6 @@ a.NL_cases_card {
 .view .mask, .view .content {
     width: 200px;
     height: 168px;
-    padding: 0px;
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -1163,20 +1325,24 @@ img.view-img {
 }
 
 .mask p {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
+    line-height: 17px;
     position: relative;
     color: #853E29;
-    padding: 10px 20px 20px;
+    margin: 0;
+    padding: 0 12px;
     text-align: center;
     opacity: 0;
     transition: all 0.2s linear;
+    overflow-wrap: anywhere;
 }
 
 .mask img {
     width: 30px;
     height: 30px;
-    margin-top: 50px;
+    margin: 0 0 10px;
+    flex: 0 0 auto;
 }
 
 .mask {
@@ -1185,6 +1351,12 @@ img.view-img {
     opacity: 1;
     transition: all 0.4s ease-in-out;
     cursor: pointer;
+    box-sizing: border-box;
+    padding: 18px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 a.NL_cases_card:hover div.view-info .mask {
@@ -1234,9 +1406,12 @@ a.NL_cases_card:hover .view-info p {
 }
 
 .NL_case_img {
-    height: 220px;
+    height: 0;
+    padding-bottom: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-color: #fff;
 }
 
 .NL_case_facts {
@@ -1267,7 +1442,7 @@ a.NL_cases_card:hover .view-info p {
 }
 
 .NL_case_facts ul li {
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 .NL_case_facts a {
@@ -1275,7 +1450,6 @@ a.NL_cases_card:hover .view-info p {
 }
 
 .NL_case_study ul {
-    margin-left: 30px;
     list-style-type: square;
 }
 
@@ -1406,6 +1580,11 @@ article.cbp-so-side-left h2 {
 .cbp-so-side-left img {
     float: right;
     width: 500px;
+}
+
+.NL_industry_zigzag .cbp-so-side-right img,
+.NL_industry_zigzag .cbp-so-side-left img {
+    width: 400px;
 }
 
 .cbp-so-init .cbp-so-side {
@@ -2028,3 +2207,214 @@ a.NL_pricing_tooltip {
     color: #853E29;
 }
 
+/*----------  Industry Pages  -----------*/
+
+/* Hero CTA row */
+.NL_hero_ctas {
+    margin-top: 30px;
+}
+
+.NL_hero_ctas .NL_button {
+    margin: 0 auto;
+}
+
+/* --- Pain Points Grid --- */
+.NL_industry_problem_row {
+    padding: 0 40px 40px;
+}
+
+.NL_industry_problem_row figure.hover_effect figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.NL_industry_problem_row figure.hover_effect figcaption img {
+    display: block;
+    width: 90px;
+    height: 92px;
+    object-fit: contain;
+    margin: 20px auto 0;
+}
+
+.NL_industry_problem_row figure.hover_effect h3 {
+    min-height: 54px;
+    margin: 20px 0 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.NL_industry_pain_row {
+    padding: 10px 30px 40px;
+}
+
+.NL_pain_point {
+    padding: 10px 12px 10px;
+}
+
+.NL_pain_point_inner {
+    padding: 25px 25px 20px;
+    background: #fff;
+    border: 1px solid #EEE;
+    border-radius: 4px;
+    min-height: 155px;
+    border-left: 4px solid #853E29;
+}
+
+.NL_pain_point_inner i {
+    color: #853E29;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.NL_pain_point_inner h3 {
+    margin-top: 0;
+}
+
+/* --- Solution Feature Grid icon (FA instead of img) --- */
+.NL_industry_feature_icon {
+    font-size: 52px;
+    color: #853E29;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+/* --- Use Case Cards --- */
+.NL_usecase_row {
+    padding: 0 30px 50px;
+}
+
+.NL_usecase_card {
+    background: #fff;
+    border: 1px solid #EEE;
+    border-radius: 4px;
+    margin: 10px 5px 20px;
+    overflow: hidden;
+    min-height: 290px;
+}
+
+.NL_usecase_card_header {
+    background-color: #853E29;
+    padding: 22px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.NL_usecase_card_header i {
+    color: #f9e1c4;
+}
+
+.NL_usecase_card h3 {
+    padding: 15px 20px 5px;
+    margin-top: 0;
+}
+
+.NL_usecase_card p {
+    padding: 0 20px 20px;
+    color: #555;
+}
+
+/* --- Licensing Model Selector Table --- */
+.NL_model_selector {
+    border: 1px solid #EEE;
+    border-collapse: collapse;
+}
+
+.NL_model_selector thead tr th {
+    background-color: #853E29;
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 14px 16px;
+    border: none;
+}
+
+.NL_model_selector tbody tr {
+    border-bottom: 1px solid #EEE;
+    -webkit-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+}
+
+.NL_model_selector tbody tr:hover {
+    background-color: #fff8ef;
+}
+
+.NL_model_selector tbody td {
+    padding: 13px 16px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.NL_model_selector tbody td:last-child {
+    white-space: nowrap;
+}
+
+/* --- Deployment Options --- */
+.NL_deploy_row {
+    background-color: #fafafa;
+    padding: 10px 30px 60px;
+}
+
+.NL_deploy_option {
+    padding: 10px 12px 10px;
+}
+
+.NL_deploy_card {
+    background: #fff;
+    border: 1px solid #EEE;
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.NL_deploy_card_featured {
+    border-color: #853E29;
+    box-shadow: 0 4px 18px rgba(133, 62, 41, 0.13);
+}
+
+.NL_deploy_icon {
+    background-color: #f9e1c4;
+    padding: 26px;
+    margin-bottom: 20px;
+    color: #853E29;
+}
+
+.NL_deploy_card_featured .NL_deploy_icon {
+    background-color: #853E29;
+    color: #f9e1c4;
+}
+
+.NL_deploy_card h3 {
+    padding: 0 20px 5px;
+    margin-top: 0;
+}
+
+.NL_deploy_card p {
+    padding: 0 22px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* --- Bottom CTA row inside NL_form_light --- */
+.NL_cta_row {
+    margin-top: 20px;
+}
+
+.NL_cta_row .NL_button {
+    margin: 8px auto;
+}
+
+.NL_cta_footnote {
+    margin-top: 18px;
+    font-size: 14px;
+    color: #853E29;
+}
+
+.NL_cta_footnote a {
+    font-weight: 400;
+}
+
+/*----------  Industry Pages (end)  -----------*/

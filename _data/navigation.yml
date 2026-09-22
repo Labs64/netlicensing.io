@@ -1,8 +1,52 @@
 - title: Product
   url: "/features/"
 
-- title: Membership Management
-  url: "/membership-management/"
+- title: Industries
+  url: "#"
+  subitems:
+    - title: "AI & Agentic Products"
+      description: "Meter entitlements by API call, token, inference, or outcome for AI-native SaaS and autonomous agents"
+      url: "/industries/ai-agentic-products/"
+
+    - title: "Software & SaaS Platforms"
+      description: "License and monetize cloud, desktop, and multi-tenant software with flexible subscription and feature-gate models"
+      url: "/industries/software-saas-platforms/"
+
+    - title: "Manufacturing & Industry 4.0"
+      description: "Control embedded and OT software licensing across production lines, PLCs, and industrial equipment"
+      url: "/industries/manufacturing-industry-4/"
+
+    - title: "IoT & Embedded Systems"
+      description: "Enforce firmware feature licensing and over-the-air entitlement updates for connected devices at scale"
+      url: "/industries/iot-embedded-systems/"
+
+    - title: "Data & Analytics Platforms"
+      description: "Gate access by API calls, query volume, data rows, seats, or project counts — built for consumption-based pricing at any scale"
+      url: "/industries/data-analytics/"
+
+    - title: "Developer Tools & Platforms"
+      description: "Entitlement infrastructure for API products, SDKs, and platforms where developers are the end customer"
+      url: "/industries/developer-tools-platforms/"
+
+    - title: "Financial Services & Fintech"
+      description: "Distribute compliant, audit-ready software with usage-based billing and full entitlement traceability"
+      url: "/industries/financial-services-fintech/"
+
+    - title: "Healthcare & Life Sciences"
+      description: "GDPR-native licensing with secure entitlement controls for medical software and clinical platforms"
+      url: "/industries/healthcare-life-sciences/"
+
+    #- title: "Telecommunications & Network Software"
+    #  description: "License BSS/OSS components, network functions, and CPE software with usage-metered and capacity-based entitlement"
+    #  url: "/industries/telecommunications/"
+
+    - title: "Education & E-Learning"
+      description: "Manage institutional site licenses, tiered access, and learner-based entitlements across campuses and cohorts"
+      url: "/industries/education-elearning/"
+
+    - title: "Gaming & Entertainment"
+      description: "Monetize games and media with session-based, DLC, and season pass entitlement models across platforms and storefronts"
+      url: "/industries/gaming-entertainment/"
 
 - title: Licensing Models
   url: "/licensing-models/"

@@ -29,6 +29,30 @@
             <ul class="nav navbar-nav navbar-right NL_main_menu">
                 {% for page in site.data.navigation %}
                 {% if page.title %}
+                {% if page.subitems %}
+                {% assign subcount = page.subitems | size %}
+                <li class="NL_dropdown{% if subcount > 12 %} NL_dropdown--wide{% endif %}">
+                    <a class="page-link NL_dropdown-toggle" href="#" data-toggle="NL_dropdown">
+                        {{ page.title }}
+                        <i class="fa fa-chevron-down NL_dropdown-arrow"></i>
+                    </a>
+                    <div class="NL_dropdown-menu">
+                        <div class="NL_dropdown-grid">
+                            {% for subitem in page.subitems %}
+                            {% if subitem.url contains 'http' %}
+                            {% assign sublink = subitem.url %}
+                            {% else %}
+                            {% assign sublink = subitem.url | prepend: site.baseurl | prepend: site.url %}
+                            {% endif %}
+                            <a class="NL_dropdown-item" href="{{ sublink }}">
+                                <span class="NL_dropdown-item-title">{{ subitem.title }}</span>
+                                <span class="NL_dropdown-item-desc">{{ subitem.description }}</span>
+                            </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </li>
+                {% else %}
                 {% if page.url contains 'http' %}
                 {% assign link = page.url %}
                 {% else %}
@@ -42,6 +66,7 @@
                         {{ page.title }}
                     </a>
                 </li>
+                {% endif %}
                 {% endif %}
                 {% endfor %}
             </ul>
