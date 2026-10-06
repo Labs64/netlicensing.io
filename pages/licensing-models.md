@@ -14,6 +14,7 @@ tags:
 - Pay-per-use
 - Standard
 - Multi-Feature
+- Discount
 - Named User
 guidechimp: true
 use_quicksand: true
@@ -29,6 +30,7 @@ sitemap:
    - /img/licensing-model/licensing-model-subscription.png
    - /img/licensing-model/licensing-model-try-and-buy.png
    - /img/licensing-model/licensing-model-pricing-table.png
+   - /img/licensing-model/licensing-model-discount.png
 ---
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">

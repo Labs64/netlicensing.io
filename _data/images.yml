@@ -755,6 +755,15 @@
   publisher: Labs64
   creditlink: https://netlicensing.io
 
+- id: licensing-model-discount
+  source: /img/licensing-model/licensing-model-discount.png
+  title: "Discount"
+  caption: "NetLicensing Licensing Models - Discount"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: Labs64
+  publisher: Labs64
+  creditlink: https://netlicensing.io
+
 - id: licensing-model-floating
   source: /img/licensing-model/licensing-model-floating.png
   title: "Floating"
