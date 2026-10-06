@@ -28,6 +28,16 @@
   url: "https://netlicensing.io/wiki/subscription"
 
 
+- name: "Discount"
+  aliases:
+   - Promo code
+   - Coupon
+  description: "Offer customers a fixed-amount or percentage discount at checkout with an optional promo code, availability period, and minimum cart total. Discount is supported by NetLicensing Shop."
+  tags: []
+  status: "AVAILABLE"
+  img: '/img/licensing-model/licensing-model-discount.png'
+  url: "https://netlicensing.io/wiki/discount"
+
 - name: "Pricing Table"
   aliases:
    - Pricing Plan
