@@ -26,7 +26,7 @@ The nature of application use in the modern world means that applications freque
 
 The root of the risk which injection presents is at the point of interpretation – when the command is ‘read’ by the application or software. It is therefore of upmost importance that your application code can effectively distinguish between a genuine command or query and the untrusted data. There are numerous companies and individuals who specialize in checking code security.
 
-The tiny changes which an injected command can make the pre-determined SQL call or OS command line can have a devastating effect. As an example; if the call is designed to access a specific piece of information on a database i.e. a customer’s email address, the SQL code can be altered to cause the call to return all of the addresses on file, rather than just one. This can cause problems with regard to the protection of yours and your customer’s personal data.
+The tiny changes which an injected command can make the pre-determined SQL call or OS command linecan have a devastating effect. As an example; if the call is designed to access a specific piece of information on a database i.e. a customer’s email address, the SQL code can be altered to cause the call to return all of the addresses on file, rather than just one. This can cause problems with regard to the protection of yours and your customer’s personal data.
 
 As someone who owns or runs a company to whom customers entrust such data, it is paramount that you protect it in order to protect your reputation and to protect yourself from any legal action being taken against you as the result of stolen, or compromised confidential information.
 

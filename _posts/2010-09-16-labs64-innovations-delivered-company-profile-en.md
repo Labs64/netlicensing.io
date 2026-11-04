@@ -45,7 +45,7 @@ Our team is committed to provide IT services with:
 
 ## PRODUCTS AND SERVICES
 
-_Services, tailored to your needs _
+_Services, tailored to your needs_
 
 Being both dynamic and innovative, Labs64 is committed to supporting our business partners at every step of any project&#8217;s life-cycle. Experience in very different environments and the ability to anticipate developments in the market is the basis for rewarding customer relationships. Labs64 offers comprehensive and highly flexible services which can be precisely tailored to your needs and requirements.
 

@@ -48,12 +48,14 @@ Full licensing model documentation: https://netlicensing.io/wiki/licensing-model
 
 New accounts receive a **30-day free Premium trial** (all features, no credit card required). After trial, accounts default to the Community plan.
 
-| Plan      | Price          | Active Products | Customers  | API Requests | Notes |
+| Plan      | Price          | Active Products | Customers  | API Rate Limit | Notes |
 |-----------|----------------|-----------------|------------|--------------|-------|
 | Community | Free           | 1               | 50         | 1/min        | Attribution required; Try&Buy, Subscription, Pricing Table models; PayPal only |
-| Basic     | €80/month (annual) | 3           | 100        | 1/min        | All online PSP; Try&Buy, Subscription, Multi-Feature models; EU VAT |
-| Premium   | €280/month (annual) | 10         | 500        | 1/sec        | All models; Shop customization; Customer Portal; Premium support |
+| Basic     | €120/month (annual) | 3           | 100        | 1/min        | All online PSP; Try&Buy, Subscription, Multi-Feature models; EU VAT |
+| Premium   | €380/month (annual) | 10         | 500        | 1/sec        | All models; Shop customization; Customer Portal; Premium support |
 | Select    | Contact sales  | Customizable    | Customizable | Customizable | All models; SLA 99%; NetLicensing Agent; Dedicated managed environment; Revenue Sharing; individually tailored pricing and feature set — contact sales for a custom quote |
+
+API Rate Limit is a guaranteed minimum throughput per vendor account (shared across all its products); when the system is not busy, requests are typically served faster.
 
 Special programs:
 - **NetLicensing Academic**: Free Basic plan for students.

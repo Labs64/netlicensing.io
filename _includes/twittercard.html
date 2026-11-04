@@ -1,7 +1,8 @@
-<!-- Twitter Card -->
+<!-- Twitter / X Card -->
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:site" content="@netlicensing"/>
-<meta name="twitter:creator" content="@netlicensing">
-<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | {{ site.title }}"/>
-<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
-<meta name="twitter:image" content="{% if page.image.url %}{{ page.image.url | prepend: site.baseurl | prepend: site.url }}{% else %}{{ '/img/netlicensing-twittercard.png' | prepend: site.baseurl | prepend: site.url }}{% endif %}"/>
+<meta name="twitter:site" content="@{{ site.twitter_username }}"/>
+<meta name="twitter:creator" content="@{{ site.twitter_username }}"/>
+<meta name="twitter:title" content="{{ seo_title | escape }}"/>
+<meta name="twitter:description" content="{{ seo_description | escape }}"/>
+<meta name="twitter:image" content="{{ seo_image }}"/>
+<meta name="twitter:image:alt" content="{{ seo_image_alt | escape }}"/>

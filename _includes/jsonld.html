@@ -1,60 +1,136 @@
-{% if page.layout == 'post' %}
-<!-- JSON-LD Article structured data -->
+{% comment %}
+  Structured data (schema.org JSON-LD).
+  A single @graph links Organization -> WebSite -> WebPage (+ BreadcrumbList) on every page,
+  and adds BlogPosting (posts), Article (case studies) or SoftwareApplication (homepage).
+  Relies on seo_* / canonical variables assigned in head.html.
+{% endcomment %}
+{% assign home_url = '/' | prepend: site.baseurl | prepend: site.url %}
+{% assign org_id = home_url | append: '#organization' %}
+{% assign website_id = home_url | append: '#website' %}
+{% assign webpage_id = canonical | append: '#webpage' %}
+{% assign is_home = false %}
+{% if page.url == '/' or page.url == '/index.html' %}{% assign is_home = true %}{% endif %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": {{ page.title | jsonify }},
-  "description": {{ page.description | default: site.description | jsonify }},
-  "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-  "datePublished": "{{ page.date | date_to_xmlschema }}",
-  "dateModified": "{{ page.date | date_to_xmlschema }}",
-  {% if page.image.url %}"image": "{{ page.image.url | prepend: site.baseurl | prepend: site.url }}",{% endif %}
-  "author": {
-    "@type": "{% if page.author.url %}Organization{% else %}Person{% endif %}",
-    "name": "{% if page.author.name %}{{ page.author.name }}{% else %}{{ site.title }}{% endif %}"{% if page.author.url %},
-    "url": "{{ page.author.url }}"{% endif %}
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{ site.title }}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ '/img/labs64-avatar-30x30.png' | prepend: site.baseurl | prepend: site.url }}"
-    }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "{{ page.url | prepend: site.baseurl | prepend: site.url }}"
-  }
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ org_id }}",
+      "name": "{{ site.copyright }}",
+      "alternateName": ["{{ site.company }}", "Labs64 NetLicensing"],
+      "url": "{{ site.company_url }}",
+      "email": "{{ site.email }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.logo | prepend: site.baseurl | prepend: site.url }}",
+        "width": 200,
+        "height": 200
+      },
+      "brand": { "@type": "Brand", "name": "{{ site.title }}" },
+      "sameAs": [{% for social in site.data.socialmedia %}{{ social.url | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ website_id }}",
+      "url": "{{ home_url }}",
+      "name": "{{ site.title }}",
+      "description": {{ site.description | jsonify }},
+      "inLanguage": "{{ site.lang | default: 'en' }}",
+      "publisher": { "@id": "{{ org_id }}" }
+    },
+    {
+      "@type": {% if page.url == '/contact/' %}"ContactPage"{% elsif page.url == '/blog/' or page.url contains '/blog/page' or page.url == '/case-studies/' %}"CollectionPage"{% else %}"WebPage"{% endif %},
+      "@id": "{{ webpage_id }}",
+      "url": "{{ canonical }}",
+      "name": {{ seo_title | jsonify }},
+      "description": {{ seo_description | jsonify }},
+      "inLanguage": "{{ site.lang | default: 'en' }}",
+      "isPartOf": { "@id": "{{ website_id }}" },
+      "primaryImageOfPage": { "@type": "ImageObject", "url": "{{ seo_image }}" }{% if seo_modified %},
+      "dateModified": "{{ seo_modified | date_to_xmlschema }}"{% endif %}{% unless is_home %},
+      "breadcrumb": { "@id": "{{ canonical }}#breadcrumb" }{% endunless %}
+    }{% unless is_home %},
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ canonical }}#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ home_url }}" },
+        {% if page.collection == 'posts' %}
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}" },
+        { "@type": "ListItem", "position": 3, "name": {{ seo_page_title | jsonify }} }
+        {% elsif page.collection == 'case-studies' %}
+        { "@type": "ListItem", "position": 2, "name": "Case Studies", "item": "{{ '/case-studies/' | prepend: site.baseurl | prepend: site.url }}" },
+        { "@type": "ListItem", "position": 3, "name": {{ seo_page_title | jsonify }} }
+        {% else %}
+        { "@type": "ListItem", "position": 2, "name": {{ seo_page_title | jsonify }} }
+        {% endif %}
+      ]
+    }{% endunless %}{% if page.collection == 'posts' %},
+    {
+      "@type": "BlogPosting",
+      "@id": "{{ canonical }}#article",
+      "headline": {{ seo_page_title | truncate: 110 | jsonify }},
+      "description": {{ seo_description | jsonify }},
+      "url": "{{ canonical }}",
+      "mainEntityOfPage": { "@id": "{{ webpage_id }}" },
+      "isPartOf": { "@id": "{{ website_id }}" },
+      "image": "{{ seo_image }}",
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ seo_modified | date_to_xmlschema }}",
+      "inLanguage": "{{ site.lang | default: 'en' }}",
+      "wordCount": {{ content | number_of_words }},
+      {% if page.tags.size > 0 %}"keywords": {{ page.tags | join: ', ' | jsonify }},{% endif %}
+      "author": {% if page.author.url %}{
+        "@type": "Organization",
+        "name": {{ page.author.name | default: site.title | jsonify }},
+        "url": {{ page.author.url | jsonify }}
+      }{% elsif page.author.name %}{
+        "@type": "Person",
+        "name": {{ page.author.name | jsonify }}
+      }{% else %}{ "@id": "{{ org_id }}" }{% endif %},
+      "publisher": { "@id": "{{ org_id }}" }
+    }{% elsif page.collection == 'case-studies' %},
+    {
+      "@type": "Article",
+      "@id": "{{ canonical }}#article",
+      "articleSection": "Case Studies",
+      "headline": {{ seo_page_title | truncate: 110 | jsonify }},
+      "description": {{ seo_description | jsonify }},
+      "url": "{{ canonical }}",
+      "mainEntityOfPage": { "@id": "{{ webpage_id }}" },
+      "image": "{{ seo_image }}",
+      "inLanguage": "{{ site.lang | default: 'en' }}",
+      {% if page.industry %}"about": [{% for industry in page.industry %}{ "@type": "Thing", "name": {{ industry | jsonify }} }{% unless forloop.last %}, {% endunless %}{% endfor %}],{% endif %}
+      "author": { "@id": "{{ org_id }}" },
+      "publisher": { "@id": "{{ org_id }}" }
+    }{% elsif is_home %},
+    {
+      "@type": "SoftwareApplication",
+      "@id": "{{ home_url }}#software",
+      "name": "{{ site.title }}",
+      "url": "{{ home_url }}",
+      "description": {{ site.description | jsonify }},
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Software License Management (Licensing-as-a-Service)",
+      "operatingSystem": "Web, Windows, macOS, Linux, Android, iOS",
+      "image": "{{ seo_image }}",
+      "featureList": [{% for feature in site.data.features %}{% if feature.show-default %}{{ feature.name | strip_html | jsonify }}, {% endif %}{% endfor %}"REST API", "MCP Server for AI agents"],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "EUR",
+        "lowPrice": "0",
+        "highPrice": "380",
+        "offerCount": "4",
+        "url": "{{ '/pricing/' | prepend: site.baseurl | prepend: site.url }}"
+      },
+      "provider": { "@id": "{{ org_id }}" },
+      "publisher": { "@id": "{{ org_id }}" }
+    }{% endif %}
+  ]
 }
 </script>
-{% elsif page.url == '/' or page.url == '/index.html' %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "{{ site.title }}",
-  "url": "{{ '/' | prepend: site.baseurl | prepend: site.url }}",
-  "logo": "{{ '/img/labs64-logo.png' | prepend: site.baseurl | prepend: site.url }}",
-  "description": "{{ site.description }}"
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "{{ site.title }}",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "All",
-  "description": "{{ site.description }}",
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{ site.company }}"
-  }
-}
-</script>
-{% elsif page.url == '/pricing/' %}
+{% if page.url == '/pricing/' %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

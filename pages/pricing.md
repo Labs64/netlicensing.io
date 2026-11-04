@@ -73,7 +73,7 @@ tags:
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_regular">
             <h3><strong class="NL_plan_name">Basic</strong><br/>For startups and growing businesses</h3>
-            <div class="NL_price_tag">80 € / month</div>
+            <div class="NL_price_tag">120 € / month</div>
             <div class="NL_price_tag_sub">billed annually</div>
             <ul>
                 {% for feature in site.data.pricing %}
@@ -100,7 +100,7 @@ tags:
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_promo">
             <h3><strong class="NL_plan_name">Premium</strong><br/>Full featured for comprehensive products</h3>
-            <div class="NL_price_tag">280 € / month</div>
+            <div class="NL_price_tag">380 € / month</div>
             <div class="NL_price_tag_sub">billed annually</div>
             <ul>
                 {% for feature in site.data.pricing %}

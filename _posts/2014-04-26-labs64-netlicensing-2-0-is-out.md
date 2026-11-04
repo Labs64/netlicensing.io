@@ -34,7 +34,7 @@ Release highlights:
   * Improved shop checkout process stability
   * Introduced new licensing model &#8220;<a title="Licensing Model - Subscription" href="https://netlicensing.io/wiki/subscription" target="_blank">Subscription</a>&#8221; (&#8220;Time Volume&#8221;)
   * NetLicensing Management console redesigned for better usability
-  * C# and PHP <a title="Client Libraries and Sample Code" href="https://netlicensing.io/wiki/client-libraries" target="_blank">client libraries</a> adapted to employ the new API features
+  * C# and PHP <a title="Client Libraries and Sample Code" href="https://netlicensing.io/wiki/client-libraries" target="_blank">client libraries</a>adapted to employ the new API features
   * Service documentation revisited
   * &#8230; and many other useful improvements
 

@@ -8,7 +8,7 @@ layout: default
         <div class="post-meta">
             <ul>
                 <li>
-                    <time pubdate datetime="{{ page.date | date: '%Y-%m-%d' }}"
+                    <time datetime="{{ page.date | date: '%Y-%m-%d' }}"
                           title="{{ page.date | date: '%b %-d, %Y' }}">{{ page.date | date: "%b %-d, %Y" }}
                     </time>
                 </li>
@@ -41,7 +41,7 @@ layout: default
                     {% else %}
                       {% assign image_width = '100%' %}
                     {% endif %}
-                <img src="{{ page.image.url }}" alt="{{ page.title }}" class="blog-thumbnail" width="{{ image_width }}">
+                <img src="{{ page.image.url }}" alt="{{ page.image.alt | default: page.title | escape }}" class="blog-thumbnail" width="{{ image_width }}" fetchpriority="high" decoding="async">
                   {% endunless %}
                 {% endif %}
                 {{ content }}
@@ -68,9 +68,9 @@ layout: default
             <div class="NL_related_post">
                 <span class="watermark">Previous</span>
                 <a href="{{previous_page.url}}">
-                    <img src="{{ previous_page.image.url }}" alt="{{ previous_page.title }}" class="NL_post_img" />
+                    <img src="{{ previous_page.image.url }}" alt="{{ previous_page.title }}" class="NL_post_img" loading="lazy" decoding="async" />
                     <div>
-                        <time class="NL_post_time" pubdate datetime="{{ previous_page.date | date: '%Y-%m-%d' }}"
+                        <time class="NL_post_time" datetime="{{ previous_page.date | date: '%Y-%m-%d' }}"
                              title="{{ previous_page.date | date: '%b %-d, %Y' }}">{{ previous_page.date | date: "%b %-d, %Y" }}
                         </time>
                         <h4>{{previous_page.title}}</h4>
@@ -87,9 +87,9 @@ layout: default
             <div class="NL_related_post">
                 <span class="watermark">Next</span>
                 <a href="{{next_page.url}}">
-                    <img src="{{ next_page.image.url }}" alt="{{ next_page.title }}" class="NL_post_img" />
+                    <img src="{{ next_page.image.url }}" alt="{{ next_page.title }}" class="NL_post_img" loading="lazy" decoding="async" />
                     <div>
-                        <time class="NL_post_time" pubdate datetime="{{ next_page.date | date: '%Y-%m-%d' }}"
+                        <time class="NL_post_time" datetime="{{ next_page.date | date: '%Y-%m-%d' }}"
                              title="{{ next_page.date | date: '%b %-d, %Y' }}">{{ next_page.date | date: "%b %-d, %Y" }}
                         </time>
                         <h4>{{next_page.title}}</h4>
@@ -106,9 +106,9 @@ layout: default
             <div class="NL_related_post">
                 <span class="watermark">{{ tag }}</span>
                 <a href="{{post.url}}">
-                    <img src="{{ post.image.url }}" alt="{{ post.title }}" class="NL_post_img" />
+                    <img src="{{ post.image.url }}" alt="{{ post.title }}" class="NL_post_img" loading="lazy" decoding="async" />
                     <div>
-                        <time class="NL_post_time" pubdate datetime="{{ post.date | date: '%Y-%m-%d' }}"
+                        <time class="NL_post_time" datetime="{{ post.date | date: '%Y-%m-%d' }}"
                               title="{{ post.date | date: '%b %-d, %Y' }}">{{ post.date | date: "%b %-d, %Y" }}
                         </time>
                         <h4>{{post.title}}</h4>
@@ -130,9 +130,9 @@ layout: default
             <div class="NL_related_post">
                 <span class="watermark">Recommended</span>
                 <a href="{{post.url}}">
-                    <img src="{{ post.image.url }}" alt="{{ post.title }}" class="NL_post_img" />
+                    <img src="{{ post.image.url }}" alt="{{ post.title }}" class="NL_post_img" loading="lazy" decoding="async" />
                     <div>
-                        <time class="NL_post_time" pubdate datetime="{{ post.date | date: '%Y-%m-%d' }}"
+                        <time class="NL_post_time" datetime="{{ post.date | date: '%Y-%m-%d' }}"
                               title="{{ post.date | date: '%b %-d, %Y' }}">{{ post.date | date: "%b %-d, %Y" }}
                         </time>
                         <h4>{{post.title}}</h4>

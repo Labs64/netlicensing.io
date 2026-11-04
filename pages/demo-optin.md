@@ -33,7 +33,7 @@ sitemap:
     </div>
     <div class="col-md-6">
       <!-- Begin MailChimp Signup Form -->
-      <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+      <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
       <style type="text/css">
       	#mc_embed_signup{background:#fff; clear:left; }
       	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
@@ -62,7 +62,7 @@ sitemap:
           <a style="font-size: small;" href="https://ui.netlicensing.io/#/login?cr=ZGVtbzpkZW1v&utm_source=netlicensing.io_demo_optin&utm_medium=website&utm_campaign=netlicensing.io_demo_optin&utm_content=opt-in">No thanks, just proceed with the demo.</a>
       </form>
       </div>
-      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
       <!--End mc_embed_signup-->
     </div>
 

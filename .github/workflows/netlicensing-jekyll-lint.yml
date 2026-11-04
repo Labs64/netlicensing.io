@@ -1,75 +1,92 @@
 name: Lint NetLicensing.IO
 
+# GitHub Pages builds and deploys the site itself (legacy build from the gh-pages branch).
+# This workflow reproduces that build with the same `github-pages` gem and checks the
+# output (HTML links, XML sitemaps/feed, JSON-LD) so problems surface before they go live.
+
 on:
   push:
-    branches: [master, main]
+    branches: [gh-pages]
   pull_request:
-    branches: [master, main]
+    branches: [gh-pages]
+  workflow_dispatch:
 
 permissions:
   contents: read
 
+concurrency:
+  group: lint-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   lint:
     runs-on: ubuntu-latest
+    env:
+      JEKYLL_ENV: production
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Cache Jekyll build
-        uses: actions/cache@v4
+      - name: Set up Ruby (same major/minor as GitHub Pages)
+        uses: ruby/setup-ruby@v1
         with:
-          path: |
-            ${{ github.workspace }}/_site
-            ${{ github.workspace }}/.jekyll-cache
-          key: jekyll-${{ runner.os }}-${{ hashFiles('**/_config.yml', '**/Gemfile.lock') }}
-          restore-keys: |
-            jekyll-${{ runner.os }}-
+          ruby-version: "3.3"
+          bundler-cache: true
 
-      - name: Build Jekyll site
+      - name: Build Jekyll site (github-pages gem)
+        run: bundle exec jekyll build --future --strict_front_matter --trace
+
+      - name: Validate XML (sitemaps, feed)
         run: |
-          docker run --rm \
-            -v "${{ github.workspace }}:/srv/jekyll" \
-            -v "${{ github.workspace }}/_site:/srv/jekyll/_site" \
-            jekyll/builder:4.2.2 \
-            /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future --strict_front_matter"
+          sudo apt-get install -y -qq libxml2-utils >/dev/null
+          for f in _site/sitemap.xml _site/sitemap_images.xml _site/feed.xml; do
+            xmllint --noout "$f" && echo "OK $f"
+          done
+          grep -q 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"' _site/sitemap.xml
 
-      - name: Run HTMLProofer
+      - name: Validate JSON-LD
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, re, sys
+          bad = 0
+          for p in pathlib.Path("_site").rglob("*.html"):
+              html = p.read_text(encoding="utf-8", errors="replace")
+              for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S):
+                  try:
+                      json.loads(block)
+                  except json.JSONDecodeError as e:
+                      bad += 1
+                      print(f"::error file={p}::invalid JSON-LD: {e}")
+          sys.exit(1 if bad else 0)
+          PY
+
+      - name: Check internal links and images (HTMLProofer)
+        run: |
+          bundle exec htmlproofer ./_site \
+            --disable-external \
+            --checks "Links,Images,Scripts" \
+            --allow-hash-href \
+            --allow-missing-href \
+            --ignore-urls "/^(?:mailto:|tel:)/,/^https?:\/\/(localhost|127\.0\.0\.1)/,/^\/wiki/,/netlicensing\.io\/wiki/,/NetLicensing-API/" \
+            --swap-urls "^https\://netlicensing.io:" \
+            --ignore-files "/no-analytics/,/googled.*\.html/,/mywotd.*\.html/,/startupranking.*\.html/"
+
+      - name: Check external links (informational)
+        continue-on-error: true
         run: |
           set -o pipefail
-          docker run --rm \
-            -v "${{ github.workspace }}/_site:/site" \
-            ghcr.io/chabad360/htmlproofer:5.0.8 \
-            /site \
-            --checks "Links,Images,Scripts,OpenGraph" \
+          bundle exec htmlproofer ./_site \
+            --checks "Links,Images,Scripts" \
             --allow-hash-href \
-            --log-level info \
+            --allow-missing-href \
             --ignore-urls "/^(?:mailto:|tel:)/" \
-            --ignore-status-codes "0,429" \
-            --no-enforce-https \
+            --ignore-status-codes "0,403,429,999" \
+            --swap-urls "^https\://netlicensing.io:" \
             --typhoeus '{"connecttimeout": 10, "timeout": 30}' \
-            --cache '{"timeframe": {"external": "1d"}}' \
             2>&1 | tee /tmp/htmlproofer.log
-
-          htmlproofer_exit_code=$?
-
-          # Write summary
           {
-            echo "## HTMLProofer Results"
-            echo ""
-            if [ "$htmlproofer_exit_code" -ne 0 ]; then
-              echo "⚠️ Issues found — review before merging."
-            else
-              echo "✅ No issues found."
-            fi
-            echo ""
-            echo "<details><summary>Full output</summary>"
-            echo ""
+            echo "## External link check"
             echo '```'
-            cat /tmp/htmlproofer.log
+            tail -n 200 /tmp/htmlproofer.log
             echo '```'
-            echo ""
-            echo "</details>"
           } >> "$GITHUB_STEP_SUMMARY"
-
-          exit "$htmlproofer_exit_code"

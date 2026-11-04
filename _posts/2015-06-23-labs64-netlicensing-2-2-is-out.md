@@ -24,17 +24,17 @@ You’re very welcome to give it a try, and share your feedback with us!
 
 Release highlights:
 
-  * New <a title="Labs64 NetLicensing - Floating" href="https://netlicensing.io/wiki/floating" target="_blank">&#8220;Floating&#8221;</a> Licensing Model offers vendors another dimension of licensing flexibility for their products
-  * With Labs64 NetLicensing demo virtual appliance, our partners and resellers get hands-on access to the service for local / offline deployment demonstration &#8211; <a title="Labs64 NetLicensing - Resell Partners" href="https://www.labs64.com/netlicensing/partners/" target="_blank">get in contact</a> with us for more info
+  * New <a title="Labs64 NetLicensing - Floating" href="https://netlicensing.io/wiki/floating" target="_blank">&#8220;Floating&#8221;</a> Licensing Model offers vendors another dimensionof licensing flexibility for their products
+  * With Labs64 NetLicensing demo virtual appliance,our partners and resellers get hands-on access tothe service for local / offline deployment demonstration &#8211; <a title="Labs64 NetLicensing - Resell Partners" href="https://www.labs64.com/netlicensing/partners/" target="_blank">get in contact</a> with us formore info
   * Java <a title="Java wrapper for NetLicensing RESTful API" href="https://github.com/Labs64/NetLicensingClient-java" target="_blank">client library</a> reworked and covers entire NetLicensing API
-  * <a title="NetLicensing Management Console Demo" href="https://ui.netlicensing.io/#/login?cr=ZGVtbzpkZW1v&utm_source=netlicensing.io_demo_optin&utm_medium=website&utm_campaign=netlicensing.io_announcement&utm_content=announcement" target="_blank">NetLicensing Manage</a> UI improved for even better usability and user experience (UX)
+  * <a title="NetLicensing Management Console Demo" href="https://ui.netlicensing.io/#/login?cr=ZGVtbzpkZW1v&utm_source=netlicensing.io_demo_optin&utm_medium=website&utm_campaign=netlicensing.io_announcement&utm_content=announcement" target="_blank">NetLicensing Manage</a> UI improved foreven better usability and user experience (UX)
   * &#8230; and many other useful improvements!
 
 Please see the <a title="Release Notes - NetLicensing 2.2.0-FINAL" href="https://netlicensing.io/wiki/netlicensing-2-2-0-final" target="_blank">Release Notes</a> for complete list of changes and new features.
 What’s Next:
 
-  * Discover <a title="NetLicensing - Innovative License Management Solution" href="https://netlicensing.io">NetLicensing Website</a> and explore our <a title="NetLicensing Wiki" href="https://netlicensing.io/wiki/" target="_blank">documentation</a>
-  * <a title="Try Labs64 NetLicensing Now!" href="https://ui.netlicensing.io/#/login?cr=ZGVtbzpkZW1v&utm_source=netlicensing.io_demo_optin&utm_medium=website&utm_campaign=netlicensing.io_announcement&utm_content=announcement" target="_blank">Try NetLicensing right away</a> using public demo account &#8211; no registration required!
+  * Discover <a title="NetLicensing - Innovative License Management Solution" href="https://netlicensing.io">NetLicensing Website</a> and explore our<a title="NetLicensing Wiki" href="https://netlicensing.io/wiki/" target="_blank">documentation</a>
+  * <a title="Try Labs64 NetLicensing Now!" href="https://ui.netlicensing.io/#/login?cr=ZGVtbzpkZW1v&utm_source=netlicensing.io_demo_optin&utm_medium=website&utm_campaign=netlicensing.io_announcement&utm_content=announcement" target="_blank">Try NetLicensing right away</a> using publicdemo account &#8211; no registration required!
   * Get Involved – your opinion and ideas are highly welcome!
 
 Our <a title="NetLicensing Feedback" href="https://github.com/Labs64/NetLicensing-Community" target="_blank" rel="nofollow">Feedback Tool</a>, <a title="Labs64 Journal" href="/blog/">Blog</a> or <a title="Labs64 Social - Facebook" href="https://www.facebook.com/netlicensing" target="_blank" rel="nofollow">Facebook</a> are at your disposal!

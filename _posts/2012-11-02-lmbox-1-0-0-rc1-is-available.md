@@ -28,7 +28,7 @@ Here are some LmBox highlights:
 
   * Management of licenses via LmBoxManage: issuing, tracking, editing
   * Fully customizable licensing models: a number of licensing models are ready for use, new models can be added on demand
-  * Delivery of licenses and processing of payments via LmBoxShop
+  * Delivery of licenses and processing ofpayments via LmBoxShop
   * Product usage statistics
   * Secure RESTful-based LmBoxAPI allows integration to any environment
 

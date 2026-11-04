@@ -25,7 +25,7 @@ tags:
 
 If you’ve ever purchased a piece of software you’ll have been given a software license key by the manufacturer. This would either have come in the case or have been sent out in the software documentation. The Software License Key is the unique string of numbers and letters which identifies the software as legitimate and which enables you to use all of the features it has to offer.
 
-There are numerous types of software license model, and this article is not going to go into too much detail about each and every variable. Software licensing can easily become confusing and for the majority of the time there will only be a handful of which you will need to be aware. This article will look at _End User License Agreements_ (or Single User Licensing), _Pay-Per-Use_, _Sharing Licenses_ and _Site License_. These are the four most common forms of license which a small to medium size business will use.
+There are numerous types of software license model, and this article is not going to go into too much detail about each and every variable. Software licensing can easily become confusing and for the majority of the time there will only be a handful of which you will need to be aware. This article will look at _End User License Agreements_ (or Single User Licensing), _Pay-Per-Use_, _Sharing Licenses_ and _Site License_. These are the fourmost common forms of license which a small to medium size business will use.
 
 {% include advert.html image='/img/ads/netlicensing-license-management-728x90.png' %}
 
@@ -55,7 +55,7 @@ The Sharing License (also known as Duplicate Grouping) is where the license spec
 
 If you are supplying a medium to large business, and they want to install the same piece of software on many or all of their machines, then you will be best off purchasing a site license. Site Licenses can often seem expensive at first purchase, however, when you consider that many site license packages allow for installation on an unlimited number of machines – provided they are for the same business customer, their value significantly increases.
 
-It is because of this flexibility of use that the site license becomes significantly cheaper over time than buying a new EULA for each computer, or using a Pay-Per-Use license. As attractive as the ability to run an unlimited number of copies of the same piece of software can be, Site Licenses are only worthwhile if their bulk cost comes to less than the cost of just using a Pay-Per-Use. If your customers are regularly purchasing new computers; have a specific piece of software which they want installed on each and every one and want to streamline the set up process– they will see huge  benefits from buying a site license.
+It is because of this flexibility of use that the site license becomes significantly cheaper over time than buying a new EULA for each computer, or using a Pay-Per-Use license. As attractive as the ability to run an unlimited number of copies of the same piece of software can be, Site Licenses are only worthwhile if their bulk cost comes to less than the cost of just using a Pay-Per-Use. If your customers are regularly purchasing new computers; have a specific piece of software which they want installed on each and every one and want to streamline the set up process– they will see huge benefits from buying a site license.
 
 However, if they are only going to be purchasing computers on an ad hoc basis, a site license will take a long time to fulfil its value.
 

@@ -136,22 +136,22 @@ bundle exec jekyll serve --config _config.yml,_config_dev.yml --drafts --future 
 
 ## Deployment
 
-Deployment is **fully automated** via GitHub Pages:
+Deployment is **fully automated** via GitHub Pages (legacy build, source branch `gh-pages`, served at https://netlicensing.io through CloudFront):
 
-1. Push to any branch → GitHub Actions runs `.github/workflows/netlicensing-jekyll-ci.yml`
-2. The CI job builds the site using `jekyll/builder:latest` Docker image with `--future` flag
-3. GitHub Pages serves the `_site/` output from the `main` branch automatically
+1. Push/merge to `gh-pages` → GitHub Pages builds the site with the `github-pages` gem (Jekyll 3.10, whitelisted plugins only) and deploys it within ~2 minutes
+2. In parallel, `.github/workflows/netlicensing-jekyll-lint.yml` reproduces that build (Ruby 3.3 + `bundle exec jekyll build`) and validates the output
 
-**No manual deployment steps are needed.** Simply push to `main` (or merge a PR) and the site deploys within ~2 minutes.
+**No manual deployment steps are needed.** Simply push to `gh-pages` (or merge a PR into it).
 
-### CI pipeline
+### CI pipeline (lint workflow)
 
-```yaml
-# .github/workflows/netlicensing-jekyll-ci.yml
-docker run jekyll/builder:latest jekyll build --future
-```
+- Builds with the same `github-pages` gem as production (`--future --strict_front_matter`)
+- `xmllint` on `sitemap.xml`, `sitemap_images.xml`, `feed.xml`
+- Parses every JSON-LD block
+- HTMLProofer on internal links/images/scripts (**blocking**); `/wiki/` and `/NetLicensing-API/` are separate GitHub Pages projects and are ignored
+- HTMLProofer on external links (informational, non-blocking)
 
-> **Note**: The `htmlproofer` step is currently commented out in CI. Run manually with `bundle exec htmlproofer ./_site` to check broken links before merging.
+> Only plugins from the GitHub Pages whitelist work in production. Never rely on a Jekyll 4 feature or a custom plugin.
 
 ---
 
@@ -385,6 +385,15 @@ The naming convention is `original-filename_301.md` for the redirect counterpart
 ---
 
 ## SEO & Analytics Conventions
+
+SEO meta is computed once in `_includes/head.html` (`seo_title`, `seo_description`, `seo_image`, `canonical`, `seo_modified`) and reused by `opengraph.html`, `twittercard.html`, `dublincore.html` and `jsonld.html`.
+
+- **`noindex: true`** in front matter → `robots: noindex` and the page is dropped from the sitemap (redirect stubs are noindexed automatically)
+- **`last_modified_at`** (or `sitemap.lastmod`) → `dateModified` in JSON-LD, `article:modified_time` and sitemap `<lastmod>`; set it when you substantially update a post
+- **`image.alt`** → alt text for the hero image and `og:image:alt`
+- JSON-LD is one linked `@graph`: Organization, WebSite, WebPage and BreadcrumbList on every page, plus BlogPosting (posts), Article (case studies), SoftwareApplication (homepage) and FAQPage (`/pricing/`)
+- `robots.txt` explicitly allows AI search/assistant crawlers (GEO) and lists all sitemaps
+- XML namespaces in `sitemap*.xml` / `feed.xml` **must stay `http://`**, not `https://`; they are identifiers, and changing them makes the sitemap invalid
 
 - **`description`** in front matter → `<meta name="description">` and OG/Twitter tags
 - **`tags`** in front matter → displayed on posts; also used for related posts logic

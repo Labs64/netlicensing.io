@@ -24,7 +24,7 @@ In our projects we use both SVN and Git and know how difficult sometimes it can 
 <table border="0">
   <tr>
     <th>
-      <strong> </strong>
+      <strong></strong>
     </th>
 
     <th>
@@ -210,7 +210,7 @@ In our projects we use both SVN and Git and know how difficult sometimes it can 
     </td>
 
     <td>
-      <kbd>svn propset svn:ignore <em>"bin"</em> .;\</kbd><br /> <kbd>svn commit -N -m "svn:ignore" .</kbd>
+      <kbd>svn propsetsvn:ignore<em>"bin"</em> .;\</kbd><br /> <kbd>svn commit -N -m "svn:ignore" .</kbd>
     </td>
 
     <td>

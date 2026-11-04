@@ -3,51 +3,38 @@ layout: null
 sitemap:
   exclude: true
 ---
+# {{ site.title }} - {{ site.url }}
+# Search engines and AI assistants are welcome: the site is public product
+# documentation. A machine-readable summary is available at {{ site.url }}/llms.txt
+
+User-agent: *
+Allow: /
+Disallow: /no-analytics/
+
+# AI search & assistant crawlers (Generative Engine Optimization)
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: ClaudeBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Applebot
+User-agent: bingbot
+User-agent: DuckAssistBot
+User-agent: MistralAI-User
+User-agent: meta-externalagent
+User-agent: CCBot
+Allow: /
+Disallow: /no-analytics/
+
 # blocked robots
 User-agent: 008
 Disallow: /
 
-# allowed robots
-User-agent: Googlebot
-Disallow:
-User-agent: googlebot-image
-Disallow:
-User-agent: googlebot-mobile
-Disallow:
-User-agent: MSNBot
-Disallow:
-User-agent: Slurp
-Disallow:
-User-agent: Teoma
-Disallow:
-User-agent: twiceler
-Disallow:
-User-agent: Gigabot
-Disallow:
-User-agent: Scrubby
-Disallow:
-User-agent: Robozilla
-Disallow:
-User-agent: Nutch
-Disallow:
-User-agent: ia_archiver
-Disallow:
-User-agent: baiduspider
-Disallow:
-User-agent: naverbot
-Disallow:
-User-agent: yeti
-Disallow:
-User-agent: yahoo-mmcrawler
-Disallow:
-User-agent: psbot
-Disallow:
-User-agent: asterias
-Disallow:
-User-agent: yahoo-blogs/v3.9
-Disallow:
-
-# common rules
-User-agent: *
-Disallow:
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: {{ site.url }}/sitemap_images.xml
+Sitemap: {{ site.url }}/wiki/sitemap.xml

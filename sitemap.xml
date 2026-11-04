@@ -5,99 +5,53 @@ sitemap:
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- generated-on="{{ site.time | date_to_rfc822 }}" -->
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
-  {% for post in site.posts %}
-    {% unless post.published == false or post.sitemap.exclude %}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  {% comment %}
+    Only indexable HTML documents are listed: redirect stubs, noindex pages,
+    paginated archive pages and non-HTML assets (css, xml, txt) are skipped.
+    lastmod is emitted only when it is actually known (sitemap.lastmod,
+    last_modified_at or the document date) so that search engines keep trusting it.
+  {% endcomment %}
+  {% assign documents = site.posts | concat: site.pages | concat: site.case-studies %}
+  {% for doc in documents %}
+    {% if doc.published == false or doc.sitemap.exclude or doc.noindex or doc.layout == 'redirect' %}{% continue %}{% endif %}
+    {% assign last_char = doc.url | slice: -1 %}
+    {% assign last_ext = doc.url | slice: -5, 5 %}
+    {% unless last_char == '/' or last_ext == '.html' %}{% continue %}{% endunless %}
+    {% if doc.url contains '/blog/page' %}{% continue %}{% endif %}
     <url>
-      <loc>{{ site.url }}{{ post.url | remove: "index.html" }}</loc>
-      {% if post.sitemap.lastmod %}
-        <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
-      {% elsif post.date %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      <loc>{{ site.url }}{{ doc.url | remove: "index.html" }}</loc>
+      {% if doc.sitemap.lastmod %}
+        <lastmod>{{ doc.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+      {% elsif doc.last_modified_at %}
+        <lastmod>{{ doc.last_modified_at | date_to_xmlschema }}</lastmod>
+      {% elsif doc.date %}
+        <lastmod>{{ doc.date | date_to_xmlschema }}</lastmod>
       {% endif %}
-      {% if post.sitemap.changefreq %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+      {% if doc.sitemap.changefreq %}
+        <changefreq>{{ doc.sitemap.changefreq }}</changefreq>
       {% else %}
         <changefreq>weekly</changefreq>
       {% endif %}
-      {% if post.sitemap.priority %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% else %}
+      {% if doc.sitemap.priority %}
+        <priority>{{ doc.sitemap.priority }}</priority>
+      {% elsif doc.collection == 'posts' %}
         <priority>0.4</priority>
-      {% endif %}
-      {% if post.image.url %}
-        {% include image4sitemap.html image=post.image.url %}
-      {% endif %}
-      {% if post.sitemap.images %}
-        {% for post_image in post.sitemap.images %}
-          {% include image4sitemap.html image=post_image %}
-        {% endfor %}
-      {% endif %}
-    </url>
-    {% endunless %}
-  {% endfor %}
-  {% for page in site.pages %}
-    {% unless page.sitemap.exclude %}
-    <url>
-      <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
-      {% if page.sitemap.lastmod %}
-        <lastmod>{{ page.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
-      {% elsif page.date %}
-        <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-      {% endif %}
-      {% if page.sitemap.changefreq %}
-        <changefreq>{{ page.sitemap.changefreq }}</changefreq>
-      {% else %}
-        <changefreq>weekly</changefreq>
-      {% endif %}
-      {% if page.sitemap.priority %}
-        <priority>{{ page.sitemap.priority }}</priority>
+      {% elsif doc.collection == 'case-studies' %}
+        <priority>0.6</priority>
       {% else %}
         <priority>0.5</priority>
       {% endif %}
-      {% if page.sitemap.images %}
-        {% for page_image in page.sitemap.images %}
-          {% include image4sitemap.html image=page_image %}
-        {% endfor %}
+      {% if doc.image.url %}
+        {% include image4sitemap.html image=doc.image.url %}
       {% endif %}
+      {% if doc.img %}
+        {% include image4sitemap.html image=doc.img %}
+      {% endif %}
+      {% for doc_image in doc.sitemap.images %}
+        {% include image4sitemap.html image=doc_image %}
+      {% endfor %}
     </url>
-    {% endunless %}
-  {% endfor %}
-  {% for casestudy in site.case-studies %}
-    {% unless casestudy.sitemap.exclude %}
-    <url>
-      <loc>{{ site.url }}{{ casestudy.url | remove: "index.html" }}</loc>
-      {% if casestudy.sitemap.lastmod %}
-        <lastmod>{{ casestudy.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
-      {% elsif casestudy.date %}
-        <lastmod>{{ casestudy.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-      {% endif %}
-      {% if casestudy.sitemap.changefreq %}
-        <changefreq>{{ casestudy.sitemap.changefreq }}</changefreq>
-      {% else %}
-        <changefreq>weekly</changefreq>
-      {% endif %}
-      {% if casestudy.sitemap.priority %}
-        <priority>{{ casestudy.sitemap.priority }}</priority>
-      {% else %}
-        <priority>0.6</priority>
-      {% endif %}
-      {% if casestudy.img %}
-        {% include image4sitemap.html image=casestudy.img %}
-      {% endif %}
-      {% if casestudy.sitemap.images %}
-        {% for casestudy_image in casestudy.sitemap.images %}
-          {% include image4sitemap.html image=casestudy_image %}
-        {% endfor %}
-      {% endif %}
-    </url>
-    {% endunless %}
   {% endfor %}
 </urlset>

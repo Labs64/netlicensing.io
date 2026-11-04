@@ -1,28 +1,59 @@
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% if page.no-cache %}
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     {% endif %}
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title and page.title != site.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+    {% comment %} ---- SEO values, computed once and shared by all meta / JSON-LD includes ---- {% endcomment %}
+    {% if page.title and page.title != site.title %}
+      {% assign seo_title = page.title | append: ' | ' | append: site.title %}
+    {% else %}
+      {% assign seo_title = site.title %}
+    {% endif %}
+    {% assign seo_title = seo_title | strip_html | normalize_whitespace %}
+    {% assign seo_page_title = page.title | default: site.title | strip_html | normalize_whitespace %}
+    {% assign seo_description = page.description | default: site.description | strip_html | normalize_whitespace %}
+    {% assign seo_image_path = page.image.url | default: page.img | default: site.default_image %}
+    {% if seo_image_path contains '://' %}
+      {% assign seo_image = seo_image_path %}
+    {% else %}
+      {% assign seo_image = seo_image_path | prepend: site.baseurl | prepend: site.url %}
+    {% endif %}
+    {% assign seo_image_alt = page.image.alt | default: page.title | default: site.default_image_alt | strip_html | normalize_whitespace %}
+    {% if page.canonical %}
+      {% if page.canonical contains '://' %}
+        {% assign canonical = page.canonical %}
+      {% else %}
+        {% assign canonical = page.canonical | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url %}
+      {% endif %}
+    {% else %}
+      {% assign canonical = page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url %}
+    {% endif %}
+    {% assign seo_modified = page.last_modified_at | default: page.sitemap.lastmod | default: page.date %}
+
+    <title>{{ seo_title | escape }}</title>
+    <meta name="description" content="{{ seo_description | escape }}">
     <meta name="author" content="{{ site.copyright }}">
     <meta name="copyright" content="{{ site.copyright }}">
-    <meta name="robots" content="INDEX, FOLLOW">
+    {% if page.noindex %}
+    <meta name="robots" content="noindex, follow">
+    {% else %}
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    {% endif %}
+    <meta name="theme-color" content="#853E29">
+    <link rel="canonical" href="{{ canonical }}">
 
-    <!-- Prefetch resources -->
-    {% if site.dns_prefetch %}
-      {% for dns_prefetch in site.dns_prefetch %}
-      <link rel="dns-prefetch" href="{{ dns_prefetch }}">
-      {% endfor %}
-    {% endif %}
-    {% if page.prefetch %}
-      {% for page_prefetch in page.prefetch %}
-      <link rel="prefetch" href="{{ page_prefetch | prepend: site.baseurl | prepend: site.url }}">
-      {% endfor %}
-    {% endif %}
+    <!-- Resource hints -->
+    {% for dns_prefetch in site.dns_prefetch %}
+    <link rel="dns-prefetch" href="{{ dns_prefetch }}">
+    {% endfor %}
+    {% for page_prefetch in page.prefetch %}
+    <link rel="prefetch" href="{{ page_prefetch | prepend: site.baseurl | prepend: site.url }}">
+    {% endfor %}
+    <link rel="preload" href="{{ '/fonts/roboto-v30-latin/roboto-v30-latin-regular.woff2' | prepend: site.baseurl }}" as="font" type="font/woff2" crossorigin>
 
     {% include cookieconsent.html %}
     {% include google-analytics.html %}
@@ -42,28 +73,24 @@
     {% endif %}
 
     <!-- Custom Fonts, CSS -->
+    {% assign asset_version = site.time | date: '%Y%m%d%H%M' %}
     <link rel="stylesheet" href="{{ '/css/roboto.css' | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ '/css/font-awesome.4.5.0.min.css' | prepend: site.baseurl }}">
+    {% if page.use_slick %}
     <link rel="stylesheet" href="{{ '/css/slick.1.8.1.css' | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ '/css/slick-theme.1.8.1.css' | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ '/css/bootstrap.min.css' | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ '/css/netlicensing.css' | prepend: site.baseurl }}#{{ site.time | date:'%Y%m%d%H%M' }}">
-    <link rel="stylesheet" href="{{ '/css/netlicensing-style.css' | prepend: site.baseurl }}#{{ site.time | date:'%Y%m%d%H%M' }}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ '/img/labs64-avatar-18x18.png' | prepend: site.baseurl }}">
-    <link rel="apple-touch-icon" type="image/x-icon" href="{{ '/img/labs64-avatar-18x18.png' | prepend: site.baseurl }}">
-
-    {% if page.canonical %}
-      {% if page.canonical contains 'http' %}
-        {% assign canonical = page.canonical %}
-      {% else %}
-        {% assign canonical = page.canonical | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
-      {% endif %}
-      <link rel="canonical" href="{{ canonical }}">
-    {% else %}
-      {% assign canonical = page.url | prepend: site.baseurl | prepend: site.url %}
-      <link rel="canonical" href="{{ canonical }}">
     {% endif %}
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ '/css/bootstrap.min.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/css/netlicensing.css' | prepend: site.baseurl }}?v={{ asset_version }}">
+    <link rel="stylesheet" href="{{ '/css/netlicensing-style.css' | prepend: site.baseurl }}?v={{ asset_version }}">
+
+    <!-- Icons -->
+    <link rel="icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}" sizes="any">
+    <link rel="icon" type="image/png" sizes="128x128" href="{{ '/img/labs64-avatar-128x128.png' | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" href="{{ '/img/labs64-avatar-200x200.png' | prepend: site.baseurl }}">
+
+    <!-- Feeds & machine-readable resources -->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} Blog" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="text/markdown" title="AI Context" href="{{ '/llms.txt' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="text/markdown" title="LLM-readable site summary (llms.txt)" href="{{ '/llms.txt' | prepend: site.baseurl | prepend: site.url }}">
 </head>

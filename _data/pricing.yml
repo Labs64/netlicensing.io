@@ -28,7 +28,8 @@
   premium: "unlimited"
   enterprise: "unlimited"
 
-- name: "API Requests"
+- name: "API Rate Limit"
+  description: "Guaranteed minimum throughput of API requests per vendor account (shared across all your products). This is the worst case: when the system is not busy, requests are typically served faster."
   free: "1 / min"
   basic: "1 / min"
   premium: "1 / sec"

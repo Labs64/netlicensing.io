@@ -20,7 +20,7 @@ tags:
 
 The defining aspect of the success of Smartphones over the last five years has been the ability that they have given us to literally do anything we want in practically any place. The phrase ‘there is an app for everything’ has now become common parlance amongst both industry members and consumers alike. We carry in our pockets mini-computers with more power and potential than those which we used in offices just 10 years ago.
 
-We are also using our phones and tablet devices for much more than the simple entertainment devices which can make and  receive calls that was the at the core of the first smartphones. Millions of people now manage their finances largely through online banking and carry out a significant number of transactions and transfers just using their thumbs on the 4 inch screen of a mobile phone.
+We are also using our phones and tablet devices for much more than the simple entertainment devices which can make and receive calls that was the at the core of the first smartphones. Millions of people now manage their finances largely through online banking and carry out a significant number of transactions and transfers just using their thumbs on the 4 inch screen of a mobile phone.
 
 The payments can be made to existing ‘payees’ or depending upon your bank can be done through a VISA payment sent to the payees mobile phone number which they can them claim. There have been a number of high-profile advertising campaigns targeting consumers in this way, and emphasising the ease with which they can now send and receive small amounts of money without having to request any personal or banking information.
 

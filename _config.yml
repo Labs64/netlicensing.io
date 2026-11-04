@@ -6,19 +6,28 @@ keywords: netlicensing,software license,licensing model,license types,license ma
 copyright: Labs64 GmbH
 company: Labs64
 company_url: "https://www.labs64.com"
+lang: en
+locale: en_US
+
+# SEO / structured data
+logo: "/img/labs64-avatar-200x200.png"
+default_image: "/img/netlicensing-twittercard.png"
+default_image_alt: "NetLicensing - Licensing-as-a-Service for software vendors"
+twitter_username: netlicensing
 
 url: "https://netlicensing.io"
 # subpath of the site, e.g. /blog/
 baseurl: ""
 
 dns_prefetch:
- - //go.netlicensing.io
- - //ui.netlicensing.io
- - //my.netlicensing.io
- - //www.labs64.de
- - //www.labs64.com
- - //io.labs64.com
- - //l64.cc
+ - https://go.netlicensing.io
+ - https://ui.netlicensing.io
+ - https://my.netlicensing.io
+ - https://www.labs64.de
+ - https://www.labs64.com
+ - https://io.labs64.com
+ - https://labs64.io
+ - https://l64.cc
 
 # Styling
 stage_banner_image: "../img/netlicensing-stage-banner-01.png"
@@ -32,7 +41,7 @@ blog_recommended_posts:
 
 # TopNav sticker
 topnav_sticker_text: "Request a Demo"
-topnav_sticker_url: ""
+topnav_sticker_url: "/demo-optin/"
 topnav_sticker_onclick: "Calendly.initPopupWidget({url: 'https://calendly.com/netlicensing/netlicensing-demo?primary_color=853E29'});return false;"
 topnav_sticker_image: "/img/netlicensing-demo.png"
 topnav_sticker_target: "_blank"
@@ -93,6 +102,18 @@ exclude:
   - _config_dev.yml
   - .gitignore
   - .dockerignore
+  - .github
+  - .idea
+  - .kiro
+  - .vscode
+  - .sass-cache
+  - .jekyll-cache
+  - AGENTS.md
+  - CLAUDE.md
+  - justfile
+  - graphify-out
+  - node_modules
+  - vendor
 
 # Custom collections
 collections:

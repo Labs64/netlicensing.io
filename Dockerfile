@@ -1,9 +1,12 @@
-FROM jekyll/jekyll:4
+# Local development image. Ruby 3.3 matches the GitHub Pages build environment;
+# the jekyll/jekyll images are no longer maintained.
+FROM ruby:3.3-slim
 
-# Update to latest Bundler
-RUN gem update --system && gem install bundler
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends build-essential git \
+ && rm -rf /var/lib/apt/lists/* \
+ && gem install bundler -v 4.0.16
 
-# Set working directory
 WORKDIR /srv/jekyll
 
 # Expose Jekyll server port and LiveReload port

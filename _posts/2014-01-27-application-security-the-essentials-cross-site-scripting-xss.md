@@ -28,7 +28,7 @@ XSS is one of the most prevalent types of attack amongst application users and d
 
 If the type of app you are building requires external references, then ensure that your code is secure and well written. Look into effective data escaping techniques. Where you have external references in the application, carry out regular tests to check that when the data is being sent it is being done so securely.
 
-As with many weaknesses and flaws in application security, XSS occurs when gaps or ‘holes’ are left in the coding.  When your application is still in the developmental stages, make sure that you carry out regular checks upon your code to test its safety and security.
+As with many weaknesses and flaws in application security, XSS occurs when gaps or ‘holes’ are left in the coding. When your application is still in the developmental stages, make sure that you carry out regular checks upon your code to test its safety and security.
 
 The same rules apply to when release GUI and base-layer updates for the application to its users.
 
