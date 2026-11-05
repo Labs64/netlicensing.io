@@ -17,12 +17,12 @@ tags:
     </div>
 </div>
 
-<div class="row NL_block NL_block_center">
-    <h3 class="col-md-12">Simply choose your preferred plan to get started or see <a href="#custom-plans">more options below</a>.</h3>
-    <h3>New accounts get access to<br><strong>All NetLicensing features for 30 days</strong>
-    <span class="NL_subtext"><br>(free of charge, risk-free, no credit card required)</span></h3>
+<div class="row NL_block NL_block_center NL_pricing_intro">
+    {% include plan-picker.html %}
 </div>
 
+{% assign plan_products = site.data.pricing | where: "name", "Active products" | first %}
+{% assign plan_customers = site.data.pricing | where: "name", "Customers" | first %}
 <div class="row NL_block NL_pricing">
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_captions">
@@ -44,134 +44,80 @@ tags:
     </div>
 
     <div class="col-md-15 col-sm-3">
-        <div class="NL_price_features NL_price_regular">
+        <div class="NL_price_features NL_price_regular" data-plan="free" data-products="{{ plan_products.free }}" data-customers="{{ plan_customers.free }}">
             <h3><strong class="NL_plan_name">Community</strong><br/>Quick and simple for community projects</h3>
             <div class="NL_price_tag">0 € / month</div>
             <div class="NL_price_tag_sub">&nbsp;</div>
-            <ul>
-                {% for feature in site.data.pricing %}
-                <li>
-                    <span class="NL_price_feature"> {{ feature.name }} </span>
-                    {% if feature.free == "Y" %}
-                    <i class="fa fa-check-square" aria-hidden="true"></i><span class="sr-only">Yes</span>
-                    {% elsif feature.free == "N" %}
-                    <i class="fa fa-square-o" aria-hidden="true"></i><span class="sr-only">No</span>
-                    {% else %}
-                    {{ feature.free }}
-                    {% endif %}
-                </li>
-                {% endfor %}
-            </ul>
+            {% include pricing-features.html plan="free" %}
 
             <div class="NL_btn NL_btn_pricing">
                 <a href="https://ui.netlicensing.io/#/register?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=free"
                    class="NL_button button_main NL_dark_btn">Register Now for FREE</a>
+                <p class="NL_btn_note">No credit card required</p>
             </div>
         </div>
     </div>
 
     <div class="col-md-15 col-sm-3">
-        <div class="NL_price_features NL_price_regular">
+        <div class="NL_price_features NL_price_regular" data-plan="basic" data-products="{{ plan_products.basic }}" data-customers="{{ plan_customers.basic }}">
             <h3><strong class="NL_plan_name">Basic</strong><br/>For startups and growing businesses</h3>
             <div class="NL_price_tag">120 € / month</div>
             <div class="NL_price_tag_sub">billed annually</div>
-            <ul>
-                {% for feature in site.data.pricing %}
-                <li>
-                    <span class="NL_price_feature"> {{ feature.name }} </span>
-                    {% if feature.basic == "Y" %}
-                    <i class="fa fa-check-square" aria-hidden="true"></i><span class="sr-only">Yes</span>
-                    {% elsif feature.basic == "N" %}
-                    <i class="fa fa-square-o" aria-hidden="true"></i><span class="sr-only">No</span>
-                    {% else %}
-                    {{ feature.basic }}
-                    {% endif %}
-                </li>
-                {% endfor %}
-            </ul>
+            {% include pricing-features.html plan="basic" %}
 
             <div class="NL_btn NL_btn_pricing">
                 <a href="https://ui.netlicensing.io/#/register?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=basic"
                    class="NL_button button_main NL_dark_btn">Start Free Trial</a>
+                <p class="NL_btn_note">No credit card required</p>
             </div>
         </div>
     </div>
 
     <div class="col-md-15 col-sm-3">
-        <div class="NL_price_features NL_price_promo">
+        <div class="NL_price_features NL_price_promo" data-plan="premium" data-products="{{ plan_products.premium }}" data-customers="{{ plan_customers.premium }}">
             <h3><strong class="NL_plan_name">Premium</strong><br/>Full featured for comprehensive products</h3>
             <div class="NL_price_tag">380 € / month</div>
             <div class="NL_price_tag_sub">billed annually</div>
-            <ul>
-                {% for feature in site.data.pricing %}
-                <li>
-                    <span class="NL_price_feature"> {{ feature.name }} </span>
-                    {% if feature.premium == "Y" %}
-                    <i class="fa fa-check-square" aria-hidden="true"></i><span class="sr-only">Yes</span>
-                    {% elsif feature.premium == "N" %}
-                    <i class="fa fa-square-o" aria-hidden="true"></i><span class="sr-only">No</span>
-                    {% else %}
-                    {{ feature.premium }}
-                    {% endif %}
-                </li>
-                {% endfor %}
-            </ul>
+            {% include pricing-features.html plan="premium" %}
 
             <div class="NL_btn NL_btn_pricing">
                 <a href="https://ui.netlicensing.io/#/register?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=premium"
                    class="NL_button button_main NL_dark_btn">Start Free Trial</a>
+                <p class="NL_btn_note">No credit card required</p>
             </div>
         </div>
     </div>
 
     <div class="col-md-15 col-sm-3">
-        <div class="NL_price_features NL_price_regular">
+        <div class="NL_price_features NL_price_regular" data-plan="enterprise">
             <h3><strong class="NL_plan_name">Select</strong><br/>Advanced functionality for specific requirements</h3>
             <div class="NL_price_tag NL_price_tag_contact"><div class="NL_btn NL_btn_pricing">
-                <a href="/contact/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=enterprise" class="NL_button button_main NL_dark_btn">Contact Sales</a>
+                <a href="https://l64.cc/questionnaire" target="_blank" rel="noopener" class="NL_button button_main NL_dark_btn">Get a Quote</a>
             </div></div>
             <div class="NL_price_tag_sub NL_price_tag_sub_contact">&nbsp;</div>
-            <ul>
-                {% for feature in site.data.pricing %}
-                <li>
-                    <span class="NL_price_feature"> {{ feature.name }} </span>
-                    {% if feature.enterprise == "Y" %}
-                    <i class="fa fa-check-square" aria-hidden="true"></i><span class="sr-only">Yes</span>
-                    {% elsif feature.enterprise == "N" %}
-                    <i class="fa fa-square-o" aria-hidden="true"></i><span class="sr-only">No</span>
-                    {% else %}
-                    {{ feature.enterprise }}
-                    {% endif %}
-                </li>
-                {% endfor %}
-            </ul>
+            {% include pricing-features.html plan="enterprise" %}
 
             <div class="NL_btn NL_btn_pricing">
-                <a href="/contact/?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=enterprise" class="NL_button button_main NL_dark_btn">Contact Sales</a>
+                <a href="https://l64.cc/questionnaire" target="_blank" rel="noopener" class="NL_button button_main NL_dark_btn">Get a Quote</a>
             </div>
         </div>
     </div>
 </div>
 
-<div id="custom-plans" class="row NL_block">
-    <h2 class="col-md-12">Our custom plans and special offers</h2>
-</div>
+<div class="row">
+    <div class="col-md-12 NL_form_light NL_block">
+        <div class="col-md-8 col-md-offset-2 NL_form_light_text">
+            <h2>Licensing at Company Scale?</h2>
+            <span>NetLicensing Select for Enterprise: self-hosted or dedicated, with SSO, audit log and a 99% SLA.<br>Custom development, priority feature requests and a technical manager for your rollout.</span>
 
-<div class="row NL_block">
-    <div>
-        {% for customplan in site.data.customplans %}
-        <div class="col-md-6 NL_feature" id="customplan-{{ customplan.name | slugify }}">
-            <figure class="hover_effect">
-                <figcaption>
-                <img src="{{ customplan.icon | prepend: site.baseurl | prepend: site.url }}" alt="{{ customplan.name }}"/>
-                <h3>
-                <a href="{{ customplan.url }}">{{ customplan.name }}</a>
-                </h3>
-                <p>{{ customplan.description }}</p>
-                </figcaption>
-            </figure>
+            <div class="row NL_cta_row">
+                <div class="col-sm-4 col-sm-offset-4">
+                    <a href="/enterprise/" class="NL_button button_main NL_dark_btn NL_wide_btn">
+                        <i class="fa fa-building-o"></i>Explore Enterprise
+                    </a>
+                </div>
+            </div>
         </div>
-        {% endfor %}
     </div>
 </div>
 
@@ -195,9 +141,9 @@ tags:
 
 <div class="row NL_FAQ">
     <div class="col-md-5 col-md-offset-1">
-        <h3>Do I need a credit card to sign up for the free plan?</h3>
+        <h3>Do I need a credit card to sign up?</h3>
 
-        <p>No. We do not collect credit card information when you sign up for a free account.</p>
+        <p>No. We do not collect credit card information when you sign up, neither for the free Community plan nor for the 30-day trial of all features.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
         <h3>Can I cancel anytime?</h3>
@@ -214,9 +160,9 @@ tags:
             The selected payment service provider may charge an internet gateway fee and/or a processing fee.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
-        <h3>Do you support early-stage startups, education & nonprofits?</h3>
+        <h3>Do you support early-stage startups & nonprofits?</h3>
 
-        <p>NetLicensing is proud to support people doing great things in the world. That’s why we offer significant discounts for eligible students and educators and nonprofits.</p>
+        <p>NetLicensing is proud to support people doing great things in the world. That’s why we offer significant discounts for eligible startups and nonprofits.</p>
     </div>
 </div>
 

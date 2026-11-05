@@ -1,0 +1,48 @@
+{%- comment -%}
+  Plan picker for /pricing/: "I'm building N products for N customers and need <models>".
+  js/plan-picker.js highlights the cheapest plan column of the pricing table that fits.
+
+  - Plan limits: data-products / data-customers on the plan columns (from _data/pricing.yml)
+  - Licensing models: _data/licensingmodels.yml (plans, summary, picker)
+
+  Hidden without JavaScript; the pricing table works on its own.
+{%- endcomment -%}
+<div id="plan-picker" class="NL_picker_card" hidden>
+    <h2>Which plan fits your product?</h2>
+    <div class="NL_plan_picker">
+        <p class="NL_picker_sentence">
+            I'm building
+            <span class="NL_pill"><output data-for="products">1</output><input type="range" name="products" min="1" step="1" value="1" aria-label="Number of products"></span>
+            <span data-unit="products">product</span> for
+            <span class="NL_pill"><output data-for="customers">10</output><input type="range" name="customers" min="10" step="10" value="10" aria-label="Number of customers"></span>
+            customers and need
+            <span class="NL_picker_models">
+                <button type="button" class="NL_pill" aria-expanded="false" aria-haspopup="true"><span>pick licensing models</span><i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                <span class="NL_picker_menu" hidden>
+                    {%- for model in site.data.licensingmodels %}
+                    {%- if model.picker == false %}{% continue %}{% endif %}
+                    {%- assign first_plan = model.plans.first %}
+                    {%- assign plan_count = model.plans.size %}
+                    <label class="NL_picker_opt">
+                        <input type="checkbox" value="{{ model.name | escape }}" data-plans="{{ model.plans | join: ',' | append: ',enterprise' }}">
+                        <span class="NL_opt_text"><b>{{ model.name | escape }}</b><small>{{ model.summary | escape }}</small></span>
+                        <span class="NL_opt_plan">
+                            {%- if plan_count == 0 -%}Select
+                            {%- elsif plan_count == 3 -%}Every plan
+                            {%- elsif first_plan == 'free' and plan_count == 1 -%}Community only
+                            {%- elsif first_plan == 'basic' -%}Basic and up
+                            {%- elsif first_plan == 'premium' -%}Premium and up
+                            {%- else -%}Selected plans
+                            {%- endif -%}
+                        </span>
+                    </label>
+                    {%- endfor %}
+                    <a class="NL_picker_more" href="/licensing-models/">Learn more about all licensing models <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                </span>
+            </span>
+            <button type="button" class="NL_picker_reset" hidden><i class="fa fa-undo" aria-hidden="true"></i> Reset</button>
+        </p>
+        <p class="sr-only" aria-live="polite" data-status></p>
+    </div>
+</div>
+<script src="{{ '/js/plan-picker.js' | prepend: site.baseurl }}?v={{ site.time | date: '%Y%m%d%H%M' }}" defer></script>

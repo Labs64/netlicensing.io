@@ -87,5 +87,5 @@
   icon: "/img/features/service_level_agreement.png"
 
 - name: "NetLicensing Enterprise (Enterprise)"
-  description: "Our enterprise services and support programs ensure your success at every step along the management of your product licensing."
+  description: "Our <a href='/enterprise/'>enterprise services and support</a> programs ensure your success at every step along the management of your product licensing."
   icon: "/img/features/netlicensing_enterprise.png"

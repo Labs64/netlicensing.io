@@ -1,0 +1,265 @@
+// Pricing page (/pricing/): plan picker and pricing table.
+// Markup: pages/pricing.md, _includes/plan-picker.html, _includes/pricing-features.html.
+
+// ---------------------------------------------------------------------------
+// Plan picker: a soft card with a sentence, inline sliders and a models menu.
+// ---------------------------------------------------------------------------
+
+.NL_pricing_intro {
+  margin-top: 30px;
+}
+
+.NL_picker_card {
+  padding: 22px 20px 20px;
+  background: mix($brand-light, $bg-white, 30%);
+  border: 1px solid mix($brand-light, $bg-white, 65%);
+  border-radius: 10px;
+
+  h2 {
+    margin: 0 0 16px;
+  }
+}
+
+.NL_plan_picker {
+  // Anchors the models menu, so it can be wide and stay centred.
+  position: relative;
+  text-align: center;
+
+  // The site styles every <span> as 15px #333 text; inside the picker, spans inherit.
+  span {
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+  }
+
+  .NL_picker_sentence {
+    margin: 0;
+    font-size: 15px;
+    line-height: 2.3;
+    color: $text-dark;
+  }
+
+  // Editable parts of the sentence: a value with its slider, and the models button.
+  // All pills share one height, font and line height so their text lines up.
+  .NL_pill {
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 32px;
+    padding: 0 8px 0 12px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    vertical-align: middle;
+    color: $brand-primary;
+    background: $bg-white;
+    border: 1px solid mix($brand-light, $brand-primary, 70%);
+    border-radius: 8px;
+
+    // Bootstrap styles <output> as a 14px block; make it plain pill text instead.
+    output {
+      display: inline-block;
+      min-width: 3ch;
+      padding: 0;
+      font: inherit;
+      line-height: 1;
+      color: inherit;
+      text-align: center;
+    }
+
+    // Bootstrap makes range inputs full-width blocks.
+    input[type="range"] {
+      display: inline-block;
+      width: 120px;
+      height: 14px;
+      margin: 0 0 0 6px;
+      accent-color: $brand-hover;
+    }
+  }
+
+  button.NL_pill {
+    padding: 0 12px;
+    cursor: pointer;
+
+    .fa {
+      margin-left: 6px;
+    }
+
+    &:focus-visible {
+      outline: 2px solid $brand-orange;
+      outline-offset: 2px;
+    }
+  }
+
+  .NL_picker_models {
+    display: inline-block;
+  }
+
+  .NL_picker_menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    z-index: 20;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 24px;
+    width: 780px;
+    max-width: 94vw;
+    max-height: 70vh;
+    margin-top: 4px;
+    padding: 6px 16px;
+    overflow-y: auto;
+    text-align: left;
+    background: $bg-white;
+    border: 1px solid $brand-primary;
+    border-radius: 6px;
+    transform: translateX(-50%);
+
+    &[hidden] {
+      display: none;
+    }
+  }
+
+  // One model in the menu: checkbox, name with a one-line summary, plan label.
+  .NL_picker_opt {
+    display: grid;
+    grid-template-columns: 20px minmax(0, 1fr) auto;
+    gap: 8px;
+    align-items: start;
+    margin: 0;
+    padding: 7px 0;
+    font-weight: normal;
+    line-height: 1.35;
+    border-bottom: 1px solid $border-light;
+    cursor: pointer;
+
+    input {
+      margin: 3px 0 0;
+      accent-color: $brand-hover;
+    }
+
+    b,
+    small {
+      display: block;
+    }
+
+    b {
+      font-size: 14px;
+    }
+
+    small {
+      font-size: 12px;
+      color: $text-dark;
+      opacity: .7;
+    }
+  }
+
+  // Last row of the menu, across both columns.
+  .NL_picker_more {
+    grid-column: 1 / -1;
+    padding: 10px 0 6px;
+    font-size: 13px;
+    text-align: right;
+  }
+
+  .NL_opt_plan {
+    padding: 0 8px;
+    font-size: 11px;
+    white-space: nowrap;
+    color: $brand-primary;
+    background: rgba($brand-hover, .1);
+    border-radius: 10px;
+  }
+
+  // Sits right after the models button.
+  .NL_picker_reset {
+    margin-left: 8px;
+    padding: 0;
+    font-size: 13px;
+    color: $brand-primary;
+    background: none;
+    border: 0;
+    cursor: pointer;
+
+    // Keep the space when hidden so the sentence does not shift while dragging.
+    &[hidden] {
+      display: inline-block;
+      visibility: hidden;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .NL_plan_picker {
+    .NL_pill {
+      height: 30px;
+      font-size: 14px;
+    }
+
+    .NL_picker_menu {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Pricing table
+// ---------------------------------------------------------------------------
+
+// Plan columns share one height, so their bottoms line up at any width.
+@media (min-width: 768px) {
+  .NL_pricing {
+    display: flex;
+
+    &::before,
+    &::after {
+      display: none;
+    }
+
+    > div > .NL_price_features {
+      height: 100%;
+    }
+  }
+}
+
+.NL_pricing .NL_price_features {
+  position: relative;
+  transition: opacity .2s, box-shadow .2s;
+}
+
+// The plan matching the picker stands out; the others fade.
+.NL_pricing.NL_plan_picked {
+  .NL_price_features:not(.NL_plan_match) {
+    opacity: .5;
+  }
+
+  .NL_plan_match {
+    box-shadow: 0 0 0 3px $brand-orange, 0 6px 18px rgba(0, 0, 0, .18);
+
+    // "Best fit" tag above the column.
+    &::before {
+      position: absolute;
+      top: -13px;
+      left: 50%;
+      z-index: 2;
+      padding: 1px 12px;
+      font-size: 12px;
+      line-height: 1.5;
+      white-space: nowrap;
+      color: $bg-white;
+      content: "\2713  Best fit";
+      background: $brand-hover;
+      border-radius: 12px;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+// Reassurance line under the sign-up buttons.
+.NL_btn_note {
+  margin: 8px 0 0;
+  font-size: 13px;
+  text-align: center;
+  color: $text-dark;
+}
