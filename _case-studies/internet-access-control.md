@@ -1,7 +1,7 @@
 ---
 layout: casestudy
 title: "Internet Access Control"
-description: "Managed connection points with ethernet and power sockets under controlled access."
+description: "How a café start-up used NetLicensing subscriptions to sell premium high-speed internet by the day, week, month or year, with access granted to registered devices automatically."
 permalink: "/case-studies/internet-access-control/"
 img: "/img/case-studies/netlicensing-case-study-internet-access-control-v2.png"
 tags:
@@ -16,84 +16,56 @@ use-case:
 - Access Control
 - Internet Access Point
 favorite-feature:
-- Licensing Model "Floating"
 - Licensing Model "Subscription"
+- Licensing Model "Node-Locked"
 - Online License Acquisition
 ---
 
-### Overview
+### Challenge
 
-A boutique café operator wanted to differentiate their business by offering a workspace-quality experience to freelancers, remote workers, and traveling professionals. Rather than competing on free WiFi (standard in most cafés), they positioned premium high-speed internet access and dedicated connection points as a revenue-generating service. The business model blended free basic WiFi to drive foot traffic with subscription-gated premium tiers — tiered subscriptions for daily, weekly, monthly, and annual access to dedicated ethernet ports and high-speed WiFi segments. NetLicensing enabled automated, subscription-based access control without requiring manual credential management or expensive network infrastructure upgrades.
+Internet cafés were big business in the late 1990s and early 2000s. Nobody needs a café terminal to check email anymore. Instead, people carry phones, tablets and notebooks, and they want fast internet and a power socket wherever they sit down.
 
-### Licensing Challenge
+Most cafés offer free WiFi to anyone who buys a coffee. In practice, that WiFi is often slow, fine for a bit of browsing and email but not for real work, and there's a scramble for the few power sockets.
 
-The operator faced a fundamental access control problem: how to enforce premium internet tiers on a per-device basis without expensive dedicated network hardware for each subscription level. Traditional WiFi security (WPA/PSK with shared passwords) offered no per-user granularity — all users with the password received the same access. Manual access provisioning (adding/removing MAC addresses or credentials for each subscription change) was labor-intensive and error-prone. There was no mechanism to offer flexible subscription periods (daily, weekly, monthly, annual) with automatic expiration. Revenue leakage occurred when premium access controls relied on customer self-regulation rather than technical enforcement.
+### Approach
 
-### Chosen Licensing Model
+A small start-up approached us with a different idea. They were opening a café with free internet for everyone, plus a fast connection for paying customers. They also planned dedicated "connection points" with ethernet sockets and several power sockets at each seat.
 
-The deployment leveraged two complementary models:
+Their customers would be freelancers and self-employed people who want a place to work that isn't their home office, without paying for an office of their own. The café wanted to be flexible, so regulars shouldn't have to pay at the counter every visit. At the same time, the fast connection had to stay locked to people who had paid.
 
-- **Subscription Model** for recurring access: Monthly and annual subscriptions for regular customers. Time-volume parameters ensured recurring renewals aligned with payment cycles.
-- **Floating Model** for session-based access: Day passes and hourly access for transient visitors, where concurrent sessions were limited to prevent quota abuse.
+We suggested MAC address filtering instead of a shared WPA password for the fast network. A customer's devices get access automatically, as long as their MAC address is registered to an active subscription.
 
-Both models operated under the Multi-Feature paradigm, segmenting access into Basic WiFi (included with all subscriptions), Premium WiFi (QoS-prioritized), and Dedicated Ethernet (physical port binding). This structure allowed flexible upselling without requiring separate hardware SKUs.
-
-### NetLicensing Configuration
-
-**Entity Structure:**
-```
-Product: Café Internet Services
-├── Module: WiFi Access (Floating + Subscription)
-│   ├── Template: Basic WiFi (free, included)
-│   ├── Template: Premium WiFi Sub (monthly, price=9.99)
-│   ├── Template: Premium WiFi Sub (annual, price=99.99)
-│   └── Template: Day Pass (daily rental, price=2.99)
-└── Module: Ethernet Ports (Subscription only)
-    ├── Template: Single Port Sub (monthly, price=19.99)
-    └── Template: Dual Port Sub (annual, price=199.99)
-```
-
-**Key Parameters:**
-- Subscription templates: `timeVolume=1`, `timeVolumePeriod=MONTH` or `YEAR`
-- Floating templates: `maxSessions=2` (limit concurrent devices per pass)
-- Day pass rentals: `timeVolume=24`, `timeVolumePeriod=DAY`
-- Annual plans: `gracePeriod=7` (days of access after payment failure before deactivation)
-
-### Integration Walkthrough
-
-**Access Control Flow:**
+Here's how that maps to NetLicensing today. Each customer is a licensee. The product has two modules:
 
 ```
-Device Connects to WiFi/Ethernet
-        ↓
-Network Controller queries NetLicensing
-        ↓
-GET /licensee/{customerId}/validate?productModule=WiFi
-        ↓
-License Status Response:
-   ├─ valid + Premium tier → grant access to premium WiFi
-   ├─ valid + Basic tier  → grant access to basic WiFi only
-   ├─ expired            → redirect to purchase page
-   └─ not found          → deny access
-        ↓
-Device authenticated/denied + cached locally (60s TTL)
+Product: Café Fast Lane
+├── Module "Access" – Subscription
+│   ├── Day:   TIMEVOLUME 1 DAY
+│   ├── Week:  TIMEVOLUME 1 WEEK
+│   ├── Month: TIMEVOLUME 1 MONTH
+│   └── Year:  TIMEVOLUME 1 YEAR
+└── Module "Devices" – Node-Locked, nodeSecretMode = CLIENT
+    └── 3 devices: QUANTITY, quantity = 3, price 0, automatic
 ```
 
-When a customer purchases access through the reception desk (using NetLicensing Shop), they receive credentials and a Licensee number. Their device MAC address is registered in the customer profile. On subsequent connections, the wireless controller performs a validation check. For ethernet ports, 802.1X authentication integrated with the NetLicensing API enforces entitlements — the network access server (RADIUS backend) queries the validation API and either permits or denies port activation based on license status.
+The [Subscription](https://netlicensing.io/wiki/subscription) holds the paid period. A customer who buys another week before the current one ends gets it added after the current one. The [Node-Locked](https://netlicensing.io/wiki/node-locked) module holds the registered devices. Each customer can register up to three, and the MAC address is the `nodeSecret`.
 
-High-speed access (Premium WiFi) was enforced through QoS rules tied to MAC address authentication. Basic WiFi segments were open to any authenticated customer. Ethernet ports remained physically disabled unless the validation response indicated active Dedicated Ethernet entitlements.
+The first time a device joins the fast network, the café's login page asks the customer for their customer number. The small server that manages the network then validates:
 
-### Licensee Management
+```bash
+curl -u apiKey:YOUR_API_KEY -H "Accept: application/json" \
+  -d "productModuleNumber0=M-DEVICES" -d "nodeSecret0=3c:22:fb:91:0e:47" \
+  https://go.netlicensing.io/core/v2/rest/licensee/CAFE-1043/validate
+```
 
-Each customer (individual, daily visitor, or monthly member) was registered as a Licensee with a unique `licenseeNumber` tied to their email address. For walk-in customers, the café reception system auto-provisioned Licensees on first purchase using the NetLicensing API (`POST /licensee`), then issued credentials immediately. For subscription members, manual Licensee creation occurred during account signup, with recurring renewal licenses tied to their billing schedule.
+If "Access" is valid and the device is one of the customer's three, the server adds the MAC address to the router's allow list until the `expires` date of the subscription. After that, the device is back on the free network until the customer renews.
 
-Device ownership was tracked through MAC address registration in the Licensee profile. Multiple devices (phone, laptop, tablet) could be linked to a single Licensee, simplifying management for members who moved between workstations throughout the day.
+Customers buy and renew passes online in the [NetLicensing Shop](https://netlicensing.io/wiki/netlicensing-shop), or at the counter, where staff create the license in the [Management Console](https://ui.netlicensing.io).
 
 ### Results
 
-- **Revenue diversification**: Premium access fees contributed 22% of monthly café revenue, significantly higher than anticipated
-- **Reduced administrative overhead**: Automated license expiration and validation eliminated manual MAC address whitelisting and credential resets
-- **Improved customer experience**: Flexible subscription options (daily, weekly, monthly, annual) with instant activation attracted diverse customer segments — tourists, remote workers, and digital nomads
-- **Transparent billing**: Customers had clear visibility into access tier and subscription duration; grace period handling recovered 35% of failed payment attempts through automated reminder emails
-- **Data-driven operations**: Validation logs provided usage insights, enabling café management to optimize WiFi coverage and capacity planning across locations
+The café used NetLicensing subscription management to keep track of payments and active subscriptions for its premium customers. That let them offer daily, weekly, monthly and annual passes, and it gave them a clear record of active subscriptions to plan the business on.
 
+With that data they developed the business model further and went on to open more locations.
+
+Running a venue with paid connectivity? [Contact us](https://netlicensing.io/contact/) and tell us about your setup.

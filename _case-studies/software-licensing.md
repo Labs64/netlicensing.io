@@ -1,7 +1,7 @@
 ---
 layout: casestudy
 title: "Desktop Software ISV: Trial-to-Paid with Node-Locked Protection"
-description: "A productivity software vendor eliminated piracy and improved trial conversion by implementing Try & Buy trials with node-locked device binding."
+description: "How a desktop software vendor can run server-side trials with Try & Buy and limit each purchase to a set number of computers with Node-Locked."
 permalink: "/case-studies/software-licensing/"
 img: "/img/case-studies/netlicensing-case-study-software-licensing.png"
 tags:
@@ -19,159 +19,76 @@ use-case:
 favorite-feature:
 - Licensing Model "Try & Buy"
 - Licensing Model "Node-Locked"
-- A/B Testing
+- NetLicensing Shop
 ---
 
-### Overview
+### Challenge
 
-A desktop software vendor selling productivity tools to creative professionals (designers, photographers, video editors) faced two critical problems: widespread unlicensed multi-device usage (serial numbers shared across teams) and poor trial-to-paid conversion (30% of trial users converted). Their legacy licensing used client-side serial number validation, easily circumvented by sharing or local clock manipulation.
+A small company sells a photo and video editing tool for Windows and macOS. Customers buy a perpetual license and may use it on two computers, say a desktop and a laptop.
 
-NetLicensing's Node-Locked and Try & Buy licensing eliminated license sharing, enforced server-side trial expiration, and provided conversion analytics. The vendor could now A/B test trial strategies (14-day vs. 30-day, feature restrictions) and gain visibility into which features drove purchase decisions.
+Their old system worked with serial numbers checked inside the application. That caused two problems:
 
-### Licensing Challenge
+- A serial number worked on any number of machines, so one purchase often ended up on a whole team's computers.
+- The 14-day trial started on the local clock. Turning the clock back or reinstalling gave users a fresh trial.
 
-The legacy system had critical flaws:
+The vendor didn't want to run a license server of their own. They wanted the trial and the device limit enforced somewhere users couldn't touch.
 
-- Serial numbers were text strings; customers shared them across 5–10 devices
-- Trial enforcement was local (system clock–based); resetting the clock reset the trial
-- No telemetry; vendor didn't know which features users tried, when they abandoned, or why
-- Trial-to-paid conversion was 30%; expensive CAC not recouped
-- Support team spent time on "reset my trial" tickets (easy workaround)
+### Approach
 
-### Chosen Licensing Model
-
-**Try & Buy (time-limited trials) + Node-Locked (device binding)**:
-
-- **Try & Buy:** Server-enforced 14/30-day trial period; automatic expiration; no reset possible
-- **Node-Locked:** License bound to device fingerprint (MAC address + OS); cannot move to another machine
-
-This combination eliminates both serial sharing and trial reset exploits.
-
-### NetLicensing Configuration
-
-**Product/Template structure:**
+The vendor creates one product in the [NetLicensing Management Console](https://ui.netlicensing.io) with two product modules:
 
 ```
-Product: Creative Suite
-├── Module: Trial Programs
-│   ├── Template: 14-Day Trial (Try & Buy, free, feature-limited)
-│   └── Template: 30-Day Trial (Try & Buy, free, all features)
-└── Module: Paid Licenses
-    ├── Template: Personal (Node-Locked, $99/year, 1 device)
-    ├── Template: Professional (Node-Locked, $299/year, 3 devices)
-    └── Template: Teams (Node-Locked, $29/user/mo, unlimited devices)
+Product: PhotoCut (licenseeAutoCreate = true)
+├── Module "Editor" – Try & Buy
+│   ├── Trial: TIMEVOLUME, 14 days, price 0, automatic, hidden
+│   └── Full license: FEATURE, EUR 99, one-time
+└── Module "Devices" – Node-Locked, nodeSecretMode = CLIENT
+    ├── Included devices: QUANTITY, quantity = 2, price 0, automatic
+    └── Extra device: QUANTITY, quantity = 1, EUR 19
 ```
 
-**Key parameters:**
+[Try & Buy](https://netlicensing.io/wiki/try-n-buy) handles the trial: NetLicensing creates the trial license on the first validation and records when it started. After 14 days validation returns `valid=false` unless the customer has bought the FEATURE license.
 
-- **Trial:** `timeVolume=14 or 30, timeVolumePeriod=DAY, price=0, nodeSecretMode=PREDEFINED`
-- **Paid Personal:** `timeVolume=12, timeVolumePeriod=MONTH, price=$99, nodeSecretMode=PREDEFINED, quantity=1`
-- **Node binding:** `nodeSecret=MAC_ADDRESS:OS_ID:DEVICE_NAME` (hardware fingerprint)
+[Node-Locked](https://netlicensing.io/wiki/node-locked) handles the device limit. In client mode, NetLicensing stores each new `nodeSecret` it sees until the licensee's quantity is used up. Every licensee gets two device slots automatically, and customers can buy extra ones. NetLicensing doesn't generate the device ID itself. The application computes a stable hash from hardware data (see [How to generate a machine fingerprint](https://netlicensing.io/wiki/faq-how-to-generate-machine-fingerprint)).
 
-**Sample configuration snippet:**
+On first start the application creates an installation ID for the customer account and validates. Because the product has licensee auto-create switched on, NetLicensing creates the licensee and its automatic licenses in the same call:
 
-```json
-{
-  "number": "TRIAL-14DAY",
-  "name": "14-Day Trial",
-  "licenseType": "TIMEVOLUME",
-  "timeVolume": 14,
-  "timeVolumePeriod": "DAY",
-  "price": 0,
-  "nodeSecretMode": "PREDEFINED",
-  "active": true
-}
+```bash
+curl -u apiKey:YOUR_API_KEY -H "Accept: application/json" \
+  -d "productNumber=PHOTOCUT" \
+  -d "productModuleNumber0=M-DEVICES" \
+  -d "nodeSecret0=3f9a1c...e07b" \
+  https://go.netlicensing.io/core/v2/rest/licensee/CUST-104233/validate
 ```
 
-### Integration Walkthrough
+The response holds one result per module. For "Editor" it contains `valid`, `evaluation` and `evaluationExpires`, which the application uses to show "9 days left in your trial". For "Devices" it contains `valid`, telling the application whether this computer is one of the allowed ones.
 
-**Trial signup and license validation:**
+The API key built into the application has the role `ROLE_APIKEY_LICENSEE`. It can validate and open the shop, but it can't read or change the vendor's other data. Response signing is turned on, and the application checks the signature, so a fake local server can't return a made-up "valid" answer.
 
-```
-User downloads software, launches first time
-  ↓
-App prompts for email; shows "Start 14-Day Free Trial"
-  ↓
-Backend creates Licensee record + issues Try & Buy license
-  POST /licensee (email=user@example.com)
-  POST /license (templateNumber=TRIAL-14DAY, nodeSecret=computed_device_fingerprint)
-  ↓
-App calls GET /validate
-  ↓
-Response: {valid: true, expiresIn: 14 days, features: [all]}
-  ↓
-App grants full feature access for 14 days
+When the trial ends, or a third computer is refused, the application asks NetLicensing for a shop link and opens it in the browser:
+
+```bash
+curl -u apiKey:YOUR_API_KEY -H "Accept: application/json" \
+  -d "tokenType=SHOP" -d "licenseeNumber=CUST-104233" \
+  -d "successURL=https://photocut.example/thanks" \
+  https://go.netlicensing.io/core/v2/rest/token
 ```
 
-**Trial expiration and upgrade flow:**
+The customer pays in the [NetLicensing Shop](https://netlicensing.io/wiki/netlicensing-shop) with PayPal or Stripe. The new license goes to the same licensee, so there's no key to type in. The next validation simply returns `valid=true`.
 
-```
-Day 14: License expires
-  ↓
-On next app launch, GET /validate returns {valid: false, expired: true}
-  ↓
-App displays: "Trial ended. Upgrade to Professional for $299/year"
-  ↓
-User clicks "Upgrade" → NetLicensing Shop → Stripe payment
-  ↓
-On payment success:
-  POST /license (templateNumber=PROFESSIONAL, nodeSecret=same_device_fingerprint)
-  ↓
-License issued; app relaunches validation, now returns {valid: true, expiresIn: 365 days}
-```
+#### Replacing a computer
 
-**A/B testing cohorts:**
+When a customer gets a new laptop, support removes the old device's `nodeSecret` property from the license in the Console. The new laptop takes the free slot on its next validation. The vendor could also build a small "deactivate this device" page that does the same through the [License Services API](https://netlicensing.io/wiki/license-services).
 
-The vendor created two user cohorts during signup:
+#### Working offline
 
-- Cohort A (50%): 14-day trial, all features → measure urgency-based conversion
-- Cohort B (50%): 30-day trial, all features → measure extended trial impact
+Validation results carry a `ttl`. The application stores the signed response and uses it until the `ttl` runs out, so a short loss of connection doesn't lock anyone out. It also remembers the latest time it has seen and asks for an online validation if the clock suddenly goes backwards (see [clock tampering](https://netlicensing.io/wiki/faq-clock-tampering)).
 
-NetLicensing validation responses included cohort ID and trial start date, allowing the vendor's analytics to compare:
+### Results
 
-- Cohort A: 14-day users → 42% conversion rate
-- Cohort B: 30-day users → 38% conversion rate (longer trial may reduce urgency)
+- The trial start date is stored in NetLicensing. Reinstalling the application or changing the clock doesn't restart it.
+- Each purchase works on the number of computers the customer paid for. Customers who need more buy extra device slots in the Shop without contacting support.
+- Purchases, renewals and extra devices all land on the same licensee, so the application never asks for a license key.
+- The vendor runs no license server. Licensing setup and customer support happen in the Management Console.
 
-Result: vendor optimized trial to 14 days, increasing conversion 34%.
-
-### Licensee Management
-
-A Licensee = a user account (email-based):
-
-- Created on app first launch when user enters email
-- Licensee record stored in NetLicensing with `licenseeNumber = email`
-- Same user on different devices → different Licensee records (each device is a separate node-locked license)
-
-For Professional/Teams licenses supporting 3+ devices, the vendor creates multiple licenses per Licensee (one per device), all synced to the same account. Device management is handled via the app's settings panel, which calls NetLicensing to list and deactivate device licenses.
-
-### Shop & Payment Integration
-
-Trial-to-paid conversion happens via NetLicensing Shop:
-
-1. User's trial license expires
-2. App displays upgrade button → generates shop token via `POST /shop-token`
-3. Shop token includes user email + expired license ID
-4. User directed to NetLicensing Shop (white-labeled)
-5. Stripe processes payment
-6. On success, Shop backend creates new paid license (Personal/Professional/Teams)
-7. Shop redirects back to app with success message
-8. App refreshes license validation; paid license is now active
-
-### Edge Cases & Best Practices
-
-- **Device fingerprinting stability:** Use combination of MAC address, OS UUID, and volume serial (not just MAC) to survive minor OS updates; recompute fingerprint quarterly and warn users if device hardware changes significantly.
-- **Trial reset attempts:** If app detects system clock was set back, revoke trial and block further use without escalation to support (security against exploit).
-- **License transfer (new device):** User replaces laptop → old device license becomes invalid. Implement device deactivation flow: user deactivates old device via app settings, which calls `PUT /license/{id}` to mark inactive, freeing license slot on Professional plan.
-- **License grace period:** After expiration, permit 3-day grace period with nag screen; after 3 days, full access block until renewal or upgrade.
-- **Usage telemetry for product insights:** Log feature usage (which tools opened, for how long) during trial and send to product team; this revealed that 80% of trial users never opened "Advanced Export" feature, leading to UI redesign.
-- **Chargeback prevention:** Track trial abuse patterns (account created, trial immediately upgraded to annual plan, then chargeback); flag for manual review if pattern detected.
-
-### Results & Outcome
-
-- Unauthorized multi-device usage eliminated through node-locked binding; serial sharing completely ineffective
-- Trial-to-paid conversion improved 34% after A/B testing optimized trial duration from 30 to 14 days
-- Revenue recovery from previously unlicensed multi-device users; estimated 25% of baseline revenue was previously lost to sharing
-- Product team gained actionable insights into feature adoption during trial (identified underused features, drove roadmap prioritization)
-- Support ticket volume for licensing decreased 70% (trial reset requests, activation issues eliminated; self-service Shop reduced manual upgrades)
-- Reduced CAC payback period from 18 months to 8 months due to higher trial-to-paid conversion and decreased support overhead
-
+Want to try this setup? [Create a free NetLicensing account](https://ui.netlicensing.io/#/register) or read the [Try & Buy](https://netlicensing.io/wiki/try-n-buy) and [Node-Locked](https://netlicensing.io/wiki/node-locked) documentation.

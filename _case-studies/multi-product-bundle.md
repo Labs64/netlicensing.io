@@ -1,7 +1,7 @@
 ---
 layout: casestudy
 title: "Multi-Product Bundle Licensing: Suite Management with Component Tracking"
-description: "Sell product suites under one customer agreement while tracking usage and entitlements per component independently"
+description: "How a software suite vendor can sell all components under one renewal date with Bundles, while each application still checks its own entitlement."
 permalink: "/case-studies/multi-product-bundle/"
 img: "/img/case-studies/netlicensing-case-study-multi-product-bundle.png"
 tags:
@@ -15,165 +15,72 @@ industry:
 use-case:
 - Product bundle licensing
 - Suite licensing
-- Component tracking
-- Multi-product entitlement
+- Component entitlements
 favorite-feature:
-- Licensing Model "Multi-Feature"
+- Bundles
 - Licensing Model "Subscription"
-- Bundle Management
+- Licensing Model "Multi-Feature"
 ---
 
-### Overview
+### Challenge
 
-An enterprise software vendor offering a comprehensive business intelligence suite needed to modernize their licensing model to support enterprise customers demanding unified suite agreements. Their platform comprised six tightly integrated applications—data visualization, ETL pipeline management, predictive analytics, reporting engine, data governance, and team collaboration—each historically sold and licensed independently. Enterprise buyers increasingly refused to sign six separate agreements and manage six renewal cycles; they wanted unified pricing, coordinated expiration dates, and a single management interface.
+A vendor sells a business intelligence suite made of five applications: Data Prep, Dashboards, Reports, Forecasting and Data Catalog. Over the years each one had grown its own licensing: separate keys, separate renewal dates, separate activation steps.
 
-NetLicensing solved this challenge by unifying suite-wide licensing under a Product/Module/Bundle architecture while preserving per-component entitlement tracking for compliance, usage analytics, and selective feature activation. The vendor could now sell "BI Suite bundles" as a single transaction while automatically provisioning individual component licenses with synchronized renewal cycles.
+Customers who bought the whole suite ended up with five contracts that renewed in five different months. Onboarding a new customer meant generating five keys and sending five emails. A customer who wanted to add Forecasting halfway through the year got a pro-rata calculation done by hand, and a sixth renewal date.
 
-### Licensing Challenge
+The vendor wanted to sell the suite, or a smaller pack, as one item with one renewal date. Each application should still check only its own part.
 
-Before NetLicensing, the vendor's licensing system treated each of the six applications as completely separate products with independent license keys, activation workflows, and support processes. Enterprise customers faced:
+### Approach
 
-- Six separate renewal dates requiring six distinct negotiations and invoicing cycles
-- No suite-level licensing agreements; each component had its own contract
-- No visibility into which suite components drove adoption and value
-- Manual, error-prone component license provisioning during onboarding (3+ weeks)
-- Customers managing six separate portals and support contacts
-- Complex mid-contract upgrades affecting only some components
-
-### Chosen Licensing Model
-
-**Subscription + Multi-Feature licensing**, implemented via Product Modules and Bundle grouping:
-
-- **Subscription** for the suite: single annual or monthly renewal across all six components with synchronized expiration
-- **Multi-Feature** per component: allows each application to enforce Standard/Professional/Enterprise tiers independently
-- **Bundles** group related License Templates, enabling one purchase transaction that provisions multiple component licenses simultaneously
-
-This architecture allows the vendor to sell "BI Suite Starter" (3 components), "BI Suite Professional" (5 components), or "BI Suite Enterprise" (all 6) with preset feature allocations per tier.
-
-### NetLicensing Configuration
-
-**Product/Module/Bundle Structure:**
+Each customer company is a licensee. All applications belong to one product, with one module per application:
 
 ```
-Product: BI Suite
-├── Module: Data Visualization
-│   ├── Template: Starter (price=$15/user)
-│   ├── Template: Professional (price=$35/user)
-│   └── Template: Enterprise (price=$75/user)
-├── Module: ETL Pipeline
-│   ├── Template: Starter (price=$20/job)
-│   ├── Template: Professional (price=$50/job)
-│   └── Template: Enterprise (price=$120/job)
-└── [4 more modules...]
+Product: Insight Suite
+├── Module "Data Prep"    – Subscription  (yearly template)
+├── Module "Dashboards"   – Subscription  (yearly template)
+├── Module "Reports"      – Subscription  (yearly template)
+├── Module "Forecasting"  – Subscription  (yearly template)
+├── Module "Data Catalog" – Subscription  (yearly template)
+└── Module "Add-ons"      – Multi-Feature
+    └── FEATURE templates: SSO-CONNECTOR, WHITE-LABEL, PRIORITY-SUPPORT
 
 Bundles:
-├── "BI Suite Starter" → groups Starter templates from Viz + ETL + Reporting
-├── "BI Suite Professional" → groups Prof. templates from all 6 modules
-└── "BI Suite Enterprise" → groups Enterprise from all 6 modules
+  Full suite      all five yearly licenses
+  Analytics pack  Dashboards + Reports + Forecasting
 ```
 
-**Key parameters:**
+Each application is a [Subscription](https://netlicensing.io/wiki/subscription) module, so each one can be valid or not on its own. Optional extras across the suite are [Multi-Feature](https://netlicensing.io/wiki/multi-feature) licenses.
 
-- `timeVolume=12, timeVolumePeriod=MONTH` — 1-year subscription per bundle
-- `price` varies per template (Standard $500/year, Pro $1500/year, Enterprise $4500/year)
-- Bundle prices preset for each tier; pre-calculated savings vs. à la carte
+The suite and the packs are [bundles](https://netlicensing.io/wiki/bundle-services). A bundle groups license templates from one product and has its own price. When a customer obtains a bundle, NetLicensing creates all its licenses in one go, so their yearly periods start together and end on the same day. For a direct sale, the vendor's back end calls:
 
-**Sample configuration snippet:**
-
-```json
-{
-  "bundleNumber": "BIS-PROF",
-  "name": "BI Suite Professional Annual",
-  "licenseTemplateNumbers": [
-    "DV-PROF",
-    "ETL-PROF",
-    "PA-PROF",
-    "RE-PROF",
-    "DG-PROF",
-    "CT-PROF"
-  ],
-  "price": 1500,
-  "currency": "USD",
-  "active": true
-}
+```bash
+curl -u apiKey:SERVER_API_KEY -H "Accept: application/json" \
+  -d "licenseeNumber=CUST-HARBOUR-LOGISTICS" \
+  https://go.netlicensing.io/core/v2/rest/bundle/B-FULL-SUITE/obtain
 ```
 
-### Integration Walkthrough
+The response returns one license per included template. Customers who buy online get the same result through the [NetLicensing Shop](https://netlicensing.io/wiki/netlicensing-shop), from a shop token that names the bundle (`bundleNumber`).
 
-**Provisioning flow:**
+#### Each application checks its own module
 
-1. Customer purchases bundle via NetLicensing Shop → single transaction
-2. Shop backend calls `POST /licensee` (create Licensee for customer account)
-3. Shop calls `POST /license` six times in parallel, one per template in the bundle
-4. Each application calls `GET /licensee/{num}/validate` on startup
+All five applications validate the same licensee, and each one reads its own module from the result:
 
-**Validation pattern:**
-
-```
-Customer Login
-  ↓
-App calls GET /licensee/{licenseNumber}/validate
-  ↓
-Response includes all six component license statuses
-  ↓
-If all valid → Grant access to all active components
-  If any expired → Show upgrade/renew prompt, allow component downgrade
+```bash
+curl -u apiKey:YOUR_API_KEY -H "Accept: application/json" -X POST \
+  https://go.netlicensing.io/core/v2/rest/licensee/CUST-HARBOUR-LOGISTICS/validate
 ```
 
-Each component application validates independently but respects the suite-level entitlement. Shared middleware checks both the component-specific license and the parent suite license before granting feature access.
+Forecasting looks for "Forecasting" and `valid=true`, and Reports looks for "Reports". The suite's shared launcher shows all applications and greys out the ones that aren't licensed. A customer who has the Analytics pack and later adds Data Prep simply gets one more license. The launcher shows the new tile at the next validation.
 
-**Usage metering:**
+#### Keeping renewal dates aligned
 
-After feature access is granted, each component reports consumption (rows processed, models executed, reports generated) back to NetLicensing API via `POST /license/{num}/usage`, feeding suite-level analytics dashboards.
+A component added mid-year shouldn't create a new renewal date. For those cases the vendor's sales team creates the extra license in the [Management Console](https://ui.netlicensing.io) and sets its `timeVolume` so it ends on the suite's renewal date, and invoices the remainder through its own billing. From the next renewal, it's part of the bundle.
 
-### Licensee Management
+### Results
 
-A Licensee in this model maps to a customer organization. When an enterprise customer signs the BI Suite agreement:
+- A suite or pack is one purchase that creates all licenses at once, with one shared renewal date.
+- Each application still validates its own module, so licensing stays independent per component.
+- New customers are set up with one call instead of five keys and five emails.
+- Packs and their prices are bundles in the Console and can change without touching the applications.
 
-- One Licensee record is created (e.g., `LICENSE-ACME-001`)
-- That Licensee is automatically assigned six licenses (one per bundle component template)
-- All six licenses share the same expiration date (suite renewal)
-
-The customer's IT admin accesses the NetLicensing Shop to:
-- View all six component statuses
-- Activate/deactivate individual components for their end users
-- Manage team assignments within the bundle
-
-No separate per-component Licensee records are needed; the single Licensee manages the unified suite.
-
-### Shop & Payment Integration
-
-The vendor integrated Stripe for payment processing with NetLicensing Shop for license provisioning:
-
-1. Customer selects bundle tier (Starter/Professional/Enterprise)
-2. Shop calculates total price from bundle definition
-3. Stripe checkout processes payment
-4. On successful payment, Shop triggers `POST /bundle/{bundleNumber}/licensee/{newLicensee}`
-5. NetLicensing automatically provisions all six component licenses
-6. Customer receives a single invoice from the vendor (aggregated across all components)
-
-Post-purchase upgrade workflow:
-
-- Mid-contract: customer requests "Professional" tier upgrade
-- Shop recalculates pro-rata price difference, charges via Stripe
-- NetLicensing `PUT /license/{id}` upgrades all six component licenses to Professional tier simultaneously
-- Single unified invoice reflects the upgrade adjustment
-
-### Edge Cases & Best Practices
-
-- **Partial renewals:** If one component needs emergency renewal (e.g., ETL pipeline license expires early), update only that license independently, but flag for billing team to sync with next suite renewal.
-- **License transfer:** When bundle moves to different customer, call `POST /licensee/{oldNum}/transfer` to bulk-transfer all six component licenses in one operation.
-- **Compliance audit:** Query all licenses for a single Licensee to prove all six components have valid coverage for the audit period; component-level tracking enables per-application compliance reports.
-- **Offline grace period:** Cache the validation response from each component for 24 hours to survive temporary API outages.
-- **Error handling:** If any one of six parallel license provisioning calls fails, mark the entire bundle purchase as pending and retry within 1 hour; do not partially activate components.
-- **Seat overflow:** Implement soft caps at 110% of purchased seat count per component with automated warnings; hard block at 120% to prevent unexpected overage charges.
-
-### Results & Outcome
-
-- Suite sales increased 240% as unified licensing eliminated friction of managing six separate agreements
-- Customer onboarding time reduced from 3 weeks to 2 days (automatic bundle provisioning replaced manual multi-step per-component setup)
-- Renewal rates improved 45% through synchronized expiration and automated suite-wide renewal reminders
-- Usage analytics revealed 70% of customers activate only 3-4 components initially, leading to targeted "Starter" bundle that increased conversions by 28%
-- Support ticket volume for license/billing issues decreased 60%
-- Revenue leakage eliminated through per-component tracking preventing unauthorized feature usage within suite context
-- Mid-contract upsell velocity increased because tier upgrades now affect all six components simultaneously, raising perceived value and justifying premium tiers
+Selling several products as a suite? Read about [bundles](https://netlicensing.io/wiki/bundle-services) or [contact us](https://netlicensing.io/contact/).

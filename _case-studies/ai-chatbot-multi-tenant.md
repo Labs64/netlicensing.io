@@ -1,7 +1,7 @@
 ---
 layout: casestudy
 title: "AI Chatbot Platform: Multi-Tenant Licensing"
-description: "A white-label AI chatbot startup replaced flat pricing with tiered entitlements for bot count, message volume, and premium NLP features."
+description: "How a white-label chatbot platform can limit bots and premium AI features per tenant with Pricing Table plans and sell extra message packs with Pay-per-Use."
 permalink: "/case-studies/ai-chatbot-multi-tenant/"
 img: "/img/case-studies/netlicensing-case-study-ai-chatbot-multi-tenant.png"
 tags:
@@ -17,154 +17,71 @@ use-case:
 - Conversation metering
 - Self-serve upgrades
 favorite-feature:
-- Licensing Model "Multi-Feature"
-- Quantity-Based Licensing
-- NetLicensing Pricing Table
+- Licensing Model "Pricing Table"
+- Licensing Model "Pay-per-Use"
+- Customer Portal
 ---
 
-### Overview
+### Challenge
 
-A white-label AI chatbot infrastructure startup provides conversational AI platforms to SMEs for customer service automation, FAQ handling, and lead qualification. The company maintains a solid multi-tenant SaaS architecture serving hundreds of customers, from small businesses running a single bot to enterprise customers operating dozens of advanced conversational agents across multiple departments.
+A startup runs a chatbot platform for small businesses. Each customer (a tenant) builds bots for support, FAQs or lead capture and embeds them on their own website. Some tenants run one quiet FAQ bot. Others run five bots with document search (RAG) and voice, answering thousands of messages a day.
 
-Initially, the startup monetized through a single flat monthly subscription. As the customer base grew, usage patterns diverged dramatically: some customers ran simple FAQ bots with minimal traffic, while others deployed multiple advanced bots with high message volumes and required premium NLP features like retrieval-augmented generation (RAG), voice transcription, and analytics dashboards. This one-size-fits-all model left significant revenue on the table, created pricing friction with larger customers, and made it impossible to meter actual usage fairly.
+Everyone paid the same monthly fee, and that was the problem. The busy tenants were barely profitable, and the small ones felt they paid too much. The team had started writing its own plan logic, with bot limits in one service, feature flags in another and message counters in a third. Every new plan needed changes in all three.
 
-NetLicensing was chosen to replace the homegrown entitlement layer, enabling tiered feature-based pricing across three dimensions (bot count, message volume, and premium features) while eliminating engineering effort spent on custom metering logic.
+### Approach
 
-### Licensing Challenge
+Each tenant is a licensee, and the tenant ID is the licensee number. The product has two modules:
 
-The startup's original system had no mechanism to differentiate pricing by actual usage. A customer running one simple FAQ bot with 100 monthly messages paid the same fee as a customer running five advanced RAG-powered bots handling 500,000 monthly conversations. This created three critical problems: lost revenue from under-pricing high-volume customers, pricing friction preventing larger deals from closing, and persistent feature entitlement drift where customers accessed premium features without paying for them because enforcement was scattered across the codebase and never validated against a single source of truth.
-
-The engineering team spent significant time building and maintaining custom quota logic, metering APIs, and feature flag conditionals. Adding new pricing tiers or features required code changes and careful deployment coordination. Self-service upgrades were impossible — customers had to contact sales to change plans, creating friction and increasing time-to-revenue.
-
-### Chosen Licensing Model
-
-NetLicensing's **Multi-Feature** and **Quantity-Based** licensing models were the natural fit. Each pricing tier (Starter, Pro, Enterprise) was implemented as a composite License Template bundling three independent entitlements:
-
-- **Bot Count** — a quantity-based license limiting the number of active bots per tenant
-- **Message Volume** — a subscription quantity license measured in conversation messages (e.g., 10,000/month, 100,000/month)
-- **Feature Flags** — separate feature-based licenses for RAG, voice transcription, and analytics modules
-
-This model allows customers to purchase exactly what they need: a startup might buy a 5-bot license with 50,000 monthly messages and no premium features, while an enterprise customer buys 25 bots with unlimited messages and all feature modules enabled.
-
-### NetLicensing Configuration
-
-**Product and Module Structure:**
 ```
-Product: WhiteLabel Chatbot Platform
-└── Module: Tiered Entitlements (Multi-Feature model)
-    ├── Template: Starter (bot_count=3, message_volume=10000, features=none)
-    ├── Template: Pro (bot_count=10, message_volume=100000, features=RAG)
-    └── Template: Enterprise (bot_count=unlimited, message_volume=unlimited, features=all)
+Product: Chatbot Platform (licenseeAutoCreate = true)
+├── Module "Plans" – Pricing Table
+│   SKUs: BOTS (quota), MESSAGES (quota, per month), RAG (feature), VOICE (feature)
+│   Starter  FEATURE, EUR 0, automatic, hidden   BOTS=1   MESSAGES=1000    RAG=false VOICE=false
+│   Growth   TIMEVOLUME 1 MONTH                  BOTS=3   MESSAGES=20000   RAG=true  VOICE=false
+│   Scale    TIMEVOLUME 1 MONTH                  BOTS=10  MESSAGES=100000  RAG=true  VOICE=true
+└── Module "Extra messages" – Pay-per-Use
+    └── Message pack: QUANTITY 10,000
 ```
 
-**Key Configuration Steps:**
-1. Create a Product representing the chatbot platform
-2. Create a single Product Module using the **Multi-Feature** licensing model
-3. For each pricing tier, create a License Template with three license types:
-   - **Quantity license** for bot count (e.g., quantity=5)
-   - **Subscription license** for message volume with time period MONTH and quantity=10000
-   - **Feature licenses** for RAG, voice, analytics (active=true for included tiers)
-4. Assign License Templates to each Licensee (tenant) on signup
-5. Configure NetLicensing Shop with self-service upgrade options
+The [Pricing Table](https://netlicensing.io/wiki/pricing-table) module holds the plans. Each plan sets values for the same SKUs, so comparing plans is easy, both for the team and for customers. NetLicensing can also render the plans as an HTML pricing table through the `PricingTable/render` endpoint.
 
-**Key API Parameters:**
-- `quantity` = bot count or message limit per tenant
-- `timeVolume=1, timeVolumePeriod=MONTH` for monthly quota resets
-- Feature license `active=true/false` per tier to gate RAG and analytics modules
+The platform's back end validates a tenant when it loads the tenant's settings, and it caches the result until the response's `ttl`:
 
-### Integration Walkthrough
-
-**Validation Flow at Key Lifecycle Points:**
-
-When a customer attempts to create a new bot, the platform calls:
 ```bash
-GET /licensee/{licenseeNumber}/validate
+curl -u apiKey:YOUR_API_KEY -H "Accept: application/json" \
+  -d "productNumber=CHATBOT" \
+  https://go.netlicensing.io/core/v2/rest/licensee/TENANT-4410/validate
 ```
 
-NetLicensing responds with the current active licenses. The app checks:
-- `license.botCount.quantity` — is current bot count < limit?
-- `license.messageVolume.quantity` — will monthly usage exceed quota?
-- `license.rag.active` — are premium features enabled?
+For "Plans" the response returns the current plan and every SKU, for example `BOTS` with `quota=3` and `RAG` with `valid=true`. The platform uses these values in three places:
 
-If the tenant has already deployed max bots, creation fails with an upgrade prompt. If message volume will exceed the monthly limit, the platform warns the customer or suggests an upgrade.
+- **Creating a bot.** The platform counts the tenant's active bots and compares that with `BOTS`. NetLicensing provides the limit, and the platform does the counting.
+- **Opening the knowledge base editor** requires `RAG`. Voice settings require `VOICE`.
+- **Answering a message.** The platform counts messages per tenant per calendar month in its own database. Once the count reaches `MESSAGES`, it switches to the extra message credits.
 
-**On Bot Conversation:**
-```
-App receives user message → GET /licensee/{licenseeNumber}/validate
-  ↓ Check: message_volume_used < message_volume_limit?
-  ↓ Valid: route to bot, increment usage counter
-  ↓ Expired/Invalid: return 402 "Quota Exceeded" → show upgrade CTA
-```
+#### Extra messages
 
-**Self-Service Upgrades:**
-When a customer wants to upgrade from Pro to Enterprise, they click "Upgrade Plan" in settings. This initiates:
+A tenant who goes over the monthly allowance can buy message packs instead of upgrading right away. These live in a [Pay-per-Use](https://netlicensing.io/wiki/pay-per-use) module. The platform reports the overflow in batches, for example every few minutes:
+
 ```bash
-POST /token/{tokenNumber} (fetch shop token for customer)
-Redirect to NetLicensing Shop → select new template → pay via Stripe
-Webhook callback: create new composite license → invalidate old license → immediate access
+curl -u apiKey:YOUR_API_KEY -H "Accept: application/json" \
+  -d "productModuleNumber0=M-EXTRA-MESSAGES" -d "usedQuantity0=120" \
+  https://go.netlicensing.io/core/v2/rest/licensee/TENANT-4410/validate
 ```
 
-**Integration Points:**
-- **Bot creation**: validate bot_count license before allowing creation
-- **Message routing**: validate message_volume before processing conversation
-- **Feature access**: validate feature-specific licenses before opening RAG/voice/analytics UI
-- **Upgrade flow**: NetLicensing Shop token generation → Stripe payment → webhook provisioning
+The response holds `remainingQuantity`. When it reaches zero, the bots reply with a polite "we'll get back to you" message until the next month starts or the tenant buys more.
 
-### Licensee Management
+#### Self-service
 
-Each tenant (customer account) is registered as a Licensee in NetLicensing with `licenseeNumber` mapped to the tenant's internal ID. When a customer signs up, the platform automatically calls:
-```bash
-POST /licensee
-{
-  "licenseeNumber": "tenant-12345",
-  "productNumber": "chatbot-platform",
-  "active": true
-}
-```
+The "Change plan" and "Buy messages" buttons create a shop token (`tokenType=SHOP`) for the tenant and send the tenant to the [NetLicensing Shop](https://netlicensing.io/wiki/netlicensing-shop), branded with the platform's logo and colours. A [webhook](https://netlicensing.io/wiki/notifications) on `LICENSE_CREATED` tells the back end to drop the cached result, so the new plan takes effect on the next request.
 
-This creates the Licensee and immediately assigns default License Templates for the customer's chosen plan. Subsequent validations use the same `licenseeNumber` throughout the customer lifecycle.
+Tenants can see their plan, purchases and remaining packs in the [Customer Portal](https://netlicensing.io/wiki/customer-portal). The platform opens it with an `ACTION` token (`action=licenseeLogin`), so there's no separate login.
 
-For self-service upgrades, the platform generates a one-time shop token scoped to the Licensee:
-```bash
-POST /token
-{
-  "licenseeNumber": "tenant-12345",
-  "type": "SHOP"
-}
-```
-The returned shop URL allows the customer to browse and purchase upgrades without involving sales, and upgrades take effect immediately upon successful payment.
+### Results
 
-### Shop & Payment Integration
+- Plans are defined once, as SKU values in the [Management Console](https://ui.netlicensing.io). Adding a plan or changing a limit doesn't need a release.
+- One cached validation per tenant gives the back end everything it needs: limits, features and remaining extra messages.
+- Small tenants can start on the free Starter plan. Busy tenants pay for what they use through plans and message packs.
+- Tenants handle upgrades and message packs themselves in the Shop, and look up their licenses and purchases in the Customer Portal.
 
-Self-service upgrades are central to the business model. When a customer wants to add more bots or messages or unlock premium features, they access the "Manage Plan" page in the product. The backend generates a NetLicensing Shop token scoped to their Licensee and embeds the shop iframe (or redirects to a modal).
-
-The customer browses available upgrade templates, selects one, and completes payment via Stripe. NetLicensing sends a webhook to the platform's backend confirming the new license creation. The backend uses the webhook payload to fetch the new entitlements and immediately apply them to the user session.
-
-```
-Customer clicks "Upgrade" → POST /token → embed shop iframe
-  ↓ Customer selects new tier → Stripe payment
-  ↓ Payment approved → NetLicensing creates license
-  ↓ Webhook: POST /webhooks/license-created
-  ↓ Backend fetches new entitlements → update session
-  ↓ User sees new limits reflected in UI immediately
-```
-
-No manual provisioning needed; the entire flow is automated and transparent to the customer.
-
-### Edge Cases & Best Practices
-
-- **Monthly quota reset**: Message volume quotas reset on the subscription anniversary using `timeVolume=1, timeVolumePeriod=MONTH`. Ensure webhook handlers reset usage counters at this boundary.
-- **Overage handling**: When a tenant exceeds message volume, queue excess conversations with a grace period (e.g., 24 hours) to allow upgrade completion before blocking.
-- **Bot creation validation**: Always validate bot_count license synchronously before committing the bot to the database; don't rely on async validation.
-- **License transfer**: If a customer account is transferred to another org, call the license transfer API to move entitlements cleanly.
-- **Offline fallback**: Cache the most recent validation response for 5–10 minutes to survive brief NetLicensing API outages; block new bot creation if cache is stale.
-- **Feature flag audit**: Log all feature gate decisions (feature requested, user license state, access granted/denied) for compliance audits and customer support escalations.
-
-### Results & Outcomes
-
-- Revenue per customer increased by an average of 40% as high-volume tenants moved to appropriately priced tiers
-- Engineering effort spent on custom metering and feature flag logic was entirely eliminated; entitlements now managed centrally via NetLicensing
-- Self-service upgrades reduced the sales-assisted expansion cycle from days to minutes; customers upgrade directly without contacting support
-- Entitlement drift was eliminated at the API validation layer; customers can no longer accidentally access features beyond their plan
-- Development velocity improved as new pricing tiers and features could be added without code changes — just new License Templates in NetLicensing
-- Customer satisfaction improved due to transparent, real-time quota visibility and frictionless self-service upgrades
+Building something similar? See the [SaaS licensing guide](https://netlicensing.io/wiki/saas-licensing) or [contact us](https://netlicensing.io/contact/).

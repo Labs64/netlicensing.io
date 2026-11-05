@@ -1,7 +1,7 @@
 ---
 layout: casestudy
 title: "Smart Metering: Feature Enablement and Consumption Tracking"
-description: "A utility equipment provider enabled tiered smart meter capabilities and usage-based billing using Node-Locked and Pay-Per-Use licensing models."
+description: "How a smart meter supplier can license its head-end software per utility: a meter count with Quota, optional analytics modules with Multi-Feature and on-demand meter reads with Pay-per-Use."
 permalink: "/case-studies/smart-metering/"
 img: "/img/case-studies/netlicensing-case-study-smart-metering.png"
 tags:
@@ -13,177 +13,65 @@ tags:
 industry:
 - Utilities / Industrial IoT
 use-case:
-- Device-bound licensing
+- Meter count licensing
 - Usage-based metering
 - Feature enablement
 favorite-feature:
-- Licensing Model "Node-Locked"
-- Licensing Model "Pay-Per-Use"
-- Remote License Management
+- Licensing Model "Quota"
+- Licensing Model "Multi-Feature"
+- Licensing Model "Pay-per-Use"
 ---
 
-### Overview
+### Challenge
 
-A global smart meter manufacturer ships advanced metering infrastructure to utility companies. Each meter includes sophisticated features—real-time demand response, power quality monitoring, tamper detection, load profiling, and distributed energy resource (DER) management for solar. However, utilities typically purchase meters for immediate deployment and want only basic consumption measurement initially. Shipping feature-complete hardware but giving away premium features for free leaves revenue on the table; shipping multiple hardware SKUs for different feature tiers creates supply chain chaos.
+A company supplies smart electricity meters and the head-end system that utilities use to collect readings from them. The head-end software runs in the utility's data centre and talks to hundreds of thousands of meters.
 
-NetLicensing's Node-Locked + Multi-Feature + Pay-Per-Use licensing enabled the manufacturer to ship universal hardware pre-loaded with all capabilities, then activate features remotely per meter based on utility purchases. This transformed the business from one-time hardware sales to recurring software revenue, with zero field service costs.
+The software was sold as one large licence, sized by guesswork at the start of a rollout. Utilities that rolled out meters more slowly than planned felt they had overpaid. Those that grew faster ran past the agreed number without anyone noticing. Analytics like power quality monitoring were sold as separate projects. And on-demand reads, where the utility pulls a reading outside the normal schedule (for a move-out, say), put load on the network but weren't charged at all.
 
-### Licensing Challenge
+### Approach
 
-The manufacturer's legacy approach required different firmware builds per feature tier:
-
-- Multiple hardware SKUs (Base Model, Professional, Enterprise) across supply chain
-- Feature upgrades required truck rolls: technician visits each site, manually updates firmware
-- Months of lead time between order and deployment due to SKU-specific builds
-- No way to upsell mid-deployment; customers stuck with initial feature tier
-- Utilities had to forecast peak needs years in advance and buy expensive "future-proof" meters
-- Complex firmware version control and QA for 15+ firmware variants in field
-
-### Chosen Licensing Model
-
-**Node-Locked (per-meter binding) + Multi-Feature (per-capability flags) + Pay-Per-Use (usage-based consumption)**:
-
-- **Node-Locked:** Each meter's serial number is bound to its entitlements; no license sharing across meters
-- **Multi-Feature:** Each advanced capability (demand response, power quality, DER) is separately licensable
-- **Pay-Per-Use:** Utilities can pay monthly per active meter count instead of upfront per-meter fees
-
-This structure allows one universal hardware product with remote feature activation.
-
-### NetLicensing Configuration
-
-**Node-Locked Product structure:**
+Each utility is a licensee. The head-end server validates the utility on start-up and every few hours. It's the only component that talks to NetLicensing. The meters themselves never do.
 
 ```
-Product: Smart Meter Universal Hardware
-├── Module: Basic Metering (always enabled)
-│   └── Template: Consumption Measurement (no license needed, built-in)
-├── Module: Advanced Features
-│   ├── Template: Demand Response (Node-Locked, price=$2/meter/mo)
-│   ├── Template: Power Quality Analytics (Node-Locked, price=$1.50/meter/mo)
-│   ├── Template: Tamper Detection (Node-Locked, price=$0.75/meter/mo)
-│   ├── Template: Load Profiling (Node-Locked, price=$1/meter/mo)
-│   └── Template: DER Management (Node-Locked, price=$3/meter/mo)
-└── Module: Trial Features
-    └── Template: 30-Day Trial (Multi-Feature, all features, free)
+Product: GridHead HES
+├── Module "Meters" – Quota
+│   └── Meter block: QUANTITY, quantity = 10000
+├── Module "Analytics" – Multi-Feature
+│   └── FEATURE templates: POWER-QUALITY, OUTAGE-MAP, THEFT-DETECTION
+├── Module "On-demand reads" – Pay-per-Use
+│   └── 10,000 reads: QUANTITY 10000
+└── Module "Support" – Subscription
+    └── 1 year: TIMEVOLUME 1 YEAR
 ```
 
-**Key parameters per template:**
+**Meter count.** The [Quota](https://netlicensing.io/wiki/quota) module returns how many meters the utility has licensed: the sum of its meter blocks. The head-end system knows how many meters are commissioned, and it compares the two. Commissioning stops with a clear message once the quota is reached. A utility that grows buys another block of 10,000.
 
-- **Perpetual features:** `price=$2–$3 per meter (one-time), quantity=1`
-- **Pay-Per-Use features:** `price=$2–$3 per month per active meter, quantity=1, timeVolume=1, timeVolumePeriod=MONTH`
-- **Node binding:** `nodeSecretMode=PREDEFINED, nodeSecret=METER_SERIAL_12345`
-- **Trial:** `timeVolume=30, timeVolumePeriod=DAY, price=0`
+**Analytics.** Optional modules are [Multi-Feature](https://netlicensing.io/wiki/multi-feature) licenses. The head-end system switches each analytics screen and job on or off according to the validation result.
 
-**Sample Node-Locked license creation:**
+**On-demand reads.** Each read outside the schedule uses one [Pay-per-Use](https://netlicensing.io/wiki/pay-per-use) credit. The head-end server counts them and reports them in batches:
 
-```json
-{
-  "licenseeNumber": "UTILITY-ABC-METER-12345",
-  "licenseTemplateNumber": "DEMAND-RESPONSE-FEATURE",
-  "nodeSecret": "MFM-300-SN-9876543210",
-  "number": "LIC-ABC-12345-DR",
-  "active": true
-}
+```bash
+curl -u apiKey:SERVER_API_KEY -H "Accept: application/xml" \
+  -d "productModuleNumber0=M-ONDEMAND" -d "usedQuantity0=412" \
+  -d "commissionedMeters=48731" \
+  https://go.netlicensing.io/core/v2/rest/licensee/UTIL-NORDSTROM-ENERGI/validate
 ```
 
-### Integration Walkthrough
+The response contains the meter `quota`, the analytics features, the support contract's `expires` date and the `remainingQuantity` of on-demand reads, all in one answer. Scheduled reads are never limited. When on-demand credits run out, only on-demand requests are refused, and operators see how many are left on the dashboard.
 
-**Meter feature validation at startup:**
+#### In the utility's data centre
 
-```
-Smart Meter boots / connects to MDMS
-  ↓
-Embedded software reads hardware serial (BIOS)
-  ↓
-MDMS calls GET /licensee/{serialNumber}/validate
-  ↓
-NetLicensing returns active features for this meter:
-  {
-    "valid": true,
-    "demandResponse": true,
-    "powerQuality": false,
-    "tamperDetection": true,
-    "loadProfiling": true,
-    "derManagement": false
-  }
-  ↓
-Meter loads only enabled features; disabled features excluded from firmware
-```
+Utility networks are tightly controlled. The head-end server reaches NetLicensing through the utility's outbound proxy, and only that one host is allowed. Responses are signed, and the server keeps the last signed result until its `ttl`, so a proxy maintenance window doesn't affect operations. Utilities whose policy doesn't allow any outbound connection use the [NetLicensing Agent](https://netlicensing.io/wiki/netlicensing-agent) inside their network instead. Pay-per-Use isn't recommended on the current Agent release, so those utilities get on-demand reads as part of their contract.
 
-**Utility purchases feature upgrade (MDMS portal):**
+#### Alerts
 
-```
-Utility admin selects "Enable Power Quality Analytics for all 5,000 meters"
-  ↓
-MDMS backend calls:
-  POST /license (for each meter)
-    licenseTemplateNumber=POWER-QUALITY
-    nodeSecret=METER_SERIAL_1, etc.
-  ↓
-Meters validate on next sync (within 24 hrs)
-  ↓
-Power Quality feature automatically enabled; zero truck rolls needed
-```
+A [webhook](https://netlicensing.io/wiki/notifications) for `WARNING_LEVEL_CHANGED` alerts the supplier's account manager when a utility's on-demand credits get low. The head-end server also sends its current meter count with each validation (`commissionedMeters` above). NetLicensing stores any extra validation parameter as a licensee property, so the account manager sees the count in the Console and can offer the next meter block before commissioning stops.
 
-**Pay-Per-Use billing flow:**
+### Results
 
-```
-Each month, MDMS queries per-feature usage:
-  ↓
-MDMS reports back to NetLicensing:
-  POST /usage
-    feature=demandResponse, count=4800 meters used this month
-    feature=powerQuality, count=2100 meters used this month
-  ↓
-NetLicensing calculates charges:
-  4800 meters × $2/mo = $9,600
-  2100 meters × $1.50/mo = $3,150
-  ↓
-Monthly invoice reflects actual usage, not theoretical capacity
-```
+- Utilities pay for the meters they actually run, in blocks they buy as the rollout progresses.
+- Analytics modules are switched on remotely, with no new software installation.
+- On-demand reads, which cost network capacity, are now metered and paid for.
+- One signed validation per server gives the head-end system everything it needs.
 
-**Trial-to-paid conversion:**
-
-```
-Utility creates trial account; MDMS provisions all meters with
-  temporaryTrialLicense, timeVolume=30 days
-  ↓
-Meters validate; all features enabled for evaluation
-  ↓
-After 30 days, trial license expires
-  ↓
-Utility converts to paid: selects which features to keep
-  ↓
-MDMS creates perpetual or Pay-Per-Use licenses for selected features
-  ↓
-Meters re-validate; only licensed features remain enabled
-```
-
-### Licensee Management
-
-A Licensee = a unique meter device:
-
-- `licenseeNumber = UTILITY_ID + METER_SERIAL_NUMBER` (e.g., `UTILITY-ABC-MFM300-SN9876543210`)
-- Created automatically when meter is manufactured and registered in MDMS
-- No manual Licensee provisioning; bulk-register all meters at factory
-
-Features are assigned via licenses. Utility upgrades features by purchasing licenses, which are automatically associated with the meter's Licensee at validation time.
-
-### Edge Cases & Best Practices
-
-- **Offline operation grace period:** Meter caches signed license tokens locally for 90 days; can operate offline during temporary network outage (rural areas, cell dead zones); after 90 days without validation, block operation until connection restored.
-- **Feature rollback (downgrade):** If meter's feature license expires, automatically disable that feature on next validation; meter continues operating with remaining features (safe degradation).
-- **Bulk feature activation:** MDMS supports batch operations: "Activate Demand Response for all 10,000 meters in Region X"; one API call provisions 10,000 licenses in seconds.
-- **Tamper detection audit trail:** Log all feature activations/deactivations with timestamp and reason (for regulatory compliance); enable utilities to prove which features were enabled when, for billing disputes.
-- **Meter replacement:** If meter hardware is swapped (serial changes), manually reassign licenses to new serial via MDMS; old serial's licenses automatically revoked.
-- **Geofencing:** Bind licenses to utility territory (via Licensee custom attributes) to prevent accidental activation in wrong region; validate territory during license creation.
-
-### Results & Outcome
-
-- Hardware SKU complexity eliminated; single universal meter deployed across all utility tiers and feature levels
-- Post-deployment feature upgrades became recurring revenue stream (0% field service cost); transformed business from one-time hardware to ongoing software revenue
-- Feature activation reduced from 3–6 months (truck rolls, firmware updates) to minutes (API-driven remote activation)
-- Utility customer satisfaction improved; buyers deploy base functionality immediately and scale features as grid modernization budgets evolve
-- Pay-Per-Use licensing attracted budget-constrained utilities, expanded addressable market and accelerated feature adoption
-- Firmware version fragmentation eliminated; single firmware build in field simplifies support and QA complexity by 70%
-- Sales cycle friction reduced; sales team offers pilot programs (30-day free trial on all features) instead of feature-limited demo units, improving proof-of-concept conversion by 45%
+Licensing software for utilities or critical infrastructure? [Contact us](https://netlicensing.io/contact/).
