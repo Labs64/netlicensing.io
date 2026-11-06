@@ -1,0 +1,21 @@
+{%- comment -%}
+  Feature rows of one plan column on /pricing/.
+  Usage: {% include pricing-features.html plan="basic" %}
+  plan: column key in _data/pricing.yml (free, basic, premium, enterprise).
+  "Y" and "N" render as check / empty square; any other value is shown as is.
+{%- endcomment -%}
+<ul>
+    {%- for feature in site.data.pricing %}
+    {%- assign value = feature[include.plan] %}
+    <li>
+        <span class="NL_price_feature"> {{ feature.name }} </span>
+        {% if value == "Y" -%}
+        <i class="fa fa-check-square" aria-hidden="true"></i><span class="sr-only">Yes</span>
+        {%- elsif value == "N" -%}
+        <i class="fa fa-square-o" aria-hidden="true"></i><span class="sr-only">No</span>
+        {%- else -%}
+        {{ value }}
+        {%- endif %}
+    </li>
+    {%- endfor %}
+</ul>

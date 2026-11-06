@@ -3,3 +3,13 @@
 
 @import "variables";
 @import "highlights";
+@import "pricing";
+
+// The Enterprise menu item makes the top nav too wide at 768-991px and it wraps
+// onto a second row; tighter side padding keeps it on one row.
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-nav.NL_main_menu > li > a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
