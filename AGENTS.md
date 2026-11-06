@@ -53,7 +53,6 @@ netlicensing.io/
 │   ├── features.yml         # Feature cards on /features/
 │   ├── licensingmodels.yml  # Licensing model cards on /licensing-models/
 │   ├── pricing.yml          # Pricing table rows on /pricing/
-│   ├── customplans.yml      # Custom plan cards on /pricing/
 │   ├── usecases.yml         # Use case tiles on homepage
 │   ├── testimonials.yml     # Testimonial quotes on homepage
 │   ├── navigation.yml       # Top nav links
@@ -63,6 +62,7 @@ netlicensing.io/
 │
 ├── _scss/               # SCSS source files
 │   ├── _variables.scss  # Color/font variables
+│   ├── _pricing.scss    # Pricing page: plan picker and pricing table
 │   └── highlights.scss  # Code syntax highlighting
 │
 ├── img/                 # Static images
@@ -297,7 +297,7 @@ Controls feature cards on `/features/` and `/features-all/`.
 ```
 
 ### `_data/licensingmodels.yml`
-Controls licensing model cards on `/licensing-models/`.
+Controls licensing model cards on `/licensing-models/` and the models menu of the plan picker on `/pricing/`.
 ```yaml
 - name: "Model Name"
   aliases:
@@ -310,7 +310,11 @@ Controls licensing model cards on `/licensing-models/`.
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-slug.png'
   url: "https://netlicensing.io/wiki/slug"
+  plans: [basic, premium]   # fixed plans that include the model; Select includes all; [] = Select only
+  summary: "One line shown in the plan picker."
+  picker: false             # optional: leave the model out of the plan picker
 ```
+Keep `plans` in line with the "Licensing Models" row of `_data/pricing.yml`, which is what the pricing table displays.
 
 ### `_data/pricing.yml`
 Controls pricing table rows on `/pricing/`.
@@ -435,6 +439,8 @@ SEO meta is computed once in `_includes/head.html` (`seo_title`, `seo_descriptio
 | `credit-tracker.html` | Image attribution lookup from `_data/images.yml` |
 | `disqus.html` | Disqus comments (conditional on config) |
 | `addthis.html` | AddThis social sharing (conditional on config) |
+| `plan-picker.html` | Plan picker on `/pricing/` (script: `js/plan-picker.js`, styles: `_scss/_pricing.scss`) |
+| `pricing-features.html` | Feature rows of one pricing table column (`plan="free"`, `basic`, `premium`, `enterprise`) |
 
 ---
 
@@ -448,13 +454,14 @@ SEO meta is computed once in `_includes/head.html` (`seo_title`, `seo_descriptio
 
 ### Add a new licensing model
 1. Open `_data/licensingmodels.yml`
-2. Add entry with `name`, `aliases`, `description`, `tags`, `status`, `img`, `url`
+2. Add entry with `name`, `aliases`, `description`, `tags`, `status`, `img`, `url`, `plans`, `summary`
 3. Add model image to `/img/licensing-model/`
 4. Register image in `_data/images.yml`
 
 ### Update pricing table
 1. Open `_data/pricing.yml`
 2. Add or modify rows; use `Y`/`N` for boolean cells, or free-text/HTML for complex values
+3. The plan picker reads the "Active products" and "Customers" rows as plan limits, so keep those values plain numbers
 
 ### Add a testimonial
 1. Open `_data/testimonials.yml`

@@ -36,9 +36,9 @@
   enterprise: "customizable"
 
 - name: "Licensing Models<br/>&nbsp;"
-  free: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/pricing-table'>Pricing Table</a><br/>&nbsp;"
-  basic: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a><br/>&nbsp;"
-  premium: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a> &#8226; <a href='https://netlicensing.io/wiki/floating'>Floating</a> &#8226; <a href='https://netlicensing.io/wiki/node-locked'>Node-Locked</a>"
+  free: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/discount'>Discount</a><br/>&nbsp;"
+  basic: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/discount'>Discount</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a><br/>&nbsp;"
+  premium: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/discount'>Discount</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a> &#8226; <a href='https://netlicensing.io/wiki/floating'>Floating</a> &#8226; <a href='https://netlicensing.io/wiki/node-locked'>Node-Locked</a>"
   enterprise: "<a href='/licensing-models/'>All supported</a><br/>&nbsp;"
 
 - name: "EU VAT Support"
@@ -105,4 +105,4 @@
   free: "Community Support<br/><a href='https://github.com/Labs64/NetLicensing-Community' target='_blank' rel='noopener nofollow'>GitHub</a>"
   basic: "Standard Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (3 days)"
   premium: "Premium Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (1 day)"
-  enterprise: "Priority Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> &#8226; Phone (4 hours) - 8/5"
+  enterprise: "Priority Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> &#8226; Phone - 8/5"

@@ -1,3 +1,13 @@
+# Licensing models shown on /licensing-models/ and used by the plan picker on /pricing/.
+#
+# plans: the fixed plans that include the model (free, basic, premium).
+#   Select includes every model, so it is not listed.
+#   An empty list means the model is available in Select only.
+#   Keep this in line with the "Licensing Models" row of _data/pricing.yml, which
+#   is what the pricing table displays.
+# summary: one line shown next to the model in the plan picker on /pricing/.
+# picker: set to false to leave a model out of the plan picker (e.g. models derived from others).
+
 - name: "Try & Buy"
   aliases:
    - Evaluation
@@ -5,6 +15,7 @@
    - Trialware
    - Functional-limited demo version
    - Time Limited Evaluation
+  summary: "Time-limited trial or demo before the customer buys"
   description: "This licensing model is useful in case you want to distribute secure trial or demo version of your product. Trial licenses are granted for a short time and allow customers to try the product before buying it. Usually, production-level work is not allowed and some features may be limited or disabled in demo mode. The product is completely disabled after trial license has expired, unless full-featured license is granted."
   tags:
    - time
@@ -12,7 +23,7 @@
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-try-and-buy.png'
   url: "https://netlicensing.io/wiki/try-n-buy"
-
+  plans: [free, basic, premium]
 
 - name: "Subscription"
   aliases:
@@ -20,23 +31,71 @@
    - Time-limited
    - Time-Based
    - TimeVolume
+  summary: "Access for a period, with renewal and auto-renewal"
   description: "Subscription licensing model allows user to enable product for a specific period of time, with the possibility of the subscription renewal (incl. auto-renewal with recurring payment support). Different subscription periods can be offered each with its own price."
   tags:
    - time
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-subscription.png'
   url: "https://netlicensing.io/wiki/subscription"
-
+  plans: [free, basic, premium]
 
 - name: "Discount"
   aliases:
    - Promo code
    - Coupon
+  summary: "Fixed or percentage discount at checkout, with promo codes"
   description: "Offer customers a fixed-amount or percentage discount at checkout with an optional promo code, availability period, and minimum cart total. Discount is supported by NetLicensing Shop."
   tags: []
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-discount.png'
   url: "https://netlicensing.io/wiki/discount"
+  plans: [free, basic, premium]
+
+- name: "Multi-Feature"
+  aliases:
+    - Pay-per-feature
+    - Feature-based
+    - Modular
+    - Multi-Module
+  summary: "Switch product features on or off per customer"
+  description: "This licensing model allows enabling or disabling product features on the user's needs and budget.
+                It may be used to create an upgrade path from a “lite” version to “standard,” “pro,” “enterprise” etc. versions without modifying the software or uninstalling the existing version."
+  tags:
+    - feature
+  status: "AVAILABLE"
+  img: '/img/licensing-model/licensing-model-multi-feature.png'
+  url: "https://netlicensing.io/wiki/multi-feature"
+  plans: [basic, premium]
+
+- name: "Floating"
+  aliases:
+    - Concurrent
+    - Network
+    - Shared
+  summary: "A set number of concurrent sessions"
+  description: "Floating licensing model authorizes the use of an application with the given number of sessions (users, hosts, etc.). The number of concurrent sessions is tracked, and the total number of running sessions of the licensed application at any time is limited by the maximum allowed sessions in the floating licenses purchased by the licensee."
+  tags:
+    - concurrent
+  status: "AVAILABLE"
+  img: '/img/licensing-model/licensing-model-floating.png'
+  url: "https://netlicensing.io/wiki/floating"
+  plans: [premium]
+
+- name: "Node-Locked"
+  aliases:
+    - Named host
+    - Local
+  summary: "Tied to one or more named computers"
+  description: "Software is licensed for use only on one or more named computer systems. Usually, CPU serial number verification is used to enforce this type of license."
+  tags:
+    - volume
+    - feature
+    - user
+  status: "AVAILABLE"
+  img: '/img/licensing-model/licensing-model-node-locked.png'
+  url: "https://netlicensing.io/wiki/node-locked"
+  plans: [premium]
 
 - name: "Pricing Table"
   aliases:
@@ -45,6 +104,7 @@
    - Membership Plan
    - Membership Management
    - SaaS Subscription
+  summary: "Plans and features per customer, with memberships"
   description: "Effectively model and manage pricing plans and features for your products and services using Pricing Table licensing model; as well as manage your customers and keep track of their <a href='/membership-management/' title='Membership Management Solution'>memberships</a> with the possibility to enable/disable individual features per customer."
   tags:
    - time
@@ -53,39 +113,14 @@
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-pricing-table.png'
   url: "https://netlicensing.io/wiki/pricing-table"
-
-
-- name: "Floating"
-  aliases:
-   - Concurrent
-   - Network
-   - Shared
-  description: "Floating licensing model authorizes the use of an application with the given number of sessions (users, hosts, etc.). The number of concurrent sessions is tracked, and the total number of running sessions of the licensed application at any time is limited by the maximum allowed sessions in the floating licenses purchased by the licensee."
-  tags:
-   - concurrent
-  status: "AVAILABLE"
-  img: '/img/licensing-model/licensing-model-floating.png'
-  url: "https://netlicensing.io/wiki/floating"
-
-
-- name: "Rental"
-  aliases:
-   - Leasing
-   - Feature with TimeVolume
-  description: "This is a complex licensing model, useful in the case you want to license multiple instances of some entity, each instance for a certain period of time. In other words it can be described as a bunch of independent subscriptions, where customer decides in addition for how many instances he wants to subscribe."
-  tags:
-   - time
-   - feature
-  status: "AVAILABLE"
-  img: '/img/licensing-model/licensing-model-rental.png'
-  url: "https://netlicensing.io/wiki/rental"
-
+  plans: []
 
 - name: "Pay-per-Use"
   aliases:
    - Pre-paid
    - Post-paid
    - Pay-per-click
+  summary: "Fees based on actual usage: time, count or volume"
   description: "Limits the quantity of the license uses, in addition to the license validity. License fees are based on the actual usage.
                 The usage may be defined by various metrics such as CPU load, network bandwidth utilization, or something related to the nature of your application.
                 The billing is tied to the usage model, which can be:<br/>
@@ -97,49 +132,7 @@
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-pay-per-use.png'
   url: "https://netlicensing.io/wiki/pay-per-use"
-
-
-- name: "Standard"
-  aliases:
-   - Permanent
-   - Single-user
-   - Perpetual
-  description: "This license is a non-transferable license allowing product use on a single computer and/or by a single user. Once purchased, the product can be used without limitations."
-  tags:
-   - user
-  status: "AVAILABLE"
-  img: '/img/licensing-model/licensing-model-standard.png'
-  url: "https://netlicensing.io/wiki/licensing-models"
-
-
-- name: "Multi-Feature"
-  aliases:
-   - Pay-per-feature
-   - Feature-based
-   - Modular
-   - Multi-Module
-  description: "This licensing model allows enabling or disabling product features on the user's needs and budget.
-                It may be used to create an upgrade path from a “lite” version to “standard,” “pro,” “enterprise” etc. versions without modifying the software or uninstalling the existing version."
-  tags:
-   - feature
-  status: "AVAILABLE"
-  img: '/img/licensing-model/licensing-model-multi-feature.png'
-  url: "https://netlicensing.io/wiki/multi-feature"
-
-
-- name: "Node-Locked"
-  aliases:
-   - Named host
-   - Local
-  description: "Software is licensed for use only on one or more named computer systems. Usually, CPU serial number verification is used to enforce this type of license."
-  tags:
-   - volume
-   - feature
-   - user
-  status: "AVAILABLE"
-  img: '/img/licensing-model/licensing-model-node-locked.png'
-  url: "https://netlicensing.io/wiki/node-locked"
-
+  plans: []
 
 - name: "Quota"
   aliases:
@@ -147,6 +140,7 @@
    - Capacity
    - Quantity
    - Volume
+  summary: "Capacity limits for a feature, such as units or requests"
   description: "This licensing model defines the capacity limits (e.g. units, requests, volume, etc.) for a certain product feature."
   tags:
    - volume
@@ -154,14 +148,46 @@
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-quota.png'
   url: "https://netlicensing.io/wiki/quota"
+  plans: []
 
+- name: "Rental"
+  aliases:
+    - Leasing
+    - Feature with TimeVolume
+  summary: "Many instances, each licensed for its own period"
+  description: "This is a complex licensing model, useful in the case you want to license multiple instances of some entity, each instance for a certain period of time. In other words it can be described as a bunch of independent subscriptions, where customer decides in addition for how many instances he wants to subscribe."
+  tags:
+    - time
+    - feature
+  status: "AVAILABLE"
+  img: '/img/licensing-model/licensing-model-rental.png'
+  url: "https://netlicensing.io/wiki/rental"
+  plans: []
 
 - name: "Named User"
   aliases:
    - Personal License
+  summary: "Rights granted to specific user IDs"
   description: "License rights are granted to specific user IDs. The software may be used on any computer by a user ID that is on a list of licensed users."
   tags:
    - user
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-named-user.png'
   url: "https://netlicensing.io/wiki/licensing-models"
+  plans: []
+  picker: false
+
+- name: "Standard"
+  aliases:
+    - Permanent
+    - Single-user
+    - Perpetual
+  summary: "Perpetual license for a single user or computer"
+  description: "This license is a non-transferable license allowing product use on a single computer and/or by a single user. Once purchased, the product can be used without limitations."
+  tags:
+    - user
+  status: "AVAILABLE"
+  img: '/img/licensing-model/licensing-model-standard.png'
+  url: "https://netlicensing.io/wiki/licensing-models"
+  plans: []
+  picker: false
