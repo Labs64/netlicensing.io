@@ -78,7 +78,7 @@ sitemap:
             <figcaption>
                 <img src="{{ '/img/features/netlicensing_enterprise.png' | prepend: site.baseurl | prepend: site.url }}" alt="Dedicated technical manager"/>
                 <h3>A Named Expert on Your Side</h3>
-                <p>A dedicated technical manager for your rollout, phone support, and consulting and tutoring at every stage.</p>
+                <p>A dedicated technical manager for your rollout, phone support, and consulting, tutoring and migration support at every stage.</p>
             </figcaption>
         </figure>
     </div>
@@ -103,7 +103,7 @@ sitemap:
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Run It Where Your Security Team Wants It</h2>
-                <span>Pick a dedicated managed environment that we operate, or self-host with Docker Compose or Kubernetes. Sites without internet access validate licenses offline with the NetLicensing Agent, and virtual environments are supported.</span>
+                <span>Pick a dedicated managed environment that we operate, or self-host with Docker Compose or Kubernetes. Sites without internet access validate licenses offline with the NetLicensing Agent, and virtual environments are supported. On request, we set up a separate test environment, so you can try integrations and releases before they reach production licensing.</span>
                 <br><br>
                 <a href="/features/">All platform features &rarr;</a>
             </article>
@@ -184,7 +184,7 @@ sitemap:
             <figcaption>
                 <img src="{{ '/img/features/integrated_payment_services.png' | prepend: site.baseurl | prepend: site.url }}" alt="Offer and contract"/>
                 <h3>4. Offer and contract</h3>
-                <p>Limits, deployment and services are agreed per deal. Custom development and priority feature requests are scoped and priced separately, so you only pay for what you need.</p>
+                <p>Limits, deployment and services are agreed per deal. Custom development, priority feature requests and migration from your current licensing system are scoped and priced separately, so you only pay for what you need.</p>
             </figcaption>
         </figure>
     </div>

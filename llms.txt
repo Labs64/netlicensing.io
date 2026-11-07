@@ -53,7 +53,7 @@ New accounts receive a **30-day free Premium trial** (all features, no credit ca
 | Community | Free           | 1               | 50         | 1/min        | Attribution required; Try&Buy, Subscription, Discount models; PayPal only |
 | Basic     | €120/month (annual) | 3           | 100        | 1/min        | All online PSP; Try&Buy, Subscription, Discount, Multi-Feature models; EU VAT |
 | Premium   | €380/month (annual) | 10         | 500        | 1/sec        | Try&Buy, Subscription, Discount, Multi-Feature, Floating, Node-Locked models; Shop customization; Customer Portal; Premium support |
-| Select    | Contact sales  | Customizable    | Customizable | Customizable | All models; SLA 99%; NetLicensing Agent; Dedicated managed environment; Revenue Sharing; self-hosting; SSO via standard protocols such as OpenID Connect (enabled and tested per customer); audit log; dedicated technical manager, custom development and priority feature requests (priced per deal); individually tailored pricing and feature set — contact sales for a custom quote |
+| Select    | Contact sales  | Customizable    | Customizable | Customizable | All models; SLA 99%; NetLicensing Agent; Dedicated managed environment; separate test environment on request; Revenue Sharing; self-hosting; SSO via standard protocols such as OpenID Connect (enabled and tested per customer); audit log; dedicated technical manager, custom development, priority feature requests and migration from other licensing systems (priced per deal); individually tailored pricing and feature set — contact sales for a custom quote |
 
 API Rate Limit is a guaranteed minimum throughput per vendor account (shared across all its products); when the system is not busy, requests are typically served faster.
 
