@@ -17,12 +17,23 @@
                 </a>
                 <a href="{{ site.company_url }}" class="NL_by" target="_blank">by {{ site.company }}</a>
             </div>
-            <div class="NL_topnav_sticker">
+            {%- include promo-state.html %}
+            <div class="NL_topnav_sticker"{% if promo_live %} data-promo-off{% endif %}>
                 <a href="{{ site.topnav_sticker_url }}" onclick="{{ site.topnav_sticker_onclick }}" target="{{ site.topnav_sticker_target }}">
                     <img alt="{{ site.topnav_sticker_text }}"
                          src="{{ site.topnav_sticker_image | prepend: site.baseurl | prepend: site.url }}"/>
                 </a>
             </div>
+            {%- if promo_live %}
+            <div class="NL_topnav_sticker" data-promo-on hidden>
+                <a href="{{ promo.sticker_url | prepend: site.baseurl }}">
+                    <img alt="{{ promo.sticker_text }}"
+                         src="{{ promo.sticker_image | prepend: site.baseurl | prepend: site.url }}"/>
+                </a>
+            </div>
+            <span id="promo" hidden data-start="{{ promo.start }}" data-end="{{ promo.end }}"></span>
+            <script src="{{ '/js/promo.js' | prepend: site.baseurl }}?v={{ site.time | date: '%Y%m%d%H%M' }}" defer></script>
+            {%- endif %}
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

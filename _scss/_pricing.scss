@@ -259,7 +259,20 @@
 // Reassurance line under the sign-up buttons.
 .NL_btn_note {
   margin: 8px 0 0;
+  padding: 0 12px;
   font-size: 13px;
   text-align: center;
   color: $text-dark;
+}
+
+// Promo offer: regular price struck through next to the offer price.
+.NL_promo_old {
+  font-size: 0.7em;
+  opacity: 0.6;
+}
+
+// Class display rules must not override [hidden] for the offer toggles.
+[data-promo-on][hidden],
+[data-promo-off][hidden] {
+  display: none !important;
 }

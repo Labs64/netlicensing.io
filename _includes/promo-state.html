@@ -1,0 +1,11 @@
+{%- comment -%}
+  Sets `promo` (site.promo) and `promo_live` (true until the end date at build time).
+  js/promo.js decides in the browser whether the offer is actually shown right now.
+{%- endcomment -%}
+{%- assign promo = site.promo -%}
+{%- assign promo_live = false -%}
+{%- if promo.end -%}
+  {%- assign promo_now = site.time | date: "%s" | plus: 0 -%}
+  {%- assign promo_end = promo.end | date: "%s" | plus: 0 -%}
+  {%- if promo_now <= promo_end -%}{%- assign promo_live = true -%}{%- endif -%}
+{%- endif -%}

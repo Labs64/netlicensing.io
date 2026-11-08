@@ -10,6 +10,24 @@ tags:
 - Enterprise
 - FAQ
 ---
+{%- comment -%}
+  Promo offer: dates, discount and promo code live in _config.yml (promo).
+  The markup is built until the end date; js/promo.js switches it on and off in the
+  browser, so the offer starts and ends on time without a rebuild.
+  data-promo-on = visible during the offer, data-promo-off = visible outside it.
+{%- endcomment -%}
+{% include promo-state.html %}
+{% if promo_live %}
+{% assign promo_keep = 100 | minus: promo.discount_percent %}
+{% assign basic_eur = 120 %}
+{% assign premium_eur = 380 %}
+{%- comment -%} Monthly offer price rounded up to whole euros, so checkout is never higher than shown. {%- endcomment -%}
+{% assign basic_offer = basic_eur | times: promo_keep | plus: 99 | divided_by: 100 %}
+{% assign premium_offer = premium_eur | times: promo_keep | plus: 99 | divided_by: 100 %}
+{% assign basic_save = basic_eur | minus: basic_offer | times: 12 %}
+{% assign premium_save = premium_eur | minus: premium_offer | times: 12 %}
+{% endif %}
+
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Grow better with the right plan</h1>
@@ -61,14 +79,21 @@ tags:
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_regular" data-plan="basic" data-products="{{ plan_products.basic }}" data-customers="{{ plan_customers.basic }}">
             <h3><strong class="NL_plan_name">Basic</strong><br/>For startups and growing businesses</h3>
-            <div class="NL_price_tag">120 € / month</div>
-            <div class="NL_price_tag_sub">billed annually</div>
+            <div class="NL_price_tag"{% if promo_live %} data-promo-off{% endif %}>120 € / month</div>
+            <div class="NL_price_tag_sub"{% if promo_live %} data-promo-off{% endif %}>billed annually</div>
+            {%- if promo_live %}
+            <div class="NL_price_tag" data-promo-on hidden><s class="NL_promo_old">120 €</s> {{ basic_offer }}<sup>*</sup> € / month</div>
+            <div class="NL_price_tag_sub" data-promo-on hidden>billed annually, first year</div>
+            {%- endif %}
             {% include pricing-features.html plan="basic" %}
 
             <div class="NL_btn NL_btn_pricing">
                 <a href="https://ui.netlicensing.io/#/register?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=basic"
-                   class="NL_button button_main NL_dark_btn">Start Free Trial</a>
-                <p class="NL_btn_note">No credit card required</p>
+                   {% if promo_live %}data-promo-href="https://ui.netlicensing.io/#/register?promoCode={{ promo.code }}&utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign={{ promo.campaign }}&utm_content=basic" {% endif %}class="NL_button button_main NL_dark_btn">Start Free Trial</a>
+                <p class="NL_btn_note"{% if promo_live %} data-promo-off{% endif %}>No credit card required</p>
+                {%- if promo_live %}
+                <p class="NL_btn_note" data-promo-on hidden><sup>*</sup> {{ promo.name }}: Save {{ basic_save }} € in year one. New customers, code {{ promo.code }} is applied at sign-up.</p>
+                {%- endif %}
             </div>
         </div>
     </div>
@@ -76,14 +101,21 @@ tags:
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_features NL_price_promo" data-plan="premium" data-products="{{ plan_products.premium }}" data-customers="{{ plan_customers.premium }}">
             <h3><strong class="NL_plan_name">Premium</strong><br/>Full featured for comprehensive products</h3>
-            <div class="NL_price_tag">380 € / month</div>
-            <div class="NL_price_tag_sub">billed annually</div>
+            <div class="NL_price_tag"{% if promo_live %} data-promo-off{% endif %}>380 € / month</div>
+            <div class="NL_price_tag_sub"{% if promo_live %} data-promo-off{% endif %}>billed annually</div>
+            {%- if promo_live %}
+            <div class="NL_price_tag" data-promo-on hidden><s class="NL_promo_old">380 €</s> {{ premium_offer }}<sup>*</sup> € / month</div>
+            <div class="NL_price_tag_sub" data-promo-on hidden>billed annually, first year</div>
+            {%- endif %}
             {% include pricing-features.html plan="premium" %}
 
             <div class="NL_btn NL_btn_pricing">
                 <a href="https://ui.netlicensing.io/#/register?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=premium"
-                   class="NL_button button_main NL_dark_btn">Start Free Trial</a>
-                <p class="NL_btn_note">No credit card required</p>
+                   {% if promo_live %}data-promo-href="https://ui.netlicensing.io/#/register?promoCode={{ promo.code }}&utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign={{ promo.campaign }}&utm_content=premium" {% endif %}class="NL_button button_main NL_dark_btn">Start Free Trial</a>
+                <p class="NL_btn_note"{% if promo_live %} data-promo-off{% endif %}>No credit card required</p>
+                {%- if promo_live %}
+                <p class="NL_btn_note" data-promo-on hidden><sup>*</sup> {{ promo.name }}: Save {{ premium_save }} € in year one. New customers, code {{ promo.code }} is applied at sign-up.</p>
+                {%- endif %}
             </div>
         </div>
     </div>
@@ -124,6 +156,23 @@ tags:
 <div id="faq" class="row NL_block">
     <h2 class="col-md-12">You may still have some questions, so here's our FAQ</h2>
 </div>
+
+{%- if promo_live %}
+<div data-promo-on hidden>
+<div class="row NL_FAQ">
+    <div class="col-md-5 col-md-offset-1">
+        <h3>Who can use the {{ promo.name }} offer?</h3>
+
+        <p>New customers who register with promo code <strong>{{ promo.code }}</strong> between {{ promo.start | date: "%B %-d, %Y" }} and {{ promo.end | date: "%B %-d, %Y" }}. The offer does not apply to upgrades of existing accounts.</p>
+    </div>
+    <div class="col-md-4 col-md-offset-1">
+        <h3>Does the {{ promo.discount_percent }}% also apply to renewals?</h3>
+
+        <p>No. It reduces the price of the first year of our paid plans. After that the regular plan price applies. Prefer an invoice to the checkout - <a title="Contact" href="/contact/">Contact us</a> and mention the code.</p>
+    </div>
+</div>
+</div>
+{%- endif %}
 
 <div class="row NL_FAQ">
     <div class="col-md-5 col-md-offset-1">
@@ -179,3 +228,4 @@ tags:
             specific needs.</p>
     </div>
 </div>
+

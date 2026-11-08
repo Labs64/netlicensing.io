@@ -32,12 +32,18 @@ dns_prefetch:
 # Styling
 stage_banner_image: "../img/netlicensing-stage-banner-01.png"
 
-# Blog
-blog_placeholder_image: "/img/blog/blog-placeholder.jpg"
-blog_recommended_posts:
- - /blog/2020/09/24/authenticate-authorize-validate-framework/
- - /blog/2015/10/24/infographic-how-to-select-licensing-model/
- - /blog/2020/11/18/onboard-users-using-interactive-product-tours-with-guidechimp/
+# Promo offer on /pricing/ (shown between start and end, see pages/pricing.md and js/promo.js)
+promo:
+  name: "Cyber Weeks 2026"
+  start: "2026-11-23T00:00:00+01:00"
+  end: "2026-12-06T23:59:59+01:00"
+  discount_percent: 26
+  code: "CYBER2026"
+  campaign: "cyberweeks-2026"
+  # Top-nav sticker shown instead of the regular TopNav sticker during the offer
+  sticker_text: "Cyber Weeks Deal"
+  sticker_image: "/img/netlicensing-promo-sticker.png"
+  sticker_url: "/pricing/"
 
 # TopNav sticker
 topnav_sticker_text: "Request a Demo"
@@ -46,6 +52,13 @@ topnav_sticker_onclick: "Calendly.initPopupWidget({url: 'https://calendly.com/ne
 topnav_sticker_image: "/img/netlicensing-demo.png"
 topnav_sticker_target: "_blank"
 calendly_enabled: true
+
+# Blog
+blog_placeholder_image: "/img/blog/blog-placeholder.jpg"
+blog_recommended_posts:
+  - /blog/2020/09/24/authenticate-authorize-validate-framework/
+  - /blog/2015/10/24/infographic-how-to-select-licensing-model/
+  - /blog/2020/11/18/onboard-users-using-interactive-product-tours-with-guidechimp/
 
 # SEO & Other Modules
 # NOTE: UA tracking was sunset by Google in July 2024. Replace with GA4 measurement ID (G-XXXXXXXXXX).
