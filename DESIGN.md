@@ -15,14 +15,12 @@ colors:
   brand-grey-66: "#666666"
   brand-grey-97: "#979797"
   brand-grey-9a: "#9A9A9A"
-  # Site tints, surfaces and text greys not on the brand sheet (see Colors)
+  # Site tints and surfaces not on the brand sheet (see Colors)
   apricot: "#F9E1C4"
   peach: "#FDDCB5"
   cream-wash: "#FFF8EF"
   page-paper: "#F9F9F9"
   white: "#FFFFFF"
-  ink: "#333333"
-  mist: "#BBBBBB"
   hairline: "#EEEEEE"
   rule: "#E7E7E7"
   banner-yellow: "#FEFBA9"
@@ -125,7 +123,7 @@ Structure is plain Bootstrap 3: centered headings, grid rows, flat sections. Dep
 
 ## Colors
 
-The brand sheet defines one hot orange-red, a warm family around it (light orange, amber, umber, sienna), and a neutral grey ramp. The site applies it on near-white paper: umber for headings and links, ember for hover and emphasis, with apricot and cream tints and two legacy text greys that the brand sheet does not list.
+The brand sheet defines one hot orange-red, a warm family around it (light orange, amber, umber, sienna), and a neutral grey ramp. The site applies it on near-white paper: umber for headings and links, ember for hover and emphasis, #515151 body text and #9A9A9A meta text, with apricot and cream tints that the brand sheet does not list.
 
 ### Brand palette (normative)
 - **Ember** (#E14817): the brand primary. Hover, badges, footer field, emphasis.
@@ -140,16 +138,12 @@ The brand sheet defines one hot orange-red, a warm family around it (light orang
 - **#979797**, **#9A9A9A**: meta text, disabled states, tooltips.
 
 ### Site-only colours (not on the brand sheet)
-- **Ink** (#333) and **Mist** (#BBB): body and meta text; nearest brand neutrals are #515151 and #9A9A9A. Mist (#BBB) on white is also below readable contrast.
 - **Apricot** (#F9E1C4), **Peach** (#FDDCB5), **Cream Wash** (#FFF8EF), **Page Paper** (#F9F9F9), **Hairline** (#EEE), **Rule** (#E7E7E7), **Banner Yellow** (#FEFBA9): tints and surfaces. Tints of brand colours are acceptable; they are not separate brand colours.
 
 ### Named Rules
 **The Brand Sheet Rule.** New work draws colour only from the brand palette and tints of it. Site-only colours are legacy; do not extend their use.
 **The Reaction Rule.** Umber at rest, ember on hover/active. Do not swap them.
 **The Footer Fire Rule.** Large ember fields appear only in the footer and tiny badges; sections stay on white or paper.
-
-### Open decision
-Headings, links, dark buttons, theme-color and the Calendly accent use Umber; the pricing ring uses Amber. Still off-brand: body ink `#333` (brand `#515151`) and meta grey `#BBB` (brand `#9A9A9A`). Not yet migrated.
 
 ## Typography
 
@@ -159,14 +153,14 @@ Headings, links, dark buttons, theme-color and the Calendly accent use Umber; th
 
 ### Hierarchy
 - **Display** (300, 36px, 42px): h1 in hero banners, white on the stage image; umber on blog posts.
-- **Headline** (300, 24px, 36px): h2 section titles, centered, ink.
+- **Headline** (300, 24px, 36px): h2 section titles, centered, #515151.
 - **Title** (300, 18px, 24px): h3 card and column titles, umber.
-- **Body** (300, 15px, 22px): paragraphs and spans, ink.
+- **Body** (300, 15px, 22px): paragraphs and spans, #515151.
 - **Label** (400, 10-12px, uppercase for badges): watermarks, tags, footer legal.
 
 ### Named Rules
 **The Light Weight Rule.** Headings stay 300. Do not introduce bold headings; use size and colour.
-**The Span Trap Rule.** `span` is globally 15px/#333; components that nest spans (pills, pickers) must reset to `inherit`.
+**The Span Trap Rule.** `span` is globally 15px/#515151; components that nest spans (pills, pickers) must reset to `inherit`.
 
 ## Layout
 

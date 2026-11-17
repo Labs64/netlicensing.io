@@ -15,7 +15,7 @@ body {
 
 p, span {
     font-size: 15px;
-    color: #333;
+    color: #515151;
     line-height: 22px;
 }
 
@@ -31,7 +31,7 @@ h1 {
 
 h2 {
     font-size: 24px;
-    color: #333;
+    color: #515151;
     line-height: 36px;
     text-align: center;
 }
@@ -44,7 +44,7 @@ h3 {
 
 h4 {
     font-size: 16px;
-    color: #333;
+    color: #515151;
     line-height: 24px;
 }
 
@@ -80,7 +80,7 @@ section#articles {
 }
 
 p.blog_img_credit {
-    color: #bbb;
+    color: #9A9A9A;
     margin-top: 20px;
 }
 
@@ -94,7 +94,7 @@ p.blog_img_credit {
 }
 
 .post-meta {
-    color: #bbb;
+    color: #9A9A9A;
 }
 
 .post-meta address {
@@ -260,7 +260,7 @@ img.NL_post_img {
 
 /*----------  Blog Search  -----------*/
 input.gsc-input {
-    border-color: #BBBBBB !important;
+    border-color: #9A9A9A !important;
     padding: 5px 6px !important;
 }
 
@@ -351,7 +351,7 @@ input.gsc-search-button:hover {
 
 /* card meta */
 .card__meta {
-    color: #bbb;
+    color: #9A9A9A;
 }
 
 .card__meta address {
@@ -464,7 +464,7 @@ input.gsc-search-button:hover {
 
 .NL_intro span {
     font-size: 16px;
-    color: #333;
+    color: #515151;
     font-weight: 300;
     line-height: 24px;
 }
@@ -579,7 +579,7 @@ div[data-toggle="modal"] img {
 /*----------   NL Tooltip  -----------*/
 .tooltip-inner {
     opacity: 1;
-    color: #333;
+    color: #515151;
     background-color: #fddcb5;
     border-color: #fddcb5;
 }
@@ -664,7 +664,7 @@ form {
 }
 
 .NL_container span {
-    color: #333;
+    color: #515151;
     font-size: 16px;
     line-height: 24px;
 }
@@ -876,7 +876,7 @@ div.in > .NL_accordion_content {
     display: block;
     font-size: 14px;
     font-weight: 400;
-    color: #333;
+    color: #515151;
     line-height: 20px;
     margin-bottom: 2px;
 }
@@ -1484,13 +1484,13 @@ a.NL_cases_card:hover .view-info p {
 
 .testimonial-author {
     margin: 0 0 0 25px;
-    color: #333;
+    color: #515151;
     text-align: left;
 }
 
 .testimonial-author span {
     font-size: 13px;
-    color: #333;
+    color: #515151;
 }
 
 /*----------  Testimonial (end)  -----------*/
