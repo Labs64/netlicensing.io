@@ -2199,3 +2199,48 @@
   author: "NetLicensing"
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io
+
+- id: netlicensing-ai-agents-safe-licensing-access
+  source: /img/blog/netlicensing-ai-agents-safe-licensing-access.png
+  title: "Giving AI Agents Safe Access to Your Licensing Data"
+  caption: "An AI agent reaches NetLicensing through the MCP server or the REST API, limited by its API key role"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-saas-ai-era-hero
+  source: /img/blog/netlicensing-saas-ai-era-hero.png
+  title: "SaaS in the AI Era"
+  caption: "SaaS in the AI Era: AI readiness, vertical depth and API-first design"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-saas-ai-era-ui-first-vs-agent-ready
+  source: /img/blog/netlicensing-saas-ai-era-ui-first-vs-agent-ready.png
+  title: "SaaS in the AI Era: UI-first versus agent-ready SaaS"
+  caption: "UI-first SaaS compared with agent-ready SaaS"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-saas-ai-era-decision-and-execution
+  source: /img/blog/netlicensing-saas-ai-era-decision-and-execution.png
+  title: "The model proposes, the backend decides"
+  caption: "An AI model proposes an action, a deterministic layer decides and executes, and every step is logged"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-ai-agents-safe-access-hero
+  source: /img/blog/netlicensing-ai-agents-safe-access-hero.png
+  title: "Giving AI Agents Safe Access to Your Licensing Data"
+  caption: "Giving AI Agents Safe Access to Your Licensing Data"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
