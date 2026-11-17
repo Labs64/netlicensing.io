@@ -29,7 +29,7 @@ sitemap:
         <span>Run NetLicensing on your own infrastructure or in a dedicated environment we operate. A contractual SLA backs it, and a technical manager guides your rollout.</span>
         <div class="row">
             <div class="col-md-4 col-md-offset-2">
-                <a href="/contact/?utm_source=netlicensing.io_enterprise&amp;utm_medium=website&amp;utm_campaign=netlicensing.io_enterprise&amp;utm_content=enterprise-hero"{% if site.calendly_enabled %} onclick="Calendly.initPopupWidget({url: 'https://calendly.com/netlicensing/netlicensing-demo?primary_color=853E29'});return false;"{% endif %} class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-calendar"></i>Book a call</a>
+                <a href="/contact/?utm_source=netlicensing.io_enterprise&amp;utm_medium=website&amp;utm_campaign=netlicensing.io_enterprise&amp;utm_content=enterprise-hero"{% if site.calendly_enabled %} onclick="Calendly.initPopupWidget({url: 'https://calendly.com/netlicensing/netlicensing-demo?primary_color=7B2A10'});return false;"{% endif %} class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-calendar"></i>Book a call</a>
             </div>
             <div class="col-md-4">
                 <a href="https://l64.cc/questionnaire" target="_blank" rel="noopener" class="NL_button button_main NL_light_btn" role="button"><i class="fa fa-sliders"></i>Describe your setup</a>
@@ -207,7 +207,7 @@ sitemap:
 
             <div class="row NL_cta_row">
                 <div class="col-sm-4 col-sm-offset-2">
-                    <a href="/contact/?utm_source=netlicensing.io_enterprise&amp;utm_medium=website&amp;utm_campaign=netlicensing.io_enterprise&amp;utm_content=enterprise-closing"{% if site.calendly_enabled %} onclick="Calendly.initPopupWidget({url: 'https://calendly.com/netlicensing/netlicensing-demo?primary_color=853E29'});return false;"{% endif %} class="NL_button button_main NL_dark_btn NL_wide_btn">
+                    <a href="/contact/?utm_source=netlicensing.io_enterprise&amp;utm_medium=website&amp;utm_campaign=netlicensing.io_enterprise&amp;utm_content=enterprise-closing"{% if site.calendly_enabled %} onclick="Calendly.initPopupWidget({url: 'https://calendly.com/netlicensing/netlicensing-demo?primary_color=7B2A10'});return false;"{% endif %} class="NL_button button_main NL_dark_btn NL_wide_btn">
                         <i class="fa fa-calendar"></i>Book a call
                     </a>
                 </div>

@@ -38,7 +38,7 @@ h2 {
 
 h3 {
     font-size: 18px;
-    color: #853E29;
+    color: #7B2A10;
     line-height: 24px;
 }
 
@@ -49,8 +49,8 @@ h4 {
 }
 
 a, a:focus {
-    border-bottom: 1px dotted #853E29;
-    color: #853E29;
+    border-bottom: 1px dotted #7B2A10;
+    color: #7B2A10;
     background-color: transparent;
     text-decoration: none;
 }
@@ -86,7 +86,7 @@ p.blog_img_credit {
 
 .post h1 {
     padding-top: 20px;
-    color: #853E29;
+    color: #7B2A10;
 }
 
 .post {
@@ -234,7 +234,7 @@ blockquote {
 }
 
 .NL_related_post > a > div > h4 {
-    color: #853E29;
+    color: #7B2A10;
     line-height: 20px;
 }
 
@@ -506,7 +506,7 @@ input.gsc-search-button:hover {
 
 .L64_links,
 .L64_links a {
-    color: #853E29 !important;
+    color: #7B2A10 !important;
 }
 
 #uvTabLabel {
@@ -549,8 +549,8 @@ i.NL-see-popup {
 }
 
 div[data-toggle="modal"]:hover i {
-    color: #853E29;
-    border-color: #853E29;
+    color: #7B2A10;
+    border-color: #7B2A10;
 }
 
 div[data-toggle="modal"] {
@@ -629,7 +629,7 @@ form {
 }
 
 .NL_form_light span {
-    color: #853E29;
+    color: #7B2A10;
 }
 
 .NL_form_light button {
@@ -646,7 +646,7 @@ form {
 }
 
 .text-center h2 {
-    color: #853E29;
+    color: #7B2A10;
 }
 
 /*----------   NL Containers  -----------*/
@@ -670,7 +670,7 @@ form {
 }
 
 .NL_container h2 {
-    color: #853E29;
+    color: #7B2A10;
 }
 
 .NL_container button {
@@ -688,7 +688,7 @@ form {
     border-bottom: none;
     font-size: 18px;
     padding: 15px 20px;
-    color: #853E29;
+    color: #7B2A10;
     width: 100%;
 }
 
@@ -718,7 +718,7 @@ div.in > .NL_accordion_content {
 .NL_accordion_heading:hover,
 .NL_accordion_heading:active {
     background: #FFF;
-    border-top: 1px solid #853E29;
+    border-top: 1px solid #7B2A10;
 }
 
 .NL_accordion_panel {
@@ -837,7 +837,7 @@ div.in > .NL_accordion_content {
     padding: 20px;
     background-color: #fff;
     border: 1px solid #e7e7e7;
-    border-top: 3px solid #853E29;
+    border-top: 3px solid #7B2A10;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     opacity: 0;
@@ -882,7 +882,7 @@ div.in > .NL_accordion_content {
 }
 
 .NL_dropdown-item:hover .NL_dropdown-item-title {
-    color: #853E29;
+    color: #7B2A10;
 }
 
 .NL_dropdown-item-desc {
@@ -972,7 +972,7 @@ div.in > .NL_accordion_content {
 
 .NL_logo span {
     display: block;
-    color: #853E29;
+    color: #7B2A10;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -1006,7 +1006,7 @@ a.NL_by:hover {
 
 .NL_main_menu li a:hover,
 .NL_main_menu li a:active {
-    color: #853E29 !important;
+    color: #7B2A10 !important;
     background-color: #fff8ef !important;
 }
 
@@ -1021,7 +1021,7 @@ a.NL_by:hover {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #853E29;
+    background-color: #7B2A10;
 }
 
 /*----------   Footer  -----------*/
@@ -1075,7 +1075,7 @@ footer {
 }
 
 .NL_footer_menu a:hover {
-    color: #853E29;
+    color: #7B2A10;
 }
 
 .NL_footer_menu ul {
@@ -1329,7 +1329,7 @@ img.view-img {
     font-weight: 400;
     line-height: 17px;
     position: relative;
-    color: #853E29;
+    color: #7B2A10;
     margin: 0;
     padding: 0 12px;
     text-align: center;
@@ -1498,16 +1498,16 @@ a.NL_cases_card:hover .view-info p {
 /*----------  Cookie Consent  -----------*/
 .cc_container .cc_btn:hover, .cc_container .cc_btn:active {
     color: #fff !important;
-    background-color: #853E29 !important;
+    background-color: #7B2A10 !important;
 }
 
 .cc_container .cc_btn, .cc_container .cc_btn:visited {
     color: #fff !important;
-    background-color: #853E29 !important;
+    background-color: #7B2A10 !important;
 }
 
 .cc_container a, .cc_container a:visited {
-    color: #853E29 !important;
+    color: #7B2A10 !important;
 }
 
 /*----------  Cookie Consent (end)  -----------*/
@@ -1625,7 +1625,7 @@ article.cbp-so-side-left h2 {
     margin: 1em;
     padding: 0.5em 2em;
     background: none;
-    color: #853E29;
+    color: #7B2A10;
     font-size: 1.5rem;
     text-transform: uppercase;
     vertical-align: middle;
@@ -1661,7 +1661,7 @@ article.cbp-so-side-left h2 {
 }
 
 .NL_light_btn:hover {
-    color: #853E29;
+    color: #7B2A10;
     text-decoration: none;
     border: 2px solid #fff;
 }
@@ -1671,8 +1671,8 @@ article.cbp-so-side-left h2 {
     line-height: 2px;
     margin-top: 8px;
     margin-bottom: 0px;
-    border: 1px solid #853E29;
-    color: #853E29 !important;
+    border: 1px solid #7B2A10;
+    color: #7B2A10 !important;
 }
 
 .NL_button.NL_wide_btn {
@@ -1680,7 +1680,7 @@ article.cbp-so-side-left h2 {
 }
 
 .NL_button.NL_dark_btn::before {
-    background: #853E29;
+    background: #7B2A10;
 }
 
 .NL_dark_btn i {
@@ -1690,7 +1690,7 @@ article.cbp-so-side-left h2 {
 .NL_button.NL_dark_btn:hover {
     color: #fff !important;
     text-decoration: none;
-    border-color: #853E29;
+    border-color: #7B2A10;
 }
 
 .NL_orange_btn {
@@ -1821,20 +1821,20 @@ ul#filterOptions>li.active>a {
 }
 
 .NL_price_promo a {
-    color: #853E29;
+    color: #7B2A10;
 }
 
 .NL_price_promo ul li {
-    color: #853E29;
+    color: #7B2A10;
 }
 
 .NL_price_promo {
-    border: 1px solid #853E29;
+    border: 1px solid #7B2A10;
 }
 
 .NL_price_promo h3 {
     color: #FFFFFF;
-    background-color: #853E29;
+    background-color: #7B2A10;
 }
 
 .orange {
@@ -1856,7 +1856,7 @@ a.NL_pricing_tooltip {
     text-align: center;
     font-size: 28px;
     font-weight: bold;
-    color: #853E29;
+    color: #7B2A10;
     padding-top: 22px;
     padding-bottom: 6px;
 }
@@ -1865,7 +1865,7 @@ a.NL_pricing_tooltip {
     text-align: center;
     font-size: 14px;
     font-weight: normal;
-    color: #853E29;
+    color: #7B2A10;
     padding-top: 0px;
     padding-bottom: 6px;
 }
@@ -2204,7 +2204,7 @@ a.NL_pricing_tooltip {
 .NL_licensing_model_aliases {
     font-style: italic;
     font-size: small;
-    color: #853E29;
+    color: #7B2A10;
 }
 
 /*----------  Industry Pages  -----------*/
@@ -2259,11 +2259,11 @@ a.NL_pricing_tooltip {
     border: 1px solid #EEE;
     border-radius: 4px;
     min-height: 155px;
-    border-left: 4px solid #853E29;
+    border-left: 4px solid #7B2A10;
 }
 
 .NL_pain_point_inner i {
-    color: #853E29;
+    color: #7B2A10;
     margin-bottom: 12px;
     display: block;
 }
@@ -2275,7 +2275,7 @@ a.NL_pricing_tooltip {
 /* --- Solution Feature Grid icon (FA instead of img) --- */
 .NL_industry_feature_icon {
     font-size: 52px;
-    color: #853E29;
+    color: #7B2A10;
     margin-top: 20px;
     display: block;
     text-align: center;
@@ -2296,7 +2296,7 @@ a.NL_pricing_tooltip {
 }
 
 .NL_usecase_card_header {
-    background-color: #853E29;
+    background-color: #7B2A10;
     padding: 22px;
     text-align: center;
     font-size: 30px;
@@ -2323,7 +2323,7 @@ a.NL_pricing_tooltip {
 }
 
 .NL_model_selector thead tr th {
-    background-color: #853E29;
+    background-color: #7B2A10;
     color: #fff;
     font-weight: 300;
     font-size: 15px;
@@ -2371,19 +2371,19 @@ a.NL_pricing_tooltip {
 }
 
 .NL_deploy_card_featured {
-    border-color: #853E29;
-    box-shadow: 0 4px 18px rgba(133, 62, 41, 0.13);
+    border-color: #7B2A10;
+    box-shadow: 0 4px 18px rgba(123, 42, 16, 0.13);
 }
 
 .NL_deploy_icon {
     background-color: #f9e1c4;
     padding: 26px;
     margin-bottom: 20px;
-    color: #853E29;
+    color: #7B2A10;
 }
 
 .NL_deploy_card_featured .NL_deploy_icon {
-    background-color: #853E29;
+    background-color: #7B2A10;
     color: #f9e1c4;
 }
 
@@ -2410,7 +2410,7 @@ a.NL_pricing_tooltip {
 .NL_cta_footnote {
     margin-top: 18px;
     font-size: 14px;
-    color: #853E29;
+    color: #7B2A10;
 }
 
 .NL_cta_footnote a {

@@ -3,7 +3,7 @@
 FROM ruby:3.3-slim
 
 RUN apt-get update \
- && apt-get install -y --no-install-recommends build-essential git \
+ && apt-get install -y --no-install-recommends build-essential git pkg-config libssl-dev libyaml-dev \
  && rm -rf /var/lib/apt/lists/* \
  && gem install bundler -v 4.0.16
 
