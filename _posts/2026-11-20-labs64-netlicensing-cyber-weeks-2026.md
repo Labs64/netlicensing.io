@@ -38,7 +38,7 @@ Basic drops from 120 € to **89 €** a month, and Premium from 380 € to **28
 
 ## What you actually get for it
 
-Licensing that works while you sleep. Pick a licensing model (subscription, trial, feature-based, floating, pay-per-use), call a REST API from the language you already write, and see every customer and license in one console. No custom back office, no weekend lost to a key generator. Many teams are live within a day.
+Licensing that works while you sleep. Pick a licensing model (Subscription, Trial, Feature-based, Floating, Pay-per-use), call a REST API from the language you already write, and see every customer and license in one console. No custom back office, no weekend lost to a key generator. Many teams are live within a day.
 
 Still not sure? The free Community plan stays available, and the discount makes the upgrade easy the day you need it.
 
@@ -54,6 +54,7 @@ Still not sure? The free Community plan stays available, and the discount makes 
 ## Fine print, kept short
 
 The offer is for new customers and covers the first year, then the regular price applies. It can't be applied to upgrades of existing accounts. If you prefer an invoice to the online checkout, [write to us]({{ site.url }}/contact/) and mention the code.
+
 December 6 comes faster than you think. Your January self will be glad you did it now.
 
 *Happy Licensing!*
