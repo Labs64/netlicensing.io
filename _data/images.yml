@@ -2280,3 +2280,201 @@
   author: "NetLicensing"
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io
+
+- id: netlicensing-software-monetization-models-hero
+  source: /img/blog/netlicensing-software-monetization-models-hero.png
+  title: "Beyond Subscription Pricing: 7 Ways to Monetize Your Software Product"
+  caption: "Beyond Subscription Pricing: 7 Ways to Monetize Your Software Product"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-feature-based-pricing-hero
+  source: /img/blog/netlicensing-feature-based-pricing-hero.png
+  title: "Feature-Based Pricing: How to Turn Software Features into Revenue"
+  caption: "Feature-Based Pricing: How to Turn Software Features into Revenue"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-usage-vs-subscription-hero
+  source: /img/blog/netlicensing-usage-vs-subscription-hero.png
+  title: "Usage-Based Pricing vs. Subscription Pricing: Which Model Is Better for Software Vendors?"
+  caption: "Usage-Based Pricing vs. Subscription Pricing: Which Model Is Better for Software Vendors?"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-b2b-software-licensing-hero
+  source: /img/blog/netlicensing-b2b-software-licensing-hero.png
+  title: "B2B Software Licensing: How to License Organizations, Teams, Users and Devices"
+  caption: "B2B Software Licensing: How to License Organizations, Teams, Users and Devices"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-trial-conversion-hero
+  source: /img/blog/netlicensing-trial-conversion-hero.png
+  title: "From Free Trial to Paying Customer: How Software Licensing Drives Conversion"
+  caption: "From Free Trial to Paying Customer: How Software Licensing Drives Conversion"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-offline-on-premises-licensing-hero
+  source: /img/blog/netlicensing-offline-on-premises-licensing-hero.png
+  title: "How to Monetize Offline and On-Premises Software in a SaaS-First World"
+  caption: "How to Monetize Offline and On-Premises Software in a SaaS-First World"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-rigid-licensing-cost-hero
+  source: /img/blog/netlicensing-rigid-licensing-cost-hero.png
+  title: "The Hidden Cost of Rigid Software Licensing: Why Flexible Monetization Matters"
+  caption: "The Hidden Cost of Rigid Software Licensing: Why Flexible Monetization Matters"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-decoupled-licensing-hero
+  source: /img/blog/netlicensing-decoupled-licensing-hero.png
+  title: "Decoupling Software Licensing from Your Application: Architecture, Benefits and Best Practices"
+  caption: "Decoupling Software Licensing from Your Application: Architecture, Benefits and Best Practices"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-monetization-models-map
+  source: /img/blog/netlicensing-monetization-models-map.png
+  title: "Matching monetization models to customer value"
+  caption: "Matching monetization models to customer value"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-feature-entitlements-flow
+  source: /img/blog/netlicensing-feature-entitlements-flow.png
+  title: "Feature entitlements in one validation call"
+  caption: "Feature entitlements in one validation call"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-usage-vs-subscription-cost
+  source: /img/blog/netlicensing-usage-vs-subscription-cost.png
+  title: "Customer cost under subscription, usage-based and hybrid pricing"
+  caption: "Customer cost under subscription, usage-based and hybrid pricing"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-b2b-license-structure
+  source: /img/blog/netlicensing-b2b-license-structure.png
+  title: "Organization-level licensing with users, seats and devices"
+  caption: "Organization-level licensing with users, seats and devices"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-trial-journey
+  source: /img/blog/netlicensing-trial-journey.png
+  title: "The trial-to-paid journey"
+  caption: "The trial-to-paid journey"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-offline-architecture
+  source: /img/blog/netlicensing-offline-architecture.png
+  title: "Hybrid cloud and on-premises licensing architecture"
+  caption: "Hybrid cloud and on-premises licensing architecture"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-rigid-vs-flexible
+  source: /img/blog/netlicensing-rigid-vs-flexible.png
+  title: "Rigid vs flexible licensing when launching an add-on"
+  caption: "Rigid vs flexible licensing when launching an add-on"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-authn-authz-licensing
+  source: /img/blog/netlicensing-authn-authz-licensing.png
+  title: "Authentication, authorization and licensing as separate checks"
+  caption: "Authentication, authorization and licensing as separate checks"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-embedded-vs-centralized
+  source: /img/blog/netlicensing-embedded-vs-centralized.png
+  title: "Embedded vs. centralized licensing"
+  caption: "Embedded vs. centralized licensing"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-feature-packaging
+  source: /img/blog/netlicensing-feature-packaging.png
+  title: "Editions, add-ons and bundles"
+  caption: "Editions, add-ons and bundles"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-credit-balance
+  source: /img/blog/netlicensing-credit-balance.png
+  title: "A prepaid credit balance over time"
+  caption: "A prepaid credit balance over time"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-concurrent-seats
+  source: /img/blog/netlicensing-concurrent-seats.png
+  title: "Concurrent sessions against a floating seat cap"
+  caption: "Concurrent sessions against a floating seat cap"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-trial-funnel
+  source: /img/blog/netlicensing-trial-funnel.png
+  title: "Trial conversion funnel with NetLicensing signals"
+  caption: "Trial conversion funnel with NetLicensing signals"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-offline-decision
+  source: /img/blog/netlicensing-offline-decision.png
+  title: "Choosing an offline license validation approach"
+  caption: "Choosing an offline license validation approach"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
