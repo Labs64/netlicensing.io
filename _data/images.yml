@@ -2478,3 +2478,30 @@
   author: "NetLicensing"
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io
+
+- id: netlicensing-discounts-guide-hero
+  source: /img/blog/netlicensing-discounts-guide-hero.png
+  title: "How to Offer Discounts on Software Products"
+  caption: "How to Offer Discounts on Software Products"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-discount-percent-vs-fix
+  source: /img/blog/netlicensing-discount-percent-vs-fix.png
+  title: "Percentage vs. fixed discount"
+  caption: "Percentage vs. fixed discount"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-discount-checkout-flow
+  source: /img/blog/netlicensing-discount-checkout-flow.png
+  title: "How NetLicensing Shop applies a discount"
+  caption: "How NetLicensing Shop applies a discount"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
