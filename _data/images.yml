@@ -2668,6 +2668,15 @@
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io
 
+- id: netlicensing-licensing-models-explained-hero
+  source: /img/blog/netlicensing-licensing-models-explained-hero.png
+  title: "Software licensing models explained: how to choose the right one"
+  caption: "Software licensing models explained: how to choose the right one"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
 - id: netlicensing-licensing-models-by-limit
   source: /img/blog/netlicensing-licensing-models-by-limit.png
   title: "What does your license limit?"
