@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Licensing Models"
-description: "NetLicensing is sophisticated enough to cover even the most outlandish software licensing models"
+description: "NetLicensing licensing models: subscription, node-locked, floating, pay-per-use, quota, rental, try-and-buy and more."
 permalink: /licensing-models/
 tags:
 - Licensing Models
