@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "API Licensing 101: Generating Recurring Revenue from Your APIs"
-description: "Explore API licensing and monetization: usage-based pricing, access tiers, and revenue generation strategies"
+description: "What an API license is and how to charge for it: a comparison table of perpetual, subscription and usage-based licensing, plus freemium, tiers and per-call pricing."
 author:
   name: NetLicensing
   url: https://netlicensing.io
@@ -30,6 +30,16 @@ With API licensing, companies can charge for API usage and access. This allows t
 There are several different licensing models like pay-per-use/call pricing, tiered/package or subscription pricing, and revenue sharing. Companies have to evaluate factors like customer segmentation, access levels, call volumes, and business goals to choose the right licensing approach. 
 
 Overall, API licensing has emerged as an effective way for companies providing APIs to monetize them. This article provides an overview of API licensing, its benefits and challenges, and key considerations for implementation. It aims to help API providers understand if and how to license their APIs to drive business value.
+
+## API license models compared
+
+| API license model | What the API consumer pays | Main advantage | Main drawback |
+| --- | --- | --- | --- |
+| Perpetual | An upfront fee for unlimited usage rights, often for a fixed period | Revenue stability up front | Limited future revenue growth |
+| Subscription | A recurring monthly or annual fee | Predictable recurring revenue | Churn |
+| Usage-based | Charges per call, bandwidth or records accessed | Cost follows value delivered | Less predictable revenue and more complex pricing |
+
+Freemium, free thresholds, developer tiers and per-call pricing are the [monetization models](#api-monetization-models) you can build on top of these licenses.
 
 ## What is an API?
 

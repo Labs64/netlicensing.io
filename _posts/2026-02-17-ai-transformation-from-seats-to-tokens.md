@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "The AI-Driven Transformation of Enterprise Software Licensing: From Seats to Tokens"
-description: "How AI shifts enterprise software licensing from per-seat fees to token/consumption pricing — token management, entitlement changes, cost governance and RaaS"
+title: "The AI-Driven Transformation - Per-Seat vs Token Pricing for AI Software"
+description: "Per-seat, token-based, agentic license agreement or hybrid? A 2026 comparison table for AI software pricing, with entitlement and cost-control requirements."
 author:
   name: NetLicensing
   url: https://netlicensing.io
@@ -29,6 +29,15 @@ tags:
 ---
 
 Enterprise software licensing is undergoing its most significant transformation since the shift to cloud computing, driven by the rapid adoption of *Artificial Intelligence* across business operations. As companies race to monetize AI investments, traditional seat-based licensing models are giving way to consumption-based pricing structures that align costs with actual usage, particularly token consumption and API calls.
+
+## Per-seat, token and hybrid pricing compared
+
+| Model | What the customer pays for | Strength | Watch out for |
+| --- | --- | --- | --- |
+| Per seat | A fixed fee per user | Familiar and predictable | AI agents do not fit the per-seat pattern |
+| Token-based | Input and output tokens processed | Cost follows consumption | Needs monitoring, budgets and guardrails |
+| Agentic License Agreement | A single annual payment for agent access | Cost predictability | Throttling, latency and unclear fair-use terms |
+| Hybrid | A subscription base plus consumption above committed levels | Predictable revenue with flexibility | Two things to meter and explain |
 
 ## The Demise of Seat-Based Licensing in the AI Era
 
