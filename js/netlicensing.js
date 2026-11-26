@@ -33,11 +33,13 @@ $("a#load-features").on("click", function () {
     if (linkText === "SHOW MORE FEATURES") {
         linkText = "Hide";
         url = "/features-all";
-        $content.switchClass("hideContent", "showContent", 1500);
+        $content.stop(true, true).hide().removeClass("hideContent").addClass("showContent").slideDown(1500);
     } else {
         linkText = "Show more features";
         url = "/features"
-        $content.switchClass("showContent", "hideContent", 1500);
+        $content.stop(true, true).slideUp(1500, function () {
+            $content.removeClass("showContent").addClass("hideContent").css("display", "");
+        });
     }
     ;
 

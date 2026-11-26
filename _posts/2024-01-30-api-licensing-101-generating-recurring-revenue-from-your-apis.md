@@ -205,7 +205,7 @@ SendGrid provides email delivery APIs for transactional and marketing email. The
 
 Salesforce is an early and successful example of API licensing. By providing developer access to Salesforce's CRM and other services via APIs, external apps can integrate with Salesforce data. Salesforce charges licensing fees for API usage based on usage volume. This ecosystem helped cement Salesforce's position as the leader in SaaS CRM software.
 
-# Conclusion
+## Conclusion
 
 APIs have become a critical part of the technology landscape, enabling organizations to open their data and functionality to external developers. As APIs grow in popularity, companies are recognizing the opportunity to generate revenue through [API monetization and licensing](https://netlicensing.io). 
 
