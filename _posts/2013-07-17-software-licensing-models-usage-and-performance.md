@@ -40,4 +40,4 @@ A good example of where this license type can be well applied is in a school or 
 
 The calculation method for the usage fees for these license types vary between the difference pieces of software but it is typically calculated on a monthly basis.
 
-We hope that you have continued to find this [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"} interesting and informative!
+We hope that you have continued to find this [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"}{:rel="noopener nofollow"} interesting and informative!

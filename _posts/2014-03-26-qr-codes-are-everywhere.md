@@ -46,5 +46,5 @@ Have you used [QR codes](https://www.labs64.com/codeman/ "codeMan") at all? How 
 * * *
 
 <p style="text-align: center;">
-  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license" target="_blank" rel="nofollow"><img style="border-width: 0;" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /> <span>codeMan</span> by <a href="https://www.labs64.com/codeman/" rel="cc:attributionURL">Labs64/grinia</a> is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license" target="_blank" rel="nofollow">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="noopener nofollow license" target="_blank"><img style="border-width: 0;" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /> <span>codeMan</span> by <a href="https://www.labs64.com/codeman/" rel="cc:attributionURL">Labs64/grinia</a> is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="noopener nofollow license" target="_blank">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
 </p>

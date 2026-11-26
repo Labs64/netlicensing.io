@@ -65,4 +65,4 @@ The major advantage of a site license from your perspective as the vendor is tha
 
 This is only a brief over-view of software licensing. It has covered those which are most frequently used by businesses. There are many different types of license available and it is always worth researching your options. There [will be more](/blog/2013/06/25/software-licensing-models-beta-and-development/ "Software Licensing Models – Beta and Development") in-depth discussion of software licensing in the future, exploring models such as Beta, Package and Development licenses.
 
-Hopefully that was interesting and that it went some way to helping you understand the complex world of [Software Licensing Types](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"}!
+Hopefully that was interesting and that it went some way to helping you understand the complex world of [Software Licensing Types](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"}{:rel="noopener nofollow"}!

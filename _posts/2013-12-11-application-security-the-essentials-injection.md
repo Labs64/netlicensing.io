@@ -16,7 +16,7 @@ tags:
   - SQL
 ---
 
-In this next [series of articles](https://www.google.com/search?q=site%3Anetlicensing.io%20Application%20Security%20Essentials "Application Security Essentials"){:target="_blank"} we will be looking in some detail at some of the major risks which present themselves to creators and users of applications. We will not be targeting developers themselves, but those of you who either run a business or are looking to get started in the world of application development this is good place to start. You will often be dealing with large amounts of highly sensitive data and security is there absolute paramount to your operation.
+In this next [series of articles](https://www.google.com/search?q=site%3Anetlicensing.io%20Application%20Security%20Essentials "Application Security Essentials"){:target="_blank"}{:rel="noopener nofollow"} we will be looking in some detail at some of the major risks which present themselves to creators and users of applications. We will not be targeting developers themselves, but those of you who either run a business or are looking to get started in the world of application development this is good place to start. You will often be dealing with large amounts of highly sensitive data and security is there absolute paramount to your operation.
 
 ### Injection
 

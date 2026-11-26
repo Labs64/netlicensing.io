@@ -32,7 +32,7 @@ They had tried to build this from several plugins: one for payments, one for use
 
 ### Approach
 
-We built [DigiPass](https://wordpress.org/plugins/digipass/) to do this inside WordPress, with NetLicensing handling subscriptions and payments. Site owners don't need to write code.
+We built [DigiPass](https://wordpress.org/plugins/digipass/){:target="_blank"}{:rel="noopener nofollow"} to do this inside WordPress, with NetLicensing handling subscriptions and payments. Site owners don't need to write code.
 
 The site owner sets up a product with a [Subscription](https://netlicensing.io/wiki/subscription) module in NetLicensing, with subscription periods and prices as license templates, say one month and one year. In WordPress, they enter their NetLicensing credentials in the DigiPass settings and connect a post or page to that product module.
 

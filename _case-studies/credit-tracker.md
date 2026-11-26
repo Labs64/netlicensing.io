@@ -24,7 +24,7 @@ website: "https://wordpress.org/plugins/credit-tracker/"
 
 ### Challenge
 
-Stock photos make a website look better, but most of them come with a duty to credit the photographer and the agency. Labs64 built [Credit Tracker](https://wordpress.org/plugins/credit-tracker/), a free WordPress plugin, to make that easy. It adds credit fields to every image in the Media Library (Ident-Nr., source, author, publisher, license and link), can pull image details from stock agencies, and builds a styled "Image Credits" table with the `[credit_tracker_table]` shortcode. It can also add microdata to images and replace the standard `[caption]` shortcode.
+Stock photos make a website look better, but most of them come with a duty to credit the photographer and the agency. Labs64 built [Credit Tracker](https://wordpress.org/plugins/credit-tracker/){:target="_blank"}{:rel="noopener nofollow"}, a free WordPress plugin, to make that easy. It adds credit fields to every image in the Media Library (Ident-Nr., source, author, publisher, license and link), can pull image details from stock agencies, and builds a styled "Image Credits" table with the `[credit_tracker_table]` shortcode. It can also add microdata to images and replace the standard `[caption]` shortcode.
 
 A free plugin downloaded from wordpress.org has one blind spot for its maker: you don't know who actually uses it. Download counts don't tell you how many sites run the plugin today or which ones. Labs64 wanted that picture without building a tracking server of its own.
 

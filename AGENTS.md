@@ -173,6 +173,7 @@ Follow this whenever you write or rework posts.
 - End with one clear CTA (pricing, contact or free sign-up) and *Happy Licensing!*.
 
 **Links** (few, and each to the correct target)
+- **Every external link opens in a new tab with `noopener nofollow`.** Markdown: `[text](https://example.com){:target="_blank"}{:rel="noopener nofollow"}`; HTML: `target="_blank" rel="noopener nofollow"`. This applies to all content (posts, drafts, pages, case studies, includes, data files). Exempt own links: `netlicensing.io` and its subdomains, `labs64.com`, `labs64.io`, `labs64.de`, `l64.cc`, `github.com/Labs64`.
 - Wiki: absolute `https://netlicensing.io/wiki/<permalink>`; verify the permalink exists in the wiki repo.
 - Site pages and other posts: `{{ "/path/" | relative_url }}`; verify the target exists.
 - Sign-up: `https://ui.netlicensing.io/#/register` (promo posts append `?promoCode=<code>&utm_source=…&utm_campaign=…`; use `target="_blank" rel="noopener"`).

@@ -15,7 +15,7 @@ tags:
   - SMB
 ---
 
-In this series of articles on [software licensing metrics](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Metrics "Software Licensing Metrics"){:target="_blank"} we have so far covered a range of different metric types which measure the process or task carried out by the software in a variety of ways. In these two final articles in the series, we will be looking at Physical Machine and Machine Compute Capacity as metrics.
+In this series of articles on [software licensing metrics](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Metrics "Software Licensing Metrics"){:target="_blank"}{:rel="noopener nofollow"} we have so far covered a range of different metric types which measure the process or task carried out by the software in a variety of ways. In these two final articles in the series, we will be looking at Physical Machine and Machine Compute Capacity as metrics.
 
 The crucial difference between them is that one measures use, the other performance potential. The Physical Machine metric is used for software which is installed on a single physical machine and the metric measures the use which that machine has and calculates the licensing cost accordingly.
 

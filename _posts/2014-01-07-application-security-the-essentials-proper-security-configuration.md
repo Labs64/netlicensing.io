@@ -14,7 +14,7 @@ tags:
   - Security
 ---
 
-Welcome to our second article on [application security](https://www.google.com/search?q=site%3Anetlicensing.io%20Application%20Security%20Essentials "Application Security Essentials"){:target="_blank"}, a guide to the essentials. In this series we are conducting an overview of the major security risks and concerns which present themselves to companies who are looking to move into the highly profitable area of application development.
+Welcome to our second article on [application security](https://www.google.com/search?q=site%3Anetlicensing.io%20Application%20Security%20Essentials "Application Security Essentials"){:target="_blank"}{:rel="noopener nofollow"}, a guide to the essentials. In this series we are conducting an overview of the major security risks and concerns which present themselves to companies who are looking to move into the highly profitable area of application development.
 
 In this article, we will be looking at the importance of proper security configuration within your operation.
 

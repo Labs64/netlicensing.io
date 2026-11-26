@@ -18,7 +18,7 @@ tags:
   - Upgrade
 ---
 
-In this, our last article in our [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"} on Software Licensing types, we will be looking at three final licensing types: OEM, Time Limited and Upgrade. The reason that these have been left to our last post that that they do not easily ‘fit’ within a certain group of license types and their uses are arguably esoteric. They have a limited field of use and are only useful to a small selection of end-users.
+In this, our last article in our [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"}{:rel="noopener nofollow"} on Software Licensing types, we will be looking at three final licensing types: OEM, Time Limited and Upgrade. The reason that these have been left to our last post that that they do not easily ‘fit’ within a certain group of license types and their uses are arguably esoteric. They have a limited field of use and are only useful to a small selection of end-users.
 
 However, as we have said on numerous occasions throughout this series, there is no reason why you should not take the time to learn about different software licensing types because in your position as a vendor – an increased knowledge will only serve to benefit you and your business though an increased quality of service to your customers.
 

@@ -50,7 +50,7 @@ use_packery: true
                             {% endif %}
 
                             {% if post.author.url %}
-                              <a href="{{ post.author.url }}" target="_blank">{{ author_name }}</a>
+                              <a href="{{ post.author.url }}" target="_blank"{% unless post.author.url contains "netlicensing.io" or post.author.url contains "labs64." or post.author.url contains "github.com/Labs64" %} rel="noopener nofollow"{% endunless %}>{{ author_name }}</a>
                             {% else %}
                               {{ author_name }}
                             {% endif %}

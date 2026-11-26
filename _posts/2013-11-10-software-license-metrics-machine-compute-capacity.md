@@ -16,7 +16,7 @@ tags:
   - Performance
 ---
 
-Welcome to this final article on [software licensing metrics](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Metrics "Software Licensing Metrics"){:target="_blank"}, we hope that you have found it both interesting and informative. In this last article we will be looking at Machine Compute Capacity as a license metric.
+Welcome to this final article on [software licensing metrics](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Metrics "Software Licensing Metrics"){:target="_blank"}{:rel="noopener nofollow"}, we hope that you have found it both interesting and informative. In this last article we will be looking at Machine Compute Capacity as a license metric.
 
 If we were to draw a comparison between this and the other metric that we have covered to which it is most similar – it would arguably be the performance metric. The reason for this is because the metric in this instance measures the potential capacity which the machine has to run the software, therefore making it suitable for software which has a performance and use capacity which is more directly related to the computing power of the computer or server upon which it is operating.
 

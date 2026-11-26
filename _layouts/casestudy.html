@@ -47,7 +47,7 @@ layout: default
             </ul>
             {% endif %}
             {% if page.website %}
-            <p>Website:</p><a href="{{ page.website }}" target="_blank">{{ page.website }}</a>
+            <p>Website:</p><a href="{{ page.website }}" target="_blank"{% unless page.website contains "netlicensing.io" or page.website contains "labs64." or page.website contains "github.com/Labs64" %} rel="noopener nofollow"{% endunless %}>{{ page.website }}</a>
             {% endif %}
         </div>
 

@@ -17,7 +17,7 @@ tags:
   - Software Licensing
 ---
 
-Hello and welcome to this next article in our ongoing [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"} on software licensing types. It would be worthwhile reading the first post in this series before any others – but after that it doesn&#8217;t really matter in which order you read them! This article does follow on from the types of licenses discussed in the previous one, namely licenses which are likely to be used by your business customers.
+Hello and welcome to this next article in our ongoing [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"}{:rel="noopener nofollow"} on software licensing types. It would be worthwhile reading the first post in this series before any others – but after that it doesn&#8217;t really matter in which order you read them! This article does follow on from the types of licenses discussed in the previous one, namely licenses which are likely to be used by your business customers.
 
 In this article we will be looking at Named-user (personal licenses), [Node-locked](https://netlicensing.io/wiki/node-locked) (named-host) and Node-locked counted licenses. As ever we will be looking at the specific uses of each type of license, exploring how it might be used by your customers and then comparing it to the other licenses under discussion.
 
@@ -43,4 +43,4 @@ It grants access to a pre-determined group of users on a single machine. This me
 
 As we have seen in this post, there is a significant potential for creative and effective use of group policies across a user group on a server when considering software deployment. There are many more potential uses for these license types beyond those which we have explored here.
 
-We hope you have continued to find this [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"} both interesting and informative.
+We hope you have continued to find this [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"}{:rel="noopener nofollow"} both interesting and informative.

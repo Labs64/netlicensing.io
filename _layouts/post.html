@@ -21,7 +21,7 @@ layout: default
                         {% endif %}
 
                         {% if page.author.url %}
-                          <a href="{{ page.author.url }}" target="_blank">{{ author_name }}</a>
+                          <a href="{{ page.author.url }}" target="_blank"{% unless page.author.url contains "netlicensing.io" or page.author.url contains "labs64." or page.author.url contains "github.com/Labs64" %} rel="noopener nofollow"{% endunless %}>{{ author_name }}</a>
                         {% else %}
                           {{ author_name }}
                         {% endif %}

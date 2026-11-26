@@ -31,6 +31,6 @@ It is also advisable to add a ‘Strength Indicator’ where appropriate which a
 
 Having an in-built session timeout on your application means that if your users device is lost, stolen or otherwise compromised whilst they are using it, then it is quickly ‘locked down’ and prevents any unauthorised access.
 
-Although a small minority of users can express frustration at the complexity of an application’s password or timeout policy – consider the wider impact of a hack upon both your [security](https://www.google.com/search?q=site%3Anetlicensing.io%20Application%20Security%20Essentials "Application Security Essentials"){:target="_blank"} and your reputation.
+Although a small minority of users can express frustration at the complexity of an application’s password or timeout policy – consider the wider impact of a hack upon both your [security](https://www.google.com/search?q=site%3Anetlicensing.io%20Application%20Security%20Essentials "Application Security Essentials"){:target="_blank"}{:rel="noopener nofollow"} and your reputation.
 
 Listen to your user’s feedback, make adjustments if necessary, but keep security at the top of your priorities.

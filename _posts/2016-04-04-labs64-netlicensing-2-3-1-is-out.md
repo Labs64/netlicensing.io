@@ -26,7 +26,7 @@ Notable changes in this release:
 * **Multi-Feature** licensing model: validation response improved, returning status of all configured features including those without active licenses
 * **Floating** licensing model: validation response improved, allowing to differentiate between the case of no licenses acquired at all, and all acquired licenses are in use / checked out
 * **NetLicensing Shop**: checkout process fine-tuning including: sending of order confirmation mail, customization of success and cancel URLs, improved payment method selection logic, and other minor improvements
-* Java Client was updated according to the latest NetLicensing API; **NetLicensing Java Client** v2.3.1 is available immediately from its [GitHub repository](https://github.com/Labs64/NetLicensingClient-java){:target="_blank"} and [Maven Central](https://search.maven.org/search?q=g:com.labs64.netlicensing){:target="_blank"} repository
+* Java Client was updated according to the latest NetLicensing API; **NetLicensing Java Client** v2.3.1 is available immediately from its [GitHub repository](https://github.com/Labs64/NetLicensingClient-java){:target="_blank"} and [Maven Central](https://search.maven.org/search?q=g:com.labs64.netlicensing){:target="_blank"}{:rel="noopener nofollow"} repository
 
 With this change we also have a new home for the *NetLicensing Management Console* [https://ui.netlicensing.io](https://ui.netlicensing.io/#/login?cr=ZGVtbzpkZW1v&utm_source=netlicensing.io_demo_optin&utm_medium=website&utm_campaign=netlicensing.io_announcement&utm_content=announcement) - make sure you updated your bookmarks!
 

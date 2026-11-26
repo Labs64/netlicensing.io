@@ -28,7 +28,7 @@ Notable changes in this release:
 ## Early Access to NetLicensing / Zapier integration
 
 We continue extending NetLicensing integrations portfolio to ease seamless integration of NetLicensing services in vendors' environments.
-Get early access to this [NetLicensing Integration](https://zapier.com/apps/netlicensing/integrations){:target="_blank"}.
+Get early access to this [NetLicensing Integration](https://zapier.com/apps/netlicensing/integrations){:target="_blank"}{:rel="noopener nofollow"}.
 
 ## NetLicensing Kotlin client
 

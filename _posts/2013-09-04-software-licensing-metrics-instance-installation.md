@@ -14,7 +14,7 @@ tags:
   - Licensing Metrics
 ---
 
-Hello and welcome to this next article on [Licensing Metrics](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Metrics "Software Licensing Metrics"){:target="_blank"}, we’ve already covered some more general points about Licensing Metrics in two previous articles which it would be worth reading if you are new to the topic of Licensing Metrics. In this next stage of articles on Licensing Metrics we will be looking more specifically at different types of metrics, usually one per article, the different pros and cons of each and how they work in real-world use. If you are familiar with our previous series on Software Licensing Types then you will know how we structure these articles and what you can expect from them.
+Hello and welcome to this next article on [Licensing Metrics](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Metrics "Software Licensing Metrics"){:target="_blank"}{:rel="noopener nofollow"}, we’ve already covered some more general points about Licensing Metrics in two previous articles which it would be worth reading if you are new to the topic of Licensing Metrics. In this next stage of articles on Licensing Metrics we will be looking more specifically at different types of metrics, usually one per article, the different pros and cons of each and how they work in real-world use. If you are familiar with our previous series on Software Licensing Types then you will know how we structure these articles and what you can expect from them.
 
 {% include advert.html image='/img/ads/netlicensing-affiliates-970x250.png' %}
 

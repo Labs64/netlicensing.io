@@ -43,4 +43,4 @@ The actual use of a group license can require the licensee to grant specific usa
 
 As with all software licensing; there are many similarities between these three types of license. However, as we have seen there are also some fundamental differences. It is also worth remembering that not all types of software will allow for all these variations of license. For example, some software may only offer the license over host list meaning that your customers should be made aware of the limitations of this particular license type.
 
-We hope that you have continued to find this [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"} of articles both informative and interesting.
+We hope that you have continued to find this [series](https://www.google.com/search?q=site%3Anetlicensing.io%20Software%20Licensing%20Models "Software Licensing Models"){:target="_blank"}{:rel="noopener nofollow"} of articles both informative and interesting.

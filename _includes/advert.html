@@ -8,7 +8,7 @@
 {% endfor %}
 
 {% if image %}
-<a title="{{ image.title }}" href="{{ image.creditlink }}?utm_source=website&utm_medium=banner&utm_campaign=netlicensing_internal&utm_content=image">
+<a title="{{ image.title }}"{% unless image.creditlink contains "netlicensing.io" or image.creditlink contains "labs64." or image.creditlink contains "github.com/Labs64" %} target="_blank" rel="noopener nofollow"{% endunless %} href="{{ image.creditlink }}?utm_source=website&utm_medium=banner&utm_campaign=netlicensing_internal&utm_content=image">
   <img border="0" class="blog-center" alt="{{ image.caption }}" src="{{ image.source | prepend: site.baseurl | prepend: site.url }}">
 </a>
 {% endif %}
