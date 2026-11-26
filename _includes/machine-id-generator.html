@@ -1,0 +1,36 @@
+{% comment %}In-browser machine ID generator. Same algorithm as the wiki FAQ.{% endcomment %}
+<div id="mid-tool">
+  <p><label for="mid-input">Machine identifiers, one per line</label><br>
+  <textarea id="mid-input" rows="4" style="width:100%;font-family:monospace" autocomplete="off" spellcheck="false"></textarea></p>
+  <p><label for="mid-salt">Product salt (optional, keeps IDs different between your products)</label><br>
+  <input id="mid-salt" type="text" style="width:100%;font-family:monospace" autocomplete="off" spellcheck="false"></p>
+  <p><button type="button" id="mid-run" class="btn btn-default">Generate machine ID</button>
+  <button type="button" id="mid-browser" class="btn btn-default">Fill in this browser's attributes</button></p>
+  <p><label for="mid-output">Machine ID (SHA-256)</label><br>
+  <input id="mid-output" type="text" style="width:100%;font-family:monospace" readonly></p>
+  <p id="mid-status" role="status"></p>
+</div>
+<script>
+(function () {
+  var byId = function (id) { return document.getElementById(id); };
+  var say = function (text) { byId("mid-status").textContent = text; };
+  var clear = function () { byId("mid-output").value = ""; say(""); };
+  byId("mid-input").addEventListener("input", clear);
+  byId("mid-salt").addEventListener("input", clear);
+  byId("mid-browser").addEventListener("click", function () {
+    byId("mid-input").value = [navigator.userAgent, navigator.language, navigator.hardwareConcurrency, screen.width + "x" + screen.height, screen.colorDepth, Intl.DateTimeFormat().resolvedOptions().timeZone].join("\n");
+    clear();
+    say("Browser attributes are for demonstration: they change with updates and settings and are shared by many devices. Do not use them to lock a license.");
+  });
+  byId("mid-run").addEventListener("click", function () {
+    var parts = byId("mid-input").value.split("\n").map(function (line) { return line.trim().toLowerCase(); }).filter(Boolean).sort();
+    clear();
+    if (!parts.length) { say("Enter at least one identifier."); return; }
+    if (!window.crypto || !window.crypto.subtle) { say("This browser cannot calculate SHA-256 here. Open the page over HTTPS in a current browser."); return; }
+    var data = new TextEncoder().encode([byId("mid-salt").value.trim()].concat(parts).join("\n"));
+    window.crypto.subtle.digest("SHA-256", data).then(function (hash) {
+      byId("mid-output").value = Array.from(new Uint8Array(hash)).map(function (b) { return b.toString(16).padStart(2, "0"); }).join("");
+    });
+  });
+})();
+</script>

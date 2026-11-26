@@ -2541,3 +2541,156 @@
   author: "NetLicensing"
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io
+
+- id: netlicensing-machine-id-hero
+  source: /img/blog/netlicensing-machine-id-hero.png
+  title: "Machine ID generator: a stable fingerprint for node-locked licensing"
+  caption: "Machine ID generator: a stable fingerprint for node-locked licensing"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-machine-id-flow
+  source: /img/blog/netlicensing-machine-id-flow.png
+  title: "Machine ID generator: a stable fingerprint for node-locked licensing (diagram)"
+  caption: "Machine ID generator: a stable fingerprint for node-locked licensing (diagram)"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-node-locked-vs-floating-hero
+  source: /img/blog/netlicensing-node-locked-vs-floating-hero.png
+  title: "Node-locked vs floating licensing: decide by constraint"
+  caption: "Node-locked vs floating licensing: decide by constraint"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-node-locked-vs-floating-decision
+  source: /img/blog/netlicensing-node-locked-vs-floating-decision.png
+  title: "Node-locked vs floating licensing: decide by constraint (diagram)"
+  caption: "Node-locked vs floating licensing: decide by constraint (diagram)"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-api-licensing-hero
+  source: /img/blog/netlicensing-api-licensing-hero.png
+  title: "API licensing in practice: keys, status codes, metering and webhooks"
+  caption: "API licensing in practice: keys, status codes, metering and webhooks"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-api-licensing-request-flow
+  source: /img/blog/netlicensing-api-licensing-request-flow.png
+  title: "API licensing in practice: keys, status codes, metering and webhooks (diagram)"
+  caption: "API licensing in practice: keys, status codes, metering and webhooks (diagram)"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-dotnet-licensing-hero
+  source: /img/blog/netlicensing-dotnet-licensing-hero.png
+  title: "Licensing a .NET application with signed offline license files"
+  caption: "Licensing a .NET application with signed offline license files"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-dotnet-offline-license-flow
+  source: /img/blog/netlicensing-dotnet-offline-license-flow.png
+  title: "Licensing a .NET application with signed offline license files (diagram)"
+  caption: "Licensing a .NET application with signed offline license files (diagram)"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-ai-pricing-hero
+  source: /img/blog/netlicensing-ai-pricing-hero.png
+  title: "Seat, usage or token pricing for AI products, with worked numbers"
+  caption: "Seat, usage or token pricing for AI products, with worked numbers"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-seat-vs-token-vs-hybrid-cost
+  source: /img/blog/netlicensing-seat-vs-token-vs-hybrid-cost.png
+  title: "Seat, usage or token pricing for AI products, with worked numbers (diagram)"
+  caption: "Seat, usage or token pricing for AI products, with worked numbers (diagram)"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-ai-agent-licensing-hero
+  source: /img/blog/netlicensing-ai-agent-licensing-hero.png
+  title: "Licensing AI agents: metering tool calls per customer"
+  caption: "Licensing AI agents: metering tool calls per customer"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-ai-agent-metering
+  source: /img/blog/netlicensing-ai-agent-metering.png
+  title: "Licensing AI agents: metering tool calls per customer (diagram)"
+  caption: "Licensing AI agents: metering tool calls per customer (diagram)"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-air-gapped-licensing-hero
+  source: /img/blog/netlicensing-air-gapped-licensing-hero.png
+  title: "Air-gapped software licensing with the NetLicensing Agent"
+  caption: "Air-gapped software licensing with the NetLicensing Agent"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-air-gapped-agent-deployment
+  source: /img/blog/netlicensing-air-gapped-agent-deployment.png
+  title: "Air-gapped software licensing with the NetLicensing Agent (diagram)"
+  caption: "Air-gapped software licensing with the NetLicensing Agent (diagram)"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-licensing-models-by-limit
+  source: /img/blog/netlicensing-licensing-models-by-limit.png
+  title: "What does your license limit?"
+  caption: "What does your license limit?"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-stripe-checkout-hero
+  source: /img/blog/netlicensing-stripe-checkout-hero.png
+  title: "Stripe checkout to license key"
+  caption: "Stripe checkout to license key"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-stripe-checkout-to-license
+  source: /img/blog/netlicensing-stripe-checkout-to-license.png
+  title: "From Stripe checkout to a validated license"
+  caption: "From Stripe checkout to a validated license"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
