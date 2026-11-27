@@ -1,0 +1,310 @@
+// Home page (index.md): hero with a validation example, chips and example cards.
+
+.NL_home_hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 100px 0 50px;
+
+  &::before,
+  &::after {
+    display: none;
+  }
+
+  > * {
+    width: 100%;
+  }
+}
+
+.NL_home_pitch {
+  text-align: left;
+
+  h1 {
+    margin: 0 0 20px;
+    font-size: 36px;
+    line-height: 44px;
+    color: $bg-white;
+    text-align: left;
+    text-wrap: balance;
+  }
+
+  > span {
+    display: block;
+    max-width: 52ch;
+    color: $bg-white;
+  }
+
+  #getting-started {
+    white-space: nowrap;
+  }
+
+  .NL_cta_note {
+    font-size: 15px;
+    text-align: left;
+
+    span,
+    a {
+      font-size: inherit;
+      color: $bg-white;
+    }
+  }
+}
+
+.NL_home_actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+
+  .NL_button {
+    width: 220px;
+    margin: 0;
+    text-align: center;
+  }
+}
+
+// The example call: a light sheet on the orange banner.
+.NL_home_call {
+  margin: 30px 0 0;
+  padding: 18px;
+  text-align: left;
+  background: $bg-white;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .18);
+
+  figcaption {
+    margin-bottom: 12px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 24px;
+    color: $brand-primary;
+  }
+
+  figure.highlight {
+    margin: 0 0 10px;
+  }
+
+  // The request path wraps in narrow columns instead of scrolling.
+  figure.highlight pre,
+  figure.highlight code {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+
+  small {
+    font-size: 15px;
+    color: $text-dark;
+  }
+}
+
+@media (max-width: 991px) {
+  .NL_home_hero {
+    padding: 90px 15px 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .NL_home_pitch h1 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .NL_home_actions > *,
+  .NL_home_actions .NL_button {
+    width: 100%;
+  }
+
+  .NL_home_section {
+    padding: 40px 0 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  // Same margin left and right: 1 column + pitch + gap + example + 1 column.
+  .NL_home_hero > .NL_home_pitch {
+    width: 50%;
+  }
+
+  .NL_home_hero > .NL_home_call {
+    width: 33.333333%;
+    margin: 0;
+  }
+}
+
+// One shape and one rhythm for every section below the banner.
+.NL_home_section {
+  padding: 56px 0 40px;
+
+  & + & {
+    border-top: 1px solid $border-light;
+  }
+}
+
+.NL_home_head {
+  padding: 0 15px;
+  margin-bottom: 28px;
+  text-align: center;
+  text-wrap: balance;
+
+  h2 {
+    margin: 0 0 8px;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+// Trust cards: equal columns, links on one line.
+.NL_home_proof {
+  padding-bottom: 0;
+
+  .NL_feature,
+  figure,
+  figcaption {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  figure {
+    margin-bottom: 0;
+  }
+
+  .NL_feature p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: $text-dark;
+  }
+
+  // Pushed to the bottom of the card, so the four links share a baseline.
+  .NL_feature .NL_home_link {
+    padding-top: 12px;
+    margin-top: auto;
+    margin-bottom: 16px;
+  }
+}
+
+// Licensing models and industries as a set of links.
+.NL_home_chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+  margin-bottom: 16px;
+  list-style: none;
+
+  a {
+    display: block;
+    padding: 6px 16px;
+    line-height: 22px;
+    color: $brand-primary;
+    background: mix($brand-light, $bg-white, 30%);
+    border: 1px solid mix($brand-light, $brand-orange, 70%);
+    border-radius: 12px;
+
+    &:hover {
+      color: $bg-white;
+      background: $brand-primary;
+      border-color: $brand-primary;
+    }
+  }
+}
+
+// Inside an illustrated row, chips are not list rows.
+.NL_feature_story .NL_home_chips li {
+  display: block;
+  padding: 0;
+  border: 0;
+}
+
+.NL_home_chips_center {
+  justify-content: center;
+  max-width: 960px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+// The three steps are a sequence, so their chips are numbered.
+.NL_home_steps {
+  counter-reset: step;
+
+  a::before {
+    margin-right: 8px;
+    counter-increment: step;
+    content: counter(step) ".";
+  }
+}
+
+.NL_home_examples {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 25px;
+
+  &::before,
+  &::after {
+    display: none;
+  }
+
+  > div {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+
+    &[hidden] {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .NL_home_examples > div {
+    width: 33.333333%;
+  }
+}
+
+.NL_home_example {
+  display: block;
+  width: 100%;
+  padding: 0 0 12px;
+  text-align: center;
+  background: $bg-white;
+  border: 1px solid $border-light;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  h3 {
+    min-height: 48px;
+    margin: 8px 16px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  p {
+    margin: 0 16px;
+    color: $text-dark;
+  }
+
+  &:hover {
+    border-color: $brand-hover;
+  }
+}
+
+.NL_home_more {
+  padding: 4px 0 0;
+  text-align: center;
+
+  .NL_button {
+    display: inline-block;
+    padding: 12px 32px;
+    line-height: 18px;
+  }
+}
