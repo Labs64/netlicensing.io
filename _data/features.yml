@@ -29,7 +29,7 @@
   show-default: true
 
 - name: "Availability"
-  description: "The cloud-based infrastructure of NetLicensing provides the highest availability across your entire license management process.<br/><i class='fa fa-cloud-upload'></i>&nbsp;99.5% UPTIME Guarantee!"
+  description: "The cloud-based infrastructure of NetLicensing provides the highest availability across your entire license management process.<br/><i class='fa fa-cloud-upload'></i>&nbsp;99.5% uptime SLA with Select and Enterprise"
   icon: "/img/features/availability.png"
   show-default: true
 

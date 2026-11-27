@@ -1,0 +1,74 @@
+// /features/ and /features-all/: the two illustrated points below the feature grid
+// (_includes/licensing-story.html).
+
+.NL_feature_story {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+  &::before,
+  &::after {
+    display: none;
+  }
+
+  > div {
+    width: 100%;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 440px;
+    height: auto;
+    margin: 0 auto 20px;
+  }
+
+  h3 {
+    margin: 0 0 16px;
+    font-size: 24px;
+    line-height: 36px;
+    text-wrap: balance;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    padding: 10px 0;
+    border-bottom: 1px solid $border-light;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  .fa {
+    color: $brand-hover;
+  }
+
+  // The site's outline button has a 2px line height; give it a real box.
+  .NL_button {
+    display: inline-block;
+    margin: 12px 0 0;
+    padding: 12px 32px;
+    line-height: 18px;
+  }
+}
+
+// Side by side from the desktop grid up; offsets and push/pull come from Bootstrap.
+@media (min-width: 992px) {
+  .NL_feature_story > div {
+    width: 41.666667%;
+  }
+
+  .NL_feature_story > div.col-md-pull-4 {
+    width: 41.666667%;
+  }
+}

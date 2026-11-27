@@ -101,37 +101,4 @@ sitemap:
     </div>
 </div>
 
-<div class="row NL_block">
-    <h2 class="col-md-12">NetLicensing Software Licensing</h2>
-
-    <p class="col-md-8 col-md-offset-2" style="text-align:center;">A Online Software Licensing Management Service for Application Control, Trial Management and
-        Software Activation. Easily retrofit your product and then control all the aspects of a users interaction and
-        usage.</p>
-</div>
-
-<div class="row NL_FAQ">
-    <div class="col-md-5 col-md-offset-1">
-        <h3>Protect your Intellectual Property and give users a great experience</h3>
-        <ul style="margin-left: 20px;">
-            <li>Control, secure and manage your software assets</li>
-            <li>Save engineering time and forget expensive infrastructure costs by outsourcing your license management</li>
-            <li>Our enterprise services and support programs ensure your success at every step along the management of your product licensing</li>
-            <li>Automated systems capture license abuse and convert it to new revenues</li>
-            <li>Total control of your installed software from a central server using NetLicensing API</li>
-            <li>Measure and report license activation and product usage</li>
-            <li>Virtualization management and control</li>
-        </ul>
-    </div>
-    <div class="col-md-5 col-md-offset-1">
-        <h3>All you need out of the box</h3>
-        <ul style="margin-left: 20px;">
-            <li>99.5% UPTIME</li>
-            <li>FREE support</li>
-            <li>FREE maintenance</li>
-            <li>FREE updates</li>
-            <li>Support for ALL environments</li>
-            <li>Easy to retrofit to your product then setup and use</li>
-            <li>No additional requirements, just NetLicensing API - the rest works out of the box</li>
-        </ul>
-    </div>
-</div>
+{% include licensing-story.html %}
