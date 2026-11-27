@@ -19,7 +19,7 @@ sitemap:
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about_page">
         <h1>Trust at NetLicensing</h1>
-        <span>Answers to the questions security, privacy and procurement reviews ask, with a link to the evidence.</span>
+        <span>Clear answers for your security, privacy and procurement reviews, with links to the evidence.</span>
     </div>
 </div>
 

@@ -100,6 +100,10 @@ compress_html:
 paginate: 12
 paginate_path: "/blog/page:num/"
 
+# Jekyll skips dot folders; publish /.well-known/ (security.txt)
+include:
+  - .well-known
+
 # Exclude these files from production _site
 exclude:
   - Gemfile

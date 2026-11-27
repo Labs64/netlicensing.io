@@ -1,0 +1,6 @@
+# Security contact for netlicensing.io (RFC 9116). Renew "Expires" before it passes.
+Contact: mailto:info@netlicensing.io?subject=Security%20report
+Expires: 2027-11-01T00:00:00Z
+Preferred-Languages: en, de
+Canonical: https://netlicensing.io/.well-known/security.txt
+Policy: https://netlicensing.io/trust/#vulnerabilities
