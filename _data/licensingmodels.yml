@@ -3,8 +3,8 @@
 # plans: the fixed plans that include the model (free, basic, premium).
 #   Select includes every model, so it is not listed.
 #   An empty list means the model is available in Select only.
-#   Keep this in line with the "Licensing Models" row of _data/pricing.yml, which
-#   is what the pricing table displays.
+#   The pricing table's "Licensing Models" row is built from these lists: a model
+#   appears in the column of its first plan, so list every plan from there upwards.
 # summary: one line shown next to the model in the plan picker on /pricing/.
 # picker: set to false to leave a model out of the plan picker (e.g. models derived from others).
 
@@ -113,7 +113,7 @@
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-pricing-table.png'
   url: "https://netlicensing.io/wiki/pricing-table"
-  plans: []
+  plans: [basic, premium]
 
 - name: "Pay-per-Use"
   aliases:
@@ -132,7 +132,7 @@
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-pay-per-use.png'
   url: "https://netlicensing.io/wiki/pay-per-use"
-  plans: []
+  plans: [premium]
 
 - name: "Quota"
   aliases:
@@ -148,7 +148,7 @@
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-quota.png'
   url: "https://netlicensing.io/wiki/quota"
-  plans: []
+  plans: [basic, premium]
 
 - name: "Rental"
   aliases:

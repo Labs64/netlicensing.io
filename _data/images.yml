@@ -2703,3 +2703,21 @@
   author: "NetLicensing"
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io
+
+- id: netlicensing-lemon-squeezy-migration-hero
+  source: /img/blog/netlicensing-lemon-squeezy-migration-hero.png
+  title: "Migrate license keys from Lemon Squeezy"
+  caption: "Migrate license keys from Lemon Squeezy"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io
+
+- id: netlicensing-lemon-squeezy-migration-flow
+  source: /img/blog/netlicensing-lemon-squeezy-migration-flow.png
+  title: "License key migration in four steps"
+  caption: "License key migration in four steps"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+  author: "NetLicensing"
+  publisher: "NetLicensing"
+  creditlink: https://netlicensing.io

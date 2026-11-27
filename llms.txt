@@ -48,11 +48,11 @@ Full licensing model documentation: https://netlicensing.io/wiki/licensing-model
 
 New accounts receive a **30-day free Premium trial** (all features, no credit card required). After trial, accounts default to the Community plan.
 
-| Plan      | Price          | Active Products | Customers  | API Calls / Month | Notes |
+| Plan      | Price          | Active Products | Active Customers | API Calls / Month | Notes |
 |-----------|----------------|-----------------|------------|--------------|-------|
 | Community | Free           | 1               | 50         | 10,000       | Attribution required; Try&Buy, Subscription, Discount models; PayPal only |
-| Basic     | €120/month (annual) | 3           | 200        | 100,000      | All online PSP; Try&Buy, Subscription, Discount, Multi-Feature models; EU VAT |
-| Premium   | €380/month (annual) | 10         | 1000       | 1,000,000    | Try&Buy, Subscription, Discount, Multi-Feature, Floating, Node-Locked models; Shop customization; Customer Portal; Premium support |
+| Basic     | €120/month (annual) | 3           | 200        | 100,000      | All online PSP; Try&Buy, Subscription, Discount, Multi-Feature, Pricing Table, Quota models; EU VAT |
+| Premium   | €380/month (annual) | 10         | 1000       | 1,000,000    | Try&Buy, Subscription, Discount, Multi-Feature, Floating, Node-Locked, Pricing Table, Quota, Pay-per-Use models; Shop customization; Customer Portal; Premium support |
 | Select    | Contact sales  | Customizable    | Customizable | Customizable | All models; SLA 99.5%; NetLicensing Agent; Dedicated managed environment; separate test environment on request; Revenue Sharing; self-hosting; SSO via standard protocols such as OpenID Connect (enabled and tested per customer); audit log; dedicated technical manager, custom development, priority feature requests and migration from other licensing systems (priced per deal); individually tailored pricing and feature set — contact sales for a custom quote |
 
 Customer packs (optional, on top of the plan price): Basic +100 customers for €40/month, at most 3 packs (up to 500 customers); Premium +500 customers for €120/month. Community has no packs; Select limits are customizable.

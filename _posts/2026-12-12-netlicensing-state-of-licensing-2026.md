@@ -101,8 +101,8 @@ No single counting method has won. The practical choice is to keep several avail
 | --- | --- | --- | --- |
 | As a named identity | Each agent holds a place, bound by an identifier you supply | [Node-Locked](https://netlicensing.io/wiki/node-locked) | Premium and Select |
 | By concurrency | Agents running at the same time | [Floating](https://netlicensing.io/wiki/floating) sessions with check-out and check-in | Premium and Select |
-| By work consumed | Calls, tokens or other units | [Pay-per-Use](https://netlicensing.io/wiki/pay-per-use) | Select |
-| By capacity | A licensed maximum your application enforces | [Quota](https://netlicensing.io/wiki/quota) | Select |
+| By work consumed | Calls, tokens or other units | [Pay-per-Use](https://netlicensing.io/wiki/pay-per-use) | Premium and Select |
+| By capacity | A licensed maximum your application enforces | [Quota](https://netlicensing.io/wiki/quota) | Basic, Premium and Select |
 | By capability | Which features an agent may use | [Multi-Feature](https://netlicensing.io/wiki/multi-feature) | Basic and above |
 
 Two details matter in practice. NetLicensing does not generate session IDs or machine identifiers, so your application creates a stable one for each agent. And authentication stays with your identity provider: NetLicensing answers what a customer is entitled to, not who is signing in.
@@ -203,7 +203,7 @@ It depends on your agreement. If the terms do not say, add a definition: per age
 
 ### Which licensing model suits an AI product?
 
-Usually a combination: a subscription for access and Pay-per-Use or Quota for consumption. NetLicensing lets one product use [several licensing models](https://netlicensing.io/wiki/licensing-models) across its modules. Check [plan availability]({{ "/pricing/" | relative_url }}), as Pay-per-Use and Quota are part of Select.
+Usually a combination: a subscription for access and Pay-per-Use or Quota for consumption. NetLicensing lets one product use [several licensing models](https://netlicensing.io/wiki/licensing-models) across its modules. Check [plan availability]({{ "/pricing/" | relative_url }}), as Quota starts at Basic and Pay-per-Use at Premium.
 
 ### Can usage-based licensing work offline?
 

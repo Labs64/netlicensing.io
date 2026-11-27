@@ -309,6 +309,28 @@
   border-color: $brand-primary;
 }
 
+// The licensing models a plan adds, one per line.
+.NL_pricing .NL_price_models {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 20px;
+}
+
+.NL_pricing .NL_price_inherited {
+  font-size: 13px;
+  line-height: 20px;
+  color: $text-dark;
+}
+
+// What the picker's choice uses in the matching plan.
+.NL_pricing .NL_plan_match {
+  .NL_price_model_used,
+  .NL_price_inherited_used {
+    font-weight: bold;
+  }
+}
+
 // Below the site's 993px breakpoint each cell carries its row name and the captions
 // column is hidden, so the row can take its natural height.
 @media (max-width: 993px) {
@@ -322,6 +344,23 @@
   .NL_pricing .NL_price_pack {
     display: table;
     margin: 8px 0 0 auto;
+  }
+
+  // Row name on the left, models on the right; the row takes its natural height.
+  .NL_pricing ul li.NL_price_row_models {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    max-height: none;
+
+    .NL_price_feature {
+      flex: none;
+    }
+  }
+
+  .NL_pricing .NL_price_models {
+    align-items: flex-end;
   }
 }
 

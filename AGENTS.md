@@ -161,7 +161,7 @@ Follow this whenever you write or rework posts.
 **Facts first, no invention**
 - Every product claim must match the wiki (`Labs64/wiki`, `docs/`: `guides/`, `licensing-models/`, `faq/`, `notifications.md`; checked out next to this repo it is `../wiki/docs`) or the OpenAPI spec (`Labs64/NetLicensing-API`, `v2.x/netlicensing.yaml`). Use exact parameter, property and event names (`ttl`, `usedQuantity`, `reserveQuantity`, `evaluationExpires`, `LICENSEE_CREATED`, `WARNING_LEVEL_CHANGED`, …). If the wiki isn't available, say which claims you couldn't verify.
 - No invented statistics, market figures, customer results or features. If NetLicensing doesn't do something (e.g. license hierarchies, automatic "trial ends soon" events, generating machine fingerprints), say so or describe the honest workaround.
-- Plan availability comes from `_data/pricing.yml` and `_data/licensingmodels.yml` (`plans`): Try & Buy, Subscription and Discount on every plan; Multi-Feature from Basic; Floating and Node-Locked from Premium; Pricing Table, Pay-per-Use, Quota, Rental and the NetLicensing Agent on Select only; Customer Portal from Premium. Re-check these files, since plans change.
+- Plan availability comes from `_data/pricing.yml` and `_data/licensingmodels.yml` (`plans`): Try & Buy, Subscription and Discount on every plan; Multi-Feature, Pricing Table and Quota from Basic; Floating, Node-Locked and Pay-per-Use from Premium; Rental and the NetLicensing Agent on Select only; Customer Portal from Premium. Re-check these files, since plans change.
 - Campaign and offer posts: confirm dates, discounts, codes and terms with the user or the current offer description, and never promise bonuses, extras or conditions that weren't confirmed.
 
 **Tone and structure**
@@ -208,8 +208,8 @@ Edit these to change content without touching layouts.
 | File | Drives | Notes |
 |---|---|---|
 | `features.yml` | `/features/`, `/features-all/` | `name`, `description` (HTML), `icon`, `show-default` |
-| `licensingmodels.yml` | `/licensing-models/`, plan picker | `name`, `aliases`, `description`, `tags` (time, volume, feature, user, concurrent), `status`, `img`, `url`, `plans`, `summary`, optional `picker: false`. Keep `plans` consistent with the "Licensing Models" row of `pricing.yml` |
-| `pricing.yml` | `/pricing/` rows | `Y` = ✓, `N` = empty box, other strings render as text. The plan picker reads "Active products" and "Customers" as limits, so keep those plain numbers. A row's optional `packs.<plan>: {size, price, max?}` shows an add-on under the value (`tall: true` gives a row with long values more height on desktop); the picker, pricing FAQ and FAQ JSON-LD use the "Customers" packs, and `llms.txt` repeats them by hand |
+| `licensingmodels.yml` | `/licensing-models/`, plan picker | `name`, `aliases`, `description`, `tags` (time, volume, feature, user, concurrent), `status`, `img`, `url`, `plans`, `summary`, optional `picker: false`. `plans` also builds the "Licensing Models" row of the pricing table, so list every plan from the first one upwards |
+| `pricing.yml` | `/pricing/` rows | `Y` = ✓, `N` = empty box, other strings render as text. The plan picker reads "Active Products" and "Active Customers" as limits, so keep those plain numbers. A row's optional `packs.<plan>: {size, price, max?}` shows an add-on under the value (`tall: true` gives a row with long values more height on desktop; `models: true` fills the row from `licensingmodels.yml` `plans`); the picker, pricing FAQ and FAQ JSON-LD use the "Active Customers" packs, and `llms.txt` repeats them by hand |
 | `usecases.yml`, `testimonials.yml` | homepage tiles / quotes | `name, description` / `testimonial, author, role` |
 | `navigation.yml`, `services.yml`, `socialmedia.yml` | top nav, footer, social links | |
 | `images.yml` | attribution registry | `id, source, title, caption, license, author, publisher, creditlink`, optional `exclude: true`. **Every image gets an entry** |
@@ -234,7 +234,7 @@ Image folders and names: blog `img/blog/netlicensing-<slug>.png` (hero 1200×630
 | Task | Steps |
 |---|---|
 | Add a feature card | `_data/features.yml` entry → icon in `img/features/` → register icon in `images.yml` |
-| Add a licensing model | `_data/licensingmodels.yml` entry (incl. `plans`, `summary`) → image in `img/licensing-model/` → register it → keep `pricing.yml` row consistent → update `llms.txt` |
+| Add a licensing model | `_data/licensingmodels.yml` entry (incl. `plans`, `summary`) → image in `img/licensing-model/` → register it → check the pricing table row (built from `plans`) → update `llms.txt` |
 | Update pricing | `_data/pricing.yml` rows (`Y`/`N`/text) → check `licensingmodels.yml` `plans` and the plan picker → update `llms.txt` and the pricing FAQ in `pages/pricing.md` if affected |
 | Add a testimonial | `_data/testimonials.yml` entry |
 | URL change | create `*_301.md` stub (§6) → update internal links |

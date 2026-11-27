@@ -57,9 +57,9 @@ NetLicensing has ten licensing models you configure directly. Named user and per
 | [Multi-Feature](https://netlicensing.io/wiki/multi-feature) | Which features are on | Add-ons and editions | Nothing extra | Basic and above |
 | [Floating](https://netlicensing.io/wiki/floating) | Sessions at the same time | Tools shared by a team | Session ID, check-out or check-in | Premium and Select |
 | [Node-Locked](https://netlicensing.io/wiki/node-locked) | Which devices | Workstation software | Node secret | Premium and Select |
-| [Pricing Table](https://netlicensing.io/wiki/pricing-table) | Plans and their features | SaaS tiers and memberships | Nothing extra | Select |
-| [Pay-per-Use](https://netlicensing.io/wiki/pay-per-use) | Credits consumed | API calls, processed documents | Quantity used or reserved | Select |
-| [Quota](https://netlicensing.io/wiki/quota) | A capacity ceiling | Users, projects, storage | Nothing; your app counts usage | Select |
+| [Pricing Table](https://netlicensing.io/wiki/pricing-table) | Plans and their features | SaaS tiers and memberships | Nothing extra | Basic, Premium and Select |
+| [Pay-per-Use](https://netlicensing.io/wiki/pay-per-use) | Credits consumed | API calls, processed documents | Quantity used or reserved | Premium and Select |
+| [Quota](https://netlicensing.io/wiki/quota) | A capacity ceiling | Users, projects, storage | Nothing; your app counts usage | Basic, Premium and Select |
 | [Rental](https://netlicensing.io/wiki/rental) | Time for each licensed instance | Fleets of devices or assets | Nothing extra | Select |
 {: .table .table-striped }
 

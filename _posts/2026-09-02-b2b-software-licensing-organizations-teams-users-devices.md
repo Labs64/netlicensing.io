@@ -128,6 +128,6 @@ Yes. Treat each department as its own licensee, with its own licenses and limits
 
 ## Model your B2B offer
 
-Organization-level licensing with seats, devices and add-ons is where licensing either supports your sales team or gets in its way. Floating and Node-Locked are included from the Premium plan, and the Select plan adds plans, quotas and usage. Compare them on the [pricing page]({{ "/pricing/" | relative_url }}), or [talk to us]({{ "/contact/" | relative_url }}) about your enterprise licensing scenario.
+Organization-level licensing with seats, devices and add-ons is where licensing either supports your sales team or gets in its way. Pricing Table and Quota are included from the Basic plan, and Floating, Node-Locked and Pay-per-Use from Premium. Compare them on the [pricing page]({{ "/pricing/" | relative_url }}), or [talk to us]({{ "/contact/" | relative_url }}) about your enterprise licensing scenario.
 
 *Happy Licensing!*

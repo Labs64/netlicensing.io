@@ -6,14 +6,34 @@
   A row with `packs` shows the plan's add-on under the value; the row is taller
   in every column (NL_price_row_packs) so the columns stay aligned. Rows marked
   `tall` hold several lines of text on narrower desktop screens.
+  The `models` row lists the licensing models whose first plan in
+  _data/licensingmodels.yml is this column ("All in <plan below>, plus ..."),
+  unless the row has a value for the plan. Plans must therefore be cumulative.
+  js/plan-picker.js marks the chosen models.
 {%- endcomment -%}
+{%- case include.plan -%}
+{%- when "basic" %}{% assign lower_plan = "Community" -%}
+{%- when "premium" %}{% assign lower_plan = "Basic" -%}
+{%- else %}{% assign lower_plan = nil -%}
+{%- endcase %}
 <ul>
     {%- for feature in site.data.pricing %}
     {%- assign value = feature[include.plan] %}
     {%- assign pack = feature.packs[include.plan] %}
-    <li{% if feature.packs %} class="NL_price_row_packs"{% elsif feature.tall %} class="NL_price_row_tall"{% endif %}>
+    <li{% if feature.packs %} class="NL_price_row_packs"{% elsif feature.tall %} class="NL_price_row_tall{% if feature.models %} NL_price_row_models{% endif %}"{% endif %}>
         <span class="NL_price_feature"> {{ feature.name }} </span>
-        {% if value == "Y" -%}
+        {% if feature.models and value == nil -%}
+        <div class="NL_price_models">
+            {%- if lower_plan %}
+            <span class="NL_price_inherited">All in {{ lower_plan }}, plus</span>
+            {%- endif %}
+            {%- for model in site.data.licensingmodels %}
+            {%- if model.plans.first == include.plan %}
+            <a class="NL_price_model" data-model="{{ model.name | escape }}" href="{{ model.url }}">{{ model.name | escape }}</a>
+            {%- endif %}
+            {%- endfor %}
+        </div>
+        {%- elsif value == "Y" -%}
         <i class="fa fa-check-square" aria-hidden="true"></i><span class="sr-only">Yes</span>
         {%- elsif value == "N" -%}
         <i class="fa fa-square-o" aria-hidden="true"></i><span class="sr-only">No</span>

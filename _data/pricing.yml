@@ -4,7 +4,7 @@
   premium: "Subscription"
   enterprise: "Subscription &#8226; Revenue Sharing"
 
-- name: "Active products"
+- name: "Active Products"
   free: "1"
   basic: "3"
   premium: "10"
@@ -16,7 +16,7 @@
   premium: "10"
   enterprise: "customizable"
 
-- name: "Customers"
+- name: "Active Customers"
   description: "Customers included in your plan. On Basic and Premium you can add customer packs for an extra monthly price, on top of the plan price."
   free: "50"
   basic: "200"
@@ -41,12 +41,12 @@
   premium: "1,000,000"
   enterprise: "customizable"
 
+# Built from the `plans` lists in _data/licensingmodels.yml: each column shows the
+# models that plan adds to the one below it. A plan with its own value shows that instead.
 - name: "Licensing Models"
   tall: true
-  free: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/discount'>Discount</a>"
-  basic: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/discount'>Discount</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a>"
-  premium: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/discount'>Discount</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a> &#8226; <a href='https://netlicensing.io/wiki/floating'>Floating</a> &#8226; <a href='https://netlicensing.io/wiki/node-locked'>Node-Locked</a>"
-  enterprise: "<a href='/licensing-models/'>All supported</a>"
+  models: true
+  enterprise: "customizable"
 
 - name: "EU VAT Support"
   free: "N"

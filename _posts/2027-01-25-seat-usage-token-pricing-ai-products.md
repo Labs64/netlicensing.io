@@ -88,7 +88,7 @@ In NetLicensing's [Pay-per-Use](https://netlicensing.io/wiki/pay-per-use) model,
 
 A hybrid is two product modules. Use a [Subscription](https://netlicensing.io/wiki/subscription) module for the base fee and a Pay-per-Use module for credits. For plans that bundle features, [Pricing Table](https://netlicensing.io/wiki/pricing-table) does the packaging. Your application validates once and receives both results.
 
-Pay-per-Use and Pricing Table are part of the Select plan, while Subscription is available on every plan. The plan helper on the [pricing page]({{ "/pricing/" | relative_url }}) shows what your combination needs.
+Pricing Table is included from the Basic plan and Pay-per-Use from Premium, while Subscription is available on every plan. The plan helper on the [pricing page]({{ "/pricing/" | relative_url }}) shows what your combination needs.
 
 ## Questions people ask
 

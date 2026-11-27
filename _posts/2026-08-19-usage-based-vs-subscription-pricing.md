@@ -134,6 +134,6 @@ The metering itself isn't hard if your licensing system tracks balances for you.
 
 ## Try both before you decide
 
-Pricing isn't a one-time decision. Start with what fits today and keep the option to add usage, or a subscription, later. Pay-per-Use and Quota are part of the NetLicensing Select plan, and Subscription is available on every plan, including the free one. Compare the details on our [pricing page]({{ "/pricing/" | relative_url }}) or [tell us about your product]({{ "/contact/" | relative_url }}) and we'll help you model it.
+Pricing isn't a one-time decision. Start with what fits today and keep the option to add usage, or a subscription, later. Quota is included from the NetLicensing Basic plan and Pay-per-Use from Premium, and Subscription is available on every plan, including the free one. Compare the details on our [pricing page]({{ "/pricing/" | relative_url }}) or [tell us about your product]({{ "/contact/" | relative_url }}) and we'll help you model it.
 
 *Happy Licensing!*

@@ -140,11 +140,31 @@
     }
   }
 
+  // In the licensing models row, marks each chosen model the column lists. A chosen
+  // model it does not list comes from a lower plan: mark the "All in ..." line.
+  function markModels(column, chosen) {
+    var names = chosen.map(function (box) {
+      return box.value;
+    });
+    var listed = [].slice.call(column.querySelectorAll('.NL_price_model')).map(function (model) {
+      var name = model.getAttribute('data-model');
+      model.classList.toggle('NL_price_model_used', names.indexOf(name) > -1);
+      return name;
+    });
+    var inherited = column.querySelector('.NL_price_inherited');
+    if (inherited) {
+      inherited.classList.toggle('NL_price_inherited_used', names.some(function (name) {
+        return listed.indexOf(name) < 0;
+      }));
+    }
+  }
+
   // index === null removes the highlight.
-  function highlight(index, packs) {
+  function highlight(index, packs, chosen) {
     table.classList.toggle('NL_plan_picked', index !== null);
     columns.forEach(function (column, i) {
       column.classList.toggle('NL_plan_match', i === index);
+      markModels(column, i === index ? chosen : []);
       var tag = column.querySelector('.NL_price_pack');
       if (tag) {
         tag.classList.toggle('NL_price_pack_used', i === index && packs > 0);
@@ -164,7 +184,7 @@
   function update() {
     var best = bestPlan();
     render();
-    highlight(best.index, best.packs);
+    highlight(best.index, best.packs, chosenModels());
     status.textContent = describe(best);
     reset.hidden = false;
   }

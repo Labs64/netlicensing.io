@@ -117,7 +117,7 @@ With reservation, the next tool call is refused. Design the agent to report what
 
 ### Which plan includes Pay-per-Use?
 
-Pay-per-Use is part of Select. Floating starts at Premium and Multi-Feature at Basic. See [pricing]({{ "/pricing/" | relative_url }}).
+Pay-per-Use and Floating start at Premium, and Multi-Feature at Basic. See [pricing]({{ "/pricing/" | relative_url }}).
 
 ## Start with one paid tool
 

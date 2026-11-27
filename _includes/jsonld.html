@@ -168,7 +168,7 @@
         "text": "Yes! You can cancel your plan anytime you wish and you will not be charged. Your annual payment will be refunded pro-rata."
       }
     },
-    {%- assign faq_customers = site.data.pricing | where: "name", "Customers" | first %}
+    {%- assign faq_customers = site.data.pricing | where: "name", "Active Customers" | first %}
     {%- assign faq_basic_pack = faq_customers.packs.basic %}
     {%- assign faq_basic_max = faq_basic_pack.size | times: faq_basic_pack.max | plus: faq_customers.basic %}
     {

@@ -20,8 +20,8 @@ sitemap:
 <!-- Built only from existing page sections: banner (homepage), NL_feature
      cards and cbp-so zig-zag (industry pages) and the NL_form_light call
      to action. -->
-{% assign plan_products = site.data.pricing | where: "name", "Active products" | first %}
-{% assign plan_customers = site.data.pricing | where: "name", "Customers" | first %}
+{% assign plan_products = site.data.pricing | where: "name", "Active Products" | first %}
+{% assign plan_customers = site.data.pricing | where: "name", "Active Customers" | first %}
 
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about_page">

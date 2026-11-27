@@ -61,8 +61,8 @@ Do not turn your own upstream trouble into a customer error. NetLicensing can an
 
 | Question | Model | What validation returns | Plan |
 | --- | --- | --- | --- |
-| Do customers consume credits per call? | [Pay-per-Use](https://netlicensing.io/wiki/pay-per-use) | `remainingQuantity` | Select |
-| Is there a ceiling, such as projects or requests per day? | [Quota](https://netlicensing.io/wiki/quota) | `quota` | Select |
+| Do customers consume credits per call? | [Pay-per-Use](https://netlicensing.io/wiki/pay-per-use) | `remainingQuantity` | Premium and Select |
+| Is there a ceiling, such as projects or requests per day? | [Quota](https://netlicensing.io/wiki/quota) | `quota` | Basic, Premium and Select |
 | Is access time-limited? | [Subscription](https://netlicensing.io/wiki/subscription) | `expires` | All plans |
 | Are features sold separately? | [Multi-Feature](https://netlicensing.io/wiki/multi-feature) | Features and their status | Basic and above |
 

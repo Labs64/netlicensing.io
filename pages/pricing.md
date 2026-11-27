@@ -39,8 +39,8 @@ tags:
     {% include plan-picker.html %}
 </div>
 
-{% assign plan_products = site.data.pricing | where: "name", "Active products" | first %}
-{% assign plan_customers = site.data.pricing | where: "name", "Customers" | first %}
+{% assign plan_products = site.data.pricing | where: "name", "Active Products" | first %}
+{% assign plan_customers = site.data.pricing | where: "name", "Active Customers" | first %}
 {% assign basic_pack = plan_customers.packs.basic %}
 {% assign basic_max_customers = basic_pack.size | times: basic_pack.max | plus: plan_customers.basic %}
 <div class="row NL_block NL_pricing">
