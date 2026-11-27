@@ -209,7 +209,7 @@ Edit these to change content without touching layouts.
 |---|---|---|
 | `features.yml` | `/features/`, `/features-all/` | `name`, `description` (HTML), `icon`, `show-default` |
 | `licensingmodels.yml` | `/licensing-models/`, plan picker | `name`, `aliases`, `description`, `tags` (time, volume, feature, user, concurrent), `status`, `img`, `url`, `plans`, `summary`, optional `picker: false`. Keep `plans` consistent with the "Licensing Models" row of `pricing.yml` |
-| `pricing.yml` | `/pricing/` rows | `Y` = ✓, `N` = empty box, other strings render as text. The plan picker reads "Active products" and "Customers" as limits, so keep those plain numbers |
+| `pricing.yml` | `/pricing/` rows | `Y` = ✓, `N` = empty box, other strings render as text. The plan picker reads "Active products" and "Customers" as limits, so keep those plain numbers. A row's optional `packs.<plan>: {size, price, max?}` shows an add-on under the value (`tall: true` gives a row with long values more height on desktop); the picker, pricing FAQ and FAQ JSON-LD use the "Customers" packs, and `llms.txt` repeats them by hand |
 | `usecases.yml`, `testimonials.yml` | homepage tiles / quotes | `name, description` / `testimonial, author, role` |
 | `navigation.yml`, `services.yml`, `socialmedia.yml` | top nav, footer, social links | |
 | `images.yml` | attribution registry | `id, source, title, caption, license, author, publisher, creditlink`, optional `exclude: true`. **Every image gets an entry** |

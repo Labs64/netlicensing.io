@@ -168,12 +168,31 @@
         "text": "Yes! You can cancel your plan anytime you wish and you will not be charged. Your annual payment will be refunded pro-rata."
       }
     },
+    {%- assign faq_customers = site.data.pricing | where: "name", "Customers" | first %}
+    {%- assign faq_basic_pack = faq_customers.packs.basic %}
+    {%- assign faq_basic_max = faq_basic_pack.size | times: faq_basic_pack.max | plus: faq_customers.basic %}
+    {
+      "@type": "Question",
+      "name": "Can I add more customers to my plan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, on Basic and Premium. Basic includes {{ faq_customers.basic }} customers, and you can add up to {{ faq_basic_pack.max }} packs of {{ faq_basic_pack.size }} customers for {{ faq_basic_pack.price }} € per month each, up to {{ faq_basic_max }} customers in total. Premium includes {{ faq_customers.premium }} customers, and each pack adds {{ faq_customers.packs.premium.size }} more for {{ faq_customers.packs.premium.price }} € per month. Packs come on top of your plan price. To add one, contact us."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if I have even more customers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Community stays at {{ faq_customers.free }} customers. Above {{ faq_basic_max }} customers on Basic, move to Premium. With Select, the limits are set to match your needs - talk to us."
+      }
+    },
     {
       "@type": "Question",
       "name": "Are there any hidden cost or extra charges?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. NetLicensing won’t charge you any setup fees or monthly fees if you are using a free plan. The selected payment service provider may charge an internet gateway fee and/or a processing fee."
+        "text": "No. NetLicensing won’t charge you any setup fees or monthly fees if you are using a free plan. On paid plans, customer packs are optional and cost the listed price. The selected payment service provider may charge an internet gateway fee and/or a processing fee."
       }
     },
     {

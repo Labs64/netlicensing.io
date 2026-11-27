@@ -4,7 +4,10 @@
  * Highlights the cheapest plan column that covers the chosen number of products,
  * customers and licensing models. Each plan column declares its key and limits
  * (data-plan, data-products, data-customers; no limit means unlimited), and each
- * model checkbox lists the plans that include it (data-plans).
+ * model checkbox lists the plans that include it (data-plans). A plan may sell
+ * extra customers in packs (data-pack-size, data-pack-price per month, at most
+ * data-pack-max packs; empty means no limit); its cost
+ * is then data-price (data-offer-price while the promo shows) plus the packs.
  */
 (function () {
   'use strict';
@@ -21,7 +24,10 @@
       key: column.getAttribute('data-plan'),
       name: column.querySelector('.NL_plan_name').textContent,
       products: limit(column, 'products'),
-      customers: limit(column, 'customers')
+      customers: limit(column, 'customers'),
+      packSize: Number(column.getAttribute('data-pack-size')) || 0,
+      packPrice: Number(column.getAttribute('data-pack-price')) || 0,
+      packMax: Number(column.getAttribute('data-pack-max')) || Infinity
     };
   });
 
@@ -38,13 +44,19 @@
   var status = root.querySelector('[data-status]');
 
   // The highest fixed limits; one step beyond them stands for "more" ("10+").
+  // For customers the slider also reaches one pack past the largest plan.
   var topProducts = highest('products');
-  var topCustomers = highest('customers');
+  var topCustomers = Math.max.apply(null, plans.map(function (plan) {
+    return plan.customers + plan.packSize;
+  }).filter(isFinite));
   products.max = topProducts + 1;
   customers.max = topCustomers + 50;
 
   function limit(column, name) {
-    var value = column.getAttribute('data-' + name);
+    return limitValue(column.getAttribute('data-' + name));
+  }
+
+  function limitValue(value) {
     return value === null ? Infinity : Number(value);
   }
 
@@ -68,21 +80,47 @@
     return box.getAttribute('data-plans').split(',').indexOf(plan.key) > -1;
   }
 
-  // Index of the first (cheapest) plan that fits; the last plan has no limits.
+  // Packs a plan needs for c customers; Infinity if it cannot cover them.
+  function packsNeeded(plan, c) {
+    if (c <= plan.customers) {
+      return 0;
+    }
+    // Past the end of the slider ("1500+") only an unlimited plan fits.
+    if (!plan.packSize || c > topCustomers) {
+      return Infinity;
+    }
+    var packs = Math.ceil((c - plan.customers) / plan.packSize);
+    return packs > plan.packMax ? Infinity : packs;
+  }
+
+  // Monthly price as currently shown: the offer price while the promo is on.
+  function price(column) {
+    var offer = column.querySelector('.NL_price_tag[data-promo-on]');
+    var name = offer && !offer.hidden ? 'data-offer-price' : 'data-price';
+    return limitValue(column.getAttribute(name));
+  }
+
+  // The cheapest plan that fits and the packs it needs. A plan without a price
+  // (the last one, no limits) is chosen only when no priced plan fits.
   function bestPlan() {
     var p = Number(products.value);
     var c = Number(customers.value);
     var chosen = chosenModels();
-    for (var i = 0; i < plans.length; i++) {
-      var plan = plans[i];
+    var best = { index: plans.length - 1, packs: 0, cost: Infinity };
+    plans.forEach(function (plan, i) {
       var fitsModels = chosen.every(function (box) {
         return includes(box, plan);
       });
-      if (p <= plan.products && c <= plan.customers && fitsModels) {
-        return i;
+      var packs = packsNeeded(plan, c);
+      if (p > plan.products || !fitsModels || packs === Infinity) {
+        return;
       }
-    }
-    return plans.length - 1;
+      var cost = price(columns[i]) + packs * plan.packPrice;
+      if (cost < best.cost) {
+        best = { index: i, packs: packs, cost: cost };
+      }
+    });
+    return best;
   }
 
   function render() {
@@ -103,18 +141,31 @@
   }
 
   // index === null removes the highlight.
-  function highlight(index) {
+  function highlight(index, packs) {
     table.classList.toggle('NL_plan_picked', index !== null);
     columns.forEach(function (column, i) {
       column.classList.toggle('NL_plan_match', i === index);
+      var tag = column.querySelector('.NL_price_pack');
+      if (tag) {
+        tag.classList.toggle('NL_price_pack_used', i === index && packs > 0);
+      }
     });
   }
 
+  function describe(best) {
+    var plan = plans[best.index];
+    if (best.packs === 0) {
+      return plan.name + ' covers this';
+    }
+    return plan.name + ' + ' + best.packs + ' customer pack' + (best.packs === 1 ? '' : 's') +
+      ' (+' + best.packs * plan.packPrice + ' € / month) covers this';
+  }
+
   function update() {
-    var index = bestPlan();
+    var best = bestPlan();
     render();
-    highlight(index);
-    status.textContent = plans[index].name + ' covers this';
+    highlight(best.index, best.packs);
+    status.textContent = describe(best);
     reset.hidden = false;
   }
 

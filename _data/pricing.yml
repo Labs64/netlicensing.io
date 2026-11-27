@@ -17,10 +17,16 @@
   enterprise: "customizable"
 
 - name: "Customers"
+  description: "Customers included in your plan. On Basic and Premium you can add customer packs for an extra monthly price, on top of the plan price."
   free: "50"
   basic: "200"
   premium: "1000"
   enterprise: "customizable"
+  # Optional customer packs per plan: `size` extra customers for `price` euro per month,
+  # at most `max` packs (no `max` = no limit).
+  packs:
+    basic: { size: 100, price: 40, max: 3 }
+    premium: { size: 500, price: 120 }
 
 - name: "Licenses"
   free: "100"
@@ -35,11 +41,12 @@
   premium: "1 / sec"
   enterprise: "customizable"
 
-- name: "Licensing Models<br/>&nbsp;"
-  free: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/discount'>Discount</a><br/>&nbsp;"
-  basic: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/discount'>Discount</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a><br/>&nbsp;"
+- name: "Licensing Models"
+  tall: true
+  free: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/discount'>Discount</a>"
+  basic: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/discount'>Discount</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a>"
   premium: "<a href='https://netlicensing.io/wiki/try-n-buy'>Try &amp; Buy</a> &#8226; <a href='https://netlicensing.io/wiki/subscription'>Subscription</a> &#8226; <a href='https://netlicensing.io/wiki/discount'>Discount</a> &#8226; <a href='https://netlicensing.io/wiki/multi-feature'>Multi-Feature</a> &#8226; <a href='https://netlicensing.io/wiki/floating'>Floating</a> &#8226; <a href='https://netlicensing.io/wiki/node-locked'>Node-Locked</a>"
-  enterprise: "<a href='/licensing-models/'>All supported</a><br/>&nbsp;"
+  enterprise: "<a href='/licensing-models/'>All supported</a>"
 
 - name: "EU VAT Support"
   free: "N"
@@ -101,7 +108,8 @@
   premium: "N"
   enterprise: "N"
 
-- name: "Technical Support<br/>&nbsp;"
+- name: "Technical Support"
+  tall: true
   free: "Community Support<br/><a href='https://github.com/Labs64/NetLicensing-Community' target='_blank' rel='noopener nofollow'>GitHub</a>"
   basic: "Standard Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (3 days)"
   premium: "Premium Support<br/><a href='https://netlicensing.io/wiki/'>Online</a> &#8226; <a href='mailto:info@netlicensing.io'>eMail</a> (1 day)"

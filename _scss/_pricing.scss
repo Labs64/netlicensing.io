@@ -256,6 +256,216 @@
   }
 }
 
+// A row with an add-on holds two lines in every column, captions included.
+.NL_pricing ul li.NL_price_row_packs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  box-sizing: border-box;
+  height: 76px;
+  max-height: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.NL_pricing .NL_price_captions ul li.NL_price_row_packs {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0;
+}
+
+// The add-on: a soft tag in the picker card's tint, under the included amount.
+.NL_pricing .NL_price_pack {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 12px;
+  line-height: 18px;
+  white-space: nowrap;
+  color: $brand-primary;
+  background: mix($brand-light, $bg-white, 30%);
+  border: 1px solid mix($brand-light, $brand-orange, 70%);
+  border-radius: 12px;
+  transition: color .2s, background-color .2s;
+
+  b {
+    font-weight: bold;
+  }
+
+  // The highest total a plan reaches with packs.
+  small {
+    display: block;
+    font-size: 11px;
+    line-height: 14px;
+  }
+}
+
+// The picker needs a pack for the chosen number of customers.
+.NL_pricing .NL_plan_match .NL_price_pack_used {
+  color: $bg-white;
+  background: $brand-primary;
+  border-color: $brand-primary;
+}
+
+// Below the site's 993px breakpoint each cell carries its row name and the captions
+// column is hidden, so the row can take its natural height.
+@media (max-width: 993px) {
+  .NL_pricing ul li.NL_price_row_packs {
+    display: block;
+    height: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .NL_pricing .NL_price_pack {
+    display: table;
+    margin: 8px 0 0 auto;
+  }
+}
+
+// Tablet: four columns are too narrow for "name left, value right", so the plans
+// sit two per row. The empty captions column is removed.
+@media (min-width: 768px) and (max-width: 993px) {
+  .NL_pricing {
+    flex-wrap: wrap;
+
+    > div:first-child {
+      display: none;
+    }
+
+    // Space above each plan holds the "Best fit" tag.
+    > div {
+      display: flex;
+      flex-direction: column;
+      flex: 0 0 50%;
+      max-width: 50%;
+      padding-top: 30px;
+    }
+
+    // Same height within a row; replaces the stacked layout's Premium margin.
+    > div > .NL_price_features {
+      flex: 1;
+      height: auto;
+      margin-top: 0;
+    }
+
+    ul li,
+    ul li:nth-child(16) {
+      max-height: none;
+      padding-right: 20px;
+    }
+  }
+
+  .NL_pricing .NL_price_feature {
+    padding-left: 20px;
+  }
+}
+
+// Desktop: five narrow columns. The plan name, price and every row have a fixed
+// height, the same in each column, so text can wrap and the rows stay aligned.
+$plan-name-height: 164px;
+$plan-name-height-wide: 144px;
+$plan-price-height: 80px;
+$plan-price-note-height: 28px;
+
+@media (min-width: 994px) {
+  .NL_pricing {
+    .NL_price_captions {
+      white-space: normal;
+    }
+
+    // The captions column starts its list where the plan columns start theirs
+    // (the extra pixel matches the plan columns' top border).
+    .NL_price_captions h3 {
+      box-sizing: border-box;
+      height: $plan-name-height + $plan-price-height + $plan-price-note-height + 1px;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .NL_price_features h3 {
+      box-sizing: border-box;
+      height: $plan-name-height;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      align-content: center;
+    }
+
+    .NL_price_tag {
+      box-sizing: border-box;
+      height: $plan-price-height;
+      padding: 0 4px;
+      line-height: 30px;
+      align-content: center;
+    }
+
+    .NL_price_features .NL_price_tag_sub {
+      height: $plan-price-note-height;
+      margin-bottom: 0;
+    }
+
+    ul li {
+      box-sizing: border-box;
+      height: 50px;
+      max-height: none;
+      padding: 0 4px;
+      line-height: 16px;
+      align-content: center;
+    }
+
+    .NL_price_captions ul li {
+      padding-left: 12px;
+    }
+
+    ul li.NL_price_row_tall {
+      height: 96px;
+    }
+
+    ul li.NL_price_row_packs {
+      height: 76px;
+    }
+  }
+}
+
+@media (min-width: 994px) and (max-width: 1439px) {
+  .NL_pricing .NL_price_tag {
+    font-size: 22px;
+  }
+}
+
+// The narrowest desktop columns: let the sign-up button labels wrap.
+@media (min-width: 994px) and (max-width: 1199px) {
+  .NL_pricing .NL_btn_pricing .NL_button {
+    height: auto;
+    padding-right: 4px;
+    padding-left: 4px;
+    white-space: normal;
+  }
+}
+
+@media (min-width: 1200px) {
+  .NL_pricing {
+    .NL_price_captions h3 {
+      height: $plan-name-height-wide + $plan-price-height + $plan-price-note-height + 1px;
+    }
+
+    .NL_price_features h3 {
+      height: $plan-name-height-wide;
+    }
+  }
+}
+
+// The picker's answer in words, under the sentence. Height is reserved.
+.NL_picker_result {
+  min-height: 20px;
+  margin: 10px 0 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: $brand-primary;
+}
+
 // Reassurance line under the sign-up buttons.
 .NL_btn_note {
   margin: 8px 0 0;

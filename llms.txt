@@ -55,6 +55,8 @@ New accounts receive a **30-day free Premium trial** (all features, no credit ca
 | Premium   | €380/month (annual) | 10         | 1000       | 1/sec        | Try&Buy, Subscription, Discount, Multi-Feature, Floating, Node-Locked models; Shop customization; Customer Portal; Premium support |
 | Select    | Contact sales  | Customizable    | Customizable | Customizable | All models; SLA 99.5%; NetLicensing Agent; Dedicated managed environment; separate test environment on request; Revenue Sharing; self-hosting; SSO via standard protocols such as OpenID Connect (enabled and tested per customer); audit log; dedicated technical manager, custom development, priority feature requests and migration from other licensing systems (priced per deal); individually tailored pricing and feature set — contact sales for a custom quote |
 
+Customer packs (optional, on top of the plan price): Basic +100 customers for €40/month, at most 3 packs (up to 500 customers); Premium +500 customers for €120/month. Community has no packs; Select limits are customizable.
+
 API Rate Limit is a guaranteed minimum throughput per vendor account (shared across all its products); when the system is not busy, requests are typically served faster.
 
 Special programs:

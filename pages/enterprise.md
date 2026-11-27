@@ -218,7 +218,7 @@ sitemap:
                 </div>
             </div>
             <p class="NL_cta_footnote">
-                Smaller setup? <a href="/pricing/">Premium covers up to {{ plan_products.premium }} products and {{ plan_customers.premium }} customers.</a>
+                Smaller setup? <a href="/pricing/">Premium includes {{ plan_products.premium }} products and {{ plan_customers.premium }} customers, with customer packs if you need more.</a>
             </p>
         </div>
     </div>

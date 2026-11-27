@@ -3,11 +3,15 @@
   Usage: {% include pricing-features.html plan="basic" %}
   plan: column key in _data/pricing.yml (free, basic, premium, enterprise).
   "Y" and "N" render as check / empty square; any other value is shown as is.
+  A row with `packs` shows the plan's add-on under the value; the row is taller
+  in every column (NL_price_row_packs) so the columns stay aligned. Rows marked
+  `tall` hold several lines of text on narrower desktop screens.
 {%- endcomment -%}
 <ul>
     {%- for feature in site.data.pricing %}
     {%- assign value = feature[include.plan] %}
-    <li>
+    {%- assign pack = feature.packs[include.plan] %}
+    <li{% if feature.packs %} class="NL_price_row_packs"{% elsif feature.tall %} class="NL_price_row_tall"{% endif %}>
         <span class="NL_price_feature"> {{ feature.name }} </span>
         {% if value == "Y" -%}
         <i class="fa fa-check-square" aria-hidden="true"></i><span class="sr-only">Yes</span>
@@ -15,6 +19,10 @@
         <i class="fa fa-square-o" aria-hidden="true"></i><span class="sr-only">No</span>
         {%- else -%}
         {{ value }}
+        {%- endif %}
+        {%- if pack %}
+        <span class="NL_price_pack"><b>+{{ pack.size }}</b> for <b>{{ pack.price }} €</b> / month
+            {%- if pack.max %}<small>up to {{ pack.size | times: pack.max | plus: value }} customers</small>{% endif %}</span>
         {%- endif %}
     </li>
     {%- endfor %}

@@ -17,10 +17,10 @@ tags:
   data-promo-on = visible during the offer, data-promo-off = visible outside it.
 {%- endcomment -%}
 {% include promo-state.html %}
-{% if promo_live %}
-{% assign promo_keep = 100 | minus: promo.discount_percent %}
 {% assign basic_eur = 120 %}
 {% assign premium_eur = 380 %}
+{% if promo_live %}
+{% assign promo_keep = 100 | minus: promo.discount_percent %}
 {%- comment -%} Monthly offer price rounded up to whole euros, so checkout is never higher than shown. {%- endcomment -%}
 {% assign basic_offer = basic_eur | times: promo_keep | plus: 99 | divided_by: 100 %}
 {% assign premium_offer = premium_eur | times: promo_keep | plus: 99 | divided_by: 100 %}
@@ -41,13 +41,15 @@ tags:
 
 {% assign plan_products = site.data.pricing | where: "name", "Active products" | first %}
 {% assign plan_customers = site.data.pricing | where: "name", "Customers" | first %}
+{% assign basic_pack = plan_customers.packs.basic %}
+{% assign basic_max_customers = basic_pack.size | times: basic_pack.max | plus: plan_customers.basic %}
 <div class="row NL_block NL_pricing">
     <div class="col-md-15 col-sm-3">
         <div class="NL_price_captions">
             <h3 class="NL_price_captions_spacer"> &#160; <br/> &#160; <br/> &#160; <br/> &#160; <br/> &#160;</h3>
             <ul>
                 {% for feature in site.data.pricing %}
-                <li>
+                <li{% if feature.packs %} class="NL_price_row_packs"{% elsif feature.tall %} class="NL_price_row_tall"{% endif %}>
                     {{ feature.name }}
                     {% if feature.description %}
                     <a class="NL_pricing_tooltip" data-toggle="tooltip" data-placement="right"
@@ -62,7 +64,7 @@ tags:
     </div>
 
     <div class="col-md-15 col-sm-3">
-        <div class="NL_price_features NL_price_regular" data-plan="free" data-products="{{ plan_products.free }}" data-customers="{{ plan_customers.free }}">
+        <div class="NL_price_features NL_price_regular" data-plan="free" data-price="0" data-products="{{ plan_products.free }}" data-customers="{{ plan_customers.free }}">
             <h3><strong class="NL_plan_name">Community</strong><br/>Quick and simple for community projects</h3>
             <div class="NL_price_tag">0 € / month</div>
             <div class="NL_price_tag_sub">&nbsp;</div>
@@ -77,7 +79,7 @@ tags:
     </div>
 
     <div class="col-md-15 col-sm-3">
-        <div class="NL_price_features NL_price_regular" data-plan="basic" data-products="{{ plan_products.basic }}" data-customers="{{ plan_customers.basic }}">
+        <div class="NL_price_features NL_price_regular" data-plan="basic" data-price="{{ basic_eur }}"{% if promo_live %} data-offer-price="{{ basic_offer }}"{% endif %} data-pack-size="{{ plan_customers.packs.basic.size }}" data-pack-price="{{ plan_customers.packs.basic.price }}" data-pack-max="{{ plan_customers.packs.basic.max }}" data-products="{{ plan_products.basic }}" data-customers="{{ plan_customers.basic }}">
             <h3><strong class="NL_plan_name">Basic</strong><br/>For startups and growing businesses</h3>
             <div class="NL_price_tag"{% if promo_live %} data-promo-off{% endif %}>120 € / month</div>
             <div class="NL_price_tag_sub"{% if promo_live %} data-promo-off{% endif %}>billed annually</div>
@@ -99,7 +101,7 @@ tags:
     </div>
 
     <div class="col-md-15 col-sm-3">
-        <div class="NL_price_features NL_price_promo" data-plan="premium" data-products="{{ plan_products.premium }}" data-customers="{{ plan_customers.premium }}">
+        <div class="NL_price_features NL_price_promo" data-plan="premium" data-price="{{ premium_eur }}"{% if promo_live %} data-offer-price="{{ premium_offer }}"{% endif %} data-pack-size="{{ plan_customers.packs.premium.size }}" data-pack-price="{{ plan_customers.packs.premium.price }}" data-products="{{ plan_products.premium }}" data-customers="{{ plan_customers.premium }}">
             <h3><strong class="NL_plan_name">Premium</strong><br/>Full featured for comprehensive products</h3>
             <div class="NL_price_tag"{% if promo_live %} data-promo-off{% endif %}>380 € / month</div>
             <div class="NL_price_tag_sub"{% if promo_live %} data-promo-off{% endif %}>billed annually</div>
@@ -203,9 +205,22 @@ tags:
 
 <div class="row NL_FAQ">
     <div class="col-md-5 col-md-offset-1">
+        <h3>Can I add more customers to my plan?</h3>
+
+        <p>Yes, on Basic and Premium. Basic includes {{ plan_customers.basic }} customers, and you can add up to {{ basic_pack.max }} packs of {{ basic_pack.size }} customers for {{ basic_pack.price }} € per month each, up to {{ basic_max_customers }} customers in total. Premium includes {{ plan_customers.premium }} customers, and each pack adds {{ plan_customers.packs.premium.size }} more for {{ plan_customers.packs.premium.price }} € per month. Packs come on top of your plan price. To add one, <a title="Contact" href="/contact/">contact us</a>.</p>
+    </div>
+    <div class="col-md-4 col-md-offset-1">
+        <h3>What if I have even more customers?</h3>
+
+        <p>Community stays at {{ plan_customers.free }} customers. Above {{ basic_max_customers }} customers on Basic, move to Premium. With Select, the limits are set to match your needs - <a title="Contact" href="/contact/">talk to us</a>.</p>
+    </div>
+</div>
+
+<div class="row NL_FAQ">
+    <div class="col-md-5 col-md-offset-1">
         <h3>Are there any hidden cost or extra charges?</h3>
 
-        <p>No. NetLicensing won’t charge you any setup fees or monthly fees if you are using a free plan.
+        <p>No. NetLicensing won’t charge you any setup fees or monthly fees if you are using a free plan. On paid plans, customer packs are optional and cost the listed price.
             The selected payment service provider may charge an internet gateway fee and/or a processing fee.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
