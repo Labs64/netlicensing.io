@@ -1,0 +1,167 @@
+// /getting-started/: three visible steps with their examples beside them.
+
+$start-nav-offset: 70px; // fixed top bar
+
+// Jump links under the banner.
+.NL_start_nav ol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 32px;
+  margin: 0;
+  padding: 20px 15px;
+  list-style: none;
+  border-bottom: 1px solid $border-light;
+}
+
+.NL_start_nav a,
+.NL_start_step h2 {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+
+  b {
+    display: inline-flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    font-size: 15px;
+    font-weight: normal;
+    color: $brand-primary;
+    background: $brand-light;
+    border-radius: 50%;
+  }
+}
+
+.NL_start_nav a {
+  border-bottom: 0;
+}
+
+.NL_start_step {
+  padding: 40px 0;
+  scroll-margin-top: $start-nav-offset;
+  border-bottom: 1px solid $border-light;
+
+  h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+  }
+
+  ol {
+    padding-left: 20px;
+
+    li {
+      margin-bottom: 6px;
+    }
+  }
+}
+
+.NL_start_code {
+  // Grid children may not grow past their column; long lines scroll instead.
+  min-width: 0;
+
+  h3 {
+    margin: 0 0 6px;
+    font-size: 13px;
+    line-height: 18px;
+    color: $text-dark;
+  }
+
+  .highlighter-rouge,
+  figure.highlight {
+    position: relative;
+    margin: 0 0 20px;
+  }
+
+  .NL_copyable pre {
+    padding-right: 90px;
+  }
+}
+
+// Phones: long lines scroll sideways, so the button gets its own row above them.
+@media (max-width: 767px) {
+  .NL_start_code .NL_copyable pre {
+    padding-top: 44px;
+    padding-right: 20px;
+  }
+}
+
+.NL_copy {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 4px 12px;
+  font-size: 12px;
+  line-height: 18px;
+  color: $brand-primary;
+  background: $bg-white;
+  border: 1px solid $brand-primary;
+  border-radius: 2px;
+
+  &:hover {
+    color: $bg-white;
+    background: $brand-primary;
+  }
+}
+
+// The object model of step 1: what you create, and what belongs to what.
+.NL_start_model {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  ul ul {
+    margin-left: 14px;
+    padding-left: 18px;
+    border-left: 1px solid mix($brand-light, $brand-orange, 60%);
+  }
+
+  li > b,
+  li > span {
+    display: block;
+  }
+
+  li > b {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: $brand-primary;
+  }
+
+  li > span {
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
+
+.NL_start_intro {
+  text-align: center;
+}
+
+.NL_start_links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding-bottom: 16px;
+  list-style: none;
+
+  a {
+    display: block;
+    padding: 8px 22px;
+    border: 1px solid $brand-primary;
+    border-radius: 2px;
+
+    &:hover {
+      color: $bg-white;
+      background: $brand-primary;
+    }
+  }
+}

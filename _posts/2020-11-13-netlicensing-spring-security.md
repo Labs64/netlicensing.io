@@ -72,7 +72,7 @@ So, now your development environment is set up, and we can move on to the next s
 ## Configure NetLicensing Product
 
 As next, we will create NetLicensing product configuration, which will be used to specify customers entitlements.
-You can create the *product*, *module* and *packages* configurations manually (you might find these [video tutorials](https://www.youtube.com/watch?v=LrfVsOVy73s&list=PLXfRIwjR9ZR5ZTNuLt7esvObY2BcIgpp1){:target="_blank"}{:rel="noopener nofollow"} helpful) or simply open [Demo Data](https://ui.netlicensing.io/#/demo-data){:target="_blank"} view and create one of the demo configurations for the chosen *Licensing Model*.
+You can create the *product*, *module* and *packages* configurations manually (you might find these [video tutorials](https://www.youtube.com/watch?v=LrfVsOVy73s&list=PLXfRIwjR9ZR5ZTNuLt7esvObY2BcIgpp1){:target="_blank"}{:rel="noopener nofollow"} helpful) or simply open [Demo Data](https://ui.netlicensing.io/#/demo-scenario){:target="_blank"} view and create one of the demo configurations for the chosen *Licensing Model*.
 
 After this step is finished, you should have the following entities created:
 
