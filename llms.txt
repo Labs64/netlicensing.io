@@ -53,7 +53,7 @@ New accounts receive a **30-day free Premium trial** (all features, no credit ca
 | Community | Free           | 1               | 50         | 1/min        | Attribution required; Try&Buy, Subscription, Discount models; PayPal only |
 | Basic     | €120/month (annual) | 3           | 100        | 1/min        | All online PSP; Try&Buy, Subscription, Discount, Multi-Feature models; EU VAT |
 | Premium   | €380/month (annual) | 10         | 500        | 1/sec        | Try&Buy, Subscription, Discount, Multi-Feature, Floating, Node-Locked models; Shop customization; Customer Portal; Premium support |
-| Select    | Contact sales  | Customizable    | Customizable | Customizable | All models; SLA 99%; NetLicensing Agent; Dedicated managed environment; separate test environment on request; Revenue Sharing; self-hosting; SSO via standard protocols such as OpenID Connect (enabled and tested per customer); audit log; dedicated technical manager, custom development, priority feature requests and migration from other licensing systems (priced per deal); individually tailored pricing and feature set — contact sales for a custom quote |
+| Select    | Contact sales  | Customizable    | Customizable | Customizable | All models; SLA 99.5%; NetLicensing Agent; Dedicated managed environment; separate test environment on request; Revenue Sharing; self-hosting; SSO via standard protocols such as OpenID Connect (enabled and tested per customer); audit log; dedicated technical manager, custom development, priority feature requests and migration from other licensing systems (priced per deal); individually tailored pricing and feature set — contact sales for a custom quote |
 
 API Rate Limit is a guaranteed minimum throughput per vendor account (shared across all its products); when the system is not busy, requests are typically served faster.
 
@@ -72,7 +72,7 @@ For enterprise and on-premise deployments, NetLicensing supports installation wi
 - **NetLicensing Agent**: For air-gapped or network-restricted environments, the Agent component runs on the customer's premises and provides offline license validation without internet connectivity.
 - **Hosting**: Managed hosting (shared cloud and dedicated environment): AWS, Ireland (EU).
 - **Source code escrow**: On request, the source code can be deposited with a third-party escrow agent.
-- **SLA service credits**: 99.00% monthly uptime; a credit of 10% of that month's charges below 99.00% and 30% below 98.50%, claimed by email within two billing cycles. Credits are the sole remedy.
+- **SLA service credits**: 99.50% monthly uptime; a credit of 10% of that month's charges below 99.50% and 30% below 99.00%, claimed by email within two billing cycles. Credits are the sole remedy.
 
 Enterprise setup is supported by the Labs64 team. Contact sales at https://netlicensing.io/contact/ or book a call to discuss infrastructure requirements.
 

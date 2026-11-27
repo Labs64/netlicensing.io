@@ -60,7 +60,7 @@ sitemap:
             <figcaption>
                 <img src="{{ '/img/features/service_level_agreement.png' | prepend: site.baseurl | prepend: site.url }}" alt="Service Level Agreement"/>
                 <h3>Uptime in Writing</h3>
-                <p>A monthly uptime commitment with service credits, set out in our <a href="https://www.labs64.com/legal/terms-of-service/netlicensing/service-level-agreement-1-0/" target="_blank" rel="noopener">Service Level Agreement</a>.</p>
+                <p>A monthly uptime commitment with service credits, set out in our <a href="https://www.labs64.com/legal/terms-of-service/netlicensing/service-level-agreement-1-1/" target="_blank" rel="noopener">Service Level Agreement</a>.</p>
             </figcaption>
         </figure>
     </div>
@@ -127,9 +127,9 @@ sitemap:
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>EU Operations, Backed by Contract</h2>
-                <span>NetLicensing is operated by Labs64 GmbH in Germany and hosted on AWS in Ireland. The Service Level Agreement commits to 99.0% monthly uptime, with service credits if we fall short. Data transfer is encrypted, your data is deleted on request, and source code escrow is available on request.</span>
+                <span>NetLicensing is operated by Labs64 GmbH in Germany and hosted on AWS in Ireland. The Service Level Agreement commits to 99.5% monthly uptime, with service credits if we fall short. Data transfer is encrypted, your data is deleted on request, and source code escrow is available on request.</span>
                 <br><br>
-                <a href="https://www.labs64.com/legal/terms-of-service/netlicensing/service-level-agreement-1-0/" target="_blank" rel="noopener">Read the Service Level Agreement &rarr;</a>
+                <a href="https://www.labs64.com/legal/terms-of-service/netlicensing/service-level-agreement-1-1/" target="_blank" rel="noopener">Read the Service Level Agreement &rarr;</a>
             </article>
         </section>
 
