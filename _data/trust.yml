@@ -1,0 +1,89 @@
+# Content of /trust/ (pages/trust.md). Publish only facts you can show evidence for.
+# Select (extends Basic or Premium) and Enterprise are separate offerings.
+# status: Available | All plans | Enterprise | Select and Enterprise | On request | DPA | Managed hosting
+# Update `reviewed` whenever you check the entries.
+reviewed: 2026-11-27
+
+glance:
+  - { question: "Who operates the service?", answer: "Labs64 GmbH, Munich, Germany", status: "All plans", links: [{ label: "Imprint", url: "https://www.labs64.com/imprint/" }] }
+  - { question: "Where is it hosted?", answer: "Managed hosting on AWS in Ireland (EU), shared cloud and dedicated", status: "Managed hosting", links: [{ label: "Enterprise", url: "/enterprise/" }] }
+  - { question: "Can we sign a Data Processing Agreement?", answer: "Yes. We conclude a Data Processing Agreement under Article 28 GDPR with every vendor who asks, free of charge", status: "On request", links: [{ label: "How to sign", url: "https://netlicensing.io/wiki/data-processing-agreement-dpa" }, { label: "Sample DPA (PDF)", url: "https://netlicensing.io/wiki/assets/docs/Labs64-NetLicensing-GDPR-DPA-V1.0_sample.pdf" }] }
+  - { question: "How can we assess your security?", answer: "Review the measures on this page and send us your security questionnaire", status: "On request", links: [{ label: "Security measures", url: "#security" }, { label: "Contact", url: "/contact/" }] }
+  - { question: "What uptime do you commit to?", answer: "99.5% monthly, with service credits", status: "Select and Enterprise", links: [{ label: "SLA", url: "https://www.labs64.com/legal/terms-of-service/netlicensing/service-level-agreement-1-1/" }] }
+  - { question: "Is data encrypted in transit?", answer: "Yes, over SSL/TLS", status: "All plans", links: [{ label: "API security", url: "https://netlicensing.io/wiki/security" }] }
+  - { question: "How is access protected?", answer: "Two-factor authentication for vendor accounts; API keys with separate roles", status: "Available", links: [{ label: "API keys and roles", url: "https://netlicensing.io/wiki/security" }] }
+  - { question: "Single sign-on and audit log?", answer: "OpenID Connect sign-in, enabled per customer; audit log of admin changes", status: "Enterprise", links: [{ label: "Enterprise", url: "/enterprise/" }] }
+  - { question: "Can we run it ourselves or offline?", answer: "Self-hosting with Docker Compose or Kubernetes (Enterprise); offline validation with the NetLicensing Agent", status: "Select and Enterprise", links: [{ label: "Agent", url: "https://netlicensing.io/wiki/netlicensing-agent" }] }
+  - { question: "When do you tell us about a data breach?", answer: "Without undue delay, as set out in the DPA (article 6)", status: "DPA", links: [{ label: "Sample DPA (PDF)", url: "https://netlicensing.io/wiki/assets/docs/Labs64-NetLicensing-GDPR-DPA-V1.0_sample.pdf" }] }
+
+sections:
+  - id: privacy
+    title: "Data Protection and Privacy"
+    items:
+      - { topic: "Our two roles", text: "For the data of your customers (licensees) that you store in NetLicensing, you are the controller and Labs64 is your processor. For your own vendor account, such as sign-in, billing and support, Labs64 is the controller.", links: [{ label: "Privacy Center", url: "https://netlicensing.io/wiki/privacy-center" }, { label: "Labs64 privacy policy", url: "https://www.labs64.com/legal/privacy-policy/" }] }
+      - { topic: "What we process for you", text: "Whatever your integration sends: typically a licensee number, and optionally names, email addresses and custom properties. Validation requests carry the IP address and system details. Shop purchases add billing details and a record of the accepted terms.", links: [{ label: "Privacy statement template", url: "https://netlicensing.io/wiki/privacy-statement-data-processing-by-netlicensing" }] }
+      - { topic: "Use only on your instructions", text: "The DPA forbids us to use your customers' data for any purpose other than the one you specify (article 1).", links: [{ label: "Sample DPA (PDF)", url: "https://netlicensing.io/wiki/assets/docs/Labs64-NetLicensing-GDPR-DPA-V1.0_sample.pdf" }] }
+      - { topic: "Requests from your customers", text: "Look up, correct, export and delete a customer's data yourself. If one of your customers contacts us directly, we pass the request on to you (DPA article 8).", links: [{ label: "Look up and correct", url: "https://netlicensing.io/wiki/how-to-access-and-update-licensee-data" }, { label: "Export", url: "https://netlicensing.io/wiki/how-to-export-licensee-data" }, { label: "Delete", url: "https://netlicensing.io/wiki/how-to-delete-licensee-data" }] }
+      - { topic: "Ending your account", text: "On request we delete your account and the data it holds, except records we must keep by law, such as invoices.", links: [{ label: "Contact", url: "/contact/" }] }
+      - { topic: "Processing locations", text: "Managed hosting runs on AWS in Ireland. The DPA also permits processing outside the EU where an adequate level of protection is ensured (article 3), and we name the countries on request.", links: [{ label: "Sample DPA (PDF)", url: "https://netlicensing.io/wiki/assets/docs/Labs64-NetLicensing-GDPR-DPA-V1.0_sample.pdf" }] }
+      - { topic: "Audits", text: "The DPA sets out when you may have an independent third party audit our compliance with it (article 10).", links: [{ label: "Sample DPA (PDF)", url: "https://netlicensing.io/wiki/assets/docs/Labs64-NetLicensing-GDPR-DPA-V1.0_sample.pdf" }] }
+      - { topic: "Supervisory authority", text: "The data protection authority responsible for Labs64 GmbH is the Bavarian State Office for Data Protection Supervision (BayLDA).", links: [{ label: "BayLDA", url: "https://www.lda.bayern.de/" }] }
+  - id: security
+    title: "Security"
+    items:
+      - { topic: "Encryption in transit", text: "Web and API traffic is encrypted with SSL/TLS.", links: [{ label: "API security", url: "https://netlicensing.io/wiki/security" }] }
+      - { topic: "Vendor accounts", text: "Two-factor authentication is available.", links: [] }
+      - { topic: "API keys", text: "Roles limit what each key can do. Ship only licensee-role keys inside your application.", links: [{ label: "Keys in client applications", url: "https://netlicensing.io/wiki/faq-api-key-in-client-application" }] }
+      - { topic: "Signed validation responses", text: "Responses can be signed with your RSA key, so your application can detect a forged result. The Java and C# client libraries verify signatures.", links: [{ label: "Signing the response", url: "https://netlicensing.io/wiki/signing-the-response" }] }
+      - { topic: "AI agents", text: "The MCP server masks secrets in tool results and asks for a confirmation step before deletes.", links: [{ label: "MCP security", url: "https://netlicensing.io/wiki/netlicensing-mcp-security" }] }
+  - id: availability
+    title: "Availability and Continuity"
+    items:
+      - { topic: "Service level agreement", text: "Select and Enterprise: 99.5% monthly uptime, with service credits if we fall short.", links: [{ label: "SLA", url: "https://www.labs64.com/legal/terms-of-service/netlicensing/service-level-agreement-1-1/" }] }
+      - { topic: "Service status", text: "Current service status and updates.", links: [{ label: "status.netlicensing.io", url: "https://status.netlicensing.io" }] }
+      - { topic: "Backups", text: "Data is stored and regularly backed up in Amazon data centers.", links: [] }
+      - { topic: "If the service is unreachable", text: "Your application can keep using the last validation result until it expires.", links: [{ label: "What happens when unreachable", url: "https://netlicensing.io/wiki/faq-service-unreachable" }] }
+      - { topic: "Your own copy of the configuration", text: "Export and re-import your product configuration.", links: [{ label: "Features", url: "/features-all/" }] }
+      - { topic: "Source code escrow", text: "Available on request with Enterprise.", links: [{ label: "Enterprise", url: "/enterprise/" }] }
+
+  - id: responsibilities
+    title: "Your Part as Controller"
+    items:
+      - { topic: "Lawful basis and information", text: "Have a lawful basis for the customer data you send us, and tell your customers that NetLicensing processes it for you (Articles 6, 13 and 14 GDPR).", links: [{ label: "Privacy statement template", url: "https://netlicensing.io/wiki/privacy-statement-data-processing-by-netlicensing" }] }
+      - { topic: "Data minimisation", text: "Send only what licensing needs. A pseudonymous customer number is often enough, with names and emails kept in your CRM.", links: [{ label: "GDPR FAQ", url: "https://netlicensing.io/wiki/faq-gdpr-data-location" }] }
+      - { topic: "Credentials", text: "Keep admin credentials on your servers, ship only licensee-role API keys, and turn on two-factor authentication.", links: [{ label: "Keys in client applications", url: "https://netlicensing.io/wiki/faq-api-key-in-client-application" }] }
+      - { topic: "Personal data breaches", text: "We notify you without undue delay. Notifying the supervisory authority, within 72 hours where required, is the controller's duty (Article 33 GDPR).", links: [{ label: "Sample DPA (PDF)", url: "https://netlicensing.io/wiki/assets/docs/Labs64-NetLicensing-GDPR-DPA-V1.0_sample.pdf" }] }
+  - id: documents
+    title: "Legal Documents"
+    items:
+      - { topic: "Terms of Service", text: "The contract for using NetLicensing.", links: [{ label: "Terms of Service", url: "https://www.labs64.com/legal/terms-of-service/netlicensing/" }] }
+      - { topic: "Service Level Agreement", text: "Uptime commitment and service credits for Select and Enterprise.", links: [{ label: "SLA", url: "https://www.labs64.com/legal/terms-of-service/netlicensing/service-level-agreement-1-1/" }] }
+      - { topic: "Data Processing Agreement", text: "Concluded on request; signed copies are returned within 5 business days.", links: [{ label: "How to sign", url: "https://netlicensing.io/wiki/data-processing-agreement-dpa" }, { label: "Sample DPA (PDF)", url: "https://netlicensing.io/wiki/assets/docs/Labs64-NetLicensing-GDPR-DPA-V1.0_sample.pdf" }] }
+      - { topic: "Privacy and cookies", text: "How Labs64 handles personal data as a controller, and which cookies the websites use.", links: [{ label: "Privacy policy", url: "https://www.labs64.com/legal/privacy-policy/" }, { label: "Cookies policy", url: "https://www.labs64.com/legal/privacy-policy/cookies-policy/" }] }
+      - { topic: "Company details", text: "Legal notice with registration details.", links: [{ label: "Imprint", url: "https://www.labs64.com/imprint/" }] }
+
+# Third parties that handle personal data. Add a row only when confirmed.
+subprocessors:
+  - { name: "Amazon Web Services (AWS)", purpose: "Managed hosting, data storage and backups", location: "Ireland (EU)" }
+
+# Payment providers: the vendor connects their own account to NetLicensing Shop.
+payment_providers: ["PayPal", "Stripe"]
+
+# Open-source components: advisories live in each repository's Security tab
+# (https://github.com/Labs64/<repo>/security). Do not copy advisories here.
+repositories:
+  - component: "NetLicensing MCP Server"
+    repos:
+      - { label: "MCP Server", repo: "NetLicensing-MCP" }
+  - component: "Client libraries"
+    repos:
+      - { label: "Java", repo: "NetLicensingClient-java" }
+      - { label: "C#", repo: "NetLicensingClient-csharp" }
+      - { label: "JavaScript", repo: "NetLicensingClient-javascript" }
+      - { label: "Python", repo: "NetLicensingClient-python" }
+      - { label: "PHP", repo: "NetLicensingClient-php" }
+      - { label: "C++", repo: "NetLicensingClient-cpp" }
+      - { label: "Kotlin", repo: "NetLicensingClient-kotlin" }
+  - component: "API specification"
+    repos:
+      - { label: "NetLicensing API", repo: "NetLicensing-API" }

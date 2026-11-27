@@ -478,8 +478,9 @@ $plan-price-note-height: 28px;
 @media (min-width: 994px) and (max-width: 1199px) {
   .NL_pricing .NL_btn_pricing .NL_button {
     height: auto;
-    padding-right: 4px;
-    padding-left: 4px;
+    padding: 12px 4px;
+    // The site's outline button has a 2px line height, so wrapped lines would overlap.
+    line-height: 18px;
     white-space: normal;
   }
 }

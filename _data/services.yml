@@ -69,6 +69,10 @@
   url: "https://netlicensing.io/wiki/privacy-center"
   section: "Legal"
 
+- title: "Trust"
+  url: "/trust/"
+  section: "Legal"
+
 - title: "Imprint"
   url: "https://www.labs64.com/imprint/"
   section: "Legal"

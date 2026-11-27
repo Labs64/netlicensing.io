@@ -1,0 +1,110 @@
+// Trust page (/trust/): layout of the evidence tables. Content: _data/trust.yml.
+
+.NL_trust {
+  .NL_trust_reviewed {
+    text-align: center;
+  }
+
+  // Jump links under the banner.
+  .NL_trust_nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 20px;
+    margin-bottom: 20px;
+  }
+
+  // Keeps a jumped-to heading clear of the fixed top bar.
+  h2 {
+    margin: 50px 0 15px;
+    scroll-margin-top: 70px;
+  }
+
+  .NL_trust_table {
+    font-size: 15px;
+    line-height: 22px;
+
+    th {
+      font-weight: normal;
+      color: $brand-primary;
+    }
+
+    tbody th {
+      width: 24%;
+    }
+  }
+
+  // Repository links, side by side.
+  .NL_trust_repo {
+    display: inline-block;
+    margin-right: 18px;
+  }
+
+  // Same soft tag as the pricing table's customer packs.
+  .NL_trust_status {
+    display: inline-block;
+    padding: 1px 10px;
+    font-size: 12px;
+    line-height: 18px;
+    white-space: nowrap;
+    color: $brand-primary;
+    background: mix($brand-light, $bg-white, 30%);
+    border: 1px solid mix($brand-light, $brand-orange, 70%);
+    border-radius: 12px;
+  }
+}
+
+// One width for the last column, so it lines up from table to table.
+@media (min-width: 768px) {
+  .NL_trust .NL_trust_table tbody td:last-child {
+    width: 18%;
+  }
+}
+
+// Phones: each row stacks, and cells name their column.
+@media (max-width: 767px) {
+  .NL_trust .NL_trust_table {
+    display: block;
+
+    thead {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+    }
+
+    tbody,
+    tr {
+      display: block;
+    }
+
+    tr {
+      padding: 8px 0;
+    }
+
+    tbody th,
+    tbody td {
+      display: block;
+      width: auto;
+      padding: 3px 8px;
+      border-top: 0;
+      overflow-wrap: anywhere;
+    }
+
+    tbody th {
+      font-size: 18px;
+    }
+
+    tbody td:empty {
+      display: none;
+    }
+
+    tbody td::before {
+      display: block;
+      font-size: 12px;
+      color: $text-dark;
+      content: attr(data-label);
+    }
+  }
+}

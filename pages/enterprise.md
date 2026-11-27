@@ -6,7 +6,6 @@ permalink: "/enterprise/"
 use_cbpscroller: true
 tags:
 - Enterprise
-- Select
 - Pricing
 sitemap:
   priority: 0.7
@@ -41,7 +40,7 @@ sitemap:
 <div class="row NL_block">
     <h2 class="col-md-12">Everything the Standard Plans Do, Plus What Enterprises Ask For</h2>
     <p class="col-md-8 col-md-offset-2" style="text-align:center;">
-        Enterprise is our Select plan, shaped per deal. You agree your limits, your deployment model and your level of support, and keep the full NetLicensing platform.
+        Enterprise is shaped per deal. You agree your limits, your deployment model and your level of support, and keep the full NetLicensing platform.
     </p>
 </div>
 
@@ -130,13 +129,15 @@ sitemap:
                 <span>NetLicensing is operated by Labs64 GmbH in Germany and hosted on AWS in Ireland. The Service Level Agreement commits to 99.5% monthly uptime, with service credits if we fall short. Data transfer is encrypted, your data is deleted on request, and source code escrow is available on request.</span>
                 <br><br>
                 <a href="https://www.labs64.com/legal/terms-of-service/netlicensing/service-level-agreement-1-1/" target="_blank" rel="noopener">Read the Service Level Agreement &rarr;</a>
+                <br>
+                <a href="{{ '/trust/' | relative_url }}">Security and privacy answers &rarr;</a>
             </article>
         </section>
 
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
                 <h2>Licensing That Talks to Your Business Systems</h2>
-                <span>Webhook notifications send new customers, new licenses, warning-level changes and payments straight to your CRM, database or reporting. Product usage tracking and analytics show how your products are used. Customized reporting automation and revenue sharing for partners and resellers are available as Select options.</span>
+                <span>Webhook notifications send new customers, new licenses, warning-level changes and payments straight to your CRM, database or reporting. Product usage tracking and analytics show how your products are used. Customized reporting automation and revenue sharing for partners and resellers are also available as options.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
                 <img src="{{ '/img/netlicensing-industry-data-consumption-metering.png' | prepend: site.baseurl | prepend: site.url }}"

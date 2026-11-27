@@ -53,7 +53,7 @@ New accounts receive a **30-day free Premium trial** (all features, no credit ca
 | Community | Free           | 1               | 50         | 10,000       | Attribution required; Try&Buy, Subscription, Discount models; PayPal only |
 | Basic     | €120/month (annual) | 3           | 200        | 100,000      | All online PSP; Try&Buy, Subscription, Discount, Multi-Feature, Pricing Table, Quota models; EU VAT |
 | Premium   | €380/month (annual) | 10         | 1000       | 1,000,000    | Try&Buy, Subscription, Discount, Multi-Feature, Floating, Node-Locked, Pricing Table, Quota, Pay-per-Use models; Shop customization; Customer Portal; Premium support |
-| Select    | Contact sales  | Customizable    | Customizable | Customizable | All models; SLA 99.5%; NetLicensing Agent; Dedicated managed environment; separate test environment on request; Revenue Sharing; self-hosting; SSO via standard protocols such as OpenID Connect (enabled and tested per customer); audit log; dedicated technical manager, custom development, priority feature requests and migration from other licensing systems (priced per deal); individually tailored pricing and feature set — contact sales for a custom quote |
+| Select    | Contact sales  | Customizable    | Customizable | Customizable | Extension of the Basic or Premium plan, not the same as Enterprise. All models; SLA 99.5%; NetLicensing Agent; Dedicated managed environment; Revenue Sharing; individually tailored pricing and feature set — contact sales for a custom quote |
 
 Customer packs (optional, on top of the plan price): Basic +100 customers for €40/month, at most 3 packs (up to 500 customers); Premium +500 customers for €120/month. Community has no packs; Select limits are customizable.
 
@@ -75,6 +75,8 @@ For enterprise and on-premise deployments, NetLicensing supports installation wi
 - **Hosting**: Managed hosting (shared cloud and dedicated environment): AWS, Ireland (EU).
 - **Source code escrow**: On request, the source code can be deposited with a third-party escrow agent.
 - **SLA service credits**: 99.50% monthly uptime; a credit of 10% of that month's charges below 99.50% and 30% below 99.00%, claimed by email within two billing cycles. Credits are the sole remedy.
+
+Enterprise is a separate offering from the Select plan, shaped per deal: self-hosting or a dedicated managed environment; 99.5% SLA; SSO via standard protocols such as OpenID Connect (enabled and tested per customer); audit log; separate test environment on request; source code escrow on request; dedicated technical manager, custom development, priority feature requests and migration from other licensing systems (priced per deal).
 
 Enterprise setup is supported by the Labs64 team. Contact sales at https://netlicensing.io/contact/ or book a call to discuss infrastructure requirements.
 
@@ -211,8 +213,9 @@ EBAC/FeBAC article: https://netlicensing.io/blog/2026/01/21/introducing-entitlem
 - [Membership Management](https://netlicensing.io/membership-management/): Pricing plan creation, integration, publishing, and customer membership management.
 - [Getting Started](https://netlicensing.io/getting-started/): Step-by-step guide — configure product → validate customer → acquire licenses.
 - [For Integrators / Documentation](https://netlicensing.io/documentation/): Links to wiki, API reference, client libraries, usage scenarios.
+- [Trust](https://netlicensing.io/trust/): Hosting, DPA, subprocessors, security measures, SLA, where to find security advisories (GitHub Security tab per repository; service advisories on request) and how to report an issue.
 - [Pricing](https://netlicensing.io/pricing/): Plan comparison (Community, Basic, Premium, Select), FAQ.
-- [Enterprise](https://netlicensing.io/enterprise/): NetLicensing Select for Enterprise — contractual SLA, self-hosting, SSO via OpenID Connect, audit log, source code escrow, EU hosting on AWS in Ireland.
+- [Enterprise](https://netlicensing.io/enterprise/): NetLicensing Enterprise — contractual SLA, self-hosting, SSO via OpenID Connect, audit log, source code escrow, EU hosting on AWS in Ireland.
 - [Case Studies](https://netlicensing.io/case-studies/): Real-world implementations across industries.
 - [Blog](https://netlicensing.io/blog/): Articles on licensing models, software monetization, SaaS pricing, API licensing, IoT, security, and platform updates.
 - [Request a Demo](https://netlicensing.io/demo-optin/): Live demo access and newsletter signup; also accessible via the "Request a Demo" Calendly button sitewide.
@@ -236,5 +239,5 @@ EBAC/FeBAC article: https://netlicensing.io/blog/2026/01/21/introducing-entitlem
 - **Management Console**: https://ui.netlicensing.io
 - **Sign Up (Free)**: https://ui.netlicensing.io/#/register
 - **Request a Demo**: https://netlicensing.io/demo-optin/ (or via the Calendly widget sitewide)
-- **Contact Sales (Select / Enterprise)**: https://netlicensing.io/contact/ (Enterprise overview: https://netlicensing.io/enterprise/)
+- **Contact Sales (Select or Enterprise)**: https://netlicensing.io/contact/ (Enterprise overview: https://netlicensing.io/enterprise/)
 - **GitHub**: https://github.com/Labs64

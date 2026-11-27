@@ -1,0 +1,6 @@
+{%- comment -%} Evidence links of a /trust/ row. Usage: include trust-links.html links=row.links {%- endcomment -%}
+{%- for link in include.links -%}
+{%- assign first = link.url | slice: 0 -%}
+{%- if link.url contains "://" or first == "#" -%}<a href="{{ link.url }}">{{ link.label }}</a>{%- else -%}<a href="{{ link.url | relative_url }}">{{ link.label }}</a>{%- endif -%}
+{%- unless forloop.last %}<br>{% endunless -%}
+{%- endfor -%}

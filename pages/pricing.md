@@ -142,7 +142,7 @@ tags:
     <div class="col-md-12 NL_form_light NL_block">
         <div class="col-md-8 col-md-offset-2 NL_form_light_text">
             <h2>Licensing at Company Scale?</h2>
-            <span>NetLicensing Select for Enterprise: self-hosted or dedicated, with SSO, audit log and a 99.5% SLA.<br>Custom development, priority feature requests and a technical manager for your rollout.</span>
+            <span>NetLicensing Enterprise: self-hosted or dedicated, with SSO, audit log and a 99.5% SLA.<br>Custom development, priority feature requests and a technical manager for your rollout.</span>
 
             <div class="row NL_cta_row">
                 <div class="col-sm-4 col-sm-offset-4">
