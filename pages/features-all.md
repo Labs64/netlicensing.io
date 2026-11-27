@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Features"
-description: "World class features you need to effectively manage your product licenses"
+description: "The features you need to manage your product licenses"
 permalink: "/features-all/"
 prefetch:
 - /features/
@@ -36,7 +36,7 @@ sitemap:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>All the features needed<br/>for your business process</h1>
-        <span>World class features, integrated to save you time & money.</span>
+        <span>Integrated features that save you time and money.</span>
     </div>
 </div>
 
@@ -90,7 +90,7 @@ sitemap:
             <span>Do you have an idea for a cool new feature of NetLicensing that you think could be the Next Big Thing™?</span>
 
             <form action="/contact/" method="GET"
-                  name="Reaquest Feature" id="request-feature"
+                  name="Request Feature" id="request-feature"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
                     <i class="fa fa-paper-plane"></i>Send Request

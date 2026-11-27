@@ -26,7 +26,7 @@ favorite-feature:
 
 A company sells a cloud platform that monitors network quality for mobile and fixed-line operators: dropped calls, congestion, outages, suspicious traffic. Its customers range from regional ISPs with 40,000 subscribers to national carriers with millions.
 
-Everyone paid the same yearly fee. The small ISPs found it too expensive, and the large carriers got a bargain. The product also had three parts, Monitoring, Forecasting and Security, that were sold as one package, although many smaller operators only wanted Monitoring. When an operator grew, say after buying a competitor, a bigger licence meant a new contract negotiation.
+Everyone paid the same yearly fee. The small ISPs found it too expensive, and the large carriers got a bargain. The product also had three parts, Monitoring, Forecasting and Security, that were sold as one package, although many smaller operators only wanted Monitoring. When an operator grew, say after buying a competitor, a bigger license meant a new contract negotiation.
 
 ### Approach
 

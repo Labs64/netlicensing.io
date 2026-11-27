@@ -72,3 +72,34 @@
     width: 41.666667%;
   }
 }
+
+// Home banner: sign-up is the main action, so its light button starts filled.
+.NL_light_btn.NL_cta_primary {
+  color: $brand-primary !important;
+  background: $bg-white;
+  border-color: $bg-white;
+
+  &:hover {
+    background: $brand-light;
+    border-color: $brand-light;
+  }
+}
+
+.NL_cta_note {
+  margin: 12px 0 0;
+  font-size: 13px;
+  text-align: center;
+  color: $bg-white;
+}
+
+// Newest changelog entry under the home banner.
+.NL_latest_update {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 15px 0;
+  text-align: center;
+
+  &[hidden] {
+    display: none;
+  }
+}

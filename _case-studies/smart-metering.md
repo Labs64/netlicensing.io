@@ -26,7 +26,7 @@ favorite-feature:
 
 A company supplies smart electricity meters and the head-end system that utilities use to collect readings from them. The head-end software runs in the utility's data centre and talks to hundreds of thousands of meters.
 
-The software was sold as one large licence, sized by guesswork at the start of a rollout. Utilities that rolled out meters more slowly than planned felt they had overpaid. Those that grew faster ran past the agreed number without anyone noticing. Analytics like power quality monitoring were sold as separate projects. And on-demand reads, where the utility pulls a reading outside the normal schedule (for a move-out, say), put load on the network but weren't charged at all.
+The software was sold as one large license, sized by guesswork at the start of a rollout. Utilities that rolled out meters more slowly than planned felt they had overpaid. Those that grew faster ran past the agreed number without anyone noticing. Analytics like power quality monitoring were sold as separate projects. And on-demand reads, where the utility pulls a reading outside the normal schedule (for a move-out, say), put load on the network but weren't charged at all.
 
 ### Approach
 

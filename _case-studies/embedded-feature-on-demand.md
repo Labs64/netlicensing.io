@@ -64,7 +64,7 @@ The response lists each feature with `valid=true` or `false`, and for "Grid serv
 
 #### Offline controllers
 
-For controllers without a network, the installer brings the licence on a USB stick. The vendor creates an [offline validation file](https://netlicensing.io/wiki/faq-offline-validation-file) for the serial in the [Management Console](https://ui.netlicensing.io), or requests it through the API with `forOfflineUse=true`. The file is the same signed validation result, so the firmware checks it in exactly the same way.
+For controllers without a network, the installer brings the license on a USB stick. The vendor creates an [offline validation file](https://netlicensing.io/wiki/faq-offline-validation-file) for the serial in the [Management Console](https://ui.netlicensing.io), or requests it through the API with `forOfflineUse=true`. The file is the same signed validation result, so the firmware checks it in exactly the same way.
 
 An offline file is a snapshot. A feature bought later needs a new file, and a trial that ends or a purchase made after the file was created only shows up with the next file. Installers bring a fresh one on each service visit.
 

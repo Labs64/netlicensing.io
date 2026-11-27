@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Case Studies"
-description: "Whether you're looking for inspiration, business models, or precedents, the NetLicensing Case Studies are a perfect place to start"
+description: "Example solutions that show how different products can use NetLicensing, with business models and licensing setups"
 permalink: "/case-studies/"
 tags:
 - Case Studies
@@ -53,8 +53,8 @@ sitemap:
 ---
 <div class="row NL_banner">
 	<div class="col-md-6 col-md-offset-3 NL_about_page">
-		<h1>NetLicensing Case Studies</h1>
-		<span>Whether you're looking for inspiration, business models, or precedents,<br/>the NetLicensing Case Studies are a perfect place to start.</span>
+		<h1>Example Solutions</h1>
+		<span>Looking for inspiration or a business model?<br/>See how products like yours can use NetLicensing.</span>
 	</div>
 </div>
 

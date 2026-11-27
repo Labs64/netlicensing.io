@@ -1,6 +1,6 @@
 ---
 layout: casestudy
-title: "Compliance & Licence Audit: Automated Overuse Detection and Audit-Ready Reporting"
+title: "Compliance & License Audit: Automated Overuse Detection and Audit-Ready Reporting"
 description: "How an enterprise software vendor can prevent overuse instead of finding it in audits, using Node-Locked and Floating limits, warning levels and signed validation responses."
 permalink: "/case-studies/compliance-licence-audit/"
 img: "/img/case-studies/netlicensing-case-study-compliance-licence-audit.png"

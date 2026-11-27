@@ -49,7 +49,7 @@ sitemap:
             <figcaption>
                 <img loading="lazy" decoding="async" src="{{ '/img/features/industry-fintech-audit-records.png' | prepend: site.baseurl | prepend: site.url }}" alt="Audit Trail Gaps"/>
                 <h3>Access Gaps Create Audit Friction</h3>
-                <p>Financial software buyers often need clear records of who accessed which module, when, and under what entitlement. Spreadsheet-managed licences make that evidence hard to assemble and harder to trust.</p>
+                <p>Financial software buyers often need clear records of who accessed which module, when, and under what entitlement. Spreadsheet-managed licenses make that evidence hard to assemble and harder to trust.</p>
             </figcaption>
         </figure>
     </div>
@@ -76,7 +76,7 @@ sitemap:
             <figcaption>
                 <img loading="lazy" decoding="async" src="{{ '/img/features/industry-fintech-commercial-rules.png' | prepend: site.baseurl | prepend: site.url }}" alt="Commercial Model Flexibility"/>
                 <h3>Commercial Rules Change Faster Than Code</h3>
-                <p>Hard-coded licence logic inside a fintech stack makes pricing, packaging, and access changes dependent on engineering releases. Externalising entitlements keeps the commercial model more adaptable.</p>
+                <p>Hard-coded license logic inside a fintech stack makes pricing, packaging, and access changes dependent on engineering releases. Externalising entitlements keeps the commercial model more adaptable.</p>
             </figcaption>
         </figure>
     </div>
@@ -104,7 +104,7 @@ sitemap:
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Entitlement Records for Audit Reviews</h2>
-                <span>Each entitlement validation can carry timestamp, licensee context, and transaction reference data. Build a clearer record of which user or entity accessed which module under which entitlement, without manual licence spreadsheets.</span>
+                <span>Each entitlement validation can carry timestamp, licensee context, and transaction reference data. Build a clearer record of which user or entity accessed which module under which entitlement, without manual license spreadsheets.</span>
                 <br><br>
                 <a href="https://netlicensing.io/wiki/quota">Learn about Quota licensing →</a>
             </article>

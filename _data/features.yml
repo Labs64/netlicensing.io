@@ -9,7 +9,7 @@
   show-default: true
 
 - name: "Easy Setup and Integration"
-  description: "NetLicensing makes <a href='/getting-started/'>setup and integration</a> fast, safe and very simple."
+  description: "Three <a href='/getting-started/'>steps from account to first validation</a>."
   icon: "/img/features/easy_setup_and_integration.png"
   show-default: true
 
@@ -19,7 +19,7 @@
   show-default: true
 
 - name: "Online License Acquisition"
-  description: "NetLicensing provides a seamless online purchase experience, aligned with deployed licensing models, resulting in higher conversion rates and customer retention."
+  description: "NetLicensing provides a seamless online purchase experience, aligned with deployed licensing models."
   icon: "/img/features/online_license_acquisition.png"
   show-default: true
 
@@ -29,7 +29,7 @@
   show-default: true
 
 - name: "Availability"
-  description: "The cloud-based infrastructure of NetLicensing provides the highest availability across your entire license management process.<br/><i class='fa fa-cloud-upload'></i>&nbsp;99.5% uptime SLA with Select and Enterprise"
+  description: "NetLicensing runs on cloud infrastructure that supports your entire license management process.<br/><i class='fa fa-cloud-upload'></i>&nbsp;99.5% uptime SLA with Select and Enterprise"
   icon: "/img/features/availability.png"
   show-default: true
 

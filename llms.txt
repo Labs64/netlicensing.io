@@ -1,6 +1,6 @@
 # NetLicensing
 
-> Labs64 NetLicensing is a first-class Licensing-as-a-Service (LaaS) solution that provides an integrated, scalable, and cost-effective platform for software vendors and developers to manage product licenses online. It enables license delivery, activation, validation, and e-commerce without requiring vendors to build or maintain their own licensing infrastructure.
+> Labs64 NetLicensing is a Licensing-as-a-Service (LaaS) solution that provides an integrated, scalable, and cost-effective platform for software vendors and developers to manage product licenses online. It enables license delivery, activation, validation, and e-commerce without requiring vendors to build or maintain their own licensing infrastructure.
 
 NetLicensing is developed and operated by **Labs64 GmbH** (https://www.labs64.com), headquartered in Germany. The service is available at https://netlicensing.io and the management console at https://ui.netlicensing.io. It supports cloud (SaaS), managed (SaaS) and on-premise (self-hosted / enterprise) deployment options.
 
@@ -216,7 +216,7 @@ EBAC/FeBAC article: https://netlicensing.io/blog/2026/01/21/introducing-entitlem
 - [Trust](https://netlicensing.io/trust/): Hosting, DPA, subprocessors, security measures, SLA, where to find security advisories (GitHub Security tab per repository; service advisories on request) and how to report an issue.
 - [Pricing](https://netlicensing.io/pricing/): Plan comparison (Community, Basic, Premium, Select), FAQ.
 - [Enterprise](https://netlicensing.io/enterprise/): NetLicensing Enterprise — contractual SLA, self-hosting, SSO via OpenID Connect, audit log, source code escrow, EU hosting on AWS in Ireland.
-- [Case Studies](https://netlicensing.io/case-studies/): Real-world implementations across industries.
+- [Case Studies](https://netlicensing.io/case-studies/): Example solutions across industries.
 - [Blog](https://netlicensing.io/blog/): Articles on licensing models, software monetization, SaaS pricing, API licensing, IoT, security, and platform updates.
 - [Request a Demo](https://netlicensing.io/demo-optin/): Live demo access and newsletter signup; also accessible via the "Request a Demo" Calendly button sitewide.
 - [Contact](https://netlicensing.io/contact/): Email info@netlicensing.io; 1-on-1 demo and sales call scheduling via Calendly.

@@ -103,7 +103,7 @@ sitemap:
                      alt="Session-Based & Floating Licensing" title="Session-Based & Floating Licensing">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
-                <h2>Concurrent Session Control With Floating Licences</h2>
+                <h2>Concurrent Session Control With Floating Licenses</h2>
                 <span>Set how many devices or sessions can access content simultaneously per account using the Floating model. Support single-device, dual-screen, family-tier, or event-based concurrency limits with a dedicated licensing model.</span>
                 <br><br>
                 <a href="https://netlicensing.io/wiki/floating">Learn about Floating model →</a>
@@ -113,7 +113,7 @@ sitemap:
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
                 <h2>Structured DLC &amp; Season Pass Entitlements</h2>
-                <span>Define each content pack, expansion, season pass, or event access right as a distinct licence template with its own release window, price, and lifecycle. Purchases through the NetLicensing Shop become entitlements your product can validate consistently.</span>
+                <span>Define each content pack, expansion, season pass, or event access right as a distinct license template with its own release window, price, and lifecycle. Purchases through the NetLicensing Shop become entitlements your product can validate consistently.</span>
                 <br><br>
                 <a href="https://netlicensing.io/wiki/multi-feature">Learn about Multi-Feature model →</a>
             </article>

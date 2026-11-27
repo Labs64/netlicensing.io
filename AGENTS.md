@@ -211,7 +211,7 @@ Edit these to change content without touching layouts.
 | `licensingmodels.yml` | `/licensing-models/`, plan picker | `name`, `aliases`, `description`, `tags` (time, volume, feature, user, concurrent), `status`, `img`, `url`, `plans`, `summary`, optional `picker: false`. `plans` also builds the "Licensing Models" row of the pricing table, so list every plan from the first one upwards |
 | `pricing.yml` | `/pricing/` rows | `Y` = ✓, `N` = empty box, other strings render as text. The plan picker reads "Active Products" and "Active Customers" as limits, so keep those plain numbers. A row's optional `packs.<plan>: {size, price, max?}` shows an add-on under the value (`tall: true` gives a row with long values more height on desktop; `models: true` fills the row from `licensingmodels.yml` `plans`); the picker, pricing FAQ and FAQ JSON-LD use the "Active Customers" packs, and `llms.txt` repeats them by hand |
 | `trust.yml` | `/trust/` | Facts with evidence links only; update `reviewed`; add a subprocessor only when confirmed; link repository Security tabs, don't copy advisories |
-| `usecases.yml`, `testimonials.yml` | homepage tiles / quotes | `name, description` / `testimonial, author, role` |
+| `usecases.yml`, `testimonials.yml` | not shown on the site at the moment (the home page quotes were removed) | `name, description` / `testimonial, author, role` |
 | `navigation.yml`, `services.yml`, `socialmedia.yml` | top nav, footer, social links | |
 | `images.yml` | attribution registry | `id, source, title, caption, license, author, publisher, creditlink`, optional `exclude: true`. **Every image gets an entry** |
 
@@ -239,7 +239,6 @@ Image folders and names: blog `img/blog/netlicensing-<slug>.png` (hero 1200×630
 | Add a feature card | `_data/features.yml` entry → icon in `img/features/` → register icon in `images.yml` |
 | Add a licensing model | `_data/licensingmodels.yml` entry (incl. `plans`, `summary`) → image in `img/licensing-model/` → register it → check the pricing table row (built from `plans`) → update `llms.txt` |
 | Update pricing | `_data/pricing.yml` rows (`Y`/`N`/text) → check `licensingmodels.yml` `plans` and the plan picker → update `llms.txt` and the pricing FAQ in `pages/pricing.md` if affected |
-| Add a testimonial | `_data/testimonials.yml` entry |
 | URL change | create `*_301.md` stub (§6) → update internal links |
 | Write a blog post | §6 + §7, then verify (§1) |
 | Toggle analytics | set or clear the tracking ID in `_config.yml` (ask first) |

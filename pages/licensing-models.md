@@ -35,7 +35,7 @@ sitemap:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Licensing models tailored to your needs</h1>
-        <span>NetLicensing is sophisticated enough to cover even the most outlandish licensing models: from single-user to network overflow licenses. NetLicensing provides software vendors with the ability to map/combine numerous licensing models.</span>
+        <span>NetLicensing covers licensing models from single-user to network overflow licenses, and lets software vendors map and combine them.</span>
     </div>
 </div>
 
@@ -76,7 +76,7 @@ sitemap:
             <span>With NetLicensing, complex software licensing models can be created that fit your business needs.</span>
 
             <form action="/contact/" method="GET"
-                  name="Reaquest Licensing Model" id="request-licensing-model"
+                  name="Request Licensing Model" id="request-licensing-model"
                   novalidate>
                 <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
                     <i class="fa fa-paper-plane"></i>Send Request

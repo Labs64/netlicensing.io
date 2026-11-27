@@ -113,7 +113,7 @@ sitemap:
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
                 <h2>Feature Gating Without Conditional Code</h2>
-                <span>Enable or disable individual features by customer, plan, account, or reseller tenant without a deployment. Upgrade paths are represented as licence templates, while your application keeps the same validation flow.</span>
+                <span>Enable or disable individual features by customer, plan, account, or reseller tenant without a deployment. Upgrade paths are represented as license templates, while your application keeps the same validation flow.</span>
                 <br><br>
                 <a href="https://netlicensing.io/wiki/multi-feature">Learn about Multi-Feature model →</a>
             </article>
@@ -130,7 +130,7 @@ sitemap:
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Self-Service Plans, Trials, and Upgrades</h2>
-                <span>Customers can sign up, evaluate a trial, and move to a paid plan through the NetLicensing Shop. Trial duration, plan upgrades, payment processing, and licence provisioning follow the same entitlement model instead of a separate custom storefront.</span>
+                <span>Customers can sign up, evaluate a trial, and move to a paid plan through the NetLicensing Shop. Trial duration, plan upgrades, payment processing, and license provisioning follow the same entitlement model instead of a separate custom storefront.</span>
                 <br><br>
                 <a href="/features/">All platform features →</a>
             </article>

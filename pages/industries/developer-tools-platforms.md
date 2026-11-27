@@ -113,7 +113,7 @@ sitemap:
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
                 <h2>Native SDK &amp; Client Library Support</h2>
-                <span>Embed licence validation into SDKs using NetLicensing client libraries for Java, JavaScript, C#, PHP, and more. Entitlement checks stay aligned across client libraries without duplicating billing logic in every language binding.</span>
+                <span>Embed license validation into SDKs using NetLicensing client libraries for Java, JavaScript, C#, PHP, and more. Entitlement checks stay aligned across client libraries without duplicating billing logic in every language binding.</span>
                 <br><br>
                 <a href="https://netlicensing.io/wiki/client-libraries">Explore client libraries →</a>
             </article>
@@ -130,7 +130,7 @@ sitemap:
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Frictionless Free Tier &amp; Self-Serve Upgrades</h2>
-                <span>Developers can start on a free tier, evaluate the product, and upgrade through the NetLicensing Shop when usage grows. Trial rules, payment processing, and licence provisioning stay connected to the same entitlement model.</span>
+                <span>Developers can start on a free tier, evaluate the product, and upgrade through the NetLicensing Shop when usage grows. Trial rules, payment processing, and license provisioning stay connected to the same entitlement model.</span>
                 <br><br>
                 <a href="/features/">All platform features →</a>
             </article>

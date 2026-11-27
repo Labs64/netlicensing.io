@@ -1,7 +1,7 @@
 ---
 layout: casestudy
 title: "MedTech Imaging: Pay-Per-Study Analytics"
-description: "How a medical imaging AI vendor can sell prepaid study credits per modality with Pay-per-Use, offer flat-rate site licences to large hospitals, and send no patient data to the licensing service."
+description: "How a medical imaging AI vendor can sell prepaid study credits per modality with Pay-per-Use, offer flat-rate site licenses to large hospitals, and send no patient data to the licensing service."
 permalink: "/case-studies/medtech-pay-per-study/"
 img: "/img/case-studies/netlicensing-case-study-medtech-pay-per-study.png"
 tags:
@@ -23,9 +23,9 @@ favorite-feature:
 
 ### Challenge
 
-A company develops AI analysis for radiology: it flags suspicious findings on CT and MRI studies and measures them over time. It sold only annual site licences, priced for large hospitals.
+A company develops AI analysis for radiology: it flags suspicious findings on CT and MRI studies and measures them over time. It sold only annual site licenses, priced for large hospitals.
 
-That shut out the long tail. An imaging centre with one MRI scanner and three radiologists couldn't justify the annual fee, and a pilot at a university hospital took months of procurement before anyone could try the software on real cases. The company wanted a way to pay per study, prepaid, with the site licence still available for the big customers.
+That shut out the long tail. An imaging centre with one MRI scanner and three radiologists couldn't justify the annual fee, and a pilot at a university hospital took months of procurement before anyone could try the software on real cases. The company wanted a way to pay per study, prepaid, with the site license still available for the big customers.
 
 There was one firm requirement from the start: no patient data could leave the hospital for licensing purposes.
 
@@ -39,7 +39,7 @@ Product: RadAssist
 │   └── Packs: QUANTITY 50, 200, 1000
 ├── Module "MRI studies" – Pay-per-Use
 │   └── Packs: QUANTITY 50, 200, 1000
-└── Module "Site licence" – Subscription
+└── Module "Site license" – Subscription
     └── 1 year: TIMEVOLUME 1 YEAR
 ```
 
@@ -55,7 +55,7 @@ If the response is `valid=true`, the analysis runs, and `remainingQuantity` show
 
 Reserving before the analysis (rather than reporting afterwards) means the hospital can't run analyses it hasn't paid for, even if the network drops halfway.
 
-**Site licences.** A large hospital on an annual contract gets a [Subscription](https://netlicensing.io/wiki/subscription) license instead. When "Site licence" is valid, the server doesn't touch the credits at all. Some hospitals start on credits during the pilot and move to a site licence later. Their remaining credits stay on the account.
+**Site licenses.** A large hospital on an annual contract gets a [Subscription](https://netlicensing.io/wiki/subscription) license instead. When "Site license" is valid, the server doesn't touch the credits at all. Some hospitals start on credits during the pilot and move to a site license later. Their remaining credits stay on the account.
 
 #### Staying ahead of the balance
 
@@ -71,7 +71,7 @@ Each purchase is a [transaction](https://netlicensing.io/wiki/transaction-servic
 
 - Small imaging centres can start with a 50-study pack instead of an annual contract.
 - Every analysis is paid for before it runs, and running out of credits never blocks a study from being read.
-- Large hospitals keep a flat-rate site licence, and pilots can turn into site licences without losing credits.
+- Large hospitals keep a flat-rate site license, and pilots can turn into site licenses without losing credits.
 - The licensing service only ever sees a hospital ID and a number. Patient data stays in the hospital.
 
 Licensing software in a regulated environment? [Talk to us](https://netlicensing.io/contact/) about your setup.

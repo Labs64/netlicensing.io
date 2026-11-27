@@ -28,7 +28,7 @@ sitemap:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Healthcare &amp; Life Sciences Licensing Infrastructure</h1>
-        <span>Use tokenised identifiers, timestamped entitlement records, and offline licence validation for medical, clinical, and life sciences software deployments.</span>
+        <span>Use tokenised identifiers, timestamped entitlement records, and offline license validation for medical, clinical, and life sciences software deployments.</span>
     </div>
 </div>
 
@@ -48,8 +48,8 @@ sitemap:
         <figure class="hover_effect">
             <figcaption>
                 <img loading="lazy" decoding="async" src="{{ '/img/features/industry-healthcare-privacy-token.png' | prepend: site.baseurl | prepend: site.url }}" alt="Patient Data Exposure"/>
-                <h3>PHI and PII Should Stay Out of Licence Checks</h3>
-                <p>If licence validation requests carry practitioner IDs or patient-context data, every check expands the information handled by the entitlement layer. Tokenised identifiers help reduce that exposure.</p>
+                <h3>PHI and PII Should Stay Out of License Checks</h3>
+                <p>If license validation requests carry practitioner IDs or patient-context data, every check expands the information handled by the entitlement layer. Tokenised identifiers help reduce that exposure.</p>
             </figcaption>
         </figure>
     </div>
@@ -58,7 +58,7 @@ sitemap:
             <figcaption>
                 <img loading="lazy" decoding="async" src="{{ '/img/features/industry-healthcare-access-records.png' | prepend: site.baseurl | prepend: site.url }}" alt="Audit Readiness"/>
                 <h3>Incomplete Logs Slow Quality Reviews</h3>
-                <p>Quality, security, and regulatory reviews often require records of who accessed which software module, when, and under which licence. Missing entitlement logs make those reviews slower and more manual.</p>
+                <p>Quality, security, and regulatory reviews often require records of who accessed which software module, when, and under which license. Missing entitlement logs make those reviews slower and more manual.</p>
             </figcaption>
         </figure>
     </div>
@@ -67,7 +67,7 @@ sitemap:
             <figcaption>
                 <img loading="lazy" decoding="async" src="{{ '/img/features/industry-healthcare-offline-validation.png' | prepend: site.baseurl | prepend: site.url }}" alt="Air-Gapped Environments"/>
                 <h3>Clinical Environments May Run Offline</h3>
-                <p>Hospital networks, imaging systems, and clinical lab instruments often operate in isolated environments with restricted outbound internet access. Cloud-dependent licence checks can create avoidable deployment risk.</p>
+                <p>Hospital networks, imaging systems, and clinical lab instruments often operate in isolated environments with restricted outbound internet access. Cloud-dependent license checks can create avoidable deployment risk.</p>
             </figcaption>
         </figure>
     </div>
@@ -103,8 +103,8 @@ sitemap:
                      alt="Privacy by Design & Tokenisation" title="Privacy by Design & Tokenisation">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
-                <h2>Tokenised Identifiers for Licence Validation</h2>
-                <span>Replace practitioner and patient-adjacent identifiers with opaque references before they reach entitlement validation records. This keeps licensing events useful for access control while reducing the personal data handled by licence logs.</span>
+                <h2>Tokenised Identifiers for License Validation</h2>
+                <span>Replace practitioner and patient-adjacent identifiers with opaque references before they reach entitlement validation records. This keeps licensing events useful for access control while reducing the personal data handled by license logs.</span>
                 <br><br>
                 <a href="/features/">Explore platform security features →</a>
             </article>
@@ -113,7 +113,7 @@ sitemap:
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
                 <h2>Structured Records for Access Reviews</h2>
-                <span>Licence validations can be timestamped and attributed to a licensee and clinical session context. Build clearer evidence for quality, security, and compliance reviews covering module access, facility context, and entitlement state.</span>
+                <span>License validations can be timestamped and attributed to a licensee and clinical session context. Build clearer evidence for quality, security, and compliance reviews covering module access, facility context, and entitlement state.</span>
                 <br><br>
                 <a href="https://netlicensing.io/wiki/quota">Learn about Quota licensing →</a>
             </article>
@@ -130,7 +130,7 @@ sitemap:
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Offline Validation for Air-Gapped Clinical Environments</h2>
-                <span>Issue signed licence files for clinical software running on isolated hospital networks and embedded medical devices. Node-locked entitlements can bind to device identifiers so software validates locally when internet connectivity is restricted.</span>
+                <span>Issue signed license files for clinical software running on isolated hospital networks and embedded medical devices. Node-locked entitlements can bind to device identifiers so software validates locally when internet connectivity is restricted.</span>
                 <br><br>
                 <a href="https://netlicensing.io/wiki/node-locked">Learn about Node-Locked model →</a>
             </article>
@@ -151,7 +151,7 @@ sitemap:
     <div class="col-md-12 NL_form_light NL_block">
         <div class="col-md-8 col-md-offset-2 NL_form_light_text">
             <h2>Licensing Built for Clinical Deployment Constraints</h2>
-            <span>Use NetLicensing for privacy-aware identifiers, structured entitlement records, and offline licence validation across healthcare and life sciences software deployments.</span>
+            <span>Use NetLicensing for privacy-aware identifiers, structured entitlement records, and offline license validation across healthcare and life sciences software deployments.</span>
 
             <div class="row NL_cta_row">
                 <div class="col-sm-4 col-sm-offset-2">

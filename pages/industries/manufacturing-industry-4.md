@@ -8,9 +8,9 @@ tags:
 - manufacturing software licensing
 - Industry 4.0 licensing
 - OT software licensing
-- PLC licence management
+- PLC license management
 - embedded industrial software licensing
-- air-gapped licence validation
+- air-gapped license validation
 - remote feature activation OT
 - licensing software for industrial equipment
 - HMI entitlement management
@@ -28,7 +28,7 @@ sitemap:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Manufacturing &amp; Industry 4.0 Licensing Infrastructure</h1>
-        <span>Lock licences to machine hardware, unlock premium industrial features remotely, and validate entitlements offline on the factory floor.</span>
+        <span>Lock licenses to machine hardware, unlock premium industrial features remotely, and validate entitlements offline on the factory floor.</span>
     </div>
 </div>
 
@@ -49,7 +49,7 @@ sitemap:
             <figcaption>
                 <img loading="lazy" decoding="async" src="{{ '/img/features/industry-manufacturing-airgap.png' | prepend: site.baseurl | prepend: site.url }}" alt="Disconnected Environments"/>
                 <h3>No Internet on the Production Floor</h3>
-                <p>PLCs, HMIs, and production line controllers often operate without internet access by design. Licence validation that requires a live connection can block access in environments built to stay isolated.</p>
+                <p>PLCs, HMIs, and production line controllers often operate without internet access by design. License validation that requires a live connection can block access in environments built to stay isolated.</p>
             </figcaption>
         </figure>
     </div>
@@ -104,7 +104,7 @@ sitemap:
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Hardware-Locked Licensing for Industrial Machines</h2>
-                <span>Bind entitlements to CPU serial numbers, MAC addresses, secure elements, or custom hardware identifiers. Signed licence files validate locally so machines can enforce licence terms inside isolated OT environments.</span>
+                <span>Bind entitlements to CPU serial numbers, MAC addresses, secure elements, or custom hardware identifiers. Signed license files validate locally so machines can enforce license terms inside isolated OT environments.</span>
                 <br><br>
                 <a href="https://netlicensing.io/wiki/node-locked">Learn about Node-Locked model →</a>
             </article>
@@ -130,7 +130,7 @@ sitemap:
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Air-Gapped Deployment Support</h2>
-                <span>Licence files can be issued and validated on the device without internet dependency at runtime. This supports production environments, clean rooms, and isolated OT networks where outbound connectivity is restricted by policy, regulation, or physical constraint.</span>
+                <span>License files can be issued and validated on the device without internet dependency at runtime. This supports production environments, clean rooms, and isolated OT networks where outbound connectivity is restricted by policy, regulation, or physical constraint.</span>
                 <br><br>
                 <a href="/features/">All platform features →</a>
             </article>

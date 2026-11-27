@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Education & E-Learning Licensing — Site Licences, Cohort Access & Learner Seats"
-description: "Manage education software licensing with institutional site licences, cohort access windows, learner seat management, and usage records for EdTech renewals."
+title: "Education & E-Learning Licensing — Site Licenses, Cohort Access & Learner Seats"
+description: "Manage education software licensing with institutional site licenses, cohort access windows, learner seat management, and usage records for EdTech renewals."
 permalink: "/industries/education-elearning/"
 use_cbpscroller: true
 tags:
 - education software licensing
-- e-learning site licence
+- e-learning site license
 - institutional licensing EdTech
 - learner seat management
 - cohort-based access control
@@ -16,7 +16,7 @@ tags:
 - semester access provisioning
 - academic software licensing
 - EdTech subscription management
-- student licence automation
+- student license automation
 - floating seat education
 sitemap:
   priority: 0.7
@@ -28,7 +28,7 @@ sitemap:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Education &amp; E-Learning Licensing Infrastructure</h1>
-        <span>Manage campus site licences, cohort access windows, learner seats, and institutional renewals with entitlements that follow academic calendars.</span>
+        <span>Manage campus site licenses, cohort access windows, learner seats, and institutional renewals with entitlements that follow academic calendars.</span>
     </div>
 </div>
 
@@ -47,8 +47,8 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-education-site-licence.png' | prepend: site.baseurl | prepend: site.url }}" alt="Site Licence Complexity"/>
-                <h3>Campus Licences Need Departmental Control</h3>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-education-site-licence.png' | prepend: site.baseurl | prepend: site.url }}" alt="Site License Complexity"/>
+                <h3>Campus Licenses Need Departmental Control</h3>
                 <p>Institutions may negotiate campus-wide agreements while departments and faculties need different seat pools, modules, or course access. Site licensing works best when central contracts still allow local entitlement control.</p>
             </figcaption>
         </figure>
@@ -103,8 +103,8 @@ sitemap:
                      alt="Site Licensing & Floating Seats" title="Site Licensing & Floating Seats">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
-                <h2>Campus Site Licences With Floating Seats</h2>
-                <span>Grant institution-wide access using a shared pool of concurrent seats. The Floating model supports campus licences where departments and faculties can share a pool or receive isolated allocations with independent limits.</span>
+                <h2>Campus Site Licenses With Floating Seats</h2>
+                <span>Grant institution-wide access using a shared pool of concurrent seats. The Floating model supports campus licenses where departments and faculties can share a pool or receive isolated allocations with independent limits.</span>
                 <br><br>
                 <a href="https://netlicensing.io/wiki/floating">Learn about Floating model →</a>
             </article>
@@ -150,8 +150,8 @@ sitemap:
 <div class="row">
     <div class="col-md-12 NL_form_light NL_block">
         <div class="col-md-8 col-md-offset-2 NL_form_light_text">
-            <h2>Match Education Licences to the Academic Calendar</h2>
-            <span>Use NetLicensing for campus site licences, cohort-bounded provisioning, learner seat management, and usage records that support institutional renewals.</span>
+            <h2>Match Education Licenses to the Academic Calendar</h2>
+            <span>Use NetLicensing for campus site licenses, cohort-bounded provisioning, learner seat management, and usage records that support institutional renewals.</span>
 
             <div class="row NL_cta_row">
                 <div class="col-sm-4 col-sm-offset-2">

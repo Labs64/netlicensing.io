@@ -10,7 +10,7 @@ tags:
 - node-locked device entitlements
 - OTA feature activation software
 - firmware licensing platform
-- offline licence validation IoT
+- offline license validation IoT
 - connected device entitlement management
 - licensing software for IoT devices
 - hardware-bound licensing
@@ -28,7 +28,7 @@ sitemap:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>IoT &amp; Embedded Systems Licensing Infrastructure</h1>
-        <span>Bind licences to hardware IDs, unlock software features over the air, and validate entitlements offline across connected and embedded device fleets.</span>
+        <span>Bind licenses to hardware IDs, unlock software features over the air, and validate entitlements offline across connected and embedded device fleets.</span>
     </div>
 </div>
 
@@ -49,7 +49,7 @@ sitemap:
             <figcaption>
                 <img loading="lazy" decoding="async" src="{{ '/img/features/industry-iot-connectivity.png' | prepend: site.baseurl | prepend: site.url }}" alt="Intermittent Connectivity"/>
                 <h3>Connectivity You Can't Count On</h3>
-                <p>A field sensor that checks in hourly, a gateway cycling through a firmware update, or a controller in a low-signal location cannot depend on live licence validation for every access decision.</p>
+                <p>A field sensor that checks in hourly, a gateway cycling through a firmware update, or a controller in a low-signal location cannot depend on live license validation for every access decision.</p>
             </figcaption>
         </figure>
     </div>
@@ -104,7 +104,7 @@ sitemap:
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Hardware-Bound Node-Locked Licensing</h2>
-                <span>Bind entitlements to unique device identifiers such as serial numbers, MAC addresses, secure element IDs, or custom hardware fingerprints. Signed licence files validate locally, helping prevent unauthorised firmware use in the field.</span>
+                <span>Bind entitlements to unique device identifiers such as serial numbers, MAC addresses, secure element IDs, or custom hardware fingerprints. Signed license files validate locally, helping prevent unauthorised firmware use in the field.</span>
                 <br><br>
                 <a href="https://netlicensing.io/wiki/node-locked">Learn about Node-Locked model →</a>
             </article>
@@ -130,7 +130,7 @@ sitemap:
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>Offline-First Validation for Edge Deployments</h2>
-                <span>Devices can validate entitlement state locally using signed licence files, reducing dependency on internet connectivity at runtime. This supports industrial IoT, remote infrastructure, and field-deployed hardware where connection reliability cannot be assumed.</span>
+                <span>Devices can validate entitlement state locally using signed license files, reducing dependency on internet connectivity at runtime. This supports industrial IoT, remote infrastructure, and field-deployed hardware where connection reliability cannot be assumed.</span>
                 <br><br>
                 <a href="/features/">All platform features →</a>
             </article>

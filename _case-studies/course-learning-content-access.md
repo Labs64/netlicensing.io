@@ -1,7 +1,7 @@
 ---
 layout: casestudy
-title: "E-Learning Platform: Gating Courses and Certifications by Enrolment and Institutional Licence"
-description: "How an e-learning platform can sell single courses, a catalogue subscription and seat-limited institutional licences side by side, with promo codes for students."
+title: "E-Learning Platform: Gating Courses and Certifications by Enrolment and Institutional License"
+description: "How an e-learning platform can sell single courses, a catalogue subscription and seat-limited institutional licenses side by side, with promo codes for students."
 permalink: "/case-studies/course-learning-content-access/"
 img: "/img/case-studies/netlicensing-case-study-course-learning-content-access.png"
 tags:
