@@ -1,0 +1,3 @@
+{%- comment -%} One evidence link of /trust/. Usage: include trust-link.html link=card.link {%- endcomment -%}
+{%- assign first = include.link.url | slice: 0 -%}
+{%- if include.link.url contains "://" or first == "#" -%}<a href="{{ include.link.url }}">{{ include.link.label }}</a>{%- else -%}<a href="{{ include.link.url | relative_url }}">{{ include.link.label }}</a>{%- endif -%}

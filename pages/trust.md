@@ -12,43 +12,97 @@ sitemap:
   priority: 0.6
 ---
 
-<!-- Content lives in _data/trust.yml. Built from existing page sections:
-     banner and closing NL_form_light call to action, plus Bootstrap tables. -->
+<!-- Content lives in _data/trust.yml. Built from existing page sections: banner,
+     NL_feature cards, NL_FAQ columns, the NL_form_light call to action, and
+     Bootstrap tables for the review details. -->
 {% assign trust = site.data.trust %}
 
 <div class="row NL_banner">
     <div class="col-md-8 col-md-offset-2 NL_about_page">
-        <h1>Trust at NetLicensing</h1>
-        <span>Clear answers for your security, privacy and procurement reviews, with links to the evidence.</span>
+        <h1>Your customers&rsquo; data, handled in the open</h1>
+        <span>Where it lives, who can touch it, what we promise and how to tell us when something is wrong.</span>
     </div>
 </div>
 
-<div class="row NL_block NL_trust">
+<div class="row NL_industry_problem_row NL_trust_cards">
+    {%- for card in trust.cards %}
+    <div class="col-md-3 col-sm-6 NL_feature">
+        <figure class="hover_effect">
+            <figcaption>
+                <img src="{{ '/img/features/' | append: card.icon | append: '.png' | relative_url }}" alt=""/>
+                <h3>{{ card.title }}</h3>
+                <p>{{ card.text }}<br>{% include trust-link.html link=card.link %}</p>
+            </figcaption>
+        </figure>
+    </div>
+    {%- endfor %}
+</div>
+
+<div class="row NL_block">
+    <h2 class="col-md-12">Straight Answers Before You Ask</h2>
+</div>
+{%- for answer in trust.answers %}
+{%- assign odd = forloop.index0 | modulo: 2 %}
+{%- if odd == 0 %}
+<div class="row NL_FAQ">{% endif %}
+    <div class="{% if odd == 0 %}col-md-5 col-md-offset-1{% else %}col-md-4 col-md-offset-1{% endif %}">
+        <h3>{{ answer.question }}</h3>
+        <p>{{ answer.answer }} {% include trust-link.html link=answer.link %}</p>
+    </div>
+{%- if odd == 1 or forloop.last %}
+</div>{% endif %}
+{%- endfor %}
+
+<div class="row NL_block">
+    <h2 class="col-md-12">Security Is a Shared Job</h2>
+</div>
+<div class="row NL_trust_shared">
+    <div class="col-md-5 col-md-offset-1">
+        <h3>We take care of</h3>
+        <ul>
+            {%- for item in trust.shared.ours %}
+            <li><i class="fa fa-check" aria-hidden="true"></i>{{ item }}</li>
+            {%- endfor %}
+        </ul>
+    </div>
+    <div class="col-md-5">
+        <h3>You take care of</h3>
+        <ul>
+            {%- for item in trust.shared.yours %}
+            <li><i class="fa fa-check" aria-hidden="true"></i>{{ item }}</li>
+            {%- endfor %}
+        </ul>
+    </div>
+</div>
+
+<div class="row NL_block">
+    <h2 class="col-md-12">Reviewing Us Takes Three Steps</h2>
+</div>
+<div class="row NL_industry_problem_row NL_trust_cards">
+    {%- for step in trust.steps %}
+    <div class="col-md-4 NL_feature">
+        <figure class="hover_effect">
+            <figcaption>
+                <img src="{{ '/img/features/' | append: step.icon | append: '.png' | relative_url }}" alt=""/>
+                <h3>{{ step.title }}</h3>
+                <p>{{ step.text }}</p>
+            </figcaption>
+        </figure>
+    </div>
+    {%- endfor %}
+</div>
+
+<div id="review" class="row NL_block NL_trust">
     <div class="col-md-10 col-md-offset-1">
-        <p class="NL_trust_reviewed">Last reviewed: {{ trust.reviewed | date: "%B %-d, %Y" }}</p>
-        <nav class="NL_trust_nav" aria-label="On this page">
-            <a href="#glance">At a glance</a>
+        <h2>For Your Review</h2>
+        <p class="NL_trust_reviewed">The details and their evidence. Last reviewed: {{ trust.reviewed | date: "%B %-d, %Y" }}</p>
+        <nav class="NL_trust_nav" aria-label="Review details">
             {%- for section in trust.sections %}
             <a href="#{{ section.id }}">{{ section.title }}</a>
             {%- endfor %}
             <a href="#subprocessors">Subprocessors</a>
             <a href="#vulnerabilities">Vulnerabilities</a>
         </nav>
-
-        <h2 id="glance">At a Glance</h2>
-        <table class="table table-striped NL_trust_table">
-            <thead><tr><th scope="col">Question</th><th scope="col">Answer</th><th scope="col">Applies to</th><th scope="col">Evidence</th></tr></thead>
-            <tbody>
-            {%- for row in trust.glance %}
-                <tr>
-                    <th scope="row">{{ row.question }}</th>
-                    <td data-label="Answer">{{ row.answer }}</td>
-                    <td data-label="Applies to"><span class="NL_trust_status">{{ row.status }}</span></td>
-                    <td data-label="Evidence">{% include trust-links.html links=row.links %}</td>
-                </tr>
-            {%- endfor %}
-            </tbody>
-        </table>
 
         {%- for section in trust.sections %}
         <h2 id="{{ section.id }}">{{ section.title }}</h2>

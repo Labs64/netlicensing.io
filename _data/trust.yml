@@ -1,20 +1,44 @@
 # Content of /trust/ (pages/trust.md). Publish only facts you can show evidence for.
 # Select (extends Basic or Premium) and Enterprise are separate offerings.
-# status: Available | All plans | Enterprise | Select and Enterprise | On request | DPA | Managed hosting
-# Update `reviewed` whenever you check the entries.
+# Page order: cards, answers, shared job, review request, then the detail `sections`,
+# subprocessors and repositories. Update `reviewed` whenever you check the entries.
 reviewed: 2026-11-27
 
-glance:
-  - { question: "Who operates the service?", answer: "Labs64 GmbH, Munich, Germany", status: "All plans", links: [{ label: "Imprint", url: "https://www.labs64.com/imprint/" }] }
-  - { question: "Where is it hosted?", answer: "Managed hosting on AWS in Ireland (EU), shared cloud and dedicated", status: "Managed hosting", links: [{ label: "Enterprise", url: "/enterprise/" }] }
-  - { question: "Can we sign a Data Processing Agreement?", answer: "Yes. We conclude a Data Processing Agreement under Article 28 GDPR with every vendor who asks, free of charge", status: "On request", links: [{ label: "How to sign", url: "https://netlicensing.io/wiki/data-processing-agreement-dpa" }, { label: "Sample DPA (PDF)", url: "https://netlicensing.io/wiki/assets/docs/Labs64-NetLicensing-GDPR-DPA-V1.0_sample.pdf" }] }
-  - { question: "How can we assess your security?", answer: "Review the measures on this page and send us your security questionnaire", status: "On request", links: [{ label: "Security measures", url: "#security" }, { label: "Contact", url: "/contact/" }] }
-  - { question: "What uptime do you commit to?", answer: "99.5% monthly, with service credits", status: "Select and Enterprise", links: [{ label: "SLA", url: "https://www.labs64.com/legal/terms-of-service/netlicensing/service-level-agreement-1-1/" }] }
-  - { question: "Is data encrypted in transit?", answer: "Yes, over SSL/TLS", status: "All plans", links: [{ label: "API security", url: "https://netlicensing.io/wiki/security" }] }
-  - { question: "How is access protected?", answer: "Two-factor authentication for vendor accounts; API keys with separate roles", status: "Available", links: [{ label: "API keys and roles", url: "https://netlicensing.io/wiki/security" }] }
-  - { question: "Single sign-on and audit log?", answer: "OpenID Connect sign-in, enabled per customer; audit log of admin changes", status: "Enterprise", links: [{ label: "Enterprise", url: "/enterprise/" }] }
-  - { question: "Can we run it ourselves or offline?", answer: "Self-hosting with Docker Compose or Kubernetes (Enterprise); offline validation with the NetLicensing Agent", status: "Select and Enterprise", links: [{ label: "Agent", url: "https://netlicensing.io/wiki/netlicensing-agent" }] }
-  - { question: "When do you tell us about a data breach?", answer: "Without undue delay, as set out in the DPA (article 6)", status: "DPA", links: [{ label: "Sample DPA (PDF)", url: "https://netlicensing.io/wiki/assets/docs/Labs64-NetLicensing-GDPR-DPA-V1.0_sample.pdf" }] }
+# The four headline facts. icon = file name in img/features/.
+cards:
+  - { icon: "different_hosting_options", title: "Hosted in Ireland", text: "Managed hosting on AWS in the EU, run by Labs64 GmbH in Munich.", link: { label: "Processing locations", url: "#privacy" } }
+  - { icon: "security_encryption", title: "Locked in Transit", text: "Encrypted connections, two-factor login and API keys limited by role.", link: { label: "Security measures", url: "#security" } }
+  - { icon: "service_level_agreement", title: "99.5% Uptime", text: "Monthly, with service credits, for Select and Enterprise.", link: { label: "Read the SLA", url: "https://www.labs64.com/legal/terms-of-service/netlicensing/service-level-agreement-1-1/" } }
+  - { icon: "escrow", title: "You Can Leave", text: "Export your data and have it deleted on request. Source code escrow with Enterprise.", link: { label: "How to export", url: "https://netlicensing.io/wiki/how-to-export-licensee-data" } }
+
+# Questions in plain words; each answer links to its evidence.
+answers:
+  - { question: "Whose data is it?", answer: "Yours to decide about. For your customers' data you are the controller, and we process it on your instructions only.", link: { label: "Privacy Center", url: "https://netlicensing.io/wiki/privacy-center" } }
+  - { question: "Can we sign a DPA?", answer: "Yes. Every vendor who asks gets a Data Processing Agreement under Article 28 GDPR, free of charge.", link: { label: "How to sign", url: "https://netlicensing.io/wiki/data-processing-agreement-dpa" } }
+  - { question: "What if there is a data breach?", answer: "We tell you without undue delay, with the cause, the consequences and what we are doing about it.", link: { label: "DPA, article 6", url: "https://netlicensing.io/wiki/assets/docs/Labs64-NetLicensing-GDPR-DPA-V1.0_sample.pdf" } }
+  - { question: "What if NetLicensing is unreachable?", answer: "Your application can keep using the last validation result until it expires.", link: { label: "How it works", url: "https://netlicensing.io/wiki/faq-service-unreachable" } }
+  - { question: "Can we run it ourselves?", answer: "Self-hosting with Docker Compose or Kubernetes comes with Enterprise. The NetLicensing Agent validates offline, with Select and Enterprise.", link: { label: "NetLicensing Agent", url: "https://netlicensing.io/wiki/netlicensing-agent" } }
+  - { question: "How can we assess your security?", answer: "Read the details below and send us your security questionnaire.", link: { label: "Contact us", url: "/contact/" } }
+
+shared:
+  ours:
+    - "Hosting on AWS in Ireland"
+    - "Encrypted web and API traffic"
+    - "Regular backups"
+    - "Telling you about data breaches"
+    - "Signed validation responses, when you set them up"
+  yours:
+    - "A lawful basis for the customer data you send us"
+    - "Telling your customers that we process it for you"
+    - "Sending only what licensing needs"
+    - "Keeping admin credentials on your servers"
+    - "Turning on two-factor login"
+    - "Reporting a breach to your authority where required, within 72 hours"
+
+steps:
+  - { icon: "licensing-as-a-service", title: "1. Ask for the DPA", text: "Send us your vendor number. We return the countersigned copy within 5 business days of receiving yours." }
+  - { icon: "online_management_portal", title: "2. Send Your Questions", text: "Share your security questionnaire or the points your reviewers raised." }
+  - { icon: "consulting_services", title: "3. Get Answers", text: "We answer and point you to the evidence." }
 
 sections:
   - id: privacy
@@ -35,6 +59,7 @@ sections:
       - { topic: "Vendor accounts", text: "Two-factor authentication is available.", links: [] }
       - { topic: "API keys", text: "Roles limit what each key can do. Ship only licensee-role keys inside your application.", links: [{ label: "Keys in client applications", url: "https://netlicensing.io/wiki/faq-api-key-in-client-application" }] }
       - { topic: "Signed validation responses", text: "Responses can be signed with your RSA key, so your application can detect a forged result. The Java and C# client libraries verify signatures.", links: [{ label: "Signing the response", url: "https://netlicensing.io/wiki/signing-the-response" }] }
+      - { topic: "Single sign-on and audit log", text: "Enterprise: OpenID Connect sign-in, enabled per customer, and an audit log of admin changes.", links: [{ label: "Enterprise", url: "/enterprise/" }] }
       - { topic: "AI agents", text: "The MCP server masks secrets in tool results and asks for a confirmation step before deletes.", links: [{ label: "MCP security", url: "https://netlicensing.io/wiki/netlicensing-mcp-security" }] }
   - id: availability
     title: "Availability and Continuity"
@@ -44,15 +69,9 @@ sections:
       - { topic: "Backups", text: "Data is stored and regularly backed up in Amazon data centers.", links: [] }
       - { topic: "If the service is unreachable", text: "Your application can keep using the last validation result until it expires.", links: [{ label: "What happens when unreachable", url: "https://netlicensing.io/wiki/faq-service-unreachable" }] }
       - { topic: "Your own copy of the configuration", text: "Export and re-import your product configuration.", links: [{ label: "Features", url: "/features-all/" }] }
+      - { topic: "Self-hosting and offline use", text: "Self-hosting with Docker Compose or Kubernetes (Enterprise); offline validation with the NetLicensing Agent (Select and Enterprise).", links: [{ label: "Agent", url: "https://netlicensing.io/wiki/netlicensing-agent" }] }
       - { topic: "Source code escrow", text: "Available on request with Enterprise.", links: [{ label: "Enterprise", url: "/enterprise/" }] }
 
-  - id: responsibilities
-    title: "Your Part as Controller"
-    items:
-      - { topic: "Lawful basis and information", text: "Have a lawful basis for the customer data you send us, and tell your customers that NetLicensing processes it for you (Articles 6, 13 and 14 GDPR).", links: [{ label: "Privacy statement template", url: "https://netlicensing.io/wiki/privacy-statement-data-processing-by-netlicensing" }] }
-      - { topic: "Data minimisation", text: "Send only what licensing needs. A pseudonymous customer number is often enough, with names and emails kept in your CRM.", links: [{ label: "GDPR FAQ", url: "https://netlicensing.io/wiki/faq-gdpr-data-location" }] }
-      - { topic: "Credentials", text: "Keep admin credentials on your servers, ship only licensee-role API keys, and turn on two-factor authentication.", links: [{ label: "Keys in client applications", url: "https://netlicensing.io/wiki/faq-api-key-in-client-application" }] }
-      - { topic: "Personal data breaches", text: "We notify you without undue delay. Notifying the supervisory authority, within 72 hours where required, is the controller's duty (Article 33 GDPR).", links: [{ label: "Sample DPA (PDF)", url: "https://netlicensing.io/wiki/assets/docs/Labs64-NetLicensing-GDPR-DPA-V1.0_sample.pdf" }] }
   - id: documents
     title: "Legal Documents"
     items:

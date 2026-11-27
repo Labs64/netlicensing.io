@@ -83,7 +83,7 @@ def metered(licensee, tool, run):
     return run(), int(result["remainingQuantity"])
 ```
 
-It uses the small [NetLicensing helper from the API licensing guide]({{ "/blog/2027/01/11/api-licensing-in-practice-keys-metering-entitlements/" | relative_url }}), shown there in full. Wrap your tool handler:
+It uses the small [NetLicensing helper from the API licensing guide]({{ "/blog/2027/01/28/api-licensing-in-practice-keys-metering-entitlements/" | relative_url }}), shown there in full. Wrap your tool handler:
 
 ```python
 text, left = metered(customer_id, "summarize", lambda: summarize(document))

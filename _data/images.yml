@@ -2731,15 +2731,6 @@
   publisher: "NetLicensing"
   creditlink: https://netlicensing.io
 
-- id: netlicensing-node-locked-licensing-pricing-compared-hero
-  source: /img/blog/netlicensing-node-locked-licensing-pricing-compared-hero.png
-  title: "Node-locked licensing pricing compared"
-  caption: "Node-locked licensing pricing compared"
-  license: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
-  author: "NetLicensing"
-  publisher: "NetLicensing"
-  creditlink: https://netlicensing.io
-
 - id: netlicensing-gdpr-software-licensing-data-hero
   source: /img/blog/netlicensing-gdpr-software-licensing-data-hero.png
   title: "GDPR and software licensing data"

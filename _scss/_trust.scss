@@ -1,6 +1,62 @@
-// Trust page (/trust/): layout of the evidence tables. Content: _data/trust.yml.
+// Trust page (/trust/): cards, shared-job lists and evidence tables.
+// Content: _data/trust.yml.
+
+// The shared feature card reserves more height than these short texts need.
+.NL_trust_cards {
+  padding-bottom: 0;
+
+  .NL_feature {
+    min-height: 0;
+  }
+}
+
+// The headline cards start as far below the banner as the feature cards on /features/.
+.NL_banner + .NL_trust_cards {
+  padding-top: 40px;
+}
+
+// Two cards per row on tablets, with equal-height rows.
+@media (min-width: 768px) {
+  .NL_trust_cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.NL_trust_shared {
+  h3 {
+    margin-bottom: 8px;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    padding: 9px 0;
+    font-size: 15px;
+    line-height: 22px;
+    border-bottom: 1px solid $border-light;
+  }
+
+  .fa {
+    color: $brand-hover;
+  }
+}
 
 .NL_trust {
+  // Keeps the jumped-to block clear of the fixed top bar.
+  scroll-margin-top: 70px;
+
   .NL_trust_reviewed {
     text-align: center;
   }
@@ -38,19 +94,6 @@
   .NL_trust_repo {
     display: inline-block;
     margin-right: 18px;
-  }
-
-  // Same soft tag as the pricing table's customer packs.
-  .NL_trust_status {
-    display: inline-block;
-    padding: 1px 10px;
-    font-size: 12px;
-    line-height: 18px;
-    white-space: nowrap;
-    color: $brand-primary;
-    background: mix($brand-light, $bg-white, 30%);
-    border: 1px solid mix($brand-light, $brand-orange, 70%);
-    border-radius: 12px;
   }
 }
 
