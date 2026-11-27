@@ -53,7 +53,7 @@ Rules worth following from day one:
 | 429 | The allowance is exhausted or requests come too fast | Your API | Wait, or buy more |
 | 503 | You could not reach the license service | Your API | Retry later |
 
-Do not turn your own upstream trouble into a customer error. NetLicensing can answer 429 to **you** when the system is busy and you are above your plan's rate. That is not your customer's fault, so the example maps it to a 503 with `Retry-After`.
+Do not turn your own upstream trouble into a customer error. NetLicensing can answer 429 to **you** when the system is busy and requests arrive in a short burst. That is not your customer's fault, so the example maps it to a 503 with `Retry-After`.
 
 > An error code is part of the contract: it should tell the customer what to do next.
 
@@ -159,7 +159,7 @@ We tested this code against a mock that follows the documented validation respon
 
 `reserveQuantity` takes credits before the work and refuses when there are not enough. `usedQuantity` reports consumption afterwards and allows the balance to go negative. Reserve when each unit costs you money; report when a short overdraft is acceptable. Never send both in one call.
 
-One call per request is simple, and it uses your rate limit one request at a time. For busy APIs, reserve a block of credits, serve requests from that block and reserve again when it runs low. Decide what happens to an unused block when a server restarts.
+One call per request is simple, and it uses up your [monthly API calls](https://netlicensing.io/wiki/faq-api-rate-limit) one request at a time. For busy APIs, reserve a block of credits, serve requests from that block and reserve again when it runs low. Decide what happens to an unused block when a server restarts.
 
 ## Tell your systems when credits run low
 

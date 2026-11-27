@@ -117,7 +117,7 @@ For a perpetual license, use Try & Buy with the minimum evaluation period of one
 | --- | --- | --- | --- |
 | Desktop application | Try & Buy or Subscription | Node-Locked | How a customer moves to a new computer |
 | SaaS | Pricing Table or Subscription | Multi-Feature, Quota | Who counts usage against a quota |
-| API or AI product | Pay-per-Use | Subscription as a base fee | Your [API rate limit](https://netlicensing.io/wiki/faq-api-rate-limit) |
+| API or AI product | Pay-per-Use | Subscription as a base fee | Your [monthly API calls](https://netlicensing.io/wiki/faq-api-rate-limit) |
 | Shared engineering tools | Floating | Subscription | How crashed sessions are released |
 | On-premises or air-gapped | Subscription or Multi-Feature | NetLicensing Agent (Select) | What changes after an offline import |
 | Fleet or embedded devices | Rental | Node-Locked | Whether each device needs its own period |

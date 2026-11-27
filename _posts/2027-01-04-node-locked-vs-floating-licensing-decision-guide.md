@@ -99,7 +99,7 @@ trap 'seat checkIn >/dev/null || true' EXIT
 "$@"
 ```
 
-We tested this script against a mock of the documented API. Before you rely on it, count your calls. Every request counts toward your plan's [API rate limit](https://netlicensing.io/wiki/faq-api-rate-limit), which is a guaranteed minimum: 1 request per second on Premium and customizable on Select. A fleet that checks out hundreds of seats per minute needs that conversation first. If a job is killed without running the exit handler, the seat returns when the checkout expires.
+We tested this script against a mock of the documented API. Before you rely on it, count your calls. Every request counts toward your plan's [monthly API calls](https://netlicensing.io/wiki/faq-api-rate-limit): 1,000,000 on Premium and customizable on Select. A fleet that checks out hundreds of seats per minute needs that conversation first. If a job is killed without running the exit handler, the seat returns when the checkout expires.
 
 ## Offline use
 

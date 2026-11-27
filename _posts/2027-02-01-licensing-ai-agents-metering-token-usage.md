@@ -91,7 +91,7 @@ text, left = metered(customer_id, "summarize", lambda: summarize(document))
 
 We tested this against a mock of the documented validation response: enough credits runs the tool, and too few raises `OutOfCredits` without running it.
 
-Credits are taken before the tool runs. If the tool then fails, decide whether to refund by adjusting the license, or to price in occasional failures. Also watch your [API rate limit](https://netlicensing.io/wiki/faq-api-rate-limit): one validation per tool call adds up quickly, and reserving blocks of credits cuts the number of requests.
+Credits are taken before the tool runs. If the tool then fails, decide whether to refund by adjusting the license, or to price in occasional failures. Also watch your [monthly API calls](https://netlicensing.io/wiki/faq-api-rate-limit): one validation per tool call adds up quickly, and reserving blocks of credits cuts the number of requests.
 
 ## Overage and runaway loops
 

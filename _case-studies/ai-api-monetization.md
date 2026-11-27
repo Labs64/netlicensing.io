@@ -51,7 +51,7 @@ Product: Inference API
 
 [Pay-per-Use](https://netlicensing.io/wiki/pay-per-use) keeps a simple counter per license, `quantity` and `usedQuantity`. What one credit means is up to the vendor. Here it's 1,000 tokens, and the large models count double. NetLicensing doesn't know about tokens or GPUs. It counts credits.
 
-The API gateway doesn't call NetLicensing for every inference request. That would add latency, and every API call counts toward the vendor's [rate limit](https://netlicensing.io/wiki/faq-api-rate-limit). Instead, the gateway adds up the credits used per customer and reports them every minute in a single validation:
+The API gateway doesn't call NetLicensing for every inference request. That would add latency, and every API call counts toward the vendor's [monthly API calls](https://netlicensing.io/wiki/faq-api-rate-limit). Instead, the gateway adds up the credits used per customer and reports them periodically in a single validation. The longer the interval, the fewer calls it uses:
 
 ```bash
 curl -u apiKey:YOUR_API_KEY -H "Accept: application/json" \

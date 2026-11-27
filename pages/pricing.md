@@ -218,6 +218,19 @@ tags:
 
 <div class="row NL_FAQ">
     <div class="col-md-5 col-md-offset-1">
+        <h3>What happens if I use more API calls than my plan includes?</h3>
+
+        <p>Going over never blocks license validation. If you regularly need more, choose a higher plan.</p>
+    </div>
+    <div class="col-md-4 col-md-offset-1">
+        <h3>What counts as an API call?</h3>
+
+        <p>Every request to the NetLicensing API counts, for example a license validation or a license update. The number is per account and calendar month, across all your products. <a href="https://netlicensing.io/wiki/faq-api-rate-limit">How to use fewer calls</a>.</p>
+    </div>
+</div>
+
+<div class="row NL_FAQ">
+    <div class="col-md-5 col-md-offset-1">
         <h3>Are there any hidden cost or extra charges?</h3>
 
         <p>No. NetLicensing won’t charge you any setup fees or monthly fees if you are using a free plan. On paid plans, customer packs are optional and cost the listed price.
