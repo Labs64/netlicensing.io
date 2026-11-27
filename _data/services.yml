@@ -44,6 +44,10 @@
   url: "/blog/"
   section: "Documentation"
 
+- title: Search
+  url: "/search/"
+  section: "Documentation"
+
 - title: Service Status
   url: "https://status.netlicensing.io"
   section: "Documentation"

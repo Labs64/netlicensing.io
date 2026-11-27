@@ -1,0 +1,6 @@
+{%- comment -%} Site search box; results are on /search/. {%- endcomment -%}
+<form class="NL_search" role="search" action="{{ '/search/' | relative_url }}" method="get">
+    <label class="sr-only" for="search-q">Search articles, case studies and pages</label>
+    <input id="search-q" class="form-control" type="search" name="q" placeholder="Search articles, case studies and pages" autocomplete="off">
+    <button type="submit" class="NL_search_btn"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span></button>
+</form>

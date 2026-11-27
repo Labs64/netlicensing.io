@@ -41,10 +41,10 @@ layout: default
                     {% else %}
                       {% assign image_width = '100%' %}
                     {% endif %}
-                <img src="{{ page.image.url }}" alt="{{ page.image.alt | default: page.title | escape }}" class="blog-thumbnail" width="{{ image_width }}" fetchpriority="high" decoding="async">
+                <picture>{% include webp-source.html image=page.image.url %}<img src="{{ page.image.url }}" alt="{{ page.image.alt | default: page.title | escape }}" class="blog-thumbnail" width="{{ image_width }}" fetchpriority="high" decoding="async"></picture>
                   {% endunless %}
                 {% endif %}
-                {{ content }}
+                {{ content | replace: '<img src=', '<img loading="lazy" decoding="async" src=' }}
                 <p class="blog_img_credit">{% include credit-tracker.html image=page.image.url %}</p>
             </article>
 
@@ -68,7 +68,7 @@ layout: default
             <div class="NL_related_post">
                 <span class="watermark">Previous</span>
                 <a href="{{previous_page.url}}">
-                    <img src="{{ previous_page.image.url }}" alt="{{ previous_page.title }}" class="NL_post_img" loading="lazy" decoding="async" />
+                    <picture>{% include webp-source.html image=previous_page.image.url %}<img src="{{ previous_page.image.url }}" alt="{{ previous_page.title }}" class="NL_post_img" loading="lazy" decoding="async" /></picture>
                     <div>
                         <time class="NL_post_time" datetime="{{ previous_page.date | date: '%Y-%m-%d' }}"
                              title="{{ previous_page.date | date: '%b %-d, %Y' }}">{{ previous_page.date | date: "%b %-d, %Y" }}
@@ -87,7 +87,7 @@ layout: default
             <div class="NL_related_post">
                 <span class="watermark">Next</span>
                 <a href="{{next_page.url}}">
-                    <img src="{{ next_page.image.url }}" alt="{{ next_page.title }}" class="NL_post_img" loading="lazy" decoding="async" />
+                    <picture>{% include webp-source.html image=next_page.image.url %}<img src="{{ next_page.image.url }}" alt="{{ next_page.title }}" class="NL_post_img" loading="lazy" decoding="async" /></picture>
                     <div>
                         <time class="NL_post_time" datetime="{{ next_page.date | date: '%Y-%m-%d' }}"
                              title="{{ next_page.date | date: '%b %-d, %Y' }}">{{ next_page.date | date: "%b %-d, %Y" }}
@@ -106,7 +106,7 @@ layout: default
             <div class="NL_related_post">
                 <span class="watermark">{{ tag }}</span>
                 <a href="{{post.url}}">
-                    <img src="{{ post.image.url }}" alt="{{ post.title }}" class="NL_post_img" loading="lazy" decoding="async" />
+                    <picture>{% include webp-source.html image=post.image.url %}<img src="{{ post.image.url }}" alt="{{ post.title }}" class="NL_post_img" loading="lazy" decoding="async" /></picture>
                     <div>
                         <time class="NL_post_time" datetime="{{ post.date | date: '%Y-%m-%d' }}"
                               title="{{ post.date | date: '%b %-d, %Y' }}">{{ post.date | date: "%b %-d, %Y" }}
@@ -130,7 +130,7 @@ layout: default
             <div class="NL_related_post">
                 <span class="watermark">Recommended</span>
                 <a href="{{post.url}}">
-                    <img src="{{ post.image.url }}" alt="{{ post.title }}" class="NL_post_img" loading="lazy" decoding="async" />
+                    <picture>{% include webp-source.html image=post.image.url %}<img src="{{ post.image.url }}" alt="{{ post.title }}" class="NL_post_img" loading="lazy" decoding="async" /></picture>
                     <div>
                         <time class="NL_post_time" datetime="{{ post.date | date: '%Y-%m-%d' }}"
                               title="{{ post.date | date: '%b %-d, %Y' }}">{{ post.date | date: "%b %-d, %Y" }}

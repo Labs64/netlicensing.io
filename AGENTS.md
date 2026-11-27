@@ -215,6 +215,8 @@ Edit these to change content without touching layouts.
 | `navigation.yml`, `services.yml`, `socialmedia.yml` | top nav, footer, social links | |
 | `images.yml` | attribution registry | `id, source, title, caption, license, author, publisher, creditlink`, optional `exclude: true`. **Every image gets an entry** |
 
+WebP copies: a hero may have a `.webp` file next to its PNG/JPG (`cwebp -q 82`); templates serve it through `_includes/webp-source.html`, social cards keep the original. Copies need no `images.yml` entry. Re-create the copy when you replace the original.
+
 Image folders and names: blog `img/blog/netlicensing-<slug>.png` (hero 1200×630), features `img/features/snake_case.png`, models `img/licensing-model/licensing-model-<slug>.png`, case studies `img/case-studies/netlicensing-case-study-<slug>.png`.
 
 ---

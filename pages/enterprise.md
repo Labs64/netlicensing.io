@@ -48,7 +48,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/different_hosting_options.png' | prepend: site.baseurl | prepend: site.url }}" alt="Self-hosted or dedicated"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/different_hosting_options.png' | prepend: site.baseurl | prepend: site.url }}" alt="Self-hosted or dedicated"/>
                 <h3>Your Infrastructure or Ours</h3>
                 <p>Self-host with Docker Compose or Kubernetes, or let us operate a dedicated environment for you.</p>
             </figcaption>
@@ -57,7 +57,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/service_level_agreement.png' | prepend: site.baseurl | prepend: site.url }}" alt="Service Level Agreement"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/service_level_agreement.png' | prepend: site.baseurl | prepend: site.url }}" alt="Service Level Agreement"/>
                 <h3>Uptime in Writing</h3>
                 <p>A monthly uptime commitment with service credits, set out in our <a href="https://www.labs64.com/legal/terms-of-service/netlicensing/service-level-agreement-1-1/" target="_blank" rel="noopener">Service Level Agreement</a>.</p>
             </figcaption>
@@ -66,7 +66,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/security_encryption.png' | prepend: site.baseurl | prepend: site.url }}" alt="Security and access"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/security_encryption.png' | prepend: site.baseurl | prepend: site.url }}" alt="Security and access"/>
                 <h3>Security and Control</h3>
                 <p>Single sign-on through standards such as OpenID Connect, and an audit log of admin changes. Managed hosting stays in the EU, on AWS in Ireland.</p>
             </figcaption>
@@ -75,7 +75,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/netlicensing_enterprise.png' | prepend: site.baseurl | prepend: site.url }}" alt="Dedicated technical manager"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/netlicensing_enterprise.png' | prepend: site.baseurl | prepend: site.url }}" alt="Dedicated technical manager"/>
                 <h3>A Named Expert on Your Side</h3>
                 <p>A dedicated technical manager for your rollout, phone support, and consulting, tutoring and migration support at every stage.</p>
             </figcaption>
@@ -97,7 +97,7 @@ sitemap:
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-healthcare-offline-validation.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-healthcare-offline-validation.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Deployment options" title="Deployment options">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
@@ -114,14 +114,14 @@ sitemap:
                 <span>Sign in through your corporate identity provider using standard protocols such as OpenID Connect (OIDC). We enable and test the integration with you, so access follows the identity provider your company already runs. The audit log records admin changes.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-industry-fintech-role-access.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-fintech-role-access.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Identity provider sign-in" title="Identity provider sign-in">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-fintech-entitlement-records.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-fintech-entitlement-records.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Security and continuity" title="Security and continuity">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
@@ -140,7 +140,7 @@ sitemap:
                 <span>Webhook notifications send new customers, new licenses, warning-level changes and payments straight to your CRM, database or reporting. Product usage tracking and analytics show how your products are used. Customized reporting automation and revenue sharing for partners and resellers are also available as options.</span>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-industry-data-consumption-metering.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-data-consumption-metering.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Usage insight" title="Usage insight">
             </figure>
         </section>
@@ -156,7 +156,7 @@ sitemap:
     <div class="col-md-15 col-sm-6 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/consulting_services.png' | prepend: site.baseurl | prepend: site.url }}" alt="Scoping call"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/consulting_services.png' | prepend: site.baseurl | prepend: site.url }}" alt="Scoping call"/>
                 <h3>1. Scoping call</h3>
                 <p>We talk through your products, customers and deployment model. To prepare, you can fill in the <a href="https://l64.cc/questionnaire" target="_blank" rel="noopener">Individual Setup questionnaire</a>.</p>
             </figcaption>
@@ -165,7 +165,7 @@ sitemap:
     <div class="col-md-15 col-sm-6 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/easy_setup_and_integration.png' | prepend: site.baseurl | prepend: site.url }}" alt="Technical pilot"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/easy_setup_and_integration.png' | prepend: site.baseurl | prepend: site.url }}" alt="Technical pilot"/>
                 <h3>2. Technical pilot</h3>
                 <p>Try all features free for 30 days, no credit card required. We answer your architecture and integration questions.</p>
             </figcaption>
@@ -174,7 +174,7 @@ sitemap:
     <div class="col-md-15 col-sm-6 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/escrow.png' | prepend: site.baseurl | prepend: site.url }}" alt="Security and legal review"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/escrow.png' | prepend: site.baseurl | prepend: site.url }}" alt="Security and legal review"/>
                 <h3>3. Security and legal review</h3>
                 <p>Your security and legal teams review the SLA, terms and hosting. We answer their technical questions.</p>
             </figcaption>
@@ -183,7 +183,7 @@ sitemap:
     <div class="col-md-15 col-sm-6 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/integrated_payment_services.png' | prepend: site.baseurl | prepend: site.url }}" alt="Offer and contract"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/integrated_payment_services.png' | prepend: site.baseurl | prepend: site.url }}" alt="Offer and contract"/>
                 <h3>4. Offer and contract</h3>
                 <p>Limits, deployment and services are agreed per deal. Custom development, priority feature requests and migration from your current licensing system are scoped and priced separately, so you only pay for what you need.</p>
             </figcaption>
@@ -192,7 +192,7 @@ sitemap:
     <div class="col-md-15 col-sm-6 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/availability.png' | prepend: site.baseurl | prepend: site.url }}" alt="Rollout"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/availability.png' | prepend: site.baseurl | prepend: site.url }}" alt="Rollout"/>
                 <h3>5. Rollout</h3>
                 <p>Your technical manager guides you all the way to go-live.</p>
             </figcaption>

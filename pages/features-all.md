@@ -47,7 +47,7 @@ sitemap:
         <div class="col-md-3 NL_feature" id="feature-{{ feature.name | slugify }}">
             <figure class="hover_effect">
                 <figcaption>
-                <img src="{{ feature.icon | prepend: site.baseurl | prepend: site.url }}" alt="{{ feature.name }}"/>
+                <img loading="lazy" decoding="async" src="{{ feature.icon | prepend: site.baseurl | prepend: site.url }}" alt="{{ feature.name }}"/>
                 <h3>
                 {{ feature.name }}
                 </h3>
@@ -66,7 +66,7 @@ sitemap:
         <div class="col-md-3 NL_feature" id="feature-{{ feature.name | slugify }}">
             <figure class="hover_effect">
                 <figcaption>
-                <img src="{{ feature.icon | prepend: site.baseurl | prepend: site.url }}" alt="{{ feature.name }}"/>
+                <img loading="lazy" decoding="async" src="{{ feature.icon | prepend: site.baseurl | prepend: site.url }}" alt="{{ feature.name }}"/>
                 <h3>
                 {{ feature.name }}
                 </h3>

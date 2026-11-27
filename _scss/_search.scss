@@ -1,0 +1,60 @@
+// Site search: the box on /blog/ and /search/, and the result list.
+
+.NL_search {
+  display: flex;
+  gap: 8px;
+
+  input {
+    height: 40px;
+    margin-bottom: 0;
+  }
+}
+
+.NL_search_btn {
+  flex: none;
+  width: 48px;
+  height: 40px;
+  color: $brand-primary;
+  background: $bg-white;
+  border: 1px solid $brand-primary;
+  border-radius: 2px;
+
+  &:hover {
+    color: $bg-white;
+    background: $brand-primary;
+  }
+}
+
+.NL_search_status {
+  min-height: 22px;
+  margin: 12px 0;
+}
+
+.NL_search_results {
+  padding: 0;
+  list-style: none;
+
+  li {
+    padding: 12px 0;
+    border-bottom: 1px solid $border-light;
+  }
+
+  a {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  small {
+    display: block;
+    color: $text-dark;
+  }
+
+  p {
+    margin: 4px 0 0;
+  }
+}
+
+// <picture> only chooses the file format; layout stays with the <img>.
+picture {
+  display: contents;
+}

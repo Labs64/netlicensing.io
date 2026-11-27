@@ -47,7 +47,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-developer-api-keys.png' | prepend: site.baseurl | prepend: site.url }}" alt="API Key Sprawl"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-developer-api-keys.png' | prepend: site.baseurl | prepend: site.url }}" alt="API Key Sprawl"/>
                 <h3>API Key Management at Scale</h3>
                 <p>Issuing, scoping, rotating, and revoking API keys for thousands of developer accounts requires consistent entitlement infrastructure, especially when each key carries different rate limits and feature access.</p>
             </figcaption>
@@ -56,7 +56,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-developer-free-tier.png' | prepend: site.baseurl | prepend: site.url }}" alt="Free-to-Paid Friction"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-developer-free-tier.png' | prepend: site.baseurl | prepend: site.url }}" alt="Free-to-Paid Friction"/>
                 <h3>Free Tiers Need Clear Upgrade Paths</h3>
                 <p>Developers expect to start quickly, hit understandable limits, and upgrade without waiting for manual approval. Trial-to-paid conversion depends on entitlement checks that explain access instead of blocking work.</p>
             </figcaption>
@@ -65,7 +65,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-developer-usage-metering.png' | prepend: site.baseurl | prepend: site.url }}" alt="Usage Visibility Gap"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-developer-usage-metering.png' | prepend: site.baseurl | prepend: site.url }}" alt="Usage Visibility Gap"/>
                 <h3>No Visibility Into Developer Usage</h3>
                 <p>Without per-account usage metering, it is difficult to enforce rate limits, identify accounts approaching tier thresholds, or present upgrade prompts when a developer is already engaged.</p>
             </figcaption>
@@ -74,7 +74,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-developer-sdk-licensing.png' | prepend: site.baseurl | prepend: site.url }}" alt="SDK Distribution Complexity"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-developer-sdk-licensing.png' | prepend: site.baseurl | prepend: site.url }}" alt="SDK Distribution Complexity"/>
                 <h3>SDK Licensing Across Languages</h3>
                 <p>SDKs often ship across multiple languages, package managers, and deployment environments. Entitlement checks need to stay consistent even as pricing, limits, and supported clients evolve.</p>
             </figcaption>
@@ -99,7 +99,7 @@ sitemap:
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-developer-api-entitlements.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-developer-api-entitlements.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="API Key Entitlements" title="API Key Entitlements">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
@@ -118,14 +118,14 @@ sitemap:
                 <a href="https://netlicensing.io/wiki/client-libraries">Explore client libraries →</a>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-industry-developer-sdk-licensing.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-developer-sdk-licensing.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="SDK & Client Library Licensing" title="SDK & Client Library Licensing">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-developer-self-service-upgrades.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-developer-self-service-upgrades.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Self-Serve Developer Portal" title="Self-Serve Developer Portal">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">

@@ -1,0 +1,21 @@
+---
+layout: null
+sitemap:
+  exclude: true
+---
+{%- comment -%}
+  Index for /search/ (js/search.js): posts, case studies and pages.
+  Redirect stubs, unpublished and noindex pages are left out.
+{%- endcomment -%}
+{%- assign documents = site.posts | concat: site["case-studies"] | concat: site.pages -%}
+[
+{%- assign first = true -%}
+{%- for doc in documents -%}
+{%- if doc.title and doc.layout != "redirect" and doc.noindex != true and doc.published != false -%}
+{%- unless first %},{% endunless -%}
+{%- assign first = false -%}
+{%- if doc.url contains "/blog/2" %}{% assign kind = "Article" %}{% elsif doc.url contains "/case-studies/" %}{% assign kind = "Case study" %}{% else %}{% assign kind = "Page" %}{% endif %}
+{"title":{{ doc.title | strip_html | jsonify }},"url":{{ doc.url | relative_url | jsonify }},"kind":{{ kind | jsonify }},"text":{{ doc.description | default: "" | strip_html | normalize_whitespace | jsonify }},"tags":{{ doc.tags | join: " " | jsonify }}{% if kind == "Article" %},"date":{{ doc.date | date: "%b %-d, %Y" | jsonify }}{% endif %}}
+{%- endif -%}
+{%- endfor %}
+]

@@ -47,7 +47,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-healthcare-privacy-token.png' | prepend: site.baseurl | prepend: site.url }}" alt="Patient Data Exposure"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-healthcare-privacy-token.png' | prepend: site.baseurl | prepend: site.url }}" alt="Patient Data Exposure"/>
                 <h3>PHI and PII Should Stay Out of Licence Checks</h3>
                 <p>If licence validation requests carry practitioner IDs or patient-context data, every check expands the information handled by the entitlement layer. Tokenised identifiers help reduce that exposure.</p>
             </figcaption>
@@ -56,7 +56,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-healthcare-access-records.png' | prepend: site.baseurl | prepend: site.url }}" alt="Audit Readiness"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-healthcare-access-records.png' | prepend: site.baseurl | prepend: site.url }}" alt="Audit Readiness"/>
                 <h3>Incomplete Logs Slow Quality Reviews</h3>
                 <p>Quality, security, and regulatory reviews often require records of who accessed which software module, when, and under which licence. Missing entitlement logs make those reviews slower and more manual.</p>
             </figcaption>
@@ -65,7 +65,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-healthcare-offline-validation.png' | prepend: site.baseurl | prepend: site.url }}" alt="Air-Gapped Environments"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-healthcare-offline-validation.png' | prepend: site.baseurl | prepend: site.url }}" alt="Air-Gapped Environments"/>
                 <h3>Clinical Environments May Run Offline</h3>
                 <p>Hospital networks, imaging systems, and clinical lab instruments often operate in isolated environments with restricted outbound internet access. Cloud-dependent licence checks can create avoidable deployment risk.</p>
             </figcaption>
@@ -74,7 +74,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-healthcare-deployments.png' | prepend: site.baseurl | prepend: site.url }}" alt="Complex Deployment Models"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-healthcare-deployments.png' | prepend: site.baseurl | prepend: site.url }}" alt="Complex Deployment Models"/>
                 <h3>One Product, Many Deployment Contexts</h3>
                 <p>The same software may run on-premises in a hospital, in a private cloud for a health system, or embedded in a regulated medical device. Licensing needs to adapt without fragmenting the product.</p>
             </figcaption>
@@ -99,7 +99,7 @@ sitemap:
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-healthcare-tokenised-validation.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-healthcare-tokenised-validation.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Privacy by Design & Tokenisation" title="Privacy by Design & Tokenisation">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
@@ -118,14 +118,14 @@ sitemap:
                 <a href="https://netlicensing.io/wiki/quota">Learn about Quota licensing →</a>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-industry-healthcare-access-records.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-healthcare-access-records.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Clinical Software Access Records" title="Clinical Software Access Records">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-healthcare-offline-validation.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-healthcare-offline-validation.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Air-Gapped & Offline Support" title="Air-Gapped & Offline Support">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">

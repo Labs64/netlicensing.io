@@ -1,0 +1,47 @@
+// Keyboard focus and contrast. Loaded last so it wins over component styles
+// that remove outlines.
+
+// Umber ring on light surfaces.
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible,
+.button:focus-visible,
+.NL_accordion_heading a:focus-visible,
+.NL_accordion_heading a span:focus-visible {
+  outline: 2px solid $brand-primary;
+  outline-offset: 2px;
+}
+
+// White ring on the orange banners and the footer's orange bar.
+.NL_banner a:focus-visible,
+.NL_main_banner a:focus-visible,
+.NL_banner button:focus-visible,
+.NL_footer a:focus-visible {
+  outline-color: $bg-white;
+}
+
+// The skip link's target is not a control: no ring around the whole page.
+#wrapper:focus {
+  outline: none;
+}
+
+// The skip link sits above the fixed top bar when focused.
+.sr-only-focusable:focus {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 2000;
+  padding: 8px 16px;
+  background: $bg-white;
+  border-radius: 4px;
+}
+
+// Footer legal line: apricot on ember is 3.2:1, on umber it passes WCAG AA.
+.NL_footer,
+.NL_footer p {
+  background-color: $brand-primary;
+}

@@ -47,7 +47,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-education-site-licence.png' | prepend: site.baseurl | prepend: site.url }}" alt="Site Licence Complexity"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-education-site-licence.png' | prepend: site.baseurl | prepend: site.url }}" alt="Site Licence Complexity"/>
                 <h3>Campus Licences Need Departmental Control</h3>
                 <p>Institutions may negotiate campus-wide agreements while departments and faculties need different seat pools, modules, or course access. Site licensing works best when central contracts still allow local entitlement control.</p>
             </figcaption>
@@ -56,7 +56,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-education-semester-access.png' | prepend: site.baseurl | prepend: site.url }}" alt="Cohort-Based Access"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-education-semester-access.png' | prepend: site.baseurl | prepend: site.url }}" alt="Cohort-Based Access"/>
                 <h3>Access Must Follow the Semester</h3>
                 <p>Learner entitlements often need to open on the first day of term and close after the final submission date, not at the end of a generic billing cycle. Academic access windows should be explicit and repeatable.</p>
             </figcaption>
@@ -65,7 +65,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-education-seat-provisioning.png' | prepend: site.baseurl | prepend: site.url }}" alt="Seat Provisioning Overhead"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-education-seat-provisioning.png' | prepend: site.baseurl | prepend: site.url }}" alt="Seat Provisioning Overhead"/>
                 <h3>Seasonal Seat Churn Every Term</h3>
                 <p>Enrolments surge at the start of a semester and change again after exams, transfers, and graduation. Automated learner seat provisioning keeps access aligned with the current class roster.</p>
             </figcaption>
@@ -74,7 +74,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-education-renewal-analytics.png' | prepend: site.baseurl | prepend: site.url }}" alt="Adoption Visibility"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-education-renewal-analytics.png' | prepend: site.baseurl | prepend: site.url }}" alt="Adoption Visibility"/>
                 <h3>Renewals Need Adoption Evidence</h3>
                 <p>Institutional renewals depend on usage evidence: active learners, course adoption, department activity, and seat utilisation. Without those records, procurement conversations become harder than they need to be.</p>
             </figcaption>
@@ -99,7 +99,7 @@ sitemap:
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-education-site-licensing.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-education-site-licensing.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Site Licensing & Floating Seats" title="Site Licensing & Floating Seats">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
@@ -118,14 +118,14 @@ sitemap:
                 <a href="https://netlicensing.io/wiki/subscription">Learn about Subscription model →</a>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-industry-education-cohort-access.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-education-cohort-access.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Cohort & Semester Provisioning" title="Cohort & Semester Provisioning">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-education-usage-renewals.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-education-usage-renewals.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Seat Management & Usage Tracking" title="Seat Management & Usage Tracking">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">

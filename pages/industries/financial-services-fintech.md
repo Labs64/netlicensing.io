@@ -47,7 +47,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-fintech-audit-records.png' | prepend: site.baseurl | prepend: site.url }}" alt="Audit Trail Gaps"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-fintech-audit-records.png' | prepend: site.baseurl | prepend: site.url }}" alt="Audit Trail Gaps"/>
                 <h3>Access Gaps Create Audit Friction</h3>
                 <p>Financial software buyers often need clear records of who accessed which module, when, and under what entitlement. Spreadsheet-managed licences make that evidence hard to assemble and harder to trust.</p>
             </figcaption>
@@ -56,7 +56,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-fintech-role-access.png' | prepend: site.baseurl | prepend: site.url }}" alt="Access Control Complexity"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-fintech-role-access.png' | prepend: site.baseurl | prepend: site.url }}" alt="Access Control Complexity"/>
                 <h3>Fine-Grained Access Control at Scale</h3>
                 <p>Traders, risk analysts, compliance officers, support teams, and auditors may each need different module access. Those entitlements change with roles, organisational structure, and contract scope.</p>
             </figcaption>
@@ -65,7 +65,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-fintech-entity-billing.png' | prepend: site.baseurl | prepend: site.url }}" alt="Multi-Entity Billing"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-fintech-entity-billing.png' | prepend: site.baseurl | prepend: site.url }}" alt="Multi-Entity Billing"/>
                 <h3>Separate Billing Per Entity</h3>
                 <p>A financial group spanning subsidiaries, funds, regions, or business units needs independent entitlement boundaries and usage tracking per entity, not one shared account that obscures cost allocation.</p>
             </figcaption>
@@ -74,7 +74,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-fintech-commercial-rules.png' | prepend: site.baseurl | prepend: site.url }}" alt="Commercial Model Flexibility"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-fintech-commercial-rules.png' | prepend: site.baseurl | prepend: site.url }}" alt="Commercial Model Flexibility"/>
                 <h3>Commercial Rules Change Faster Than Code</h3>
                 <p>Hard-coded licence logic inside a fintech stack makes pricing, packaging, and access changes dependent on engineering releases. Externalising entitlements keeps the commercial model more adaptable.</p>
             </figcaption>
@@ -99,7 +99,7 @@ sitemap:
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-fintech-entitlement-records.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-fintech-entitlement-records.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Financial Software Entitlement Records" title="Financial Software Entitlement Records">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
@@ -118,14 +118,14 @@ sitemap:
                 <a href="https://netlicensing.io/wiki/multi-feature">Learn about Multi-Feature model →</a>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-industry-fintech-role-access.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-fintech-role-access.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Role-Based Entitlement Control" title="Role-Based Entitlement Control">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-fintech-usage-billing.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-fintech-usage-billing.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Usage-Based Invoicing" title="Usage-Based Invoicing">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">

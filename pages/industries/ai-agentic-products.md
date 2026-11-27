@@ -48,7 +48,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-ai-usage-metering.png' | prepend: site.baseurl | prepend: site.url }}" alt="Unpredictable Usage"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-ai-usage-metering.png' | prepend: site.baseurl | prepend: site.url }}" alt="Unpredictable Usage"/>
                 <h3>Unpredictable Usage and Cost</h3>
                 <p>Agent workloads are bursty by nature: one workflow may call multiple tools, models, and retrieval systems. Pricing needs to reflect real usage without forcing every model change into billing code.</p>
             </figcaption>
@@ -57,7 +57,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-ai-agent-attribution.png' | prepend: site.baseurl | prepend: site.url }}" alt="Lack of Entitlement Visibility"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-ai-agent-attribution.png' | prepend: site.baseurl | prepend: site.url }}" alt="Lack of Entitlement Visibility"/>
                 <h3>No Per-Agent Cost Attribution</h3>
                 <p>When multiple agents share one customer account, aggregate usage hides which workflow consumed which resources. Cost allocation, quota enforcement, and anomaly review all need per-agent entitlement context.</p>
             </figcaption>
@@ -66,7 +66,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-ai-privacy-tokens.png' | prepend: site.baseurl | prepend: site.url }}" alt="Data Privacy Exposure"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-ai-privacy-tokens.png' | prepend: site.baseurl | prepend: site.url }}" alt="Data Privacy Exposure"/>
                 <h3>Raw Identifiers in Usage Events</h3>
                 <p>Entitlement checks should not require raw customer or user identifiers in every AI usage event. Tokenised licensee references help reduce personal data exposure while keeping usage traceable.</p>
             </figcaption>
@@ -75,7 +75,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-ai-model-pricing.png' | prepend: site.baseurl | prepend: site.url }}" alt="Model Lock-in Coupling"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-ai-model-pricing.png' | prepend: site.baseurl | prepend: site.url }}" alt="Model Lock-in Coupling"/>
                 <h3>Pricing Coupled to Model Logic</h3>
                 <p>When pricing rules live inside orchestration or inference code, packaging changes compete with model work. Decoupled entitlements let commercial teams test quotas, tiers, and overages independently.</p>
             </figcaption>
@@ -100,7 +100,7 @@ sitemap:
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-ai-usage-metering.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-ai-usage-metering.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Metered Entitlements" title="Metered Entitlements">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
@@ -119,14 +119,14 @@ sitemap:
                 <a href="https://netlicensing.io/wiki/quota">Learn about Quota licensing →</a>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-industry-ai-agent-attribution.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-ai-agent-attribution.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Agent Usage Attribution" title="Agent Usage Attribution">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-ai-scoped-access.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-ai-scoped-access.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Privacy by Design &amp; IAM-Scoped Keys" title="Privacy by Design &amp; IAM-Scoped Keys">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">

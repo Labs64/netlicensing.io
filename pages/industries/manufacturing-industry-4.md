@@ -47,7 +47,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-manufacturing-airgap.png' | prepend: site.baseurl | prepend: site.url }}" alt="Disconnected Environments"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-manufacturing-airgap.png' | prepend: site.baseurl | prepend: site.url }}" alt="Disconnected Environments"/>
                 <h3>No Internet on the Production Floor</h3>
                 <p>PLCs, HMIs, and production line controllers often operate without internet access by design. Licence validation that requires a live connection can block access in environments built to stay isolated.</p>
             </figcaption>
@@ -56,7 +56,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-manufacturing-machine-identity.png' | prepend: site.baseurl | prepend: site.url }}" alt="Device Proliferation"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-manufacturing-machine-identity.png' | prepend: site.baseurl | prepend: site.url }}" alt="Device Proliferation"/>
                 <h3>Thousands of Machines, No Common Identity</h3>
                 <p>Each embedded controller, edge gateway, and HMI can have a unique hardware configuration. Tracking entitlements manually across heterogeneous industrial devices is slow, error-prone, and difficult to audit.</p>
             </figcaption>
@@ -65,7 +65,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-manufacturing-feature-activation.png' | prepend: site.baseurl | prepend: site.url }}" alt="Feature Upsell Friction"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-manufacturing-feature-activation.png' | prepend: site.baseurl | prepend: site.url }}" alt="Feature Upsell Friction"/>
                 <h3>Premium Features Locked Behind On-Site Visits</h3>
                 <p>Machine software often ships with premium modules already present but disabled. Enabling diagnostics, higher throughput, or remote monitoring should not require a service visit, USB dongle, or manual key exchange.</p>
             </figcaption>
@@ -74,7 +74,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-manufacturing-usage-telemetry.png' | prepend: site.baseurl | prepend: site.url }}" alt="Usage Blind Spots"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-manufacturing-usage-telemetry.png' | prepend: site.baseurl | prepend: site.url }}" alt="Usage Blind Spots"/>
                 <h3>Limited Signal From the Installed Base</h3>
                 <p>OEMs need to know which licensed features customers use, which modules sit dormant, and where upgrades make sense. Entitlement-linked usage records support better pricing and expansion conversations.</p>
             </figcaption>
@@ -99,7 +99,7 @@ sitemap:
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-manufacturing-hardware-locked.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-manufacturing-hardware-locked.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Node-Locked & Embedded Licensing" title="Node-Locked & Embedded Licensing">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
@@ -118,14 +118,14 @@ sitemap:
                 <a href="https://netlicensing.io/wiki/multi-feature">Learn about Multi-Feature model →</a>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-industry-manufacturing-remote-activation.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-manufacturing-remote-activation.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Over-the-Air Feature Activation" title="Over-the-Air Feature Activation">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-manufacturing-airgapped-validation.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-manufacturing-airgapped-validation.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Offline Tolerance & Air-Gapped Support" title="Offline Tolerance & Air-Gapped Support">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">

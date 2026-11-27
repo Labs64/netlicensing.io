@@ -47,7 +47,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-saas-plan-engineering.png' | prepend: site.baseurl | prepend: site.url }}" alt="Plan Proliferation"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-saas-plan-engineering.png' | prepend: site.baseurl | prepend: site.url }}" alt="Plan Proliferation"/>
                 <h3>Every New Plan Needs Engineering Time</h3>
                 <p>When pricing tiers are hard-coded, changing a plan means touching the codebase, writing tests, and coordinating a deployment. Subscription licensing should move as quickly as your packaging strategy.</p>
             </figcaption>
@@ -56,7 +56,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-saas-feature-gating.png' | prepend: site.baseurl | prepend: site.url }}" alt="Feature Gating Complexity"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-saas-feature-gating.png' | prepend: site.baseurl | prepend: site.url }}" alt="Feature Gating Complexity"/>
                 <h3>Feature Gates Become Hard to Govern</h3>
                 <p>Enabling a feature for Enterprise, a reseller tenant, or a single pilot customer often creates scattered conditional logic across services. A central entitlement layer keeps access decisions visible and auditable.</p>
             </figcaption>
@@ -65,7 +65,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-saas-trial-upgrade.png' | prepend: site.baseurl | prepend: site.url }}" alt="Trial Conversion Leakage"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-saas-trial-upgrade.png' | prepend: site.baseurl | prepend: site.url }}" alt="Trial Conversion Leakage"/>
                 <h3>Trials Drift Away From Conversion</h3>
                 <p>Free trials need clear access windows, usage limits, and upgrade paths. Without structured trial enforcement, users can overstay free access while qualified accounts miss the right moment to move into a paid plan.</p>
             </figcaption>
@@ -74,7 +74,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-saas-tenant-entitlements.png' | prepend: site.baseurl | prepend: site.url }}" alt="Multi-Tenant Entitlement Sprawl"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-saas-tenant-entitlements.png' | prepend: site.baseurl | prepend: site.url }}" alt="Multi-Tenant Entitlement Sprawl"/>
                 <h3>Entitlements Sprawl Across Tenants</h3>
                 <p>Enterprise accounts, teams, sub-accounts, and white-label resellers each need isolated entitlement boundaries. A shared SaaS database is rarely the right place to model every commercial exception.</p>
             </figcaption>
@@ -99,7 +99,7 @@ sitemap:
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-saas-subscription-tiers.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-saas-subscription-tiers.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Subscription & Pricing Table Models" title="Subscription & Pricing Table Models">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
@@ -118,14 +118,14 @@ sitemap:
                 <a href="https://netlicensing.io/wiki/multi-feature">Learn about Multi-Feature model →</a>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-industry-saas-feature-gating.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-saas-feature-gating.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Feature Gating & Multi-Feature Licensing" title="Feature Gating & Multi-Feature Licensing">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-saas-self-service-upgrades.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-saas-self-service-upgrades.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Self-Service Customer Portal" title="Self-Service Customer Portal">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">

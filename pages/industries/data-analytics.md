@@ -47,7 +47,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-data-consumption.png' | prepend: site.baseurl | prepend: site.url }}" alt="Usage-Revenue Mismatch"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-data-consumption.png' | prepend: site.baseurl | prepend: site.url }}" alt="Usage-Revenue Mismatch"/>
                 <h3>Power Users Consume Like Enterprise Accounts</h3>
                 <p>An analyst running scheduled exports, warehouse scans, and dashboard refreshes creates a different cost profile than an occasional viewer. Usage-based licensing helps connect query consumption to revenue.</p>
             </figcaption>
@@ -56,7 +56,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-data-metering.png' | prepend: site.baseurl | prepend: site.url }}" alt="Metering Complexity"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-data-metering.png' | prepend: site.baseurl | prepend: site.url }}" alt="Metering Complexity"/>
                 <h3>Metering Across Distributed Systems</h3>
                 <p>Tracking queries, rows scanned, API calls, and generated reports across services and pipelines requires a consistent entitlement model, not a billing afterthought bolted onto the query layer.</p>
             </figcaption>
@@ -65,7 +65,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-data-quota.png' | prepend: site.baseurl | prepend: site.url }}" alt="Multi-Dimensional Gating"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-data-quota.png' | prepend: site.baseurl | prepend: site.url }}" alt="Multi-Dimensional Gating"/>
                 <h3>Limits Span Multiple Dimensions</h3>
                 <p>Analytics plans often cap seats, workspaces, data sources, query volume, and concurrency at the same time. Multi-dimensional entitlements keep those limits clear and enforceable per customer.</p>
             </figcaption>
@@ -74,7 +74,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-data-upgrade.png' | prepend: site.baseurl | prepend: site.url }}" alt="Self-Serve Upgrade Friction"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-data-upgrade.png' | prepend: site.baseurl | prepend: site.url }}" alt="Self-Serve Upgrade Friction"/>
                 <h3>Upgrade Friction Blocks Active Work</h3>
                 <p>When a customer hits a query, row, or capacity limit during active analysis, a manual sales process interrupts the workflow. Self-serve capacity upgrades keep expansion revenue close to the moment of need.</p>
             </figcaption>
@@ -99,7 +99,7 @@ sitemap:
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-data-consumption-metering.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-data-consumption-metering.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Consumption Metering" title="Consumption Metering">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
@@ -118,14 +118,14 @@ sitemap:
                 <a href="https://netlicensing.io/wiki/quota">Learn about Quota model →</a>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-industry-data-quota-enforcement.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-data-quota-enforcement.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Quota & Project Gating" title="Quota & Project Gating">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-data-capacity-upgrades.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-data-capacity-upgrades.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Self-Serve Capacity Upgrades" title="Self-Serve Capacity Upgrades">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">

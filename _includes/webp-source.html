@@ -1,0 +1,11 @@
+{%- comment -%}
+  <source> for the WebP copy of an image, if one sits next to it. Use inside <picture>:
+  {% include webp-source.html image=post.image.url %}
+{%- endcomment -%}
+{%- if include.image -%}
+{%- assign webp = include.image | replace: ".png", ".webp" | replace: ".jpg", ".webp" | replace: ".jpeg", ".webp" -%}
+{%- if webp != include.image -%}
+{%- assign webp_file = site.static_files | where: "path", webp | first -%}
+{%- if webp_file %}<source srcset="{{ webp | relative_url }}" type="image/webp">{% endif -%}
+{%- endif -%}
+{%- endif -%}

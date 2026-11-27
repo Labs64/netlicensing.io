@@ -80,11 +80,11 @@
            title="Case Study: {{ case_study.title }}">
             <div>
                 <div class="view view-info col-md-5">
-                    <img class="view-img"
+                    <img loading="lazy" decoding="async" class="view-img"
                          src="{{ case_study.img | prepend: site.baseurl | prepend: site.url }}"
                          alt="{{ case_study.title }}"/>
                     <div class="mask">
-                        <img alt="{{ site.title }}"
+                        <img loading="lazy" decoding="async" alt="{{ site.title }}"
                              src="{{ '/img/labs64-avatar-30x30.png' | prepend: site.baseurl | prepend: site.url }}"/>
                         <p>{{ case_study.title }}</p>
                     </div>

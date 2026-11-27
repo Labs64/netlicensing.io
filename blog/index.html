@@ -20,7 +20,7 @@ use_packery: true
 </div>
 
 <div class="row">
-    <p class="col-md-6 col-md-offset-3 NL_block">{% include google-search.html %}</p>
+    <div class="col-md-6 col-md-offset-3 NL_block">{% include search-form.html %}</div>
 </div>
 
 <section id="articles" class="js-packery" data-packery-options='{ "itemSelector": ".card", "gutter": 10 }'>
@@ -29,8 +29,8 @@ use_packery: true
     <div class="card radius shadowDepth1">
         <div class="card__image border-tlr-radius">
             <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
-                <img src="{% if post.image.url %}{{ post.image.url }}{% else %}{{ site.blog_placeholder_image }}{% endif %}"
-                     alt="{{ post.title }}" class="border-tlr-radius" loading="lazy">
+                <picture>{% include webp-source.html image=post.image.url %}<img src="{% if post.image.url %}{{ post.image.url }}{% else %}{{ site.blog_placeholder_image }}{% endif %}"
+                     alt="{{ post.title }}" class="border-tlr-radius" loading="lazy"></picture>
             </a>
         </div>
         <div class="card__content card__padding">

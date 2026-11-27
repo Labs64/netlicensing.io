@@ -55,7 +55,7 @@ sitemap:
                 {% if licensingmodel.name %}
                     <li class="item col-md-4" data-id="id-{{ forloop.index }}" data-type="{{ licensingmodel.tags | join: ' '}}">
                         <a href="{{ licensingmodel.url }}" title="Licensing Model: {{ licensingmodel.name }}">
-                          <img alt="{{ licensingmodel.name }}" title="Licensing Model: {{ licensingmodel.name }}" src="{{ licensingmodel.img | prepend: site.baseurl | prepend: site.url }}"/>
+                          <img loading="lazy" decoding="async" alt="{{ licensingmodel.name }}" title="Licensing Model: {{ licensingmodel.name }}" src="{{ licensingmodel.img | prepend: site.baseurl | prepend: site.url }}"/>
                         </a>
                         <a href="{{ licensingmodel.url }}" title="Licensing Model: {{ licensingmodel.name }}"><h3>{{ licensingmodel.name }}</h3></a>
                         <p class="NL_licensing_model_aliases">

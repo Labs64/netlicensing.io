@@ -47,7 +47,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-iot-connectivity.png' | prepend: site.baseurl | prepend: site.url }}" alt="Intermittent Connectivity"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-iot-connectivity.png' | prepend: site.baseurl | prepend: site.url }}" alt="Intermittent Connectivity"/>
                 <h3>Connectivity You Can't Count On</h3>
                 <p>A field sensor that checks in hourly, a gateway cycling through a firmware update, or a controller in a low-signal location cannot depend on live licence validation for every access decision.</p>
             </figcaption>
@@ -56,7 +56,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-iot-fleet-entitlements.png' | prepend: site.baseurl | prepend: site.url }}" alt="Fleet-Scale Management"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-iot-fleet-entitlements.png' | prepend: site.baseurl | prepend: site.url }}" alt="Fleet-Scale Management"/>
                 <h3>Entitlement Management at Fleet Scale</h3>
                 <p>When the installed base grows across sensors, gateways, edge controllers, meters, and appliances, manual key provisioning becomes hard to operate and harder to audit at renewal time.</p>
             </figcaption>
@@ -65,7 +65,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-iot-feature-activation.png' | prepend: site.baseurl | prepend: site.url }}" alt="Post-Sale Revenue Gap"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-iot-feature-activation.png' | prepend: site.baseurl | prepend: site.url }}" alt="Post-Sale Revenue Gap"/>
                 <h3>Hardware Revenue Ends Too Early</h3>
                 <p>Without a mechanism to unlock software features, expand capacity, or enable add-ons after deployment, connected hardware captures too little value from the installed base.</p>
             </figcaption>
@@ -74,7 +74,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-iot-firmware-protection.png' | prepend: site.baseurl | prepend: site.url }}" alt="Firmware Piracy Risk"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-iot-firmware-protection.png' | prepend: site.baseurl | prepend: site.url }}" alt="Firmware Piracy Risk"/>
                 <h3>Firmware Cloning on Unauthorised Hardware</h3>
                 <p>Without device-bound licensing, firmware can be copied to unregistered units or unsupported hardware. Node-locked entitlements help ensure software operates on authorised devices.</p>
             </figcaption>
@@ -99,7 +99,7 @@ sitemap:
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-iot-node-locked.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-iot-node-locked.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Node-Locked Device Licensing" title="Node-Locked Device Licensing">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
@@ -118,14 +118,14 @@ sitemap:
                 <a href="https://netlicensing.io/wiki/multi-feature">Learn about Multi-Feature model →</a>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-industry-iot-ota-activation.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-iot-ota-activation.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="OTA Feature Activation" title="OTA Feature Activation">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-iot-offline-validation.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-iot-offline-validation.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Offline & Air-Gapped Validation" title="Offline & Air-Gapped Validation">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">

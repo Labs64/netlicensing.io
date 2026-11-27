@@ -47,7 +47,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-gaming-platform-sync.png' | prepend: site.baseurl | prepend: site.url }}" alt="Cross-Platform Fragmentation"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-gaming-platform-sync.png' | prepend: site.baseurl | prepend: site.url }}" alt="Cross-Platform Fragmentation"/>
                 <h3>Fragmented Entitlements Across Platforms</h3>
                 <p>Players expect purchases, passes, and premium access to follow their account across devices. When each storefront or platform keeps separate entitlement records, consistency becomes custom backend work.</p>
             </figcaption>
@@ -56,7 +56,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-gaming-dlc-entitlements.png' | prepend: site.baseurl | prepend: site.url }}" alt="DLC & Season Pass Complexity"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-gaming-dlc-entitlements.png' | prepend: site.baseurl | prepend: site.url }}" alt="DLC & Season Pass Complexity"/>
                 <h3>DLC Lifecycle Management at Scale</h3>
                 <p>Each DLC pack, expansion, season pass, or live-event ticket can have its own release date, price, region, and expiry window. A unified entitlement layer keeps content access explicit.</p>
             </figcaption>
@@ -65,7 +65,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-gaming-session-control.png' | prepend: site.baseurl | prepend: site.url }}" alt="Session Monetisation"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-gaming-session-control.png' | prepend: site.baseurl | prepend: site.url }}" alt="Session Monetisation"/>
                 <h3>Concurrent Sessions Need Clear Limits</h3>
                 <p>Cloud gaming, streaming entertainment, and live-event access need session limits that start, renew, and expire cleanly. Hard-coding those limits into game servers creates maintenance work with every new format.</p>
             </figcaption>
@@ -74,7 +74,7 @@ sitemap:
     <div class="col-md-3 NL_feature">
         <figure class="hover_effect">
             <figcaption>
-                <img src="{{ '/img/features/industry-gaming-account-sharing.png' | prepend: site.baseurl | prepend: site.url }}" alt="Piracy & Account Sharing"/>
+                <img loading="lazy" decoding="async" src="{{ '/img/features/industry-gaming-account-sharing.png' | prepend: site.baseurl | prepend: site.url }}" alt="Piracy & Account Sharing"/>
                 <h3>Account Sharing Blurs Paid Access</h3>
                 <p>Without concurrent session enforcement, one premium account can be used far beyond its intended access level. Floating limits help protect paid access while preserving legitimate multi-device use cases.</p>
             </figcaption>
@@ -99,7 +99,7 @@ sitemap:
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-gaming-session-control.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-gaming-session-control.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Session-Based & Floating Licensing" title="Session-Based & Floating Licensing">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
@@ -118,14 +118,14 @@ sitemap:
                 <a href="https://netlicensing.io/wiki/multi-feature">Learn about Multi-Feature model →</a>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
-                <img src="{{ '/img/netlicensing-industry-gaming-dlc-entitlements.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-gaming-dlc-entitlements.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="DLC & Content Entitlements" title="DLC & Content Entitlements">
             </figure>
         </section>
 
         <section class="cbp-so-section">
             <figure class="cbp-so-side cbp-so-side-left">
-                <img src="{{ '/img/netlicensing-industry-gaming-platform-sync.png' | prepend: site.baseurl | prepend: site.url }}"
+                <img loading="lazy" decoding="async" src="{{ '/img/netlicensing-industry-gaming-platform-sync.png' | prepend: site.baseurl | prepend: site.url }}"
                      alt="Cross-Platform Entitlement Sync" title="Cross-Platform Entitlement Sync">
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
