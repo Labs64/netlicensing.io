@@ -18,8 +18,8 @@
 
 - name: "Customers"
   free: "50"
-  basic: "100"
-  premium: "500"
+  basic: "200"
+  premium: "1000"
   enterprise: "customizable"
 
 - name: "Licenses"
