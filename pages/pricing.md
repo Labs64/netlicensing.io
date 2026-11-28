@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "Pricing"
-description: "Whether you’re just getting started or are ready to bring licensing to your enterprise, there’s a NetLicensing level that’s right for you"
+description: "NetLicensing pricing: a free Community plan, Basic and Premium billed annually, and Select for enterprise needs. Plans scale with the products and customers you license. 30-day Premium trial, no credit card."
+last_modified_at: 2026-11-28
 permalink: "/pricing/"
 tags:
 - Pricing
@@ -31,7 +32,10 @@ tags:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>Grow better with the right plan</h1>
-        <span>All plans are built on top of the "Community",<br/>upgrade is possible at any time.</span>
+        <span>Start free. Plans scale with the products and customers you license, the licensing models you need and the support you want. Upgrade at any time.</span>
+        {%- if promo_live %}
+        <p class="NL_banner_offer" data-promo-on hidden>{{ promo.name }}: {{ promo.discount_percent }}% off the first year of paid plans for new customers until {{ promo.end | date: "%B %-d" }}, with code {{ promo.code }}.</p>
+        {%- endif %}
     </div>
 </div>
 
@@ -64,10 +68,15 @@ tags:
     </div>
 
     <div class="col-md-15 col-sm-3">
-        <div class="NL_price_features NL_price_regular" data-plan="free" data-price="0" data-products="{{ plan_products.free }}" data-customers="{{ plan_customers.free }}">
+        <div class="NL_price_features NL_price_regular" id="plan-free" data-plan="free" data-price="0" data-products="{{ plan_products.free }}" data-customers="{{ plan_customers.free }}">
             <h3><strong class="NL_plan_name">Community</strong><br/>Quick and simple for community projects</h3>
             <div class="NL_price_tag">0 € / month</div>
             <div class="NL_price_tag_sub">&nbsp;</div>
+            <div class="NL_btn NL_btn_pricing NL_btn_top">
+                <a href="https://ui.netlicensing.io/#/register?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=free-top"
+                   class="NL_button button_main NL_dark_btn" data-plan-cta>Register Now for FREE</a>
+                <p class="NL_btn_note">No credit card required</p>
+            </div>
             {% include pricing-features.html plan="free" %}
 
             <div class="NL_btn NL_btn_pricing">
@@ -79,20 +88,25 @@ tags:
     </div>
 
     <div class="col-md-15 col-sm-3">
-        <div class="NL_price_features NL_price_regular" data-plan="basic" data-price="{{ basic_eur }}"{% if promo_live %} data-offer-price="{{ basic_offer }}"{% endif %} data-pack-size="{{ plan_customers.packs.basic.size }}" data-pack-price="{{ plan_customers.packs.basic.price }}" data-pack-max="{{ plan_customers.packs.basic.max }}" data-products="{{ plan_products.basic }}" data-customers="{{ plan_customers.basic }}">
+        <div class="NL_price_features NL_price_regular" id="plan-basic" data-plan="basic" data-price="{{ basic_eur }}"{% if promo_live %} data-offer-price="{{ basic_offer }}"{% endif %} data-pack-size="{{ plan_customers.packs.basic.size }}" data-pack-price="{{ plan_customers.packs.basic.price }}" data-pack-max="{{ plan_customers.packs.basic.max }}" data-products="{{ plan_products.basic }}" data-customers="{{ plan_customers.basic }}">
             <h3><strong class="NL_plan_name">Basic</strong><br/>For startups and growing businesses</h3>
-            <div class="NL_price_tag"{% if promo_live %} data-promo-off{% endif %}>120 € / month</div>
-            <div class="NL_price_tag_sub"{% if promo_live %} data-promo-off{% endif %}>billed annually</div>
+            <div class="NL_price_tag"{% if promo_live %} data-promo-off{% endif %}><span class="NL_nowrap">120 €</span> <span class="NL_nowrap">/ month</span></div>
+            <div class="NL_price_tag_sub"{% if promo_live %} data-promo-off{% endif %}>billed annually<br>{{ basic_eur | times: 12 }} € per year</div>
             {%- if promo_live %}
-            <div class="NL_price_tag" data-promo-on hidden><s class="NL_promo_old">120 €</s> {{ basic_offer }}<sup>*</sup> € / month</div>
-            <div class="NL_price_tag_sub" data-promo-on hidden>billed annually, first year</div>
+            <div class="NL_price_tag" data-promo-on hidden><s class="NL_promo_old">120 €</s> <span class="NL_nowrap">{{ basic_offer }} €</span> <span class="NL_nowrap">/ month<sup>*</sup></span></div>
+            <div class="NL_price_tag_sub" data-promo-on hidden>billed annually, first year<br>up to {{ basic_offer | times: 12 }} € · offer ends {{ promo.end | date: "%b %-d" }}</div>
             {%- endif %}
+            <div class="NL_btn NL_btn_pricing NL_btn_top">
+                <a href="https://ui.netlicensing.io/#/register?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=basic-top"
+                   {% if promo_live %}data-promo-href="https://ui.netlicensing.io/#/register?promoCode={{ promo.code }}&utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign={{ promo.campaign }}&utm_content=basic-top" {% endif %}class="NL_button button_main NL_dark_btn" data-plan-cta>Start Free Trial</a>
+                <p class="NL_btn_note">30-day Premium trial. No credit card required</p>
+            </div>
             {% include pricing-features.html plan="basic" %}
 
             <div class="NL_btn NL_btn_pricing">
                 <a href="https://ui.netlicensing.io/#/register?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=basic"
                    {% if promo_live %}data-promo-href="https://ui.netlicensing.io/#/register?promoCode={{ promo.code }}&utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign={{ promo.campaign }}&utm_content=basic" {% endif %}class="NL_button button_main NL_dark_btn">Start Free Trial</a>
-                <p class="NL_btn_note"{% if promo_live %} data-promo-off{% endif %}>No credit card required</p>
+                <p class="NL_btn_note">30-day Premium trial. No credit card required</p>
                 {%- if promo_live %}
                 <p class="NL_btn_note" data-promo-on hidden><sup>*</sup> {{ promo.name }}: Save {{ basic_save }} € in year one. New customers, code {{ promo.code }} is applied at sign-up.</p>
                 {%- endif %}
@@ -101,20 +115,25 @@ tags:
     </div>
 
     <div class="col-md-15 col-sm-3">
-        <div class="NL_price_features NL_price_promo" data-plan="premium" data-price="{{ premium_eur }}"{% if promo_live %} data-offer-price="{{ premium_offer }}"{% endif %} data-pack-size="{{ plan_customers.packs.premium.size }}" data-pack-price="{{ plan_customers.packs.premium.price }}" data-products="{{ plan_products.premium }}" data-customers="{{ plan_customers.premium }}">
+        <div class="NL_price_features NL_price_promo" id="plan-premium" data-plan="premium" data-price="{{ premium_eur }}"{% if promo_live %} data-offer-price="{{ premium_offer }}"{% endif %} data-pack-size="{{ plan_customers.packs.premium.size }}" data-pack-price="{{ plan_customers.packs.premium.price }}" data-products="{{ plan_products.premium }}" data-customers="{{ plan_customers.premium }}">
             <h3><strong class="NL_plan_name">Premium</strong><br/>Full featured for comprehensive products</h3>
-            <div class="NL_price_tag"{% if promo_live %} data-promo-off{% endif %}>380 € / month</div>
-            <div class="NL_price_tag_sub"{% if promo_live %} data-promo-off{% endif %}>billed annually</div>
+            <div class="NL_price_tag"{% if promo_live %} data-promo-off{% endif %}><span class="NL_nowrap">380 €</span> <span class="NL_nowrap">/ month</span></div>
+            <div class="NL_price_tag_sub"{% if promo_live %} data-promo-off{% endif %}>billed annually<br>{{ premium_eur | times: 12 }} € per year</div>
             {%- if promo_live %}
-            <div class="NL_price_tag" data-promo-on hidden><s class="NL_promo_old">380 €</s> {{ premium_offer }}<sup>*</sup> € / month</div>
-            <div class="NL_price_tag_sub" data-promo-on hidden>billed annually, first year</div>
+            <div class="NL_price_tag" data-promo-on hidden><s class="NL_promo_old">380 €</s> <span class="NL_nowrap">{{ premium_offer }} €</span> <span class="NL_nowrap">/ month<sup>*</sup></span></div>
+            <div class="NL_price_tag_sub" data-promo-on hidden>billed annually, first year<br>up to {{ premium_offer | times: 12 }} € · offer ends {{ promo.end | date: "%b %-d" }}</div>
             {%- endif %}
+            <div class="NL_btn NL_btn_pricing NL_btn_top">
+                <a href="https://ui.netlicensing.io/#/register?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=premium-top"
+                   {% if promo_live %}data-promo-href="https://ui.netlicensing.io/#/register?promoCode={{ promo.code }}&utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign={{ promo.campaign }}&utm_content=premium-top" {% endif %}class="NL_button button_main NL_dark_btn" data-plan-cta>Start Free Trial</a>
+                <p class="NL_btn_note">30-day Premium trial. No credit card required</p>
+            </div>
             {% include pricing-features.html plan="premium" %}
 
             <div class="NL_btn NL_btn_pricing">
                 <a href="https://ui.netlicensing.io/#/register?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=premium"
                    {% if promo_live %}data-promo-href="https://ui.netlicensing.io/#/register?promoCode={{ promo.code }}&utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign={{ promo.campaign }}&utm_content=premium" {% endif %}class="NL_button button_main NL_dark_btn">Start Free Trial</a>
-                <p class="NL_btn_note"{% if promo_live %} data-promo-off{% endif %}>No credit card required</p>
+                <p class="NL_btn_note">30-day Premium trial. No credit card required</p>
                 {%- if promo_live %}
                 <p class="NL_btn_note" data-promo-on hidden><sup>*</sup> {{ promo.name }}: Save {{ premium_save }} € in year one. New customers, code {{ promo.code }} is applied at sign-up.</p>
                 {%- endif %}
@@ -123,12 +142,13 @@ tags:
     </div>
 
     <div class="col-md-15 col-sm-3">
-        <div class="NL_price_features NL_price_regular" data-plan="enterprise">
+        <div class="NL_price_features NL_price_regular" id="plan-enterprise" data-plan="enterprise">
             <h3><strong class="NL_plan_name">Select</strong><br/>Advanced functionality for specific requirements</h3>
-            <div class="NL_price_tag NL_price_tag_contact"><div class="NL_btn NL_btn_pricing">
-                <a href="https://l64.cc/questionnaire" target="_blank" rel="noopener" class="NL_button button_main NL_dark_btn">Get a Quote</a>
-            </div></div>
-            <div class="NL_price_tag_sub NL_price_tag_sub_contact">&nbsp;</div>
+            <div class="NL_price_tag">Custom quote</div>
+            <div class="NL_price_tag_sub">Extends Basic or Premium</div>
+            <div class="NL_btn NL_btn_pricing NL_btn_top">
+                <a href="https://l64.cc/questionnaire" target="_blank" rel="noopener" class="NL_button button_main NL_dark_btn" data-plan-cta>Get a Quote</a>
+            </div>
             {% include pricing-features.html plan="enterprise" %}
 
             <div class="NL_btn NL_btn_pricing">
@@ -145,7 +165,7 @@ tags:
             <span>NetLicensing Enterprise: self-hosted or dedicated, with SSO, audit log and a 99.5% SLA.<br>Custom development, priority feature requests and a technical manager for your rollout.</span>
 
             <div class="row NL_cta_row">
-                <div class="col-sm-4 col-sm-offset-4">
+                <div class="col-sm-6 col-sm-offset-3">
                     <a href="/enterprise/" class="NL_button button_main NL_dark_btn NL_wide_btn">
                         <i class="fa fa-building-o"></i>Explore Enterprise
                     </a>
@@ -156,7 +176,7 @@ tags:
 </div>
 
 <div id="faq" class="row NL_block">
-    <h2 class="col-md-12">You may still have some questions, so here's our FAQ</h2>
+    <h2 class="col-md-12">Pricing Questions, Answered</h2>
 </div>
 
 {%- if promo_live %}
@@ -180,13 +200,12 @@ tags:
     <div class="col-md-5 col-md-offset-1">
         <h3>Can I use NetLicensing for free?</h3>
 
-        <p>Absolutely! NetLicensing can be completely free to use. The Community plan does have some limits and feature locks. You can always upgrade to higher plans if you’d like to access those advanced features.</p>
+        <p>Yes. The Community plan is free, with lower limits and fewer licensing models than the paid plans. You can upgrade whenever you need more.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
-        <h3>What is included in Free Premium Trial?</h3>
+        <h3>What is included in the free Premium trial?</h3>
 
-        <p>Free Premium Trial plan includes all functionality of Premium Plan for 30 days, except product, product module and licensee limits.
-        After 30 days your vendor account will remain active and will be automatically switched to "Community" plan unless upgraded.</p>
+        <p>For 30 days you get all Premium functionality, except the Premium limits on products, product modules and customers. After 30 days your account stays active and moves to the Community plan, unless you upgrade.</p>
     </div>
 </div>
 
@@ -197,9 +216,9 @@ tags:
         <p>No. We do not collect credit card information when you sign up, neither for the free Community plan nor for the 30-day trial of all features.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
-        <h3>Can I cancel anytime?</h3>
+        <h3>Can I cancel at any time?</h3>
 
-        <p>Yes! You can cancel your plan anytime you wish and you will not be charged. Your annual payment will be refunded pro-rata.</p>
+        <p>Yes. You can cancel your plan at any time and will not be charged again. Your annual payment is refunded pro-rata.</p>
     </div>
 </div>
 
@@ -231,7 +250,7 @@ tags:
 
 <div class="row NL_FAQ">
     <div class="col-md-5 col-md-offset-1">
-        <h3>Are there any hidden cost or extra charges?</h3>
+        <h3>Are there hidden costs or extra charges?</h3>
 
         <p>No. NetLicensing won’t charge you any setup fees or monthly fees if you are using a free plan. On paid plans, customer packs are optional and cost the listed price.
             The selected payment service provider may charge an internet gateway fee and/or a processing fee.</p>
@@ -245,9 +264,9 @@ tags:
 
 <div class="row NL_FAQ">
     <div class="col-md-5 col-md-offset-1">
-        <h3>Is my data safe?</h3>
+        <h3>Where is my data stored, and is it safe?</h3>
 
-        <p>We take data security very seriously. All your data is securely stored and regularly backed up in Amazon data centers, and the network design ensures no unauthorized access. All web interactions are encrypted through industry-standard SSL security. You can request deletion of your data permanently at any time.</p>
+        <p>NetLicensing is run by Labs64 GmbH in Munich, Germany, and hosted on AWS in Ireland. Your data is backed up regularly, all web and API traffic is encrypted, and you can have your data deleted at any time. <a href="{{ '/trust/' | relative_url }}">Trust and privacy details</a>.</p>
     </div>
     <div class="col-md-4 col-md-offset-1">
         <h3>I have more questions. Who do I ask?</h3>
@@ -257,3 +276,16 @@ tags:
     </div>
 </div>
 
+<div class="row">
+    <div class="col-md-12 NL_form_light NL_block">
+        <div class="col-md-8 col-md-offset-2 NL_form_light_text">
+            <h2>Start Licensing Your Product</h2>
+            <span>The Community plan is free, and the 30-day Premium trial needs no credit card.</span>
+            <div class="NL_cta_center NL_cta_group">
+                <a href="https://ui.netlicensing.io/#/register?utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign=netlicensing.io_pricing&utm_content=closing"{% if promo_live %} data-promo-href="https://ui.netlicensing.io/#/register?promoCode={{ promo.code }}&utm_source=netlicensing.io_pricing&utm_medium=website&utm_campaign={{ promo.campaign }}&utm_content=closing"{% endif %} class="NL_button button_main NL_dark_btn"><i class="fa fa-user-plus"></i>Sign Up Free</a>
+                <a href="{{ '/contact/' | relative_url }}" class="NL_button button_main NL_dark_btn"><i class="fa fa-envelope"></i>Contact us</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="{{ '/js/plan-strip.js' | prepend: site.baseurl }}?v={{ site.time | date: '%Y%m%d%H%M' }}" defer></script>

@@ -21,7 +21,10 @@
     {%- assign value = feature[include.plan] %}
     {%- assign pack = feature.packs[include.plan] %}
     <li{% if feature.packs %} class="NL_price_row_packs"{% elsif feature.tall %} class="NL_price_row_tall{% if feature.models %} NL_price_row_models{% endif %}"{% endif %}>
-        <span class="NL_price_feature"> {{ feature.name }} </span>
+        <span class="NL_price_feature"> {{ feature.name }}
+            {%- if feature.description %}
+            <button type="button" class="NL_price_help" data-toggle="tooltip" data-placement="top" title="{{ feature.description | strip_html | escape }}" aria-label="About {{ feature.name | escape }}"><i class="fa fa-question-circle" aria-hidden="true"></i></button>
+            {%- endif %} </span>
         {% if feature.models and value == nil -%}
         <div class="NL_price_models">
             {%- if lower_plan %}

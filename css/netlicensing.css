@@ -889,8 +889,8 @@ div.in > .NL_accordion_content {
     line-height: 16px;
 }
 
-/* Mobile dropdown styles */
-@media screen and (max-width: 767px) {
+/* Dropdown styles for the collapsed menu (see _scss/_nav.scss) */
+@media screen and (max-width: 1199px) {
     .NL_dropdown-menu {
         position: static;
         transform: none;
@@ -941,7 +941,7 @@ div.in > .NL_accordion_content {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
     .NL_dropdown--wide .NL_dropdown-menu {
         min-width: 100%;
     }
@@ -1261,7 +1261,7 @@ ul.NL_licensing_models a {
 }
 
 .NL_FAQ p {
-    text-align: justify;
+    text-align: left;
 }
 
 /*----------   Case Studies Page  -----------*/
@@ -1591,22 +1591,22 @@ article.cbp-so-side-left h2 {
 }
 
 .cbp-so-init .cbp-so-side-left {
-    -webkit-transform: translateX(-80px);
-    -moz-transform: translateX(-80px);
-    transform: translateX(-80px);
+    -webkit-transform: translateX(-32px);
+    -moz-transform: translateX(-32px);
+    transform: translateX(-32px);
 }
 
 .cbp-so-init .cbp-so-side-right {
-    -webkit-transform: translateX(80px);
-    -moz-transform: translateX(80px);
-    transform: translateX(80px);
+    -webkit-transform: translateX(32px);
+    -moz-transform: translateX(32px);
+    transform: translateX(32px);
 }
 
 .cbp-so-section.cbp-so-animate .cbp-so-side-left,
 .cbp-so-section.cbp-so-animate .cbp-so-side-right {
-    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-    -moz-transition: -moz-transform 0.5s, opacity 0.5s;
-    transition: transform 0.5s, opacity 0.5s;
+    -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    -moz-transition: -moz-transform 0.7s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1);
     -webkit-transform: translateX(0px);
     -moz-transform: translateX(0px);
     transform: translateX(0px);
@@ -1673,6 +1673,10 @@ article.cbp-so-side-left h2 {
 
 .NL_button.NL_wide_btn {
     max-width: 400px;
+    /* Labels may wrap in narrow columns, so give each line room. */
+    padding-top: 6px;
+    padding-bottom: 6px;
+    line-height: 20px;
 }
 
 .NL_button.NL_dark_btn::before {

@@ -4,7 +4,7 @@
    - The Mandatory check script can modified as to suit your business needs. 
    - It is important that you test the modified form before going live.-->
 <div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm'
-    style='background-color: white;color: black;max-width: 800px;'>
+    style='background-color: white;color: #515151;max-width: 800px;'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
     <script src='https://www.google.com/recaptcha/api.js' async defer></script>
@@ -74,8 +74,10 @@
                 min-height: 1px;
             }
 
-            .zcwf_col_lab label {
+            #crmWebToEntityForm .zcwf_col_lab,
+            #crmWebToEntityForm .zcwf_col_lab label {
                 font-weight: 400;
+                color: #515151;
             }
 
             .zcwf_lblLeft .zcwf_col_fld {
@@ -145,7 +147,7 @@
             .zcwf_lblLeft .formsubmit {
                 margin-right: 5px;
                 cursor: pointer;
-                color: #515151;
+                color: #7B2A10;
                 font-size: 16px;
             }
 
@@ -160,17 +162,39 @@
                 margin-left: 6px;
             }
 
+            /* Same outline button as NL_dark_btn: umber at rest, filled on hover. */
             .zcwf_lblLeft .zcwf_button {
-                font-size: 16px;
-                color: #515151;
-                border: 1px solid #ccc;
-                padding: 3px 9px;
-                border-radius: 4px;
+                font-size: 15px;
+                color: #7B2A10;
+                background: #FFF;
+                border: 2px solid #7B2A10;
+                padding: 8px 32px;
+                border-radius: 2px;
                 cursor: pointer;
-                max-width: 120px;
+                text-transform: uppercase;
+                transition: background-color .2s, color .2s;
+                max-width: 260px;
                 overflow: hidden;
                 text-overflow: ellipsis;
                 white-space: nowrap;
+            }
+
+            .zcwf_lblLeft .zcwf_button:hover,
+            .zcwf_lblLeft .zcwf_button:focus-visible {
+                color: #FFF;
+                background: #7B2A10;
+            }
+
+            .zcwf_lblLeft .zcwf_button:disabled {
+                opacity: .5;
+                cursor: not-allowed;
+            }
+
+            .zcwf_lblLeft .zcwf_col_fld input[type=text]:focus,
+            .zcwf_lblLeft .zcwf_col_fld textarea:focus {
+                border-color: #7B2A10;
+                outline: 2px solid rgba(123, 42, 16, .2);
+                outline-offset: 0;
             }
 
             .zcwf_lblLeft .zcwf_tooltip_over {
@@ -276,7 +300,7 @@
                     style='font-size: 16px; font-family: Roboto, Helvetica, Arial, sans-serif; color: black;'>
                     <div><span
                             style='color: rgb(81, 81, 81); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: small; background-color: rgb(255, 255, 255);'>By
-                            clicking <i>Submit</i>, you agree to our&nbsp;</span><a
+                            clicking <i>Send message</i>, you agree to our&nbsp;</span><a
                             href='https://www.labs64.com/legal/privacy-policy/' target='_blank'
                             style='box-sizing: border-box; background-color: rgb(255, 255, 255); color: rgb(123, 42, 16); text-decoration-line: none; border-bottom: 1px dotted rgb(123, 42, 16); font-family: Roboto, Helvetica, Arial, sans-serif; font-size: small;'>Privacy
                             Policy&nbsp;</a><span
@@ -297,8 +321,8 @@
         </div>
         <div class='zcwf_row'>
             <div class='zcwf_col_lab'></div>
-            <div class='zcwf_col_fld'><input type='submit' id='formsubmit' class='formsubmit zcwf_button' value='Submit'
-                    title='Submit'><input type='reset' class='zcwf_button' name='reset' value='Reset' title='Reset'>
+            <div class='zcwf_col_fld'><input type='submit' id='formsubmit' class='formsubmit zcwf_button' value='Send message'
+                    title='Send message'>
             </div>
         </div>
         <script>

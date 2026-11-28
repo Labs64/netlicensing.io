@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "Licensing Models"
-description: "NetLicensing licensing models: subscription, node-locked, floating, pay-per-use, quota, rental, try-and-buy and more."
+description: "Compare NetLicensing licensing models: Try & Buy, Subscription, Multi-Feature, Floating, Node-Locked, Pay-per-Use, Quota, Pricing Table, Rental and Discount, and the lowest plan that includes each."
+last_modified_at: 2026-11-28
 permalink: /licensing-models/
 tags:
 - Licensing Models
@@ -41,6 +42,7 @@ sitemap:
 
 <div class="row NL_block">
     <div class="col-md-12">
+        <p class="NL_models_note">Filter by what the license limits. Each model shows the lowest plan that includes it; <a href="{{ '/pricing/' | relative_url }}">compare plans</a>.</p>
         <ul id="filterOptions">
             <li class="active"><a href="" class="NL_button button_main NL_orange_btn" id="all">All</a></li>
             <li><a href="" class="NL_button button_main NL_orange_btn" id="time">Time</a></li>
@@ -62,6 +64,19 @@ sitemap:
                             {{ licensingmodel.aliases | join: ', ' }}
                         </p>
                         <p>{{ licensingmodel.description }}</p>
+                        <p class="NL_model_meta">
+                            {%- unless licensingmodel.picker == false %}
+                            {%- assign first_plan = licensingmodel.plans | first %}
+                            {%- case first_plan %}
+                            {%- when 'free' %}{% assign plan_label = 'On every plan' %}
+                            {%- when 'basic' %}{% assign plan_label = 'From Basic' %}
+                            {%- when 'premium' %}{% assign plan_label = 'From Premium' %}
+                            {%- else %}{% assign plan_label = 'Select plan' %}
+                            {%- endcase %}
+                            <a class="NL_model_plan" href="{{ '/pricing/' | relative_url }}">{{ plan_label }}</a>
+                            {%- endunless %}
+                            <a href="{{ licensingmodel.url }}">How it works &rarr;</a>
+                        </p>
                     </li>
                 {% endif %}
             {% endfor %}
@@ -72,16 +87,11 @@ sitemap:
 <div class="row">
     <div class="col-md-12 NL_form_light NL_block">
         <div class="col-md-8 col-md-offset-2 NL_form_light_text">
-            <h2>Need a special Licensing Model?</h2>
-            <span>With NetLicensing, complex software licensing models can be created that fit your business needs.</span>
-
-            <form action="/contact/" method="GET"
-                  name="Request Licensing Model" id="request-licensing-model"
-                  novalidate>
-                <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
-                    <i class="fa fa-paper-plane"></i>Send Request
-                </button>
-            </form>
+            <h2>Need a Model That Isn't Listed?</h2>
+            <span>Models can be combined in one product, and custom models can be built for your needs and goals. Tell us how you want to sell.</span>
+            <div class="NL_cta_center">
+                <a href="{{ '/contact/' | relative_url }}" class="NL_button button_main NL_dark_btn NL_wide_btn"><i class="fa fa-paper-plane"></i>Describe your model</a>
+            </div>
         </div>
     </div>
 </div>

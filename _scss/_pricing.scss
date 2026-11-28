@@ -58,24 +58,37 @@
     border-radius: 8px;
 
     // Bootstrap styles <output> as a 14px block; make it plain pill text instead.
+    // Its width fits the longest value, so the sentence stays still while dragging.
     output {
       display: inline-block;
       min-width: 3ch;
       padding: 0;
       font: inherit;
+      font-variant-numeric: tabular-nums;
       line-height: 1;
       color: inherit;
       text-align: center;
+
+      &[data-for="customers"] {
+        min-width: 5.5ch;
+      }
     }
 
     // Bootstrap makes range inputs full-width blocks.
     input[type="range"] {
       display: inline-block;
-      width: 120px;
-      height: 14px;
-      margin: 0 0 0 6px;
+      width: 220px;
+      height: 28px;
+      margin: 0 0 0 8px;
       accent-color: $brand-hover;
     }
+  }
+
+  // "product" and "products" take the same room.
+  [data-unit="products"] {
+    display: inline-block;
+    min-width: 4.3em;
+    text-align: center;
   }
 
   button.NL_pill {
@@ -197,6 +210,21 @@
       font-size: 14px;
     }
 
+    // On phones each slider takes its own line, with a 44px touch height.
+    span.NL_pill {
+      display: flex;
+      width: 100%;
+      max-width: 340px;
+      height: 44px;
+      margin: 4px auto;
+
+      input[type="range"] {
+        flex: 1;
+        min-width: 0;
+        height: 44px;
+      }
+    }
+
     .NL_picker_menu {
       grid-template-columns: minmax(0, 1fr);
     }
@@ -231,7 +259,7 @@
 // The plan matching the picker stands out; the others fade.
 .NL_pricing.NL_plan_picked {
   .NL_price_features:not(.NL_plan_match) {
-    opacity: .5;
+    opacity: .75;
   }
 
   .NL_plan_match {
@@ -404,10 +432,11 @@
 
 // Desktop: five narrow columns. The plan name, price and every row have a fixed
 // height, the same in each column, so text can wrap and the rows stay aligned.
-$plan-name-height: 164px;
-$plan-name-height-wide: 144px;
-$plan-price-height: 80px;
-$plan-price-note-height: 28px;
+$plan-name-height: 152px;
+$plan-name-height-wide: 128px;
+$plan-price-height: 64px;
+$plan-price-note-height: 54px;
+$plan-cta-height: 108px;
 
 @media (min-width: 994px) {
   .NL_pricing {
@@ -419,7 +448,7 @@ $plan-price-note-height: 28px;
     // (the extra pixel matches the plan columns' top border).
     .NL_price_captions h3 {
       box-sizing: border-box;
-      height: $plan-name-height + $plan-price-height + $plan-price-note-height + 1px;
+      height: $plan-name-height + $plan-price-height + $plan-price-note-height + $plan-cta-height + 1px;
       padding: 0;
       overflow: hidden;
     }
@@ -441,8 +470,18 @@ $plan-price-note-height: 28px;
     }
 
     .NL_price_features .NL_price_tag_sub {
+      box-sizing: border-box;
       height: $plan-price-note-height;
       margin-bottom: 0;
+      padding: 0 4px;
+      font-size: 12px;
+      line-height: 17px;
+    }
+
+    .NL_price_features .NL_btn_top {
+      box-sizing: border-box;
+      height: $plan-cta-height;
+      overflow: hidden;
     }
 
     ul li {
@@ -488,7 +527,7 @@ $plan-price-note-height: 28px;
 @media (min-width: 1200px) {
   .NL_pricing {
     .NL_price_captions h3 {
-      height: $plan-name-height-wide + $plan-price-height + $plan-price-note-height + 1px;
+      height: $plan-name-height-wide + $plan-price-height + $plan-price-note-height + $plan-cta-height + 1px;
     }
 
     .NL_price_features h3 {
@@ -497,13 +536,43 @@ $plan-price-note-height: 28px;
   }
 }
 
-// The picker's answer in words, under the sentence. Height is reserved.
+// The picker's answer under the sentence: words, then the plan's button and a link.
 .NL_picker_result {
-  min-height: 20px;
   margin: 10px 0 0;
-  font-size: 14px;
-  line-height: 20px;
-  color: $brand-primary;
+
+  p {
+    min-height: 20px;
+    margin: 0;
+    font-size: 15px;
+    line-height: 22px;
+    color: $brand-primary;
+  }
+}
+
+.NL_picker_actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px 20px;
+  margin-top: 12px;
+
+  &[hidden] {
+    display: none;
+  }
+
+  .NL_button.NL_dark_btn {
+    margin: 0;
+    background-color: $bg-white;
+
+    &::before {
+      z-index: -1;
+    }
+
+    &:hover {
+      background-color: $brand-primary;
+    }
+  }
 }
 
 // Reassurance line under the sign-up buttons.
@@ -515,9 +584,12 @@ $plan-price-note-height: 28px;
   color: $text-dark;
 }
 
-// Promo offer: regular price struck through next to the offer price.
+// Promo offer: regular price struck through above the offer price, so the offer
+// price and its unit stay on one line.
 .NL_promo_old {
-  font-size: 0.7em;
+  display: block;
+  font-size: 15px;
+  line-height: 18px;
   opacity: 0.6;
 }
 
@@ -525,4 +597,201 @@ $plan-price-note-height: 28px;
 [data-promo-on][hidden],
 [data-promo-off][hidden] {
   display: none !important;
+}
+
+// ---------------------------------------------------------------------------
+// The path to sign-up: buttons under each price, a plan bar that follows the
+// reader, help buttons on small screens and the phone offer line.
+// ---------------------------------------------------------------------------
+
+// Keeps an amount and its unit together. The site styles every span, so inherit.
+.NL_price_tag span.NL_nowrap {
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  white-space: nowrap;
+}
+
+// Compact button under the price (the bottom buttons keep their larger size).
+.NL_pricing .NL_btn.NL_btn_top {
+  padding: 4px 6px 12px;
+  text-align: center;
+
+  .NL_button {
+    height: auto;
+    margin: 0 auto;
+    padding: 9px 8px;
+    line-height: 18px;
+    white-space: normal;
+  }
+
+  .NL_btn_note {
+    margin-top: 6px;
+    padding: 0;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+// Jumping to a plan from the picker leaves room under the fixed navigation.
+.NL_pricing [data-plan] {
+  scroll-margin-top: 64px;
+}
+
+// js/plan-strip.js places one cell over each column whose top button has scrolled away.
+.NL_plan_strip {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1020;
+  height: 0;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.NL_plan_strip_cell {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  box-sizing: border-box;
+  height: 52px;
+  padding: 0 10px;
+  background: $bg-white;
+  border: 1px solid $brand-hover;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .1);
+
+  &[hidden] {
+    display: none;
+  }
+
+  div {
+    min-width: 0;
+  }
+
+  b,
+  small {
+    display: block;
+    overflow: hidden;
+    line-height: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: $brand-primary;
+  }
+
+  b {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  small {
+    font-size: 12px;
+  }
+
+  a {
+    flex: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    white-space: nowrap;
+    color: $brand-primary;
+    border: 1px solid $brand-primary;
+    border-radius: 2px;
+
+    &:hover {
+      color: $bg-white;
+      background: $brand-primary;
+    }
+  }
+}
+
+.NL_plan_strip_promo {
+  border-color: $brand-primary;
+}
+
+// Narrow desktop columns: name and price on one line, the button under them.
+.NL_plan_strip_cell.NL_plan_strip_narrow {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 4px;
+  height: 64px;
+  padding: 0 8px;
+  text-align: center;
+
+  div {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 6px;
+  }
+
+  b,
+  small {
+    flex: 0 1 auto;
+  }
+
+  a {
+    padding: 3px 10px;
+  }
+}
+
+// Two plans per row: equal price and button blocks keep their rows level.
+@media (min-width: 768px) and (max-width: 993px) {
+  .NL_pricing .NL_price_features h3 {
+    min-height: 112px;
+  }
+
+  .NL_pricing .NL_price_features .NL_price_tag {
+    box-sizing: border-box;
+    min-height: 78px;
+    padding-top: 16px;
+    line-height: 30px;
+    align-content: center;
+  }
+
+  .NL_pricing .NL_price_features .NL_price_tag_sub {
+    min-height: 50px;
+  }
+
+  .NL_pricing .NL_btn.NL_btn_top {
+    min-height: 100px;
+  }
+}
+
+// Row help beside the row name, shown where the captions column is hidden.
+.NL_pricing .NL_price_help {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  margin: -6px 0;
+  padding: 0;
+  vertical-align: middle;
+  color: $text-dark;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+// The top bar's offer sticker is hidden on phones; say it in the banner instead.
+.NL_banner_offer {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .NL_banner_offer {
+    display: block;
+    margin: 16px 15px 0;
+    padding: 10px 14px;
+    font-size: 15px;
+    line-height: 20px;
+    color: $brand-primary;
+    background: $bg-white;
+    border-radius: 8px;
+  }
 }

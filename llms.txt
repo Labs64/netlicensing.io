@@ -17,12 +17,12 @@ NetLicensing is an all-in-one licensing automation platform for digital products
 - **Management Console**: A web-based portal (https://ui.netlicensing.io) for managing products, modules, license templates, customers, and licenses.
 - **Customer Portal**: Allows end-customers to view and manage their own licenses (Premium and Select plans).
 - **NetLicensing Agent**: Offline validation module for air-gapped and restricted environments that mirrors cloud validation responses on a local network.
-- **NetLicensing Gateway**: Integration adapter for third-party e-commerce platforms (FastSpring, MyCommerce, PrestaShop, SendOwl) to fulfil licenses automatically.
+- **NetLicensing Gateway**: Open-source adapter that turns order fulfilment calls from an e-commerce platform into licenses. Available connector: FastSpring. Other billing and commerce platforms connect through webhooks and the REST API (https://netlicensing.io/wiki/billing-platforms).
 - **License Bundles**: Group multiple license templates into a single bundle for streamlined acquisition.
 - **Backup & Restore**: Export and re-import full product configuration for business continuity.
 - **Notifications**: Webhook notifications (HTTPS POST with a configurable payload) for these events: new licensee, new license, warning-level change and processed payment transaction.
 - **EU VAT Support**: Compliant EU VAT handling for customers in European markets (Basic plan and above).
-- **Client Libraries**: Pre-built libraries and SDK examples for Java, .NET, Python, PHP, JavaScript, and more.
+- **Client Libraries**: Open-source (Apache 2.0) client libraries for Java, C#/.NET, PHP, JavaScript/Node.js, Kotlin and C++. Other languages, such as Python, call the REST API directly or generate a client from the OpenAPI specification.
 - **NetLicensing MCP Server**: A Model Context Protocol (MCP) server that exposes the full NetLicensing REST API as tools consumable by AI assistants and LLM agents (Claude, GitHub Copilot, etc.). Enables AI-driven license management workflows directly from chat interfaces.
 - **AI Usage-Based Licensing**: Native support for AI/LLM workload monetization — token consumption, API call metering, prompt/completion quotas — using Pay-per-Use and Quota licensing models. Enables vendors to charge for AI agent interactions, LLM inference calls, and other consumption-based AI services.
 
@@ -37,7 +37,7 @@ All models can be combined to build complex, multi-module licensing schemes:
 - **Rental** (Rental): Multiple independent subscriptions per product instance; combines feature licensing with time-volume. Aliases: Leasing, Feature with TimeVolume.
 - **Pay-per-Use** (PayPerUse): Usage-metered billing based on time, count, or volume (CPU, bandwidth, API requests, etc.). Aliases: Pre-paid, Post-paid, Pay-per-click.
 - **Multi-Feature** (MultiFeature): Enables or disables individual product features per customer, supporting upgrade paths (lite → standard → pro → enterprise) without code changes. Aliases: Pay-per-feature, Feature-based, Modular.
-- **Node-Locked** (NodeLocked): License tied to a specific machine/device via CPU serial or a unique node secret. Aliases: Named host, Local.
+- **Node-Locked** (NodeLocked): License bound to one or more devices or users through a node secret that the vendor's product sends on validation (`nodeSecret`), for example a hash of hardware data. A quota sets how many nodes each license allows. NetLicensing does not generate the fingerprint. Aliases: Named host, Local.
 - **Quota** (Quota): Capacity/quantity limits for a feature (units, API requests, storage, etc.). Aliases: Limit, Capacity, Volume.
 - **Standard** (Standard): Perpetual single-user license; one-time purchase with no expiry. Aliases: Permanent, Single-user, Perpetual.
 - **Named User**: License rights tied to specific user IDs; usable on any machine by licensed users. Aliases: Personal License.
@@ -162,20 +162,22 @@ Response includes a `shopURL` for redirecting the customer to the NetLicensing S
 - **Online Validation & Activation**: Products call the validate endpoint at runtime; licenses are acquired via NetLicensing Shop or third-party checkout.
 - **Offline Validation (NetLicensing Agent)**: Deploy the Agent on a customer's local network; it mirrors cloud validation without internet access.
 - **Offline Validation (License File / TTL Cache)**: Cache the last successful validation response with a configurable TTL for mobile and IoT devices.
-- **Third-Party e-Commerce (NetLicensing Gateway)**: Integrate with FastSpring, MyCommerce, PrestaShop, SendOwl via fulfillment webhooks; all acquired licenses are provisioned in NetLicensing for later validation.
+- **Third-Party e-Commerce**: Webhooks from your shop or billing platform create, extend or deactivate licenses through the REST API; FastSpring can also connect through the NetLicensing Gateway. All acquired licenses are provisioned in NetLicensing for later validation.
 - **ERP & CRM Integration**: Use the RESTful API to expose licensing entitlements inside CRM, ERP, BI, or other internal systems.
 
 ## Client Libraries
 
 Available at: https://netlicensing.io/wiki/client-libraries
 
-Official Labs64 client libraries on GitHub (https://github.com/Labs64):
-- **Java** — `NetLicensing-Client-Java`
-- **.NET / C#** — `NetLicensing-Client-Csharp`
-- **Python** — `NetLicensing-Client-Python`
-- **PHP** — `NetLicensing-Client-PHP`
-- **JavaScript / Node.js** — `NetLicensing-Client-JavaScript`
-- **C++** — `NetLicensing-Client-CPP`
+Official open-source Labs64 client libraries on GitHub (Apache License 2.0):
+- **Java** — https://github.com/Labs64/NetLicensingClient-java (Maven `com.labs64.netlicensing:netlicensing-client`)
+- **C# / .NET** — https://github.com/Labs64/NetLicensingClient-csharp (NuGet `NetLicensingClient-csharp`)
+- **PHP** — https://github.com/Labs64/NetLicensingClient-php (Composer `labs64/netlicensingclient-php`)
+- **JavaScript / Node.js** — https://github.com/Labs64/NetLicensingClient-javascript (npm `netlicensing-client`)
+- **Kotlin** — https://github.com/Labs64/NetLicensingClient-kotlin
+- **C++** — https://github.com/Labs64/NetLicensingClient-cpp
+
+There is no Python client library: Python applications call the REST API directly (guide: https://netlicensing.io/wiki/python-software-licensing).
 
 ## Use Cases
 
@@ -212,7 +214,7 @@ EBAC/FeBAC article: https://netlicensing.io/blog/2026/01/21/introducing-entitlem
 - [Licensing Models](https://netlicensing.io/licensing-models/): Interactive overview of all supported licensing models.
 - [Membership Management](https://netlicensing.io/membership-management/): Pricing plan creation, integration, publishing, and customer membership management.
 - [Getting Started](https://netlicensing.io/getting-started/): Step-by-step guide — configure product → validate customer → acquire licenses.
-- [For Integrators / Documentation](https://netlicensing.io/documentation/): Links to wiki, API reference, client libraries, usage scenarios.
+- [For Integrators / Documentation](https://netlicensing.io/documentation/): Starting points (Getting Started, API Test Center with the demo account, REST API and OpenAPI reference), client libraries, MCP server, webhook notifications, offline validation, signed responses, NetLicensing Shop, integration guides and usage scenarios.
 - [Trust](https://netlicensing.io/trust/): Hosting, DPA, subprocessors, security measures, SLA, where to find security advisories (GitHub Security tab per repository; service advisories on request) and how to report an issue.
 - [Pricing](https://netlicensing.io/pricing/): Plan comparison (Community, Basic, Premium, Select), FAQ.
 - [Enterprise](https://netlicensing.io/enterprise/): NetLicensing Enterprise — contractual SLA, self-hosting, SSO via OpenID Connect, audit log, source code escrow, EU hosting on AWS in Ireland.

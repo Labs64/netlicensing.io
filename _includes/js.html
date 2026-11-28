@@ -7,7 +7,7 @@
 {% if page.use_cbpscroller %}
 <script src="{{ '/js/modernizr-custom.js' | prepend: site.baseurl }}"></script>
 <script src="{{ '/js/classie.min.js' | prepend: site.baseurl }}"></script>
-<script src="{{ '/js/cbpScroller.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/js/cbpScroller.js' | prepend: site.baseurl }}"></script>
 {% endif %}
 {% if page.use_slick %}
 <script src="{{ '/js/slick.1.8.1.min.js' | prepend: site.baseurl }}"></script>
@@ -46,8 +46,8 @@
 $(function () {
     var $dropdowns = $('.NL_dropdown');
 
-    if ($(window).width() > 767) {
-        /* Desktop: open on hover */
+    if (window.matchMedia('(min-width: 1200px)').matches) {
+        /* Full menu bar: open on hover (it is collapsed below this width) */
         $dropdowns.on('mouseenter', function () {
             $(this).addClass('open');
         }).on('mouseleave', function () {

@@ -127,6 +127,7 @@ exclude:
   - .jekyll-cache
   - AGENTS.md
   - DESIGN.md
+  - PRODUCT.md
   - CLAUDE.md
   - justfile
   - graphify-out

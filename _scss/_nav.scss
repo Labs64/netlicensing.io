@@ -1,0 +1,82 @@
+// Top navigation widths. The full menu bar with the logo and offer sticker needs
+// about 1316px, so it tightens below 1340px and collapses below 1200px.
+
+@media (min-width: 1200px) and (max-width: 1339px) {
+  .NL_navbar .NL_main_menu > li > a {
+    padding-right: 7px;
+    padding-left: 7px;
+  }
+
+  .NL_navbar .NL_main_menu > li > a.NL_dark_btn {
+    margin-right: 0;
+    margin-left: 7px;
+  }
+}
+
+// Bootstrap collapses the bar below 768px; these rules carry that up to 1199px.
+@media (min-width: 768px) and (max-width: 1199px) {
+  .NL_navbar {
+    .navbar-header {
+      position: relative;
+      float: none;
+    }
+
+    .navbar-toggle {
+      display: block;
+    }
+
+    .navbar-collapse {
+      width: auto;
+      border-top: 1px solid $border-medium;
+    }
+
+    .navbar-collapse.collapse {
+      display: none !important;
+    }
+
+    .navbar-collapse.collapse.in {
+      display: block !important;
+      overflow-y: auto;
+    }
+
+    .navbar-collapse.collapsing {
+      display: block !important;
+    }
+
+    .navbar-nav.navbar-right {
+      float: none !important;
+      margin: 8px -15px;
+
+      > li {
+        float: none;
+      }
+
+      > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
+
+    // Beside the logo, clear of the menu button.
+    .NL_topnav_sticker {
+      position: absolute;
+      top: 3px;
+      left: 190px;
+      margin: 0;
+    }
+  }
+}
+
+// The open menu uses the whole screen height (Bootstrap caps it at 340px, which
+// cut off the sign-up button) and has a solid background.
+@media (max-width: 1199px) {
+  // Fully opaque, so the page doesn't show through the open menu.
+  .NL_navbar {
+    opacity: 1;
+  }
+
+  .NL_navbar.navbar-fixed-top .navbar-collapse {
+    max-height: calc(100vh - 52px);
+    background: $bg-white;
+  }
+}

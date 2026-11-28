@@ -16,7 +16,7 @@
    - Functional-limited demo version
    - Time Limited Evaluation
   summary: "Time-limited trial or demo before the customer buys"
-  description: "This licensing model is useful in case you want to distribute secure trial or demo version of your product. Trial licenses are granted for a short time and allow customers to try the product before buying it. Usually, production-level work is not allowed and some features may be limited or disabled in demo mode. The product is completely disabled after trial license has expired, unless full-featured license is granted."
+  description: "Every new customer gets a time-limited free evaluation that starts on first use. After purchase, the full product unlocks."
   tags:
    - time
    - feature
@@ -32,7 +32,7 @@
    - Time-Based
    - TimeVolume
   summary: "Access for a period, with renewal and auto-renewal"
-  description: "Subscription licensing model allows user to enable product for a specific period of time, with the possibility of the subscription renewal (incl. auto-renewal with recurring payment support). Different subscription periods can be offered each with its own price."
+  description: "Customers use the product for the period they paid for, and each renewal extends it. Offer several periods at different prices, an evaluation period and a grace period."
   tags:
    - time
   status: "AVAILABLE"
@@ -45,7 +45,7 @@
    - Promo code
    - Coupon
   summary: "Fixed or percentage discount at checkout, with promo codes"
-  description: "Offer customers a fixed-amount or percentage discount at checkout with an optional promo code, availability period, and minimum cart total. Discount is supported by NetLicensing Shop."
+  description: "Fixed-amount or percentage discounts in NetLicensing Shop, with an optional promo code, validity period and minimum cart total."
   tags: []
   status: "AVAILABLE"
   img: '/img/licensing-model/licensing-model-discount.png'
@@ -59,8 +59,7 @@
     - Modular
     - Multi-Module
   summary: "Switch product features on or off per customer"
-  description: "This licensing model allows enabling or disabling product features on the user's needs and budget.
-                It may be used to create an upgrade path from a “lite” version to “standard,” “pro,” “enterprise” etc. versions without modifying the software or uninstalling the existing version."
+  description: "Sell and switch on individual product features, or build lite, pro and enterprise editions of one product. The validation response tells your product which features are on."
   tags:
     - feature
   status: "AVAILABLE"
@@ -74,7 +73,7 @@
     - Network
     - Shared
   summary: "A set number of concurrent sessions"
-  description: "Floating licensing model authorizes the use of an application with the given number of sessions (users, hosts, etc.). The number of concurrent sessions is tracked, and the total number of running sessions of the licensed application at any time is limited by the maximum allowed sessions in the floating licenses purchased by the licensee."
+  description: "Limit how many sessions, users or hosts run your application at the same time. Sessions are checked out and checked in on validation."
   tags:
     - concurrent
   status: "AVAILABLE"
@@ -87,7 +86,7 @@
     - Named host
     - Local
   summary: "Tied to one or more named computers"
-  description: "Software is licensed for use only on one or more named computer systems. Usually, CPU serial number verification is used to enforce this type of license."
+  description: "Bind a license to one or more devices or users through a node secret that your product sends, such as a hash of hardware data. A quota sets how many nodes each license allows."
   tags:
     - volume
     - feature
@@ -105,7 +104,7 @@
    - Membership Management
    - SaaS Subscription
   summary: "Plans and features per customer, with memberships"
-  description: "Effectively model and manage pricing plans and features for your products and services using Pricing Table licensing model; as well as manage your customers and keep track of their <a href='/membership-management/' title='Membership Management Solution'>memberships</a> with the possibility to enable/disable individual features per customer."
+  description: "Define plans such as free, basic and premium, with billing intervals, trials and freemium, then validate which plan each customer is on. Also covers <a href='/membership-management/' title='Membership Management Solution'>memberships</a>."
   tags:
    - time
    - feature
@@ -121,12 +120,7 @@
    - Post-paid
    - Pay-per-click
   summary: "Fees based on actual usage: time, count or volume"
-  description: "Limits the quantity of the license uses, in addition to the license validity. License fees are based on the actual usage.
-                The usage may be defined by various metrics such as CPU load, network bandwidth utilization, or something related to the nature of your application.
-                The billing is tied to the usage model, which can be:<br/>
-                Time based: billing on the duration of use<br/>
-                Count based: billing on the number of uses<br/>
-                Volume based: billing on the amount of resource use."
+  description: "Customers buy credits, and your application reports usage or reserves credits on validation. NetLicensing tracks the remaining quantity, so you can bill by time, count or volume."
   tags:
    - volume
   status: "AVAILABLE"
@@ -141,7 +135,7 @@
    - Quantity
    - Volume
   summary: "Capacity limits for a feature, such as units or requests"
-  description: "This licensing model defines the capacity limits (e.g. units, requests, volume, etc.) for a certain product feature."
+  description: "License a capacity limit for a feature, such as users, documents, storage or requests per day. Quotas from several licenses add up."
   tags:
    - volume
    - feature
@@ -155,7 +149,7 @@
     - Leasing
     - Feature with TimeVolume
   summary: "Many instances, each licensed for its own period"
-  description: "This is a complex licensing model, useful in the case you want to license multiple instances of some entity, each instance for a certain period of time. In other words it can be described as a bunch of independent subscriptions, where customer decides in addition for how many instances he wants to subscribe."
+  description: "License many instances of a feature, such as devices, each for its own time period, with renewals at different prices."
   tags:
     - time
     - feature
@@ -168,7 +162,7 @@
   aliases:
    - Personal License
   summary: "Rights granted to specific user IDs"
-  description: "License rights are granted to specific user IDs. The software may be used on any computer by a user ID that is on a list of licensed users."
+  description: "License rights are granted to specific user IDs. A listed user can use the software on any computer."
   tags:
    - user
   status: "AVAILABLE"
@@ -183,7 +177,7 @@
     - Single-user
     - Perpetual
   summary: "Perpetual license for a single user or computer"
-  description: "This license is a non-transferable license allowing product use on a single computer and/or by a single user. Once purchased, the product can be used without limitations."
+  description: "A perpetual license for a single computer or user. Once bought, the product can be used without a time limit."
   tags:
     - user
   status: "AVAILABLE"

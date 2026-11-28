@@ -182,3 +182,15 @@ POST /core/v2/rest/licensee/CUSTOMER-123/validate
     <a href="{{ '/case-studies/' | relative_url }}" class="NL_button button_main NL_dark_btn">See All Examples</a>
 </div>
 </section>
+
+<section class="NL_home_section NL_home_close">
+    <header class="NL_home_head">
+        <h2>Start Licensing Your Product</h2>
+        <p>The Community plan is free, and the 30-day Premium trial needs no credit card.</p>
+    </header>
+    <div class="NL_cta_group">
+        <a href="https://ui.netlicensing.io/#/register?utm_source=netlicensing.io_home&amp;utm_medium=website&amp;utm_campaign=netlicensing.io_home&amp;utm_content=closing-signup" class="NL_button button_main NL_dark_btn"><i class="fa fa-user-plus"></i>Sign Up Free</a>
+        <a href="{{ '/pricing/' | relative_url }}" class="NL_button button_main NL_dark_btn"><i class="fa fa-tags"></i>Compare plans</a>
+        <a href="{{ '/contact/' | relative_url }}"{% if site.calendly_enabled %} onclick="Calendly.initPopupWidget({url: 'https://calendly.com/netlicensing/netlicensing-demo?primary_color=7B2A10'});return false;"{% endif %} class="NL_button button_main NL_dark_btn"><i class="fa fa-calendar"></i>Book a call</a>
+    </div>
+</section>

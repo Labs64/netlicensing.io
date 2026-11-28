@@ -8,6 +8,9 @@
  * extra customers in packs (data-pack-size, data-pack-price per month, at most
  * data-pack-max packs; empty means no limit); its cost
  * is then data-price (data-offer-price while the promo shows) plus the packs.
+ *
+ * The answer repeats the plan's price and its button (the column's data-plan-cta),
+ * links to the column, and says why when only the plan without limits fits.
  */
 (function () {
   'use strict';
@@ -42,6 +45,9 @@
   var models = [].slice.call(menu.querySelectorAll('input'));
   var reset = root.querySelector('.NL_picker_reset');
   var status = root.querySelector('[data-status]');
+  var actions = root.querySelector('.NL_picker_actions');
+  var pickCta = root.querySelector('[data-pick-cta]');
+  var pickSee = root.querySelector('[data-pick-see]');
 
   // The highest fixed limits; one step beyond them stands for "more" ("10+").
   // For customers the slider also reaches one pack past the largest plan.
@@ -50,7 +56,37 @@
     return plan.customers + plan.packSize;
   }).filter(isFinite));
   products.max = topProducts + 1;
-  customers.max = topCustomers + 50;
+
+  // The customer slider moves through uneven steps: fine where the plan limits are,
+  // coarse above them. Its value is an index into this list.
+  var steps = [];
+  [[10, 50, 10], [60, 200, 20], [250, 500, 50], [600, 1000, 100], [1250, topCustomers, 250]].forEach(function (range) {
+    for (var v = range[0]; v <= range[1] && v <= topCustomers; v += range[2]) {
+      steps.push(v);
+    }
+  });
+  plans.forEach(function (plan) {
+    [plan.customers, plan.customers + plan.packSize * plan.packMax].forEach(function (v) {
+      if (v <= topCustomers && steps.indexOf(v) < 0) {
+        steps.push(v);
+      }
+    });
+  });
+  if (steps.indexOf(topCustomers) < 0) {
+    steps.push(topCustomers);
+  }
+  steps.sort(function (a, b) {
+    return a - b;
+  });
+  steps.push(topCustomers + 1);
+  customers.min = 0;
+  customers.max = steps.length - 1;
+  customers.step = 1;
+  customers.value = 0;
+
+  function customerCount() {
+    return steps[Number(customers.value)];
+  }
 
   function limit(column, name) {
     return limitValue(column.getAttribute('data-' + name));
@@ -104,7 +140,7 @@
   // (the last one, no limits) is chosen only when no priced plan fits.
   function bestPlan() {
     var p = Number(products.value);
-    var c = Number(customers.value);
+    var c = customerCount();
     var chosen = chosenModels();
     var best = { index: plans.length - 1, packs: 0, cost: Infinity };
     plans.forEach(function (plan, i) {
@@ -127,7 +163,10 @@
     var p = Number(products.value);
     var chosen = chosenModels();
     productsOut.textContent = shown(p, topProducts);
-    customersOut.textContent = shown(Number(customers.value), topCustomers);
+    customersOut.textContent = shown(customerCount(), topCustomers);
+    // Screen readers hear the shown value ("10+", "1500+"), not the slider position.
+    products.setAttribute('aria-valuetext', productsOut.textContent);
+    customers.setAttribute('aria-valuetext', customersOut.textContent);
     productsUnit.textContent = p === 1 ? 'product' : 'products';
     if (chosen.length === 0) {
       menuLabel.textContent = 'pick licensing models';
@@ -172,13 +211,64 @@
     });
   }
 
+  // Why no plan with fixed limits fits; empty when the choice fits one.
+  function reasons() {
+    var priced = plans.slice(0, -1);
+    var why = [];
+    if (customerCount() > topCustomers) {
+      why.push('Above ' + topCustomers + ' customers, limits are set to match your needs.');
+    }
+    var largest = priced[priced.length - 1];
+    if (Number(products.value) > topProducts) {
+      why.push(largest.name + ' includes up to ' + topProducts + ' products.');
+    }
+    chosenModels().forEach(function (box) {
+      var sold = priced.some(function (plan) {
+        return includes(box, plan);
+      });
+      if (!sold) {
+        why.push(box.value + ' is not included in ' + largest.name + ' or below.');
+      }
+    });
+    return why.join(' ');
+  }
+
   function describe(best) {
     var plan = plans[best.index];
-    if (best.packs === 0) {
-      return plan.name + ' covers this';
+    var amount = price(columns[best.index]);
+    var offer = columns[best.index].querySelector('.NL_price_tag[data-promo-on]');
+    if (amount === Infinity) {
+      return plan.name + ' fits: custom quote. ' + reasons();
     }
-    return plan.name + ' + ' + best.packs + ' customer pack' + (best.packs === 1 ? '' : 's') +
-      ' (+' + best.packs * plan.packPrice + ' € / month) covers this';
+    if (amount === 0) {
+      return plan.name + ' fits your products, customers and models: free.';
+    }
+    var text = plan.name + ' fits your products, customers and models: ' + amount + ' € / month';
+    if (offer && !offer.hidden) {
+      text += ' in year one';
+    }
+    if (best.packs > 0) {
+      text += ', plus ' + best.packs + ' customer pack' + (best.packs === 1 ? '' : 's') +
+        ' (+' + best.packs * plan.packPrice + ' € / month)';
+    }
+    return text + ', billed annually.';
+  }
+
+  // The same button as in the plan's column, and a link to that column.
+  function offerActions(index) {
+    var source = columns[index].querySelector('[data-plan-cta]');
+    pickCta.href = source.href;
+    pickCta.textContent = source.textContent.trim() + ' \u2013 ' + plans[index].name;
+    if (source.target) {
+      pickCta.target = source.target;
+      pickCta.rel = source.rel;
+    } else {
+      pickCta.removeAttribute('target');
+      pickCta.removeAttribute('rel');
+    }
+    pickSee.href = '#' + columns[index].id;
+    pickSee.textContent = 'See ' + plans[index].name + ' in the table';
+    actions.hidden = false;
   }
 
   function update() {
@@ -186,6 +276,7 @@
     render();
     highlight(best.index, best.packs, chosenModels());
     status.textContent = describe(best);
+    offerActions(best.index);
     reset.hidden = false;
   }
 
@@ -198,6 +289,7 @@
     render();
     highlight(null);
     status.textContent = '';
+    actions.hidden = true;
     reset.hidden = true;
   }
 
@@ -211,7 +303,17 @@
   models.forEach(function (box) {
     box.addEventListener('change', update);
   });
-  reset.addEventListener('click', clear);
+  reset.addEventListener('click', function () {
+    clear();
+    // The button disappears, so hand focus to the first control of the sentence.
+    products.focus();
+  });
+  // Close the models menu when keyboard focus moves on to something else.
+  root.querySelector('.NL_picker_models').addEventListener('focusout', function (event) {
+    if (event.relatedTarget && !this.contains(event.relatedTarget)) {
+      setMenu(false);
+    }
+  });
   menuButton.addEventListener('click', function () {
     setMenu(menu.hidden);
   });
@@ -227,5 +329,6 @@
     }
   });
 
+  render();
   root.hidden = false;
 })();

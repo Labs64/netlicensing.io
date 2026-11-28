@@ -42,7 +42,13 @@
             </span>
             <button type="button" class="NL_picker_reset" hidden><i class="fa fa-undo" aria-hidden="true"></i> Reset</button>
         </p>
-        <p class="NL_picker_result" aria-live="polite" data-status></p>
+        <div class="NL_picker_result">
+            <p aria-live="polite" data-status></p>
+            <div class="NL_picker_actions" hidden>
+                <a class="NL_button button_main NL_dark_btn NL_wide_btn" data-pick-cta href="#"></a>
+                <a data-pick-see href="#">See this plan in the table</a>
+            </div>
+        </div>
     </div>
 </div>
 <script src="{{ '/js/plan-picker.js' | prepend: site.baseurl }}?v={{ site.time | date: '%Y%m%d%H%M' }}" defer></script>

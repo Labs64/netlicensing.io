@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "Features"
-description: "The features you need to manage your product licenses"
+title: "Software Licensing Features"
+description: "NetLicensing features: ready-to-use licensing models, NetLicensing Shop with PayPal and Stripe, REST API and client libraries, EU hosting, 99.5% SLA and self-hosted Enterprise."
+last_modified_at: 2026-11-28
 permalink: "/features/"
 canonical: "/features-all/"
 prefetch:
@@ -37,12 +38,12 @@ sitemap:
 <div class="row NL_banner">
     <div class="col-md-6 col-md-offset-3 NL_about_page">
         <h1>All the features needed<br/>for your business process</h1>
-        <span>Integrated features that save you time and money.</span>
+        <span>Everything you need to license, sell and validate your software: licensing models, an online shop, a REST API and enterprise deployment options.</span>
     </div>
 </div>
 
 <div class="row">
-    <div style="padding:40px;">
+    <div class="NL_feature_grid">
         {% for feature in site.data.features %}
         {% if feature.show-default %}
         <div class="col-md-3 NL_feature" id="feature-{{ feature.name | slugify }}">
@@ -87,16 +88,11 @@ sitemap:
 <div class="row">
     <div class="col-md-12 NL_form_light NL_block">
         <div class="col-md-8 col-md-offset-2 NL_form_light_text">
-            <h2>Miss a Feature?</h2>
-            <span>Do you have an idea for a cool new feature of NetLicensing that you think could be the Next Big Thing™?</span>
-
-            <form action="/contact/" method="GET"
-                  name="Request Feature" id="request-feature"
-                  novalidate>
-                <button type="submit" class="NL_button button_main NL_dark_btn NL_wide_btn">
-                    <i class="fa fa-paper-plane"></i>Send Request
-                </button>
-            </form>
+            <h2>Need a Feature We Don't Have Yet?</h2>
+            <span>Tell us what your licensing needs. Select and Enterprise customers can also get custom development and priority feature requests.</span>
+            <div class="NL_cta_center">
+                <a href="{{ '/contact/' | relative_url }}" class="NL_button button_main NL_dark_btn NL_wide_btn"><i class="fa fa-paper-plane"></i>Request a feature</a>
+            </div>
         </div>
     </div>
 </div>

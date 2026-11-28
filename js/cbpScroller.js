@@ -83,7 +83,10 @@
 			viewportFactor : 0.2
 		},
 		_init : function() {
+			// No slide-in for touch devices or for visitors who asked for less motion:
+			// the sections then stay visible as plain content.
 			if( Modernizr.touch ) return;
+			if( window.matchMedia && window.matchMedia( '(prefers-reduced-motion: reduce)' ).matches ) return;
 			this.sections = Array.prototype.slice.call( this.el.querySelectorAll( '.cbp-so-section' ) );
 			this.didScroll = false;
 
@@ -119,14 +122,10 @@
 			var self = this;
 
 			this.sections.forEach( function( el, i ) {
-				if( inViewport( el, self.options.viewportFactor ) ) {
+				// Reveal each section once and keep it visible. Hiding it again after it leaves
+				// the viewport made content disappear for print, reader mode and anyone scrolling back.
+				if( classie.has( el, 'cbp-so-init' ) && inViewport( el, self.options.viewportFactor ) ) {
 					classie.add( el, 'cbp-so-animate' );
-				}
-				else {
-					// this add class init if it doesn't have it. This will ensure that the items initially in the viewport will also animate on scroll
-					classie.add( el, 'cbp-so-init' );
-					
-					classie.remove( el, 'cbp-so-animate' );
 				}
 			});
 			this.didScroll = false;

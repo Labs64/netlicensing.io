@@ -1,0 +1,157 @@
+// Layout hooks for the main pages (features, licensing models, for integrators,
+// contact, home closing). Layout only: colours come from _variables.scss, and every
+// section reuses existing parts (banner, trust cards, chips, outline buttons).
+
+// Two or three outline buttons side by side, centred; stacked on phones.
+.NL_cta_group,
+.NL_banner_actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 0 15px;
+
+  .NL_button {
+    width: 220px;
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.NL_banner_actions {
+  margin-top: 24px;
+}
+
+// The banner span links sit on the orange stage: white with the dotted underline.
+.NL_about_page span a {
+  color: $bg-white;
+  border-bottom-color: $bg-white;
+  font-size: inherit;
+
+  &:hover {
+    color: $brand-light;
+  }
+}
+
+// A single centred button under a closing call to action.
+.NL_cta_center {
+  margin-top: 20px;
+
+  .NL_button {
+    display: inline-block;
+    margin: 0 auto;
+  }
+}
+
+.NL_home_close {
+  padding-bottom: 8px;
+}
+
+// Feature grid: the old inline 40px padding, with rows that line up.
+.NL_feature_grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 25px 0;
+
+  > .NL_feature {
+    float: none;
+  }
+}
+
+// Licensing models: a short guide line above the filters and a plan + guide line per card.
+.NL_models_note {
+  max-width: 60ch;
+  margin: 0 auto 20px;
+  text-align: center;
+  text-wrap: balance;
+}
+
+ul.NL_licensing_models li.item p {
+  max-width: 40ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.NL_model_meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px 14px;
+  margin-top: 4px;
+
+  // The card's links are borderless by default; restore the dotted underline here.
+  a {
+    font-size: 15px;
+    border-bottom: 1px dotted $brand-primary !important;
+  }
+
+  .NL_model_plan {
+    padding: 2px 12px;
+    font-size: 12px;
+    line-height: 20px;
+    color: $brand-primary;
+    background: mix($brand-light, $bg-white, 30%);
+    border: 1px solid mix($brand-light, $brand-orange, 70%) !important;
+    border-radius: 12px;
+
+    &:hover {
+      color: $bg-white;
+      background: $brand-primary;
+      border-color: $brand-primary !important;
+    }
+  }
+}
+
+// For integrators: trust cards in rows of three; links under each card.
+.NL_integrator_cards {
+  display: flex;
+  flex-wrap: wrap;
+
+  &::before,
+  &::after {
+    display: none;
+  }
+
+  .NL_feature img {
+    max-height: 72px;
+    width: auto;
+    margin: 0 auto;
+  }
+}
+
+.NL_home_more_link {
+  margin-top: 8px;
+  text-align: center;
+}
+
+// Contact: four routes before the form, as plain text columns.
+.NL_contact_routes {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  > div {
+    margin-bottom: 16px;
+  }
+
+  h2 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    line-height: 24px;
+    color: $brand-primary;
+    text-align: left;
+  }
+
+  p {
+    margin-bottom: 6px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .NL_cta_group .NL_button,
+  .NL_banner_actions .NL_button {
+    width: 100%;
+  }
+}
